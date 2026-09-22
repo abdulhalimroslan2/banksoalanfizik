@@ -1,0 +1,828 @@
+{
+  "k2": [
+    {
+      "no": 1,
+      "section": "A",
+      "bab": "1. PENGUKURAN",
+      "sk": "1.2 PENYIASATAN SAINTIFIK",
+      "ingat": [
+        1,
+        1,
+        0
+      ],
+      "faham": [
+        0,
+        2,
+        0
+      ],
+      "aplikasi": [
+        0,
+        0,
+        0
+      ],
+      "analisis": [
+        0,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        0
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        1,
+        3,
+        0
+      ],
+      "submarkah": 4
+    },
+    {
+      "no": 2,
+      "section": "A",
+      "bab": "2. DAYA & GERAKAN (I)",
+      "sk": "2.2 GRAF GERAKAN LINEAR",
+      "ingat": [
+        1,
+        0,
+        0
+      ],
+      "faham": [
+        2,
+        0,
+        0
+      ],
+      "aplikasi": [
+        2,
+        0,
+        0
+      ],
+      "analisis": [
+        0,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        0
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        5,
+        0,
+        0
+      ],
+      "submarkah": 5
+    },
+    {
+      "no": 3,
+      "section": "A",
+      "bab": "4. HABA",
+      "sk": "4.4 HUKUM GAS",
+      "ingat": [
+        1,
+        0,
+        0
+      ],
+      "faham": [
+        2,
+        0,
+        0
+      ],
+      "aplikasi": [
+        1,
+        2,
+        0
+      ],
+      "analisis": [
+        0,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        0
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        4,
+        2,
+        0
+      ],
+      "submarkah": 6
+    },
+    {
+      "no": 4,
+      "section": "A",
+      "bab": "6. CAHAYA DAN OPTIK",
+      "sk": "6.3 PEMBENTUKAN IMEJ OLEH KANTA",
+      "ingat": [
+        1,
+        0,
+        0
+      ],
+      "faham": [
+        3,
+        2,
+        0
+      ],
+      "aplikasi": [
+        3,
+        0,
+        0
+      ],
+      "analisis": [
+        0,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        0
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        7,
+        2,
+        0
+      ],
+      "submarkah": 9
+    },
+    {
+      "no": 5,
+      "section": "A",
+      "bab": "3. KEGRAVITIAN",
+      "sk": "3.2 HUKUM KEPLER (KE-2)",
+      "ingat": [
+        2,
+        0,
+        0
+      ],
+      "faham": [
+        0,
+        0,
+        0
+      ],
+      "aplikasi": [
+        0,
+        2,
+        0
+      ],
+      "analisis": [
+        5,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        0
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        7,
+        2,
+        0
+      ],
+      "submarkah": 9
+    },
+    {
+      "no": 6,
+      "section": "A",
+      "bab": "2. DAYA & GERAKAN (I)",
+      "sk": "2.5 MOMENTUM (BEBOLA ATAS SATAH BERBEZA h)",
+      "ingat": [
+        1,
+        0,
+        0
+      ],
+      "faham": [
+        0,
+        0,
+        0
+      ],
+      "aplikasi": [
+        3,
+        0,
+        0
+      ],
+      "analisis": [
+        5,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        0
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        9,
+        0,
+        0
+      ],
+      "submarkah": 9
+    },
+    {
+      "no": 7,
+      "section": "A",
+      "bab": "5. GELOMBANG",
+      "sk": "5.3 PANTULAN GELOMBANG (TRANSDUSER)",
+      "ingat": [
+        2,
+        0,
+        0
+      ],
+      "faham": [
+        2,
+        0,
+        0
+      ],
+      "aplikasi": [
+        0,
+        0,
+        0
+      ],
+      "analisis": [
+        0,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        5,
+        0
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        4,
+        5,
+        0
+      ],
+      "submarkah": 9
+    },
+    {
+      "no": 8,
+      "section": "A",
+      "bab": "3. KEGRAVITIAN",
+      "sk": "3.3 SATELIT BUATAN MANUSIA (SATELIT KAJI CUACA)",
+      "ingat": [
+        1,
+        0,
+        0
+      ],
+      "faham": [
+        0,
+        2,
+        0
+      ],
+      "aplikasi": [
+        0,
+        0,
+        0
+      ],
+      "analisis": [
+        0,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        0
+      ],
+      "cipta": [
+        0,
+        6,
+        0
+      ],
+      "jumlahAras": [
+        1,
+        8,
+        0
+      ],
+      "submarkah": 9
+    },
+    {
+      "no": 9,
+      "section": "B",
+      "bab": "4. HABA",
+      "sk": "4.2 MUATAN HABA TENTU (RADIATOR KERETA)",
+      "ingat": [
+        1,
+        0,
+        0
+      ],
+      "faham": [
+        0,
+        4,
+        0
+      ],
+      "aplikasi": [
+        5,
+        0,
+        0
+      ],
+      "analisis": [
+        0,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        10
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        6,
+        4,
+        10
+      ],
+      "submarkah": 20
+    },
+    {
+      "no": 10,
+      "section": "B",
+      "bab": "5. GELOMBANG",
+      "sk": "5.5 PEMBELAUAN GELOMBANG (PEMECAH OMBAK) & INTERFERENS GELOMBANG",
+      "ingat": [
+        1,
+        0,
+        0
+      ],
+      "faham": [
+        0,
+        4,
+        0
+      ],
+      "aplikasi": [
+        5,
+        0,
+        0
+      ],
+      "analisis": [
+        0,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        10
+      ],
+      "cipta": [
+        0,
+        0,
+        0
+      ],
+      "jumlahAras": [
+        6,
+        4,
+        10
+      ],
+      "submarkah": 20
+    },
+    {
+      "no": 11,
+      "section": "C",
+      "bab": "6. CAHAYA DAN OPTIK",
+      "sk": "6.5 PERALATAN OPTIK (TELESKOP)",
+      "ingat": [
+        1,
+        0,
+        0
+      ],
+      "faham": [
+        0,
+        4,
+        0
+      ],
+      "aplikasi": [
+        0,
+        0,
+        0
+      ],
+      "analisis": [
+        5,
+        0,
+        0
+      ],
+      "nilai": [
+        0,
+        0,
+        0
+      ],
+      "cipta": [
+        0,
+        0,
+        10
+      ],
+      "jumlahAras": [
+        6,
+        4,
+        10
+      ],
+      "submarkah": 20
+    }
+  ],
+  "k1": [
+    {
+      "no": 1,
+      "ting": 4,
+      "bab": "Bab 1 Pengukuran",
+      "sk": "1.1 Kuantiti Fizik",
+      "konstruk": "Mengingat",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 2,
+      "ting": 4,
+      "bab": "Bab 1 Pengukuran",
+      "sk": "1.1 Kuantiti Fizik",
+      "konstruk": "Memahami",
+      "aras": "T",
+      "markah": 1
+    },
+    {
+      "no": 3,
+      "ting": 4,
+      "bab": "Bab 1 Pengukuran",
+      "sk": "1.2 Penyiasatan Saintifik",
+      "konstruk": "Mengingat",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 4,
+      "ting": 4,
+      "bab": "Bab 1 Pengukuran",
+      "sk": "1.2 Penyiasatan Saintifik",
+      "konstruk": "Memahami",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 5,
+      "ting": 4,
+      "bab": "Bab 1 Pengukuran",
+      "sk": "2.1 Gerakan Linear",
+      "konstruk": "Memahami",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 6,
+      "ting": 4,
+      "bab": "Bab 2 Daya dan Gerakan I",
+      "sk": "2.2 Graf Gerakan Linear",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 7,
+      "ting": 4,
+      "bab": "Bab 2 Daya dan Gerakan I",
+      "sk": "2.2 Graf Gerakan Linear",
+      "konstruk": "Mengingat",
+      "aras": "T",
+      "markah": 1
+    },
+    {
+      "no": 8,
+      "ting": 4,
+      "bab": "Bab 2 Daya dan Gerakan I",
+      "sk": "2.3 Gerakan Jatuh Bebas",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 9,
+      "ting": 4,
+      "bab": "Bab 2 Daya dan Gerakan I",
+      "sk": "2.4 Inersia",
+      "konstruk": "Memahami",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 10,
+      "ting": 4,
+      "bab": "Bab 2 Daya dan Gerakan I",
+      "sk": "2.5 Momentum",
+      "konstruk": "Memahami",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 11,
+      "ting": 4,
+      "bab": "Bab 2 Daya dan Gerakan I",
+      "sk": "2.6 Daya",
+      "konstruk": "Menganalisis",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 12,
+      "ting": 4,
+      "bab": "Bab 2 Daya dan Gerakan I",
+      "sk": "2.7 Impuls dan Daya Impuls",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 13,
+      "ting": 4,
+      "bab": "Bab 3 Kegravitian",
+      "sk": "3.1 Hukum Kegravitian Semesta Newton",
+      "konstruk": "Memahami",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 14,
+      "ting": 4,
+      "bab": "Bab 3 Kegravitian",
+      "sk": "3.1 Hukum Kegravitian Semesta Newton",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 15,
+      "ting": 4,
+      "bab": "Bab 3 Kegravitian",
+      "sk": "3.2 Hukum Kepler",
+      "konstruk": "Mengingat",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 16,
+      "ting": 4,
+      "bab": "Bab 3 Kegravitian",
+      "sk": "3.2 Hukum Kepler",
+      "konstruk": "Menganalisis",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 17,
+      "ting": 4,
+      "bab": "Bab 3 Kegravitian",
+      "sk": "3.3 Satelit Buatan Manusia",
+      "konstruk": "Mengingat",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 18,
+      "ting": 4,
+      "bab": "Bab 3 Kegravitian",
+      "sk": "3.3 Satelit Buatan Manusia",
+      "konstruk": "Memahami",
+      "aras": "T",
+      "markah": 1
+    },
+    {
+      "no": 19,
+      "ting": 4,
+      "bab": "Bab 3 Kegravitian",
+      "sk": "4.1 Keseimbangan Terma",
+      "konstruk": "Memahami",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 20,
+      "ting": 4,
+      "bab": "Bab 4 Haba",
+      "sk": "4.2 Muatan Haba Tentu",
+      "konstruk": "Memahami",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 21,
+      "ting": 4,
+      "bab": "Bab 4 Haba",
+      "sk": "4.2 Muatan Haba Tentu",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "T",
+      "markah": 1
+    },
+    {
+      "no": 22,
+      "ting": 4,
+      "bab": "Bab 4 Haba",
+      "sk": "4.3 Haba Pendam Tentu",
+      "konstruk": "Mengingat",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 23,
+      "ting": 4,
+      "bab": "Bab 4 Haba",
+      "sk": "4.3 Haba Pendam Tentu",
+      "konstruk": "Memahami",
+      "aras": "T",
+      "markah": 1
+    },
+    {
+      "no": 24,
+      "ting": 4,
+      "bab": "Bab 4 Haba",
+      "sk": "4.4 Hukum Gas",
+      "konstruk": "Memahami",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 25,
+      "ting": 4,
+      "bab": "Bab 4 Haba",
+      "sk": "4.4 Hukum Gas",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "T",
+      "markah": 1
+    },
+    {
+      "no": 26,
+      "ting": 4,
+      "bab": "Bab 4 Haba",
+      "sk": "5.1 Asas Gelombang",
+      "konstruk": "Mengingat",
+      "aras": "T",
+      "markah": 1
+    },
+    {
+      "no": 27,
+      "ting": 4,
+      "bab": "Bab 5 Gelombang",
+      "sk": "5.2 Pelembapan dan Resonans",
+      "konstruk": "Mengaplikasi (Kualitatif)",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 28,
+      "ting": 4,
+      "bab": "Bab 5 Gelombang",
+      "sk": "5.3 Pantulan Gelombng",
+      "konstruk": "Mengingat",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 29,
+      "ting": 4,
+      "bab": "Bab 5 Gelombang",
+      "sk": "5.3 Pantulan Gelombng",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 30,
+      "ting": 4,
+      "bab": "Bab 5 Gelombang",
+      "sk": "5.4 Pembiasan Gelombang",
+      "konstruk": "Memahami",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 31,
+      "ting": 4,
+      "bab": "Bab 5 Gelombang",
+      "sk": "5.5 Pembelauan Gelombang",
+      "konstruk": "Mengingat",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 32,
+      "ting": 4,
+      "bab": "Bab 5 Gelombang",
+      "sk": "5.6 Interferens Gelombang",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 33,
+      "ting": 4,
+      "bab": "Bab 5 Gelombang",
+      "sk": "5.7 Gelombang Elektromagnet",
+      "konstruk": "Mengingat",
+      "aras": "T",
+      "markah": 1
+    },
+    {
+      "no": 34,
+      "ting": 4,
+      "bab": "Bab 6 Cahaya dan Optik",
+      "sk": "6.1 Pembiasan Cahaya",
+      "konstruk": "Mengingat",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 35,
+      "ting": 4,
+      "bab": "Bab 6 Cahaya dan Optik",
+      "sk": "6.1 Pembiasan Cahaya",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 36,
+      "ting": 4,
+      "bab": "Bab 6 Cahaya dan Optik",
+      "sk": "6.2 Pantulan dalam Penuh",
+      "konstruk": "Mengingat",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 37,
+      "ting": 4,
+      "bab": "Bab 6 Cahaya dan Optik",
+      "sk": "6.3 Pembentukan Imej oleh Kanta",
+      "konstruk": "Memahami",
+      "aras": "S",
+      "markah": 1
+    },
+    {
+      "no": 38,
+      "ting": 4,
+      "bab": "Bab 6 Cahaya dan Optik",
+      "sk": "6.4 Formula Kanta Nipis",
+      "konstruk": "Mengaplikasi (Kuantitatif)",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 39,
+      "ting": 4,
+      "bab": "Bab 6 Cahaya dan Optik",
+      "sk": "6.5 Peralatan Optik",
+      "konstruk": "Mengingat",
+      "aras": "R",
+      "markah": 1
+    },
+    {
+      "no": 40,
+      "ting": 4,
+      "bab": "Bab 6 Cahaya dan Optik",
+      "sk": "6.6 Pembentukan Imej oleh Cermin Sfera",
+      "konstruk": "Mengaplikasi (Kualitatif)",
+      "aras": "R",
+      "markah": 1
+    }
+  ]
+}

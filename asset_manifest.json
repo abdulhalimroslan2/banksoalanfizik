@@ -1,0 +1,59 @@
+{
+  "project_title": "Fizik SPM Hub - Premium UI Assets",
+  "output_dir": "/Users/halimroslan/Desktop/HUB BANK SOALAN FIZIK/FIZIK_SPM_HUB_PROJEK/assets/chatgpt_generated",
+  "backup_dir": "/Users/halimroslan/NEW CIDS SUITES PRO/fizik-spm-hub-backup/assets/chatgpt_generated",
+  "global_style": "Ultra-premium executive physics education platform. Liquid Glass / Aurora UI aesthetic. Deep Violet #5E17EB primary, Accent Yellow #FFD600 secondary. Clean geometric layout, subtle gradient meshes, photorealistic 3D spheres with volumetric lighting, translucent glass morphism cards. Zero decorative text, zero mottos, zero taglines. Transparent PNG output only.",
+  "negative_constraints": "STRICTLY NO quotes, mottos, taglines, inspirational text, decorative filler text, watermarks, signatures, UI chrome, browser windows, shadows on transparent background, grey backgrounds. ONLY the isolated asset object on pure transparency.",
+  "pages": [
+    {
+      "page": 1,
+      "title": "Hero 3D Physics Composition - Premium Transparent",
+      "prompt": "Ultra-premium 3D physics education hero composition for transparent PNG export. Centered floating stack: 1) Top - realistic A4 exam paper sheet with subtle printed physics formulas (E=mc², F=ma, λ=h/p) in Deep Violet #5E17EB ink, slight paper curl at corners, soft ambient occlusion. 2) Middle - semi-transparent crystalline glass sphere refracting light, containing miniature wave propagation visualization (sinusoidal waves in violet/yellow), with lensing caustics. 3) Bottom - hexagonal graphene/honeycomb lattice platform in metallic slate, catching subtle rim lighting. Overall lighting: Three-point studio setup with key light from top-left (cool white), fill from right (warm), rim from back (violet accent #5E17EB). Subtle volumetric fog. Color palette: Deep Violet #5E17EB, Accent Yellow #FFD600, Slate #0F172A, Pearl White #FAFAF9. Render style: Photorealistic Octane/Redshift quality, 8K detail, clean alpha channel for transparent background. NO TEXT, NO LABELS, NO UI ELEMENTS, NO SHADOWS ON BACKGROUND - pure isolated floating composition with alpha transparency."
+    },
+    {
+      "page": 2,
+      "title": "Workflow Sphere 1 - Active Crimson Radiant (Step 1: Tetapan JSU)",
+      "prompt": "Single ultra-premium 3D sphere for workflow stepper, transparent PNG. ACTIVE STATE - Radiant Crimson #DC2626. Perfect sphere with volumetric radial gradient: bright center #FF5A5A fading to deep crimson #991B1B at edges. Internal glow emission from core. Surface: subtle iridescent pearl coating catching light. Floating white line-icon inside: 'file-plus-2' (document with plus sign), crisp vector style, white with subtle drop shadow. Top badge: Number '1' in white, set in crimson circular badge with white stroke, floating slightly above sphere. Lighting: Hero key light creating specular highlight at 35% 30%, volumetric bloom/glow extending beyond sphere boundary (crimson ambient #DC2626 at 45% opacity). NO SHADOWS CAST ON BACKGROUND - pure transparency with glow bleed. 8K photorealistic render, clean alpha."
+    },
+    {
+      "page": 3,
+      "title": "Workflow Sphere 2 - Deep Slate Inactive (Step 2: Jana Kertas Soalan)",
+      "prompt": "Single ultra-premium 3D sphere for workflow stepper, transparent PNG. INACTIVE STATE - Deep Slate #0F172A / #1E293B. Perfect sphere with radial gradient: upper hemisphere #384A5E fading to deep slate #0F172A. Surface: matte obsidian finish with subtle micro-facet reflections, thin white rim highlight (15% opacity) at top edge. Floating white line-icon inside: 'file-text' (document with lines), crisp vector style. Top badge: Number '2' in white, set in dark slate circular badge #334155 with white stroke. Lighting: Subtle studio rim light only, no bloom. NO SHADOWS ON BACKGROUND - pure transparency. 8K photorealistic render, clean alpha."
+    },
+    {
+      "page": 4,
+      "title": "Workflow Sphere 3 - Deep Slate Inactive (Step 3: Semak & Preview)",
+      "prompt": "Single ultra-premium 3D sphere for workflow stepper, transparent PNG. INACTIVE STATE - Deep Slate #0F172A / #1E293B. Perfect sphere with radial gradient: upper hemisphere #384A5E fading to deep slate #0F172A. Surface: matte obsidian finish with subtle micro-facet reflections, thin white rim highlight (15% opacity) at top edge. Floating white line-icon inside: 'file-search' (document with magnifying glass), crisp vector style. Top badge: Number '3' in white, set in dark slate circular badge #334155 with white stroke. Lighting: Subtle studio rim light only, no bloom. NO SHADOWS ON BACKGROUND - pure transparency. 8K photorealistic render, clean alpha."
+    },
+    {
+      "page": 5,
+      "title": "Workflow Sphere 4 - Deep Slate Inactive (Step 4: Semak Penskoran)",
+      "prompt": "Single ultra-premium 3D sphere for workflow stepper, transparent PNG. INACTIVE STATE - Deep Slate #0F172A / #1E293B. Perfect sphere with radial gradient: upper hemisphere #384A5E fading to deep slate #0F172A. Surface: matte obsidian finish with subtle micro-facet reflections, thin white rim highlight (15% opacity) at top edge. Floating white line-icon inside: 'eye' (eye icon), crisp vector style. Top badge: Number '4' in white, set in dark slate circular badge #334155 with white stroke. Lighting: Subtle studio rim light only, no bloom. NO SHADOWS ON BACKGROUND - pure transparency. 8K photorealistic render, clean alpha."
+    },
+    {
+      "page": 6,
+      "title": "Workflow Sphere 5 - Deep Slate Inactive (Step 5: Cetak Kertas)",
+      "prompt": "Single ultra-premium 3D sphere for workflow stepper, transparent PNG. INACTIVE STATE - Deep Slate #0F172A / #1E293B. Perfect sphere with radial gradient: upper hemisphere #384A5E fading to deep slate #0F172A. Surface: matte obsidian finish with subtle micro-facet reflections, thin white rim highlight (15% opacity) at top edge. Floating white line-icon inside: 'check-circle-2' (checkmark in circle), crisp vector style. Top badge: Number '5' in white, set in dark slate circular badge #334155 with white stroke. Lighting: Subtle studio rim light only, no bloom. NO SHADOWS ON BACKGROUND - pure transparency. 8K photorealistic render, clean alpha."
+    },
+    {
+      "page": 7,
+      "title": "Corner Arc Accent - Premium Gradient Transparent",
+      "prompt": "Premium decorative corner arc accent for bottom-left page corner, transparent PNG. Elegant sweeping quarter-circle arc (90 degree curve) with premium gradient stroke: starts Deep Violet #5E17EB at outer edge, flows through Accent Yellow #FFD600 at mid-curve, ends in Crimson #DC2626 at inner edge. Stroke weight: elegant 3pt tapering to 1.5pt at ends. Subtle glow bloom along curve (violet 30% opacity). Optional: 3-4 tiny floating particles/sparkles along curve in yellow/white. NO FILL, NO BACKGROUND, NO TEXT - pure transparent stroke curve only. Vector-clean edges, 8K resolution."
+    },
+    {
+      "page": 8,
+      "title": "Premium Gradient Mesh Background - Subtle Hero",
+      "prompt": "Ultra-subtle premium gradient mesh background for hero section, transparent PNG (subtle overlay). Large soft radial gradient blobs: 1) Top-left: Deep Violet #5E17EB at 4% opacity, 600px radius. 2) Center-right: Accent Yellow #FFD600 at 3% opacity, 500px radius. 3) Bottom-center: Crimson #DC2626 at 2% opacity, 400px radius. Blend mode: Screen/Overlay simulation. NO HARD EDGES, NO VISIBLE SHAPES - only ethereal color atmosphere. Pure transparency with colored light bleed. For use as CSS background-image overlay. 4K."
+    },
+    {
+      "page": 9,
+      "title": "Premium Glass Morphism Card Texture - Transparent",
+      "prompt": "Premium glass morphism card surface texture for UI cards, transparent PNG tileable. Subtle frosted glass effect: fine Gaussian noise texture (0.5% opacity), barely visible horizontal lens flares (2px height, 8% opacity white), micro-scratches catching light. Edge highlight: 1px white stroke at top-left edges (15% opacity). Color tint: barely perceptible Violet #5E17EB at 2% opacity. Designed for CSS backdrop-filter: blur(20px) + this texture overlay. NO VISIBLE UI CONTENT, NO TEXT - pure transparent glass surface texture. 2K tileable."
+    },
+    {
+      "page": 10,
+      "title": "Logo Atom - Premium 3D Transparent",
+      "prompt": "Ultra-premium 3D atom logo for Fizik SPM Hub, transparent PNG. Central nucleus: dual-proton-neutron cluster in metallic slate #1E293B with subtle gold rim. Three orbital rings at 60-degree offsets: Ring 1 (horizontal) - Violet #5E17EB glowing electron trail. Ring 2 (45 deg) - Yellow #FFD600 glowing electron trail. Ring 3 (vertical) - Crimson #DC2626 glowing electron trail. Electrons: small bright spheres with volumetric glow trails. Overall: Clean Apple-style product render, studio lighting, subtle floor reflection (fades to transparency). NO TEXT, NO LABELS. Clean alpha channel. 4K."
+    }
+  ]
+}

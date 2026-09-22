@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hub Center Bank Soalan Fizik SPM & Enjin Pemasangan Kertas | KSSM 4531</title>
+  
+  <!-- Font Google: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- html2pdf for DOCX/PDF export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP NAVBAR (REFERENCE 1:1: ATOM LOGO, HUB FIZIK, NAV LINKS, USER PROFILE)
+       ======================================================================== -->
+  <header class="top-navbar">
+    <div class="nav-container">
+      <div class="brand-section" id="nav-brand-home" role="button" tabindex="0" title="Kembali ke Laman Utama (Dashboard)">
+        <img src="assets/logo_atom.svg" alt="Hub Fizik Logo" class="brand-atom-img">
+        <span class="brand-title-text">HUB FIZIK</span>
+      </div>
+
+      <!-- Top Navigation: Animated Workflow Node Line (5 Peringkat Selaras Butang Bulat) -->
+      <nav class="header-workflow-nodeline" id="header-workflow-nodeline" aria-label="Alur Kerja 5 Peringkat">
+        <div class="nodeline-track">
+          <!-- Node 1: Tetapan JSU -->
+          <button type="button" class="nodeline-step active" data-step="1" id="nav-nodestep-1" role="button" tabindex="0" aria-label="1. Tetapan JSU">
+            <span class="nodeline-circle">
+              <span class="nodeline-num">1</span>
+              <i data-lucide="check" class="nodeline-check"></i>
+            </span>
+            <span class="nodeline-label">1. Tetapan JSU</span>
+          </button>
+
+          <!-- Connector 1-2 -->
+          <div class="nodeline-connector" id="nodeline-conn-1" aria-hidden="true">
+            <div class="nodeline-connector-bg"></div>
+            <div class="nodeline-connector-fill"></div>
+            <div class="nodeline-connector-beam"></div>
+          </div>
+
+          <!-- Node 2: Semak Senarai Soalan -->
+          <button type="button" class="nodeline-step" data-step="2" id="nav-nodestep-2" role="button" tabindex="0" aria-label="2. Semak Senarai Soalan">
+            <span class="nodeline-circle">
+              <span class="nodeline-num">2</span>
+              <i data-lucide="check" class="nodeline-check"></i>
+            </span>
+            <span class="nodeline-label">2. Semak Senarai Soalan</span>
+          </button>
+
+          <!-- Connector 2-3 -->
+          <div class="nodeline-connector" id="nodeline-conn-2" aria-hidden="true">
+            <div class="nodeline-connector-bg"></div>
+            <div class="nodeline-connector-fill"></div>
+            <div class="nodeline-connector-beam"></div>
+          </div>
+
+          <!-- Node 3: Semak Soalan & Skema -->
+          <button type="button" class="nodeline-step" data-step="3" id="nav-nodestep-3" role="button" tabindex="0" aria-label="3. Semak Soalan & Skema">
+            <span class="nodeline-circle">
+              <span class="nodeline-num">3</span>
+              <i data-lucide="check" class="nodeline-check"></i>
+            </span>
+            <span class="nodeline-label">3. Semak Soalan &amp; Skema</span>
+          </button>
+
+          <!-- Connector 3-4 -->
+          <div class="nodeline-connector" id="nodeline-conn-3" aria-hidden="true">
+            <div class="nodeline-connector-bg"></div>
+            <div class="nodeline-connector-fill"></div>
+            <div class="nodeline-connector-beam"></div>
+          </div>
+
+          <!-- Node 4: Format Soalan (DOCX & PDF) -->
+          <button type="button" class="nodeline-step" data-step="4" id="nav-nodestep-4" role="button" tabindex="0" aria-label="4. Format Soalan (DOCX & PDF)">
+            <span class="nodeline-circle">
+              <span class="nodeline-num">4</span>
+              <i data-lucide="check" class="nodeline-check"></i>
+            </span>
+            <span class="nodeline-label">4. Format Soalan (DOCX &amp; PDF)</span>
+          </button>
+
+          <!-- Connector 4-5 -->
+          <div class="nodeline-connector" id="nodeline-conn-4" aria-hidden="true">
+            <div class="nodeline-connector-bg"></div>
+            <div class="nodeline-connector-fill"></div>
+            <div class="nodeline-connector-beam"></div>
+          </div>
+
+          <!-- Node 5: Skema Penskoran (DOCX & PDF) -->
+          <button type="button" class="nodeline-step" data-step="5" id="nav-nodestep-5" role="button" tabindex="0" aria-label="5. Skema Penskoran (DOCX & PDF)">
+            <span class="nodeline-circle">
+              <span class="nodeline-num">5</span>
+              <i data-lucide="check" class="nodeline-check"></i>
+            </span>
+            <span class="nodeline-label">5. Skema Penskoran (DOCX &amp; PDF)</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Right User & Notification Area -->
+      <div class="header-user-group">
+        <button class="btn-icon-bell" title="Pemberitahuan Sistem" id="btn-nav-notif" aria-label="Notifikasi">
+          <i data-lucide="bell"></i>
+          <span class="bell-red-badge"></span>
+        </button>
+
+        <div class="header-user-profile" id="user-profile-widget" tabindex="0" role="button" title="Profil Pengguna">
+          <div class="user-avatar-disc">
+            <i data-lucide="user"></i>
+          </div>
+          <div class="user-meta-stack">
+            <span class="user-name-title">A.H. Roslan</span>
+            <span class="user-role-subtitle">Guru Cemerlang Fizik</span>
+          </div>
+          <i data-lucide="chevron-down" class="user-dropdown-arrow"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ========================================================================
+       MAIN APP CONTAINER
+       ======================================================================== -->
+  <main class="main-wrapper">
+
+    <!-- ======================================================================
+         TAB 1: EXECUTIVE DASHBOARD (EXACT 1:1 REFERENCE LANDING PAGE)
+         ====================================================================== -->
+    <section id="view-dashboard" class="view-panel active">
+      <div class="corporate-landing-wrapper">
+        <div class="hero-main-container">
+
+          <!-- Hero Main Row: Left Text + Right 3D Physics Composition -->
+          <div class="hero-split-row">
+            <div class="hero-left-col">
+              <div class="hero-tagline-badge">PLATFORM PENJANAAN KERTAS SOALAN FIZIK</div>
+              <h1 class="hero-headline-title">
+                Jana Kertas <span class="text-red-brand">Soalan Fizik</span>
+              </h1>
+              <p class="hero-desc-paragraph">
+                Sistem pintar untuk menjana kertas soalan Fizik SPM / KSSM secara automatik, cepat dan mudah.
+              </p>
+
+              <div class="hero-action-buttons">
+                <button class="btn-hero-primary-pill" id="btn-hero-jana-kertas" data-action="goto-jsu" title="Terus ke Langkah 1: Tetapan JSU">
+                  <span class="plus-glyph">+</span>
+                  <span>Jana Kertas Soalan</span>
+                </button>
+
+                <button class="btn-hero-secondary-pill" id="btn-hero-lihat-bank" data-target-tab="bank-soalan" title="Buka Halaman Dedikasi Bank Soalan">
+                  <i data-lucide="database"></i>
+                  <span>Lihat Bank Soalan</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="hero-right-col">
+              <div class="hero-3d-visual-card">
+                <img src="assets/hero_physics_premium.png" alt="3D Physics Premium Composition" class="hero-3d-main-asset">
+              </div>
+              <!-- Premium Gradient Mesh Overlay -->
+              <div class="hero-gradient-mesh-overlay" style="background-image: url('assets/gradient_mesh_bg.png');"></div>
+              <!-- Premium Gradient Mesh Overlay -->
+              <div class="hero-gradient-mesh-overlay" style="background-image: url('assets/gradient_mesh_bg.png');"></div>
+            </div>
+          </div>
+
+          <!-- 5-Stage Premium Photorealistic Workflow Spheres (Image-based) -->
+          <div class="workflow-spheres-stage-row" aria-label="Alur Kerja 5 Peringkat">
+            <!-- Stage 1: Active Radiant Crimson Red Sphere -->
+            <div class="workflow-step-node workflow-sphere-anchor active-step active-step-1" data-step="1" data-target-tab="jsu-matrix" tabindex="0" role="button" aria-label="Langkah 1: Tetapan JSU">
+              <img src="assets/sphere_1_active.png" alt="Langkah 1: Tetapan JSU" class="sphere-premium-img">
+              <span class="sphere-label-text active">1. Tetapan JSU</span>
+              <span class="sphere-status-badge" data-stage-status="1"></span>
+            </div>
+
+            <!-- Stage 2: Semak Senarai Soalan -->
+            <div class="workflow-step-node workflow-sphere-anchor inactive-step" data-step="2" data-target-tab="senarai-soalan" tabindex="0" role="button" aria-label="Langkah 2: Semak Senarai Soalan Berdasarkan JSU">
+              <img src="assets/sphere_2_inactive.png" alt="Langkah 2: Semak Senarai Soalan" class="sphere-premium-img">
+              <span class="sphere-label-text">2. Semak Senarai Soalan</span>
+              <span class="sphere-status-badge" data-stage-status="2"></span>
+            </div>
+
+            <!-- Stage 3: Semak Soalan & Skema -->
+            <div class="workflow-step-node workflow-sphere-anchor inactive-step" data-step="3" data-target-tab="hub-pemasangan" tabindex="0" role="button" aria-label="Langkah 3: Semak Soalan dan Skema Jawapan">
+              <img src="assets/sphere_3_inactive.png" alt="Langkah 3: Semak Soalan & Skema" class="sphere-premium-img">
+              <span class="sphere-label-text">3. Semak Soalan &amp; Skema</span>
+              <span class="sphere-status-badge" data-stage-status="3"></span>
+            </div>
+
+            <!-- Stage 4: Format Soalan (DOCX & PDF) -->
+            <div class="workflow-step-node workflow-sphere-anchor inactive-step" data-step="4" data-target-tab="cetak-lpm" tabindex="0" role="button" aria-label="Langkah 4: Semak Format Soalan DOCX dan PDF">
+              <img src="assets/sphere_4_inactive.png" alt="Langkah 4: Format Soalan DOCX & PDF" class="sphere-premium-img">
+              <span class="sphere-label-text">4. Format Soalan (DOCX &amp; PDF)</span>
+              <span class="sphere-status-badge" data-stage-status="4"></span>
+            </div>
+
+            <!-- Stage 5: Skema Penskoran (DOCX & PDF) -->
+            <div class="workflow-step-node workflow-sphere-anchor inactive-step" data-step="5" data-target-tab="skema-penskoran" tabindex="0" role="button" aria-label="Langkah 5: Semak Skema Penskoran DOCX dan PDF">
+              <img src="assets/sphere_5_inactive.png" alt="Langkah 5: Skema Penskoran DOCX & PDF" class="sphere-premium-img">
+              <span class="sphere-label-text">5. Skema Penskoran (DOCX &amp; PDF)</span>
+              <span class="sphere-status-badge" data-stage-status="5"></span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Landing Page Bottom Bar (Corner Accent, 3 Dash Pills & Motivational Quote) -->
+        <div class="landing-bottom-bar">
+          <div class="footer-corner-wrap">
+            <img src="assets/corner_arc_premium.png" alt="Dekorasi Sudut Premium" class="corner-accent-img">
+            <div class="footer-brand-pills-col">
+              <div class="footer-dash-row">
+                <span class="dash-pill-item pill-crimson"></span>
+                <span class="dash-pill-item pill-slate"></span>
+                <span class="dash-pill-item pill-light"></span>
+              </div>
+              <span class="footer-meta-brand-text">FIZIK &bull; ANALISIS &bull; KECEMERLANGAN</span>
+            </div>
+          </div>
+
+          <div class="footer-quote-wrap">
+            <p class="footer-italic-quote">&ldquo;Soalan yang baik, melahirkan pemikiran yang hebat.&rdquo;</p>
+            <div class="footer-quote-red-bar"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         HALAMAN DEDIKASI: PANGKALAN DATA BANK SOALAN FIZIK SPM (KSSM)
+         ====================================================================== -->
+    <section id="view-bank-soalan" class="view-panel">
+      <!-- Header Banner Card -->
+      <div class="editorial-card bank-soalan-hero-banner" style="margin-bottom: 1.5rem;">
+        <div class="card-header-bar red">
+          <div class="card-header-title">
+            <i data-lucide="database"></i> Pangkalan Data Bank Soalan Fizik SPM (KSSM)
+          </div>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <button class="btn btn-outline btn-sm bank-header-nav-btn" id="btn-bank-kembali-home" title="Kembali ke Menu Utama (Dashboard)">
+              <i data-lucide="arrow-left"></i> Menu Utama
+            </button>
+            <button class="btn btn-primary btn-sm bank-header-nav-btn" id="btn-bank-mula-jsu" title="Terus ke Langkah 1: Tetapan JSU">
+              <i data-lucide="sliders"></i> Tetapan JSU (Langkah 1)
+            </button>
+          </div>
+        </div>
+        <div class="card-body" style="padding: 1.25rem 1.5rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <p style="font-size: 0.92rem; color: #334155; margin-bottom: 0.45rem; line-height: 1.5;">
+                Pusat repositori digital soalan Fizik Tingkatan 4 &amp; 5 berpandukan kurikulum standard DSKP KSSM dan format Lembaga Peperiksaan Malaysia (LPM).
+              </p>
+              <div class="bank-stats-row" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.5rem;">
+                <span class="bank-stat-pill"><i data-lucide="layers" style="width: 13px; height: 13px;"></i> <strong>105</strong> Soalan Penuh</span>
+                <span class="bank-stat-pill"><i data-lucide="check-circle-2" style="width: 13px; height: 13px;"></i> <strong>Kertas 1</strong> (Objektif)</span>
+                <span class="bank-stat-pill"><i data-lucide="file-text" style="width: 13px; height: 13px;"></i> <strong>Kertas 2</strong> (Struktur &amp; Esei)</span>
+                <span class="bank-stat-pill"><i data-lucide="flask-conical" style="width: 13px; height: 13px;"></i> <strong>Kertas 3</strong> (Amali)</span>
+              </div>
+            </div>
+            <div style="text-align: right;">
+              <span class="badge badge-red" id="bank-soalan-counter-badge" style="font-size: 0.85rem; padding: 0.45rem 0.9rem; font-weight: 700;">
+                Menampilkan 105 Soalan
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter Bar Card: 6 Dropdown Pintar Mengikut Spesifikasi -->
+      <div class="filter-bar-card bank-filters-card" style="margin-bottom: 1.5rem;">
+        <div class="bank-filters-header-row" style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 0.75rem; border-bottom: 1px solid #F1F5F9; margin-bottom: 1rem;">
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <i data-lucide="filter" style="width: 16px; height: 16px; color: var(--primary-red);"></i>
+            <span style="font-size: 0.85rem; font-weight: 800; color: #0F172A; text-transform: uppercase; letter-spacing: 0.5px;">Penapis Pintar Bank Soalan (6 Kategori)</span>
+          </div>
+          <span style="font-size: 0.78rem; color: #64748B;">Saring soalan pantas mengikut parameter DSKP &amp; JSU LPM</span>
+        </div>
+
+        <!-- 6 Dropdowns Grid -->
+        <div class="bank-dropdown-grid">
+          <!-- 1. Tingkatan -->
+          <div class="filter-group">
+            <label class="filter-label" for="filter-tingkatan">1. Tingkatan</label>
+            <select id="filter-tingkatan" class="filter-select">
+              <option value="all">Semua Tingkatan (T4 &amp; T5)</option>
+              <option value="4">Tingkatan 4 (KSSM)</option>
+              <option value="5">Tingkatan 5 (KSSM)</option>
+            </select>
+          </div>
+
+          <!-- 2. Jenis Kertas -->
+          <div class="filter-group">
+            <label class="filter-label" for="filter-kertas">2. Jenis Kertas</label>
+            <select id="filter-kertas" class="filter-select">
+              <option value="all">Semua Jenis Kertas (K1, K2 &amp; K3)</option>
+              <option value="1">Kertas 1 (Objektif Aneka Pilihan)</option>
+              <option value="2">Kertas 2 (Struktur &amp; Esei)</option>
+              <option value="3">Kertas 3 (Ujian Amali Sains)</option>
+            </select>
+          </div>
+
+          <!-- 3. Bidang Pembelajaran -->
+          <div class="filter-group">
+            <label class="filter-label" for="filter-bidang">3. Bidang Pembelajaran</label>
+            <select id="filter-bidang" class="filter-select">
+              <option value="all">Semua Bidang Pembelajaran</option>
+              <option value="Asas Fizik">Asas Fizik</option>
+              <option value="Mekanik Newton">Mekanik Newton</option>
+              <option value="Termofizik">Termofizik</option>
+              <option value="Gelombang, Cahaya dan Optik">Gelombang, Cahaya &amp; Optik</option>
+              <option value="Elektrik dan Keelektromagnetan">Elektrik &amp; Keelektromagnetan</option>
+              <option value="Fizik Gunaan">Fizik Gunaan</option>
+              <option value="Fizik Moden">Fizik Moden</option>
+            </select>
+          </div>
+
+          <!-- 4. Standard Kandungan (SK) -->
+          <div class="filter-group">
+            <label class="filter-label" for="filter-sk">4. Standard Kandungan (SK)</label>
+            <select id="filter-sk" class="filter-select">
+              <option value="all">Semua Standard Kandungan (44 SK)</option>
+            </select>
+          </div>
+
+          <!-- 5. Konstruk (LPM) -->
+          <div class="filter-group">
+            <label class="filter-label" for="filter-konstruk">5. Konstruk Pentaksiran</label>
+            <select id="filter-konstruk" class="filter-select">
+              <option value="all">Semua Konstruk (LPM)</option>
+              <option value="Mengingat">Mengingat (Pengetahuan Fakta)</option>
+              <option value="Memahami">Memahami (Konsep &amp; Prinsip)</option>
+              <option value="Mengaplikasi">Mengaplikasi (Pengiraan &amp; Fenomena)</option>
+              <option value="Menganalisis">Menganalisis (Hubungan &amp; Data)</option>
+              <option value="Menilai">Menilai (Kritikan &amp; Justifikasi)</option>
+              <option value="Mencipta">Mencipta (Reka Cipta &amp; Inovasi)</option>
+            </select>
+          </div>
+
+          <!-- 6. Aras Kesukaran -->
+          <div class="filter-group">
+            <label class="filter-label" for="filter-aras">6. Aras Kesukaran</label>
+            <select id="filter-aras" class="filter-select">
+              <option value="all">Semua Aras (R, S, T)</option>
+              <option value="Rendah">Rendah (R) [Nisbah 5]</option>
+              <option value="Sederhana">Sederhana (S) [Nisbah 3]</option>
+              <option value="Tinggi">Tinggi / KBAT (T) [Nisbah 2]</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Search & Action Toolbar Row -->
+        <div class="filter-controls-row" style="margin-top: 1rem; align-items: flex-end; gap: 1rem;">
+          <div class="filter-group" style="flex: 2; min-width: 260px;">
+            <label class="filter-label" for="filter-search">Carian Kata Kunci / Konsep / Tajuk Soalan</label>
+            <div class="search-input-wrap">
+              <i data-lucide="search" class="search-icon"></i>
+              <input type="text" id="filter-search" class="filter-input with-icon" placeholder="Cari konsep Fizik (cth: Hooke, Pascal, Momentum, Lensa, Transformer, Fotoelektrik)...">
+            </div>
+          </div>
+
+          <div class="filter-group filter-btn-group" style="display: flex; flex-direction: row; gap: 0.5rem; align-items: flex-end;">
+            <button class="btn btn-outline btn-sm" id="btn-reset-filters" style="height: 38px; white-space: nowrap;">
+              <i data-lucide="rotate-ccw"></i> Reset Penapis
+            </button>
+            <button class="btn btn-outline btn-sm" id="btn-export-questions-pdf" style="height: 38px; white-space: nowrap;" title="Eksport soalan yang disemak ini ke PDF">
+              <i data-lucide="file-down"></i> PDF
+            </button>
+            <button class="btn btn-outline btn-sm" id="btn-export-questions-docx" style="height: 38px; white-space: nowrap;" title="Eksport soalan yang disemak ini ke DOCX">
+              <i data-lucide="file-text"></i> DOCX
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question Cards List Container -->
+      <div id="questions-list-container" class="questions-container">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 2.5: SEMAK SENARAI SOALAN BERDASARKAN JSU (LANGKAH 2)
+         ====================================================================== -->
+    <section id="view-senarai-soalan" class="view-panel">
+      <!-- Header Banner Card -->
+      <div class="editorial-card" style="margin-bottom: 1.5rem;">
+        <div class="card-header-bar purple">
+          <div class="card-header-title">
+            <i data-lucide="list-checks"></i> Langkah 2: Semak Senarai Soalan Berdasarkan JSU
+          </div>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <span class="badge badge-yellow" id="senarai-status-badge">Padanan JSU: 100% Sepadan</span>
+            <span class="badge badge-purple" id="senarai-paper-badge">Kertas 1 (4531/1)</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: #1E293B; margin-bottom: 0.25rem;">
+                Matriks &amp; Taburan Soalan Terpilih Mengikut Spesifikasi JSU
+              </h3>
+              <p style="font-size: 0.85rem; color: #64748B;">
+                Semak senarai penuh item soalan, padanan Standard Kandungan (SK), tahap kesukaran (R/S/T), dan konstruk taksonomi sebelum menyemak teks soalan dan skema.
+              </p>
+            </div>
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+              <button type="button" class="btn btn-outline" onclick="switchWorkflowStage(1)">
+                <i data-lucide="arrow-left"></i> Tetapan JSU (Langkah 1)
+              </button>
+              <button type="button" class="btn btn-secondary" id="btn-regenerate-senarai" onclick="autoFillAssembledPaper(AppState.currentPaperMode); renderSenaraiSoalan();">
+                <i data-lucide="refresh-cw"></i> Padan / Jana Semula
+              </button>
+              <button type="button" class="btn btn-warning" id="btn-override-jsu-sk" onclick="overrideJsuFillBlankSlots(AppState.currentPaperMode)" style="background: #F59E0B; color: #fff; border: 1px solid #D97706; font-weight: 700; box-shadow: 0 1px 3px rgba(245,158,11,0.3); display: inline-flex; align-items: center; gap: 6px;" title="Mod Pembangunan: Override JSU &amp; isi semua slot kosong mengikut Standard Kandungan (SK) tanpa mengira aras kesukaran">
+                <i data-lucide="zap"></i> Override JSU (Isi Ikut SK) <span class="badge" style="background: rgba(0,0,0,0.25); color: #fff; font-size: 0.65rem; margin-left: 2px; padding: 2px 5px; border-radius: 4px; letter-spacing: 0.5px;">DEV</span>
+              </button>
+              <button type="button" class="btn btn-success btn-simpan-tetapan" onclick="simpanTetapanMenu(2)" title="Simpan senarai soalan dan kembali ke Menu Utama">
+                <i data-lucide="save"></i> Simpan Tetapan
+              </button>
+
+            </div>
+          </div>
+
+          <!-- K2 Konstruk Standard SPM Badge (hanya untuk Kertas 2) -->
+          <div id="k2-konstruk-summary" style="display:none;"></div>
+
+          <!-- KPI Summary Strip -->
+          <div class="senarai-kpi-grid" id="senarai-kpi-strip">
+            <!-- Rendered dynamically -->
+          </div>
+
+          <!-- Filter & Search Toolbar -->
+          <div class="senarai-filter-toolbar">
+            <div class="senarai-search-wrap">
+              <i data-lucide="search"></i>
+              <input type="text" id="senarai-search-input" placeholder="Cari tajuk bab, topik, atau kata kunci soalan..." oninput="filterSenaraiTable()">
+            </div>
+            <div class="senarai-filter-pills">
+              <select id="senarai-filter-aras" class="form-select-sm" onchange="filterSenaraiTable()">
+                <option value="all">Semua Aras (R, S, T)</option>
+                <option value="Rendah">Aras Rendah</option>
+                <option value="Sederhana">Aras Sederhana</option>
+                <option value="Tinggi">Aras Tinggi</option>
+              </select>
+              <select id="senarai-filter-konstruk" class="form-select-sm" onchange="filterSenaraiTable()">
+                <option value="all">Semua Konstruk</option>
+                <option value="Mengingat">Mengingat</option>
+                <option value="Memahami">Memahami</option>
+                <option value="Mengaplikasi">Mengaplikasi</option>
+                <option value="Menganalisis">Menganalisis</option>
+                <option value="Menilai">Menilai</option>
+                <option value="Mencipta">Mencipta</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Overview Table Card -->
+      <div class="editorial-card">
+        <div class="card-body" style="padding: 0;">
+          <div class="table-responsive" id="senarai-soalan-table-wrapper">
+            <!-- Populated dynamically by renderSenaraiSoalan() -->
+          </div>
+        </div>
+        <!-- Table Card Footer Navigation -->
+        <div style="padding: 1rem 1.5rem; background: #F8FAFC; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <button type="button" class="btn btn-outline" onclick="switchWorkflowStage(1)">
+            <i data-lucide="arrow-left"></i> Kembali ke Tetapan JSU (Langkah 1)
+          </button>
+          <button type="button" class="btn btn-success btn-simpan-tetapan" onclick="simpanTetapanMenu(2)" title="Simpan senarai soalan dan kembali ke Menu Utama">
+            <i data-lucide="save"></i> Simpan Tetapan
+          </button>
+          <div style="font-size: 0.85rem; color: #64748B; font-weight: 600;" id="senarai-footer-summary">
+            Memaparkan semua soalan yang dipadankan dengan JSU
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 3: HUB PEMASANGAN KERTAS (ASSEMBLY ENGINE)
+         ====================================================================== -->
+    <section id="view-hub-pemasangan" class="view-panel">
+      <div class="assembly-layout">
+        <!-- Assembly Control Sidebar -->
+        <aside class="assembly-sidebar-control">
+          <!-- DSKP Chapter Checker -->
+          <div class="paper-meta-card">
+            <h4 style="font-size: 0.85rem; font-weight: 800; margin-bottom: 0.75rem; color: var(--primary-purple);">
+              <i data-lucide="check-square"></i> Liputan Bab Dalam Kertas
+            </h4>
+            <div id="assembly-chapter-coverage" style="display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem;">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- Assembly Workbench -->
+        <div class="assembly-workbench">
+          <div class="workbench-header">
+            <div class="workbench-title-group">
+              <h3 id="workbench-title">Pemasangan Kertas 1 (4531/1)</h3>
+              <p id="workbench-desc">40 Soalan Objektif Aneka Pilihan — Masa: 1 Jam 15 Minit</p>
+            </div>
+            <div style="display: flex; gap: 0.5rem; align-items: center;">
+              <button class="btn btn-outline btn-sm" id="btn-toggle-workbench-view" onclick="toggleAssemblyViewMode()" title="Togol antara paparan soalan lengkap atau paparan ringkas">
+                <i data-lucide="layout-list" style="width: 14px; height: 14px;"></i> 
+                <span id="workbench-view-mode-label">Paparan Padat</span>
+              </button>
+              <button class="btn btn-outline btn-sm" id="btn-shuffle-order">
+                <i data-lucide="shuffle"></i> Rawak Susunan
+              </button>
+            </div>
+            <div style="display: flex; gap: 0.5rem; align-items: center; margin-left: auto;">
+              <button type="button" class="btn btn-success btn-simpan-tetapan btn-sm" onclick="simpanTetapanMenu(3)" title="Simpan semakan soalan & skema dan kembali ke Menu Utama">
+                <i data-lucide="save"></i> Simpan Tetapan
+              </button>
+              <button type="button" class="btn btn-outline btn-sm" onclick="switchWorkflowStage(2)" title="Kembali ke Semak Senarai Soalan">
+                <i data-lucide="arrow-left"></i> Senarai Soalan (L2)
+              </button>
+
+            </div>
+          </div>
+
+          <!-- Slots Container -->
+          <div id="assembled-slots-container" class="assembled-slots-list">
+            <!-- Rendered dynamically by app.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 4: MATRIKS JSU (JADUAL SPESIFIKASI UJIAN)
+         ====================================================================== -->
+    <section id="view-jsu-matrix" class="view-panel">
+      <!-- JSU CONTROLS & FILTER TOOLBAR (GUIDED PARAMETER CARD) -->
+      <div class="editorial-card jsu-controls-card" style="margin-bottom: 1.5rem;">
+        <div class="card-header-bar purple">
+          <div class="card-header-title">
+            <i data-lucide="sliders-horizontal"></i> Parameter &amp; Penapis Jadual Spesifikasi Ujian (JSU)
+          </div>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <span class="badge badge-yellow">Piawai Lembaga Peperiksaan Malaysia</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <!-- Guided Steps Indicator -->
+          <div class="jsu-guide-steps-bar">
+            <div class="guide-step-item active">
+              <span class="step-badge">1</span>
+              <div class="step-text">
+                <strong>Tingkatan</strong>
+                <small>Sasaran Silibus</small>
+              </div>
+            </div>
+            <div class="guide-step-divider"><i data-lucide="chevron-right"></i></div>
+            <div class="guide-step-item active">
+              <span class="step-badge">2</span>
+              <div class="step-text">
+                <strong>Jenis Peperiksaan</strong>
+                <small>Percubaan / PAT / PPT</small>
+              </div>
+            </div>
+            <div class="guide-step-divider"><i data-lucide="chevron-right"></i></div>
+            <div class="guide-step-item active">
+              <span class="step-badge">3</span>
+              <div class="step-text">
+                <strong>Format Kertas</strong>
+                <small>Kertas 1 / Kertas 2</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Parameter Fields (Stacked cleanly per user reference screenshot) -->
+          <div class="jsu-filter-grid">
+            <div class="filter-field">
+              <label for="jsu-select-tingkatan"><i data-lucide="graduation-cap"></i> Tingkatan</label>
+              <select id="jsu-select-tingkatan" class="form-select">
+                <option value="all" selected>Tingkatan 4 &amp; 5 (Gabungan SPM)</option>
+                <option value="4">Tingkatan 4 Sahaja</option>
+                <option value="5">Tingkatan 5 Sahaja</option>
+              </select>
+            </div>
+            <div class="filter-field">
+              <label for="jsu-select-peperiksaan"><i data-lucide="file-text"></i> Jenis Ujian / Peperiksaan</label>
+              <select id="jsu-select-peperiksaan" class="form-select">
+                <option value="percubaan" selected>Peperiksaan Percubaan SPM</option>
+                <option value="pat">Peperiksaan Akhir Tahun (PAT / PASA)</option>
+                <option value="ppt">Peperiksaan Pertengahan Tahun (PPT / PPSA)</option>
+                <option value="selaras">Ujian Selaras</option>
+              </select>
+            </div>
+            <div class="filter-field">
+              <label for="jsu-select-kertas"><i data-lucide="layers"></i> Format Kertas</label>
+              <select id="jsu-select-kertas" class="form-select">
+                <option value="kertas2" selected>Kertas 2 — Struktur &amp; Esei [100 Markah]</option>
+                <option value="kertas1">Kertas 1 — Objektif [40 Soalan / 40 Markah]</option>
+              </select>
+            </div>
+            <div class="filter-field" id="jsu-field-cutoff-sk" style="display: none;">
+              <label for="jsu-select-cutoff-sk" id="jsu-label-cutoff-sk"><i data-lucide="book-marked"></i> Liputan Sukatan Diajar (Hingga SK)</label>
+              <select id="jsu-select-cutoff-sk" class="form-select">
+                <!-- Dijana secara dinamik mengikut tingkatan & peperiksaan -->
+              </select>
+            </div>
+          </div>
+
+          <!-- Action Bar Berpandu (Guided Actions) -->
+          <div class="jsu-guided-actions-bar">
+            <button type="button" id="btn-toggle-jsu-table" class="btn btn-primary jsu-hero-confirm-btn" onclick="toggleJsuDocumentView()">
+              <i data-lucide="layout-grid" id="btn-jsu-icon"></i>
+              <span id="btn-jsu-text">Sahkan Pilihan &amp; Papar Jadual JSU Penuh</span>
+              <i data-lucide="chevron-down" id="btn-jsu-arrow"></i>
+            </button>
+            <button type="button" class="btn btn-success btn-simpan-tetapan" onclick="simpanTetapanMenu(1)" title="Simpan tetapan JSU dan kembali ke Menu Utama">
+              <i data-lucide="save"></i> Simpan Tetapan
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- KOTAK PANDUAN AWAL (GUIDANCE PLACEHOLDER SEBELUM JADUAL DIBUKA) -->
+      <div id="jsu-initial-guide-box" class="jsu-initial-guide-box" style="display:none;">
+        <div class="guide-box-header">
+          <div class="guide-box-icon"><i data-lucide="compass"></i></div>
+          <div>
+            <h4 style="margin: 0; font-size: 1.05rem; font-weight: 800; color: #1E293B;">Panduan Penetapan Parameter JSU</h4>
+            <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: #64748B;">
+              Langkah ini membimbing guru menetapkan asas instrumen pentaksiran sebelum jadual penuh dipaparkan bagi mengelakkan paparan terlalu sarat.
+            </p>
+          </div>
+        </div>
+        <div class="guide-box-body">
+          <div class="guide-summary-card">
+            <div class="guide-summary-label">Tingkatan Sasaran</div>
+            <div class="guide-summary-val" id="guide-summary-ting">Tingkatan 4 &amp; 5 (Gabungan SPM)</div>
+          </div>
+          <div class="guide-summary-card">
+            <div class="guide-summary-label">Jenis Peperiksaan</div>
+            <div class="guide-summary-val" id="guide-summary-pep">Peperiksaan Percubaan SPM</div>
+          </div>
+          <div class="guide-summary-card">
+            <div class="guide-summary-label">Format Kertas</div>
+            <div class="guide-summary-val" id="guide-summary-kertas">Kertas 2 — Struktur &amp; Esei [100 Markah]</div>
+          </div>
+          <div class="guide-summary-card">
+            <div class="guide-summary-label">Standard Aras LPM</div>
+            <div class="guide-summary-val" style="color: #6D28D9;">50% (R) : 30% (S) : 20% (T)</div>
+          </div>
+        </div>
+        <div class="guide-box-footer">
+          <div style="display: flex; align-items: center; gap: 0.5rem; color: #475569; font-size: 0.84rem;">
+            <i data-lucide="sparkles" style="width: 16px; height: 16px; color: #F59E0B;"></i>
+            <span>Pilih tetapan di atas mengikut takwim sekolah anda, kemudian klik <strong>"Sahkan Pilihan &amp; Papar Jadual JSU Penuh"</strong> untuk memaparkan matriks taburan soalan yang lengkap.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFICIAL JSU DOCUMENT CONTAINER (Initially Hidden) -->
+      <div class="jsu-document-card" id="jsu-document-card" style="display: none;">
+        <!-- Top Toolbar inside Document -->
+        <div class="jsu-doc-toolbar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1.5px solid #E2E8F0; flex-wrap: wrap; gap: 0.75rem;">
+          <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+            <button type="button" class="btn btn-outline btn-sm" onclick="toggleJsuDocumentView(false)">
+              <i data-lucide="eye-off"></i> Sembunyikan Jadual (Fokus Parameter)
+            </button>
+            <button type="button" id="btn-ai-auto-jsu" class="btn btn-ai-jsu btn-sm" title="Jana spesifikasi JSU optimum secara pintar berpandukan Bank Soalan mengikut format LPM">
+              <i data-lucide="sparkles"></i> Auto-Jana JSU Pintar (AI LPM)
+            </button>
+          </div>
+          <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+            <button type="button" id="btn-print-jsu" class="btn btn-outline btn-sm" title="Cetak format landskap rasmi">
+              <i data-lucide="printer"></i> Cetak JSU
+            </button>
+            <button type="button" id="btn-export-jsu-csv" class="btn btn-outline btn-sm" title="Muat turun jadual dalam CSV">
+              <i data-lucide="download"></i> Eksport CSV
+            </button>
+            <button type="button" id="btn-apply-jsu-to-paper" class="btn btn-primary btn-sm" title="Terapkan konfigurasi JSU ini ke kertas soalan aktif">
+              <i data-lucide="check-circle-2"></i> Terapkan ke Kertas
+            </button>
+            <button type="button" class="btn btn-success btn-simpan-tetapan btn-sm" onclick="simpanTetapanMenu(1)" title="Simpan tetapan JSU dan kembali ke Menu Utama">
+              <i data-lucide="save"></i> Simpan Tetapan
+            </button>
+
+          </div>
+        </div>
+        <!-- Official LPM/JPN Header -->
+        <div class="jsu-official-header" id="jsu-official-header">
+          <div class="jsu-header-kpm">KEMENTERIAN PENDIDIKAN MALAYSIA &bull; JABATAN PENDIDIKAN NEGERI</div>
+          <h2 class="jsu-header-title">JADUAL SPESIFIKASI UJIAN (JSU) / ITEM (JSI)</h2>
+          <div class="jsu-header-exam" id="jsu-display-exam-name">PEPERIKSAAN PERCUBAAN SPM TAHUN 2026</div>
+          <div class="jsu-header-meta-row">
+            <span><strong>Mata Pelajaran:</strong> Fizik SPM (Kod: <span id="jsu-display-paper-code">4531/2</span>)</span>
+            <span><strong>Kertas:</strong> <span id="jsu-display-paper-name">Kertas 2 (Teori &amp; Esei)</span></span>
+            <span><strong>Sasaran Aras:</strong> 50% (Rendah) : 30% (Sederhana) : 20% (Tinggi)</span>
+          </div>
+        </div>
+
+        <!-- Metric KPI Cards -->
+        <div class="jsu-kpi-bar">
+          <div class="jsu-kpi-item">
+            <span class="jsu-kpi-label">Jumlah Markah / Soalan</span>
+            <span class="jsu-kpi-value" id="jsu-kpi-total-marks">100m (11 Soalan)</span>
+          </div>
+          <div class="jsu-kpi-item">
+            <span class="jsu-kpi-label">Nisbah Aras R : S : T</span>
+            <span class="jsu-kpi-value jsu-kpi-highlight" id="jsu-kpi-ratio">50 : 30 : 20</span>
+          </div>
+          <div class="jsu-kpi-item">
+            <span class="jsu-kpi-label">Peratus Aras Sebenar</span>
+            <span class="jsu-kpi-value" id="jsu-kpi-actual-percent">50% : 30% : 20%</span>
+          </div>
+          <div class="jsu-kpi-item">
+            <span class="jsu-kpi-label">Status Pematuhan LPM</span>
+            <span class="jsu-kpi-value text-success" id="jsu-kpi-compliance">✓ 100% Patuh Piawai</span>
+          </div>
+        </div>
+
+        <!-- Nisbah & Taburan Konstruk (Format Minimalist & Corporate) -->
+        <div class="jsu-konstruk-summary-container" id="jsu-konstruk-summary-card">
+          <div class="jsu-konstruk-summary-header">
+            <div class="jsu-konstruk-header-left">
+              <div class="jsu-konstruk-title-badge-group">
+                <i data-lucide="bar-chart-3" class="jsu-konstruk-icon"></i>
+                <h3 class="jsu-konstruk-main-title">NISBAH &amp; TABURAN KONSTRUK</h3>
+                <span class="jsu-konstruk-status-pill">STATUS SEMASA / DIJANA</span>
+              </div>
+              <p class="jsu-konstruk-subtext">
+                Taburan pecahan markah dan peratusan mengikut Konstruk Taksonomi Bloom berpandukan sukatan piawai SPM.
+              </p>
+            </div>
+            <div class="jsu-konstruk-header-right">
+              <span class="jsu-corporate-indicator">
+                <i data-lucide="shield-check"></i> Piawai Rasmi SPM
+              </span>
+            </div>
+          </div>
+          <div class="jsu-konstruk-grid-wrapper" id="jsu-konstruk-table-box">
+            <!-- Dynamically populated by JS as minimal corporate cards -->
+          </div>
+        </div>
+
+        <!-- Dynamic Official JSU Table Container -->
+        <div class="jsu-table-outer-wrapper" id="jsu-official-table-container">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+
+        <!-- Official Footer Notes -->
+        <div class="jsu-document-footer">
+          <div class="jsu-footer-note">
+            <em>* Nota: Tajuk &amp; Standard Kandungan (SK) boleh disesuaikan mengikut situasi &amp; konteks rutin harian murid yang relevan berpandukan DSKP Fizik KSSM.</em>
+          </div>
+          <div class="jsu-footer-signatures">
+            <div>Disediakan Oleh: <strong>Panel Penggubal Hub Bank Soalan Fizik SPM</strong></div>
+            <div>Disahkan Oleh: <strong>Penyelaras Kurikulum Fizik Negeri</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 5: WHITEPAPER SPREAD VIEW (INSPIRED BY REFERENCE IMAGE)
+         ====================================================================== -->
+    <section id="view-whitepaper-spread" class="view-panel">
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.5rem; font-weight: 800; color: var(--primary-purple);">
+          Mod Paparan White Paper Spread (Booklet Dwi-Halaman)
+        </h2>
+        <p style="color: var(--text-muted); font-size: 0.88rem;">
+          Visualisasi katalog editorial modul peperiksaan dan bank soalan mengikut susun atur format majalah/white paper korporat.
+        </p>
+      </div>
+
+      <div class="whitepaper-spread-container">
+        <div class="spread-booklet">
+          <!-- Left Page: Cover & Executive Summary -->
+          <div class="spread-page spread-cover-side">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <div style="width: 28px; height: 28px; background: var(--primary-purple); color: #fff; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.9rem;">Φ</div>
+                  <strong style="font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase;">SPM Physics Research</strong>
+                </div>
+                <span class="badge badge-yellow">Siri 2026</span>
+              </div>
+
+              <div class="spread-cover-block">
+                <h2>White Paper<br><span style="font-size: 1.2rem; font-weight: 700;">Modul Peperiksaan Fizik</span></h2>
+                <p>DSKP KSSM T4 & T5 SPM Kod 4531</p>
+              </div>
+
+              <div style="margin-top: 1.5rem; font-size: 0.82rem; color: var(--text-muted); line-height: 1.6;">
+                Dossier lengkap instrumen pentaksiran piawai mengandungi Kertas 1 (Aneka Pilihan), Kertas 2 (Struktur & Esei Berpandu), serta Panduan Instrumen Ujian Amali Sains (UAS).
+              </div>
+            </div>
+
+            <div>
+              <ul class="spread-meta-list">
+                <li><strong>Penyelaras:</strong> Hub Center Bank Soalan Fizik</li>
+                <li><strong>Kurikulum:</strong> Bahagian Pembangunan Kurikulum KPM</li>
+                <li><strong>Format:</strong> Lembaga Peperiksaan Malaysia</li>
+                <li><strong>Tarikh:</strong> September 2026</li>
+              </ul>
+              <div style="margin-top: 1.5rem; font-size: 0.72rem; color: var(--text-light); text-align: center; border-top: 1px solid var(--border-color); padding-top: 0.75rem;">
+                Halaman 01 | Executive Dossier
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Page: Editorial Analysis & Key Questions -->
+          <div class="spread-page">
+            <div class="spread-page-header">
+              <h3>Analisis Instrumen & Soalan Pilihan</h3>
+              <span class="spread-page-num">Halaman 02</span>
+            </div>
+
+            <!-- Percentage Stat Badges In Spread (Exact Match to Image) -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="background: var(--bg-subtle); padding: 1rem; border-radius: 6px; border-left: 4px solid var(--primary-purple);">
+                <div style="font-size: 0.75rem; font-weight: 700; color: var(--text-muted);">NISBAH ARAS KESUKARAN</div>
+                <div style="font-size: 1.8rem; font-weight: 900; color: var(--primary-purple);">5 : 3 : 2</div>
+                <div style="font-size: 0.75rem; color: var(--text-muted);">Rendah : Sederhana : Tinggi</div>
+              </div>
+              <div style="background: var(--accent-yellow-light); padding: 1rem; border-radius: 6px; border-left: 4px solid var(--accent-yellow-dark);">
+                <div style="font-size: 0.75rem; font-weight: 700; color: #78350F;">MARKAH PENUH K2</div>
+                <div style="font-size: 1.8rem; font-weight: 900; color: #000;">100 M</div>
+                <div style="font-size: 0.75rem; color: #78350F;">Bhg A (60m), B (20m), C (20m)</div>
+              </div>
+            </div>
+
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--primary-purple); margin-bottom: 0.5rem;">
+              SOROTAN SOALAN PILIHAN JSU (KBAT & AMALI):
+            </div>
+
+            <div id="spread-highlight-questions" style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.8rem;">
+              <!-- Rendered dynamically -->
+            </div>
+
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-muted);">
+              <span>Dicetak melalui Fizik SPM Hub Center</span>
+              <span>Hak Cipta Terpelihara KPM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="stage-complete-action" style="margin-top: 1.5rem; text-align: right;">
+        <button class="btn btn-primary btn-simpan-tetapan" id="btn-complete-stage-4" data-stage="4" title="Simpan tampilan whitepaper dan tandakan peringkat selesai">
+          <i data-lucide="save"></i> Simpan Praseta Whitepaper & Selesai
+        </button>
+      </div>
+</section>
+
+    <!-- ======================================================================
+         TAB 5B: ANALITIK PRESTASI & STATISTIK BANK SOALAN
+         ====================================================================== -->
+    <section id="view-analytics-dashboard" class="view-panel">
+      <div style="max-width: 1100px; margin: 0 auto 2rem auto;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+          <div>
+            <h2 style="font-size: 1.4rem; font-weight: 800; color: var(--primary-purple);">
+              <i data-lucide="bar-chart-2" style="width: 24px; height: 24px;"></i> Analitik Prestasi Bank Soalan
+            </h2>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Statistik dan maklutan taburan soalan berdasarkan DSKP KSSM & format LPM.</p>
+          </div>
+          <div style="display: flex; gap: 0.5rem;">
+            <button class="btn btn-outline btn-sm" id="btn-view-whitepaper" title="Papar tampilan White Paper Spread (magazin)">
+              <i data-lucide="layout"></i> White Paper
+            </button>
+            <button class="btn btn-outline btn-sm" id="btn-refresh-analytics" title="Refresh data analitik">
+              <i data-lucide="refresh-cw"></i>
+            </button>
+            <!-- Save/Complete Button for Stage 4b -->
+            <button class="btn btn-primary btn-simpan-tetapan" id="btn-complete-stage-4b" data-stage="4" title="Simpan tampilan analitik dan tandakan peringkat selesai">
+              <i data-lucide="save"></i> Simpan & Selesai
+            </button>
+          </div>
+        </div>
+
+        <!-- Analytics Dashboard Container -->
+        <div id="analytics-dashboard-container">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 6: CETAK FORMAT RASMI PEPERIKSAAN LPM (A4 PRINT VIEW)
+         ====================================================================== -->
+    <section id="view-cetak-lpm" class="view-panel">
+      <div style="display: flex; justify-content: space-between; align-items: center; max-width: 860px; margin: 0 auto 1.5rem auto; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <div style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; background: #FEF2F2; color: #DC2626; border-radius: 9999px; font-size: 0.72rem; font-weight: 800; text-transform: uppercase; margin-bottom: 0.4rem; border: 1px solid rgba(220,38,38,0.2);">
+            <i data-lucide="file-text" style="width: 12px; height: 12px;"></i> LANGKAH 4: FORMAT KERTAS SOALAN (DOCX &bull; PDF)
+          </div>
+          <h2 style="font-size: 1.4rem; font-weight: 800; color: #1E293B;">Pratonton Format Kertas Soalan Peperiksaan</h2>
+          <p style="font-size: 0.82rem; color: var(--text-muted);">Buku kertas soalan lengkap mengikut piawai format LPM sebenar (tanpa skema jawapan).</p>
+        </div>
+        <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+          <button type="button" class="btn btn-outline" onclick="switchWorkflowStage(3)">
+            <i data-lucide="arrow-left"></i> Semak Soalan &amp; Skema (Langkah 3)
+          </button>
+          <button type="button" class="btn btn-secondary" id="btn-export-exam-docx" onclick="exportExamToDocx()">
+            <i data-lucide="file-text"></i> Muat Turun Soalan (DOCX)
+          </button>
+          <button type="button" class="btn btn-outline" id="btn-open-google-docs" onclick="openInGoogleDocs()" title="Buka dan semak soalan terus di Google Docs">
+            <i data-lucide="external-link"></i> Buka di Google Docs
+          </button>
+          <button type="button" class="btn btn-primary" onclick="window.print()">
+            <i data-lucide="printer"></i> Cetak / Simpan PDF Soalan
+          </button>
+          <button type="button" class="btn btn-success btn-simpan-tetapan" onclick="simpanTetapanMenu(4)" title="Simpan format soalan dan kembali ke Menu Utama">
+            <i data-lucide="save"></i> Simpan Tetapan
+          </button>
+
+        </div>
+      </div>
+
+      <!-- Google Docs Document Preview Toolbar -->
+      <div class="gdocs-viewer-toolbar" id="gdocs-viewer-toolbar">
+        <div class="gdocs-toolbar-left">
+          <div class="gdocs-icon-badge">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <div>
+            <div id="gdocs-doc-filename" class="gdocs-doc-title">Kertas_1_Fizik_SPM_2026.docx</div>
+            <div class="gdocs-doc-status">
+              <span class="status-dot"></span> Format Paparan 100% Selaras DOCX Sebenar (Google Docs Style)
+            </div>
+          </div>
+        </div>
+        <div class="gdocs-toolbar-right">
+          <span id="gdocs-page-count-badge" class="gdocs-badge">Halaman A4</span>
+          <button type="button" class="btn btn-sm btn-secondary" onclick="openInGoogleDocs()" style="font-size: 0.78rem; padding: 4px 10px; display: inline-flex; align-items: center; gap: 5px;">
+            <i data-lucide="external-link" style="width: 13px; height: 13px;"></i> Buka di Google Docs
+          </button>
+        </div>
+      </div>
+
+      <!-- Printable Exam Container -->
+      <div class="printable-exam-view" id="printable-exam-container">
+        <!-- Rendered dynamically by app.js based on active paper -->
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAB 7: SKEMA PENSKORAN RASMI PEPERIKSAAN LPM (DOCX & PDF) (LANGKAH 5)
+         ====================================================================== -->
+    <section id="view-skema-penskoran" class="view-panel">
+      <div style="display: flex; justify-content: space-between; align-items: center; max-width: 860px; margin: 0 auto 1.5rem auto; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <div style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; background: #FEF2F2; color: #DC2626; border-radius: 9999px; font-size: 0.72rem; font-weight: 800; text-transform: uppercase; margin-bottom: 0.4rem; border: 1px solid rgba(220,38,38,0.2);">
+            <i data-lucide="shield-alert" style="width: 12px; height: 12px;"></i> LANGKAH 5: SKEMA PENSKORAN (DOCX &bull; PDF) &bull; SULIT
+          </div>
+          <h2 style="font-size: 1.4rem; font-weight: 800; color: #1E293B;">Panduan Skema Penskoran Rasmi Peperiksaan</h2>
+          <p style="font-size: 0.82rem; color: var(--text-muted);">Peraturan pemarkahan, kunci jawapan objektif Kertas 1 &amp; rubrik penskoran terperinci Kertas 2.</p>
+        </div>
+        <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+          <button type="button" class="btn btn-outline" onclick="switchWorkflowStage(4)">
+            <i data-lucide="arrow-left"></i> Format Soalan (Langkah 4)
+          </button>
+          <button type="button" class="btn btn-secondary" onclick="exportScoringDOCX()">
+            <i data-lucide="file-text"></i> Muat Turun Skema (DOCX)
+          </button>
+          <button type="button" class="btn btn-primary" onclick="exportScoringPDF()">
+            <i data-lucide="printer"></i> Cetak / Simpan PDF Skema
+          </button>
+          <button type="button" class="btn btn-success btn-simpan-tetapan" onclick="simpanTetapanMenu(5)" title="Simpan skema penskoran dan kembali ke Menu Utama">
+            <i data-lucide="save"></i> Simpan Tetapan
+          </button>
+        </div>
+      </div>
+
+      <!-- Printable Scoring Document Container -->
+      <div class="printable-exam-view scoring-document-container" id="printable-scoring-container">
+        <!-- Rendered dynamically by renderSkemaPenskoran() -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       MODAL: SENARAI RUMUS FIZIK SPM
+       ======================================================================== -->
+  <div class="modal-backdrop" id="modal-formulas">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3><i data-lucide="file-text"></i> Senarai Rumus Piawai Fizik SPM (Kod 4531)</h3>
+        <button class="modal-close-btn" id="btn-close-formulas">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Rumus-rumus berikut boleh membantu anda menjawab soalan. Simbol-simbol yang diberi adalah yang biasa digunakan.
+        </p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;" id="formula-list-container">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: ENJIN PENJANA KERTAS MENGIKUT JSU
+       ======================================================================== -->
+  <div class="modal-backdrop" id="modal-jsu-config">
+    <div class="modal-card" style="max-width: 650px;">
+      <div class="modal-header" style="background: linear-gradient(135deg, #5E17EB, #7C3AED); color: #fff;">
+        <h3 style="color: #fff; display: flex; align-items: center; gap: 0.5rem;">
+          <i data-lucide="sparkles" style="width: 20px; height: 20px; color: #FFD600;"></i>
+          Enjin Penjana Kertas Berpandukan JSU
+        </h3>
+        <button class="modal-close-btn" id="btn-close-jsu-modal" style="color: #fff;">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 1.5rem;">
+        <p style="font-size: 0.88rem; color: #475569; margin-bottom: 1.25rem;">
+          Sistem akan menapis bank soalan secara automatik dan mengisi slot pemasangan mengikut parameter <strong>Jadual Spesifikasi Ujian (JSU)</strong> yang dipilih:
+        </p>
+
+        <!-- Preset Choices -->
+        <div style="margin-bottom: 1.25rem;">
+          <label style="font-size: 0.78rem; font-weight: 700; color: #64748B; text-transform: uppercase;">Pilih Templat / Profil JSU:</label>
+          <div class="jsu-preset-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem;">
+            <label class="jsu-preset-card active" data-preset="spm-standard">
+              <input type="radio" name="jsu-preset" value="spm-standard" checked style="display: none;">
+              <div style="font-weight: 700; font-size: 0.88rem; color: #0F172A;">Piawai SPM Rasmi</div>
+              <div style="font-size: 0.76rem; color: #64748B;">Nisbah 5:3:2 (R:S:T) • Seimbang T4 & T5</div>
+            </label>
+
+            <label class="jsu-preset-card" data-preset="spm-kbat">
+              <input type="radio" name="jsu-preset" value="spm-kbat" style="display: none;">
+              <div style="font-weight: 700; font-size: 0.88rem; color: #0F172A;">Percubaan SPM (KBAT)</div>
+              <div style="font-size: 0.76rem; color: #64748B;">Nisbah 4:3:3 • Penekanan Aras Tinggi</div>
+            </label>
+
+            <label class="jsu-preset-card" data-preset="t4-only">
+              <input type="radio" name="jsu-preset" value="t4-only" style="display: none;">
+              <div style="font-weight: 700; font-size: 0.88rem; color: #0F172A;">Ujian Akhir Tahun T4</div>
+              <div style="font-size: 0.76rem; color: #64748B;">100% Silibus Tingkatan 4 (Bab 1–6)</div>
+            </label>
+
+            <label class="jsu-preset-card" data-preset="t5-only">
+              <input type="radio" name="jsu-preset" value="t5-only" style="display: none;">
+              <div style="font-weight: 700; font-size: 0.88rem; color: #0F172A;">Pra-Percubaan T5</div>
+              <div style="font-size: 0.76rem; color: #64748B;">100% Silibus Tingkatan 5 (Bab 1–7)</div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Custom Parameters -->
+        <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 1rem; margin-bottom: 1.25rem;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div>
+              <label style="font-size: 0.75rem; font-weight: 700; color: #64748B;">Format Kertas Sasaran:</label>
+              <select id="modal-jsu-target-paper" class="filter-select" style="margin-top: 0.35rem;">
+                <option value="kertas1">Kertas 1 (40 Soalan Objektif)</option>
+                <option value="kertas2">Kertas 2 (Bahagian A, B, C)</option>
+                <option value="kertas3">Kertas 3 (Ujian Amali Sains)</option>
+              </select>
+            </div>
+
+            <div>
+              <label style="font-size: 0.75rem; font-weight: 700; color: #64748B;">Nisbah Aras Kesukaran:</label>
+              <select id="modal-jsu-ratio" class="filter-select" style="margin-top: 0.35rem;">
+                <option value="5:3:2">5 : 3 : 2 (Piawai Lembaga Peperiksaan)</option>
+                <option value="4:3:3">4 : 3 : 3 (Dominan KBAT)</option>
+                <option value="4:4:2">4 : 4 : 2 (Dominan Sederhana)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Status Summary -->
+        <div style="font-size: 0.82rem; color: #065F46; background: #ECFDF5; border: 1px solid #A7F3D0; padding: 0.6rem 0.9rem; border-radius: 6px; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.4rem;">
+          <i data-lucide="check-circle-2" style="width: 16px; height: 16px;"></i>
+          <span>Enjin JSU akan menyusun soalan secara automatik dan mengemas kini penunjuk JSU secara masa nyata.</span>
+        </div>
+
+        <!-- Action Buttons -->
+        <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+          <button class="btn btn-outline" id="btn-cancel-jsu-modal">Batal</button>
+          <button class="btn btn-primary" id="btn-execute-jsu-generate" style="background: var(--primary-purple); color: #fff;">
+            <i data-lucide="sparkles"></i> Jana Kertas Ikut JSU Sekarang
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       SCRIPTS
+       ======================================================================== -->
+  <script src="dskp-data.js"></script>
+  <script src="jsu-profiles.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Inisialisasi ikon Lucide
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+    });
+  </script>
+</body>
+</html>

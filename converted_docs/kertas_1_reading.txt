@@ -1,0 +1,19 @@
+# PDF Analysis: Kertas 1.pdf
+
+**Path**: `/Users/halimroslan/Downloads/untitled folder 6/Kertas 1.pdf`
+
+- **Total Pages**: 4
+- **Metadata**: {'format': 'PDF 1.7', 'title': 'CamScanner 10-09-2026 11.55', 'author': 'CamScanner', 'subject': 'CamScanner 10-09-2026 11.55', 'keywords': '', 'creator': '', 'producer': 'intsig.com pdf producer', 'creationDate': '', 'modDate': '', 'trapped': '', 'encryption': None}
+
+--- Page 1 ---
+CamScanner
+
+--- Page 2 ---
+CamScanner
+
+--- Page 3 ---
+CamScanner
+
+--- Page 4 ---
+CamScanner
+

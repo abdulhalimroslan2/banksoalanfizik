@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Temporary & build outputs
+scratch/
+output_docx/
+*.bak*
+*.tmp
+
+# Graft local cache
+/graft/
+.kiro/
