@@ -17,3 +17,7 @@ output_docx/
 # Graft local cache
 /graft/
 .kiro/
+
+# Environment and Secrets
+.env
+.env*
