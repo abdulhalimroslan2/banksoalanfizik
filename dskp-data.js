@@ -7382,31 +7382,31 @@ const QUESTION_BANK = [
         "aras": "Rendah",
         "konstruk": "Memahami",
         "soalan": "Antara graf berikut yang manakah mewakili\npersamaan F= kx?\n[Diberi, k adalah pemalar]\nWhich of the following graphs represent the\nequationF= kx?\n[Given, k is a constant] (Kelantan: 2023)",
-        "rajahUrl": "",
+        "rajahUrl": null,
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf F melawan x garis lurus melalui asalan / Straight line graph of F against x through origin"
-            },
-            {
-                "id": "B",
-                "teks": "Graf F melawan x garis melengkung / Curved graph of F against x"
-            },
-            {
-                "id": "C",
-                "teks": "Graf F melawan 1/x berkadar songsang / Inversely proportional graph of F against 1/x"
-            },
-            {
-                "id": "D",
-                "teks": "Graf F melawan x garis mendatar / Horizontal straight line graph of F against x"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q01_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q01_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q01_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q01_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "A",
         "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: A.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "A"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q02",
         "sumber": "Percubaan Kelantan 2023",
@@ -7472,31 +7472,31 @@ const QUESTION_BANK = [
         "aras": "Rendah",
         "konstruk": "Memahami",
         "soalan": "Rajah 2 menunjukkan graf sesaran-masa bagi sebuah motosikal yang sedang bergerak.\nDiagram 2 shows a displacement-time graph of a moving motorcycle. (Melaka: 2023)\nPasangan gerakan objek manakah dari Q ke S yang betul?\nWhich pair of object motion from Q to S is correct?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah2.webp",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah2_v2.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "QR: Halaju berkurang (Velocity decreases) | RS: Halaju seragam pada arah yang bertentangan (Uniform velocity in opposite direction)"
-            },
-            {
-                "id": "B",
-                "teks": "QR: Halaju bertambah (Velocity increases) | RS: Halaju seragam pada arah yang bertentangan (Uniform velocity in opposite direction)"
-            },
-            {
-                "id": "C",
-                "teks": "QR: Halaju berkurang (Velocity decreases) | RS: Halaju seragam pada arah yang sama (Uniform velocity in same direction)"
-            },
-            {
-                "id": "D",
-                "teks": "QR: Halaju bertambah (Velocity increases) | RS: Halaju seragam pada arah yang sama (Uniform velocity in same direction)"
-            }
+                {
+                        "id": "A",
+                        "teks": "QR: Halaju berkurang (Velocity decreases) | RS: Halaju seragam pada arah yang bertentangan (Uniform velocity in opposite direction)"
+                },
+                {
+                        "id": "B",
+                        "teks": "QR: Halaju bertambah (Velocity increases) | RS: Halaju seragam pada arah yang bertentangan (Uniform velocity in opposite direction)"
+                },
+                {
+                        "id": "C",
+                        "teks": "QR: Halaju berkurang (Velocity decreases) | RS: Halaju seragam pada arah yang sama (Uniform velocity in same direction)"
+                },
+                {
+                        "id": "D",
+                        "teks": "QR: Halaju bertambah (Velocity increases) | RS: Halaju seragam pada arah yang sama (Uniform velocity in same direction)"
+                }
         ],
         "jawapanBetul": "B",
         "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: B.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "B"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q04",
         "sumber": "Percubaan Pahang 2023",
@@ -7562,31 +7562,31 @@ const QUESTION_BANK = [
         "aras": "Rendah",
         "konstruk": "Memahami",
         "soalan": "Graf halaju-masa dalam Rajah 4 menunjukkan\nbagaimana halaju berubah dengan masa bagi\nempat kereta, A, B, C dan D.\nThe velocity-time graph in Diagram 4 shows how\nthe velocity changes with time for four cars, A, B,\nC and D. (Pulau Pinang: 2023)\nKereta yang manakah bergerak pada jarak yang\npaling jauh dalam masa 30 s?\nWhich car travels the furthest distance in 30 s?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah4.webp",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah4_v2.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Kereta A / Car A"
-            },
-            {
-                "id": "B",
-                "teks": "Kereta B / Car B"
-            },
-            {
-                "id": "C",
-                "teks": "Kereta C / Car C"
-            },
-            {
-                "id": "D",
-                "teks": "Kereta D / Car D"
-            }
+                {
+                        "id": "A",
+                        "teks": "Kereta A / Car A"
+                },
+                {
+                        "id": "B",
+                        "teks": "Kereta B / Car B"
+                },
+                {
+                        "id": "C",
+                        "teks": "Kereta C / Car C"
+                },
+                {
+                        "id": "D",
+                        "teks": "Kereta D / Car D"
+                }
         ],
         "jawapanBetul": "C",
         "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: C.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "C"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q06",
         "sumber": "Percubaan Pulau Pinang 2023",
@@ -7832,31 +7832,31 @@ const QUESTION_BANK = [
         "aras": "Rendah",
         "konstruk": "Memahami",
         "soalan": "Graf manakah yang menunjukkan gerakan\ndengan halaju malar?\nWhich graph shows the motion with constant\nvelocity? (SBP: 2023)",
-        "rajahUrl": "",
+        "rajahUrl": null,
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "vims!"
-            },
-            {
-                "id": "B",
-                "teks": "v/ms"
-            },
-            {
-                "id": "C",
-                "teks": "vms! tUs"
-            },
-            {
-                "id": "D",
-                "teks": "v/ms! tts"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q11_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q11_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q11_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q11_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "B",
         "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: B.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "B"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q12",
         "sumber": "Percubaan SBP 2023",
@@ -8372,31 +8372,31 @@ const QUESTION_BANK = [
         "aras": "Rendah",
         "konstruk": "Memahami",
         "soalan": "Rajah 18 menunjukkan graf pecutan, a melawan\nmasa, t bagi suatu objek\nDiagram 18 shows the acceleration, a against\ntime, t graph of an object. (Kedah: 2022)\nBahagian graf yang manakah menunjukkan objek\nbergerak dengan halaju malar?\nWhich part of the graph shows the object moves\nwith constant velocity?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah18.webp",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah18_v2.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "PQ"
-            },
-            {
-                "id": "B",
-                "teks": "QR"
-            },
-            {
-                "id": "C",
-                "teks": "RS"
-            },
-            {
-                "id": "D",
-                "teks": "TU"
-            }
+                {
+                        "id": "A",
+                        "teks": "PQ"
+                },
+                {
+                        "id": "B",
+                        "teks": "QR"
+                },
+                {
+                        "id": "C",
+                        "teks": "RS"
+                },
+                {
+                        "id": "D",
+                        "teks": "TU"
+                }
         ],
         "jawapanBetul": "D",
         "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: D.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "D"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q24",
         "sumber": "Percubaan Kedah 2022",
@@ -9139,29 +9139,29 @@ const QUESTION_BANK = [
         "soalan": "Rajah 31 menunjukkan seorang penunggang\nbasikal sedang menaiki sebuah bukit dengan\nnyahpecutan seragam. Penunggang basikal itu\nkemudiannya menuruni bukit itu dengan pecutan\nseragam.\nDiagram 31 shows a cyclist moving up a hill with\nuniform deceleration. The cyclist then went down\nthe hill with uniform acceleration. (SBP: 2022)\nGraf halaju, v melawan masa, t yang manakah\nmenunjukkan gerakan basikal itu?\nWhich velocity, v against time, t graph shows the\nmotion of the bicycle?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah31.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf A (Halaju berkurang kemudian bertambah) / Graph A"
-            },
-            {
-                "id": "B",
-                "teks": "Graf B (Halaju bertambah kemudian berkurang) / Graph B"
-            },
-            {
-                "id": "C",
-                "teks": "Graf C (Halaju malar kemudian bertambah) / Graph C"
-            },
-            {
-                "id": "D",
-                "teks": "Graf D (Halaju berkurang ke sifar) / Graph D"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q40_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q40_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q40_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q40_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "B",
         "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: B.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "B"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q41",
         "sumber": "Percubaan SBP 2022",
@@ -9859,29 +9859,29 @@ const QUESTION_BANK = [
         "soalan": "Rajah 42 menunjukkan dua biji bebola keluli, P\ndan Q dijatuhkan serentak dari puncak bangunan\nke tanah. Abaikan rintangan udara.\nDiagram 42 shows two steel balls, P and Q, are\ndropped fiom top ofa building to the ground.\nAssume the air resistance is negligible.\n(Kedah: 2021)\n(0)\nAntara graf halaju-masa yang berikut yang\nmanakah menunjukkan gerakan yang betul bagi\nP dan Q?\nWhich ofthe following velocity-time graph shows\nthe correct motion ofP and Q?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah42.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf A (Garis halaju-masa P dan Q bertindih dengan kecerunan g) / Graph A"
-            },
-            {
-                "id": "B",
-                "teks": "Graf B (Kecerunan P lebih curam daripada Q) / Graph B"
-            },
-            {
-                "id": "C",
-                "teks": "Graf C (Kecerunan Q lebih curam daripada P) / Graph C"
-            },
-            {
-                "id": "D",
-                "teks": "Graf D (Halaju mendatar bagi kedua-dua objek) / Graph D"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q56_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q56_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q56_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q56_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "B",
         "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: B.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "B"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q57",
         "sumber": "Percubaan Kedah 2021",
@@ -10354,29 +10354,29 @@ const QUESTION_BANK = [
         "soalan": "Rajah 49 menunjukkan graf sesaran-masa bagi\nsebuah kereta yang bergerak di sepanjang garis\nlurus.\nDiagram 49 shows a displacement-time graph of\na car moving in a straight line.\n(Selangor: Set 2: 2021)\nAntara graf halaju-masa yang berikut, manakah\nmewakili pergerakan kereta tersebut?\nWhich of the following velocity-time graph\nrepresents the motion of the car?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah49.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf A (Halaju seragam positif kemudian halaju sifar) / Graph A"
-            },
-            {
-                "id": "B",
-                "teks": "Graf B (Halaju bertambah secara seragam) / Graph B"
-            },
-            {
-                "id": "C",
-                "teks": "Graf C (Halaju sifar kemudian halaju malar) / Graph C"
-            },
-            {
-                "id": "D",
-                "teks": "Graf D (Halaju berkurang ke sifar) / Graph D"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "B",
         "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: B.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "B"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q68",
         "sumber": "Percubaan Selangor: Set 2 2021",
@@ -10579,29 +10579,29 @@ const QUESTION_BANK = [
         "soalan": "Rajah 52 menunjukkan schelai bulu pelepah dan\nscbiji bola boling dijatuhkan di dalam vakum.\nDiagram 52 shows a piece of feather and\nbowling ball being dopped in avacuunm.\n(Negeri Sembilan: 2021)\nAntara graf halaju-masa berikut, yang manakah\nmenunjukkan gerakan bulu pelepah dan bola\nboling yang betul?\nWhich of the following velocity-time graphs\nshows the correct motion of the feather and the\nbowling ball?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah52.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf A (Garis halaju-masa kedua-dua objek bertindih dengan kecerunan sama g) / Graph A"
-            },
-            {
-                "id": "B",
-                "teks": "Graf B (Kecerunan bola boling lebih tinggi daripada bulu pelepah) / Graph B"
-            },
-            {
-                "id": "C",
-                "teks": "Graf C (Kecerunan bulu pelepah lebih tinggi daripada bola boling) / Graph C"
-            },
-            {
-                "id": "D",
-                "teks": "Graf D (Halaju malar bagi kedua-dua objek) / Graph D"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q72_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q72_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q72_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q72_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "D",
         "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: D.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "D"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q73",
         "sumber": "Percubaan Negeri Sembilan 2021",
@@ -10714,29 +10714,29 @@ const QUESTION_BANK = [
         "soalan": "Rajah 54 menunjukkan graf perubahan halaju, v\nterhadap masa, t bagi sebuah objek yang\nbergerarak\nDiagram 54 show shows a graph of the variation\nwith timet ofthe velocity v of anobject.\n(Pahang: 2021)\n7\nAntara graf-graf berikut yang manakah mewakili\nperubahan pecutan terhadap masa bagi objek\ntersebut?\nWhich one of the following graphsbestrepresents\nthe variation with time t of the acceleration a of\nthe object?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah54.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf A (Pecutan malar positif) / Graph A"
-            },
-            {
-                "id": "B",
-                "teks": "Graf B (Pecutan bertambah secara seragam) / Graph B"
-            },
-            {
-                "id": "C",
-                "teks": "Graf C (Pecutan sifar) / Graph C"
-            },
-            {
-                "id": "D",
-                "teks": "Graf D (Pecutan berkurang) / Graph D"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "A",
         "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: A.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "A"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q76",
         "sumber": "Percubaan Pahang 2021",
@@ -11072,31 +11072,31 @@ const QUESTION_BANK = [
         "aras": "Sederhana",
         "konstruk": "Memahami",
         "soalan": "Antara graf berikut, yang manakah menunjukkan\nhalaju malar?\nWhich graph shows a constant velocity?\n(Melaka: 2021)",
-        "rajahUrl": "",
+        "rajahUrl": null,
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf sesaran-masa dengan garis lurus condong melalui asalan / Displacement-time graph with straight inclined line"
-            },
-            {
-                "id": "B",
-                "teks": "Graf sesaran-masa dengan garis melengkung / Displacement-time graph with curve"
-            },
-            {
-                "id": "C",
-                "teks": "Graf sesaran-masa dengan garis mendatar / Displacement-time graph with horizontal line"
-            },
-            {
-                "id": "D",
-                "teks": "Graf sesaran-masa dengan garis menegak / Displacement-time graph with vertical line"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q83_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q83_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q83_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q83_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "C",
         "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: C.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "C"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q84",
         "sumber": "Percubaan Melaka 2021",
@@ -11252,31 +11252,31 @@ const QUESTION_BANK = [
         "aras": "Sederhana",
         "konstruk": "Memahami",
         "soalan": "Antara berikut, pilih graf sesaran-masa yang\nmewakili nyahpecutan seragam suatu objek\nFrom the following displacement-tinme graph\nchoose a graph that represents uniform\ndecelerationof an object. (Perlis: 2021)",
-        "rajahUrl": "",
+        "rajahUrl": null,
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf A (Kecerunan graf sesaran-masa berkurang dengan masa) / Graph A"
-            },
-            {
-                "id": "B",
-                "teks": "Graf B (Kecerunan graf sesaran-masa bertambah dengan masa) / Graph B"
-            },
-            {
-                "id": "C",
-                "teks": "Graf C (Kecerunan malar) / Graph C"
-            },
-            {
-                "id": "D",
-                "teks": "Graf D (Kecerunan sifar) / Graph D"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q87_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q87_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q87_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q87_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "D",
         "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: D.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "D"
-    },
+},
     {
         "id": "MODUL_T4_B2_K2_Q88",
         "sumber": "Percubaan Perlis 2021",
@@ -11929,29 +11929,29 @@ const QUESTION_BANK = [
         "soalan": "Rajah 74 menunjukkan graf halaju-masa\npergerakan sebuah objek.\nDiagram 74 shows the velocity-time graph of an\nobject. (Negeri Sembilan: 2023)\nAntara graf pecutan-masa berikut, yang manakah\nmenunjukkan pergerakan objek tersebut?\nWhich of the following acceleration-time graphs\nshows the object 's motion?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah74.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "a (m s') t(s)"
-            },
-            {
-                "id": "B",
-                "teks": "a (ms) i()"
-            },
-            {
-                "id": "C",
-                "teks": "a(m s)"
-            },
-            {
-                "id": "D",
-                "teks": "HL"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q05_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q05_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q05_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q05_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "A",
         "penerangan": "Kecerunan graf halaju-masa mewakili pecutan (a = dv/dt).\n1. Fasa pertama: Halaju bertambah secara linear (kecerunan positif malar) -> pecutan malar positif.\n2. Fasa kedua: Halaju seragam (kecerunan sifar) -> pecutan sifar (a = 0).\n3. Fasa ketiga: Halaju berkurang secara linear (kecerunan negatif malar) -> nyahpecutan malar (a negatif).\nGraf pecutan-masa yang menepati ciri-ciri ini ialah Graf A.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "A"
-    },
+},
     {
         "id": "MODUL_T4_B2_K3_Q06",
         "sumber": "Percubaan Negeri Sembilan 2023",
@@ -12064,29 +12064,29 @@ const QUESTION_BANK = [
         "soalan": "Rajah 77 menunjukkan graf halaju-masa bagi\npergerakan suatu objek.\nDiagram 77 shows velocity-time graph of a\nmotion of an object. (Pahang: 2023)\nGraf pecutan-masa manakah yang mewakili\npergerakan yang sama seperti objek itu?\nWhich acceleration-time graph represents the\nsame motion as the object?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah77.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "a (m s)"
-            },
-            {
-                "id": "B",
-                "teks": "(m )"
-            },
-            {
-                "id": "C",
-                "teks": "a(m s)"
-            },
-            {
-                "id": "D",
-                "teks": "a (ms) t(s)"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q08_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q08_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q08_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q08_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "A",
         "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: A.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "A"
-    },
+},
     {
         "id": "MODUL_T4_B2_K3_Q09",
         "sumber": "Percubaan Pahang 2023",
@@ -12134,7 +12134,7 @@ const QUESTION_BANK = [
 },
     {
         "id": "MODUL_T4_B2_K3_Q10",
-        "sumber": "Percubaan Pecutangraviti, g= 9.81 ms]\nChong throws a stone upwards vertically with an\ninitial velocity of 20 ms\". What is the maximum\nheight that the stone can reach if the air\nresistance is neglected'?\n[Gravitationalacceleration,g=9.81 ms]\n(Perak 2023",
+        "sumber": "Percubaan Perak 2023",
         "tahun": 2023,
         "noSoalanAsal": 10,
         "sk": "SK 2.8 Berat",
@@ -12152,31 +12152,31 @@ const QUESTION_BANK = [
         "aras": "Sederhana",
         "konstruk": "Mengaplikasi",
         "soalan": "Chong melontar sebiji batu secara menegak ke\natas dengan halaju awal 20 ms. Berapakah\ntinggi maksimum yang boleh dicapai oleh batu\ntersebut jika rintangan udara diabaikan.\n(Pecutangraviti, g= 9.81 ms]\nChong throws a stone upwards vertically with an\ninitial velocity of 20 ms\". What is the maximum\nheight that the stone can reach if the air\nresistance is neglected'?\n[Gravitationalacceleration,g=9.81 ms]\n(Perak: 2023)",
-        "rajahUrl": "",
+        "rajahUrl": null,
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "10.30 m"
-            },
-            {
-                "id": "B",
-                "teks": "20.39 m"
-            },
-            {
-                "id": "C",
-                "teks": "30.29 m"
-            },
-            {
-                "id": "D",
-                "teks": "40.30 m"
-            }
+                {
+                        "id": "A",
+                        "teks": "10.30 m"
+                },
+                {
+                        "id": "B",
+                        "teks": "20.39 m"
+                },
+                {
+                        "id": "C",
+                        "teks": "30.29 m"
+                },
+                {
+                        "id": "D",
+                        "teks": "40.30 m"
+                }
         ],
         "jawapanBetul": "B",
         "penerangan": "a = -g = 9.81 m s^-2\nSimbol, s = h\nv^2 = u^2 + 2as\n20^2 = 0^2 + 2(9.81)h\n.. h = 20.3874 m",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "B"
-    },
+},
     {
         "id": "MODUL_T4_B2_K3_Q11",
         "sumber": "Percubaan Perlis 2023",
@@ -12471,19 +12471,19 @@ const QUESTION_BANK = [
         "pilihan": [
                 {
                         "id": "A",
-                        "teks": "Graf A (Pecutan positif malar kemudian pecutan negatif malar) / Graph A"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q17_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
                 },
                 {
                         "id": "B",
-                        "teks": "Graf B (Pecutan sifar sepanjang masa) / Graph B"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q17_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
                 },
                 {
                         "id": "C",
-                        "teks": "Graf C (Pecutan bertambah secara seragam) / Graph C"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q17_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
                 },
                 {
                         "id": "D",
-                        "teks": "Graf D (Pecutan berkurang secara seragam) / Graph D"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q17_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
                 }
         ],
         "jawapanBetul": "D",
@@ -13504,29 +13504,29 @@ const QUESTION_BANK = [
         "soalan": "Mei Mei mengayuh basikal dari rumahnya ke\nsekolah. Dalam perjalanan balik dari sekolah, dia\nsinggah di kedai runcit di belakang rumahnya.\nRajah 98 menunjukkan graf sesaran-masa\nperjalanannya.\nMei Mei cycles from her house to school. On her\nway back from school, she stops at a grocery store\nbehind her house. Diagram 98 shows a\ndisplacement-time graph of her journey.\n(SPM: 2021)\nGraf halaju-masa yang manakah menerangkan\npergerakan Mei Mei?\nWhich velocity-time graph describes the\nmovement of Mei Mei?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah98.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Graf A / Graph A"
-            },
-            {
-                "id": "B",
-                "teks": "Graf B / Graph B"
-            },
-            {
-                "id": "C",
-                "teks": "Graf C / Graph C"
-            },
-            {
-                "id": "D",
-                "teks": "Graf D / Graph D"
-            }
+                {
+                        "id": "A",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                },
+                {
+                        "id": "B",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                },
+                {
+                        "id": "C",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                },
+                {
+                        "id": "D",
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                }
         ],
         "jawapanBetul": "B",
         "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: B.",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
         "jawapan": "B"
-    },
+},
     {
         "id": "MODUL_T4_B2_K3_Q41",
         "sumber": "SPM 2021",
