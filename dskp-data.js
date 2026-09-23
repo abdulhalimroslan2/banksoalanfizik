@@ -6776,7 +6776,7 @@ const QUESTION_BANK = [
           }
       ],
       "jawapanBetul": "B",
-      "penerangan": "Melalui kaedah interpolasi graf pada paksi frekuensi f = 8 × 10^14 Hz, unjuran menegak ke garis graf dan kemudian mengufuk ke paksi tenaga kinetik K memberikan bacaan tepat K = 1.2 eV.",
+      "penerangan": "Melalui kaedah interpolasi graf pada paksi frekuensi f = 8 × 10^14 Hz, unjuran menegak ke garis graf dan kemudian mengufuk ke paksi tenaga kinetik K memberikan bacaan tepat K = 1.2 eV. [Nota Konteks: Soalan ini berasaskan Kesan Fotoelektrik (T5 Bab 7: Fizik Kuantum, Percubaan MRSM 2023), namun dimasukkan ke dalam modul T4 Bab 1 kerana menguji Konstruk 3 Mengaplikasi (SP 1.2.2 Kemahiran Interpolasi Graf)].",
       "markah": 1,
       "statusSemakan": "Disemak (Modul K1)",
       "jawapan": "B"
