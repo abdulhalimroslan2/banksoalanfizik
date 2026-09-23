@@ -1,4 +1,8 @@
+import json
 from scripts.build_dataset_helper import make_q
+
+with open("scratch/t4_b3_diagram_urls.json", "r", encoding="utf-8") as f:
+    DIAGRAM_URLS = json.load(f)
 
 def get_k2_part1_questions():
     questions = []
@@ -73,10 +77,10 @@ def get_k2_part1_questions():
         "MODUL_T4_B3_K2_Q06", 6, "Sederhana", "Memahami",
         "Graf manakah yang mewakili hubungan antara pecutan graviti, g dengan jarak pemisahan, r, antara satu objek dengan Bumi?\nWhich graph represents the relationship between the gravitational acceleration, g and the separation distance, r, between an object and the Earth?\n(Pulau Pinang: 2023)",
         [
-            {"id": "A", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_a.webp\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "B", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_b.webp\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "C", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_c.webp\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "D", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_d.webp\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"}
+            {"id": "A", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q06_opt_a", "")}" alt="Graf Pilihan A" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "B", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q06_opt_b", "")}" alt="Graf Pilihan B" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "C", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q06_opt_c", "")}" alt="Graf Pilihan C" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "D", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q06_opt_d", "")}" alt="Graf Pilihan D" style="max-height:100px; display:block; margin:auto;" />'}
         ],
         "", "Percubaan Pulau Pinang 2023", 2023
     ))
@@ -86,10 +90,10 @@ def get_k2_part1_questions():
         "MODUL_T4_B3_K2_Q07", 7, "Sederhana", "Memahami",
         "Antara graf berikut, yang manakah menunjukkan variasi pecutan graviti, g dengan jarak, r dari pusat Bumi yang betul bagi kedudukan r ≥ R?\nWhich of the following graphs shows the correct variation of gravitational acceleration, g and distance, r from the centre of the Earth for the position of r ≥ R?\n(Perak: 2023)",
         [
-            {"id": "A", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_a.webp\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "B", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_b.webp\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "C", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_c.webp\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "D", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_d.webp\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"}
+            {"id": "A", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q07_opt_a", "")}" alt="Graf Pilihan A" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "B", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q07_opt_b", "")}" alt="Graf Pilihan B" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "C", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q07_opt_c", "")}" alt="Graf Pilihan C" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "D", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q07_opt_d", "")}" alt="Graf Pilihan D" style="max-height:100px; display:block; margin:auto;" />'}
         ],
         "", "Percubaan Perak 2023", 2023
     ))

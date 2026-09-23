@@ -1,4 +1,8 @@
+import json
 from scripts.build_dataset_helper import make_q
+
+with open("scratch/t4_b3_diagram_urls.json", "r", encoding="utf-8") as f:
+    DIAGRAM_URLS = json.load(f)
 
 def get_k2_part2_questions():
     questions = []
@@ -112,10 +116,10 @@ def get_k2_part2_questions():
         "MODUL_T4_B3_K2_Q34", 34, "Sederhana", "Memahami",
         "Antara graf berikut yang manakah menunjukkan perubahan pecutan disebabkan oleh graviti Bumi, g' dengan jarak dari pusat Bumi, r di mana g adalah pecutan graviti di permukaan Bumi?\nWhich of the following graphs shows the change in acceleration due to the Earth's gravity, g' with the distance from the Earth's center, r where g is the gravitational acceleration at the Earth's surface?\n(Terengganu: 2021)",
         [
-            {"id": "A", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_a.webp\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "B", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_b.webp\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "C", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_c.webp\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "D", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_d.webp\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"}
+            {"id": "A", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q34_opt_a", "")}" alt="Graf Pilihan A" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "B", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q34_opt_b", "")}" alt="Graf Pilihan B" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "C", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q34_opt_c", "")}" alt="Graf Pilihan C" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "D", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q34_opt_d", "")}" alt="Graf Pilihan D" style="max-height:100px; display:block; margin:auto;" />'}
         ],
         "", "Percubaan Terengganu 2021", 2021
     ))
@@ -268,10 +272,10 @@ def get_k2_part2_questions():
         "MODUL_T4_B3_K2_Q46", 46, "Sederhana", "Memahami",
         "Graf manakah yang menunjukkan hubungan yang betul antara pecutan, g dengan jarak, r dari pusat Bumi?\nWhich graph shows the correct relationship between gravitational acceleration, g to the distance, r from the centre of the Earth?\n(SPM: 2021)",
         [
-            {"id": "A", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_a.webp\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "B", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_b.webp\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "C", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_c.webp\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"},
-            {"id": "D", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_d.webp\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"}
+            {"id": "A", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q46_opt_a", "")}" alt="Graf Pilihan A" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "B", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q46_opt_b", "")}" alt="Graf Pilihan B" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "C", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q46_opt_c", "")}" alt="Graf Pilihan C" style="max-height:100px; display:block; margin:auto;" />'},
+            {"id": "D", "teks": f'<img src="{DIAGRAM_URLS.get("t4_b3_k2_q46_opt_d", "")}" alt="Graf Pilihan D" style="max-height:100px; display:block; margin:auto;" />'}
         ],
         "", "SPM 2021", 2021
     ))
