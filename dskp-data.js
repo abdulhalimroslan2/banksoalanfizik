@@ -6915,6 +6915,7344 @@ const QUESTION_BANK = [
       "markah": 1,
       "statusSemakan": "Disemak (Modul K1)",
       "jawapan": "C"
+  },
+  // ==========================================================================
+  // --- KOLEKSI SOALAN MODUL KONSTRUK TINGKATAN 4 BAB 2 (DAYA DAN GERAKAN I) ---
+  // ==========================================================================
+  {
+      "id": "MODUL_T4_B2_K1_Q01",
+      "sumber": "Percubaan Negeri Sembilan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 1,
+      "sk": "SK 2.8 Berat",
+      "sp": "SP 2.8.1 Menyatakan berat sebagai daya graviti yang bertindak ke atas suatu objek, W = mg",
+      "spKod": "2.8.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 42",
+      "rujukanBukuTeks": "Buku Teks T4 ms 79-82",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 20",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.8 Berat",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut yang manakah benar mengenai\nberat?\nWhich of the following is true about weigh?\n(Negeri Sembilan: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "adalah kuantiti skalar is a scalar quantity"
+          },
+          {
+              "id": "B",
+              "teks": "adalah diukur dalam unit kg m s? is measured in unit of kg m s?"
+          },
+          {
+              "id": "C",
+              "teks": "adalah merupakan kuantiti asas is a based quantity"
+          },
+          {
+              "id": "D",
+              "teks": "tidak bergantung kepada kekuatan medan graviti not depends on the gravitational field strength"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berat ialah daya graviti yang bertindak ke atas suatu objek (W = mg). Berat merupakan kuantiti vektor (diukur dalam Newton, N) yang bergantung kepada kekuatan medan graviti, berbeza dengan jisim yang merupakan kuantiti asas malar (kg). Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q02",
+      "sumber": "Percubaan Pulau Pinang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 2,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Permyataandi bawahadalahdinyatakandalam ..\nThe statement below is stated in ...\n(Pulau Pinang: 2023)\nKadar perubahan momentum adalah\nberkadar terus dengan daya paduan.\"\n\"The rate ofchange of momentum is directly\nproportional to theresultant force.\"",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Hukum inersia Law of inertia"
+          },
+          {
+              "id": "B",
+              "teks": "Hukum Gerakan Newton Pertama Newton s First Law of Motion"
+          },
+          {
+              "id": "C",
+              "teks": "Hukum Gerakan Newton Kedua Newton s Second Law of Motion"
+          },
+          {
+              "id": "D",
+              "teks": "Hukum Gerakan Newton Ketiga Newton s ThirdLavwof Motion"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Inersia ialah sifat semula jadi suatu objek yang menentang sebarang perubahan kepada keadaan asalnya, sama ada keadaan pegun atau keadaan gerakan (Hukum Gerakan Newton Pertama). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q03",
+      "sumber": "Percubaan Perlis 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 3,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Apakah yang dimaksudkan dengan objek yang\nmengalami jatuh bebas?\nWhat is meant by an object that experiences a free\nfall? (Perlis: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Objek yang jatuh dalam medan graviti dan rintangan udara liabaikan Object that falls in the gravity field and air resistance are neglected"
+          },
+          {
+              "id": "B",
+              "teks": "Objek yang jatuh dengan pengaruh rintangan udara Falling objects under the infuence of air resistance"
+          },
+          {
+              "id": "C",
+              "teks": "Objek yang sama berat dijatuhkan serentak dari ketinggian yang sama Object of the same weight are dropped simultaneously fromn the same height"
+          },
+          {
+              "id": "D",
+              "teks": "Objek yang jatuh dari tempat tinggi Ohject that falls from a high place"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q04",
+      "sumber": "Percubaan Terengganu 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 4,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara pernyataan berikut, yang manakah betul\ntentang berat?\nWhich of the following statements is correct\nabout weight? (Terengganu: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kuantiti vektor Vector quantity"
+          },
+          {
+              "id": "B",
+              "teks": "Tetap di semua tempat Fixed at all places"
+          },
+          {
+              "id": "C",
+              "teks": "Pecutan graviti The gravitational acceleration"
+          },
+          {
+              "id": "D",
+              "teks": "Kuantiti jirim dalam sesuatu objek The quantity of matter in an object"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berat ialah daya graviti yang bertindak ke atas suatu objek (W = mg). Berat merupakan kuantiti vektor (diukur dalam Newton, N) yang bergantung kepada kekuatan medan graviti, berbeza dengan jisim yang merupakan kuantiti asas malar (kg). Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q05",
+      "sumber": "Percubaan Kelantan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 5,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Satu objek akan kekal pegun, atau terus\nbergerak dengan halaju malar kecuali terdapat\nsatu daya luar yang mengubah keadaan\ngerakannya.\nAn object will remain at est, or contime\nmoving with uniform velocity unless it is acted\nupon by an external force to change its state of\nmotion.\nApakah hukum yang diterangkan oleh pernyataan\ndi atas?\nWhat law is explained by the statement above?\n(Kelantan: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Hukum Gerakan Newton Pertama Newton's First Law of Motion"
+          },
+          {
+              "id": "B",
+              "teks": "Hukum Gerakan Newton Kedua Newton 's Second Lav of Motion"
+          },
+          {
+              "id": "C",
+              "teks": "Hukum Gerakan Newton Ketiga Newton 's Third Law of Motion"
+          },
+          {
+              "id": "D",
+              "teks": "Hukum Kegravitian Semesta Newton Newton 's Universal Law of Gravitation"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q06",
+      "sumber": "Percubaan Melaka 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 6,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Prinsip keabadian momentum menyatakan\nbahawa\nPrinciples of conservation of momentumstates\nthat (Melaka: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "momentum berkadar terus dengan jisim dan halaju momentum is directly proportional to mass and velocity"
+          },
+          {
+              "id": "B",
+              "teks": "momentum sebelum perlanggaran adalah sama dengan momentum selepas perlanggaran momentum before collision is equal to momentum afier collision"
+          },
+          {
+              "id": "C",
+              "teks": "jumlah momentum bagi suatu perlanggaran ataupun letupan adalah tidak diabadikan the total momentum of collision or explosion are not conserved"
+          },
+          {
+              "id": "D",
+              "teks": "jumlah momentum sebelum perlanggaran adalah sama dengan jumlah momentum selepas perlanggaran jika tiada sebarang daya luar bertindak the total momentum before collision is equal to the total momentum afer collision if no external force is acting on it"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Prinsip Keabadian Momentum menyatakan bahawa jumlah momentum sebelum perlanggaran adalah sama dengan jumlah momentum selepas perlanggaran jika tiada daya luar bertindak ke atas sistem tertutup itu (Hukum Gerakan Newton Ketiga). Jawapan: D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q07",
+      "sumber": "Percubaan MRSM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 7,
+      "sk": "SK 2.8 Berat",
+      "sp": "SP 2.8.1 Menyatakan berat sebagai daya graviti yang bertindak ke atas suatu objek, W = mg",
+      "spKod": "2.8.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 42",
+      "rujukanBukuTeks": "Buku Teks T4 ms 79-82",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 20",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.8 Berat",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Pernyataan manakah betul menerangkan berat?\nWhich statement is correct to describe weight?\n(MRSM: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Daya angkat yang bertindak ke atas objek The lifting force acting on the object"
+          },
+          {
+              "id": "B",
+              "teks": "Daya geseran yang bertindak ke atas objek The frictional force acting on theobject"
+          },
+          {
+              "id": "C",
+              "teks": "Daya graviti yang bertindak ke atas objck The gravitational force acting on the object"
+          },
+          {
+              "id": "D",
+              "teks": "Daya tujah ke depan yang bertindak ke atas objek The forwvard force acting on the object"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Berat ialah daya graviti yang bertindak ke atas suatu objek (W = mg). Berat merupakan kuantiti vektor (diukur dalam Newton, N) yang bergantung kepada kekuatan medan graviti, berbeza dengan jisim yang merupakan kuantiti asas malar (kg). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q08",
+      "sumber": "Percubaan Terengganu 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 8,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.1 Menerangkan momentum, p sebagai hasil darab jisim dan halaju",
+      "spKod": "2.5.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut yang manakah merupakan unit\nbagi momentum?\nWhich of the following is the unit of momentum?\n(Terengganu: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Nsl"
+          },
+          {
+              "id": "B",
+              "teks": "kg m s"
+          },
+          {
+              "id": "C",
+              "teks": "kg ms²"
+          },
+          {
+              "id": "D",
+              "teks": "kg's?"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Momentum ditakrifkan sebagai hasil darab jisim dengan halaju (p = mv). Ia merupakan kuantiti vektor yang mempunyai magnitud dan arah. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q09",
+      "sumber": "Percubaan SBP 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 9,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.2 Mengeksperimen untuk mengenal pasti hubungan antara inersia dan jisim",
+      "spKod": "2.4.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Apakah alat yang boleh digunakan untuk\nmengukur daya?\nWhich tool can be used to measure force?\n(SBP: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Neraca tuas"
+          },
+          {
+              "id": "B",
+              "teks": "Neraca spring"
+          },
+          {
+              "id": "C",
+              "teks": "Neraca inersia Lever balance Inertia balance"
+          },
+          {
+              "id": "D",
+              "teks": "Neraca elektronik Spring balance Electronic balance"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K1_Q10",
+      "sumber": "SPM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 10,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Hubungan antara daya, F, jisim, m dan pecutan, a\ndiberi oleh persamaan\nThe relationship between force, F, mass, m and\nacceleration, a is given by the equation\n(SPM: 2023)\nF=a\nAntara yang berikut, manakah yang betul\nmewakili persamaan tersebut?\nWhich of the following correctly represents the\nequation?\nA Hukum gerakan Newton pertama\nNewton's first law of motion\nB Hukum gerakan Newton kedua\nNewton 's second law of motion\nC Hukum gerakan Newton ketiga\nNewton 's third law of motion",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Hukum gerakan Newton pertama / Newton's first law of motion"
+          },
+          {
+              "id": "B",
+              "teks": "Hukum gerakan Newton kedua / Newton's second law of motion"
+          },
+          {
+              "id": "C",
+              "teks": "Hukum gerakan Newton ketiga / Newton's third law of motion"
+          },
+          {
+              "id": "D",
+              "teks": "Hukum kegravitian semesta Newton / Newton's universal law of gravitation"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q01",
+      "sumber": "Percubaan Kelantan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 1,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.3 Menterjemah dan melakar graf gerakan linear",
+      "spKod": "2.2.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Antara graf berikut yang manakah mewakili\npersamaan F= kx?\n[Diberi, k adalah pemalar]\nWhich of the following graphs represent the\nequationF= kx?\n[Given, k is a constant] (Kelantan: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf F melawan x garis lurus melalui asalan / Straight line graph of F against x through origin"
+          },
+          {
+              "id": "B",
+              "teks": "Graf F melawan x garis melengkung / Curved graph of F against x"
+          },
+          {
+              "id": "C",
+              "teks": "Graf F melawan 1/x berkadar songsang / Inversely proportional graph of F against 1/x"
+          },
+          {
+              "id": "D",
+              "teks": "Graf F melawan x garis mendatar / Horizontal straight line graph of F against x"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q02",
+      "sumber": "Percubaan Kelantan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 2,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.1 Menghuraikan jenis gerakan linear bagi objek yang berada dalam keadaan pegun, halaju seragam dan halaju tidak seragam",
+      "spKod": "2.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 1 menunjukkan seorang budak menaiki\nbasikal ke scbuah pasar raya.\nDiagram 1 shows a boy takes a ride to a\nsupermarket. (Kelantan: 2023)\n(=0s -1s |=2s t=45\nPasar raya\n4m 2m Supermarket\nBudak itu mengayuh basikal dengan\nThe boy pedals the bike with",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah1.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "pecutan seragam uniform acceleration"
+          },
+          {
+              "id": "B",
+              "teks": "kelajuan seragam uniform speed 12"
+          },
+          {
+              "id": "C",
+              "teks": "kelajuan berkurang decreasing speed"
+          },
+          {
+              "id": "D",
+              "teks": "kelajuan seragam dikuti laju berkurang uniform speed followed by decreasingspeed"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q03",
+      "sumber": "Percubaan Melaka 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 3,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 2 menunjukkan graf sesaran-masa bagi\nsebuah motosikal yang sedang bergerak.\nDiagram 2 shows a displacement-time graph ofa\nmoving mnotorcycle. (Melaka: 2023)\ns (m)\nst (min)\n0 S 10 15 20 25 30 35 40\nPasangan gerakan objek manakah dari Q ke S\nyang betul?\nWhich pair of object motion from Q to S is\ncorrect?\nJenis gerakan QR Jenis gerakan RS\nType of motionQR Tiype of motion RS\nHalaju seragam pada\nHalaju berkurang arah yang bertentangan\nnVelocitydecreases Uniform velocity in the\noppositedirection\nHalaju seragam pada\nHalaju bertambah arah yang bertentangan\nR\nVelocity increases Uniform velocity in the\nopposite direction\nHalaju seragam pada\nc Halajuberkurang arah yang sama\nVelocity decreases Uniform velocity in the\nsame direction\nHalaju seragam pada\nD Halaju bertambah arah yang sama\nVelocity increases Uniform velocity in the\nsame direction",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah2.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "QR: Halaju berkurang (Velocity decreases) | RS: Halaju seragam pada arah yang bertentangan (Uniform velocity in opposite direction)"
+          },
+          {
+              "id": "B",
+              "teks": "QR: Halaju bertambah (Velocity increases) | RS: Halaju seragam pada arah yang bertentangan (Uniform velocity in opposite direction)"
+          },
+          {
+              "id": "C",
+              "teks": "QR: Halaju berkurang (Velocity decreases) | RS: Halaju seragam pada arah yang sama (Uniform velocity in same direction)"
+          },
+          {
+              "id": "D",
+              "teks": "QR: Halaju bertambah (Velocity increases) | RS: Halaju seragam pada arah yang sama (Uniform velocity in same direction)"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q04",
+      "sumber": "Percubaan Pahang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 4,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 3 menunjukkan sekeping duit syiling dan\nsehelai bulu ayam yang sedang jatuh bebas di\ndalam bekas vakum.\nDiagram 3 shows a coin and a feather\nexperiencing free fall in a vacuum container.\n(Pahang: 2023)\nVakum\nVacuum\nDuit syiling Bulu ayam\nCoir Feather\nKuantiti fizik manakah yang malar?\nWhich physical quantity is constant?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah3.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju"
+          },
+          {
+              "id": "B",
+              "teks": "Pecutan"
+          },
+          {
+              "id": "C",
+              "teks": "Momentum Velocity Momentum"
+          },
+          {
+              "id": "D",
+              "teks": "Tenaga kinetik Acceleration Kinetic energy"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q05",
+      "sumber": "Percubaan Pulau Pinang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 5,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Graf halaju-masa dalam Rajah 4 menunjukkan\nbagaimana halaju berubah dengan masa bagi\nempat kereta, A, B, C dan D.\nThe velocity-time graph in Diagram 4 shows how\nthe velocity changes withtime for four cars, A, B,\nCand D. (Pulau Pinang: 2023)\nHalaju(m s)\nVelocitv(m s')\n30\n20 B\nMasa((s)\n30 Time (s)\nKereta yang manakah bergerak pada jarak yang\npaling jauh dalam masa 30 s?\nWhich car travels the furthest distance in 30 s?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah4.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kereta A / Car A"
+          },
+          {
+              "id": "B",
+              "teks": "Kereta B / Car B"
+          },
+          {
+              "id": "C",
+              "teks": "Kereta C / Car C"
+          },
+          {
+              "id": "D",
+              "teks": "Kereta D / Car D"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q06",
+      "sumber": "Percubaan Pulau Pinang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 6,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 5 menunjukkan sekumpulan ahli bomba\nsedang memegang hos yang besar untuk\nmemancutkan air.\nDiagranm 5 shows a group of firemen holding a\nbig hose to spouts water. (Pulau Pinang: 2023)\nHos\nHose\nHos itu perlu dipegang oleh sekumpulan ahli\nbomba untuk\nThe hose needs to be held by a group of firemen\nto",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah5.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "menyokong berat hos yang membawa air. support the weight of the hose that carries water:"
+          },
+          {
+              "id": "B",
+              "teks": "mengatasi kesan sentakan ke belakang yang besar. overcome the large backward recoil effect."
+          },
+          {
+              "id": "C",
+              "teks": "menambahkan momentum air yang memancut kelua. increase the momentum of the water ejected."
+          },
+          {
+              "id": "D",
+              "teks": "menambahkan daya impuls air yang memancut keluar. increase the impulsive force of the water ejected."
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berat ialah daya graviti yang bertindak ke atas suatu objek (W = mg). Berat merupakan kuantiti vektor (diukur dalam Newton, N) yang bergantung kepada kekuatan medan graviti, berbeza dengan jisim yang merupakan kuantiti asas malar (kg). Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q07",
+      "sumber": "Percubaan Perak 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 7,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 6 menunjukkan gerakan subuah basikal.\nDiagram 6 shows the motion ofa bicycle.\n(Perak: 2023)\nArah pergerakan\nDirectionofmotion\nL-0s -ls 52s ,3s\n5.0 m S.0 m S.0 m\nApakah jenis gerakan tersebut?\nWhat is the type of motion?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah6.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju seragam"
+          },
+          {
+              "id": "B",
+              "teks": "Halaju berkurang"
+          },
+          {
+              "id": "C",
+              "teks": "Halaju meningkat Uniform velocity Increasing velocity"
+          },
+          {
+              "id": "D",
+              "teks": "Halaju tidak Decreasing seragam velocity Non-uniform velocity"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q08",
+      "sumber": "Percubaan Perak 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 8,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Manakah antara berikut mempunyai inersia yang\npaling besar?\nWhich of the following has the biggest inertia?\n(Perak: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "1.8 kg Arnab / 1.8 kg Rabbit"
+          },
+          {
+              "id": "B",
+              "teks": "850 g Sepana / 850 g Spanner"
+          },
+          {
+              "id": "C",
+              "teks": "1350 g Kuali / 1350 g Pan"
+          },
+          {
+              "id": "D",
+              "teks": "1.2 kg Mikroskop / 1.2 kg Microscope"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Inersia suatu objek bergantung secara langsung kepada jisimnya sahaja mengikut Hukum Gerakan Newton Pertama. Semakin besar jisim objek, semakin besar inersianya. Oleh itu, objek dengan jisim terbesar mempunyai inersia paling besar (Jawapan: A).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q09",
+      "sumber": "Percubaan Perak 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 9,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Antara pernyataan berikut, manakah benar\ntentang perlanggaran tidak kenyal?\nWhich ofthe following statements are true about\ninelastic collision? (Perak: 2023)\nI Jumlah tenaga sebelum perlanggaran sama\ndengan jumlah tenaga selepas perlanggaran.\nThe total energy is conserved before and afier\nthe collision.\nII Jumlah tenaga kinetik sebelum perlanggaran\ntidak sama dengan jumlah tenaga kinetik\nselepas perlanggaran.\nThe total kinetic energy is not conserved\nbefore and after the collision.\nIII Momentum scbelum perlanggaran sama\ndengan momentunm selepas perlanggaran.\nThe momentum is conserved before and afier\nthe collision.\nIV Jumlah momentum sebelum perlanggaran\nsama dengan jumlah momentum selepas\nperlanggaran.\nThe total momentum is conserved before and\nafter the collision.",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "I dan II"
+          },
+          {
+              "id": "B",
+              "teks": "I dan IV"
+          },
+          {
+              "id": "C",
+              "teks": "I,Il dan III I and II I, II and II"
+          },
+          {
+              "id": "D",
+              "teks": "I,Il dan IV I and IV I, II and IV"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Dalam perlanggaran kenyal, kedua-dua jumlah momentum dan jumlah tenaga kinetik diabadikan, serta objek melantun semula selepas perlanggaran. Jawapan yang betul ialah D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q10",
+      "sumber": "Percubaan Perlis 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 10,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Objek manakah mempunyai inersia yang paling\nbesar?\nWhich object has the largest inertia?\n(Perlis: 2023)\nC\nMass 2 000 kg\nMass 1S kg\n14\nB\nMass 1.2x 10' kg Mass - 1.1 x 10 kg",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jisim 15 kg / Mass 15 kg"
+          },
+          {
+              "id": "B",
+              "teks": "Jisim 1.2 x 10^3 kg / Mass 1.2 x 10^3 kg"
+          },
+          {
+              "id": "C",
+              "teks": "Jisim 2 000 kg / Mass 2 000 kg"
+          },
+          {
+              "id": "D",
+              "teks": "Jisim 1.1 x 10^3 kg / Mass 1.1 x 10^3 kg"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Inersia suatu objek bergantung secara langsung kepada jisimnya sahaja mengikut Hukum Gerakan Newton Pertama. Semakin besar jisim objek, semakin besar inersianya. Oleh itu, objek dengan jisim terbesar mempunyai inersia paling besar (Jawapan: D).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q11",
+      "sumber": "Percubaan SBP 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 11,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.1 Mentafsir jenis gerakan dari graf sesaran-masa, halaju-masa dan pecutan-masa",
+      "spKod": "2.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Graf manakah yang menunjukkan gerakan\ndengan halaju malar?\nWhich graph shows the motion with constant\nvelocity? (SBP: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "vims!"
+          },
+          {
+              "id": "B",
+              "teks": "v/ms"
+          },
+          {
+              "id": "C",
+              "teks": "vms! tUs"
+          },
+          {
+              "id": "D",
+              "teks": "v/ms! tts"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q12",
+      "sumber": "Percubaan SBP 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 12,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 7 menunjukkan sehelai bulu pelepah dan\nsebiji bola logam yang sedang jatuh bebas di\ndalam vakum.\nDiagram 7 shows a feather and a netal ball\njalling freely in a vacuum. (SBP: 2023)\nBola logam Bulu pelepah\nMetal ball Feather\nPernyataan manakah yang paling tepat\nmenjelaskan gerakan bulu pelepah dan bola\nlogam?\nWhich statement is the best to describe the motion\nof feather andmetalball?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah7.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju seragam"
+          },
+          {
+              "id": "B",
+              "teks": "Pecutan seragam"
+          },
+          {
+              "id": "C",
+              "teks": "Halaju bertambah Constant velocity Velocity increases"
+          },
+          {
+              "id": "D",
+              "teks": "Pecutan Constant bertambah acceleration Acceleration increases"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q13",
+      "sumber": "Percubaan SBP 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 13,
+      "sk": "SK 2.6 Daya",
+      "sp": "SP 2.6.1 Mendefinisikan daya sebagai kadar perubahan momentum, F = ma (Hukum Gerakan Newton Kedua)",
+      "spKod": "2.6.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 38-39",
+      "rujukanBukuTeks": "Buku Teks T4 ms 66-72",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 14-16",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.6 Daya",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 8 menunjukkan seorang lelaki sedang\nbergerak menggunakan personal transporter\ndengan suatu pecutan.\nDiagranm 8 shows a man is moving by using a\npersonal transporter with an acceleration.\n(SBP: 2023)\nDaya tujab itienl orce\nPernyataan manakah benar?\nWhich statenent is correct?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah8.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Daya bersih yang bertindak ke atas personal transporter adalah sifar The net force acting on the personal transporter is zero"
+          },
+          {
+              "id": "B",
+              "teks": "Daya tujah lebih besar dari daya geseran Thrust is greater than the frictional force"
+          },
+          {
+              "id": "C",
+              "teks": "Daya tujah lebih kecil dari daya geseran Thrust is smaller thanthe frictional force"
+          },
+          {
+              "id": "D",
+              "teks": "Daya tujah sama dengan daya geseran Thrust is equal to frictional force"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q14",
+      "sumber": "Percubaan Terengganu 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 14,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 9 menunjukkan seorang bomba yang\nmemadamkan api akan terhumban ke belakang\napabila air memancut keluar dari hos dengan laju\nyang tinggi.\nDiagran 9 shows a firefighter who is put out fire\nwill be thrown backwads when the water spurts\nout of the hose at a high speed.\n(Terengganu: 2023)\nAntara faktor berikut, yang manakah\nmempengaruhi pancutan air keluar dari hos?\nWhich of the following factors affect the water\ngushesout of thehose?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah9.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "daya"
+          },
+          {
+              "id": "B",
+              "teks": "inersia"
+          },
+          {
+              "id": "C",
+              "teks": "impuls force inpulse"
+          },
+          {
+              "id": "D",
+              "teks": "momentum inertia momentum"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q15",
+      "sumber": "Percubaan Terengganu 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 15,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.3 Memerihalkan kesan dan aplikasi daya impuls dalam kehidupan harian",
+      "spKod": "2.7.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 10 di bawah menunjukkan seorang budak\nlelaki menggunakan teknik lompat jauh yang\nbetul agar tidak mengalami keccderaan pada\nkakinya.\nDiagranm 10 below shows a boy using the correct\nlong junıp technique to avoid injury to his legs.\n(Terengganu: 2023)\nApakah sebab bagi situasi di atas?\nWhat is the cause of the above situation?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah10.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Mengurangkan daya Decreaseforce"
+          },
+          {
+              "id": "B",
+              "teks": "Mengurangkan impuls Decrease impulse"
+          },
+          {
+              "id": "C",
+              "teks": "Mengurangkan momentum Decrease momentum"
+          },
+          {
+              "id": "D",
+              "teks": "Mengurangkan daya impuls Decrease impulsive force"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q16",
+      "sumber": "Percubaan SMKA 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 16,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 11 menunjukkan sehelai bulu dan sebiji\nbatu yang mempunyai jisim berbeza sedang\nmengalami jatuh bebas di dalam vakum.\nDiagram 11 shows a feather and a stone of\ndifferent masses experiencing free fall in a\nvacuum. (SMKA: 2023)\nBulu Batu\nFeather Stone\nMasa. t=0s\ntine\nPernyataan manakah yang betul mengenai\npergerakan itu?\nWhich statement is correct about the motion?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah11.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Bulu dan batu itu jatuh dengan halaju seragam The feather and the stone fall with constant velocity"
+          },
+          {
+              "id": "B",
+              "teks": "Bulu dan batu itu mempunyai tenaga kinetik yang sama The feather and the stone have the same kinetic energy"
+          },
+          {
+              "id": "C",
+              "teks": "Bulu dan batu itu sampai ke tanah pada masa yang sama The feather and the stone reach the ground at the same time"
+          },
+          {
+              "id": "D",
+              "teks": "Daya graviti yang bertindak ke atas bulu dan batu adalah sama The gravitational force acting on the feather and the stone is the same"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q17",
+      "sumber": "Percubaan SMKA 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 17,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 12 menunjukkan seekor kucing sedang\nmengejar seckor tikus.\nDiagram 12 shows a cat chasing a rat.\n(SMKA: 2023)\nInersia bagi kucing adalah lebih besar daripada\ntikus kerana\nThe inertia of the cat is bigger than the rat\nbecause",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah12.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "kucing berlari lebih laju daripada tikus itu the cat runs faster than the rat"
+          },
+          {
+              "id": "B",
+              "teks": "kucing mempunyai saiz lebih besar daripada tikus itu the cat has a greater size than the rat"
+          },
+          {
+              "id": "C",
+              "teks": "kucing mempunyai jisim lebih besar daripada tikus itu the cat has greater mass than the rat"
+          },
+          {
+              "id": "D",
+              "teks": "kucing mempunyai kaki yang lebih panjang daripada tikus itu the cat has longer legs than the rat"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Inersia ialah sifat semula jadi suatu objek yang menentang sebarang perubahan kepada keadaan asalnya, sama ada keadaan pegun atau keadaan gerakan (Hukum Gerakan Newton Pertama). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q18",
+      "sumber": "Percubaan SMKA 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 18,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.3 Memerihalkan kesan dan aplikasi daya impuls dalam kehidupan harian",
+      "spKod": "2.7.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 13 menunjukkan seorang penjaga gol\nsedang bersedia untuk menangkap sebiji bola\ndalam satu perlawanan bola sepak.\nDiagramn 13 shows a goalkeeper preparing to\ncatch a ball in a soccer match. (SMKA: 2023)\nAntara berikut manakah dapat mengurangkan\ndaya impuls\n16\nWhich of he following can veduce theinmpulsive\nforce",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah13.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "penjaga gol bergerak ke hadapan sebelum memberhentikan bola the goalkeeper moves forwaxd before stopping the ball"
+          },
+          {
+              "id": "B",
+              "teks": "penjagu gol bergerak sedikit ke belakang sebelun mennberhentikan bola the goalkeeper mnoves slighthy backwards before stopping the ball"
+          },
+          {
+              "id": "C",
+              "teks": "penjaga gol berdiri tegak dan membiarkan bola dibcrhentikan di badannya the goalkeeper stood upright and leting the ball be stopped at his body"
+          },
+          {
+              "id": "D",
+              "teks": "penjaga gol berdiri tegak kemudian melompat ke atas dan membiarkan bola diberhentikan di badannya the goalkeeper stood up straight then jumped up and let the ball rest on his body"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Daya impuls berbanding songsang dengan masa impak: F = (mv - mu) / t. Memanjangkan masa tindak balas / masa impak akan mengurangkan magnitud daya impuls yang bertindak, sekaligus mengurangkan kecederaan (Hukum Gerakan Newton Ketiga). Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q19",
+      "sumber": "Percubaan MRSM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 19,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 14 menunjukkan seorang pelajar berlari\ndari titik X ke Y dan kembali ke titik Z.\nDiagram |4 showsa student rwns from point X to\nY then back to point Z. (MRSM: 2023)\nSesaran pelajar diwakili oleh titik\nDisplacemnentof student is vepresentedby point",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah14.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "XY"
+          },
+          {
+              "id": "B",
+              "teks": "XZ"
+          },
+          {
+              "id": "C",
+              "teks": "ZY"
+          },
+          {
+              "id": "D",
+              "teks": "YZ"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q20",
+      "sumber": "Percubaan MRSM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 20,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajalh 15 menunjukkan bulu pelepah dan bebola\nlogam yang dijatuhkan pada masa yang sama dari\nketinggian yang sama.\nDiagram 15 shows feather and ball bearing\ndropped at the same time fromn the same height.\n(MRSM: 2023)\na le Bebele leaam\nMallbearing\nBulu pelepah dan bebola logam akan sampai ke\ntanah pada masa yang sama jika\nFeather and ball bearing will reach the ground at\nthe same time if",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah15.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "ketumpatan kedua-dua objek adalah sama the density of both objects is the same"
+          },
+          {
+              "id": "B",
+              "teks": "bentuk kedua-dua objek adalah sama the shape of both objects is lhe same"
+          },
+          {
+              "id": "C",
+              "teks": "berat kedua-dua objck diabaikan the weight of both ohjects is ignored"
+          },
+          {
+              "id": "D",
+              "teks": "rintangan udara diabaikan the air resistance is ignored"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.3 Gerakan Jatuh Bebas, konsep yang diaplikasikan menghasilkan jawapan D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q21",
+      "sumber": "Percubaan MRSM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 21,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rujah 16 menunjukkan lato-lato yang\nmenggunakan dua bola plastik yang keras. Plastik\nkeras yang digunakan menghasilkan bunyi\nberdenting yang kuat apabila berlanggar pada\nhalaju yang tinggi.\nDiagram l6 shows a pair of clackers that uses\ntwo hardplastic balls. The clackers ball produces\na loud clacking sound when collide at high\nvelocity. (MRSM: 2023)\nRajah l6/ Diugram l6\nMengupakah plastik keras digunakan?\nWhy hardplastic is used?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah16.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Meningkatkan inersia Increase inertia"
+          },
+          {
+              "id": "B",
+              "teks": "Meningkatkan geseran Increase friction"
+          },
+          {
+              "id": "C",
+              "teks": "Mengurangkan momentum Decrease momentum"
+          },
+          {
+              "id": "D",
+              "teks": "Mengurangkan masa inpak Decreasetimeof impact"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Inersia ialah sifat semula jadi suatu objek yang menentang sebarang perubahan kepada keadaan asalnya, sama ada keadaan pegun atau keadaan gerakan (Hukum Gerakan Newton Pertama). Jawapan: D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q22",
+      "sumber": "Percubaan Kedab 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 22,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 17 menunjukkan pergerakan bagi sebuah\nkereta dari keadaan pegun bagi 5 saat pertama.\nDiagram I7 shows movement of a car fiom\nstationary for the first 5 seconds.\n(Kedab: 2022)\nIOs 16 ,2a 3s\n20 m 20 m 20m 20m 30\nPernyataan manakah benar bagi\nmenggambarkan pergerakan kereta itu?\nWhich statement is true to describe the movement\nofthe ca?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah17.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Pecutan OA lebih besar dari pecutan AB Acceleration OÀ is greater than acceleration AB"
+          },
+          {
+              "id": "B",
+              "teks": "Pecutan BC lebih besar dari pecutan CD Acceleration BC is greater than acceleration CD"
+          },
+          {
+              "id": "C",
+              "teks": "Halaju AD lebih besar dari halaju DE Velocity AD is greater than velocity DE"
+          },
+          {
+              "id": "D",
+              "teks": "Halaju AB lebilh besar dari halaju BE Velocity AB is greater than velocity BE"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q23",
+      "sumber": "Percubaan Kedah 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 23,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.1 Mentafsir jenis gerakan dari graf sesaran-masa, halaju-masa dan pecutan-masa",
+      "spKod": "2.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 18 menunjukkan graf pecutan, a melawan\nmasa, t bagi suatu objek\nDiagram 18 shows the acceleration, a against\ntime, t graph of an object. (Kedah: 2022)\na/ms?\nR\nt/s\nU\nP\nBahagian graf yang manakah menunjukkan objck\nbergerak dengan halaju malar?\nWhich part of the graph shows the object moves\nwith constant velocity?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah18.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "PQ"
+          },
+          {
+              "id": "B",
+              "teks": "QR"
+          },
+          {
+              "id": "C",
+              "teks": "RS"
+          },
+          {
+              "id": "D",
+              "teks": "TU"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q24",
+      "sumber": "Percubaan Kedah 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 24,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.2 Mengeksperimen untuk mengenal pasti hubungan antara inersia dan jisim",
+      "spKod": "2.4.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 19 menunjukkan angkasawan yang berada\ndalam kapal angkasa di Stesen Angkasa\nAntarabangsa (ISS). Mereka berada dalam\nkeadaan tanpa daya graviti. Hanya neraca inersia\nkhas dapat digunakan untuk mengukur jisim\nbadannya.\nDiagran 19 show the astronaut who was in the\nspacecrafi at The International Space Station\n(ISS). They are in a state without the force of\ngravity. Only a special inertia balance can be\nused to measure his body mass. (Kedah: 2022)\nNeraca lnersia\nInertiabalancc\nAyunan\nOscilatian\nApakah kuantiti fizik yang boleh digunakan\nuntuk menentukan jisim angkasawan itu?\nWhat is the physical quantity can be used to\ndetermine the mass of astronaut?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah19.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Bilangan ayunan Numberofoscillations"
+          },
+          {
+              "id": "B",
+              "teks": "Tempoh ayunan Period ofoscillation"
+          },
+          {
+              "id": "C",
+              "teks": "Amplitud ayunan Amplitude ofoscillation"
+          },
+          {
+              "id": "D",
+              "teks": "Sesaran ayunan Displacementof oscillation"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Inersia suatu objek bergantung secara langsung kepada jisimnya sahaja mengikut Hukum Gerakan Newton Pertama. Semakin besar jisim objek, semakin besar inersianya. Oleh itu, objek dengan jisim terbesar mempunyai inersia paling besar (Jawapan: B).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q25",
+      "sumber": "Percubaan Kedah 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 25,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 20 menunjukkan sebuah hoverkraf\nmembawa pelancong meronda di satu kawasan\npaya. Hoverkraf itu bergerak dengan laju yang\ntinggi.\nDiagram 20 shows a hovercraft carrying tourist\nroaming around a swamp area. The hovercrafi\nmoves with a high speed. (Kedah: 2022)\nPergerakan hoverkraf dapat diterangkan oleh\nThe hovercraft movement can be explained by",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah20.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Prinsip Keabadian Momentum Principle ofConservationofMomentum"
+          },
+          {
+              "id": "B",
+              "teks": "Prinsip Keabadian Tenaga Principle ofConservationofEnergy"
+          },
+          {
+              "id": "C",
+              "teks": "Hukum Gerakan Newton Pertama Newton 's First Law ofMotion"
+          },
+          {
+              "id": "D",
+              "teks": "Hukum Gerakan Newton Kedua Newton 's Second Law ofMotion 18"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Prinsip Keabadian Momentum menyatakan bahawa jumlah momentum sebelum perlanggaran adalah sama dengan jumlah momentum selepas perlanggaran jika tiada daya luar bertindak ke atas sistem tertutup itu (Hukum Gerakan Newton Ketiga). Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q26",
+      "sumber": "Percubaan Kedah 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 26,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajalh 21 menunjukkan seorang atlet perenang\nmenekan satu blok pelepas untuk memulakan\nperlumbaan bagi meningkatkan perubahan\nmomentum.\nDiagramn 21 shows a swimnming athlete pressing\na starting block to start a race to increase the\nchangeofmomentum. (Kedah: 2022)\nBlok pelepas\nSlarting block\nPerubahan momentum adalah\nThe change ofmomnentumis",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah21.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "daya impuls"
+          },
+          {
+              "id": "B",
+              "teks": "impuls"
+          },
+          {
+              "id": "C",
+              "teks": "tekanan impulsive force pressure"
+          },
+          {
+              "id": "D",
+              "teks": "kuasa impulse power"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Momentum ditakrifkan sebagai hasil darab jisim dengan halaju (p = mv). Ia merupakan kuantiti vektor yang mempunyai magnitud dan arah. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q27",
+      "sumber": "Percubaan Kelantan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 27,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Acara sukan yang manakah menggunakan\nPrinsip Keabadian Momentum?\nWhich sport event uses the Principle of\nConservationofMomentum? (Kelantan: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Acara golf / Golf event"
+          },
+          {
+              "id": "B",
+              "teks": "Acara menembak / Shooting event"
+          },
+          {
+              "id": "C",
+              "teks": "Acara lompat tinggi / High jump event"
+          },
+          {
+              "id": "D",
+              "teks": "Acara renang / Swimming event"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Prinsip Keabadian Momentum menyatakan bahawa jumlah momentum sebelum perlanggaran adalah sama dengan jumlah momentum selepas perlanggaran jika tiada daya luar bertindak ke atas sistem tertutup itu (Hukum Gerakan Newton Ketiga). Jawapan: D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q28",
+      "sumber": "Percubaan MRSM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 28,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 22 menunjukkan graf halaju, v melawan\nmasa, t bagi sebuah objek.\nDiagram 22 shows a graph of velocity, v against\ntime, t of an object. (MRSM: 2022)\nv (m)\n20\nPernyataan manakah yang benar?\nWhich statement is correct?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah22.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jumlah sesaran objek dalam masa 50 s ialah 700 m Total displacement object in 50 s is 700 m"
+          },
+          {
+              "id": "B",
+              "teks": "Objek tersebut kekal pegun dari t= 20 s hingga t =40 s The object remains stationary from t= 20 s to = 40 s"
+          },
+          {
+              "id": "C",
+              "teks": "Objek bergerak dengan nyahpecutan dari t = 40 s hingga t= 50 s The object decelerates from t = 40 s to t= 50 S"
+          },
+          {
+              "id": "D",
+              "teks": "Objek bergerak dengan pecutan bertambah dari t = 0 s hingga t= 20 s The object moves with increasing acceleration from t=0s to t= 20 s"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q29",
+      "sumber": "Percubaan MRSM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 29,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.3 Mewajarkan kesan inersia dalam kehidupan harian",
+      "spKod": "2.4.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 23 menunjukkan payung yang basah\ndipusing dan dihentikan dengan tiba-tiba\nmenyebabkan titisan air meninggalkan\npermukaan payung.\nDiagram 23 shows a wet umbrella is rotated with\na sudden stop causes water droplets leave the\nsurface of the umbrella. (MRSM: 2022)\nHukum fizik manakah menerangkan situasi di\natas?\nWhich physics law explained the above siluation?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah23.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Hukum Gerakan Newton Pertama Newton 's First Law of Motion"
+          },
+          {
+              "id": "B",
+              "teks": "Hukum Gerakan Newton Kedua Newton s Second Law ofMotion"
+          },
+          {
+              "id": "C",
+              "teks": "Hukum Gerakan Newton Ketiga Newton s Third Law of Motion"
+          },
+          {
+              "id": "D",
+              "teks": "Hukum Kegravitian Semesta Newton Newton 's Universal Law of Gravitation"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.4 Inersia, konsep yang diaplikasikan menghasilkan jawapan A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q30",
+      "sumber": "Percubaan Negeri Sembilan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 30,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 24 menunjukkan sebuah pasu yang\ndiletakkan di atas meja.\nDiagran 24 shows a vase which is placed on a\ntable. (Negeri Sembilan: 2022)\nPengubahsuaian manakah pada pasu yang akan\nmeningkatkan inersia?\nWhich modification on vase will increase Us\ninertia?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah24.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Tambahkan ketinggian Increase the height"
+          },
+          {
+              "id": "B",
+              "teks": "Tambahkan luas tapak Increase the base area"
+          },
+          {
+              "id": "C",
+              "teks": "Gunakan tapak yang lebih tebal dan berat Use a thicker and heavier base"
+          },
+          {
+              "id": "D",
+              "teks": "Rendahkan pusat graviti Lower the centre ofgravity"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Inersia ialah sifat semula jadi suatu objek yang menentang sebarang perubahan kepada keadaan asalnya, sama ada keadaan pegun atau keadaan gerakan (Hukum Gerakan Newton Pertama). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q31",
+      "sumber": "Percubaan Negeri Sembilan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 31,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 25 menunjukkan seorang pemain besbol\nmemukul sebiji bola.\nDiagram 25 shows a baseball player hitting a\nball. (Negeri Sembilan: 2022)\nKayu besbol\nBaseball bat\nDaya impuls terhasil apabila\nAn impulsive force is produced when",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah25.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "bola bergerak di udara the ball noves in the air"
+          },
+          {
+              "id": "B",
+              "teks": "kayu besbol dihayun ke belakang the baseball bat is swung backward"
+          },
+          {
+              "id": "C",
+              "teks": "kayu besbol dihayun pada halaju yang tinggi the baseball bat is swung at high velocity"
+          },
+          {
+              "id": "D",
+              "teks": "kayu besbol menghentam bola the baseball bat hits the ball"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Impuls ditakrifkan sebagai perubahan momentum (J = mv - mu = Ft). Daya impuls ialah kadar perubahan momentum dalam perlanggaran atau letupan. Jawapan yang betul ialah D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q32",
+      "sumber": "Percubaan Pahang 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 32,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Hukum Gerakan Newton Pertama menyatakan\nbahawa sesuatu objek akan kekal dalam keadaan\npegun atau bergerak dengan halaju malar jika\ntiada daya luar bertindak ke atasnya. Apakah\nkonsep bagi pernyataan ini?\nNewton 's First Law of Motion states that an\nobject will remain at rest or move with a constant\nvelocity if there is no external force acting on it.\nWhat is theconcept for this statement?\n(Pahang: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Daya"
+          },
+          {
+              "id": "B",
+              "teks": "Inersia"
+          },
+          {
+              "id": "C",
+              "teks": "Momentum Force Momentum"
+          },
+          {
+              "id": "D",
+              "teks": "Gerakan jatuh bebas Inertia Free fall motion"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q33",
+      "sumber": "Percubaan Pahang 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 33,
+      "sk": "SK 2.6 Daya",
+      "sp": "SP 2.6.1 Mendefinisikan daya sebagai kadar perubahan momentum, F = ma (Hukum Gerakan Newton Kedua)",
+      "spKod": "2.6.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 38-39",
+      "rujukanBukuTeks": "Buku Teks T4 ms 66-72",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 14-16",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.6 Daya",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 26 (a) menunjukkan sebuah troli tanpa\nmuatan sedang ditolak dengan daya, F. Rajah 26\n(b) menunjukkan troli tersebut dengan muatan\nsedang ditolak dengan daya yang sama.\nDiagram 26 (a) shows a trolley without load\nbeing pushed with force, F. Diagram 26 (b) shows\nthe trolley with load being pushed with the same\nforce. (Pahang: 2022)\nRajah 26 (a) Rajah 26 (b)\nApakah yang terjadi kepada pecutan troli dalam\nRajah 26 (b)?\nWhat happen to the acceleration of the trolley in\nDiagram 26 (b)?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah26.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Berkurang / Decrease"
+          },
+          {
+              "id": "B",
+              "teks": "Bertambah / Increase"
+          },
+          {
+              "id": "C",
+              "teks": "Tidak berubah / Unchanged"
+          },
+          {
+              "id": "D",
+              "teks": "Sifar / Zero"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q34",
+      "sumber": "Percubaan Perlis 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 34,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Antara pernyataan berikut, yang manakah betul\nmengenai sesaran?\nWhich of the following statements is correct\nabout displacemenr? (Perlis: 2022)\nI Panjang satu lintasan yang dilalui oleh\npergerakan suatu objek\nThe length of a trajectory travelled by the\nmovement of an object\nII Jarak terpendek yang dilalui pada satu arah\ntertentu\nThe shortest distance travelled in a specific\ndirection\nIII Nilainya sama dengan panjang garis lurus di\nantara kedudukan awal dengan akhir\nThe value is equal to the length of the straight\nlinebetweenthe initial and final positions",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "I dan II"
+          },
+          {
+              "id": "B",
+              "teks": "II dan III"
+          },
+          {
+              "id": "C",
+              "teks": "I dan III I and II I and III"
+          },
+          {
+              "id": "D",
+              "teks": "I, II dan III II and II I, II and III"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q35",
+      "sumber": "Percubaan Perlis 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 35,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.1 Mentafsir jenis gerakan dari graf sesaran-masa, halaju-masa dan pecutan-masa",
+      "spKod": "2.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 27 menunjukkan graf gerakan scbuah\nmotosikal.\nDiagram 27 shows a graph of the motion of a\nmotorcycle. (Perlis: 2022)\nHalaju,/ m s\nelocin\n100\n\\DE 20 Masa,s\n10 12 14K Ime\n-50+ .....\nPernyataan manakah yang betul tentang gerakan\ntersebut?\nWhich statement is correct regarding the motion?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah27.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Motosikal mengalami pecutan seragam di AB The motocycle is in uniform acceleration at AB"
+          },
+          {
+              "id": "B",
+              "teks": "Motosikal dalam keadaan pegun di BC The motorcycle is in stationary at BC"
+          },
+          {
+              "id": "C",
+              "teks": "Motosikal mengubah arah ke belakang di CD The motorcycle changes the direction backwad at CD"
+          },
+          {
+              "id": "D",
+              "teks": "Motosikal mengurangkan halaju di EF The motorcvcle reduces the velocity at EF"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q36",
+      "sumber": "Percubaan Perlis 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 36,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.3 Memerihalkan kesan dan aplikasi daya impuls dalam kehidupan harian",
+      "spKod": "2.7.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 28 menunjukkan sebuah kereta remuk\napabila melanggar sebatang pokok.\nDiagram 28 shows a crushed car when it collides\na tree. (Perlis: 2022)\n4\nMengapakah bahagian depan dan belakang kereta\ndircka supaya mudah remuk?\nWhy is the front and rear of the car are designed\nto be easily crushed?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah28.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Untuk mengurangkan masa impak dan mengurangkan daya impuls To reduce the impact time and reduce the inpulsive force"
+          },
+          {
+              "id": "B",
+              "teks": "Untuk mengurangkan momentum To reduce the momentum"
+          },
+          {
+              "id": "C",
+              "teks": "Untuk meningkatkan masa impak dan mengurangkan daya impuls To increase the impact time and reduce the inıpulsiveforce"
+          },
+          {
+              "id": "D",
+              "teks": "Untuk meningkatkan daya geseran To increase the frictional force"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Daya impuls berbanding songsang dengan masa impak: F = (mv - mu) / t. Memanjangkan masa tindak balas / masa impak akan mengurangkan magnitud daya impuls yang bertindak, sekaligus mengurangkan kecederaan (Hukum Gerakan Newton Ketiga). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q37",
+      "sumber": "Percubaan Putrajaya 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 37,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 29 menunjukkan dua orang budak\nmelancarkan sebuah roket air.\nDiagram 29 shows two boys launching a water\nrocket. (Putrajaya: 2022)\nPrinsip fizik yang diaplikasikan adalah\nThe physics principle applied is",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah29.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "konsep inersia conceptof inertia"
+          },
+          {
+              "id": "B",
+              "teks": "keseimbangan daya equilibrium offorces"
+          },
+          {
+              "id": "C",
+              "teks": "prinsip keabadian tenaga principle ofconsenvationof energy"
+          },
+          {
+              "id": "D",
+              "teks": "prinsip keabadian momentum principle ofconservationofnnomentum"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Kesan inersia menyebabkan objek mengekalkan keadaan asalnya (sama ada pegun atau terus bergerak dengan halaju malar dalam garis lurus) apabila tiada daya luar bertindak ke atasnya (Hukum Gerakan Newton Pertama). Jawapan yang betul ialah D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q38",
+      "sumber": "Percubaan Putrajaya 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 38,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.3 Memerihalkan kesan dan aplikasi daya impuls dalam kehidupan harian",
+      "spKod": "2.7.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 30 menunjukkan scorang atlet\nmembengkokkan kakinya ketika mendarat dalam\nacara lompat jauh.\nDiagram 30 shows an athlete bending his legs\nwhen landing in a long jump event.\n(Putrajaya: 2022)\n(3)\nMengapa atlet tersebut harus membengkokkan\nkakinya?\nWhy does the athlete need to bend his legs?\nUntuk mengurangkan impuls\nTo reduce the impulse\nII Untuk mengurangkan daya impuls\nTo reduce impulsive force\nII Untukmenambahmasaketika di udara\nTo increase the time in the air\nIV Untuk mendapat jarak paling maksimum\nTo get maximum distance",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah30.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "I dan II"
+          },
+          {
+              "id": "B",
+              "teks": "I dan IV"
+          },
+          {
+              "id": "C",
+              "teks": "II dan III I and II II and III"
+          },
+          {
+              "id": "D",
+              "teks": "II danIV I and IV II andIV"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Daya impuls berbanding songsang dengan masa impak: F = (mv - mu) / t. Memanjangkan masa tindak balas / masa impak akan mengurangkan magnitud daya impuls yang bertindak, sekaligus mengurangkan kecederaan (Hukum Gerakan Newton Ketiga). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q39",
+      "sumber": "Percubaan SBP 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 39,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.1 Menghuraikan jenis gerakan linear bagi objek yang berada dalam keadaan pegun, halaju seragam dan halaju tidak seragam",
+      "spKod": "2.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Carta pita manakah menunjukkan pergerakan\nobjek dengan pecutan seragam?\nWhich tape chart shows a motion of object with\nuniform acceleration? (SBP: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Carta pita A (Jarak detik bertambah secara seragam) / Tape chart A"
+          },
+          {
+              "id": "B",
+              "teks": "Carta pita B (Jarak detik seragam) / Tape chart B"
+          },
+          {
+              "id": "C",
+              "teks": "Carta pita C (Jarak detik berkurang secara seragam) / Tape chart C"
+          },
+          {
+              "id": "D",
+              "teks": "Carta pita D (Jarak detik tidak seragam) / Tape chart D"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q40",
+      "sumber": "Percubaan SBP 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 40,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.1 Mentafsir jenis gerakan dari graf sesaran-masa, halaju-masa dan pecutan-masa",
+      "spKod": "2.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 31 menunjukkan seorang penunggang\nbasikal sedang menaiki sebuah bukit dengan\nnyahpecutan seragam. Penunggang basikal itu\nkemudiannya menuruni bukit itu dengan pecutan\nseragam.\nDiagram 31 shows a cyclist moving up a hill with\nuniform deceleration. The cyclist then went down\nthe hill with uniform acceleration. (SBP: 2022)\nGraf halaju, v melawan masa, t yang manakah\nmenunjukkan gerakan basikal itu?\nWhich velocity, v against time, t graph shows the\nmotion of the bicycle?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah31.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Halaju berkurang kemudian bertambah) / Graph A"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Halaju bertambah kemudian berkurang) / Graph B"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Halaju malar kemudian bertambah) / Graph C"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Halaju berkurang ke sifar) / Graph D"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q41",
+      "sumber": "Percubaan SBP 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 41,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 32 menunjukkan sebiji batu bata terjatuh\ndari bangunan tinggi di tapak pembinaan.\nDiagram 48 shows a piece of brick falls from a\ntall building at a construction site.\n(SBP: 2022)\nBata\nBrick\nTanah\nGround\nApakah yang berlaku kepada halaju dan pecutan\nbatu bata itu semasa jatuh ke tanah?\nWhat happens to the velocity and acceleration of\nthe brick as it falls to the ground?\nHalaju Pecutan\nVelocity Acceleration\nMalar Malar\nConstant Constant\nBertambah secara seragam Malar\nIncreasing uniformly Constant\nMalar Bertambah\nC\nConstant Increasing\nBertambah secara seragam Bertambah\nIncreasing unifornmly Increasing",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah32.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju: Malar (Constant) | Pecutan: Malar (Constant)"
+          },
+          {
+              "id": "B",
+              "teks": "Halaju: Bertambah secara seragam (Increasing uniformly) | Pecutan: Malar (Constant)"
+          },
+          {
+              "id": "C",
+              "teks": "Halaju: Malar (Constant) | Pecutan: Bertambah (Increasing)"
+          },
+          {
+              "id": "D",
+              "teks": "Halaju: Bertambah secara seragam (Increasing uniformly) | Pecutan: Bertambah (Increasing)"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q42",
+      "sumber": "Percubaan SBP 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 42,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Kebanyakkan kapal kargo yang besar mematikan\nenjin kira-kira 25 km dari limbungan kerana\nMost cargo ship turn off their engines about 25\nkm away from the dock because (SBP: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "daya impuls kecil impulsive force is small"
+          },
+          {
+              "id": "B",
+              "teks": "inersia kapal kargo besar inertia ofthe cargo ship is large"
+          },
+          {
+              "id": "C",
+              "teks": "masa perlanggaran tinggi time of inpact is high"
+          },
+          {
+              "id": "D",
+              "teks": "impuls kapal kargo besar inpulse ofthe cargo ship is big"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Impuls ditakrifkan sebagai perubahan momentum (J = mv - mu = Ft). Daya impuls ialah kadar perubahan momentum dalam perlanggaran atau letupan. Jawapan yang betul ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q43",
+      "sumber": "Percubaan SBP 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 43,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.3 Memerihalkan kesan dan aplikasi daya impuls dalam kehidupan harian",
+      "spKod": "2.7.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 33 menunjukkan seorang pemain besbol\nmelakukan tindakan ikut lajak untuk memukul\nbola.\nDiagram 33 shows a baseball player taking a\nfollow through action to hit the ball.\n(SBP: 2022)\nBol:\nGerakantangan Ball\nMotion ofhands\nTindakan ini adalah untuk\nThis action is to",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah33.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "menambah daya impuls increase impulsive Jorce"
+          },
+          {
+              "id": "B",
+              "teks": "mengurangkan masa pelanggaran reduce time of impact"
+          },
+          {
+              "id": "C",
+              "teks": "menambah jarak bola selepas dipukul increase the distance of the ball after being hit"
+          },
+          {
+              "id": "D",
+              "teks": "mengurangkan perubahan momentum reduce change ofmomentum"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Impuls ditakrifkan sebagai perubahan momentum (J = mv - mu = Ft). Daya impuls ialah kadar perubahan momentum dalam perlanggaran atau letupan. Jawapan yang betul ialah A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q44",
+      "sumber": "Percubaan SBP 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 44,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 34 menunjukkan seorang ahli bomba\nsedang memegang hos air dengan kuat supaya\nsentakan hos ke belakang dapat diatasi semasa air\ndipancut keluar dari hos itu.\nDiagram 34 shows a firefighter holding a water\nhose firmly so that the recoil of the hose can be\novercome as the water is ejected from the hose.\n(SBP: 2022)\nHos air\nWater- liose\nPancutan air\nWater spurt\nHukum fizik manakah yang boleh menerangkan\nsituasi ini?\nWhich physics 'laww can explain this situation?\nA Hukum Gerakan Newton Pertama\nNewton 's First Lavw of Motion\nB Hukum Gerakan Newton Kedua\nNewton s Second Law of Motion\nC Hukum Gerakan Newton Ketiga\nNewton 's Third Law of Motion",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah34.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Hukum Gerakan Newton Pertama / Newton's First Law of Motion"
+          },
+          {
+              "id": "B",
+              "teks": "Hukum Gerakan Newton Kedua / Newton's Second Law of Motion"
+          },
+          {
+              "id": "C",
+              "teks": "Hukum Gerakan Newton Ketiga / Newton's Third Law of Motion"
+          },
+          {
+              "id": "D",
+              "teks": "Prinsip Keabadian Tenaga / Principle of Conservation of Energy"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.4 Inersia, konsep yang diaplikasikan menghasilkan jawapan C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q45",
+      "sumber": "Percubaan Selangor: Set 1 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 45,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 35 menunjukkan scbuah kereta berhenti\nsecara tiba-tiba, menycbabkan penumpang dalam\nkereta terscbut terhumban ke hadapan.\nDiagram 35 shows a car stopping suddenly,\ncausing passengers in the car to be thrown\nforward. (Selangor: Set 1: 2022)\nApakah konsep yang menerangkan situasi di\natas?\nWhat concept can explain the above siluation?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah35.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graviti"
+          },
+          {
+              "id": "B",
+              "teks": "Inersia"
+          },
+          {
+              "id": "C",
+              "teks": "Momentum Gravity Momentum"
+          },
+          {
+              "id": "D",
+              "teks": "Keseimbangan daya Inertia Equilibrium offorces"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.5 Momentum, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q46",
+      "sumber": "Percubaan Selangor: Set 1 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 46,
+      "sk": "SK 2.8 Berat",
+      "sp": "SP 2.8.1 Menyatakan berat sebagai daya graviti yang bertindak ke atas suatu objek, W = mg",
+      "spKod": "2.8.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 42",
+      "rujukanBukuTeks": "Buku Teks T4 ms 79-82",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 20",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.8 Berat",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Pernyataan manakah yang benar?\nWhich statement is true? (Selangor: Set 1: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Berat ialah kuantiti asas Weight is base quantity"
+          },
+          {
+              "id": "B",
+              "teks": "Berat ialah kuantiti skalar Weight is a scalar quantity"
+          },
+          {
+              "id": "C",
+              "teks": "Unit S.I. bagi berat ialah Newton (N) The S.I unit for weight is Newton (N)"
+          },
+          {
+              "id": "D",
+              "teks": "Berat sesuatu objek adalah sama di mana- mana The weight of an object is the same everywhere"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Berat ialah daya graviti yang bertindak ke atas suatu objek (W = mg). Berat merupakan kuantiti vektor (diukur dalam Newton, N) yang bergantung kepada kekuatan medan graviti, berbeza dengan jisim yang merupakan kuantiti asas malar (kg). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q47",
+      "sumber": "Percubaan Selangor: Set 2 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 47,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 36 menunjukkan seorang budak lelaki\ndikejar oleh seekor lembu. Budak lelaki itu\nberlari secara zigzag kerana dia tahu bahawa\nlembu itu akan mengalami kesukaran untuk kerap\nmengubah arah pergerakannya.\nDiagram 36 shows a boy being chased by a bull.\nThe boy ran in a zigzag manner because he knows\nthat the bull will fnd it difficult to constantly\nchange the direction of itsmovement.\n(Selangor: Set 2: 2022)\n24\nIni adalah disebabkan\nThis is because",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah36.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "lembu berlari lebih laju daripada budak lelaki itu the bull runs faster than the boy"
+          },
+          {
+              "id": "B",
+              "teks": "lembu mempunyai jisim yang lebih besar daripada budak lelaki itu the bull has a greater mass than the boy"
+          },
+          {
+              "id": "C",
+              "teks": "lembu mempunyai saiz yang lebih besar daripada budak lelaki itu the bull has a greater size than the boy"
+          },
+          {
+              "id": "D",
+              "teks": "lembu mempunyai kaki yang lebih panjang daripada budak lelaki itu the bull has longer legs than the boy"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.4 Inersia, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q48",
+      "sumber": "Percubaan Selangor: Set 2 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 48,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Antara berikut yang manakah adalah benar?\nWhich ofthe following is true?\n(Selangor: Set 2: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jisim bergantung kepada graviti Mass depends on gravity"
+          },
+          {
+              "id": "B",
+              "teks": "Berat bergantung kepada graviti Weight depends on gravity"
+          },
+          {
+              "id": "C",
+              "teks": "Jisim ialah satu daya, berat bukan satu daya Mass is a force, weight is not a force"
+          },
+          {
+              "id": "D",
+              "teks": "Berat ialah satu kuantiti skalar, manakala jisim ialah satu vektor Weight is a scalar quantity, while mass is a vector"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.4 Inersia, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q49",
+      "sumber": "Percubaan SMKA 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 49,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 37 menunjukkan carta pita detik bagi\npergerakan sebuah troli.\nDiagran 37 shows a ticker tape chart for a\nmotion ofa trolley. (SMKA: 2022)\nPanjang I cm\nLengıh\nEEEEH\nMasa/s\nTime\nApakah jenis gerakan troli itu?\nWhat is the motion of the trolley?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah37.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Pegun / Stationary"
+          },
+          {
+              "id": "B",
+              "teks": "Halaju seragam / Constant velocity"
+          },
+          {
+              "id": "C",
+              "teks": "Pecutan seragam / Constant acceleration"
+          },
+          {
+              "id": "D",
+              "teks": "Nyahpecutan seragam / Constant deceleration"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q50",
+      "sumber": "Percubaan SMKA 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 50,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 38 menunjukkan sebuah troli berisi blok-\nblok kayu bergerak menuruni sebuah landasan\ncondong. Didapati blok-blok kayu itu terhumban\nke hadapan apabila pergerakan troli itu\ndihentikan oleh satu blok bata.\nDiagran 38 shows a trolley containing wooden\nblocks oving down an inclined runway. It was\nfound that the wooden blocks were thrown\nforward when the movement of the trolley was\nstopped by a block of brick. (SMKA: 2022)\nBlokbata\nBlock ofbrick\nAntara konsep fizik berikut, yang manakah\nmenerangkan situasi di atas?\nWhich of the following physics concept explain\nthe above situation?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah38.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Inersia"
+          },
+          {
+              "id": "B",
+              "teks": "Impuls"
+          },
+          {
+              "id": "C",
+              "teks": "Momentum Inertia Momentum"
+          },
+          {
+              "id": "D",
+              "teks": "Daya impuls Impulse Impulsiveforce"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Inersia ialah sifat semula jadi suatu objek yang menentang sebarang perubahan kepada keadaan asalnya, sama ada keadaan pegun atau keadaan gerakan (Hukum Gerakan Newton Pertama). Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q51",
+      "sumber": "Percubaan SMKA 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 51,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 39 menunjukkan sebuah buaian Newton.\nApabila bandul X dilepaskan, bandul Y akan\nberayun ke kanan.\nDiagram 39 shows Newton's cradle. When the\npendulunn X is released, the pendulum Y will\nswing to the right. (SMKA: 2022)\nBandul X Bandul Y\nPendulun\nPendulum Y\nAntara prinsip fizik berikut, yang manakah\nmenerangkan ayunan bandul Y?\nWhich of the following physics 'principle explain\nthe oscillation ofpendulunı Y?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah39.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Bernoulli"
+          },
+          {
+              "id": "B",
+              "teks": "Superposisi"
+          },
+          {
+              "id": "C",
+              "teks": "Keseimbangan daya Bernoulli Force in equilibrium"
+          },
+          {
+              "id": "D",
+              "teks": "Keabadian Superposition Momentum Conservation of Momentun"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.5 Momentum, konsep yang diaplikasikan menghasilkan jawapan D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q52",
+      "sumber": "Percubaan Terengganu 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 52,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 40 menunjukkan satu keratan pita detik\nyang terhasil olchgcerakanscbuah troli.\nDiagram 40 shows a cutting of ticker tape\nproduced by the motion of a trolley.\n(Terengganu: 2022)\nArab gerakan\nDirection ofmotion\nApakah jenis gerakan troli itu?\nWhat type of motion of the trolley?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah40.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju seragam"
+          },
+          {
+              "id": "B",
+              "teks": "Memecut"
+          },
+          {
+              "id": "C",
+              "teks": "Nyahpecutan Constant velocity Deceleration"
+          },
+          {
+              "id": "D",
+              "teks": "Pegun Accelerate Stationary"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q53",
+      "sumber": "Percubaan Terengganu 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 53,
+      "sk": "SK 2.8 Berat",
+      "sp": "SP 2.8.1 Menyatakan berat sebagai daya graviti yang bertindak ke atas suatu objek, W = mg",
+      "spKod": "2.8.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 42",
+      "rujukanBukuTeks": "Buku Teks T4 ms 79-82",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 20",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.8 Berat",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Bagaimana keadaan sebuah troli yang berat untuk\nmemulakan dan memberhentikan gerakan?\nHow is the condition of a heavy trolley to start it\nmotion and to stop it motion?\n(Terengganu: 2022)\nUntuk Untuk\nmemulakan memberhentikan\nTo start To. stop\nSukar Sukar\nDifficult Difficult\nSukar Senang\nDifficult Easy\nSenang Sukar\nEasy Difficult\nD Senang Senang\nEasy Easy",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Untuk memulakan: Sukar | Untuk memberhentikan: Sukar (To start: Difficult | To stop: Difficult)"
+          },
+          {
+              "id": "B",
+              "teks": "Untuk memulakan: Sukar | Untuk memberhentikan: Senang (To start: Difficult | To stop: Easy)"
+          },
+          {
+              "id": "C",
+              "teks": "Untuk memulakan: Senang | Untuk memberhentikan: Sukar (To start: Easy | To stop: Difficult)"
+          },
+          {
+              "id": "D",
+              "teks": "Untuk memulakan: Senang | Untuk memberhentikan: Senang (To start: Easy | To stop: Easy)"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berat ialah daya graviti yang bertindak ke atas suatu objek (W = mg). Berat merupakan kuantiti vektor (diukur dalam Newton, N) yang bergantung kepada kekuatan medan graviti, berbeza dengan jisim yang merupakan kuantiti asas malar (kg). Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q54",
+      "sumber": "Percubaan Terengganu 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 54,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 41 menunjukkan seorang pemain ping-\npong bersedia untuk memukul bola.\nDiagram 41 shows a table-tennis player ready to\nhit a ball. (Terengganu: 2022)\nDaya impuls dihasilkan apabila\nImpulsive force is produced when",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah41.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "raket dihayun pada halaju yang tinggi the racket is swung at high velocity"
+          },
+          {
+              "id": "B",
+              "teks": "raket dihayun ke belakang the racket is swung backward"
+          },
+          {
+              "id": "C",
+              "teks": "raket menghentam bola ping-pong the racket hits the ping-pong ball"
+          },
+          {
+              "id": "D",
+              "teks": "raket digenggam dengan kuat the racket is gripped strongl"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Impuls ditakrifkan sebagai perubahan momentum (J = mv - mu = Ft). Daya impuls ialah kadar perubahan momentum dalam perlanggaran atau letupan. Jawapan yang betul ialah C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q55",
+      "sumber": "Percubaan Terengganu 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 55,
+      "sk": "SK 2.8 Berat",
+      "sp": "SP 2.8.1 Menyatakan berat sebagai daya graviti yang bertindak ke atas suatu objek, W = mg",
+      "spKod": "2.8.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 42",
+      "rujukanBukuTeks": "Buku Teks T4 ms 79-82",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 20",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.8 Berat",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Berat Irfan di Bumi ialah 800 N. Apakah yang\nterjadi kepada beratnya apabila berada di\npermukaan Bulan?\nIrfan's weight on Earth is 800 N. what will\nhappen to his weight on the surface of Moon?\n(Terengganu: 2022)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Bertambah"
+          },
+          {
+              "id": "B",
+              "teks": "Berkurang"
+          },
+          {
+              "id": "C",
+              "teks": "Tidak berubah Increased Unchanged"
+          },
+          {
+              "id": "D",
+              "teks": "Menjadi sifar Decreased Becomes zero"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berat ialah daya graviti yang bertindak ke atas suatu objek (W = mg). Berat merupakan kuantiti vektor (diukur dalam Newton, N) yang bergantung kepada kekuatan medan graviti, berbeza dengan jisim yang merupakan kuantiti asas malar (kg). Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q56",
+      "sumber": "Percubaan Kedah 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 56,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 42 menunjukkan dua biji bebola keluli, P\ndan Q dijatuhkan serentak dari puncak bangunan\nke tanah. Abaikan rintangan udara.\nDiagran 42 shows two steel balls, P and Q, are\ndropped fiom top ofa building to the ground.\nAssume the air resistance is negligible.\n(Kedah: 2021)\n(0)\nAntara graf halaju-masa yang berikut yang\nmanakah menunjukkan gerakan yang betul bagi\nP dan Q?\nWhich ofthe following velocity-time graph shows\nthe correct motion ofP and Q?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah42.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Garis halaju-masa P dan Q bertindih dengan kecerunan g) / Graph A"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Kecerunan P lebih curam daripada Q) / Graph B"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Kecerunan Q lebih curam daripada P) / Graph C"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Halaju mendatar bagi kedua-dua objek) / Graph D"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q57",
+      "sumber": "Percubaan Kedah 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 57,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 43 menunjukkan dua sfera, R diperbuat\ndaripada gabus, dan S diperbuat daripada keluli.\nKedua-duanya bergerak dengan kelajuan 3 ms'.\nDiagram 43 shows spheres, R made of cork, and\nS made of steel. Both are moving at a speed of 3\nms'. (Kedah: 2021)\n3 ms 3 ms\nPerbandingan manakah betul mengenai\nmomentum?\nWhich comparison about the momentum is\ncorrect?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah43.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Momentum R < Momentum S"
+          },
+          {
+              "id": "B",
+              "teks": "Momentum R > Momentum S"
+          },
+          {
+              "id": "C",
+              "teks": "Momentum R = Momentum S"
+          },
+          {
+              "id": "D",
+              "teks": "Momentum R = Momentum S = 0"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Momentum ditakrifkan sebagai hasil darab jisim dengan halaju (p = mv). Ia merupakan kuantiti vektor yang mempunyai magnitud dan arah. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q58",
+      "sumber": "Percubaan Kelantan 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 58,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 44 menunjukkan seketul batu dan sehelai\nbulu ayam dijatuhkan serentak dari satu\nketinggian yang sama.\nDiagram 44 shows a stone and a piece of feather\nwere dropped simultaneously from the same\nheight. (Kelantan: 2021)\nApa yang berlaku kepada masa kejatuhan bagi\nkedua-dua objek?\nWhathappens to the fall time for both objects?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah44.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Bulu ayam jatuh lebih cepat / The feather falls faster"
+          },
+          {
+              "id": "B",
+              "teks": "Batu jatuh lebih cepat / The stone falls faster"
+          },
+          {
+              "id": "C",
+              "teks": "Sama / Equal"
+          },
+          {
+              "id": "D",
+              "teks": "Kedua-dua objek tidak sampai ke tanah / Both objects do not reach the ground"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.3 Gerakan Jatuh Bebas, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q59",
+      "sumber": "Percubaan Sarawak 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 59,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 45 menunjukkan laluan yang dilalui oleh\nseoranglelaki.\nDiagrann 45 shows the path travelled by amnan.\n(Sarawak: 2021)\nLaluan yng dilalui\nPatk trarlled\nApakah kuantiti yang boleh ditentukan dari\nlaluan PQR dan PR?\nWhat is the quantity can be determine from path\nPQR and PR?\nPQR PR\nSesaran dan halaju\nJarak dan laju",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah45.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "PQR: Jarak dan laju (Distance and speed) | PR: Sesaran dan halaju (Displacement and velocity)"
+          },
+          {
+              "id": "B",
+              "teks": "PQR: Sesaran dan halaju (Displacement and velocity) | PR: Jarak dan laju (Distance and speed)"
+          },
+          {
+              "id": "C",
+              "teks": "PQR: Jarak dan laju (Distance and speed) | PR: Jarak dan laju (Distance and speed)"
+          },
+          {
+              "id": "D",
+              "teks": "PQR: Sesaran dan halaju (Displacement and velocity) | PR: Sesaran dan halaju (Displacement and velocity)"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q60",
+      "sumber": "Percubaan Sarawak 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 60,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.3 Memerihalkan kesan dan aplikasi daya impuls dalam kehidupan harian",
+      "spKod": "2.7.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 46 menunjukkan tindakan ikut lajak yang\ndilakukan oleh seorang pemain bola sepak.\nDiagram 46 shows follow through action by a\nfootball player. (Sarawak: 2021)\nTindakon ikut lajak\nollow through action\nApakah tujuan tindakan ikut lajak?\nWhat is the purpose offollow through actio?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah46.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Untuk meningkatkan daya impuls To increase the impulsive force"
+          },
+          {
+              "id": "B",
+              "teks": "Untuk meningkatkan impuls To increase the impulse"
+          },
+          {
+              "id": "C",
+              "teks": "Untuk meningkatkan inersia bola To increase the inertia of the ball"
+          },
+          {
+              "id": "D",
+              "teks": "Untuk mengurangkan perubalhan momentum bola To decrease the change in monentum of the ball"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Impuls ditakrifkan sebagai perubahan momentum (J = mv - mu = Ft). Daya impuls ialah kadar perubahan momentum dalam perlanggaran atau letupan. Jawapan yang betul ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q61",
+      "sumber": "Percubaan Terengganu 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 61,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Scbuah kereta yang bergerak dengan halaju\nseragam mempunyai pecutan",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "car noving with uniform velocity has acceleration (Terengganu: 2021) A bertambah"
+          },
+          {
+              "id": "B",
+              "teks": "seragam"
+          },
+          {
+              "id": "C",
+              "teks": "sifar increase zero"
+          },
+          {
+              "id": "D",
+              "teks": "berkurang uniform decrease"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q62",
+      "sumber": "Percubaan Terengganu 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 62,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Inersia suatu objek dipengaruhi oleh\nThe inertia of an object is affected by\n(Terengganu: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "pecutan jasad"
+          },
+          {
+              "id": "B",
+              "teks": "halaju jasad"
+          },
+          {
+              "id": "C",
+              "teks": "jisim jasad body body mass acceleration"
+          },
+          {
+              "id": "D",
+              "teks": "suhu jasad body velocity body tenmperatuwe"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Inersia ialah sifat semula jadi suatu objek yang menentang sebarang perubahan kepada keadaan asalnya, sama ada keadaan pegun atau keadaan gerakan (Hukum Gerakan Newton Pertama). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q63",
+      "sumber": "Percubaan Terengganu 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 63,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 47 menunjukkan satu daya bertindak pada\nsuatu objek.\nDiagram 47 shows a force acting on an object.\n(Terengganu: 2021)\ndaya\nforce\nImpuls yang diberikan kepada objek itu\ndipengaruhi oleh\nThe impulse given to the object is influenced by",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah47.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "daya sahaja force only"
+          },
+          {
+              "id": "B",
+              "teks": "jisim sahaja mass only"
+          },
+          {
+              "id": "C",
+              "teks": "daya dan masa hentaman Jorce and time impact"
+          },
+          {
+              "id": "D",
+              "teks": "daya, jisim dan masa hentaman force, mass and time impact"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Impuls ditakrifkan sebagai perubahan momentum (J = mv - mu = Ft). Daya impuls ialah kadar perubahan momentum dalam perlanggaran atau letupan. Jawapan yang betul ialah C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q64",
+      "sumber": "Percubaan Selangor: Set 1 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 64,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.3 Mewajarkan kesan inersia dalam kehidupan harian",
+      "spKod": "2.4.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Antara berikut yang manakah menunjukkan\nkesan inersia?\nWhich of he following shows effect of inertia'?\n(Selangor: Set 1: 2021)\nI Seorang budak perempuan mengeringkan\nrambut yang basah dengan menggerakkan\nkepalanya dengan cepat",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "girl dried her wet hair by moving her head quickly II Struktur keluli yang kukuh dipasangkan di ruang antara tempat duduk pemandu dengan kayu balak A sturdy steel structure is installed in the space between the driver s seat and the logs III Kepala tukul diketatkan dengan menghentakkan bahagian pemegangnya pada lantai The hammer head is tightened by striking the handle part on thefloor A I dan II"
+          },
+          {
+              "id": "B",
+              "teks": "I dan III"
+          },
+          {
+              "id": "C",
+              "teks": "II dan III I and II II and III"
+          },
+          {
+              "id": "D",
+              "teks": "I,Il dan III I and III 1, II and III"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Kesan inersia menyebabkan objek mengekalkan keadaan asalnya (sama ada pegun atau terus bergerak dengan halaju malar dalam garis lurus) apabila tiada daya luar bertindak ke atasnya (Hukum Gerakan Newton Pertama). Jawapan yang betul ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q65",
+      "sumber": "Percubaan Selangor: Set 1 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 65,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Antara yang berikut, yang manakah benar\nmengenai perlanggaran kenyal antara dua jasad?\nWhich of the following is true about an elastic\ncollision between two bodies?\n(Selangor: Set 1: 2021)\nJumlah tenaga\nJumlah momentum\nkinetik\nTotal momentum\nTotal kineticenerg\nDiabadikan Diabadikan",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jumlah momentum: Diabadikan (Conserved) | Jumlah tenaga kinetik: Diabadikan (Conserved)"
+          },
+          {
+              "id": "B",
+              "teks": "Jumlah momentum: Diabadikan (Conserved) | Jumlah tenaga kinetik: Tidak diabadikan (Not conserved)"
+          },
+          {
+              "id": "C",
+              "teks": "Jumlah momentum: Tidak diabadikan (Not conserved) | Jumlah tenaga kinetik: Diabadikan (Conserved)"
+          },
+          {
+              "id": "D",
+              "teks": "Jumlah momentum: Tidak diabadikan (Not conserved) | Jumlah tenaga kinetik: Tidak diabadikan (Not conserved)"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Dalam perlanggaran kenyal, kedua-dua jumlah momentum dan jumlah tenaga kinetik diabadikan, serta objek melantun semula selepas perlanggaran. Jawapan yang betul ialah A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q66",
+      "sumber": "Percubaan Selangor: Set 1 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 66,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.3 Memerihalkan kesan dan aplikasi daya impuls dalam kehidupan harian",
+      "spKod": "2.7.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 48 menunjukkan kawasan pendaratan\nlompat jauh yang berpasir.\nDiagram 48 shows a long jumppit which is filled\nwith sand. (Selangor: Set 1: 2021)\nTujuan pasir itu adalah untuk\nThe purpose of the sand in the pit is to\n28",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah48.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "mengurangkan impuls pada kaki atlet. reduce the impulse on the feet of the athlete."
+          },
+          {
+              "id": "B",
+              "teks": "mengurangkan daya impuls pada kaki atlet. reduce the impulsive force that acts on the leg of theathlete."
+          },
+          {
+              "id": "C",
+              "teks": "mengurangkan halaju atlet sebelum mendarat. reduce the velocity of the athlete just before landing."
+          },
+          {
+              "id": "D",
+              "teks": "mengurangkan masa tindak balas antara kaki atlet dengan tanah. reduce the reaction time between the feet of the athlete and the ground."
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Daya impuls berbanding songsang dengan masa impak: F = (mv - mu) / t. Memanjangkan masa tindak balas / masa impak akan mengurangkan magnitud daya impuls yang bertindak, sekaligus mengurangkan kecederaan (Hukum Gerakan Newton Ketiga). Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q67",
+      "sumber": "Percubaan Selangor: Set 2 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 67,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 49 menunjukkan graf sesaran-masa bagi\nsebuah kereta yang bergerak di sepanjang garis\nlurus.\nDiagram 49 shows a displacement-time graph of\na car moving in a straight line.\n(Selangor: Set 2: 2021)\nDisplaccment/ m\nSesoran/m\nTime/ s\n0 25 Masa'm\nAntara graf halaju-masa yang berikut, manakah\nmewakili pergerakan kereta tersebut?\nWhich of the following velocity-time graph\nrepresents the motion of the car?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah49.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Halaju seragam positif kemudian halaju sifar) / Graph A"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Halaju bertambah secara seragam) / Graph B"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Halaju sifar kemudian halaju malar) / Graph C"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Halaju berkurang ke sifar) / Graph D"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q68",
+      "sumber": "Percubaan Selangor: Set 2 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 68,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.3 Mewajarkan kesan inersia dalam kehidupan harian",
+      "spKod": "2.4.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Antara berikut yang manakah menunjukkan\nkesan inersia?\nWhich of the following shows effect of inertia?\n(Selangor: Set 2: 2021)\nII\nIII",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "I dan II"
+          },
+          {
+              "id": "B",
+              "teks": "I dan III"
+          },
+          {
+              "id": "C",
+              "teks": "II dan III IandII IIand II"
+          },
+          {
+              "id": "D",
+              "teks": "1, II dan III IandIII I, II and II"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Kesan inersia menyebabkan objek mengekalkan keadaan asalnya (sama ada pegun atau terus bergerak dengan halaju malar dalam garis lurus) apabila tiada daya luar bertindak ke atasnya (Hukum Gerakan Newton Pertama). Jawapan yang betul ialah A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q69",
+      "sumber": "Percubaan Selangor: Set 2 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 69,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.1 Menghuraikan jenis gerakan linear bagi objek yang berada dalam keadaan pegun, halaju seragam dan halaju tidak seragam",
+      "spKod": "2.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajalh 50 menunjukkan tiga keping duit syiling\nyang serupa, P, Q dan R, yang pegun di atas suatu\npermukaan mengufuk.\nDiagram 50 shows three identical coins, P,Q and\nR, at rest on a horizontal surface.\n(Selangor: Set 2: 2021)\nApakah yang berlaku apabila P ditolak dan\nberlanggar dengan Q?\nWhat happens ifP is pushed and collided with Q?\nP R\nBergerak Pegun Pegun",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah50.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Moves Stationay Stationary Pegun Pegun Bergerak"
+          },
+          {
+              "id": "B",
+              "teks": "Stationary Stationay Moves Bergerak Bergerak Pegun"
+          },
+          {
+              "id": "C",
+              "teks": "Moves Moves Stationary Bergerak Pegun Bergerak"
+          },
+          {
+              "id": "D",
+              "teks": "Moves Stationary Moves"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q70",
+      "sumber": "Percubaan MRSM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 70,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 51 menunjukkan satu objek sedang jatuh\nbebas dalam dua situasi yang berbeza.\nDiagram 51 shows an object is free falling in two\ndifferent situations. (MRSM: 2021)\nPernyataan manakah yang betul untuk\nmenerangkan pergerakan objek tersebut apabila\nia bergerak ke bawah?\nWhich statement is correct to explain the motion\nof the object when it moves dowmvard?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah51.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju bertambah Increasing velocity"
+          },
+          {
+              "id": "B",
+              "teks": "Halaju berkurang Decreasing velocity"
+          },
+          {
+              "id": "C",
+              "teks": "Pecutan bertambah Increasing acceleration"
+          },
+          {
+              "id": "D",
+              "teks": "Pecutan berkurang Decreasing acceleration"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q71",
+      "sumber": "Percubaan Negeri Sembilan 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 71,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.3 Mewajarkan kesan inersia dalam kehidupan harian",
+      "spKod": "2.4.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Situasi manakah yang melibatkan inersia?\nWhich situation involves inertia?\n(Negeri Sembilan: 2021)\nB D",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Situasi A (Mengeringkan payung basah dengan memusingkannya) / Rotating a wet umbrella"
+          },
+          {
+              "id": "B",
+              "teks": "Situasi B (Meluncur papan salji) / Snowboarding"
+          },
+          {
+              "id": "C",
+              "teks": "Situasi C (Menolak kotak berat) / Pushing a heavy box"
+          },
+          {
+              "id": "D",
+              "teks": "Situasi D (Menendang bola sepak) / Kicking a football"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Kesan inersia menyebabkan objek mengekalkan keadaan asalnya (sama ada pegun atau terus bergerak dengan halaju malar dalam garis lurus) apabila tiada daya luar bertindak ke atasnya (Hukum Gerakan Newton Pertama). Jawapan yang betul ialah D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q72",
+      "sumber": "Percubaan Negeri Sembilan 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 72,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 52 menunjukkan schelai bulu pelepah dan\nscbiji bola boling dijatuhkan di dalam vakum.\nDiagram 52 shows a piece of feather and\nbowling ball being dopped in avacuunm.\n(Negeri Sembilan: 2021)\nAntara graf halaju-masa berikut, yang manakah\nmenunjukkan gerakan bulu pelepah dan bola\nboling yang betul?\nWhich of the following velocity-time graphs\nshows the correct motion of the feather and the\nbowling ball?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah52.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Garis halaju-masa kedua-dua objek bertindih dengan kecerunan sama g) / Graph A"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Kecerunan bola boling lebih tinggi daripada bulu pelepah) / Graph B"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Kecerunan bulu pelepah lebih tinggi daripada bola boling) / Graph C"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Halaju malar bagi kedua-dua objek) / Graph D"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q73",
+      "sumber": "Percubaan Negeri Sembilan 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 73,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 53 menunjukkan satu alu menghentam\nlesung.\nDiagrann 53 shows a pestle hitting a mortar.\n(Negeri Sembilan: 2021)\nAlu\nPestle\nLesung\nMorlar\nSatu daya yang besar bertindak pada alu\ndisebabkan oleh",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah53.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "large force acting on the pestle due to A perubahan momentum alu berlaku dalam tempoh masa yang pendek change in momentum of the pestle occurs in a short period of time"
+          },
+          {
+              "id": "B",
+              "teks": "perubahan momentum alu berlaku dalam tempoh masa yang panjang change in momentum of the pestle occurs in a long period of tine"
+          },
+          {
+              "id": "C",
+              "teks": "alu itu mengalami perubahan jisim apabila ia menghentam lesung the pestle undergoes a change if mass when it hits the mortar"
+          },
+          {
+              "id": "D",
+              "teks": "alu itu mengalami geseran yang kecil apabila ia menghentam lesung the pestle experiences little friction when it hits the mortar"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Momentum ditakrifkan sebagai hasil darab jisim dengan halaju (p = mv). Ia merupakan kuantiti vektor yang mempunyai magnitud dan arah. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q74",
+      "sumber": "Percubaan Pahang 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 74,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Satu zarah bergerak dari titik P ke titik Q dalam\nmasa, T. Antara pernyataan berikut yang\nmanakah benar tentang halaju purata dan\noecutan purata bagi zarah tersebut.",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "particle moves from a point P to a point Q in a time T. Which one of the following correctly defines both the average velocity and average accelerationof the particle? (Pahang: 2021) Halaju purata Pecutan purata Averagevelocity Averageacceleration ScsaranQ dariP Perubahan laju T dari Pke Q A Displacement Change in speed ofQ fromP rom PtoQ T Jarak Q dariP Perubahan halaju T dariP keQ T"
+          },
+          {
+              "id": "B",
+              "teks": "Distance Change in velocity ofQ fromP fromPtoQ T T Jarak QdariP Perubahan laju T T dariPkeQ"
+          },
+          {
+              "id": "C",
+              "teks": "Distance Change in speed efQ fromP from Pto Q T Sesaran Q dariP Perubahan halaju T dariPke Q"
+          },
+          {
+              "id": "D",
+              "teks": "Displacement Change in velocity ofQfiomP fromPtoQ T 1"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q75",
+      "sumber": "Percubaan Pahang 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 75,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.3 Menterjemah dan melakar graf gerakan linear",
+      "spKod": "2.2.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 54 menunjukkan graf perubahan halaju, v\nterhadap masa, t bagi sebuah objek yang\nbergerarak\nDiagram 54 show shows a graph of the variation\nwith timet ofthe velocity v of anobject.\n(Pahang: 2021)\n7\nAntara graf-graf berikut yang manakah mewakili\nperubahan pecutan terhadap masa bagi objek\ntersebut?\nWhich one of the following graphsbestrepresents\nthe variation with time t of the acceleration a of\nthe object?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah54.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Pecutan malar positif) / Graph A"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Pecutan bertambah secara seragam) / Graph B"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Pecutan sifar) / Graph C"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Pecutan berkurang) / Graph D"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q76",
+      "sumber": "Percubaan Pahang 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 76,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.2 Menentukan jarak, sesaran, laju, halaju dan pecutan",
+      "spKod": "2.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 55 menunjukkan sebiji bola dijatuhkan dari\nsebuah permukaan atas meja. Rintangan udara\nboleh diabaikan.\nDiagram 55 shows a ball is dropped from a table-\ntop. Air resistance may be ignored.\n(Pahang: 2021)\nx\nBaris yang manakah menerangkan halaju dan\npecutan bola pada titik X?\nWhich row describes the velocity and the\nacceleration of the ball at point X?\nHalaju Pecutan\nVelocity Aceeleration\nMalar Malar",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah55.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Constant Constant Meningkat Malar"
+          },
+          {
+              "id": "B",
+              "teks": "Increasing Constant Malar Meningkat"
+          },
+          {
+              "id": "C",
+              "teks": "Constant Increasing Meningkat Meningkat"
+          },
+          {
+              "id": "D",
+              "teks": "Increasing Increasing"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q77",
+      "sumber": "Percubaan Pahang 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 77,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Pernyataan manakah yang betul mengenai\ninersia?\nWhich statement is correct about inertia?\n(Pahang: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Inersia bergantung pada saiz objek. Inertia depends on the size of an object."
+          },
+          {
+              "id": "B",
+              "teks": "Objek yang mudah bergerak sukar dihentikan. Object that easy to move is difficult to stop."
+          },
+          {
+              "id": "C",
+              "teks": "Objck dengan jisim kecil lebih mudah bergerak. Object with small mass is easier to move."
+          },
+          {
+              "id": "D",
+              "teks": "Inersia objek yang sama lebih besar di Bumi berbanding dengan inersia di Bulan İnertia of thesame object is greater on Earth compare to its inertia on the Moon."
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Inersia ialah sifat semula jadi suatu objek yang menentang sebarang perubahan kepada keadaan asalnya, sama ada keadaan pegun atau keadaan gerakan (Hukum Gerakan Newton Pertama). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q78",
+      "sumber": "Percubaan Pahang 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 78,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.1 Berkomunikasi untuk menerangkan impuls dan daya impuls (Hukum Gerakan Newton Ketiga)",
+      "spKod": "2.7.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 56 menunjukkan dua biji telur yang sama\ndilepaskan dari ketinggian yang sama ke satu\npermukaan kayu dan satu span tebal.\nDiagram 56 shows two identical eggs released\nfrom the same height, on to a wooden surface and\na thick sponge. (Pahang: 2021)\nBlok kayu\nWoodenblock Spc\nKuantiti fizikal yang manakah sama dalam\nkedua-dua keadaan ketika telur terhempas ke\npemukaan?\nWhich of physical guantity is the same in both\nsituations when the eggs hit on the surfaces?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah56.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Impuls"
+          },
+          {
+              "id": "B",
+              "teks": "Pecutan"
+          },
+          {
+              "id": "C",
+              "teks": "Masa hentaman Inpulse Time of impact"
+          },
+          {
+              "id": "D",
+              "teks": "Daya impuls Acceleration Impulsive force"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Impuls ditakrifkan sebagai perubahan momentum (J = mv - mu = Ft). Daya impuls ialah kadar perubahan momentum dalam perlanggaran atau letupan. Jawapan yang betul ialah A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q79",
+      "sumber": "Percubaan SBP 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 79,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.1 Mentafsir jenis gerakan dari graf sesaran-masa, halaju-masa dan pecutan-masa",
+      "spKod": "2.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajalh 57 menunjukkan graf halaju-masa bagi\nsebuah kereta yang bergerak dalam satu garis\nlurus.\nDiagram 57 shows a velocity-time graph fora car\nmoving in a straight line. (SBP: 2021)\nv/ms'\n→ t/s\nRajalh 57 / Diagram 57\nApakah jenis gerakan kereta itu pada QR?\nWhat is the ype of motion of the car at QR?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah57.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju seragam Constant velocity"
+          },
+          {
+              "id": "B",
+              "teks": "Pecutan seragam Constant acceleration"
+          },
+          {
+              "id": "C",
+              "teks": "Halaju bertambah Velocity increases"
+          },
+          {
+              "id": "D",
+              "teks": "Pecutan bertambah Acceleration increases"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q80",
+      "sumber": "Percubaan SBP 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 80,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 58 menunjukkan seorang pelumba basikal\nyang terpelanting ke hadapan apabila beliau\nmenarik brek secara mengejut.\nDiagram 58 shows a racing cyclist who is thrown\nforward when he pulls the brake suddenly.\n(SBP: 2021)\nPelumba basikal\nRacing rlist\nBasikal\nBicycle\nteee e tng\nHukum fizik manakah yang terlibat?\nWhich physics law is involved?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah58.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Hukum Kegravitian SemestaNewton Newton s Universal Law of Gravitation"
+          },
+          {
+              "id": "B",
+              "teks": "Hukum Gerakan Newton Pertama Newton 's First Law ofMotion"
+          },
+          {
+              "id": "C",
+              "teks": "Hukum Gerakan Newton Kedua Newton s Second Law of Motion"
+          },
+          {
+              "id": "D",
+              "teks": "Hukum Gerakan Newton Ketiga Newton's Third Law of Motion 32"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.4 Inersia, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q81",
+      "sumber": "Percubaan SBP 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 81,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 59 menunjukkan dua pemain ragbi yang\nberlanggar dalam perlawanan ragbi. Selepas\npelanggaran, mereka bergerak bersama-sama.\nDiagram 59 shows two rugby players collide in a\nrugby match, after the collision, they move\ntogether. (SBP: 2021)\nPemain ragbi\nRugby player\nPernyataan manakah yang benar?\nWhich statements are correct?\nI Jumlah momentum diabadikan\nTotal momentum is conserved\nII Jumlah tenaga kinetik diabadikan\nTotal kinetic energy is conserved\nIII Kedua-dua pemain ragbi mengalami\npelanggaran kenyal\nBoth rugby players experience elastic\ncollision\nIV Kedua-dua pemain ragbi mengalami\npelanggaran tak kenyal\nBoth rugby players experience inelastic\ncollision",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah59.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "I dan II"
+          },
+          {
+              "id": "B",
+              "teks": "I dan IV"
+          },
+          {
+              "id": "C",
+              "teks": "II dan III I and II II and III"
+          },
+          {
+              "id": "D",
+              "teks": "II danIV I and IV III and IV"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Dalam perlanggaran kenyal, kedua-dua jumlah momentum dan jumlah tenaga kinetik diabadikan, serta objek melantun semula selepas perlanggaran. Jawapan yang betul ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q82",
+      "sumber": "Percubaan SBP 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 82,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.1 Menghuraikan jenis gerakan linear bagi objek yang berada dalam keadaan pegun, halaju seragam dan halaju tidak seragam",
+      "spKod": "2.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 60 memunjukkan Abdul Latif bin Romly\ndalam acara lompat jauh.\nDiagram 60shows Abdul Latif bin Romly in long\njunp event. (SBP: 2021)\nTeknik manakah yang beliau gunakan untuk\nmengurangkan kecederaan?\nWhich technique that he used to reduce injury?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah60.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Mendarat dengan satu kaki Landing on one leg"
+          },
+          {
+              "id": "B",
+              "teks": "Mendarat dengan meluruskan kaki Landing on straight legs"
+          },
+          {
+              "id": "C",
+              "teks": "Menegakkan badan ketika mendarat Uphold the body when landing"
+          },
+          {
+              "id": "D",
+              "teks": "Membengkokkan lutut untuk mendarat Bend the knee when landing"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q83",
+      "sumber": "Percubaan Melaka 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 83,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Antara graf berikut, yang manakah menunjukkan\nhalaju malar?\nWhich graph shows a constant velocity?\n(Melaka: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf sesaran-masa dengan garis lurus condong melalui asalan / Displacement-time graph with straight inclined line"
+          },
+          {
+              "id": "B",
+              "teks": "Graf sesaran-masa dengan garis melengkung / Displacement-time graph with curve"
+          },
+          {
+              "id": "C",
+              "teks": "Graf sesaran-masa dengan garis mendatar / Displacement-time graph with horizontal line"
+          },
+          {
+              "id": "D",
+              "teks": "Graf sesaran-masa dengan garis menegak / Displacement-time graph with vertical line"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q84",
+      "sumber": "Percubaan Melaka 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 84,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 61 menunjukkan duit syiling, guli dan daun\nkering dijatuhkan serentak di dalam silinder\nvakum.\nDiagram 61 shows a coin, marble and dried leaf\nbeing released at the same time in a vacuum\ncylinder. (Melaka: 2021)\nDO\nVakum\nl'acum\nTapak\nBase\nManakah pemerhatian yang betul?\nWhich observation is correct?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah61.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Ketiga-tiga objek terapung di dalam silinder All threeobjects float in the cylinder"
+          },
+          {
+              "id": "B",
+              "teks": "Ketiga-tiga objek tiba di tapak pada masa yang sama. All three objects reach the base at the same time"
+          },
+          {
+              "id": "C",
+              "teks": "Guli tiba di tapak lebih awal daripada duit syiling The marble reaches the base earlier than the coin"
+          },
+          {
+              "id": "D",
+              "teks": "Duit syiling dan guli tiba di tapak lebih awal daripada daun kering. The coin and the marble reach the base earlier than the dried leaf"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q85",
+      "sumber": "Percubaan Melaka 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 85,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 62 menunjukkan keadaan pembonceng\nmotosikal yang bergerak ke belakang apabila\nmotosikal mula memecut.\nDiagram 62 shows a pillion rider moving\nbackwards when the motorcycle accelerates.\n(Melaka: 2021)\nPergerakan pembonceng itu ke belakang boleh\nditerangkan oleh\nThe backwardsmovement of the pillion rider can\nbe explained by",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah62.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "konsep inersia theconceptof inertia"
+          },
+          {
+              "id": "B",
+              "teks": "konsep keseimbangan daya the conceptof equilibrium offorces"
+          },
+          {
+              "id": "C",
+              "teks": "prinsip keabadian momentum principle ofconservationofmomentum"
+          },
+          {
+              "id": "D",
+              "teks": "prinsip keabadian tenaga principle ofconservationofenergy"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Inersia ialah sifat semula jadi suatu objek yang menentang sebarang perubahan kepada keadaan asalnya, sama ada keadaan pegun atau keadaan gerakan (Hukum Gerakan Newton Pertama). Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q86",
+      "sumber": "Percubaan Melaka 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 86,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 63 menunjukkan troli A dan troli B\nmenghampiri antara satu sama lain dan\nberlanggar.\nDiagram 63 shows a trolley A and trolley B are\napproaching each other and collide.\n(Melaka: 2021)\nPlastisin\nPlasticine",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah63.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Perlanggaran kenyal berlaku. Elastic collision occurs B Jumlah momentum diabadikan Total momentum is conserved"
+          },
+          {
+              "id": "B",
+              "teks": "-O-0 -O-0- Rajah 63 / Diagram 63 Manakah penyataan yang betul? Which statement is true?"
+          },
+          {
+              "id": "C",
+              "teks": "Jumlah tenaga kinetik diabadikan Total kinetic energy is conserved"
+          },
+          {
+              "id": "D",
+              "teks": "Kedua-dua objek bergerak dengan kelajuan berbeza selepas berlanggar. Both objects will move wilh different velocity after collision."
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Dalam perlanggaran kenyal, kedua-dua jumlah momentum dan jumlah tenaga kinetik diabadikan, serta objek melantun semula selepas perlanggaran. Jawapan yang betul ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q87",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 87,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Antara berikut, pilih graf sesaran-masa yang\nmewakili nyahpecutan seragam suatu objek\nFrom the following displacement-tinme graph\nchoose a graph that represents uniform\ndecelerationof an object. (Perlis: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Kecerunan graf sesaran-masa berkurang dengan masa) / Graph A"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Kecerunan graf sesaran-masa bertambah dengan masa) / Graph B"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Kecerunan malar) / Graph C"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Kecerunan sifar) / Graph D"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q88",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 88,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.1 Mentafsir jenis gerakan dari graf sesaran-masa, halaju-masa dan pecutan-masa",
+      "spKod": "2.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 64 menunjukkan grafhalaju melawan masa\nbagi gerakan sebuah kereta mainan.\nDiagram 64 shows a velocity against time for\nmotion ofa toy car. (Perlis: 2021)\nHalaju\nVelocig\nMau\nTme\nKereta mainan itu mengalami pecutan sifar pada\nkedudukan\nThe toy car experiences zero acceleration at",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah64.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "AB"
+          },
+          {
+              "id": "B",
+              "teks": "BC"
+          },
+          {
+              "id": "C",
+              "teks": "CD"
+          },
+          {
+              "id": "D",
+              "teks": "DE 34"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q89",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 89,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Tentukan objek yang mempunyai incrsia yang\npaling besar.\nDetermine the object that has the greatest inertia.\n(Perlis: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jisim = 100 kg, Laju = 20 m s^-1 / Mass = 100 kg, Speed = 20 m s^-1"
+          },
+          {
+              "id": "B",
+              "teks": "Jisim = 350 kg, Laju = 40 m s^-1 / Mass = 350 kg, Speed = 40 m s^-1"
+          },
+          {
+              "id": "C",
+              "teks": "Jisim = 1 200 kg, Laju = 35 m s^-1 / Mass = 1 200 kg, Speed = 35 m s^-1"
+          },
+          {
+              "id": "D",
+              "teks": "Jisim = 10 000 kg, Laju = 25 m s^-1 / Mass = 10 000 kg, Speed = 25 m s^-1"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Inersia suatu objek bergantung secara langsung kepada jisimnya sahaja mengikut Hukum Gerakan Newton Pertama. Semakin besar jisim objek, semakin besar inersianya. Oleh itu, objek dengan jisim terbesar mempunyai inersia paling besar (Jawapan: D).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q90",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 90,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 65 menunjukkan sebutir peluru ditembak\ndaripada sepucuk senapang.\nDiagram 65 shows a bullet is fired from a rifle.\n(Perlis: 2021)\nSatu keterangan yang benar mengenai\nmomentum berdasarkan rajah adalah",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah65.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "true statement about momentum according to the diagram is A Momentum pcluru adalah lebilh dari momentum senapang. The momentum of the bullet is more than the momentumof the rifle"
+          },
+          {
+              "id": "B",
+              "teks": "Jumlah momentum peluru dan senapang adalah sifar The total momentum of the bullet and the rifle is zero"
+          },
+          {
+              "id": "C",
+              "teks": "Kelajuan senapang adalah lebih dari kelajuan peluru The speed of the rifle is more than the speed ofbullet"
+          },
+          {
+              "id": "D",
+              "teks": "Tenaga kinetik peluru adalah sama dengan tenaga kinetik senapang. The kinetic energy of the bullet is equal to the kinetic energy of the rifle"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Momentum ditakrifkan sebagai hasil darab jisim dengan halaju (p = mv). Ia merupakan kuantiti vektor yang mempunyai magnitud dan arah. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q91",
+      "sumber": "Percubaan Pahang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 91,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Hukum Gerakan Newton Kedua menyatakan\nbahawa kadar perubahan momentum berkadar\nterus dengan daya dan bertindak pada arah\ntindakan daya.\nNewton 's Second Law of Motion states that the\nrate of change of momnentum is directly\nproportional to the force and acts in the direction\nof action oftheforce.\nManakah antara formula berikut yang betul\nberdasarkan pernyataan di atas?\nWhich of the following formulas is correct based\non the statement above? (Pahang: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Faa"
+          },
+          {
+              "id": "B",
+              "teks": "Fa ma"
+          },
+          {
+              "id": "C",
+              "teks": "aq m"
+          },
+          {
+              "id": "D",
+              "teks": "Ft= mv - mu"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Momentum ditakrifkan sebagai hasil darab jisim dengan halaju (p = mv). Ia merupakan kuantiti vektor yang mempunyai magnitud dan arah. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q92",
+      "sumber": "Percubaan MRSM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 92,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Sebuah kapal terbang memerlukan landasan yang\npanjang untuk mendarat. Situasi tersebut boleh\ndijelaskan oleh\nAn airplane needs a long runway to touch down.\nThe situation can be explained by\n(MRSM: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Hukum Kegravitian Semesta Newton Newton s Universal Law of Gravitation"
+          },
+          {
+              "id": "B",
+              "teks": "Hukum Gerakan Newton Pertama Newton's First Law of Motion"
+          },
+          {
+              "id": "C",
+              "teks": "Hukum Gerakan Newton Kedua Newton 'sSecond Law of Motion"
+          },
+          {
+              "id": "D",
+              "teks": "Hukum Gerakan Newton Ketiga Newton 's Third Law of Motion"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.4 Inersia, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q93",
+      "sumber": "SPM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 93,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.3 Mewajarkan kesan inersia dalam kehidupan harian",
+      "spKod": "2.4.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Pemandu dan penumpang sebuah kereta\ndinasihatkan untuk memakai tali pinggang\nkeledar. Tali pinggang keledar menghalang\nmereka daripada terhumban ke hadapan dan\nmencederakan mereka. Tujuan pemakaian tali\npinggang keledar adalah untuk mengurangkan\nkesan negatif bagi\nThe driver and passengers ofa car are advised to\nwear seat belts. Seat belts prevent them from\nbeing thrown forvard and hrting themselves.\nThe purpose of wearing seat belts is to reduce the\nnegativeeffectof (SPM: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Daya"
+          },
+          {
+              "id": "B",
+              "teks": "Inersia"
+          },
+          {
+              "id": "C",
+              "teks": "Jisim Force Mass"
+          },
+          {
+              "id": "D",
+              "teks": "Berat Inertia Weight"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q94",
+      "sumber": "SPM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 94,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 66 (a) menunjukkan Abu menjatuhkan\nsebuah kotak dari tebing pada ketinggian 15 m.\nDiagram 66 (a) shows Abu drops a box offa cliff\nat a height of 15 m. (SPM: 2021)\n15 m 15 m\nPermukaan Bumi Permukaan Bulan\nEarth surface Moon surface\nRajah 66 (a) Rajah 66 (b)\nSekiranya Abu melakukan aktiviti itu dengan\nkotak yang sama di Bulan seperti ditunjukkan\ndalam Rajah 66 (b), kuantiti manakah yang akan\nbertambah?\nIfAbu does the sane activity on the Moon using\nthe same box as shown in Diagram 66 (b), which\nquantity will increase?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah66.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Masa yang diambil untuk kotak sampai ke permukaan, t. Time taken by the box to reach the surface, t"
+          },
+          {
+              "id": "B",
+              "teks": "Kekuatan medan graviti, g Gravitational field strength, g"
+          },
+          {
+              "id": "C",
+              "teks": "Berat objek, W Weight of object, W"
+          },
+          {
+              "id": "D",
+              "teks": "Jisim objek, m Mass of object, m"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.4 Inersia, konsep yang diaplikasikan menghasilkan jawapan A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q95",
+      "sumber": "SPM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 95,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 67 menunjukkan graf sesaran-masa bagi\ngerakan suatu objek.\nDiagram 67 shows the displacement-time graph\nof themotion ofanobject. (SPM: 2022)\nSesaran,S(n)\nDisplacement, S(m)\nMasa, (S)\nTine, t(s)\nAntara berikut, pasangan manakah yang betul\ntentang gerakan objek itu?\nWhich of the following pairs is correct about the\nmotion of the object?\nOP PQ\nHalaju bertambah Halaju sifar",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah67.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "OP: Halaju bertambah (Velocity increases) | PQ: Halaju sifar (Zero velocity)"
+          },
+          {
+              "id": "B",
+              "teks": "OP: Halaju bertambah (Velocity increases) | PQ: Halaju seragam (Uniform velocity)"
+          },
+          {
+              "id": "C",
+              "teks": "OP: Halaju seragam (Uniform velocity) | PQ: Halaju sifar (Zero velocity)"
+          },
+          {
+              "id": "D",
+              "teks": "OP: Halaju sifar (Zero velocity) | PQ: Halaju seragam (Uniform velocity)"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q96",
+      "sumber": "SPM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 96,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 68 menunjukkan sebuah roket dilancarkan\ndari tapak pelancaran.\nDiagram 68 shows a rocket that is launched from\na launchpad. (SPM: 2022)\nAntara pernyataan yang berikut, yang manakah\nbetul tentang pelepasan gas panas melalui ekzos\nroket semasa roket memecut ke atas?\nWhich of the following statements is correct\nabout hot gas emission through the rocket\nexhaust as the rocket accelerates upwards?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah68.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Pengurangan jisim bahan api akibat pembakaran menyebabkan pecutan roket ke atas bertambah The reduction in fuel mass due to combustion causes the upward acceleration of the rocket increases"
+          },
+          {
+              "id": "B",
+              "teks": "Jumlah momentum dalam sistem adalah sifar The total momentum in the system is zero"
+          },
+          {
+              "id": "C",
+              "teks": "Tenaga yang terhasil daripada pembakaran bahan api menyebabkan daya tujah roket bertambah The energy produced from the burning fuel causes the thrust force of the rocket increases"
+          },
+          {
+              "id": "D",
+              "teks": "Pecutan roket ke atas sama dengan pecutan graviti roket The upward acceleration of the vocket is equal to the gravitational acceleration of the rocket"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.5 Momentum, konsep yang diaplikasikan menghasilkan jawapan A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K2_Q97",
+      "sumber": "SPM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 97,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.3 Memerihalkan kesan dan aplikasi daya impuls dalam kehidupan harian",
+      "spKod": "2.7.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah 69 menunjukkan seorang penerjun sedang\nbersedia untuk mendarat.\nDiagram 69 shows a parachutist is preparing to\nland. (SPM: 2023)\nAf.\nDaratan\nGround\nAntara yang berikut, manakah kacdah pendaratan\nyang lebih selamat?\nWhich of the following is the safer landing\nmethod?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah69.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Mendepangkan tangan untuk meningkatkan kestabilan Spread the arms to increase the stability"
+          },
+          {
+              "id": "B",
+              "teks": "Membengkokkan lutut untuk mengurangkan daya impuls Bend the knees to reduce impulsive force"
+          },
+          {
+              "id": "C",
+              "teks": "Mengangkatkan kaki untuk mengurangkan inersia Spread the legs to reduce inertia"
+          },
+          {
+              "id": "D",
+              "teks": "Merebahkan badan untuk mengurangkan tekanan Lay the body down to reduce pressure"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.7 Impuls dan Daya Impuls, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q01",
+      "sumber": "Percubaan Kelantan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 1,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 70 menunjukkan graf halaju-masa bagi\nsatu objek yang bergerak dalam garis lurus.\nDiagramn 70 shows a velocity-time graph of an\nobject moving along a straight line.\n(Kelantan: 2023)\nvims\n10\nus\n10\nHitung jumlah sesaran objek dalam masa 10saat.\nCalculate the total displacement of the object in\n10 seconds.",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah70.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "O m"
+          },
+          {
+              "id": "B",
+              "teks": "10 m"
+          },
+          {
+              "id": "C",
+              "teks": "25 m"
+          },
+          {
+              "id": "D",
+              "teks": "50 m"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Jumlah sesaran = Luas di bawah graf\ns = 1/2(10)(5) + 1/2(10)(5)\n.. s = 50 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q02",
+      "sumber": "Percubaan Kelantan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 2,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 71 menunjukkan seorang budak\nmenendang bola pegun dengan satu daya 6 N.\nSelepas 2 s daya itu dikenakan, halaju bola itu\nialah 28 ms\nDiagran 71 shows a boy kicks a stationary ball\nwith force of 6 N. After 2 s the force is applied,\nthe velocity of the object is 28ms\n(Kelantan: 2023)\nBerapakah jisim bola itu?\nWhat is the mass of the ball?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah71.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "0.20 kg"
+          },
+          {
+              "id": "B",
+              "teks": "2.33 kg"
+          },
+          {
+              "id": "C",
+              "teks": "0.43 kg"
+          },
+          {
+              "id": "D",
+              "teks": "4.67 kg"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "F = ma\nF = m((v-u)/t)\n6 = m((28-0)/2)\n.. m = 2.3333 kg",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q03",
+      "sumber": "Percubaan Melaka 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 3,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 72 menunjukkan sebahagian daripada\nkeratan pita jangka masa detik diambil dari\ngerakan sebuah troli dalam eksperimen\nmenggunakan jangka masa detik dengan\nfrekuensi 50 Hz.\nDiagram 72 shows a section of the ticker tape\ntaken from the notion of a trolley in an\nexperiment using a ticker timer with frequency 50\nHz. (Melaka: 2023)\nArah gerakan\nDircction ofmotion\n6 cm\nHitungkan pecutan troli itu.\nCalculate the acceleration of the trolley.",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah72.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "2.50 cm s?"
+          },
+          {
+              "id": "B",
+              "teks": "3.12 cm s?"
+          },
+          {
+              "id": "C",
+              "teks": "25.0 cm s²"
+          },
+          {
+              "id": "D",
+              "teks": "3125 cms"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "t = (1 / 50 Hz) = 0.02 s\nu = (s/t) = (1 cm / 0.02 s) = 50 cm s^-1\nv = (s/t) = (6 cm / 0.02 s) = 300 cm s^-1\nt = (5 - 1)(0.02) = 0.08 s\na = ((v-u)/t) = ((300 - 50)/0.08) = 3125 cm s^-2",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q04",
+      "sumber": "Percubaan Melaka 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 4,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 73 menunjukkan graf halaju-masa bagi\ngerakan suatu kereta mainan.\nDiagram 73 shows a velocity-time graph for a\nmotion ofa toy car. (Melaka: 2023)\nHalaju(m s)\nVelocity(m s)\n0-\n0-\n10-\nMasa (9)\nTime(s)\n-10\n-20-\n-30 ****************************.\nBerapakah sesaran kereta itu dalam masa 6 s?\nWhat is the displacement of the car in 6 s?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah73.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "O m"
+          },
+          {
+              "id": "B",
+              "teks": "35 m"
+          },
+          {
+              "id": "C",
+              "teks": "45 m"
+          },
+          {
+              "id": "D",
+              "teks": "75 m"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Jumlah sesaran = Luas di bawah graf\ns = [(30 x 2) + 1/2(1)(30)] - 1/2(2)(30)\n.. s = 45 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q05",
+      "sumber": "Percubaan Negeri Sembilan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 5,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 74 menunjukkan graf halaju-masa\npergerakan sebuah objek.\nDiagram 74 shows the velocity-time graph of an\nobject. (Negeri Sembilan: 2023)\nv(ms')\nt(s)\nAntara graf pecutan-masa berikut, yang manakah\nmenunjukkan pergerakan objek tersebut?\nWhich of the following acceleration-time graphs\nshows the object 's motion?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah74.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "a (m s') t(s)"
+          },
+          {
+              "id": "B",
+              "teks": "a (ms) i()"
+          },
+          {
+              "id": "C",
+              "teks": "a(m s)"
+          },
+          {
+              "id": "D",
+              "teks": "HL"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Kecerunan graf halaju-masa mewakili pecutan (a = dv/dt).\n1. Fasa pertama: Halaju bertambah secara linear (kecerunan positif malar) -> pecutan malar positif.\n2. Fasa kedua: Halaju seragam (kecerunan sifar) -> pecutan sifar (a = 0).\n3. Fasa ketiga: Halaju berkurang secara linear (kecerunan negatif malar) -> nyahpecutan malar (a negatif).\nGraf pecutan-masa yang menepati ciri-ciri ini ialah Graf A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q06",
+      "sumber": "Percubaan Negeri Sembilan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 6,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 75 menunjukkan seorang angkasawan\nberjisim 75 kg membaling sebuah beg 45 kg\nmenyebabkan dia tersentak ke arah kapsul\nangkasa.\nDiagram 75 shows an astronaut with mass of 75\nkg throws a 45 kg bag causing him to jerk\ntowards the space capsule.\n(Negeri Sembilan: 2023)\nKapsnl angkas\nBeg\nBop\nJika halaju beg yang dibaling 8 ms', berapakah\nhalaju angkasawan selepas beg tersebut dibaling?\nIf the bas is thrown at a velocity of8 ms', what is\nthe velocity of the astronaut after throwing the\nbag?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah75.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "4.80 ms!"
+          },
+          {
+              "id": "B",
+              "teks": "48.0 ms!"
+          },
+          {
+              "id": "C",
+              "teks": "13.33 ms!"
+          },
+          {
+              "id": "D",
+              "teks": "421.88 ms"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "m1 u1 = m2 v2\n(75)(u1) = (45)(8)\n.. u1 = 4.80 m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q07",
+      "sumber": "Percubaan Pahang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 7,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 76 menunjukkan scbuah kereta pada titik\nM. Kereta itu bergerak ke arah N, kemudian\nbergerak ke arah L dan berhenti di L.\nDiagramn 76 shows a car at M. The car moves\noward N, then moves toward L and stops at L\n(Pahang: 2023)\n2 kn M 8 kn N\nBerapakah sesaran kereta itu?\nWhat is the displacement of the car?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah76.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "-2km"
+          },
+          {
+              "id": "B",
+              "teks": "2 km"
+          },
+          {
+              "id": "C",
+              "teks": "10 km"
+          },
+          {
+              "id": "D",
+              "teks": "18 km 38"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "M -> N -> L\nTitik awal = M, Titik akhir = L\nSesaran adalah jarak terpendek dari M ke L = 2 km. Tandaan (-) menunjukkan arah ke kiri.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q08",
+      "sumber": "Percubaan Pahang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 8,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajalh 77 menunjukkan graf halaju-masa bagi\npergerakan suatu objek.\nDiagram 77 shows velocity-time graph of a\nmotion of an object. (Pahang: 2023)\nv (ms)\n4\nt (s)\nGraf pecutan-masa manakah yang mewakili\npergerakan yang sama seperti objek itu?\nWhich acceleration-time graph represents the\nsame motion as the object?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah77.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "a (m s)"
+          },
+          {
+              "id": "B",
+              "teks": "(m )"
+          },
+          {
+              "id": "C",
+              "teks": "a(m s)"
+          },
+          {
+              "id": "D",
+              "teks": "a (ms) t(s)"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q09",
+      "sumber": "Percubaan Pahang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 9,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.2 Menyelesaikan masalah melibatkan impuls dan daya impuls",
+      "spKod": "2.7.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Sebiji bola plastisin berjisim 50 g dilontar dengan\nhalaju 10 ms dan telah berlanggar dengan\ndinding. Bola plastisin itu melekat pada dinding.\nJika masa impak semasa perlanggaran ialah 0.4 s,\nberapakah magnitud daya impuls yang bertindak\npada dinding itu?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "plasticine ball of mass 50 g is thrown at a velocity of 10ms and hits the wall. It sticks to the wall. If the time of inpact during collision is 0.4s, what is the magnitude of the impulsive force acting on the wall? (Pahang: 2023) A -1250.00 N"
+          },
+          {
+              "id": "B",
+              "teks": "- 1.25 N"
+          },
+          {
+              "id": "C",
+              "teks": "125.00 N"
+          },
+          {
+              "id": "D",
+              "teks": "1 250.00N"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "F = ma\nF = m((v-u)/t)\nF = 0.05((0 - 10)/0.4)\n.. F = -1.25 N",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q10",
+      "sumber": "Percubaan Pecutangraviti, g= 9.81 ms]\nChong throws a stone upwards vertically with an\ninitial velocity of 20 ms\". What is the maximum\nheight that the stone can reach if the air\nresistance is neglected'?\n[Gravitationalacceleration,g=9.81 ms]\n(Perak 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 10,
+      "sk": "SK 2.8 Berat",
+      "sp": "SP 2.8.1 Menyatakan berat sebagai daya graviti yang bertindak ke atas suatu objek, W = mg",
+      "spKod": "2.8.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 42",
+      "rujukanBukuTeks": "Buku Teks T4 ms 79-82",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 20",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.8 Berat",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Chong melontar sebiji batu secara menegak ke\natas dengan halaju awal 20 ms. Berapakah\ntinggi maksimum yang boleh dicapai oleh batu\ntersebut jika rintangan udara diabaikan.\n(Pecutangraviti, g= 9.81 ms]\nChong throws a stone upwards vertically with an\ninitial velocity of 20 ms\". What is the maximum\nheight that the stone can reach if the air\nresistance is neglected'?\n[Gravitationalacceleration,g=9.81 ms]\n(Perak: 2023)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "10.30 m"
+          },
+          {
+              "id": "B",
+              "teks": "20.39 m"
+          },
+          {
+              "id": "C",
+              "teks": "30.29 m"
+          },
+          {
+              "id": "D",
+              "teks": "40.30 m"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "a = -g = 9.81 m s^-2\nSimbol, s = h\nv^2 = u^2 + 2as\n20^2 = 0^2 + 2(9.81)h\n.. h = 20.3874 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q11",
+      "sumber": "Percubaan Perlis 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 11,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 78 menunjukkan seorang budak lelaki\nmenendang bola dengan daya 20 N.\nDiagram 78 shows a boy kicking a ball with a\nforce of 20 N. (Perlis: 2023)\nJika bola tersebut bergerak dengan pecutan 50\nms², berapakah jisim bolatersebut!?\nIf the ball moveswith an accelerationof 50 ms,\nwhat is the mass of the ball?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah78.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "100 g"
+          },
+          {
+              "id": "B",
+              "teks": "200"
+          },
+          {
+              "id": "C",
+              "teks": "300 g"
+          },
+          {
+              "id": "D",
+              "teks": "400 g"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "F = ma\n20 = (m)(50)\nm = 0.4 kg = 400 g",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q12",
+      "sumber": "Percubaan SBP 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 12,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 79 (a) menunjukkan troli A dan troli B\nsebelum spring dilepaskan. Rajah 79 (b)\nmenunjukkan keadaan kedua-dua troli apabila\nspring dilepaskan.\nDiagram 79 (a) shows trolley A and trolley B\nbefore the spring is released. Diagram 79 (b)\nshows the condition of the trolleys after the spring\nis released. (SBP: 2023)\nSchela springdilenaskar\nBefore spring is nleased\nSisim 2 kg\nLlars2 k\nSsim 2 kg\nMars2LE N rs2e\nTrelley A Trolly B\nSelepss spring dilepaskan\nAlerspringis releasd\nHalaina0sme\nolohe 05ms'\nTroli A Troh D\nTrolly A Troley B\nHitung halaju troli B selepas spring dilepaskan.\nCalculate the velociy of trolley B after spring is\nreleased.",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah79.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "0.5 m s"
+          },
+          {
+              "id": "B",
+              "teks": "1.0 ms"
+          },
+          {
+              "id": "C",
+              "teks": "2.0 m s!"
+          },
+          {
+              "id": "D",
+              "teks": "4.0 ms"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Prinsip keabadian momentum (Elastik):\nm1 u1 + m2 u2 = m1 v1 + m2 v2\n(2)(0) + (2)(0) = (2+2)(-0.5) + (2)(v2)\n.. v2 = 1 m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q13",
+      "sumber": "Percubaan Terengganu 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 13,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 80 menunjukkan graf halaju-masa bagi\nsuatu objk yang bergerak di sepanjang garis\nlurus.\nDiagram 80 shows the velociy-time graph of a\nmoving object along a straight line.\n(Terengganu: 2023)\nv (ms)\nt (s)\nBerapakah sesaran objek itu dalam 6 saat\npertama?\nWhat is the displacement of the object during the\nfirst 6 seconds?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah80.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "5 m"
+          },
+          {
+              "id": "B",
+              "teks": "10 m"
+          },
+          {
+              "id": "C",
+              "teks": "15 m"
+          },
+          {
+              "id": "D",
+              "teks": "20 m"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Jumlah sesaran 6 saat = Luas di bawah graf\ns = [1/2(2)(5) + 1/2(2)(5)] - 1/2(2)(5)\n.. s = 5 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q14",
+      "sumber": "Percubaan Kedah 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 14,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 81 menunjukkan satu objek berjisim 2 kg\ndilepaskan dari ketinggian, h. Objek itu jatuh\ndengan pecutan, a.\nDiagram 81 shows an object of mass 2 kg is\nreleased from a height, h. The object falls with\nacceleration, a. (Kedah: 2022)\nObjek\nObjact\nTanah\nh Ground\nBerapakah pecutan jika objek itu digantikan\ndengan satu objek lain yang berjisim 4 kg?\nWhat is the acceleration if the object is replaced\nwith another object ofmass 4 kg?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah81.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "a / 2"
+          },
+          {
+              "id": "B",
+              "teks": "a"
+          },
+          {
+              "id": "C",
+              "teks": "2a"
+          },
+          {
+              "id": "D",
+              "teks": "4a"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Objek yang jatuh bebas akan memecut. Pecutannya dikenali sebagai pecutan graviti. Nilai pecutan graviti tidak bergantung kepada bentuk dan jisim objek. Oleh itu, pecutan adalah sama = a.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q15",
+      "sumber": "Percubaan Kelantan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 15,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.2 Menyelesaikan masalah melibatkan impuls dan daya impuls",
+      "spKod": "2.7.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Sebiji bola sepak berjisim 0.5 kg ditendang\ndengan daya 30 N dalam masa 0.5 s. Berapakah\nimpuls yang dialami oleh bola?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "football of mass 0.5 kg is kicked by a force of 30 N in 0.5 s. What is the impulse experienced by the ball? (Kelantan: 2022) A S.0 Ns"
+          },
+          {
+              "id": "B",
+              "teks": "10.0 Ns"
+          },
+          {
+              "id": "C",
+              "teks": "15.0Ns"
+          },
+          {
+              "id": "D",
+              "teks": "60.0 Ns"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Impuls = Ft = (30)(0.5) = 15 N s",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q16",
+      "sumber": "Percubaan Melaka 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 16,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Sebuah kereta bermula dari pegun di sebuah\nsimpang dan mengambil masa 8.0 s untuk\nmencapai halaju 50 ms. Hitungkan pecutan bagi\nkereta itu.",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "car starts from rest at a junction and takes 8.0 s to reach a velocity of 50 ms'. Calculate the acceleration of the car. (Melaka: 2022) A 0.16 ms"
+          },
+          {
+              "id": "B",
+              "teks": "6.25 ms?"
+          },
+          {
+              "id": "C",
+              "teks": "50.00 ms?"
+          },
+          {
+              "id": "D",
+              "teks": "400.00ms"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "a = (v-u)/t = (50 - 0)/8\n.. a = 6.25 m s^-2",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q17",
+      "sumber": "Percubaan Melaka 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 17,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 82 menunjukkan graf halaju-masa bagi\nsuatu objek.\nDiagram 82 shows a velocity-time graph for an\nobject. (Melaka: 2022)\nHalaju(m l)\nVelociy\nMasa (6)\n1 Time\nAntara berikut yang manakah graf pecutan-masa\nuntuk mewakili pergerakan objek tersebut?\n40\nWhich of the following acceleration-time graph\nrepresentthe motion of the object?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah82.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Pecutan positif malar kemudian pecutan negatif malar) / Graph A"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Pecutan sifar sepanjang masa) / Graph B"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Pecutan bertambah secara seragam) / Graph C"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Pecutan berkurang secara seragam) / Graph D"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q18",
+      "sumber": "Percubaan MRSM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 18,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 83 menunjukkan lori tangki minyak\nberjisim 7500 kg melangar sebuah kereta berjisim\n1000 kg. Sebelum pelanggaran, lori dan kereta\nbergerak pada arah yang sama dengan kelajuan\nmasing-masing 30 ms' dan 25 ms!\nDiagram 83 shows an oil tanker of mass 7500 kg\ncollides with a car of nass 1000 kg. The lory and\ncar move in thesame direction with velocity of 30\nms and 25 ms respectively before collision.\n(MRSM: 2022)\nSclepas perlanggaran, kedua-dua kenderaan\nmelekatbersama-sama.Berapakah halaju akhir, v\nkedua-dua kenderaan?\nAfter collision, both vehicles stick together. What\nis the final velocity, v of both vehicles?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah83.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "2.94 ms!"
+          },
+          {
+              "id": "B",
+              "teks": "29.41l ms!"
+          },
+          {
+              "id": "C",
+              "teks": "25.59 ms-!"
+          },
+          {
+              "id": "D",
+              "teks": "33.33 ms-!"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Prinsip keabadian momentum (Bukan elastik):\nm1 u1 + m2 u2 = (m1 + m2)(v)\n(7500)(30) + (1000)(25) = (7500 + 1000)(v)\n.. v = 29.4118 m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q19",
+      "sumber": "Percubaan Negeri Sembilan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 19,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 84 menunjukkan dua bola, A dan B,\nsetiapnya berjisim 1.5 kg, bergerak ke arah satu\nsama lain dengan halaju 3 ms' dan 2 ms\nmasing-masing.\nDiagran 84 shows two balls, A andB, each with\nmass of 1.5 kg, mOving towards each other with\na velocity of'3 ms dan 2 ms respectively.\n(Negeri Sembilan: 2022)\nPernyataan manakah yang benar mengenai bola-\nbola itu?\nWhich statement is true about the balls?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah84.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Monmentum A sebelum perlanggaran ialah +3 kg m: Momentum A before the collision is +3 kg m s"
+          },
+          {
+              "id": "B",
+              "teks": "MomentumB sebelum perlanggaran ialah +2 kg m s Momentum B before the collision is +2 kg m"
+          },
+          {
+              "id": "C",
+              "teks": "Jumlah momentum sebelum perlanggaran ialah +1.5 kg m s' Total momentum before collision is +1.5 kg ms!"
+          },
+          {
+              "id": "D",
+              "teks": "Jumlah momentum selepas perlanggaran ialah +7.5 kg m s' Total momentum afier collision is +7.5 kg m"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Prinsip keabadian momentum.\nMomentum A sebelum perlanggaran = (1.5)(3) = 4.5 kg m s^-1\nMomentum B sebelum perlanggaran = (1.5)(-2) = -3 kg m s^-1\nJumlah momentum sebelum perlanggaran = (4.5 - 3) = 1.5 kg m s^-1\nJumlah momentum selepas perlanggaran = 1.5 kg m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q20",
+      "sumber": "Percubaan Negeri Sembilan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 20,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.3 Mewajarkan kesan inersia dalam kehidupan harian",
+      "spKod": "2.4.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 85 menunjukkan sebuah bakul buah-\nbuahan berjisim 3 kg yang pegun, ditarik dengan\ndaya 20 N di atas satu satah condong yang\nmempunyai daya geseran 10 N.\nDiagram 85 shows a fruit basket with a mass of3\nkg at rest, is pulled by 20 N force on an inclined\nplane that had a frictional force of 10N.\n(Negeri Sembilan: 2022)\nF-20 N\nn=3kg\n30\nApakah kesan ke atas gerakan kotak itu?\nWhat is the effect on the motion of the box?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah85.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Memperlahankan pergerakan kotak Slow down the box"
+          },
+          {
+              "id": "B",
+              "teks": "Mempercepatkan pergerakan kotak Speed up the box"
+          },
+          {
+              "id": "C",
+              "teks": "Bergerak dengan halaju seragam Move with constant velocity"
+          },
+          {
+              "id": "D",
+              "teks": "Tiada apa yang berlaku Nothing happens"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q21",
+      "sumber": "Percubaan Pahang 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 21,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Sebuah lori berjisim kira-kira 2 000 kg bergerak\ndengan halaju 22 ms'. Berapakah momentunm lori\ntersebut?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "lorry of mass about 2 000 kg moves with a velocity of 22 ms'. What is the momentum of the lorry? (Pahang: 2022) A 440 Ns"
+          },
+          {
+              "id": "B",
+              "teks": "4400 Ns"
+          },
+          {
+              "id": "C",
+              "teks": "44 000 Ns"
+          },
+          {
+              "id": "D",
+              "teks": "440 000 Ns"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "p = mv = 2000 x 22 = 44 000 N s = kg m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q22",
+      "sumber": "Percubaan Pahang 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 22,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.2 Menyelesaikan masalah melibatkan impuls dan daya impuls",
+      "spKod": "2.7.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 86 menunjukkan sebuah bola berjisim 0.8\nkg dijatuhkan dari sebuah rumah pangsa. Pada\nmasa sebelum menyentuh tanah, halaju bola ialah\n12 ms'. Bola itu berhenti 2 saat selepas\nmenyentuh tanah.\nDiagram 86 shows a ball with a mass of 0.8 kg\nbeing dropped fron a flat house. At the moment\nbefore touching the ground, the velocity of the\nball is 12 ms. The box stops 2 seconds after\ntouching the ground. (Pahang: 2022)\nDola\nRol\nBerapakah magnitud daya impuls yang bertindak\nke atas bola itu?\nWhat is the magnitude of the impulsive force\nacted on the ball?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah86.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "4.0 N"
+          },
+          {
+              "id": "B",
+              "teks": "4.8 N"
+          },
+          {
+              "id": "C",
+              "teks": "9.4 N"
+          },
+          {
+              "id": "D",
+              "teks": "9.6 N"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "F = ma = m((v-u)/t) = 0.8((12 - 0)/2)\n.. F = 4.8 N",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q23",
+      "sumber": "Percubaan Selangor: Set 1 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 23,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 87 menunjukkan sebuah kereta mainan\nbergerak di sepanjang laluan lurus.\nDiagran 87 shows a toy car moving along a\nstraight path. (Selangor: Set 1: 2022)\n&\nHalaju pergerakan kereta mainan menurun dari\n3.0 ms sehingga 1.0 ms' apabila ia bergerak\nsejauh 2.0 m. Berapakah nyahpecutan kereta\nmainan itu, dalam ms?\nThe velocity of the toy car decreasesfrom 3.0 ms\nto 1.0 ms' as it movesthrough a distanceof 2.0\nm. What is the toy car s deceleration, in ms?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah87.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "-2.0"
+          },
+          {
+              "id": "B",
+              "teks": "-1.0"
+          },
+          {
+              "id": "C",
+              "teks": "1.0"
+          },
+          {
+              "id": "D",
+              "teks": "2.0"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "v^2 = u^2 + 2as\n3^2 = 1^2 + 2(a)(2)\n.. a = 2.0 m s^-2",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q24",
+      "sumber": "Percubaan Sclangor: Set 1 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 24,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Sebuah troli X berjisim 6 kg dan berhalaju 3 ms!\nberlanggar secara elastik dengan satu lagi troli Y\nberjisim 3 kg dengan halaju 2 ms'. Jika troli X\nberhenti sejurus selepas perlanggaran, hitungkan\nhalaju akhir bagi troli Y.",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "trolley X of mass 6 kg and a velocity of 3 ms collides elastically with another trolley Y ofmass 3 kg with a velocity of 2 ms. If trolley X stops immediately after the collision, calculatethe final velocity of trolley Y. (Sclangor: Set 1: 2022) A 4 ms!"
+          },
+          {
+              "id": "B",
+              "teks": "Sms!"
+          },
+          {
+              "id": "C",
+              "teks": "8 ms'"
+          },
+          {
+              "id": "D",
+              "teks": "9 ms"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Prinsip keabadian momentum (Elastik):\nm1 u1 + m2 u2 = m1 v1 + m2 v2\n(6)(3) + (3)(2) = (6)(0) + (3)(v2)\n.. v2 = 8 m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q25",
+      "sumber": "Percubaan Selangor: Set 2 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 25,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Irfan akan lalu di hadapan pasar raya yang\nterletak 60 m dari rumahnya dalam perjalanan ke\ntaman pemainan yang terletak 80 m dari pasar\nraya itu. Rajah 88 menunjukkan laluan yang\ndiambil oleh Irfan.\nIrfan will pass in front of the supermarket which\nis located 60 m from his house on his way to the\nplayground, which is located 80 m from the\nsupermarket. Diagram 88 shows the route taken\nby lfan. (Selangor: Set 2: 2022)\n80 m\n60 m\nBerapakah sesaran bagi pergerakan Irfan?\nWhat is the displacement oflrfan's motion?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah88.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "10 km"
+          },
+          {
+              "id": "B",
+              "teks": "140 m"
+          },
+          {
+              "id": "C",
+              "teks": "100 m"
+          },
+          {
+              "id": "D",
+              "teks": "10 m"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "s = sqrt(60^2 + 80^2)\n.. s = 100 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q26",
+      "sumber": "Percubaan Selangor: Set 2 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 26,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Dua buah troli yang sedang bergerak searah\nmengalami perlanggaran. Troli P berjisim 4 kg\ndengan halaju 4 ms berlanggar secara elastik\ndengan troli Q berjisim 2 kg bergerak dengan\nhalaju 3 ms. Jika troli P berhenti sejurus selepas\nperlanggaran, hitung halaju akhir bagi troli Q.\nTivo trolleys moving in the same direction are\ninvolved in a collision. Trolley Pofmass 4 kg with\na velocity 4 ms' collides elastically with tvolley\nQ of mass 2 kg moving witha velocity 3 ms. If\ntrolley P stops immediately afier the collision,\ncalculate the final velocity of trolley Q.\n(Selangor: Set 2: 2022)\n42",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "2 ms!"
+          },
+          {
+              "id": "B",
+              "teks": "7mns!"
+          },
+          {
+              "id": "C",
+              "teks": "10 ms!"
+          },
+          {
+              "id": "D",
+              "teks": "1l ms"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Prinsip keabadian momentum (Elastik):\n(4)(4) + (2)(3) = (6)(0) + (2)(v2)\n.. v2 = 11 m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q27",
+      "sumber": "Percubaan SMKA 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 27,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 89 menunjukkan sebuah kereta berjisim 1\n200 kg bergerak menghampiri lampu isyarat pada\nkelajuan 20 ms. Apabila brek ditekan kereta itu\nberhenti dalam masa 5 s.\nDiagram 89 shows a car of mass1 200 kg moving\ntowards a traffic light at a speedof 20 ms\". When\nthe brake is pressed the car stops within 5 s.\n(SMKA: 2022)\n20in s\nBerapakah magnitud daya yang dikenakan pada\nbrek kereta itu?\nWhat is the magnitude of force exerted on the\ncar's brakes?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah89.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "60 N"
+          },
+          {
+              "id": "B",
+              "teks": "240 N"
+          },
+          {
+              "id": "C",
+              "teks": "300N"
+          },
+          {
+              "id": "D",
+              "teks": "4800 N"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "F = ma = m((v-u)/t) = 1200((20 - 0)/5)\n.. F = 4800 N",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q28",
+      "sumber": "Percubaan Kedah 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 28,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 90 menunjukkan Richard berdiri pada titik\n0. Dia berjalan ke arah A, kemudian bergerak ke\narah B dan berhenti di B.\nDiagram 90 shows Richard stands at O. He walks\ntowards A, then move towards B and stops at B.\n(Kedah: 2021)\nApakah sesaran Richard?\nWhat is thedisplacenmentof Richard?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah90.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "9 m ke barat"
+          },
+          {
+              "id": "B",
+              "teks": "7 m ke timur"
+          },
+          {
+              "id": "C",
+              "teks": "5 m ke timur 9 m towards west 5 m toward east"
+          },
+          {
+              "id": "D",
+              "teks": "2 m ke barat 7 m toward east 2 m towards west"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "O -> A -> B\nTitik awal = O, Titik akhir = B\nSesaran adalah jarak terpendek dari O ke B = 7 m. Tandaan (+) menunjukkan arah ke kanan (timur).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q29",
+      "sumber": "Percubaan Kedah 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 29,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Berdasarkan graf halaju-masa di bawah (Rajah\n91), berapakah sesaran kereta dalam masa 14 s?\nBased on the velocity-time graph below\n(Diagranm91), what is the displacement of the car\nin 14 s? (Kedah: 2021)\nVelocity/ as\nHalaju/m",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah91.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "4 10 Time/s Masa Rajah 91 / Diagram 91 A 110 m"
+          },
+          {
+              "id": "B",
+              "teks": "100 1m"
+          },
+          {
+              "id": "C",
+              "teks": "80 m"
+          },
+          {
+              "id": "D",
+              "teks": "10 m"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Jumlah sesaran 14 saat = Luas di bawah graf\ns = [1/2(4)(10) + (6 x 10) + 1/2(2)(10)] - [1/2(2)(10)]\n.. s = 80 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q30",
+      "sumber": "Percubaan Kedah 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 30,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Daya F bertindak ke atas jasad berjsim 3 kg di\natas sebuah permukaan licin menghasilkan\npecutan 4.0 ms\". Berapakah pecutan satu jasad\nberjisim kg sekiranya daya 2F bertindak ke\natasnya?\nForce F acts on an object of mass 3 kg on a\nsmooth floor produces an acceleration of4.0 ms\n2, What is the acceleration of an object ofmass 5\nkg ifforce 2F acts on i? (Kedah: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "2.0 ms?"
+          },
+          {
+              "id": "B",
+              "teks": "2.4 ms-"
+          },
+          {
+              "id": "C",
+              "teks": "4.0 ms?"
+          },
+          {
+              "id": "D",
+              "teks": "4.8 ms"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Daya F bertindak ke atas jisim 3 kg:\nF = ma = (3)(4) = 12 N\nJika daya 2F bertindak ke atas jisim 5 kg:\n2F = ma\n2(12) = (5)(a)\n.. a = 4.8 m s^-2",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q31",
+      "sumber": "Percubaan Kedah 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 31,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.2 Menyelesaikan masalah melibatkan impuls dan daya impuls",
+      "spKod": "2.7.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Scbiji bola yang berjisim 1.2 kg bergerak dengan\nhalaju 4 ms' dilanggar oleh sebuah kereta yang\nbergerak pada arah yang sama dengan bola\ntersebut. Halaju bola terscbut meningkat kepada\n10 ms' dalam masa 0.5 s. Berapakah impuls pada\nbola tersebut?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "ball of l2 kg with velocity of 2.0 ms² hit by a car which moving in same direction with the ball. The velocity of the ball increases to 10 ms' in 0.5 s. What is the impulse on the ball? (Kedah: 2021) A 1.2 Ns"
+          },
+          {
+              "id": "B",
+              "teks": "3.6 Ns"
+          },
+          {
+              "id": "C",
+              "teks": "7.2 Ns"
+          },
+          {
+              "id": "D",
+              "teks": "14.4 Ns"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Impuls = Ft = m(v - u) = (1.2)(10 - 4)\n.. Ft = 7.2 N s",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q32",
+      "sumber": "Percubaan Kelantan 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 32,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 92 menunjukkan sepucuk senapang.\nSebutir peluru ditembak keluar dengan halaju 150\nms.\nDiagram 92 shows a rifle. A bullet is fired with a\nvelocity of150 ms'. (Kelantan: 2021)\nJisim peluru 0.02 kg\nMess of bulet0.02kg\nJisim senapang 2 kg\nMass of ifle 2 kg\nBerapakah halaju sentakan senapang?\nWhat is the recoil velocity of the rifle?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah92.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "0.15 ms"
+          },
+          {
+              "id": "B",
+              "teks": "1.5 ms!"
+          },
+          {
+              "id": "C",
+              "teks": "15 ms!"
+          },
+          {
+              "id": "D",
+              "teks": "150 ms!"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Prinsip keabadian momentum (Letupan):\n0 = (2)(v1) + (0.02)(150)\n.. v1 = -1.5 m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q33",
+      "sumber": "Percubaan Sarawak 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 33,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 93 menunjukkan sebuah kapal terbang\nsedang berlepas.\nDiagram 93 shows an aeroplane is take off.\n(Sarawak: 2021)\nLandaan\nnunay\nanisnoLandaea\neneth ofnnay\nBerapakah panjang landasan bagi sebuah kapal\nterbang untuk berlepas dengan halaju 75 m s!\njika ia boleh memecut 2.0 m s*?\nHow long must a runway be for an aeroplane to\nreachtakeoffvelocity75 ms' if it canaccelerate\n2.0 m s29",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah93.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "1000 m"
+          },
+          {
+              "id": "B",
+              "teks": "1200 m"
+          },
+          {
+              "id": "C",
+              "teks": "1406 m"
+          },
+          {
+              "id": "D",
+              "teks": "2000 m"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "v^2 = u^2 + 2as\n75^2 = 0^2 + 2(2)(s)\n.. s = 1406.25 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q34",
+      "sumber": "Percubaan Sabah 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 34,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 94 menunjukkan graf halaju-masa bagi\nsuatu objek.\nDiagram 94 shows a velocity-time graph for an\nobject. (Sabah: 2021)\nHalaju ( ms)\nVelocity\nMasa (s)\n8 10 Time\nHitung sesaran bagi objek tersebut.\nCaleulate the displacement of the object.",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah94.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "15 m"
+          },
+          {
+              "id": "B",
+              "teks": "25 m"
+          },
+          {
+              "id": "C",
+              "teks": "35 m"
+          },
+          {
+              "id": "D",
+              "teks": "40 m"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Jumlah sesaran = Luas di bawah graf\ns = 1/2(2)(5) + (6 x 5) + 1/2(2)(5)\n.. s = 40 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q35",
+      "sumber": "Percubaan Selangor: Set 2 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 35,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Antara sistem yang berikut, manakah akan\nmemberi pecutan yang terbesar ke atas objek\nyang berjisim m?\nWhich of the following systems will give the\ngreatest acceleration on an object ofmnassm?\n(Selangor: Set 2: 2021)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "5O N M 60N sN"
+          },
+          {
+              "id": "B",
+              "teks": "10 N M"
+          },
+          {
+              "id": "C",
+              "teks": "10 N M 15 N"
+          },
+          {
+              "id": "D",
+              "teks": "ISN M 30 N"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Daya paduan:\nF = (60 - 50) = 10 N (arah <-)\nF = (10 + 15) = 25 N (arah ->)\nF = (15 - 10) = 5 N (arah <-)\nF = (30 + 15) = 45 N (arah <-)\nOleh itu pilihan D menghasilkan pecutan terbesar kerana daya paduan F adalah paling besar.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q36",
+      "sumber": "Percubaan MRSM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 36,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 95 menunjukkan graf sesaran-masa bagi\nsatu objek yang bergerak ke arah satu sasaran dan\nkembali semula ke kedudukan asalnya.\nDiagram 95 shows a displacement-time graph on\nan object that moves towards a target and returns\nto its original position. (MRSM: 2021)\nDisplacement (m)\nSesaran im)\nTime (minute)\nMase (mini)\nBerapakah jumlah sesaran objck tersebut?\nWhat is the total displacement of the object?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah95.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "0 m"
+          },
+          {
+              "id": "B",
+              "teks": "100 m"
+          },
+          {
+              "id": "C",
+              "teks": "50 m"
+          },
+          {
+              "id": "D",
+              "teks": "400 m"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "0-4 min: Sesaran bertambah dengan kadar seragam, s = 50 m.\n4-8 min: Objek pegun, s = 50 m.\n8-12 min: Objek kembali ke kedudukan asal dengan halaju seragam pada arah bertentangan.\n.. Jumlah sesaran s = 0 m.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q37",
+      "sumber": "Percubaan MRSM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 37,
+      "sk": "SK 2.7 Impuls dan Daya Impuls",
+      "sp": "SP 2.7.2 Menyelesaikan masalah melibatkan impuls dan daya impuls",
+      "spKod": "2.7.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 40-41",
+      "rujukanBukuTeks": "Buku Teks T4 ms 73-78",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 17-19",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.7 Impuls dan Daya Impuls",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 96 menunjukkan sebuah kotak berjisim 55\nkg dijatuhkan dari sebuah helikopter. Sejurus\nsebelum menyentuh tanah, halaju kotak itu ialah\n300 ms dan berhenti selepas 2 saat menyentuh\ntanah.\nDiagram 96 shows a box with mass of55 kg being\ndropped from a helicopter: At the moment before\ntouching the ground, the velocity of the box is 300\nms and it stops after 2 seconds touching the\nground. (MRSM: 2021)\nBerapakah magnitud daya impuls yang bertindak\nke atas kotak itu?\nWhat is the magnitude of the impulsive force\nacted on the bor?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah96.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "1 080 N"
+          },
+          {
+              "id": "B",
+              "teks": "8250 N"
+          },
+          {
+              "id": "C",
+              "teks": "16 500 N"
+          },
+          {
+              "id": "D",
+              "teks": "33 000 N"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "F = ma = m((v-u)/t) = 55((300 - 0)/2)\n.. F = 8250 N",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q38",
+      "sumber": "Percubaan Negeri Sembilan 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 38,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 97 menunjukkan graf halaju-masa bagi\npergerakan suatu objek dalam garis lurus.\nDiagram 97 shows a velocity-time graph for the\nmotion of an object in a straight line.\n(Negeri Sembilan: 2021)\nv (m s)\n10-\nt (s)\nHitungkan jumlah sesaran dan jarak yang dilalui\noleh objek tersebut.\nCalculate the total displacement and distance\ntravelled by the object.\nSesaran(m) Jarak dilalui (m)\nDisplacement Distance travelled\n(m) (m)",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah97.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "90 110"
+          },
+          {
+              "id": "B",
+              "teks": "00 110"
+          },
+          {
+              "id": "C",
+              "teks": "110 90"
+          },
+          {
+              "id": "D",
+              "teks": "90 100"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Jumlah jarak = Luas di bawah graf\ns = [1/2(4)(10) + (6 x 10) + 1/2(4)(10)] + 1/2(2)(5) + 1/2(2)(5) = 110 m\nJumlah sesaran = [1/2(4)(10) + (6 x 10) + 1/2(4)(10)] - [1/2(2)(5) + 1/2(2)(5)] = 90 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q39",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 39,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Seorang pemain bola tampar melontarkan sebiji\nbola ke atas secara menegak dengan halaju awal\n10 m s', hitung masa diambil untuk mencapai\ntinggi maksimum. (g =9.81 m s² dan rintangan\nudara diabaikan)",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "volleyball player throwing a ball vertically with initial velocity 10 m s', calculate time taken to achieve naximum height (g = 9.81 m s? and air resistance is ignored) (Perlis: 2021) A 1.02 s"
+          },
+          {
+              "id": "B",
+              "teks": "0.98 s"
+          },
+          {
+              "id": "C",
+              "teks": "1.98 s"
+          },
+          {
+              "id": "D",
+              "teks": "4.96 s"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "v = u + at\n0 = 10 + (-9.81)(t)\n.. t = 1.0194 s",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q40",
+      "sumber": "SPM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 40,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Mei Mei mengayuh basikal dari rumahnya ke\nsekolah. Dalam perjalanan balik dari sekolah, dia\nsinggah di kedai runcit di belakang rumahnya.\nRajah 98 menunjukkan graf sesaran-masa\nperjalanannya.\nMei Mei cycles from her house to school. On her\n1vay backfiom school, she stops at a grocery store\nbehind her house. Diagram 98 shows a\ndisplacement-time graph of herjourney.\n(SPM: 2021)\nSesaran (m)\nDisplacement (m)\n100+\n50\nMasa(s)\n-50+ Time (s)\nRumah Kedai runcit\nHouse Grocery store\nGraf halaju-masa yang manakah menerangkan\npergerakan Mei Mei?\nWhich velocity-time graph describes the\nmovement of Mei Mei?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah98.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju(m s) Velocity (ms\") R Masa (9) Tinie (s)"
+          },
+          {
+              "id": "B",
+              "teks": "Halaju(m s) Velocit (ms\") Masa (9) Time (s)"
+          },
+          {
+              "id": "C",
+              "teks": "Halaju(n s') Velociy(m s) SMasa (9) Time (s)"
+          },
+          {
+              "id": "D",
+              "teks": "Halaju(m s) Velocity(m s) 0 Masa (8) Tine (s)"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Bagi graf sesaran-masa (s-t), kecerunan graf mewakili halaju (v = ds/dt). Garis lurus condong mewakili halaju seragam, garis mendatar mewakili objek pegun (halaju sifar), dan garis lengkung mewakili halaju tidak seragam (memecut/menyahpecut). Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q41",
+      "sumber": "SPM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 41,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 99 menunjukkan scbiji buah durian gugur\ndaripada dahan yang mempunyai ketinggian 5 m.\nDiagram 99 shows a durian falls from a branch\nwith a height of5 m. (SPM: 2021)\nDunan\nDurian\nApakah halaju buah durian sejurus sebelum ia\nmencecah tanah?\nWhat is the velocity of the durian just before it\nhits the ground?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah99.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "9.90ms!"
+          },
+          {
+              "id": "B",
+              "teks": "10.15 ms!"
+          },
+          {
+              "id": "C",
+              "teks": "11.10 ms"
+          },
+          {
+              "id": "D",
+              "teks": "13.94 ms!"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "v^2 = u^2 + 2as, simbol h = s\nv^2 = 0^2 + 2(9.81)(5)\n.. v = 9.9045 m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q42",
+      "sumber": "SPM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 42,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Ahmad mengambil masa 1 jam untuk berbasikal\nmelalui P, Q dan R seperti yang ditunjukkan\ndalam Rajah 100.\nAhmad takes 1 hour to cycle through P, Q and R\nas shown in Diagram 100. (SPM: 2022)\n6 km\n8 km\nBerapakah halaju Ahmad berbasikal dari P ke R?\nWhat is the velocity of Ahmad cycling from P to\nR",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah100.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "1.67 ms"
+          },
+          {
+              "id": "B",
+              "teks": "2.22 ms"
+          },
+          {
+              "id": "C",
+              "teks": "2.78 ms"
+          },
+          {
+              "id": "D",
+              "teks": "3.89 ms!"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Halaju = sesaran / masa\nSesaran = sqrt(64 km^2 + 36 km^2) = 10 km = 10 000 m\nv = 10 000 / (1 x 60 x 60)\n.. v = 2.7778 m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q43",
+      "sumber": "SPM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 43,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 101 menunjukkan sebiji bola berjisim 0.02\nkg menghentam dinding dan melantun dalam\nmasa 3 saat.\nDiagram 101 shows a ball with a mass of0.02 kg\nhit the wall and bounces in 3 seconds.\n(SPM: 2022)\n10msl\nDinding\nWall\nSms\nBerapakalh perubahan momentum bola itu?\nWhat is the change of themomentunmof the ball?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah101.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "-0.1 kgms!"
+          },
+          {
+              "id": "B",
+              "teks": "-0.2 kgms"
+          },
+          {
+              "id": "C",
+              "teks": "0.1 kgms"
+          },
+          {
+              "id": "D",
+              "teks": "0.3 kgms!"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Perubahan momentum = mv - mu\n= (0.02)(5) - [(0.02)(-10)] = 0.3 kg m s^-1",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q44",
+      "sumber": "SPM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 44,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Sebuah kapal terbang yang pegun di landasan\nbersedia untuk berlepas. Kapal terbang tersebut\nberlepas apabila halajunya mencapai 100 ms!\npada pecutan 4 ms. Berapakah sesaran kapal\nterbang itu sebelum meninggalkan landasan?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "stationary aeroplane on rumway is ready to take off. The aeroplane takes off when its velocity reached 100 ms at an acceleration of 4 ms. What is the displacement of the aeroplane before it takes of? (SPM: 2022) A 400 m"
+          },
+          {
+              "id": "B",
+              "teks": "1 250 m"
+          },
+          {
+              "id": "C",
+              "teks": "2500 m"
+          },
+          {
+              "id": "D",
+              "teks": "5000 m"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "v^2 = u^2 + 2as\n100^2 = 0^2 + 2(4)(s)\n.. s = 1250 m",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K3_Q45",
+      "sumber": "SPM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 45,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.3 Menyelesaikan masalah gerakan linear dengan menggunakan persamaan gerakan linear",
+      "spKod": "2.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah 102 menunjukkan seorang lelaki sedang\nberlari mengelilingi suatu laluan berbentuk\nbulatan yang mempunyai perimeter 400 m dan\nberjejari 63.6 m.\nDiagran 102 shows a man running around a\ncircular path with perimeter of 400 m and a\nradius of63.6 m. (SPM: 2023)\nMul\nSert\n; 636 em\n10 init\n10 dea\nSelepas 10 minit, dia berada pada separuh bulatan\nlaluan tersebut. Berapakah sesaran lelaki tersebut\npada masa itu?\nAfter 10 minutes, he reaches half of the circular\npath. What is the man displacement at that time?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah102.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "0m"
+          },
+          {
+              "id": "B",
+              "teks": "127.2 m"
+          },
+          {
+              "id": "C",
+              "teks": "200.0 m"
+          },
+          {
+              "id": "D",
+              "teks": "400.0 m"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Titik awal = Mula larian. Titik akhir = kedudukan 10 minit.\nSesaran = jarak terpendek dari mula larian ke titik akhir = 63.6 + 63.6 = 127.2 m.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q01",
+      "sumber": "Percubaan Kelantan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 1,
+      "sk": "SK 2.3 Gerakan Jatuh Bebas",
+      "sp": "SP 2.3.1 Menyiasat dan menerangkan gerakan jatuh bebas dan pecutan graviti",
+      "spKod": "2.3.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 32-33",
+      "rujukanBukuTeks": "Buku Teks T4 ms 46-51",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 7-8",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.3 Gerakan Jatuh Bebas",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah 103 menunjukkan sehelai bulu ayam dan\nsebiji bola loyang dijatuhkan serentak dalam\nudara.\nDiagram l03 shows a chicken feather and a brass\nball dropped simultaneously in the air.\n(Kelantan: 2023)\nBulu ayam Bola loyang\nChicken leather Brass ball\nAntara berikut yang manakah menerangkan\npergerakan bulu ayam dan bola loyang?\nWhich ofthe following describes the movement of\nchicken feather and brass ball'?\nA Pecutan bulu ayam = pecutan bola loyang\nAcceleration of chicken feather=\naccelerationof the brass ball\nB Pecutan bulu ayam > pecutan bola loyang\nAcceleration of chicken feather\nacceleration ofthe brass ball\nC Pecutan bola loyang > pecutan bulu ayam\nAccelerationof brass ball > acceleration of\nthe chicken feather",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah103.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Pecutan bulu ayam = pecutan bola loyang / Acceleration of chicken feather = acceleration of brass ball"
+          },
+          {
+              "id": "B",
+              "teks": "Pecutan bulu ayam > pecutan bola loyang / Acceleration of chicken feather > acceleration of brass ball"
+          },
+          {
+              "id": "C",
+              "teks": "Pecutan bola loyang > pecutan bulu ayam / Acceleration of brass ball > acceleration of chicken feather"
+          },
+          {
+              "id": "D",
+              "teks": "Kedua-dua objek mempunyai pecutan sifar / Both objects have zero acceleration"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.3 Gerakan Jatuh Bebas, konsep yang diaplikasikan menghasilkan jawapan C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q02",
+      "sumber": "Percubaan Pahang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 2,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah 104 menunjukkan dua biji bola bergerak\ndengan arah yang sama.\nDiagrann 104 shows two balls move in thesamne\ndirection. (Pahang: 2023)\nm ma\nm\nPenyataan manakah yang benar menerangkan\nsituasi di atas?\nWhich statement is correct to describes the\nsituation above?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah104.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jumlah momentum scbelum perlanggaran adalah sama dengan jumlah momentum selepas perlanggaran jika tiada daya luar yang bertindak ke atas sistem tersebut Total momentum before collision is same as the total momentum after collision if there is no an external force acting on that system"
+          },
+          {
+              "id": "B",
+              "teks": "Jumlah momentum scbclum perlanggaran adalah sama dengan jumlah momentum selepas perlanggaran jika terdapat daya luar yang bertindak ke atas sistem tersebut Total momentum before collision is same as the total momentum after collision if there is an external force acting on that system"
+          },
+          {
+              "id": "C",
+              "teks": "Jumlah momentum sebelum perlanggaran adalah lebih besar daripada jumlah momentum selepas perlanggaran jika tiada daya luar yang bertindak ke atas sistem tersebut Total momentum before collision is greater than the total momentum after collision if there is no an external force acting on that system"
+          },
+          {
+              "id": "D",
+              "teks": "Jumlah momentum sebelum perlanggaran adalah lebih kecil daripada jumlah momentum selepas perlanggaran jika tiada daya luar yang bertindak ke atas sistem tersebut Total momentum before collision is smaller than the totalmomentum afer collision if there is no an external force acting on that System"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Momentum ditakrifkan sebagai hasil darab jisim dengan halaju (p = mv). Ia merupakan kuantiti vektor yang mempunyai magnitud dan arah. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q03",
+      "sumber": "Percubaan Pulau Pinang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 3,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Sebiji bola ping pong dan sebiji bola logam yang\nsama saiz dilepaskan daripada ketinggian yang\nsama dalam vakum. Perbandingan yang manakah\ntentang momentum kedua-dua bola sejurus\nsebelun menghentam pada lantai adalah betul?\nA ping pong ball anda metal ball of thesamesize\nare released from the same height in vacuum.\nWhich conmparison about the nomentum of the\nwo balls just before hitting the floor is true?\n(Pulau Pinang: 2023)\nA Momentum bola ping pong > Momentum\nbola logam\nMomentum of the ping pong ball >\nMomentum ofthe metal ball\nB Momentum bola ping pong < Momentum\nbola logam\nMomentum of the ping pong ball <\nMomentum ofthe metal ball\nC Momentum bola ping pong = Momentum\nbola logam\nMomentum of the ping pong ball =\nMomentum of the metal ball",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Momentum bola ping pong > Momentum bola logam / Momentum of ping pong ball > Momentum of metal ball"
+          },
+          {
+              "id": "B",
+              "teks": "Momentum bola ping pong < Momentum bola logam / Momentum of ping pong ball < Momentum of metal ball"
+          },
+          {
+              "id": "C",
+              "teks": "Momentum bola ping pong = Momentum bola logam / Momentum of ping pong ball = Momentum of metal ball"
+          },
+          {
+              "id": "D",
+              "teks": "Kedua-dua bola mempunyai momentum sifar / Both balls have zero momentum"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Dalam keadaan jatuh bebas (seperti di dalam tiub vakum di mana rintangan udara diabaikan), semua objek mengalami pecutan graviti bumi yang sama (g ≈ 9.81 m s⁻²) tanpa dipengaruhi oleh jisim atau bentuk objek. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q04",
+      "sumber": "Percubaan MRSM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 4,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.1 Mentafsir jenis gerakan dari graf sesaran-masa, halaju-masa dan pecutan-masa",
+      "spKod": "2.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah 105 menunjukkan graf halaju, v melawan\nmasa, t sebuah lori mainan.\nDiagramn 105 shows a velocity, v against time, t\ngraphof a toylorry. (MRSM: 2023)\nv/ms!\n10 t/s\n20\nAntara berikut, perbandingan manakah yang\nbetul?\nWhich of the following conparison is correcr?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah105.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Pecutan OA lebih besar dari BC Acceleration OA is higher than BC"
+          },
+          {
+              "id": "B",
+              "teks": "Pecutan OA lebih kecil dari BC Acceleration OA is lower than BC"
+          },
+          {
+              "id": "C",
+              "teks": "Pecutan AB lebih besar dari BC Acceleration AB is higher than BC"
+          },
+          {
+              "id": "D",
+              "teks": "Pecutan OA sama dengan BC Acceleration OA same with BC"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q05",
+      "sumber": "Percubaan Pahang 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 5,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah 106 menunjukkan graf halaju, v melawan\nmasa, t untuk suatu pergerakan sebuah kereta.\nDiagram 106 shows the graph of velocity, v\nagainst time, tfor a movement of a car.\n(Pahang: 2022)\nvng-!\n20\n10\n20\nPernyataan manakah mengenai graf adalah\nsalah?\nWhich statement about the graph is wrong?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah106.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jika t= 0s, v= 10ms Ift =0s, v= 10ms!"
+          },
+          {
+              "id": "B",
+              "teks": "Kecerunan graf ialah 0.5ms The gradient of the graph is 0.5ms"
+          },
+          {
+              "id": "C",
+              "teks": "v bertambah secara lincar dengan t v is increase linearly to t"
+          },
+          {
+              "id": "D",
+              "teks": "Persamaan graf ialah v = 0.5t + 10 The equation of the graph is v = 0.5t + 10"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan tafsiran graf gerakan linear, bentuk garis dan kecerunan graf mentakrifkan jenis gerakan objek secara tepat. Jawapan: B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q06",
+      "sumber": "Percubaan Pahang 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 6,
+      "sk": "SK 2.8 Berat",
+      "sp": "SP 2.8.1 Menyatakan berat sebagai daya graviti yang bertindak ke atas suatu objek, W = mg",
+      "spKod": "2.8.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 42",
+      "rujukanBukuTeks": "Buku Teks T4 ms 79-82",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 20",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.8 Berat",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajalh 107 menunjukkan dua biji durian yang\njatuh serentak tetapi berbeza saiz. Mengapakah\ndurian besar itu sanmpai ke tanah dahulu?\nDiagram 107 shows vo durian that fall at the\nsame time but different in size. Why does the big\ndurian reach the ground first? (Pahang: 2022)\nduian keci\ndurian besar smal unian\nbig durian",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah107.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Daya graviti yang bertindak ke atas durian kecil adalah lebih besar daripada daya graviti yang bertindak ke atas durian besar The force of gravity actedon thesmalldurian is greater than the force of gravity acted on the big durian"
+          },
+          {
+              "id": "B",
+              "teks": "Daya graviti yang bertindak ke atas durian besar adalah lebih besar daripada daya graviti yang bertindak ke atas durian kecil The force of gravity acted on the big durian is greater than the force of gravity acted on the small durian"
+          },
+          {
+              "id": "C",
+              "teks": "Daya graviti yang bertindak ke atas durian kecil dapat mengatasi daya rintangan udara lebih daripada daya graviti yang bertindak ke atas durian besar The force ofgravity acted on the small durian is better to overcome the air resistance conpared to the force of gravity acted on the bis durian"
+          },
+          {
+              "id": "D",
+              "teks": "Daya graviti yang bertindak ke atas durian besar dapat mengatasi daya rintangan udara lebih daripada daya graviti yang bertindak ke atas durian kecil The force of gravity acted on the big durian is better to overcome the air resistance compared to the force of gravity acted on the small durian"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Hukum Gerakan Newton Kedua menyatakan bahawa daya paduan yang bertindak ke atas objek adalah berkadar terus dengan kadar perubahan momentum: F = ma. Jawapan yang tepat ialah A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q07",
+      "sumber": "Percubaan Selangor: Set 1 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 7,
+      "sk": "SK 2.2 Graf Gerakan Linear",
+      "sp": "SP 2.2.4 Menyelesaikan masalah melibatkan graf gerakan linear",
+      "spKod": "2.2.4",
+      "rujukanDskp": "DSKP Fizik T4 ms 30-31",
+      "rujukanBukuTeks": "Buku Teks T4 ms 37-45",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 4-6",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.2 Graf Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah 108 menunjukkan graf halaju-masa bagi\ntiga objek yang bergerak iaitu, X, Y dan Z dalam\nsatu garis lurus.\nDiagram 108 shows a velocity-time graph of\nthree moving objects, X, Y and Z along a straight\nline. (Selangor: Set 1: 2022)\n48\nHalaju/m s!\nVelocityIm s\n50\n30\n104 Masa/s\n30 Tme/s\nAntara pernyataan berikut, manakah adalah\nbenar tentangpergerakan objek X, Y dan Z?\nWhich ofthe following statement is true about the\nmotion ofobjects X, Y and Z?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah108.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Objek Y adalah dalam keadaan pegun Object Y is in stationary"
+          },
+          {
+              "id": "B",
+              "teks": "Objek X mempunyai sesaran yang lebih besar daripada objek Y Object X has greater displacement than object Y"
+          },
+          {
+              "id": "C",
+              "teks": "Objek X mempunyai sesaran yang lebih besar daripada objek Z Object X has greater displacement than object Z"
+          },
+          {
+              "id": "D",
+              "teks": "Objek Z mempunyai sesaran yang lebih besar daripada objek X dan Y Object Z has greater displacement tha object X and Y"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Bagi graf halaju-masa (v-t), kecerunan graf mewakili pecutan objek (a = dv/dt), manakala luas di bawah graf mewakili jumlah sesaran / jarak yang dilalui oleh objek. Jawapan: D.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q08",
+      "sumber": "Percubaan SMKA 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 8,
+      "sk": "SK 2.1 Gerakan Linear",
+      "sp": "SP 2.1.1 Menghuraikan jenis gerakan linear bagi objek yang berada dalam keadaan pegun, halaju seragam dan halaju tidak seragam",
+      "spKod": "2.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 28-29",
+      "rujukanBukuTeks": "Buku Teks T4 ms 26-36",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 1-3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.1 Gerakan Linear",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah 109 menunjukkan dua orang kanak-kanak\nsedang bermain buaian yang berbeza panjang di\ntaman permainan. Didapati bahawa tempoh\nayunan bagi setiap buaian itu berbeza.\nDiagram 109 shows tvo children playing o\nswings with diferent lengths at a playground. It\nis found that the period of oscillation for each\nswing is different. (SMKA: 2022)\nShot stieg Tabpanp Letgsg\nAntara pernyataan berikut, yang manakah betul?\nWhich of the following statementsis correct?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah109.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Panjang tali bertambah, tempoh ayunan berkurang The length of string increases, period of oscillation decreases"
+          },
+          {
+              "id": "B",
+              "teks": "Panjang tali bertambah, tempoh ayunan bertambah The length of string increases, period of oscillation increases"
+          },
+          {
+              "id": "C",
+              "teks": "Panjang tali berkadar terus dengan tempoh ayunan The length of string is directhy proportional lo the period of oscillation"
+          },
+          {
+              "id": "D",
+              "teks": "Panjang tali berkadar songsang dengan tempoh ayunan The length of string is inversely proportional to the period of oscillation"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q09",
+      "sumber": "Percubaan Sarawak 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 9,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah 110 menunjukkan bola A dan bola B yang\nmempunyai jisim yang berbeza. Satu bola\nmempunyai jisim dua kali ganda berbanding bola\nyang satu lagi.\nDiagram 110 shows ball A and ball B have\ndifferent masses. One ball having the mass twice\nthan the other ball. (Sarawak: 2021)\nBola. A Bola B\nBall A Ball B\nTanpa mengangkat dan menggunakan\npenimbang, bagaimanakah cara menentukan bola\nyang mempunyai jisim yang lebih besar?\nWithout lifting and veighing, how to determine\nwhich ball has greater mass?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah110.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Gerakkan kedua-dua bola dengan daya yang sama, bola yang susah digerakkan mempunyai jisim yang besar kerana inersianya besar Push the balls with the same force, the ball that harder to move has greater mass due to greater inertia"
+          },
+          {
+              "id": "B",
+              "teks": "Gerakkan kedua-dua bola dengan daya yang sama, bola yang menghasilkan pecutan tinggi mempunyai jisim yang lebih besar Move both the balls with the same force, the ball that having greater acceleration greater mass"
+          },
+          {
+              "id": "C",
+              "teks": "Putarkan kedua-dua bola, bola yang cepat berhenti mempunyai jisim yang lebih besar Rotate both balls, the ball that quickly stops has a greater mass"
+          },
+          {
+              "id": "D",
+              "teks": "Gerakkan kedua-dua bola di atas lantai rata, bola yang bergerak lurus mempunyai jisim yang lebih besar Move both balls on a flat floor, a ball moving straight has a greater mass"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Inersia suatu objek bergantung secara langsung kepada jisimnya sahaja mengikut Hukum Gerakan Newton Pertama. Semakin besar jisim objek, semakin besar inersianya. Oleh itu, objek dengan jisim terbesar mempunyai inersia paling besar (Jawapan: A).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q10",
+      "sumber": "SPM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 10,
+      "sk": "SK 2.4 Inersia",
+      "sp": "SP 2.4.1 Menerangkan konsep inersia melalui contoh (Hukum Gerakan Newton Pertama)",
+      "spKod": "2.4.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 34-35",
+      "rujukanBukuTeks": "Buku Teks T4 ms 52-57",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 9-10",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.4 Inersia",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah 111 (a) dan Rajah 111 (b) menunjukkan\ndua gelas yang serupa diisikan dengan isi padu air\nyang berbeza. Apabila alas meja disentap secara\nmengufuk, gelas dalam Rajah 111 (a) tidak\nbergerak tetapi gelas dalam Rajah 111 (b)\nbergerak sedikit.\nidentical glasses filled with different volume of\nwater. When the table cloth is pulled horizontally,\nthe glass in Diagram 111 (a) is not moving but the\nglass in Diagram 11l1 (b) moves slightly.\n(SPM: 2022)\nRajah 111 (a) Rajah 111 (b)\nPernyataan manakah yang menerangkan situasi\ntersebut?\nWhich statements explains the situation?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah111.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Apabila jisim air berkurang, inersia gelas bertambah When the mass of the water decreases, the inertia of the glassincreases"
+          },
+          {
+              "id": "B",
+              "teks": "Apabila jisim air bertambah, inersia gelas bertambah When the mass of the water bertambah, the inertia of the glass increases"
+          },
+          {
+              "id": "C",
+              "teks": "Apabila jisim air bertambah, inersia gelas berkurang When the mass of the water increases, the inertia of the glassdecreases"
+          },
+          {
+              "id": "D",
+              "teks": "Apabila jisim air berkurang, inersia gelas berkurang When the mass of the water decreases, the inertia of the glassdecreases"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Inersia suatu objek bergantung secara langsung kepada jisimnya sahaja mengikut Hukum Gerakan Newton Pertama. Semakin besar jisim objek, semakin besar inersianya. Oleh itu, objek dengan jisim terbesar mempunyai inersia paling besar (Jawapan: B).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B2_K4_Q11",
+      "sumber": "SPM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 11,
+      "sk": "SK 2.5 Momentum",
+      "sp": "SP 2.5.2 Mengaplikasi Prinsip Keabadian Momentum dalam pelanggaran dan letupan",
+      "spKod": "2.5.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 36-37",
+      "rujukanBukuTeks": "Buku Teks T4 ms 58-65",
+      "rujukanCheatnote": "Cheatnote T4 Bab 2 ms 11-13",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 2,
+      "babNama": "Daya dan Gerakan I",
+      "bidang": "Mekanik Newton",
+      "topik": "2.5 Momentum",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah l12 menunjukkan dua orang pemain rugbi\nsedang berlari ke arah satu sama lain. Pemain X\ndan pemain Y berlari dengan kelajuan masing-\nmasing 8 ms dan 10 ms. Kedua-dua pemain\nmempunyai jisim yang sama.\nDiagram |12 shows wo rugby players running\ntowards each other: Player X and player Y run at\na speed of 8 ms' dan 10ms respectively. Both\nplayers have the sane mass. (SPM: 2023)\nPemain X Pemain Y\nPlayer X PlayerY\nAntara yang berikut., manakah yang betul apabila\nkedua-dua pemain tersebut berlanggar antara satu\nsama lain dan jatuh bersama-sama.\nWhich of the following is correct when the both\nplayers collideeachotherandfall together?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah112.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Momentum pemain Y sama dengan momentum pemain X The momnentum of player Y is equal to the momentum ofplaver X"
+          },
+          {
+              "id": "B",
+              "teks": "Perlanggaran yang berlaku adalah perlanggaran kenyal The collision occurred is an elastic collision"
+          },
+          {
+              "id": "C",
+              "teks": "Perlanggaran yang berlaku adalah perlanggaran tak kenyal The collision occurred is an inelastic collision"
+          },
+          {
+              "id": "D",
+              "teks": "Jumlah momentum selepas perlanggaran adalah lebih besar daripada jumlah momentum sebelum perlanggaran The total momentum after collision is greater than the total momentum before collision"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Momentum ditakrifkan sebagai hasil darab jisim dengan halaju (p = mv). Ia merupakan kuantiti vektor yang mempunyai magnitud dan arah. Jawapan: C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
   }
 ];
 
