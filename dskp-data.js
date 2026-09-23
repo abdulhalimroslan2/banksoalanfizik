@@ -5926,96 +5926,94 @@ const QUESTION_BANK = [
       "statusSemakan": "Disemak (Modul K1)",
       "jawapan": "D"
   },
-  {
-      "id": "MODUL_T4_B1_K2_Q05",
-      "sumber": "Percubaan Kelantan 2022",
-      "tahun": 2022,
-      "noSoalanAsal": 5,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Rendah",
-      "konstruk": "Memahami",
-      "soalan": "Graf manakah menunjukkan P bertambah secara linear dengan Q?\nWhich graph shows P increases linearly with Q?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q05_opts.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "Graf A (Garis lurus bermula dari titik asalan 0)"
-          },
-          {
-              "id": "B",
-              "teks": "Graf B (Garis lurus dengan pintasan-y positif dan kecerunan positif)"
-          },
-          {
-              "id": "C",
-              "teks": "Graf C (Garis lurus dengan kecerunan negatif)"
-          },
-          {
-              "id": "D",
-              "teks": "Graf D (Lengkung mencuram)"
-          }
-      ],
-      "jawapanBetul": "B",
-      "penerangan": "Hubungan 'P bertambah secara linear dengan Q' diwakili oleh graf garis lurus berkecerunan positif yang mempunyai pintasan pada paksi menegak (persamaan P = mQ + c di mana c > 0).",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "B"
-  },
-  {
-      "id": "MODUL_T4_B1_K2_Q06",
-      "sumber": "Percubaan Melaka 2022",
-      "tahun": 2022,
-      "noSoalanAsal": 6,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Rendah",
-      "konstruk": "Memahami",
-      "soalan": "Rajah menunjukkan satu graf isipadu, V melawan suhu, θ bagi suatu gas.\nDiagram shows a graph volume, V against temperature, θ for a gas.\n\nApakah hubungan antara V dan θ bagi gas tersebut?\nWhat is the relationship between V and θ for the gas?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q06_rajah5.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "V berkadar terus dengan θ / V is directly proportional with θ"
-          },
-          {
-              "id": "B",
-              "teks": "V berkadar songsang dengan θ / V is inversely proportional with θ"
-          },
-          {
-              "id": "C",
-              "teks": "V berkurang secara linear dengan θ / V is decreasing linearly with θ"
-          },
-          {
-              "id": "D",
-              "teks": "V bertambah secara linear dengan θ / V is increasing linearly with θ"
-          }
-      ],
-      "jawapanBetul": "D",
-      "penerangan": "Graf garis lurus menunjukkan pintasan positif pada paksi-V pada 0 °C (V_0) dan kecerunan positif. Oleh itu, V bertambah secara linear dengan suhu θ dalam unit darjah Celsius.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "D"
-  },
+      {
+        "id": "MODUL_T4_B1_K2_Q05",
+        "sumber": "Percubaan Kelantan 2022",
+        "tahun": 2022,
+        "noSoalanAsal": 5,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+        "spKod": "1.2.1",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Rendah",
+        "konstruk": "Memahami",
+        "soalan": "Graf manakah menunjukkan P bertambah secara linear dengan Q?\nWhich graph shows P increases linearly with Q?",
+        "rajahUrl": null,
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q05_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf A\">"
+            },
+            {
+                "id": "B",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q05_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf B\">"
+            },
+            {
+                "id": "C",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q05_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf C\">"
+            },
+            {
+                "id": "D",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q05_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf D\">"
+            }
+        ],
+        "jawapanBetul": "B",
+        "penerangan": "Hubungan 'P bertambah secara linear dengan Q' diwakili oleh graf garis lurus berkecerunan positif yang mempunyai pintasan pada paksi menegak (persamaan P = mQ + c di mana c > 0).",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
+      {
+        "id": "MODUL_T4_B1_K2_Q06",
+        "sumber": "Percubaan Melaka 2022",
+        "tahun": 2022,
+        "noSoalanAsal": 6,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+        "spKod": "1.2.1",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Rendah",
+        "konstruk": "Memahami",
+        "soalan": "Rajah menunjukkan satu graf isipadu, V melawan suhu, θ bagi suatu gas.\nDiagram shows a graph volume, V against temperature, θ for a gas.\n\nApakah hubungan antara V dan θ bagi gas tersebut?\nWhat is the relationship between V and θ for the gas?",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q06_rajah5.webp?v=20260923_v2",
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "V berkadar terus dengan θ / V is directly proportional with θ"
+            },
+            {
+                "id": "B",
+                "teks": "V berkadar songsang dengan θ / V is inversely proportional with θ"
+            },
+            {
+                "id": "C",
+                "teks": "V berkurang secara linear dengan θ / V is decreasing linearly with θ"
+            },
+            {
+                "id": "D",
+                "teks": "V bertambah secara linear dengan θ / V is increasing linearly with θ"
+            }
+        ],
+        "jawapanBetul": "D",
+        "penerangan": "Graf garis lurus menunjukkan pintasan positif pada paksi-V pada 0 °C (V_0) dan kecerunan positif. Oleh itu, V bertambah secara linear dengan suhu θ dalam unit darjah Celsius.",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
   {
       "id": "MODUL_T4_B1_K2_Q07",
       "sumber": "Percubaan Negeri Sembilan 2022",
@@ -6061,51 +6059,50 @@ const QUESTION_BANK = [
       "statusSemakan": "Disemak (Modul K1)",
       "jawapan": "C"
   },
-  {
-      "id": "MODUL_T4_B1_K2_Q08",
-      "sumber": "Percubaan Pahang 2022",
-      "tahun": 2022,
-      "noSoalanAsal": 8,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Rendah",
-      "konstruk": "Memahami",
-      "soalan": "Rajah menunjukkan graf y melawan x.\nDiagram shows a graph y against x.\n\nApakah hubungan bagi graf di atas?\nWhat is the relationship for the graph above?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q08_rajah7.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "y berkadar terus dengan x / y directly proportional to x"
-          },
-          {
-              "id": "B",
-              "teks": "y berkadar songsang dengan x / y inversely proportional to x"
-          },
-          {
-              "id": "C",
-              "teks": "y berkurang secara linear dengan x / y decreases linearly to x"
-          },
-          {
-              "id": "D",
-              "teks": "y meningkat secara linear dengan x / y increasing linearly to x"
-          }
-      ],
-      "jawapanBetul": "C",
-      "penerangan": "Graf garis lurus berkecerunan negatif (m < 0) dengan pintasan paksi menegak positif mewakili hubungan 'y berkurang secara linear dengan x' (y = -mx + c).",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "C"
-  },
+      {
+        "id": "MODUL_T4_B1_K2_Q08",
+        "sumber": "Percubaan Pahang 2022",
+        "tahun": 2022,
+        "noSoalanAsal": 8,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+        "spKod": "1.2.1",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Rendah",
+        "konstruk": "Memahami",
+        "soalan": "Rajah menunjukkan graf y melawan x.\nDiagram shows a graph y against x.\n\nApakah hubungan bagi graf di atas?\nWhat is the relationship for the graph above?",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q08_rajah7.webp?v=20260923_v2",
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "y berkadar terus dengan x / y directly proportional to x"
+            },
+            {
+                "id": "B",
+                "teks": "y berkadar songsang dengan x / y inversely proportional to x"
+            },
+            {
+                "id": "C",
+                "teks": "y berkurang secara linear dengan x / y decreases linearly to x"
+            },
+            {
+                "id": "D",
+                "teks": "y meningkat secara linear dengan x / y increasing linearly to x"
+            }
+        ],
+        "jawapanBetul": "C",
+        "penerangan": "Graf garis lurus berkecerunan negatif (m < 0) dengan pintasan paksi menegak positif mewakili hubungan 'y berkurang secara linear dengan x' (y = -mx + c).",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
   {
       "id": "MODUL_T4_B1_K2_Q09",
       "sumber": "Percubaan SBP 2022",
@@ -6151,141 +6148,138 @@ const QUESTION_BANK = [
       "statusSemakan": "Disemak (Modul K1)",
       "jawapan": "C"
   },
-  {
-      "id": "MODUL_T4_B1_K2_Q10",
-      "sumber": "Percubaan Selangor Set 1 2022",
-      "tahun": 2022,
-      "noSoalanAsal": 10,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Rendah",
-      "konstruk": "Memahami",
-      "soalan": "Rajah menunjukkan graf garis antara dua pemboleh ubah.\nDiagram shows a line graph between two variables.\n\nPernyataan manakah yang benar berkaitan graf tersebut?\nWhich statement is true about the graph?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q10_rajah9.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "y berkadar songsang dengan x / y is inversely proportional to x"
-          },
-          {
-              "id": "B",
-              "teks": "Semakin tinggi x, semakin tinggi y / The higher the x, the higher the y"
-          },
-          {
-              "id": "C",
-              "teks": "y berkurang secara linear dengan x / y decreases linearly with x"
-          },
-          {
-              "id": "D",
-              "teks": "Kecerunan graf adalah menurun / The gradient of the graph is decreasing"
-          }
-      ],
-      "jawapanBetul": "A",
-      "penerangan": "Lengkung hiperbola asimptot kepada kedua-dua paksi menunjukkan hubungan berkadar songsang: y berkadar songsang dengan x (y ∝ 1/x).",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "A"
-  },
-  {
-      "id": "MODUL_T4_B1_K2_Q11",
-      "sumber": "Percubaan Selangor Set 2 2022",
-      "tahun": 2022,
-      "noSoalanAsal": 11,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Sederhana",
-      "konstruk": "Memahami",
-      "soalan": "• Mempunyai kecerunan positif / Has a positive gradient\n• y berkadar songsang dengan x / y is inversely proportional to x\n\nGraf yang manakah betul berdasarkan pernyataan di atas?\nWhich graph is correct based on the statements above?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q11_opts.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "Graf A (Lengkung y melawan x)"
-          },
-          {
-              "id": "B",
-              "teks": "Graf B (Garis lurus y melawan x dengan kecerunan negatif)"
-          },
-          {
-              "id": "C",
-              "teks": "Graf C (Garis lurus y melawan 1/x melalui asalan dengan kecerunan positif)"
-          },
-          {
-              "id": "D",
-              "teks": "Graf D (Garis lurus y melawan 1/x dengan kecerunan negatif)"
-          }
-      ],
-      "jawapanBetul": "C",
-      "penerangan": "Apabila y berkadar songsang dengan x (y ∝ 1/x), pemplotan graf y melawan 1/x menghasilkan graf garis lurus yang melalui titik asalan dengan kecerunan positif.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "C"
-  },
-  {
-      "id": "MODUL_T4_B1_K2_Q12",
-      "sumber": "Percubaan Kelantan 2021",
-      "tahun": 2021,
-      "noSoalanAsal": 12,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Rendah",
-      "konstruk": "Memahami",
-      "soalan": "Graf manakah menunjukkan P berkadar songsang dengan Q?\nWhich graph shows P is inversely proportional to Q?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q12_opts.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "Graf A (Garis lurus P melawan Q melalui asalan)"
-          },
-          {
-              "id": "B",
-              "teks": "Graf B (Garis lurus P melawan Q dengan kecerunan negatif)"
-          },
-          {
-              "id": "C",
-              "teks": "Graf C (Garis lurus P melawan 1/Q melalui asalan)"
-          },
-          {
-              "id": "D",
-              "teks": "Graf D (Lengkung P melawan 1/Q)"
-          }
-      ],
-      "jawapanBetul": "C",
-      "penerangan": "P berkadar songsang dengan Q bermaksud P ∝ 1/Q. Graf garis lurus yang melalui titik asalan bagi paksi menegak P dan paksi mengufuk 1/Q mengesahkan hubungan songsang tersebut.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "C"
-  },
+      {
+        "id": "MODUL_T4_B1_K2_Q10",
+        "sumber": "Percubaan Selangor Set 1 2022",
+        "tahun": 2022,
+        "noSoalanAsal": 10,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+        "spKod": "1.2.1",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Rendah",
+        "konstruk": "Memahami",
+        "soalan": "Rajah menunjukkan graf garis antara dua pemboleh ubah.\nDiagram shows a line graph between two variables.\n\nPernyataan manakah yang benar berkaitan graf tersebut?\nWhich statement is true about the graph?",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q10_rajah9.webp?v=20260923_v2",
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "y berkadar songsang dengan x / y is inversely proportional to x"
+            },
+            {
+                "id": "B",
+                "teks": "Semakin tinggi x, semakin tinggi y / The higher the x, the higher the y"
+            },
+            {
+                "id": "C",
+                "teks": "y berkurang secara linear dengan x / y decreases linearly with x"
+            },
+            {
+                "id": "D",
+                "teks": "Kecerunan graf adalah menurun / The gradient of the graph is decreasing"
+            }
+        ],
+        "jawapanBetul": "A",
+        "penerangan": "Lengkung hiperbola asimptot kepada kedua-dua paksi menunjukkan hubungan berkadar songsang: y berkadar songsang dengan x (y ∝ 1/x).",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
+      {
+        "id": "MODUL_T4_B1_K2_Q11",
+        "sumber": "Percubaan Selangor Set 2 2022",
+        "tahun": 2022,
+        "noSoalanAsal": 11,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+        "spKod": "1.2.1",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Sederhana",
+        "konstruk": "Memahami",
+        "soalan": "• Mempunyai kecerunan positif / Has a positive gradient\n• y berkadar songsang dengan x / y is inversely proportional to x\n\nGraf yang manakah betul berdasarkan pernyataan di atas?\nWhich graph is correct based on the statements above?",
+        "rajahUrl": null,
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q11_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf A\">"
+            },
+            {
+                "id": "B",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q11_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf B\">"
+            },
+            {
+                "id": "C",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q11_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf C\">"
+            },
+            {
+                "id": "D",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q11_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf D\">"
+            }
+        ],
+        "jawapanBetul": "C",
+        "penerangan": "Apabila y berkadar songsang dengan x (y ∝ 1/x), pemplotan graf y melawan 1/x menghasilkan graf garis lurus yang melalui titik asalan dengan kecerunan positif.",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
+      {
+        "id": "MODUL_T4_B1_K2_Q12",
+        "sumber": "Percubaan Kelantan 2021",
+        "tahun": 2021,
+        "noSoalanAsal": 12,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+        "spKod": "1.2.1",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Rendah",
+        "konstruk": "Memahami",
+        "soalan": "Graf manakah menunjukkan P berkadar songsang dengan Q?\nWhich graph shows P is inversely proportional to Q?",
+        "rajahUrl": null,
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q12_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf A\">"
+            },
+            {
+                "id": "B",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q12_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf B\">"
+            },
+            {
+                "id": "C",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q12_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf C\">"
+            },
+            {
+                "id": "D",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q12_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf D\">"
+            }
+        ],
+        "jawapanBetul": "C",
+        "penerangan": "P berkadar songsang dengan Q bermaksud P ∝ 1/Q. Graf garis lurus yang melalui titik asalan bagi paksi menegak P dan paksi mengufuk 1/Q mengesahkan hubungan songsang tersebut.",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
   {
       "id": "MODUL_T4_B1_K2_Q13",
       "sumber": "Percubaan Melaka 2021",
@@ -6331,51 +6325,50 @@ const QUESTION_BANK = [
       "statusSemakan": "Disemak (Modul K1)",
       "jawapan": "B"
   },
-  {
-      "id": "MODUL_T4_B1_K2_Q14",
-      "sumber": "Percubaan Perlis 2021",
-      "tahun": 2021,
-      "noSoalanAsal": 14,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
-      "spKod": "1.2.2",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Sederhana",
-      "konstruk": "Memahami",
-      "soalan": "Graf menunjukkan hubungan antara P dan T.\nGraph shows the relationship between P and T.\n\nHubungan P dan T boleh diwakili oleh persamaan\nRelationship between P and T can be represented by equation",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q14_graf.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "P = T + 5"
-          },
-          {
-              "id": "B",
-              "teks": "P = T + 1"
-          },
-          {
-              "id": "C",
-              "teks": "P = -T + 5"
-          },
-          {
-              "id": "D",
-              "teks": "P = -T + 1"
-          }
-      ],
-      "jawapanBetul": "C",
-      "penerangan": "Daripada graf: pintasan-y (paksi P) ialah 5, dan pintasan-x (paksi T) ialah 5. Kecerunan m = (0 - 5) / (5 - 0) = -1. Oleh itu mengikut persamaan garis lurus y = mx + c: P = -T + 5.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "C"
-  },
+      {
+        "id": "MODUL_T4_B1_K2_Q14",
+        "sumber": "Percubaan Perlis 2021",
+        "tahun": 2021,
+        "noSoalanAsal": 14,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
+        "spKod": "1.2.2",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Sederhana",
+        "konstruk": "Memahami",
+        "soalan": "Graf menunjukkan hubungan antara P dan T.\nGraph shows the relationship between P and T.\n\nHubungan P dan T boleh diwakili oleh persamaan\nRelationship between P and T can be represented by equation",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q14_graf.webp?v=20260923_v2",
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "P = T + 5"
+            },
+            {
+                "id": "B",
+                "teks": "P = T + 1"
+            },
+            {
+                "id": "C",
+                "teks": "P = -T + 5"
+            },
+            {
+                "id": "D",
+                "teks": "P = -T + 1"
+            }
+        ],
+        "jawapanBetul": "C",
+        "penerangan": "Daripada graf: pintasan-y (paksi P) ialah 5, dan pintasan-x (paksi T) ialah 5. Kecerunan m = (0 - 5) / (5 - 0) = -1. Oleh itu mengikut persamaan garis lurus y = mx + c: P = -T + 5.",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
   {
       "id": "MODUL_T4_B1_K2_Q15",
       "sumber": "Percubaan Perlis 2021",
@@ -6601,96 +6594,94 @@ const QUESTION_BANK = [
       "statusSemakan": "Disemak (SPM Sebenar)",
       "jawapan": "D"
   },
-  {
-      "id": "MODUL_T4_B1_K3_Q01",
-      "sumber": "Percubaan Negeri Sembilan 2023",
-      "tahun": 2023,
-      "noSoalanAsal": 1,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Sederhana",
-      "konstruk": "Mengaplikasi",
-      "soalan": "Formula di bawah menunjukkan hubungan di antara tempoh ayunan bandul dan beberapa kuantiti fizik yang lain:\nThe formula below shows the relationship between the period of oscillation of a pendulum and several other physical quantities:\n\nT = 2π √(l/g)\n\nManakah antara graf berikut adalah benar?\nWhich of the following graphs is true?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q01_opts.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "Graf A (T melawan l)"
-          },
-          {
-              "id": "B",
-              "teks": "Graf B (T melawan 1/√g garis lurus melalui asalan)"
-          },
-          {
-              "id": "C",
-              "teks": "Graf C (T melawan g)"
-          },
-          {
-              "id": "D",
-              "teks": "Graf D (T^2 melawan 1/l)"
-          }
-      ],
-      "jawapanBetul": "B",
-      "penerangan": "Berdasarkan rumus T = 2π √(l/g), T adalah berkadar terus dengan 1/√g (iaitu T = (2π√l) x (1/√g)). Oleh itu, graf T melawan 1/√g adalah garis lurus yang melalui titik asalan.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "B"
-  },
-  {
-      "id": "MODUL_T4_B1_K3_Q02",
-      "sumber": "Percubaan Pulau Pinang 2023",
-      "tahun": 2023,
-      "noSoalanAsal": 2,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
-      "spKod": "1.2.2",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Tinggi",
-      "konstruk": "Mengaplikasi",
-      "soalan": "Rajah menunjukkan hubungan antara jarak imej, v dengan pembesaran, M untuk sebuah kanta cembung:\nDiagram shows the relationship between image distance, v and magnification, M for a convex lens:\n\nv - 10 = 10M\n\nAntara graf-graf berikut, yang manakah menunjukkan hubungan antara v dengan M bagi persamaan di atas?\nWhich of the following graphs shows the relationship between v and M for the above equation?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q02_opts.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "Graf A (Garis lurus v melawan M dengan pintasan-v = 10 dan kecerunan m = 10)"
-          },
-          {
-              "id": "B",
-              "teks": "Graf B (Garis lurus v melawan M melalui asalan)"
-          },
-          {
-              "id": "C",
-              "teks": "Graf C (Garis lurus dengan pintasan-v = 1)"
-          },
-          {
-              "id": "D",
-              "teks": "Graf D (Garis lurus dengan kecerunan negatif)"
-          }
-      ],
-      "jawapanBetul": "A",
-      "penerangan": "Menyusun persamaan dalam bentuk persamaan linear y = mx + c: v = 10M + 10. Di mana y = v, x = M, kecerunan m = 10, dan pintasan paksi menegak c = 10. Graf yang tepat ialah Graf A.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "A"
-  },
+      {
+        "id": "MODUL_T4_B1_K3_Q01",
+        "sumber": "Percubaan Negeri Sembilan 2023",
+        "tahun": 2023,
+        "noSoalanAsal": 1,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+        "spKod": "1.2.1",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Sederhana",
+        "konstruk": "Mengaplikasi",
+        "soalan": "Formula di bawah menunjukkan hubungan di antara tempoh ayunan bandul dan beberapa kuantiti fizik yang lain:\nThe formula below shows the relationship between the period of oscillation of a pendulum and several other physical quantities:\n\nT = 2π √(l/g)\n\nManakah antara graf berikut adalah benar?\nWhich of the following graphs is true?",
+        "rajahUrl": null,
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q01_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf A\">"
+            },
+            {
+                "id": "B",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q01_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf B\">"
+            },
+            {
+                "id": "C",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q01_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf C\">"
+            },
+            {
+                "id": "D",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q01_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf D\">"
+            }
+        ],
+        "jawapanBetul": "B",
+        "penerangan": "Berdasarkan rumus T = 2π √(l/g), T adalah berkadar terus dengan 1/√g (iaitu T = (2π√l) x (1/√g)). Oleh itu, graf T melawan 1/√g adalah garis lurus yang melalui titik asalan.",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
+      {
+        "id": "MODUL_T4_B1_K3_Q02",
+        "sumber": "Percubaan Pulau Pinang 2023",
+        "tahun": 2023,
+        "noSoalanAsal": 2,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
+        "spKod": "1.2.2",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Tinggi",
+        "konstruk": "Mengaplikasi",
+        "soalan": "Rajah menunjukkan hubungan antara jarak imej, v dengan pembesaran, M untuk sebuah kanta cembung:\nDiagram shows the relationship between image distance, v and magnification, M for a convex lens:\n\nv - 10 = 10M\n\nAntara graf-graf berikut, yang manakah menunjukkan hubungan antara v dengan M bagi persamaan di atas?\nWhich of the following graphs shows the relationship between v and M for the above equation?",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q02_rajah13.webp?v=20260923_v2",
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q02_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf A\">"
+            },
+            {
+                "id": "B",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q02_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf B\">"
+            },
+            {
+                "id": "C",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q02_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf C\">"
+            },
+            {
+                "id": "D",
+                "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q02_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Graf D\">"
+            }
+        ],
+        "jawapanBetul": "A",
+        "penerangan": "Menyusun persamaan dalam bentuk persamaan linear y = mx + c: v = 10M + 10. Di mana y = v, x = M, kecerunan m = 10, dan pintasan paksi menegak c = 10. Graf yang tepat ialah Graf A.",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
   {
       "id": "MODUL_T4_B1_K3_Q03",
       "sumber": "Percubaan Perlis 2023",
@@ -6826,96 +6817,94 @@ const QUESTION_BANK = [
       "statusSemakan": "Disemak (Modul K1)",
       "jawapan": "D"
   },
-  {
-      "id": "MODUL_T4_B1_K4_Q02",
-      "sumber": "Percubaan SBP 2022",
-      "tahun": 2022,
-      "noSoalanAsal": 2,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
-      "spKod": "1.2.2",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Tinggi",
-      "konstruk": "Menganalisis",
-      "soalan": "Rajah menunjukkan graf R melawan 1/A.\nDiagram shows a graph of R against 1/A.\n\nPernyataan manakah adalah betul?\nWhich statement is correct?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q02_rajah17.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "R adalah berkadar terus dengan A / R is directly proportional to A"
-          },
-          {
-              "id": "B",
-              "teks": "R adalah berkadar songsang dengan A / R is inversely proportional to A"
-          },
-          {
-              "id": "C",
-              "teks": "Unit bagi kecerunan graf adalah kΩ mm^-1 / Unit for the gradient of the graph is kΩ mm^-1"
-          },
-          {
-              "id": "D",
-              "teks": "Nilai bagi kecerunan diberikan oleh 0.0005 / 5 / The value of the gradient is given by 0.0005 / 5"
-          }
-      ],
-      "jawapanBetul": "B",
-      "penerangan": "Oleh kerana graf R melawan 1/A ialah satu garis lurus yang melalui titik asalan, maka R berkadar terus dengan 1/A (R ∝ 1/A). Ini bermakna R adalah berkadar songsang dengan luas keratan rentas A.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "B"
-  },
-  {
-      "id": "MODUL_T4_B1_K4_Q03",
-      "sumber": "Percubaan Sarawak 2021",
-      "tahun": 2021,
-      "noSoalanAsal": 3,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.3 Menjalankan penyiasatan saintifik dan menulis laporan lengkap",
-      "spKod": "1.2.3",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 15-17",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Tinggi",
-      "konstruk": "Menganalisis",
-      "soalan": "Rajah menunjukkan situasi di taman permainan di mana dua orang budak mendapati kedua-dua buaian berayun dengan kelajuan berbeza.\nDiagram shows a situation in a playground where two kids find the swings swinging at different speeds.\n\nApakah pembolehubah dimanipulasikan dan pembolehubah bergerak balas yang sesuai?\nWhat is the suitable manipulated variable and responding variable?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q03_rajah18.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "Pembolehubah dimanipulasikan: Jisim ladung / Mass of bob | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
-          },
-          {
-              "id": "B",
-              "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
-          },
-          {
-              "id": "C",
-              "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
-          },
-          {
-              "id": "D",
-              "teks": "Pembolehubah dimanipulasikan: Tempoh ayunan / Period of oscillation | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
-          }
-      ],
-      "jawapanBetul": "C",
-      "penerangan": "Untuk penyiasatan saintifik ayunan bandul/buaian, panjang tali bandul (panjang buaian) dijadikan pembolehubah dimanipulasikan, manakala tempoh ayunan (masa untuk satu ayunan lengkap) ialah pembolehubah bergerak balas.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "C"
-  },
+      {
+        "id": "MODUL_T4_B1_K4_Q02",
+        "sumber": "Percubaan SBP 2022",
+        "tahun": 2022,
+        "noSoalanAsal": 2,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
+        "spKod": "1.2.2",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Tinggi",
+        "konstruk": "Menganalisis",
+        "soalan": "Rajah menunjukkan graf R melawan 1/A.\nDiagram shows a graph of R against 1/A.\n\nPernyataan manakah adalah betul?\nWhich statement is correct?",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q02_rajah17.webp?v=20260923_v2",
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "R adalah berkadar terus dengan A / R is directly proportional to A"
+            },
+            {
+                "id": "B",
+                "teks": "R adalah berkadar songsang dengan A / R is inversely proportional to A"
+            },
+            {
+                "id": "C",
+                "teks": "Unit bagi kecerunan graf adalah kΩ mm^-1 / Unit for the gradient of the graph is kΩ mm^-1"
+            },
+            {
+                "id": "D",
+                "teks": "Nilai bagi kecerunan diberikan oleh 0.0005 / 5 / The value of the gradient is given by 0.0005 / 5"
+            }
+        ],
+        "jawapanBetul": "B",
+        "penerangan": "Oleh kerana graf R melawan 1/A ialah satu garis lurus yang melalui titik asalan, maka R berkadar terus dengan 1/A (R ∝ 1/A). Ini bermakna R adalah berkadar songsang dengan luas keratan rentas A.",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
+      {
+        "id": "MODUL_T4_B1_K4_Q03",
+        "sumber": "Percubaan Sarawak 2021",
+        "tahun": 2021,
+        "noSoalanAsal": 3,
+        "sk": "SK 1.2 Penyiasatan Saintifik",
+        "sp": "SP 1.2.3 Menjalankan penyiasatan saintifik dan menulis laporan lengkap",
+        "spKod": "1.2.3",
+        "rujukanDskp": "DSKP Fizik T4 ms 27",
+        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 15-17",
+        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+        "kertas": 1,
+        "tingkatan": 4,
+        "babNo": 1,
+        "babNama": "Pengukuran",
+        "bidang": "Asas Fizik",
+        "topik": "1.2 Penyiasatan Saintifik",
+        "aras": "Tinggi",
+        "konstruk": "Menganalisis",
+        "soalan": "Rajah menunjukkan situasi di taman permainan di mana dua orang budak mendapati kedua-dua buaian berayun dengan kelajuan berbeza.\nDiagram shows a situation in a playground where two kids find the swings swinging at different speeds.\n\nApakah pembolehubah dimanipulasikan dan pembolehubah bergerak balas yang sesuai?\nWhat is the suitable manipulated variable and responding variable?",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q03_rajah18.webp?v=20260923_v2",
+        "pilihan": [
+            {
+                "id": "A",
+                "teks": "Pembolehubah dimanipulasikan: Jisim ladung / Mass of bob | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
+            },
+            {
+                "id": "B",
+                "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
+            },
+            {
+                "id": "C",
+                "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
+            },
+            {
+                "id": "D",
+                "teks": "Pembolehubah dimanipulasikan: Tempoh ayunan / Period of oscillation | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
+            }
+        ],
+        "jawapanBetul": "C",
+        "penerangan": "Untuk penyiasatan saintifik ayunan bandul/buaian, panjang tali bandul (panjang buaian) dijadikan pembolehubah dimanipulasikan, manakala tempoh ayunan (masa untuk satu ayunan lengkap) ialah pembolehubah bergerak balas.",
+        "markah": 1,
+        "statusSemakan": "Disemak (Modul K1)"
+    },
   // ==========================================================================
   // --- KOLEKSI SOALAN MODUL KONSTRUK TINGKATAN 4 BAB 2 (DAYA DAN GERAKAN I) ---
   // ==========================================================================
