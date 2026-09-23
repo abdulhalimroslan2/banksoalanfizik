@@ -1095,10 +1095,10 @@ function formatBilingualText(raw) {
       let enScore = 0;
       let msScore = 0;
       const enKeys = [
-        "diagram","which","what","why","how","calculate","state","explain","determine","shows","is","are","of","the","in","with","to","from","for","by","when","if","that","between","acting","acted","neglected","object","student","mass","force","acceleration","velocity","speed","wavelength","frequency","energy","pressure","temperature","heat","decay","electric","resistance","light","ray","focal","lens","mirror","wave","pendulum","spring","circuit","photon","quantum","forward","bias","reverse","straight","parallel","perpendicular","reading","value","correct","produces","greater","smaller","high","low","decreases","increases","constant","weight","work","power","impulse","density","specific","latent","reflection","refraction","diffraction","interference","potential","current","magnetic","induction","transformer","logic","gate","fission","fusion","threshold","function","underline","answer","statement","below","normal","reaction","slope","plane","rough","sliding","slides","reasons","relationship","gives","a","an","unit","derived","base"
+        "diagram","which","what","why","how","calculate","caleulate","state","explain","determine","shows","shown","is","are","of","the","in","with","to","from","for","by","when","if","that","between","acting","acted","neglected","object","student","mass","force","acceleration","velocity","speed","wavelength","frequency","energy","pressure","temperature","heat","decay","electric","resistance","light","ray","focal","lens","mirror","wave","pendulum","spring","circuit","photon","quantum","forward","bias","reverse","straight","parallel","perpendicular","reading","value","correct","produces","greater","smaller","high","low","decreases","increases","constant","weight","work","power","impulse","density","specific","latent","reflection","refraction","diffraction","interference","potential","current","magnetic","induction","transformer","logic","gate","fission","fusion","threshold","function","underline","answer","statement","below","normal","reaction","slope","plane","rough","sliding","slides","reasons","relationship","gives","a","an","unit","derived","base","time","displacement","distance","motion","situation","represented","ball","car","trolley","cycles","stops","grocery","store","behind","house","school","journey"
       ];
       const msKeys = [
-        "rajah","yang","manakah","apakah","mengapa","bagaimana","hitung","nyatakan","terangkan","tentukan","menunjukkan","ialah","adalah","pada","dalam","dengan","untuk","dari","daripada","oleh","jika","apabila","bahawa","antara","bertindak","diabaikan","objek","murid","jisim","daya","pecutan","halaju","laju","panjang","gelombang","frekuensi","tenaga","tekanan","suhu","haba","pereputan","elektrik","rintangan","cahaya","sinar","fokus","kanta","cermin","pembiasan","pantulan","ayunan","spring","litar","foton","kuantum","pincang","depan","songsang","selari","serenjang","bacaan","nilai","betul","menghasilkan","lebih","besar","kecil","tinggi","rendah","berkurang","bertambah","kekal","malar","berat","kerja","kuasa","impuls","ketumpatan","tentu","pendam","pembelauan","interferens","keupayaan","arus","magnet","aruhan","get","logik","pembelahan","pelakuran","ambang","fungsi","gariskan","jawapan","pernyataan","bawah","tindak","balas","satah","condong","kasar","menggelongsor","sebab","hubungan","beri","sebuah","satu","unit","terbitan","asas"
+        "rajah","yang","manakah","apakah","mengapa","mengapakah","bagaimana","hitung","nyatakan","terangkan","tentukan","menunjukkan","ditunjukkan","ialah","adalah","pada","dalam","dengan","untuk","dari","daripada","oleh","jika","apabila","bahawa","antara","bertindak","diabaikan","objek","murid","jisim","daya","pecutan","halaju","laju","panjang","gelombang","frekuensi","tenaga","tekanan","suhu","haba","pereputan","elektrik","rintangan","cahaya","sinar","fokus","kanta","cermin","pembiasan","pantulan","ayunan","spring","litar","foton","kuantum","pincang","depan","songsang","selari","serenjang","bacaan","nilai","betul","menghasilkan","lebih","besar","kecil","tinggi","rendah","berkurang","bertambah","kekal","malar","berat","kerja","kuasa","impuls","ketumpatan","tentu","pendam","pembelauan","interferens","keupayaan","arus","magnet","aruhan","get","logik","pembelahan","pelakuran","ambang","fungsi","gariskan","jawapan","pernyataan","bawah","tindak","balas","satah","condong","kasar","menggelongsor","sebab","hubungan","beri","sebuah","satu","unit","terbitan","asas","masa","sesaran","jarak","gerakan","situasi","diwakili","kereta","bola","troli","mengayuh","basikal","rumah","rumahnya","sekolah","kedai","runcit","perjalanan","perjalanannya","singgah"
       ];
       
       words.forEach(w => {
@@ -1111,12 +1111,21 @@ function formatBilingualText(raw) {
         if (/graviti|pecutan|pemalar|laju cahaya|jisim/i.test(trimmed)) msScore += 5;
       }
       
-      let isEn = false;
-      if (enScore > msScore) isEn = true;
-      else if (msScore > enScore) isEn = false;
-      else if (lastWasMs) isEn = true;
+      // Pure numbers/symbols should stay neutral and not flip language toggle
+      const isPureSymbol = /^[0-9+\-.,\s/()°*^%:=]+$/.test(clean);
       
-      lastWasMs = !isEn;
+      let isEn = false;
+      if (enScore > msScore) {
+        isEn = true;
+        lastWasMs = false;
+      } else if (msScore > enScore) {
+        isEn = false;
+        lastWasMs = true;
+      } else if (!isPureSymbol && lastWasMs && (enScore > 0 || /^[A-Z][a-z]/.test(clean))) {
+        isEn = true;
+        lastWasMs = false;
+      }
+      
       if (isEn) {
         return `<span class="soalan-en">${trimmed}</span>`;
       }
