@@ -6060,49 +6060,50 @@ const QUESTION_BANK = [
       "jawapan": "C"
   },
       {
-        "id": "MODUL_T4_B1_K2_Q08",
-        "sumber": "Percubaan Pahang 2022",
-        "tahun": 2022,
-        "noSoalanAsal": 8,
-        "sk": "SK 1.2 Penyiasatan Saintifik",
-        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-        "spKod": "1.2.1",
-        "rujukanDskp": "DSKP Fizik T4 ms 27",
-        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-        "kertas": 1,
-        "tingkatan": 4,
-        "babNo": 1,
-        "babNama": "Pengukuran",
-        "bidang": "Asas Fizik",
-        "topik": "1.2 Penyiasatan Saintifik",
-        "aras": "Rendah",
-        "konstruk": "Memahami",
-        "soalan": "Rajah menunjukkan graf y melawan x.\nDiagram shows a graph y against x.\n\nApakah hubungan bagi graf di atas?\nWhat is the relationship for the graph above?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q08_rajah7.webp?v=20260923_v2",
-        "pilihan": [
-            {
-                "id": "A",
-                "teks": "y berkadar terus dengan x / y directly proportional to x"
-            },
-            {
-                "id": "B",
-                "teks": "y berkadar songsang dengan x / y inversely proportional to x"
-            },
-            {
-                "id": "C",
-                "teks": "y berkurang secara linear dengan x / y decreases linearly to x"
-            },
-            {
-                "id": "D",
-                "teks": "y meningkat secara linear dengan x / y increasing linearly to x"
-            }
-        ],
-        "jawapanBetul": "C",
-        "penerangan": "Graf garis lurus berkecerunan negatif (m < 0) dengan pintasan paksi menegak positif mewakili hubungan 'y berkurang secara linear dengan x' (y = -mx + c).",
-        "markah": 1,
-        "statusSemakan": "Disemak (Modul K1)"
-    },
+            "id": "MODUL_T4_B1_K2_Q08",
+            "sumber": "Percubaan Pahang 2022",
+            "tahun": 2022,
+            "noSoalanAsal": 8,
+            "sk": "SK 1.2 Penyiasatan Saintifik",
+            "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+            "spKod": "1.2.1",
+            "rujukanDskp": "DSKP Fizik T4 ms 27",
+            "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+            "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+            "kertas": 1,
+            "tingkatan": 4,
+            "babNo": 1,
+            "babNama": "Pengukuran",
+            "bidang": "Asas Fizik",
+            "topik": "1.2 Penyiasatan Saintifik",
+            "aras": "Rendah",
+            "konstruk": "Memahami",
+            "soalan": "Rajah menunjukkan graf y melawan x.\nDiagram shows a graph y against x.\n\nApakah hubungan bagi graf di atas?\nWhat is the relationship for the graph above?",
+            "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q08_rajah7.webp?v=20260923_v2",
+            "pilihan": [
+                  {
+                        "id": "A",
+                        "teks": "y berkadar terus dengan x / y directly proportional to x"
+                  },
+                  {
+                        "id": "B",
+                        "teks": "y berkadar songsang dengan x / y inversely proportional to x"
+                  },
+                  {
+                        "id": "C",
+                        "teks": "y berkurang secara linear dengan x / y decreases linearly to x"
+                  },
+                  {
+                        "id": "D",
+                        "teks": "y meningkat secara linear dengan x / y increasing linearly to x"
+                  }
+            ],
+            "jawapanBetul": "A",
+            "penerangan": "Graf garis lurus yang bermula dari titik asalan (0,0) dengan kecerunan positif menunjukkan hubungan y berkadar terus dengan x (y ∝ x).",
+            "markah": 1,
+            "statusSemakan": "Disemak (Modul K1)",
+            "jawapan": "A"
+      },
   {
       "id": "MODUL_T4_B1_K2_Q09",
       "sumber": "Percubaan SBP 2022",
@@ -6149,49 +6150,50 @@ const QUESTION_BANK = [
       "jawapan": "C"
   },
       {
-        "id": "MODUL_T4_B1_K2_Q10",
-        "sumber": "Percubaan Selangor Set 1 2022",
-        "tahun": 2022,
-        "noSoalanAsal": 10,
-        "sk": "SK 1.2 Penyiasatan Saintifik",
-        "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-        "spKod": "1.2.1",
-        "rujukanDskp": "DSKP Fizik T4 ms 27",
-        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-        "kertas": 1,
-        "tingkatan": 4,
-        "babNo": 1,
-        "babNama": "Pengukuran",
-        "bidang": "Asas Fizik",
-        "topik": "1.2 Penyiasatan Saintifik",
-        "aras": "Rendah",
-        "konstruk": "Memahami",
-        "soalan": "Rajah menunjukkan graf garis antara dua pemboleh ubah.\nDiagram shows a line graph between two variables.\n\nPernyataan manakah yang benar berkaitan graf tersebut?\nWhich statement is true about the graph?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q10_rajah9.webp?v=20260923_v2",
-        "pilihan": [
-            {
-                "id": "A",
-                "teks": "y berkadar songsang dengan x / y is inversely proportional to x"
-            },
-            {
-                "id": "B",
-                "teks": "Semakin tinggi x, semakin tinggi y / The higher the x, the higher the y"
-            },
-            {
-                "id": "C",
-                "teks": "y berkurang secara linear dengan x / y decreases linearly with x"
-            },
-            {
-                "id": "D",
-                "teks": "Kecerunan graf adalah menurun / The gradient of the graph is decreasing"
-            }
-        ],
-        "jawapanBetul": "A",
-        "penerangan": "Lengkung hiperbola asimptot kepada kedua-dua paksi menunjukkan hubungan berkadar songsang: y berkadar songsang dengan x (y ∝ 1/x).",
-        "markah": 1,
-        "statusSemakan": "Disemak (Modul K1)"
-    },
+            "id": "MODUL_T4_B1_K2_Q10",
+            "sumber": "Percubaan Selangor Set 1 2022",
+            "tahun": 2022,
+            "noSoalanAsal": 10,
+            "sk": "SK 1.2 Penyiasatan Saintifik",
+            "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+            "spKod": "1.2.1",
+            "rujukanDskp": "DSKP Fizik T4 ms 27",
+            "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+            "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+            "kertas": 1,
+            "tingkatan": 4,
+            "babNo": 1,
+            "babNama": "Pengukuran",
+            "bidang": "Asas Fizik",
+            "topik": "1.2 Penyiasatan Saintifik",
+            "aras": "Rendah",
+            "konstruk": "Memahami",
+            "soalan": "Rajah menunjukkan graf garis antara dua pemboleh ubah.\nDiagram shows a line graph between two variables.\n\nPernyataan manakah yang benar berkaitan graf tersebut?\nWhich statement is true about the graph?",
+            "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q10_rajah9.webp?v=20260923_v2",
+            "pilihan": [
+                  {
+                        "id": "A",
+                        "teks": "y berkadar songsang dengan x / y is inversely proportional to x"
+                  },
+                  {
+                        "id": "B",
+                        "teks": "Semakin tinggi x, semakin tinggi y / The higher the x, the higher the y"
+                  },
+                  {
+                        "id": "C",
+                        "teks": "y berkurang secara linear dengan x / y decreases linearly with x"
+                  },
+                  {
+                        "id": "D",
+                        "teks": "Kecerunan graf adalah menurun / The gradient of the graph is decreasing"
+                  }
+            ],
+            "jawapanBetul": "C",
+            "penerangan": "Graf garis lurus berkecerunan negatif (m < 0) dengan pintasan paksi menegak positif (c > 0) menunjukkan hubungan \"y berkurang secara linear dengan x\" (persamaan y = -mx + c).",
+            "markah": 1,
+            "statusSemakan": "Disemak (Modul K1)",
+            "jawapan": "C"
+      },
       {
         "id": "MODUL_T4_B1_K2_Q11",
         "sumber": "Percubaan Selangor Set 2 2022",
@@ -6281,50 +6283,50 @@ const QUESTION_BANK = [
         "statusSemakan": "Disemak (Modul K1)"
     },
   {
-      "id": "MODUL_T4_B1_K2_Q13",
-      "sumber": "Percubaan Melaka 2021",
-      "tahun": 2021,
-      "noSoalanAsal": 13,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Rendah",
-      "konstruk": "Memahami",
-      "soalan": "Rajah menunjukkan graf x melawan a.\nDiagram shows the graph of x against a.\n\nApakah hubungan antara x dan a?\nWhat is the relationship between x and a?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q13_rajah10.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "x berkadar secara songsang kepada a / x is inversely proportional to a"
-          },
-          {
-              "id": "B",
-              "teks": "x berkurang secara linear kepada a / x decreases linearly to a"
-          },
-          {
-              "id": "C",
-              "teks": "x berkurang secara linear kepada 1/a / x decreases linearly to 1/a"
-          },
-          {
-              "id": "D",
-              "teks": "x berkadar secara langsung kepada 1/a / x is directly proportional to 1/a"
-          }
-      ],
-      "jawapanBetul": "B",
-      "penerangan": "Graf garis lurus berkecerunan negatif dengan pintasan pada paksi-x menunjukkan bahawa x berkurang secara linear dengan a.",
-      "markah": 1,
-      "statusSemakan": "Disemak (Modul K1)",
-      "jawapan": "B"
-  },
+            "id": "MODUL_T4_B1_K2_Q13",
+            "sumber": "Percubaan Melaka 2021",
+            "tahun": 2021,
+            "noSoalanAsal": 13,
+            "sk": "SK 1.2 Penyiasatan Saintifik",
+            "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+            "spKod": "1.2.1",
+            "rujukanDskp": "DSKP Fizik T4 ms 27",
+            "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+            "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+            "kertas": 1,
+            "tingkatan": 4,
+            "babNo": 1,
+            "babNama": "Pengukuran",
+            "bidang": "Asas Fizik",
+            "topik": "1.2 Penyiasatan Saintifik",
+            "aras": "Rendah",
+            "konstruk": "Memahami",
+            "soalan": "Rajah menunjukkan graf x melawan a.\nDiagram shows the graph of x against a.\n\nApakah hubungan antara x dan a?\nWhat is the relationship between x and a?",
+            "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q13_rajah10.webp",
+            "pilihan": [
+                  {
+                        "id": "A",
+                        "teks": "x berkadar secara songsang kepada a / x is inversely proportional to a"
+                  },
+                  {
+                        "id": "B",
+                        "teks": "x berkurang secara linear kepada a / x decreases linearly to a"
+                  },
+                  {
+                        "id": "C",
+                        "teks": "x berkurang secara linear kepada 1/a / x decreases linearly to 1/a"
+                  },
+                  {
+                        "id": "D",
+                        "teks": "x berkadar secara langsung kepada 1/a / x is directly proportional to 1/a"
+                  }
+            ],
+            "jawapanBetul": "A",
+            "penerangan": "Berdasarkan graf lengkung hiperbola x melawan a yang mencuram ke bawah tanpa memintas paksi, hubungan antara kuantiti x dan a ialah \"x berkadar secara songsang kepada a\" (x ∝ 1/a) [Pilihan A]. (Nota: Dari segi matematik dan linearisasi, x juga berkadar terus / secara langsung kepada 1/a seperti dalam Pilihan D. Pilihan B adalah salah sama sekali kerana graf lengkung bukan hubungan linear).",
+            "markah": 1,
+            "statusSemakan": "Disemak (Modul K1)",
+            "jawapan": "A"
+      },
       {
         "id": "MODUL_T4_B1_K2_Q14",
         "sumber": "Percubaan Perlis 2021",
@@ -6505,50 +6507,50 @@ const QUESTION_BANK = [
       "jawapan": "C"
   },
   {
-      "id": "MODUL_T4_B1_K2_Q18",
-      "sumber": "Soalan Sebenar SPM 2022",
-      "tahun": 2022,
-      "noSoalanAsal": 18,
-      "sk": "SK 1.2 Penyiasatan Saintifik",
-      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
-      "spKod": "1.2.1",
-      "rujukanDskp": "DSKP Fizik T4 ms 27",
-      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-      "kertas": 1,
-      "tingkatan": 4,
-      "babNo": 1,
-      "babNama": "Pengukuran",
-      "bidang": "Asas Fizik",
-      "topik": "1.2 Penyiasatan Saintifik",
-      "aras": "Rendah",
-      "konstruk": "Memahami",
-      "soalan": "Rajah menunjukkan graf P melawan V.\nDiagram shows a graph of P against V.\n\nAntara berikut, hubungan manakah yang betul?\nWhich of the following relationship is correct?",
-      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q18_rajah12.webp",
-      "pilihan": [
-          {
-              "id": "A",
-              "teks": "P berkurang secara linear dengan V / P decreases linearly with V"
-          },
-          {
-              "id": "B",
-              "teks": "V bertambah secara linear dengan P / V increases linearly with P"
-          },
-          {
-              "id": "C",
-              "teks": "P berkadar songsang dengan V / P is inversely proportional to V"
-          },
-          {
-              "id": "D",
-              "teks": "P berkadar langsung dengan V / P is directly proportional to V"
-          }
-      ],
-      "jawapanBetul": "A",
-      "penerangan": "Graf garis lurus dengan kecerunan negatif dan memintas paksi-P pada nilai positif menunjukkan P berkurang secara linear dengan V.",
-      "markah": 1,
-      "statusSemakan": "Disemak (SPM Sebenar)",
-      "jawapan": "A"
-  },
+            "id": "MODUL_T4_B1_K2_Q18",
+            "sumber": "Soalan Sebenar SPM 2022",
+            "tahun": 2022,
+            "noSoalanAsal": 18,
+            "sk": "SK 1.2 Penyiasatan Saintifik",
+            "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+            "spKod": "1.2.1",
+            "rujukanDskp": "DSKP Fizik T4 ms 27",
+            "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+            "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+            "kertas": 1,
+            "tingkatan": 4,
+            "babNo": 1,
+            "babNama": "Pengukuran",
+            "bidang": "Asas Fizik",
+            "topik": "1.2 Penyiasatan Saintifik",
+            "aras": "Rendah",
+            "konstruk": "Memahami",
+            "soalan": "Rajah menunjukkan graf P melawan V.\nDiagram shows a graph of P against V.\n\nAntara berikut, hubungan manakah yang betul?\nWhich of the following relationship is correct?",
+            "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q18_rajah12.webp",
+            "pilihan": [
+                  {
+                        "id": "A",
+                        "teks": "P berkurang secara linear dengan V / P decreases linearly with V"
+                  },
+                  {
+                        "id": "B",
+                        "teks": "V bertambah secara linear dengan P / V increases linearly with P"
+                  },
+                  {
+                        "id": "C",
+                        "teks": "P berkadar songsang dengan V / P is inversely proportional to V"
+                  },
+                  {
+                        "id": "D",
+                        "teks": "P berkadar langsung dengan V / P is directly proportional to V"
+                  }
+            ],
+            "jawapanBetul": "C",
+            "penerangan": "Graf garis melengkung hiperbola bagi P melawan V menunjukkan bahawa P berkadar songsang dengan V (P ∝ 1/V mengikut Hukum Boyle). Pilihan A adalah salah kerana hubungan ini bukan garis lurus berkurang secara linear.",
+            "markah": 1,
+            "statusSemakan": "Disemak (SPM Sebenar)",
+            "jawapan": "C"
+      },
   {
       "id": "MODUL_T4_B1_K2_Q19",
       "sumber": "Soalan Sebenar SPM 2023",
@@ -6818,93 +6820,95 @@ const QUESTION_BANK = [
       "jawapan": "D"
   },
       {
-        "id": "MODUL_T4_B1_K4_Q02",
-        "sumber": "Percubaan SBP 2022",
-        "tahun": 2022,
-        "noSoalanAsal": 2,
-        "sk": "SK 1.2 Penyiasatan Saintifik",
-        "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
-        "spKod": "1.2.2",
-        "rujukanDskp": "DSKP Fizik T4 ms 27",
-        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
-        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-        "kertas": 1,
-        "tingkatan": 4,
-        "babNo": 1,
-        "babNama": "Pengukuran",
-        "bidang": "Asas Fizik",
-        "topik": "1.2 Penyiasatan Saintifik",
-        "aras": "Tinggi",
-        "konstruk": "Menganalisis",
-        "soalan": "Rajah menunjukkan graf R melawan 1/A.\nDiagram shows a graph of R against 1/A.\n\nPernyataan manakah adalah betul?\nWhich statement is correct?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q02_rajah17.webp?v=20260923_v2",
-        "pilihan": [
-            {
-                "id": "A",
-                "teks": "R adalah berkadar terus dengan A / R is directly proportional to A"
-            },
-            {
-                "id": "B",
-                "teks": "R adalah berkadar songsang dengan A / R is inversely proportional to A"
-            },
-            {
-                "id": "C",
-                "teks": "Unit bagi kecerunan graf adalah kΩ mm^-1 / Unit for the gradient of the graph is kΩ mm^-1"
-            },
-            {
-                "id": "D",
-                "teks": "Nilai bagi kecerunan diberikan oleh 0.0005 / 5 / The value of the gradient is given by 0.0005 / 5"
-            }
-        ],
-        "jawapanBetul": "B",
-        "penerangan": "Oleh kerana graf R melawan 1/A ialah satu garis lurus yang melalui titik asalan, maka R berkadar terus dengan 1/A (R ∝ 1/A). Ini bermakna R adalah berkadar songsang dengan luas keratan rentas A.",
-        "markah": 1,
-        "statusSemakan": "Disemak (Modul K1)"
-    },
+            "id": "MODUL_T4_B1_K4_Q02",
+            "sumber": "Percubaan SBP 2022",
+            "tahun": 2022,
+            "noSoalanAsal": 2,
+            "sk": "SK 1.2 Penyiasatan Saintifik",
+            "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
+            "spKod": "1.2.2",
+            "rujukanDskp": "DSKP Fizik T4 ms 27",
+            "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+            "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+            "kertas": 1,
+            "tingkatan": 4,
+            "babNo": 1,
+            "babNama": "Pengukuran",
+            "bidang": "Asas Fizik",
+            "topik": "1.2 Penyiasatan Saintifik",
+            "aras": "Tinggi",
+            "konstruk": "Menganalisis",
+            "soalan": "Rajah menunjukkan graf R melawan 1/A.\nDiagram shows a graph of R against 1/A.\n\nPernyataan manakah adalah betul?\nWhich statement is correct?",
+            "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q02_rajah17.webp?v=20260923_v2",
+            "pilihan": [
+                  {
+                        "id": "A",
+                        "teks": "R adalah berkadar terus dengan A / R is directly proportional to A"
+                  },
+                  {
+                        "id": "B",
+                        "teks": "R adalah berkadar songsang dengan 1/A / R is inversely proportional to 1/A"
+                  },
+                  {
+                        "id": "C",
+                        "teks": "Unit bagi kecerunan graf adalah kΩ mm² / Unit for the gradient of the graph is kΩ mm²"
+                  },
+                  {
+                        "id": "D",
+                        "teks": "Nilai bagi kecerunan diberikan oleh 0.0005 / 5 / The value of the gradient is given by 0.0005 / 5"
+                  }
+            ],
+            "jawapanBetul": "C",
+            "penerangan": "Unit kecerunan graf m = ΔR / Δ(1/A) = kΩ / (mm^-2) = kΩ mm^2. Maka pernyataan C adalah betul mengikut konsep fizik dan skema rasmi. Pilihan A salah kerana R berkadar terus dengan 1/A (bukan A). Pilihan B salah kerana R berkadar terus dengan 1/A (bukan berkadar songsang). Pilihan D salah kerana kecerunan ialah 5 / 0.0005 (bukan 0.0005 / 5).",
+            "markah": 1,
+            "statusSemakan": "Disemak (Modul K1)",
+            "jawapan": "C"
+      },
       {
-        "id": "MODUL_T4_B1_K4_Q03",
-        "sumber": "Percubaan Sarawak 2021",
-        "tahun": 2021,
-        "noSoalanAsal": 3,
-        "sk": "SK 1.2 Penyiasatan Saintifik",
-        "sp": "SP 1.2.3 Menjalankan penyiasatan saintifik dan menulis laporan lengkap",
-        "spKod": "1.2.3",
-        "rujukanDskp": "DSKP Fizik T4 ms 27",
-        "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 15-17",
-        "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
-        "kertas": 1,
-        "tingkatan": 4,
-        "babNo": 1,
-        "babNama": "Pengukuran",
-        "bidang": "Asas Fizik",
-        "topik": "1.2 Penyiasatan Saintifik",
-        "aras": "Tinggi",
-        "konstruk": "Menganalisis",
-        "soalan": "Rajah menunjukkan situasi di taman permainan di mana dua orang budak mendapati kedua-dua buaian berayun dengan kelajuan berbeza.\nDiagram shows a situation in a playground where two kids find the swings swinging at different speeds.\n\nApakah pembolehubah dimanipulasikan dan pembolehubah bergerak balas yang sesuai?\nWhat is the suitable manipulated variable and responding variable?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q03_rajah18.webp?v=20260923_v2",
-        "pilihan": [
-            {
-                "id": "A",
-                "teks": "Pembolehubah dimanipulasikan: Jisim ladung / Mass of bob | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
-            },
-            {
-                "id": "B",
-                "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
-            },
-            {
-                "id": "C",
-                "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
-            },
-            {
-                "id": "D",
-                "teks": "Pembolehubah dimanipulasikan: Tempoh ayunan / Period of oscillation | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
-            }
-        ],
-        "jawapanBetul": "C",
-        "penerangan": "Untuk penyiasatan saintifik ayunan bandul/buaian, panjang tali bandul (panjang buaian) dijadikan pembolehubah dimanipulasikan, manakala tempoh ayunan (masa untuk satu ayunan lengkap) ialah pembolehubah bergerak balas.",
-        "markah": 1,
-        "statusSemakan": "Disemak (Modul K1)"
-    },
+            "id": "MODUL_T4_B1_K4_Q03",
+            "sumber": "Percubaan Sarawak 2021",
+            "tahun": 2021,
+            "noSoalanAsal": 3,
+            "sk": "SK 1.2 Penyiasatan Saintifik",
+            "sp": "SP 1.2.3 Menjalankan penyiasatan saintifik dan menulis laporan lengkap",
+            "spKod": "1.2.3",
+            "rujukanDskp": "DSKP Fizik T4 ms 27",
+            "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 15-17",
+            "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+            "kertas": 1,
+            "tingkatan": 4,
+            "babNo": 1,
+            "babNama": "Pengukuran",
+            "bidang": "Asas Fizik",
+            "topik": "1.2 Penyiasatan Saintifik",
+            "aras": "Tinggi",
+            "konstruk": "Menganalisis",
+            "soalan": "Rajah menunjukkan situasi di taman permainan di mana dua orang budak mendapati kedua-dua buaian berayun dengan kelajuan berbeza.\nDiagram shows a situation in a playground where two kids find the swings swinging at different speeds.\n\nApakah pembolehubah dimanipulasikan dan pembolehubah bergerak balas yang sesuai?\nWhat is the suitable manipulated variable and responding variable?",
+            "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q03_rajah18.webp?v=20260923_v2",
+            "pilihan": [
+                  {
+                        "id": "A",
+                        "teks": "Pembolehubah dimanipulasikan: Jisim ladung / Mass of bob | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
+                  },
+                  {
+                        "id": "B",
+                        "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
+                  },
+                  {
+                        "id": "C",
+                        "teks": "Pembolehubah dimanipulasikan: Kelajuan bandul / Speed of pendulum | Pembolehubah bergerak balas: Panjang bandul / Length of pendulum"
+                  },
+                  {
+                        "id": "D",
+                        "teks": "Pembolehubah dimanipulasikan: Tempoh ayunan / Period of oscillation | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
+                  }
+            ],
+            "jawapanBetul": "B",
+            "penerangan": "Berdasarkan situasi buaian (bandul ringkas), faktor utama yang mempengaruhi ayunan ialah panjang tali buaian. Oleh itu, pembolehubah dimanipulasikan yang sesuai ialah panjang bandul (panjang buaian), manakala pembolehubah bergerak balas ialah tempoh ayunan (masa satu ayunan lengkap) [Pilihan B].",
+            "markah": 1,
+            "statusSemakan": "Disemak (Modul K1)",
+            "jawapan": "B"
+      },
   // ==========================================================================
   // --- KOLEKSI SOALAN MODUL KONSTRUK TINGKATAN 4 BAB 2 (DAYA DAN GERAKAN I) ---
   // ==========================================================================
