@@ -4527,6 +4527,2395 @@ const QUESTION_BANK = [
       "markah": 1,
       "statusSemakan": "Disemak (Percubaan Terengganu 2026)"
   }
+,
+  // ==========================================================================
+  // --- MODUL KONSTRUK K1 OBJEKTIF (TINGKATAN 4 BAB 1: PENGUKURAN) ---
+  // ==========================================================================
+  {
+      "id": "MODUL_T4_B1_K1_Q01",
+      "sumber": "Percubaan Kelantan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 1,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "\"Arus, Jarak, Tenaga dan Tekanan\" merupakan contoh bagi\n\"Current, Distance, Energy and Pressure\" are examples of",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kuantiti skalar / Scalar quantity"
+          },
+          {
+              "id": "B",
+              "teks": "Kuantiti asas / Base quantity"
+          },
+          {
+              "id": "C",
+              "teks": "Kuantiti vektor / Vector quantity"
+          },
+          {
+              "id": "D",
+              "teks": "Kuantiti terbitan / Derived quantity"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Arus, jarak, tenaga dan tekanan ialah kuantiti yang hanya mempunyai magnitud tanpa arah, maka kesemuanya ialah kuantiti skalar. Walaupun arus mempunyai arah pengaliran, ia mematuhi hukum algebra biasa dan bukan hukum penambahan vektor.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q02",
+      "sumber": "Percubaan Melaka 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 2,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara yang berikut, yang manakah merupakan kuantiti skalar?\nWhich of the following is a scalar quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Panjang / Length"
+          },
+          {
+              "id": "B",
+              "teks": "Daya / Force"
+          },
+          {
+              "id": "C",
+              "teks": "Momentum / Momentum"
+          },
+          {
+              "id": "D",
+              "teks": "Berat / Weight"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Panjang hanya mempunyai magnitud sahaja tanpa arah, menjadikannya kuantiti skalar. Daya, momentum, dan berat adalah kuantiti vektor kerana mempunyai kedua-dua magnitud dan arah.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q03",
+      "sumber": "Percubaan Pahang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 3,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Kuantiti manakah adalah kuantiti asas?\nWhich quantity is base quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Laju / Speed"
+          },
+          {
+              "id": "B",
+              "teks": "Jisim / Mass"
+          },
+          {
+              "id": "C",
+              "teks": "Berat / Weight"
+          },
+          {
+              "id": "D",
+              "teks": "Halaju / Velocity"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Jisim (mass) merupakan salah satu daripada 7 kuantiti asas dalam Sistem Unit Antarabangsa (SI). Laju, berat dan halaju adalah kuantiti terbitan.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q04",
+      "sumber": "Percubaan Perak 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 4,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut, yang manakah kuantiti vektor?\nWhich of the following is a vector quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Laju / Speed"
+          },
+          {
+              "id": "B",
+              "teks": "Jisim / Mass"
+          },
+          {
+              "id": "C",
+              "teks": "Daya / Force"
+          },
+          {
+              "id": "D",
+              "teks": "Tenaga / Energy"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Daya (force) merupakan kuantiti vektor kerana ia mempunyai magnitud dan arah tindakan. Laju, jisim dan tenaga adalah kuantiti skalar.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q05",
+      "sumber": "Percubaan Perlis 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 5,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara pasangan berikut yang manakah menunjukkan pasangan kuantiti fizik dengan unit yang betul?\nWhich of the following pairs show the correct physical quantity and unit?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Halaju / Velocity : m"
+          },
+          {
+              "id": "B",
+              "teks": "Kuasa / Power : Joule, J"
+          },
+          {
+              "id": "C",
+              "teks": "Arus elektrik / Electric current : Ampere, A"
+          },
+          {
+              "id": "D",
+              "teks": "Suhu termodinamik / Thermodynamic temperature : Darjah Celsius / Degree Celsius"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Unit SI bagi arus elektrik ialah Ampere (A). Unit SI halaju ialah m s^-1, kuasa ialah Watt (W), dan suhu termodinamik ialah Kelvin (K).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q06",
+      "sumber": "Percubaan SBP 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 6,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Seorang pesakit dermatologi dirawat dengan cahaya ultraungu yang mempunyai panjang gelombang 375 nm. Apakah jenis kuantiti fizik bagi panjang gelombang?\nA dermatology patient is treated with ultraviolet light with a wavelength of 375 nm. What is the type of physical quantity of the wavelength?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kuantiti asas / Base quantity"
+          },
+          {
+              "id": "B",
+              "teks": "Kuantiti vektor / Vector quantity"
+          },
+          {
+              "id": "C",
+              "teks": "Kuantiti terbitan / Derived quantity"
+          },
+          {
+              "id": "D",
+              "teks": "Kuantiti skalar dan terbitan / Scalar and derived quantity"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Panjang gelombang (wavelength) merupakan suatu ukuran panjang, iaitu kuantiti asas berdimensi [L] dengan unit meter.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q07",
+      "sumber": "Percubaan Terengganu 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 7,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut, yang manakah simbol unit SI bagi kuantiti asas?\nWhich of the following is the SI unit symbol for a basic quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "A s"
+          },
+          {
+              "id": "B",
+              "teks": "cd"
+          },
+          {
+              "id": "C",
+              "teks": "m V"
+          },
+          {
+              "id": "D",
+              "teks": "N m"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Simbol 'cd' bermaksud candela, iaitu unit SI bagi kuantiti asas keamatan berluminositi (luminous intensity).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q08",
+      "sumber": "Percubaan SMKA 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 8,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara kuantiti fizik berikut, yang manakah merupakan kuantiti terbitan?\nWhich of the following physical quantities is a derived quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kerja / Work"
+          },
+          {
+              "id": "B",
+              "teks": "Masa / Time"
+          },
+          {
+              "id": "C",
+              "teks": "Jisim / Mass"
+          },
+          {
+              "id": "D",
+              "teks": "Panjang / Length"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Kerja (Work = Daya x Sesaran) diterbitkan daripada gabungan kuantiti asas jisim, panjang dan masa (kg m^2 s^-2 atau Joule). Masa, jisim dan panjang adalah kuantiti asas.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q09",
+      "sumber": "Percubaan MRSM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 9,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara kuantiti fizik berikut, yang manakah kuantiti vektor?\nWhich of the following physical quantity is a vector quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Suhu termodinamik / Thermodynamic temperature"
+          },
+          {
+              "id": "B",
+              "teks": "Tenaga kinetik / Kinetic energy"
+          },
+          {
+              "id": "C",
+              "teks": "Arus elektrik / Electric current"
+          },
+          {
+              "id": "D",
+              "teks": "Berat / Weight"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Berat (weight) ialah daya graviti yang bertindak ke atas suatu objek dan sentiasa mengarah ke pusat bumi (mempunyai arah dan magnitud), maka ia adalah kuantiti vektor.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q10",
+      "sumber": "Percubaan Kedah 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 10,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Rajah menunjukkan sebatang pembaris.\nDiagram shows a ruler.\n\nInci adalah contoh bagi\nInch is an example of",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k1_q10_rajah1.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "unit S.I. / S.I. unit"
+          },
+          {
+              "id": "B",
+              "teks": "unit metrik / metric unit"
+          },
+          {
+              "id": "C",
+              "teks": "unit China / Chinese unit"
+          },
+          {
+              "id": "D",
+              "teks": "unit imperial / imperial unit"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Inci, kaki, ela, dan batu adalah contoh-contoh unit dalam sistem unit imperial, manakala sentimeter dan meter adalah unit metrik.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q11",
+      "sumber": "Percubaan Kelantan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 11,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Pasangan yang manakah adalah betul?\nWhich pair is correct?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Berat / Weight : Vektor / Vector"
+          },
+          {
+              "id": "B",
+              "teks": "Jarak / Distance : Vektor / Vector"
+          },
+          {
+              "id": "C",
+              "teks": "Halaju / Velocity : Skalar / Scalar"
+          },
+          {
+              "id": "D",
+              "teks": "Pecutan / Acceleration : Skalar / Scalar"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Berat adalah daya tindakan graviti yang mempunyai magnitud dan arah (ke bawah), maka ia adalah kuantiti vektor yang betul.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q12",
+      "sumber": "Percubaan Melaka 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 12,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Kuantiti fizik manakah adalah bukan kuantiti asas?\nWhich of the following physical quantities is not a base quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jisim / Mass"
+          },
+          {
+              "id": "B",
+              "teks": "Berat / Weight"
+          },
+          {
+              "id": "C",
+              "teks": "Kuantiti jirim / Quantity of matter"
+          },
+          {
+              "id": "D",
+              "teks": "Keamatan berluminositi / Luminous intensity"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berat adalah kuantiti terbitan (W = mg), manakala jisim, kuantiti jirim (mol) dan keamatan berluminositi adalah 7 kuantiti asas SI.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q13",
+      "sumber": "Percubaan Melaka 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 13,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Pasangan kuantiti manakah adalah benar?\nWhich pair of quantity is correct?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kuantiti skalar: Mempunyai magnitud sahaja | Kuantiti vektor: Mempunyai magnitud sahaja"
+          },
+          {
+              "id": "B",
+              "teks": "Kuantiti skalar: Mempunyai arah sahaja | Kuantiti vektor: Mempunyai magnitud sahaja"
+          },
+          {
+              "id": "C",
+              "teks": "Kuantiti skalar: Mempunyai magnitud sahaja | Kuantiti vektor: Mempunyai arah sahaja"
+          },
+          {
+              "id": "D",
+              "teks": "Kuantiti skalar: Mempunyai magnitud sahaja | Kuantiti vektor: Mempunyai magnitud dan arah"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Takrifan kuantiti skalar ialah kuantiti yang mempunyai magnitud sahaja. Takrifan kuantiti vektor ialah kuantiti yang mempunyai magnitud dan arah.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q14",
+      "sumber": "Percubaan MRSM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 14,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Kuantiti fizik manakah merupakan kuantiti skalar?\nWhich physical quantity is a scalar quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jisim / Mass"
+          },
+          {
+              "id": "B",
+              "teks": "Berat / Weight"
+          },
+          {
+              "id": "C",
+              "teks": "Halaju / Velocity"
+          },
+          {
+              "id": "D",
+              "teks": "Pecutan / Acceleration"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Jisim hanya mempunyai nilai magnitud tanpa sebarang arah tindakan. Berat, halaju dan pecutan semuanya mempunyai arah tertentu, menjadikannya vektor.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q15",
+      "sumber": "Percubaan MRSM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 15,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.2 Memerihalkan kuantiti terbitan dalam sebutan kuantiti asas dan unit asas S.I.",
+      "spKod": "1.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Jadual 1 menunjukkan senarai unit kuantiti terbitan. Antara berikut pasangan manakah yang betul?\nTable 1 shows a list of derived quantities and their units. Which of the following pair is correct?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k1_q15_jadual1.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Momentum / Momentum : kg m s^-2"
+          },
+          {
+              "id": "B",
+              "teks": "Tekanan / Pressure : N m"
+          },
+          {
+              "id": "C",
+              "teks": "Kerja / Work : J m s^-1"
+          },
+          {
+              "id": "D",
+              "teks": "Daya / Force : kg m s^-2"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Daya F = ma = (kg)(m s^-2) = kg m s^-2 (atau Newton, N). Momentum adalah kg m s^-1, tekanan ialah N m^-2, dan kerja ialah N m (atau Joule).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q16",
+      "sumber": "Percubaan Pahang 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 16,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut yang manakah bukan merupakan unit asas dalam sistem unit SI?\nWhich of the following is not a base unit in the SI unit system?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Saat / Second"
+          },
+          {
+              "id": "B",
+              "teks": "Candela / Candela"
+          },
+          {
+              "id": "C",
+              "teks": "Sentimeter / Centimetre"
+          },
+          {
+              "id": "D",
+              "teks": "Mol / Mol"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Unit asas SI bagi panjang ialah meter (m), bukan sentimeter (cm). Sentimeter mengandungi imbuhan 'senti'.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q17",
+      "sumber": "Percubaan Perlis 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 17,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara pasangan berikut, manakah yang menunjukkan pasangan kuantiti asas dan kuantiti terbitan?\nWhich of the following pairs shows a base quantity and derived quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Panjang / Length (Asas) : Suhu / Temperature (Terbitan)"
+          },
+          {
+              "id": "B",
+              "teks": "Daya / Force (Asas) : Masa / Time (Terbitan)"
+          },
+          {
+              "id": "C",
+              "teks": "Arus elektrik / Electric current (Asas) : Momentum / Momentum (Terbitan)"
+          },
+          {
+              "id": "D",
+              "teks": "Laju / Speed (Asas) : Halaju / Velocity (Terbitan)"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Arus elektrik ialah kuantiti asas, manakala momentum (Jisim x Halaju) ialah kuantiti terbitan.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q18",
+      "sumber": "Percubaan Terengganu 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 18,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.2 Memerihalkan kuantiti terbitan dalam sebutan kuantiti asas dan unit asas S.I.",
+      "spKod": "1.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut, manakah yang betul?\nWhich of the following is correct?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Ketumpatan / Density : m / l^2"
+          },
+          {
+              "id": "B",
+              "teks": "Pecutan / Acceleration : l / t"
+          },
+          {
+              "id": "C",
+              "teks": "Momentum / Momentum : m l / t"
+          },
+          {
+              "id": "D",
+              "teks": "Luas / Area : l^3"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Momentum = jisim x halaju = m x (l / t) = m l t^-1. Ketumpatan adalah m/l^3, pecutan adalah l/t^2, dan luas adalah l^2.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q19",
+      "sumber": "Percubaan Kedah 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 19,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Kuantiti manakah adalah kuantiti terbitan?\nWhich quantity is derived quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Daya / Force"
+          },
+          {
+              "id": "B",
+              "teks": "Kuantiti bahan / Amount of substance"
+          },
+          {
+              "id": "C",
+              "teks": "Arus / Current"
+          },
+          {
+              "id": "D",
+              "teks": "Keamatan cahaya / Luminous intensity"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Daya (Force) diterbitkan daripada jisim, panjang dan masa (F = ma). Kuantiti bahan (mol), arus (A) dan keamatan cahaya (cd) adalah kuantiti asas.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q20",
+      "sumber": "Percubaan Selangor Set 1 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 20,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut yang manakah simbol bagi unit asas SI?\nWhich of the following is a symbol of a base SI unit?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "s"
+          },
+          {
+              "id": "B",
+              "teks": "N"
+          },
+          {
+              "id": "C",
+              "teks": "°C"
+          },
+          {
+              "id": "D",
+              "teks": "J"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Simbol 's' mewakili saat (second), iaitu unit asas SI bagi masa. Newton (N) dan Joule (J) adalah unit terbitan, manakala unit asas suhu ialah Kelvin (K), bukan °C.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q21",
+      "sumber": "Percubaan Selangor Set 2 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 21,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara kuantiti fizik yang berikut, manakah dipadankan dengan unit SI yang betul?\nWhich of the following physical quantities matched with the correct SI unit?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Masa / Time : Minit / Minute"
+          },
+          {
+              "id": "B",
+              "teks": "Jisim / Mass : Kilogram / Kilogram"
+          },
+          {
+              "id": "C",
+              "teks": "Panjang / Length : Kilometer / Kilometer"
+          },
+          {
+              "id": "D",
+              "teks": "Daya / Force : Joule / Joule"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Unit SI bagi jisim ialah kilogram (kg). Unit SI masa ialah saat, panjang ialah meter, dan daya ialah Newton.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q22",
+      "sumber": "Percubaan MRSM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 22,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut yang manakah adalah unit imperial?\nWhich of the following is the imperial unit?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Inci / Inch"
+          },
+          {
+              "id": "B",
+              "teks": "Mol / Mole"
+          },
+          {
+              "id": "C",
+              "teks": "Meter / Meter"
+          },
+          {
+              "id": "D",
+              "teks": "Candela / Candela"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Inci ialah unit ukuran imperial bagi panjang. Mol, meter dan candela ialah unit piawai SI.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q23",
+      "sumber": "Percubaan Negeri Sembilan 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 23,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut yang manakah kesemuanya kuantiti terbitan?\nWhich of the following are all derived quantities?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Daya, masa, panjang / Force, time, length"
+          },
+          {
+              "id": "B",
+              "teks": "Momentum, daya, halaju / Momentum, force, velocity"
+          },
+          {
+              "id": "C",
+              "teks": "Panjang, halaju, suhu / Length, velocity, temperature"
+          },
+          {
+              "id": "D",
+              "teks": "Masa, suhu, arus elektrik / Time, temperature, electric current"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Momentum, daya, dan halaju kesemuanya diterbitkan daripada gabungan kuantiti asas. Pilihan lain mengandungi kuantiti asas seperti panjang, masa, suhu, dan arus elektrik.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q24",
+      "sumber": "Percubaan Pahang 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 24,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.2 Memerihalkan kuantiti terbitan dalam sebutan kuantiti asas dan unit asas S.I.",
+      "spKod": "1.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Apakah kuantiti-kuantiti asas dalam pecutan?\nWhat are the base quantities in acceleration?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Laju dan masa / Speed and time"
+          },
+          {
+              "id": "B",
+              "teks": "Panjang dan masa / Length and time"
+          },
+          {
+              "id": "C",
+              "teks": "Panjang dan laju / Length and speed"
+          },
+          {
+              "id": "D",
+              "teks": "Laju dan halaju / Speed and velocity"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Pecutan = Halaju / Masa = (Panjang / Masa) / Masa = Panjang / Masa^2. Oleh itu, kuantiti asas yang terlibat adalah panjang dan masa.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q25",
+      "sumber": "Percubaan SBP 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 25,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Antara berikut yang manakah kuantiti asas dan unit SI yang betul?\nWhich of the following base quantity and its SI unit is correct?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Jisim / Mass : g"
+          },
+          {
+              "id": "B",
+              "teks": "Arus / Current : mA"
+          },
+          {
+              "id": "C",
+              "teks": "Masa / Time : h"
+          },
+          {
+              "id": "D",
+              "teks": "Suhu / Temperature : K"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Unit SI bagi suhu termodinamik ialah Kelvin (K). Unit SI bagi jisim ialah kg (bukan g), arus ialah A (bukan mA), dan masa ialah s (bukan h).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q26",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 26,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Pilih kuantiti fizik yang betul bagi kuantiti terbitan dan kuantiti vektor.\nChoose the right physical quantity for derived quantity and vector quantity.",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Luas / Area"
+          },
+          {
+              "id": "B",
+              "teks": "Laju / Speed"
+          },
+          {
+              "id": "C",
+              "teks": "Ketumpatan / Density"
+          },
+          {
+              "id": "D",
+              "teks": "Pecutan / Acceleration"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Pecutan (acceleration) diterbitkan daripada halaju dan masa (kuantiti terbitan) dan mempunyai kedua-dua magnitud serta arah (kuantiti vektor). Luas, laju dan ketumpatan ialah kuantiti skalar.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K1_Q27",
+      "sumber": "Soalan Sebenar SPM 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 27,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengingat",
+      "soalan": "Kuantiti manakah adalah kuantiti asas?\nWhich quantity is a base quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kuasa / Power"
+          },
+          {
+              "id": "B",
+              "teks": "Tenaga / Energy"
+          },
+          {
+              "id": "C",
+              "teks": "Arus / Current"
+          },
+          {
+              "id": "D",
+              "teks": "Beza keupayaan / Potential difference"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Arus elektrik (Electric current) ialah satu daripada 7 kuantiti asas SI. Kuasa, tenaga dan beza keupayaan adalah kuantiti terbitan.",
+      "markah": 1,
+      "statusSemakan": "Disemak (SPM Sebenar)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q01",
+      "sumber": "Percubaan Melaka 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 1,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan graf y melawan x.\nDiagram shows a graph y against x.\n\nApakah hubungan bagi graf di atas?\nWhat is the relationship for the graph above?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q01_rajah2.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "y berkadar terus dengan x / y directly proportional to x"
+          },
+          {
+              "id": "B",
+              "teks": "y berkadar songsang dengan x / y inversely proportional to x"
+          },
+          {
+              "id": "C",
+              "teks": "y berkurang secara linear dengan x / y decreases linearly to x"
+          },
+          {
+              "id": "D",
+              "teks": "y meningkat secara linear dengan x / y increasing linearly to x"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Graf garis lurus dengan kecerunan positif yang tidak melalui titik asalan (mempunyai pintasan-y positif c > 0) menunjukkan hubungan 'y meningkat (bertambah) secara linear dengan x'. Jika ia bermula dari asalan (0,0), barulah ia 'berkadar terus'.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q02",
+      "sumber": "Percubaan Pulau Pinang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 2,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Seorang murid mengkaji beberapa persamaan seperti ditunjukkan dalam Rajah.\nA student studies some equations as shown in Diagram.\n\nBerapakah kuantiti vektor yang terlibat dalam tiga persamaan di atas?\nHow many vector quantities are involved in the above three equations?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q02_rajah3.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "2"
+          },
+          {
+              "id": "B",
+              "teks": "3"
+          },
+          {
+              "id": "C",
+              "teks": "4"
+          },
+          {
+              "id": "D",
+              "teks": "5"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Kuantiti-kuantiti vektor yang terlibat dalam tiga persamaan tersebut ialah: (1) halaju (velocity), (2) sesaran (displacement), (3) daya (force), dan (4) pecutan (acceleration). Jisim, masa, kuasa dan kerja adalah kuantiti skalar. Terdapat 4 kuantiti vektor berbeza.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q03",
+      "sumber": "Percubaan Perlis 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 3,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Berikut ialah rumus bagi pengayunan bandul ringkas di mana T ialah tempoh, l ialah panjang dan g ialah pecutan disebabkan oleh graviti:\nThe following is the formula used for a simple pendulum swing where T is period, l is length and g is acceleration due to the gravity:\n\nT = 2π √(l/g)\n\nManakah antara berikut memberikan hubungan yang betul berdasarkan rumus di atas?\nWhich of the following give the correct relationship based on the above formula?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "T berkadar terus dengan l / T directly proportional with l"
+          },
+          {
+              "id": "B",
+              "teks": "T berkadar songsang dengan g / T inversely proportional with g"
+          },
+          {
+              "id": "C",
+              "teks": "Graf T melawan l mewakili graf garis lurus / Graph T against l represents a linear graph"
+          },
+          {
+              "id": "D",
+              "teks": "Graf T^2 melawan l mewakili graf garis lurus / Graph T^2 against l represents a linear graph"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Berdasarkan rumus T = 2π √(l/g), apabila dikuasaduakan menjadi T^2 = (4π^2 / g) l. Oleh itu, T^2 berkadar terus dengan l, dan graf T^2 melawan l merupakan graf garis lurus yang melalui titik asalan.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q04",
+      "sumber": "Percubaan SBP 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 4,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Seorang penumpang dalam kapal terbang melihat laluan penerbangan pada peta dipaparkan skrin seperti ditunjukkan dalam Rajah semasa penerbangannya ke ibu negara Belgium, Brussels.\nA passenger in an airplane watching the flight path on the map on screen as shown in Diagram during his flight to Belgium capital, Brussels.\n\nApakah kuantiti fizikal yang mewakili laluan penerbangan di atas skrin tersebut?\nWhat is the physical quantity that represent the flight path on the screen?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q04_rajah4.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Laju / Speed"
+          },
+          {
+              "id": "B",
+              "teks": "Halaju / Velocity"
+          },
+          {
+              "id": "C",
+              "teks": "Pecutan / Acceleration"
+          },
+          {
+              "id": "D",
+              "teks": "Sesaran / Displacement"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Laluan penerbangan dari titik pelepasan ke destinasi dengan jarak terpendek beserta arah mewakili sesaran (displacement).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q05",
+      "sumber": "Percubaan Kelantan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 5,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Graf manakah menunjukkan P bertambah secara linear dengan Q?\nWhich graph shows P increases linearly with Q?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q05_opts.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Garis lurus bermula dari titik asalan 0)"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Garis lurus dengan pintasan-y positif dan kecerunan positif)"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Garis lurus dengan kecerunan negatif)"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Lengkung mencuram)"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Hubungan 'P bertambah secara linear dengan Q' diwakili oleh graf garis lurus berkecerunan positif yang mempunyai pintasan pada paksi menegak (persamaan P = mQ + c di mana c > 0).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q06",
+      "sumber": "Percubaan Melaka 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 6,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan satu graf isipadu, V melawan suhu, θ bagi suatu gas.\nDiagram shows a graph volume, V against temperature, θ for a gas.\n\nApakah hubungan antara V dan θ bagi gas tersebut?\nWhat is the relationship between V and θ for the gas?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q06_rajah5.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "V berkadar terus dengan θ / V is directly proportional with θ"
+          },
+          {
+              "id": "B",
+              "teks": "V berkadar songsang dengan θ / V is inversely proportional with θ"
+          },
+          {
+              "id": "C",
+              "teks": "V berkurang secara linear dengan θ / V is decreasing linearly with θ"
+          },
+          {
+              "id": "D",
+              "teks": "V bertambah secara linear dengan θ / V is increasing linearly with θ"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Graf garis lurus menunjukkan pintasan positif pada paksi-V pada 0 °C (V_0) dan kecerunan positif. Oleh itu, V bertambah secara linear dengan suhu θ dalam unit darjah Celsius.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q07",
+      "sumber": "Percubaan Negeri Sembilan 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 7,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan satu alat pengukuran sedang digunakan untuk mengukur satu kuantiti fizik.\nDiagram shows a measuring instrument being used to measure one physical quantity.\n\nManakah antara pernyataan berikut benar?\nWhich of the following statement is true?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q07_rajah6.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kuantiti: Arus elektrik | Jenis: Kuantiti asas dan kuantiti skalar"
+          },
+          {
+              "id": "B",
+              "teks": "Kuantiti: Keamatan berluminositi | Jenis: Kuantiti terbitan dan kuantiti skalar"
+          },
+          {
+              "id": "C",
+              "teks": "Kuantiti: Keamatan berluminositi | Jenis: Kuantiti asas dan kuantiti skalar"
+          },
+          {
+              "id": "D",
+              "teks": "Kuantiti: Arus elektrik | Jenis: Kuantiti asas dan kuantiti vektor"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Meter lux digunakan untuk mengukur keamatan cahaya/keamatan berluminositi, yang merupakan kuantiti asas dan kuantiti skalar.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q08",
+      "sumber": "Percubaan Pahang 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 8,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan graf y melawan x.\nDiagram shows a graph y against x.\n\nApakah hubungan bagi graf di atas?\nWhat is the relationship for the graph above?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q08_rajah7.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "y berkadar terus dengan x / y directly proportional to x"
+          },
+          {
+              "id": "B",
+              "teks": "y berkadar songsang dengan x / y inversely proportional to x"
+          },
+          {
+              "id": "C",
+              "teks": "y berkurang secara linear dengan x / y decreases linearly to x"
+          },
+          {
+              "id": "D",
+              "teks": "y meningkat secara linear dengan x / y increasing linearly to x"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Graf garis lurus berkecerunan negatif (m < 0) dengan pintasan paksi menegak positif mewakili hubungan 'y berkurang secara linear dengan x' (y = -mx + c).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q09",
+      "sumber": "Percubaan SBP 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 9,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan maklumat tentang sebiji mentol yang dipaparkan di sebuah kedai lampu.\nDiagram shows information about a light bulb displayed in a light shop.\n\nManakah antara maklumat yang diberikan dalam Rajah adalah kuantiti asas?\nWhich of the details given in Diagram is a base quantity?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q09_rajah8.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Kuasa / Power (40 W)"
+          },
+          {
+              "id": "B",
+              "teks": "Voltan diperlukan / Voltage required (230 V)"
+          },
+          {
+              "id": "C",
+              "teks": "Keamatan berluminositi / Luminous intensity (7543 cd)"
+          },
+          {
+              "id": "D",
+              "teks": "Luas permukaan diterangi cahaya / Illuminated surface area (0.88 m^2)"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Keamatan berluminositi (dengan unit candela, cd) ialah kuantiti asas. Kuasa, voltan dan luas ialah kuantiti terbitan.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q10",
+      "sumber": "Percubaan Selangor Set 1 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 10,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan graf garis antara dua pemboleh ubah.\nDiagram shows a line graph between two variables.\n\nPernyataan manakah yang benar berkaitan graf tersebut?\nWhich statement is true about the graph?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q10_rajah9.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "y berkadar songsang dengan x / y is inversely proportional to x"
+          },
+          {
+              "id": "B",
+              "teks": "Semakin tinggi x, semakin tinggi y / The higher the x, the higher the y"
+          },
+          {
+              "id": "C",
+              "teks": "y berkurang secara linear dengan x / y decreases linearly with x"
+          },
+          {
+              "id": "D",
+              "teks": "Kecerunan graf adalah menurun / The gradient of the graph is decreasing"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Lengkung hiperbola asimptot kepada kedua-dua paksi menunjukkan hubungan berkadar songsang: y berkadar songsang dengan x (y ∝ 1/x).",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q11",
+      "sumber": "Percubaan Selangor Set 2 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 11,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "• Mempunyai kecerunan positif / Has a positive gradient\n• y berkadar songsang dengan x / y is inversely proportional to x\n\nGraf yang manakah betul berdasarkan pernyataan di atas?\nWhich graph is correct based on the statements above?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q11_opts.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Lengkung y melawan x)"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Garis lurus y melawan x dengan kecerunan negatif)"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Garis lurus y melawan 1/x melalui asalan dengan kecerunan positif)"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Garis lurus y melawan 1/x dengan kecerunan negatif)"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Apabila y berkadar songsang dengan x (y ∝ 1/x), pemplotan graf y melawan 1/x menghasilkan graf garis lurus yang melalui titik asalan dengan kecerunan positif.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q12",
+      "sumber": "Percubaan Kelantan 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 12,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Graf manakah menunjukkan P berkadar songsang dengan Q?\nWhich graph shows P is inversely proportional to Q?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q12_opts.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Garis lurus P melawan Q melalui asalan)"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Garis lurus P melawan Q dengan kecerunan negatif)"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Garis lurus P melawan 1/Q melalui asalan)"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Lengkung P melawan 1/Q)"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "P berkadar songsang dengan Q bermaksud P ∝ 1/Q. Graf garis lurus yang melalui titik asalan bagi paksi menegak P dan paksi mengufuk 1/Q mengesahkan hubungan songsang tersebut.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q13",
+      "sumber": "Percubaan Melaka 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 13,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan graf x melawan a.\nDiagram shows the graph of x against a.\n\nApakah hubungan antara x dan a?\nWhat is the relationship between x and a?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q13_rajah10.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "x berkadar secara songsang kepada a / x is inversely proportional to a"
+          },
+          {
+              "id": "B",
+              "teks": "x berkurang secara linear kepada a / x decreases linearly to a"
+          },
+          {
+              "id": "C",
+              "teks": "x berkurang secara linear kepada 1/a / x decreases linearly to 1/a"
+          },
+          {
+              "id": "D",
+              "teks": "x berkadar secara langsung kepada 1/a / x is directly proportional to 1/a"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Graf garis lurus berkecerunan negatif dengan pintasan pada paksi-x menunjukkan bahawa x berkurang secara linear dengan a.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q14",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 14,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
+      "spKod": "1.2.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Graf menunjukkan hubungan antara P dan T.\nGraph shows the relationship between P and T.\n\nHubungan P dan T boleh diwakili oleh persamaan\nRelationship between P and T can be represented by equation",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q14_graf.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "P = T + 5"
+          },
+          {
+              "id": "B",
+              "teks": "P = T + 1"
+          },
+          {
+              "id": "C",
+              "teks": "P = -T + 5"
+          },
+          {
+              "id": "D",
+              "teks": "P = -T + 1"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Daripada graf: pintasan-y (paksi P) ialah 5, dan pintasan-x (paksi T) ialah 5. Kecerunan m = (0 - 5) / (5 - 0) = -1. Oleh itu mengikut persamaan garis lurus y = mx + c: P = -T + 5.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q15",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 15,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.2 Memerihalkan kuantiti terbitan dalam sebutan kuantiti asas dan unit asas S.I.",
+      "spKod": "1.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Tempoh ayunan untuk suatu neraca inersia diberi oleh T^2 = k m; di mana T ialah tempoh ayunan dan unitnya ialah s, m ialah jisim dan unitnya kg, k ialah suatu pemalar. Apakah unit bagi k?\nPeriod of oscillation for an inertia balance is given by T^2 = k m; where T is period of oscillation and its unit is s, m is mass and its unit is kg, k is a constant. What is the unit of k?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "kg s"
+          },
+          {
+              "id": "B",
+              "teks": "kg s^-1"
+          },
+          {
+              "id": "C",
+              "teks": "kg^-1 s^2"
+          },
+          {
+              "id": "D",
+              "teks": "kg^2 s^-1"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Dari persamaan T^2 = k m, maka k = T^2 / m. Menggantikan unit SI: unit k = (s)^2 / (kg) = kg^-1 s^2.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q16",
+      "sumber": "Percubaan Perlis 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 16,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.2 Memerihalkan kuantiti terbitan dalam sebutan kuantiti asas dan unit asas S.I.",
+      "spKod": "1.1.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Suatu kuantiti terbitan diperolehi daripada pembahagian jarak dengan masa. Apakah unit S.I. kuantiti ini?\nA derived quantity is obtained from the division of distance by time. What is the S.I. unit for this quantity?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "m s"
+          },
+          {
+              "id": "B",
+              "teks": "m s^-1"
+          },
+          {
+              "id": "C",
+              "teks": "cm s^-1"
+          },
+          {
+              "id": "D",
+              "teks": "km s^-1"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Pembahagian jarak (unit SI: meter, m) dengan masa (unit SI: saat, s) menghasilkan laju/halaju dengan unit SI m s^-1.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q17",
+      "sumber": "Soalan Sebenar SPM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 17,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 4-6",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan arahan pada label kotak makanan.\nDiagram shows an instruction on the food box label.\n\nAntara kuantiti asas yang berikut, yang manakah dinyatakan dalam label itu?\nWhich of the following basic quantities is stated in the label?\n\nI  Jisim / Mass (55.2 g)\nII Masa / Time (3 minit)\nIII Suhu / Temperature (80 °C)\nIV Panjang / Length",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q17_rajah11.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "I sahaja / I only"
+          },
+          {
+              "id": "B",
+              "teks": "I dan II / I and II"
+          },
+          {
+              "id": "C",
+              "teks": "I, II dan III / I, II and III"
+          },
+          {
+              "id": "D",
+              "teks": "I, II, III dan IV / I, II, III and IV"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Pada label: Jisim (55.2 g), Masa (3 minit), dan Suhu (80 °C) kesemuanya merupakan kuantiti asas yang dinyatakan. Panjang tidak dinyatakan (isipadu air 150 cm^3 adalah kuantiti terbitan, bukan panjang). Oleh itu, I, II dan III sahaja.",
+      "markah": 1,
+      "statusSemakan": "Disemak (SPM Sebenar)",
+      "jawapan": "C"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q18",
+      "sumber": "Soalan Sebenar SPM 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 18,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Rendah",
+      "konstruk": "Memahami",
+      "soalan": "Rajah menunjukkan graf P melawan V.\nDiagram shows a graph of P against V.\n\nAntara berikut, hubungan manakah yang betul?\nWhich of the following relationship is correct?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k2_q18_rajah12.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "P berkurang secara linear dengan V / P decreases linearly with V"
+          },
+          {
+              "id": "B",
+              "teks": "V bertambah secara linear dengan P / V increases linearly with P"
+          },
+          {
+              "id": "C",
+              "teks": "P berkadar songsang dengan V / P is inversely proportional to V"
+          },
+          {
+              "id": "D",
+              "teks": "P berkadar langsung dengan V / P is directly proportional to V"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Graf garis lurus dengan kecerunan negatif dan memintas paksi-P pada nilai positif menunjukkan P berkurang secara linear dengan V.",
+      "markah": 1,
+      "statusSemakan": "Disemak (SPM Sebenar)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K2_Q19",
+      "sumber": "Soalan Sebenar SPM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 19,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.3 Menjelaskan dengan contoh kuantiti skalar dan kuantiti vektor",
+      "spKod": "1.1.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 7-9",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 1-2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Sederhana",
+      "konstruk": "Memahami",
+      "soalan": "Maklumat di bawah menunjukkan laju dan arah sebuah kapal terbang:\nThe information below shows the speed and the direction of an aeroplane:\n\n\"Sebuah kapal terbang bergerak dengan kelajuan tetap 600 km j^-1 ke arah barat.\"\n\"An aeroplane moves at a uniform speed of 600 km h^-1 to the west.\"\n\nP: Kuantiti asas / Base quantity\nQ: Kuantiti terbitan / Derived quantity\nR: Kuantiti skalar / Scalar quantity\nS: Kuantiti vektor / Vector quantity\n\nAntara kombinasi kuantiti berikut, yang manakah terdapat dalam pernyataan di atas?\nWhich of the following combination of quantities are found in the statement above?",
+      "rajahUrl": "",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "P, R"
+          },
+          {
+              "id": "B",
+              "teks": "Q, R"
+          },
+          {
+              "id": "C",
+              "teks": "P, S"
+          },
+          {
+              "id": "D",
+              "teks": "Q, S"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Kelajuan 600 km j^-1 bersama arah 'ke barat' membentuk halaju (velocity), iaitu kuantiti terbitan (Q) dan kuantiti vektor (S).",
+      "markah": 1,
+      "statusSemakan": "Disemak (SPM Sebenar)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K3_Q01",
+      "sumber": "Percubaan Negeri Sembilan 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 1,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.1 Mentafsir bentuk-bentuk graf untuk menentukan hubungan antara dua kuantiti fizik",
+      "spKod": "1.2.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Sederhana",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Formula di bawah menunjukkan hubungan di antara tempoh ayunan bandul dan beberapa kuantiti fizik yang lain:\nThe formula below shows the relationship between the period of oscillation of a pendulum and several other physical quantities:\n\nT = 2π √(l/g)\n\nManakah antara graf berikut adalah benar?\nWhich of the following graphs is true?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q01_opts.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (T melawan l)"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (T melawan 1/√g garis lurus melalui asalan)"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (T melawan g)"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (T^2 melawan 1/l)"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Berdasarkan rumus T = 2π √(l/g), T adalah berkadar terus dengan 1/√g (iaitu T = (2π√l) x (1/√g)). Oleh itu, graf T melawan 1/√g adalah garis lurus yang melalui titik asalan.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K3_Q02",
+      "sumber": "Percubaan Pulau Pinang 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 2,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
+      "spKod": "1.2.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah menunjukkan hubungan antara jarak imej, v dengan pembesaran, M untuk sebuah kanta cembung:\nDiagram shows the relationship between image distance, v and magnification, M for a convex lens:\n\nv - 10 = 10M\n\nAntara graf-graf berikut, yang manakah menunjukkan hubungan antara v dengan M bagi persamaan di atas?\nWhich of the following graphs shows the relationship between v and M for the above equation?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q02_opts.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Graf A (Garis lurus v melawan M dengan pintasan-v = 10 dan kecerunan m = 10)"
+          },
+          {
+              "id": "B",
+              "teks": "Graf B (Garis lurus v melawan M melalui asalan)"
+          },
+          {
+              "id": "C",
+              "teks": "Graf C (Garis lurus dengan pintasan-v = 1)"
+          },
+          {
+              "id": "D",
+              "teks": "Graf D (Garis lurus dengan kecerunan negatif)"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Menyusun persamaan dalam bentuk persamaan linear y = mx + c: v = 10M + 10. Di mana y = v, x = M, kecerunan m = 10, dan pintasan paksi menegak c = 10. Graf yang tepat ialah Graf A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K3_Q03",
+      "sumber": "Percubaan Perlis 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 3,
+      "sk": "SK 1.1 Kuantiti Fizik",
+      "sp": "SP 1.1.1 Mengenal pasti kuantiti asas dan kuantiti terbitan",
+      "spKod": "1.1.1",
+      "rujukanDskp": "DSKP Fizik T4 ms 26",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 18-22",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 2",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.1 Kuantiti Fizik",
+      "aras": "Rendah",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah menunjukkan sebatang pembaris yang digunakan untuk mengukur panjang suatu objek.\nDiagram shows a ruler which is used to measure length of an object.\n\nApakah skala terkecil yang boleh diukur oleh pembaris tersebut?\nWhat is the smallest scale that can be measured by the ruler?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q03_rajah14.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "0.1 cm"
+          },
+          {
+              "id": "B",
+              "teks": "0.01 cm"
+          },
+          {
+              "id": "C",
+              "teks": "0.1 mm"
+          },
+          {
+              "id": "D",
+              "teks": "0.01 mm"
+          }
+      ],
+      "jawapanBetul": "A",
+      "penerangan": "Skala terkecil (kejituan / kepersisan) bagi pembaris meter metrik ialah 1 mm atau 0.1 cm.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "A"
+  },
+  {
+      "id": "MODUL_T4_B1_K3_Q04",
+      "sumber": "Percubaan MRSM 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 4,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
+      "spKod": "1.2.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Tinggi",
+      "konstruk": "Mengaplikasi",
+      "soalan": "Rajah menunjukkan graf perubahan tenaga kinetik bagi fotoelektron yang dibebaskan daripada logam litium pada frekuensi cahaya yang berlainan.\nDiagram shows a graph of the change in kinetic energy of photoelectrons released from lithium metal at different light frequency.\n\nDaripada graf, tentukan nilai tenaga kinetik bagi litium tersebut apabila frekuensi cahayanya ialah 8 × 10^14 Hz.\nFrom the graph, determine the kinetic energy of lithium when its light frequency is 8 × 10^14 Hz.",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q04_rajah15.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "1.0 eV"
+          },
+          {
+              "id": "B",
+              "teks": "1.2 eV"
+          },
+          {
+              "id": "C",
+              "teks": "2.0 eV"
+          },
+          {
+              "id": "D",
+              "teks": "2.2 eV"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Melalui kaedah interpolasi graf pada paksi frekuensi f = 8 × 10^14 Hz, unjuran menegak ke garis graf dan kemudian mengufuk ke paksi tenaga kinetik K memberikan bacaan tepat K = 1.2 eV.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K4_Q01",
+      "sumber": "Percubaan SBP 2023",
+      "tahun": 2023,
+      "noSoalanAsal": 1,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.3 Menjalankan penyiasatan saintifik dan menulis laporan lengkap",
+      "spKod": "1.2.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 15-17",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah menunjukkan satu susunan radas untuk mengkaji hubungan antara pemanjangan suatu gelang dengan daya.\nDiagram shows an arrangement of apparatus to study the relationship between the extension of a rubber band and force.\n\nPernyataan hipotesis manakah yang betul?\nWhich hypothesis statement is correct?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q01_rajah16.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Pemanjangan suatu gelang getah bergantung kepada daya / The extension of a rubber band depends on the force"
+          },
+          {
+              "id": "B",
+              "teks": "Pemanjangan suatu gelang getah berkadar terus dengan daya / The extension of a rubber band is directly proportional force"
+          },
+          {
+              "id": "C",
+              "teks": "Pemanjangan suatu gelang getah berkadar songsang dengan daya / The extension of a rubber band is inversely proportional force"
+          },
+          {
+              "id": "D",
+              "teks": "Semakin bertambah daya, semakin bertambah pemanjangan suatu gelang getah / The higher the force, the higher the extension of a rubber band"
+          }
+      ],
+      "jawapanBetul": "D",
+      "penerangan": "Pernyataan hipotesis saintifik yang betul menyatakan hubungan arah yang boleh diuji antara pemboleh ubah dimanipulasi (daya) dan pemboleh ubah bergerak balas (pemanjangan gelang getah): 'Semakin bertambah daya, semakin bertambah pemanjangan suatu gelang getah'. Pilihan B tidak tepat secara umum kerana gelang getah bukan spring Hooke yang ideal.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "D"
+  },
+  {
+      "id": "MODUL_T4_B1_K4_Q02",
+      "sumber": "Percubaan SBP 2022",
+      "tahun": 2022,
+      "noSoalanAsal": 2,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.2 Menganalisis graf untuk mendapatkan rumusan siasatan",
+      "spKod": "1.2.2",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 10-14",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah menunjukkan graf R melawan 1/A.\nDiagram shows a graph of R against 1/A.\n\nPernyataan manakah adalah betul?\nWhich statement is correct?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q02_rajah17.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "R adalah berkadar terus dengan A / R is directly proportional to A"
+          },
+          {
+              "id": "B",
+              "teks": "R adalah berkadar songsang dengan A / R is inversely proportional to A"
+          },
+          {
+              "id": "C",
+              "teks": "Unit bagi kecerunan graf adalah kΩ mm^-1 / Unit for the gradient of the graph is kΩ mm^-1"
+          },
+          {
+              "id": "D",
+              "teks": "Nilai bagi kecerunan diberikan oleh 0.0005 / 5 / The value of the gradient is given by 0.0005 / 5"
+          }
+      ],
+      "jawapanBetul": "B",
+      "penerangan": "Oleh kerana graf R melawan 1/A ialah satu garis lurus yang melalui titik asalan, maka R berkadar terus dengan 1/A (R ∝ 1/A). Ini bermakna R adalah berkadar songsang dengan luas keratan rentas A.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "B"
+  },
+  {
+      "id": "MODUL_T4_B1_K4_Q03",
+      "sumber": "Percubaan Sarawak 2021",
+      "tahun": 2021,
+      "noSoalanAsal": 3,
+      "sk": "SK 1.2 Penyiasatan Saintifik",
+      "sp": "SP 1.2.3 Menjalankan penyiasatan saintifik dan menulis laporan lengkap",
+      "spKod": "1.2.3",
+      "rujukanDskp": "DSKP Fizik T4 ms 27",
+      "rujukanBukuTeks": "Buku Teks T4 Bab 1 ms 15-17",
+      "rujukanCheatnote": "Cheatnote T4 Bab 1 ms 3",
+      "kertas": 1,
+      "tingkatan": 4,
+      "babNo": 1,
+      "babNama": "Pengukuran",
+      "bidang": "Asas Fizik",
+      "topik": "1.2 Penyiasatan Saintifik",
+      "aras": "Tinggi",
+      "konstruk": "Menganalisis",
+      "soalan": "Rajah menunjukkan situasi di taman permainan di mana dua orang budak mendapati kedua-dua buaian berayun dengan kelajuan berbeza.\nDiagram shows a situation in a playground where two kids find the swings swinging at different speeds.\n\nApakah pembolehubah dimanipulasikan dan pembolehubah bergerak balas yang sesuai?\nWhat is the suitable manipulated variable and responding variable?",
+      "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k4_q03_rajah18.webp",
+      "pilihan": [
+          {
+              "id": "A",
+              "teks": "Pembolehubah dimanipulasikan: Jisim ladung / Mass of bob | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
+          },
+          {
+              "id": "B",
+              "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
+          },
+          {
+              "id": "C",
+              "teks": "Pembolehubah dimanipulasikan: Panjang bandul / Length of pendulum | Pembolehubah bergerak balas: Tempoh ayunan / Period of oscillation"
+          },
+          {
+              "id": "D",
+              "teks": "Pembolehubah dimanipulasikan: Tempoh ayunan / Period of oscillation | Pembolehubah bergerak balas: Kelajuan bandul / Speed of pendulum"
+          }
+      ],
+      "jawapanBetul": "C",
+      "penerangan": "Untuk penyiasatan saintifik ayunan bandul/buaian, panjang tali bandul (panjang buaian) dijadikan pembolehubah dimanipulasikan, manakala tempoh ayunan (masa untuk satu ayunan lengkap) ialah pembolehubah bergerak balas.",
+      "markah": 1,
+      "statusSemakan": "Disemak (Modul K1)",
+      "jawapan": "C"
+  }
 ];
 
 /**
