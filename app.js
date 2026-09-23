@@ -468,13 +468,56 @@ function populateBankSoalanDropdowns() {
   const prevSelected = AppState.filters.sk || "all";
   let optionsHtml = `<option value="all">Semua Standard Kandungan (${skMap.size > 0 ? skMap.size + " SK" : "44 SK"})</option>`;
 
-  const sortedSks = Array.from(skMap.keys()).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  // Asingkan SK mengikut Tingkatan 4 dahulu, kemudian barulah Tingkatan 5
+  const t4Sks = [];
+  const t5Sks = [];
 
-  sortedSks.forEach(skName => {
+  Array.from(skMap.keys()).forEach(skName => {
     const info = skMap.get(skName);
-    const isSelected = skName === prevSelected ? "selected" : "";
-    optionsHtml += `<option value="${skName}" ${isSelected}>${skName} [T${info.tingkatan} Bab ${info.babNo}] (${info.count} soalan)</option>`;
+    if (info.tingkatan === 4 || info.tingkatan === "4") {
+      t4Sks.push(skName);
+    } else {
+      t5Sks.push(skName);
+    }
   });
+
+  const sortSkList = (list) => {
+    return list.sort((a, b) => {
+      const infoA = skMap.get(a);
+      const infoB = skMap.get(b);
+      // 1. Susun mengikut Nombor Bab
+      if (infoA.babNo !== infoB.babNo) {
+        return infoA.babNo - infoB.babNo;
+      }
+      // 2. Susun mengikut susunan kod atau nama SK
+      return a.localeCompare(b, undefined, { numeric: true });
+    });
+  };
+
+  sortSkList(t4Sks);
+  sortSkList(t5Sks);
+
+  // Kumpulan Tingkatan 4 (Dipaparkan dahulu)
+  if (t4Sks.length > 0) {
+    optionsHtml += `<optgroup label="─── TINGKATAN 4 (${t4Sks.length} SK) ───">`;
+    t4Sks.forEach(skName => {
+      const info = skMap.get(skName);
+      const isSelected = skName === prevSelected ? "selected" : "";
+      optionsHtml += `<option value="${skName}" ${isSelected}>${skName} [T${info.tingkatan} Bab ${info.babNo}] (${info.count} soalan)</option>`;
+    });
+    optionsHtml += `</optgroup>`;
+  }
+
+  // Kumpulan Tingkatan 5 (Dipaparkan selepas Tingkatan 4)
+  if (t5Sks.length > 0) {
+    optionsHtml += `<optgroup label="─── TINGKATAN 5 (${t5Sks.length} SK) ───">`;
+    t5Sks.forEach(skName => {
+      const info = skMap.get(skName);
+      const isSelected = skName === prevSelected ? "selected" : "";
+      optionsHtml += `<option value="${skName}" ${isSelected}>${skName} [T${info.tingkatan} Bab ${info.babNo}] (${info.count} soalan)</option>`;
+    });
+    optionsHtml += `</optgroup>`;
+  }
 
   fSk.innerHTML = optionsHtml;
   if (prevSelected !== "all" && !skMap.has(prevSelected)) {
