@@ -11001,7 +11001,7 @@ const QUESTION_BANK = [
             },
             {
                 "id": "C",
-                "teks": "II dan III I and II II and III"
+                "teks": "II dan III"
             },
             {
                 "id": "D",
@@ -13513,19 +13513,19 @@ const QUESTION_BANK = [
         "pilihan": [
             {
                 "id": "A",
-                "teks": "Halaju(m s) Velocity (ms\") R Masa (9) Tinie (s)"
+                "teks": "Graf A / Graph A"
             },
             {
                 "id": "B",
-                "teks": "Halaju(m s) Velocit (ms\") Masa (9) Time (s)"
+                "teks": "Graf B / Graph B"
             },
             {
                 "id": "C",
-                "teks": "Halaju(n s') Velociy(m s) SMasa (9) Time (s)"
+                "teks": "Graf C / Graph C"
             },
             {
                 "id": "D",
-                "teks": "Halaju(m s) Velocity(m s) 0 Masa (8) Tine (s)"
+                "teks": "Graf D / Graph D"
             }
         ],
         "jawapanBetul": "B",
