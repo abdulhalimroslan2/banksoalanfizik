@@ -4,19 +4,20 @@ import re
 
 FIXES = {
     "MODUL_T4_B2_K2_Q39": {
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_q39_carta_pita.webp",
+        "rajahUrl": None,
         "pilihan": [
-            {"id": "A", "teks": "Carta pita A / Tape chart A"},
-            {"id": "B", "teks": "Carta pita B / Tape chart B"},
-            {"id": "C", "teks": "Carta pita C / Tape chart C"},
-            {"id": "D", "teks": "Carta pita D / Tape chart D"}
+            {"id": "A", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q39_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Carta pita A\">"},
+            {"id": "B", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q39_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Carta pita B\">"},
+            {"id": "C", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q39_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Carta pita C\">"},
+            {"id": "D", "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q39_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Carta pita D\">"}
         ],
-        "jawapanBetul": "A",
-        "jawapan": "A",
-        "penerangan": "Berdasarkan carta pita detik, panjang jalur pita bertambah secara seragam dari masa ke masa menunjukkan halaju bertambah secara seragam, iaitu objek mengalami pecutan seragam (Carta pita A)."
+        "jawapanBetul": "B",
+        "jawapan": "B",
+        "penerangan": "Berdasarkan carta pita detik, panjang jalur pita bertambah secara seragam dari masa ke masa (selang pertambahan panjang pita yang malar). Ini menunjukkan halaju bertambah secara seragam dengan masa, iaitu objek mengalami pecutan seragam (uniform acceleration). Carta pita A menunjukkan halaju malar (pecutan sifar), Carta pita C menunjukkan pecutan tidak seragam, dan Carta pita D menunjukkan nyahpecutan seragam. Oleh itu, carta pita yang betul ialah B."
     },
     "MODUL_T4_B2_K2_Q74": {
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_q74_table.webp"
+        "rajahUrl": None,
+        "penerangan": "Berdasarkan takrifan kuantiti fizik:\n1. Halaju purata (Average velocity) = Sesaran / Masa = Sesaran Q dari P / T (Displacement of Q from P / T).\n2. Pecutan purata (Average acceleration) = Perubahan halaju / Masa = Perubahan halaju dari P ke Q / T (Change in velocity from P to Q / T).\nMaka, gabungan takrifan yang betul ialah pilihan D."
     },
     "MODUL_T4_B2_K2_Q76": {
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah55_v2.webp"
