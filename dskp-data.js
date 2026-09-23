@@ -7478,7 +7478,7 @@ const QUESTION_BANK = [
         "topik": "2.2 Graf Gerakan Linear",
         "aras": "Rendah",
         "konstruk": "Memahami",
-        "soalan": "Rajah 2 menunjukkan graf sesaran-masa bagi\nsebuah motosikal yang sedang bergerak.\nDiagram 2 shows a displacement-time graph ofa\nmoving mnotorcycle. (Melaka: 2023)\ns (m)\nst (min)\n0 S 10 15 20 25 30 35 40\nPasangan gerakan objek manakah dari Q ke S\nyang betul?\nWhich pair of object motion from Q to S is\ncorrect?\nJenis gerakan QR Jenis gerakan RS\nType of motionQR Tiype of motion RS\nHalaju seragam pada\nHalaju berkurang arah yang bertentangan\nnVelocitydecreases Uniform velocity in the\noppositedirection\nHalaju seragam pada\nHalaju bertambah arah yang bertentangan\nR\nVelocity increases Uniform velocity in the\nopposite direction\nHalaju seragam pada\nc Halajuberkurang arah yang sama\nVelocity decreases Uniform velocity in the\nsame direction\nHalaju seragam pada\nD Halaju bertambah arah yang sama\nVelocity increases Uniform velocity in the\nsame direction",
+        "soalan": "Rajah 2 menunjukkan graf sesaran-masa bagi sebuah motosikal yang sedang bergerak.\nDiagram 2 shows a displacement-time graph of a moving motorcycle. (Melaka: 2023)\nPasangan gerakan objek manakah dari Q ke S yang betul?\nWhich pair of object motion from Q to S is correct?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah2.webp",
         "pilihan": [
             {
@@ -7523,7 +7523,7 @@ const QUESTION_BANK = [
         "topik": "2.5 Momentum",
         "aras": "Rendah",
         "konstruk": "Memahami",
-        "soalan": "Rajah 3 menunjukkan sekeping duit syiling dan\nsehelai bulu ayam yang sedang jatuh bebas di\ndalam bekas vakum.\nDiagram 3 shows a coin and a feather\nexperiencing free fall in a vacuum container.\n(Pahang: 2023)\nVakum\nVacuum\nDuit syiling Bulu ayam\nCoir Feather\nKuantiti fizik manakah yang malar?\nWhich physical quantity is constant?",
+        "soalan": "Rajah 3 menunjukkan sekeping duit syiling dan sehelai bulu ayam yang sedang jatuh bebas di dalam bekas vakum.\nDiagram 3 shows a coin and a feather experiencing free fall in a vacuum container. (Pahang: 2023)\nKuantiti fizik manakah yang malar?\nWhich physical quantity is constant?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah3.webp",
         "pilihan": [
             {
@@ -7658,24 +7658,24 @@ const QUESTION_BANK = [
         "topik": "2.1 Gerakan Linear",
         "aras": "Rendah",
         "konstruk": "Memahami",
-        "soalan": "Rajah 6 menunjukkan gerakan subuah basikal.\nDiagram 6 shows the motion ofa bicycle.\n(Perak: 2023)\nArah pergerakan\nDirectionofmotion\nL-0s -ls 52s ,3s\n5.0 m S.0 m S.0 m\nApakah jenis gerakan tersebut?\nWhat is the type of motion?",
+        "soalan": "Rajah 6 menunjukkan gerakan sebuah basikal.\nDiagram 6 shows the motion of a bicycle. (Perak: 2023)\nApakah jenis gerakan tersebut?\nWhat is the type of motion?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah6.webp",
         "pilihan": [
             {
                 "id": "A",
-                "teks": "Halaju seragam"
+                "teks": "Halaju seragam / Uniform velocity"
             },
             {
                 "id": "B",
-                "teks": "Halaju berkurang"
+                "teks": "Halaju berkurang / Decreasing velocity"
             },
             {
                 "id": "C",
-                "teks": "Halaju meningkat Uniform velocity Increasing velocity"
+                "teks": "Halaju meningkat / Increasing velocity"
             },
             {
                 "id": "D",
-                "teks": "Halaju tidak Decreasing seragam velocity Non-uniform velocity"
+                "teks": "Halaju tidak seragam / Non-uniform velocity"
             }
         ],
         "jawapanBetul": "A",
@@ -11573,7 +11573,7 @@ const QUESTION_BANK = [
         "topik": "2.4 Inersia",
         "aras": "Sederhana",
         "konstruk": "Memahami",
-        "soalan": "Rajah 66 (a) menunjukkan Abu menjatuhkan\nsebuah kotak dari tebing pada ketinggian 15 m.\nDiagram 66 (a) shows Abu drops a box offa cliff\nat a height of 15 m. (SPM: 2021)\n15 m 15 m\nPermukaan Bumi Permukaan Bulan\nEarth surface Moon surface\nRajah 66 (a) Rajah 66 (b)\nSekiranya Abu melakukan aktiviti itu dengan\nkotak yang sama di Bulan seperti ditunjukkan\ndalam Rajah 66 (b), kuantiti manakah yang akan\nbertambah?\nIfAbu does the sane activity on the Moon using\nthe same box as shown in Diagram 66 (b), which\nquantity will increase?",
+        "soalan": "Rajah 66 (a) menunjukkan Abu menjatuhkan sebuah kotak dari tebing pada ketinggian 15 m.\nDiagram 66 (a) shows Abu drops a box off a cliff at a height of 15 m. (SPM: 2021)\nSekiranya Abu melakukan aktiviti itu dengan kotak yang sama di Bulan seperti ditunjukkan dalam Rajah 66 (b), kuantiti manakah yang akan bertambah?\nIf Abu does the same activity on the Moon using the same box as shown in Diagram 66 (b), which quantity will increase?",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah66.webp",
         "pilihan": [
             {
@@ -13418,7 +13418,7 @@ const QUESTION_BANK = [
         "topik": "2.2 Graf Gerakan Linear",
         "aras": "Tinggi",
         "konstruk": "Mengaplikasi",
-        "soalan": "Rajah 97 menunjukkan graf halaju-masa bagi\npergerakan suatu objek dalam garis lurus.\nDiagram 97 shows a velocity-time graph for the\nmotion of an object in a straight line.\n(Negeri Sembilan: 2021)\nHitungkan jumlah sesaran dan jarak yang dilalui\noleh objek tersebut.\nCalculate the total displacement and distance\ntravelled by the object.\nSesaran(m) Jarak dilalui (m)\nDisplacement Distance travelled\n(m) (m)",
+        "soalan": "Rajah 97 menunjukkan graf halaju-masa bagi pergerakan suatu objek dalam garis lurus.\nDiagram 97 shows a velocity-time graph for the motion of an object in a straight line. (Negeri Sembilan: 2021)\nHitungkan jumlah sesaran dan jarak yang dilalui oleh objek tersebut.\nCalculate the total displacement and distance travelled by the object.",
         "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah97.webp",
         "pilihan": [
             {

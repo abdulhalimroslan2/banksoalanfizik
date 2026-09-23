@@ -23,16 +23,27 @@ Standard Operasi Prosedur (SOP) dan enjin automasi komprehensif bagi memastikan 
 
 ## 🛡️ 7 Prinsip Emas Tanpa Kompromi (Golden Invariants)
 
-1. **Rajah Tulen Sahaja (Zero-Stem Crop):**
-   Kotak pemotongan (*bounding box*) rajah **TIDAK BOLEH** mengandungi teks soalan (*stem*), nombor soalan, markah `[1 markah]`, garisan pembahagi lajur (*column divider line*), atau kapsyen seperti "Rajah 22 / Diagram 22".
-2. **Pembersihan Teks Vektor Graf (Zero Graph-Text Leak):**
-   Teks dalam graf vektor (label paksi seperti `Halaju (m s⁻¹)`, `Masa (s)`, nombor skala, skala masa, nama mercu tanda graf) **TIDAK BOLEH** bocor ke dalam teks `soalan`. Teks tersebut hanya milik imej rajah!
+1. **Rajah Tulen Sahaja & Sifar Teks Sumber (Strict Zero-Stem & Zero-Source Crop):**
+   Kotak pemotongan (*bounding box*) rajah **DIHARAMKAN SAMA SEKALI** daripada mengandungi:
+   - Teks soalan (*stem*) Bahasa Melayu mahupun terjemahan Bahasa Inggeris (contoh: `Diagram 14 shows a student runs...`).
+   - Teks sumber peperiksaan seperti `(MRSM: 2023)`, `(SBP)`, `(SMKA)`, `(SPM: 2021)`, `(Pahang: 2023)`, `(Terengganu: 2022)`, dsb.
+   - Nombor soalan, markah `[1 markah]`, garisan pembahagi lajur (*column divider line*), atau kapsyen `Rajah X / Diagram X`.
+   - **Garis Panduan Sempadan:** $y_0$ pemotongan rajah **mesti bermula ketat di bawah** perkataan terakhir ayat soalan dan teks sumber.
+2. **Pembersihan Teks Vektor Graf & Anotasi Fizik (Zero Graph/Diagram Text Leak):**
+   Teks yang merupakan sebahagian daripada rajah atau graf fizikal:
+   - Arah gerakan (`Arah pergerakan / Direction of motion`).
+   - Penanda masa & sesaran (`t = 0s, 1s, 2s`, `5.0 m, 10 m`, `15 m 15 m`).
+   - Label radas (`Vakum / Vacuum`, `Duit syiling / Coin`, `Bulu ayam / Feather`).
+   - Label mercu tanda (`Rumah / House`, `Kedai runcit / Grocery store`, `Permukaan Bumi / Earth surface`).
+   - Label & skala paksi graf (`Halaju (m s⁻¹)`, `Masa (s)`, angka senggatan `0, 10, 20...`).
+   **WAJIB DIBUANG DARI STRING `soalan`!** Teks tersebut sudah dipaparkan secara visual di dalam imej rajah, dan kemasukannya ke dalam teks soalan adalah satu kecacatan OCR.
 3. **Pencantuman Ayat Selanjar (Intelligent Block-Merging):**
-   Jangan sesekali memotong ayat setiap 35–45 aksara mengikut lajur PDF. Cantumkan ayat-ayat dalam bahasa yang sama dengan satu ruang (*space*) agar teks mengalir secara semulajadi dan merata (*justified*) ke seluruh lebar kad.
+   Jangan sesekali memotong ayat setiap 35–45 aksara mengikut lajur PDF. Cantumkan ayat-ayat dalam bahasa yang sama dengan satu ruang (*space*) agar teks mengalir secara semulajadi dan merata (*text-align: justify; text-justify: inter-word;*) ke seluruh lebar kad.
 4. **Pemisahan Pernyataan Roman (`I`, `II`, `III`, `IV`):**
    Setiap butiran pernyataan berangka Roman wajib dipisahkan sebagai perenggan dwibahasa tersendiri dengan jarak `<br><br>` yang kemas mengikut standard Lembaga Peperiksaan Malaysia (LPM).
 5. **Pilihan Jawapan Bersih (No OCR Multi-Column Leaks):**
    Pilihan jawapan berangka Roman (A, B, C, D) tidak boleh mengandungi teks bertindih hasil OCR dua lajur serentak (contohnya `I dan III I and II I and III`).
+   Soalan yang pilihannya berbentuk 4 rajah graf berasingan (A, B, C, D) hendaklah dicantumkan ke dalam rajah soalan dan pilihannya dilabel standard sebagai `Graf A / Graph A`, `Graf B / Graph B`, dsb.
 6. **Pengasingan DSKP Tingkatan 4 dan Tingkatan 5:**
    Dalam semua menu lungsur (*dropdown*), penapis (*filter*), dan profil JSU, Standard Kandungan Tingkatan 4 mesti disusun dahulu sepenuhnya sebelum Tingkatan 5.
 7. **Integriti Sandaran Wajib (Mandatory Backup Rule):**
@@ -42,57 +53,59 @@ Standard Operasi Prosedur (SOP) dan enjin automasi komprehensif bagi memastikan 
 
 ## Fasa 1: Pemotongan & Pengoptimuman Rajah Berketepatan Tinggi
 
-### 1. Peraturan Bounding Box Bantuan AI & PyMuPDF
+### 1. Peraturan Bounding Box Ketat Tanpa Teks Sumber
 Semasa mengekstrak rajah daripada PDF format 2-lajur:
-* **Resolusi Minimum:** Render halaman pada $200\text{--}300 \text{ DPI}$ menggunakan `fitz.Matrix(200/72, 200/72)`.
-* **Sempadan Ketat:**
-  * Bahagian Atas (*Top*): Potong tepat di atas elemen visual pertama rajah (contoh: label paksi tegak teratas atau bucu radas).
-  * Bahagian Bawah (*Bottom*): Potong tepat di bawah garisan paksi mendatar atau kaki radas. Jangan masukkan kapsyen teks di bawahnya jika kapsyen tersebut boleh ditaip semula dalam HTML atau diabaikan.
-  * Bahagian Kiri & Kanan (*Left & Right*): Pastikan tiada garisan pembahagi lajur (*vertical divider line*) yang terselit masuk.
-* **Rajah Perbandingan / Berbilang Bahagian (Contoh: Rajah 79a & 79b):**
-  Jika soalan melibatkan dua situasi atau radas perbandingan bersebelahan atau bertingkat, cantumkan (*stitch*) kedua-dua bahagian menjadi **satu imej komposit tunggal** berkualiti tinggi supaya murid dapat melihat perbandingan penuh tanpa hilang satu bahagian.
+* **Resolusi:** Render halaman pada $200\text{--}300 \text{ DPI}$ menggunakan `fitz.Matrix(200/72, 200/72)`.
+* **Sempadan Atas ($y_0$):**
+  Cari blok teks soalan Bahasa Inggeris dan teks sumber (contoh: `(MRSM: 2023)`).
+  Tetapkan $y_0 = y_{1,\text{source}} + 2.0\text{ pt}$.
+  Dengan cara ini, tiada satu huruf pun daripada perkataan sumber atau ayat soalan yang akan masuk ke dalam imej rajah.
+* **Sempadan Bawah ($y_1$):**
+  Cari kapsyen `Rajah X / Diagram X`.
+  Tetapkan $y_1 = y_{0,\text{caption}} - 2.0\text{ pt}$.
+* **Sempadan Sisi ($x_0, x_1$):**
+  Lajur 1: $x \in [50, 295]\text{ pt}$. Lajur 2: $x \in [305, 550]\text{ pt}$.
+  Pastikan garis pemisah lajur hitam di antara dua lajur dipotong keluar sepenuhnya.
+* **Rajah Perbandingan / Berbilang Bahagian (Contoh: Rajah 79a & 79b, Rajah 94, Rajah 98):**
+  Jika soalan melibatkan dua situasi bersebelahan atau soalan graf pilihan A, B, C, D, cantumkan (*stitch*) bahagian-bahagian tersebut menjadi **satu imej komposit tunggal** berkualiti tinggi.
 
 ### 2. Format & Muat Naik Cloudflare R2
-* Format fail: **WebP** (`quality=92` ke atas) dengan pemotongan automatik tepi putih berlebihan (*auto-trim white padding* 10–12px).
+* Format fail: **WebP** (`quality=95`) dengan pemotongan automatik tepi putih berlebihan (*auto-trim white padding* 8–10px).
 * Struktur Kunci R2 Standard:
   ```text
   diagrams/modul_konstruk_t<TINGKATAN>/b<BAB>/t<TINGKATAN>_b<BAB>_rajah<N>.webp
   ```
   Contoh:
-  `https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah22.webp`
+  `https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah14.webp`
 
 ---
 
 ## Fasa 2: Pembersihan Teks Vektor Graf & Anotasi daripada Teks Soalan
 
-Dalam kertas soalan PDF, teks pada graf vektor diekstrak bersama-sama teks soalan. Ini menyebabkan teks soalan dipenuhi dengan serpihan koordinat.
+Dalam kertas soalan PDF, teks pada graf vektor diekstrak bersama-sama teks soalan. Ini menyebabkan teks soalan dipenuhi dengan serpihan koordinat dan label.
 
-### Senarai Corak Teks yang Wajib Dibuang daripada `soalan`:
-1. **Label & Unit Paksi:**
+### Senarai Corak Teks yang Wajib Dihapuskan daripada `soalan`:
+1. **Anotasi Gerakan & Radas:**
+   * `Arah pergerakan`, `Directionofmotion`, `Direction of motion`
+   * `L-0s -ls 52s ,3s`, `t = 0s, 1s, 2s`, `5.0 m S.0 m S.0 m`
+   * `Vakum`, `Vacuum`, `Duit syiling Bulu ayam`, `Coir Feather`
+   * `15 m 15 m`, `Permukaan Bumi`, `Earth surface`, `Permukaan Bulan`, `Moon surface`
+   * `Rumah`, `Kedai runcit`, `Sekolah`, `House`, `Grocery store`
+2. **Label & Unit Paksi:**
    * `Halaju ( ms)`, `Halaju (m s⁻¹)`, `Velocity (m s⁻¹)`
    * `Sesaran (m)`, `Displacement (m)`, `Jarak (m)`, `Distance (m)`
    * `Masa (s)`, `Time (s)`, `Masa / s`, `Time / s`
    * `Daya (N)`, `Force (N)`, `Pecutan (m s⁻²)`, `Acceleration`
-2. **Nombor Skala & Skala Senggatan:**
+3. **Nombor Skala & Skala Senggatan:**
    * Nombor terpencil seperti `0`, `5`, `10`, `15`, `20`, `25`, `30`, `50`, `100+` yang bertaburan dalam teks.
-3. **Anotasi Mercu Tanda Graf:**
-   * Contoh: `Rumah Kedai runcit Sekolah Rumahnya Perjalanannya singgah` (ini ialah label pada rajah peta/graf laluan, bukan teks soalan!).
-
-### Kaedah Sanitasi:
-Sebelum memasukkan soalan ke dalam `dskp-data.js`, bandingkan teks soalan dengan imej rajah yang telah dipotong. Jika teks tersebut telah wujud secara visual di dalam rajah, padamkan teks tersebut daripada string `soalan`.
+4. **Header Jadual Pilihan yang Tertinggal dalam Soalan:**
+   * Contoh: `Jenis gerakan QR Jenis gerakan RS`, `Type of motionQR`, `Sesaran(m) Jarak dilalui (m)`. Pilihan jawapan sudah ada dalam medan `pilihan`. Teks ini tidak boleh ada dalam `soalan`!
 
 ---
 
 ## Fasa 3: Penjajaran Teks Normal (*Justified*) & Enjin Dwibahasa Pintar
 
-### 1. Masalah Utama: Pemecahan Baris Sempit (*Hard Newlines*)
-Dalam PDF format dua lajur (lebar ~240pt), baris ayat soalan terputus setiap 35–45 aksara:
-```text
-Antara pernyataan berikut, yang manakah betul\nmengenai sesaran?\nWhich of the following statements is correct\nabout displacemenr?
-```
-Jika `\n` ditukar terus kepada `<br>`, CSS `text-align: justify;` gagal berfungsi dan teks kelihatan seperti tangga yang sempit.
-
-### 2. Logik *Intelligent Block-Merging* (Telah Dilaksanakan dalam `app.js`)
+### 1. Logik *Intelligent Block-Merging* (Telah Dilaksanakan dalam `app.js`)
 * **Penggabungan Bahasa yang Sama:** Baris berturut-turut dalam bahasa yang sama (Melayu ke Melayu, atau Inggeris ke Inggeris) **wajib dicantumkan menjadi satu ayat yang mengalir** dengan ` ` (ruang kosong).
 * **Pengecualian Pemisahan:**
   * Penanda Pernyataan Roman: `^[IVXLCDM]+[\s.)]` (Contoh: `I `, `II `, `III `, `IV `) $\rightarrow$ Memulakan blok pernyataan baharu.
@@ -101,9 +114,9 @@ Jika `\n` ditukar terus kepada `<br>`, CSS `text-align: justify;` gagal berfungs
 * **Struktur Paparan Dwibahasa:**
   * Teks Bahasa Melayu: Teks biasa, tebal (*semi-bold/bold*), warna `#0F172A`.
   * Teks Terjemahan Bahasa Inggeris: Dibalut dengan `<span class="soalan-en">...</span>` (*italic*, warna kelabu profesional `#475569`).
-  * Jarak antara Soalan & Pernyataan: Menggunakan `<br><br>` supaya ada ruang visual (*visual breathing room*) yang selesa.
+  * Jarak antara Soalan & Pernyataan: Menggunakan `<br><br>` supaya ada ruang visual yang selesa.
 
-### 3. Penjajaran CSS Standard:
+### 2. Penjajaran CSS Standard:
 Pastikan kelas-kelas berikut dalam `styles.css` mengandungi:
 ```css
 .qcard-hero-body,
@@ -124,67 +137,17 @@ Pastikan kelas-kelas berikut dalam `styles.css` mengandungi:
 Dalam PDF 2-lajur, OCR membaca lajur kiri dan lajur kanan serentak secara melintang, menghasilkan pilihan seperti:
 * `C: I dan III I and II I and III` $\rightarrow$ **Betul:** `I dan III`
 * `D: I, II dan III II and II I, II and III` $\rightarrow$ **Betul:** `I, II dan III`
-* Teks pernyataan soalan bocor ke dalam pilihan A (contoh kes Q64 di mana kenyataan I, II, dan III masuk ke pilihan A).
-
-### Skrip Pengauditan Pantas (Audit Checklist):
-Setiap kali mengimport topik baharu, jalankan semakan:
-```javascript
-// Semakan pilihan yang mengandungi kata berulang
-if (/\b(dan|and)\b.*\b(dan|and)\b/i.test(pilihanTeks)) {
-  // Teliti dan bersihkan kepada format standard: "I dan II", "II dan III", dsb.
-}
-```
+* `C: Halaju meningkat Uniform velocity Increasing velocity` $\rightarrow$ **Betul:** `Halaju meningkat / Increasing velocity`
+* `D: Halaju tidak Decreasing seragam velocity Non-uniform velocity` $\rightarrow$ **Betul:** `Halaju tidak seragam / Non-uniform velocity`
 
 ---
 
-## Fasa 5: Skema Data & Penyelarasan DSKP
-
-Setiap entri soalan dalam `dskp-data.js` wajib mematuhi skema lengkap berikut:
-```json
-{
-  "id": "MODUL_T4_B<BAB>_K<KERTAS>_Q<NO>",
-  "sumber": "Percubaan <NEGERI/SEKOLAH> <TAHUN>",
-  "tahun": 2023,
-  "noSoalanAsal": 34,
-  "sk": "SK <NO_SK> <NAMA_SK>",
-  "sp": "SP <KOD_SP> <DESKRIPSI_SP>",
-  "spKod": "<KOD_SP>",
-  "rujukanDskp": "DSKP Fizik T<T> ms <MS>",
-  "rujukanBukuTeks": "Buku Teks T<T> ms <MS>",
-  "rujukanCheatnote": "Cheatnote T<T> Bab <B> ms <MS>",
-  "kertas": 1,
-  "tingkatan": 4,
-  "babNo": 2,
-  "babNama": "Daya dan Gerakan I",
-  "bidang": "Mekanik Newton",
-  "topik": "<SUBTOPIK>",
-  "aras": "Rendah | Sederhana | Tinggi",
-  "konstruk": "Mengingat | Memahami | Mengaplikasi | Menganalisis | Menilai | Mencipta",
-  "soalan": "<TEKS_SOALAN_BERSIH>",
-  "rajahUrl": "<URL_R2_WEBP_JIKA_ADA>",
-  "pilihan": [
-    { "id": "A", "teks": "..." },
-    { "id": "B", "teks": "..." },
-    { "id": "C", "teks": "..." },
-    { "id": "D", "teks": "..." }
-  ],
-  "jawapanBetul": "B",
-  "penerangan": "<PENERANGAN_KONSEP_FIZIK>",
-  "markah": 1,
-  "statusSemakan": "Disemak (Modul K1)",
-  "jawapan": "B"
-}
-```
-
----
-
-## Fasa 6: Senarai Semak Pra-Penyatuan (Pre-Flight Verification Checklist)
+## Fasa 5: Senarai Semak Pra-Penyatuan (Pre-Flight Verification Checklist)
 
 Sebelum sebarang modul/topik baharu digabungkan (*merged*) ke dalam `dskp-data.js`:
 
+- [ ] **Jalankan Skrip Validator:** Laksanakan `python3 scripts/validate_ingest_quality.py` (Mesti lulus 100% dengan `[✓] ALL QUALITY CHECKS PASSED`).
 - [ ] **Semakan Sintaks JS:** Jalankan `node -c dskp-data.js` dan `node -c app.js` (Mesti keluar exit code 0).
+- [ ] **Pemeriksaan Rajah Bebas Teks Sumber:** Buka imej rajah, sahkan tiada teks seperti `(MRSM: 2023)`, `(SBP)`, `(SPM)` atau ayat soalan terpotong di dalamnya.
 - [ ] **Ujian Paparan QCard:** Buka Bank Soalan, pastikan ayat soalan melimpah merentasi kad secara rata (*justified*), bukan patah setiap separuh baris.
-- [ ] **Pemeriksaan Rajah 100% Sah:** Semua URL R2 boleh diakses (HTTP 200) dan imej tidak dipotong teks soalan atau tiada garisan lajur hitam.
-- [ ] **Penyelarasan Soalan Bersiri Roman:** Soalan jenis pernyataan I, II, III disusun kemas dengan perenggan dwibahasa masing-masing.
-- [ ] **Pilihan Jawapan Bersih:** Tiada teks berulang seperti `I dan III I and II I and III`.
 - [ ] **Sandaran Keselamatan Dibuat:** Salinan fail disimpan ke `/Users/halimroslan/NEW CIDS SUITES PRO/`.
