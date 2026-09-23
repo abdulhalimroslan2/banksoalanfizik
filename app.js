@@ -1079,61 +1079,160 @@ function formatBilingualText(raw) {
     return raw.replace(/\n/g, "<br>");
   }
 
-  // Split by double newline first to preserve paragraph structure
-  const paragraphs = raw.split(/\n\s*\n/);
-  
-  const formattedParas = paragraphs.map(para => {
-    const lines = para.split("\n");
-    let lastWasMs = false;
-    
-    const formattedLines = lines.map(line => {
-      const trimmed = line.trim();
-      if (!trimmed) return "";
-      
-      const clean = trimmed.replace(/^\([a-z0-9]+\)\s*/i, "").replace(/^[0-9]+\.\s*/, "");
-      const words = clean.toLowerCase().split(/[^a-z0-9]+/);
-      let enScore = 0;
-      let msScore = 0;
-      const enKeys = [
-        "diagram","which","what","why","how","calculate","caleulate","state","explain","determine","shows","shown","is","are","of","the","in","with","to","from","for","by","when","if","that","between","acting","acted","neglected","object","student","mass","force","acceleration","velocity","speed","wavelength","frequency","energy","pressure","temperature","heat","decay","electric","resistance","light","ray","focal","lens","mirror","wave","pendulum","spring","circuit","photon","quantum","forward","bias","reverse","straight","parallel","perpendicular","reading","value","correct","produces","greater","smaller","high","low","decreases","increases","constant","weight","work","power","impulse","density","specific","latent","reflection","refraction","diffraction","interference","potential","current","magnetic","induction","transformer","logic","gate","fission","fusion","threshold","function","underline","answer","statement","below","normal","reaction","slope","plane","rough","sliding","slides","reasons","relationship","gives","a","an","unit","derived","base","time","displacement","distance","motion","situation","represented","ball","car","trolley","cycles","stops","grocery","store","behind","house","school","journey"
-      ];
-      const msKeys = [
-        "rajah","yang","manakah","apakah","mengapa","mengapakah","bagaimana","hitung","nyatakan","terangkan","tentukan","menunjukkan","ditunjukkan","ialah","adalah","pada","dalam","dengan","untuk","dari","daripada","oleh","jika","apabila","bahawa","antara","bertindak","diabaikan","objek","murid","jisim","daya","pecutan","halaju","laju","panjang","gelombang","frekuensi","tenaga","tekanan","suhu","haba","pereputan","elektrik","rintangan","cahaya","sinar","fokus","kanta","cermin","pembiasan","pantulan","ayunan","spring","litar","foton","kuantum","pincang","depan","songsang","selari","serenjang","bacaan","nilai","betul","menghasilkan","lebih","besar","kecil","tinggi","rendah","berkurang","bertambah","kekal","malar","berat","kerja","kuasa","impuls","ketumpatan","tentu","pendam","pembelauan","interferens","keupayaan","arus","magnet","aruhan","get","logik","pembelahan","pelakuran","ambang","fungsi","gariskan","jawapan","pernyataan","bawah","tindak","balas","satah","condong","kasar","menggelongsor","sebab","hubungan","beri","sebuah","satu","unit","terbitan","asas","masa","sesaran","jarak","gerakan","situasi","diwakili","kereta","bola","troli","mengayuh","basikal","rumah","rumahnya","sekolah","kedai","runcit","perjalanan","perjalanannya","singgah"
-      ];
-      
-      words.forEach(w => {
-        if (enKeys.includes(w)) enScore += 2;
-        if (msKeys.includes(w)) msScore += 2;
-      });
-      
-      if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
-        if (/gravitational|acceleration|planck|speed of light|constant|mass/i.test(trimmed)) enScore += 5;
-        if (/graviti|pecutan|pemalar|laju cahaya|jisim/i.test(trimmed)) msScore += 5;
+  const enKeys = new Set([
+    "diagram","which","what","why","how","who","where","when","if","that","whether",
+    "calculate","caleulate","state","explain","determine","shows","shown","show","is","are",
+    "was","were","be","been","being","have","has","had","of","the","in","with","to","from",
+    "for","by","about","between","among","under","above","below","into","through","during",
+    "before","after","acting","acted","neglected","object","student","mass","force",
+    "acceleration","velocity","speed","wavelength","frequency","energy","pressure",
+    "temperature","heat","decay","electric","resistance","light","ray","focal","lens",
+    "mirror","wave","pendulum","spring","circuit","photon","quantum","forward","bias",
+    "reverse","straight","parallel","perpendicular","reading","value","correct","produces",
+    "greater","smaller","high","low","decreases","increases","constant","weight","work",
+    "power","impulse","density","specific","latent","reflection","refraction","diffraction",
+    "interference","potential","current","magnetic","induction","transformer","logic","gate",
+    "fission","fusion","threshold","function","underline","answer","statement","statements",
+    "stated","normal","reaction","slope","plane","rough","sliding","slides","reasons",
+    "relationship","gives","a","an","unit","derived","base","time","displacement",
+    "distance","motion","situation","represented","ball","car","trolley","cycles","stops",
+    "grocery","store","behind","house","school","journey","length","trajectory","travelled",
+    "shortest","direction","initial","final","positions","equal","true","false","based",
+    "on","table","following","substance","liquid","gas","solid","melting","boiling",
+    "freezing","point","capacity","gravity","free","fall","vacuum","inertia",
+    "conservation","principle","principles","rate","change","resultant","stationary",
+    "rest","move","moving","unless","external","changing","directly","inversely",
+    "proportional","definition","defined","meaning","meant","experiences","experiencing",
+    "apparatus","instrument","tool","measure","measuring","equation","given","block",
+    "string","tension","friction","smooth","inclined","horizontal","vertical","component",
+    "kinetic","elastic","compression","extension","graph","gradient","area","axis",
+    "angle","incident","reflected","refracted","optical","fibre","fiber","index",
+    "critical","convex","concave","real","virtual","upright","inverted","magnified",
+    "diminished","same","size","magnifying","glass","microscope","telescope","eye",
+    "slit","monochromatic","coherent","constructive","destructive","node","antinode",
+    "loudness","pitch","echo","ultrasound","field","charge","difference","voltage",
+    "conductor","semiconductor","dry","cell","battery","switch","internal","series",
+    "electromagnet","rule","left","right","hand","fleming","motor","direct","alternating",
+    "coil","permanent","primary","secondary","step","up","down","soft","iron","core",
+    "efficiency","loss","eddy","hysteresis","radioactive","alpha","beta","gamma","half",
+    "life","isotope","nucleus","number","nuclear","chain","defect","radiation",
+    "background","detector","tube","geiger","cloud","chamber","dose","safety",
+    "photoelectric","thermionic","emission","cathode","oscilloscope","planck","hydrogen",
+    "spectrum","line","solar","diode","fotodiod","integrated","transistor","collector",
+    "emitter","dependent","resistor","thermistor","divider","relay","alarm","fire",
+    "automatic","and","or","not","nand","nor","xor","truth"
+  ]);
+
+  const msKeys = new Set([
+    "rajah","yang","manakah","apakah","mengapa","mengapakah","bagaimana","siapakah","bila",
+    "hitung","nyatakan","terangkan","tentukan","menunjukkan","ditunjukkan","tunjuk","ialah",
+    "adalah","ada","pada","dalam","dengan","untuk","dari","daripada","oleh","tentang","antara",
+    "bawah","atas","ke","melalui","semasa","sebelum","selepas","jika","apabila","bahawa",
+    "bertindak","diabaikan","objek","murid","jisim","daya","pecutan","halaju","laju",
+    "panjang","gelombang","frekuensi","tenaga","tekanan","suhu","haba","pereputan",
+    "elektrik","rintangan","cahaya","sinar","fokus","kanta","cermin","ayunan",
+    "spring","litar","foton","kuantum","pincang","depan","songsang","selari","serenjang",
+    "bacaan","nilai","betul","menghasilkan","lebih","besar","kecil","tinggi","rendah",
+    "berkurang","bertambah","kekal","malar","berat","kerja","kuasa","impuls","ketumpatan",
+    "tentu","pendam","pantulan","pembiasan","pembelauan","interferens","keupayaan","arus",
+    "magnet","aruhan","transformator","get","logik","pembelahan","pelakuran","ambang",
+    "fungsi","gariskan","jawapan","pernyataan","pernyataandi","tindak","balas","satah",
+    "condong","kasar","menggelongsor","sebab","hubungan","beri","sebuah","satu","unit",
+    "terbitan","asas","masa","sesaran","jarak","gerakan","situasi","diwakili","kereta",
+    "bola","troli","mengayuh","basikal","rumah","rumahnya","sekolah","kedai","runcit",
+    "perjalanan","perjalanannya","singgah","lintasan","pergerakan","terpendek","arah",
+    "tertentu","garis","lurus","kedudukan","awal","akhir","sama","jadual","berikut",
+    "bahan","cecair","pepejal","gas","takat","lebur","beku","didih","muatan","graviti",
+    "jatuh","bebas","vakum","inersia","keabadian","prinsip","kadar","perubahan","paduan",
+    "pegun","bergerak","kecuali","keadaan","luar","mengubah","terdapat","berkadar","terus",
+    "takrifan","definisi","maksud","dimaksudkan","mengalami","alat","digunakan","mengukur",
+    "persamaan","diberi","kelajuan","bongkah","tali","tegangan","geseran","licin",
+    "mendatar","menegak","komponen","kinetik","kenyal","elastik","mampatan","regangan",
+    "graf","kecerunan","luas","paksi","sudut","tuju","gentian","optik","indeks","genting",
+    "cembung","cekung","nyata","maya","tegak","diperbesarkan","diperkecilkan","saiz",
+    "pembesar","mikroskop","teleskop","mata","celah","monokromatik","koheren","membina",
+    "membinasa","nod","antinod","kenyaringan","kelangsingan","pic","gema","ultrabunyi",
+    "medan","cas","beza","voltan","ohm","konduktor","semikonduktor","sel","kering",
+    "bateri","suis","galvanometer","ammeter","voltmeter","multimeter","dge","elektromagnet",
+    "petua","tangan","kanan","kiri","fleming","motor","ulang","alik","gegelung","primer",
+    "sekunder","injak","naik","turun","teras","besi","lembut","kecekapan","kehilangan",
+    "pusar","histeresis","radioaktif","alfa","beta","gama","separuh","hayat","isotop",
+    "nukleus","proton","neutron","elektron","nombor","atom","nuklear","berantai","defek",
+    "sinaran","latar","belakang","pengesan","tiub","pembilang","geiger","muller","kebuk",
+    "awan","dos","keselamatan","fotoelektrik","pancaran","termion","katod","osiloskop",
+    "fotoelektron","jasad","hitam","planck","hidrogen","spektrum","suria","diod",
+    "fotodiod","bersepadu","transistor","pnp","npn","tapak","pengumpul","pengeluar",
+    "perintang","peka","termistor","pembahagi","geganti","penggera","kebakaran","lampu",
+    "automatik","pintu","atau","tak","takdan","takatau","eksklusif","kebenaran","bagi"
+  ]);
+
+  function detectLineLang(str) {
+    const clean = str.replace(/^(\([a-z0-9]+\)|[0-9]+\.|[IVXLCDM]+\b)\s*/i, "").trim();
+    const words = clean.toLowerCase().split(/[^a-z0-9]+/);
+    let en = 0, ms = 0;
+    for (const w of words) {
+      if (enKeys.has(w)) en += 2;
+      if (msKeys.has(w)) ms += 2;
+    }
+    if (en > ms) return "en";
+    if (ms > en) return "ms";
+    return "neutral";
+  }
+
+  const rawParas = raw.split(/\n\s*\n/);
+  const formattedParas = [];
+
+  for (const para of rawParas) {
+    const rawLines = para.split("\n").map(l => l.trim()).filter(Boolean);
+    if (!rawLines.length) continue;
+
+    const items = [];
+    let lastLang = "ms";
+
+    for (let i = 0; i < rawLines.length; i++) {
+      const line = rawLines[i];
+      const isRoman = /^[IVXLCDM]+[\s.)]/i.test(line);
+      const isAlphaBullet = /^\([a-z0-9]+\)/i.test(line);
+      const isNumBullet = /^[0-9]+\.\s*/.test(line);
+      const isBullet = isRoman || isAlphaBullet || isNumBullet;
+
+      let lang = detectLineLang(line);
+      if (lang === "neutral") {
+        if (/^[a-z,;)]/.test(line)) {
+          lang = lastLang;
+        } else if (isBullet) {
+          lang = "ms";
+        } else {
+          lang = lastLang;
+        }
+      }
+
+      const prev = items[items.length - 1];
+      if (prev && !isBullet && prev.lang === lang) {
+        prev.text += " " + line;
+      } else {
+        items.push({ text: line, lang, isBullet });
+        lastLang = lang;
+      }
+    }
+
+    let htmlParts = [];
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i];
+      let lineHtml = item.text;
+      if (item.lang === "en") {
+        lineHtml = `<span class="soalan-en">${lineHtml}</span>`;
       }
       
-      // Pure numbers/symbols should stay neutral and not flip language toggle
-      const isPureSymbol = /^[0-9+\-.,\s/()°*^%:=]+$/.test(clean);
-      
-      let isEn = false;
-      if (enScore > msScore) {
-        isEn = true;
-        lastWasMs = false;
-      } else if (msScore > enScore) {
-        isEn = false;
-        lastWasMs = true;
-      } else if (!isPureSymbol && lastWasMs && (enScore > 0 || /^[A-Z][a-z]/.test(clean))) {
-        isEn = true;
-        lastWasMs = false;
+      if (item.isBullet && i > 0) {
+        htmlParts.push("<br>" + lineHtml);
+      } else {
+        htmlParts.push(lineHtml);
       }
-      
-      if (isEn) {
-        return `<span class="soalan-en">${trimmed}</span>`;
-      }
-      return trimmed;
-    }).filter(Boolean);
-    
-    return formattedLines.join("<br>");
-  });
+    }
+
+    formattedParas.push(htmlParts.join("<br>"));
+  }
 
   return formattedParas.join("<br><br>");
 }

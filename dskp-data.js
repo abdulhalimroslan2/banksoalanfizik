@@ -7761,11 +7761,11 @@ const QUESTION_BANK = [
             },
             {
                 "id": "C",
-                "teks": "I,Il dan III I and II I, II and II"
+                "teks": "I, II dan III"
             },
             {
                 "id": "D",
-                "teks": "I,Il dan IV I and IV I, II and IV"
+                "teks": "I, II dan IV"
             }
         ],
         "jawapanBetul": "D",
@@ -8886,11 +8886,11 @@ const QUESTION_BANK = [
             },
             {
                 "id": "C",
-                "teks": "I dan III I and II I and III"
+                "teks": "I dan III"
             },
             {
                 "id": "D",
-                "teks": "I, II dan III II and II I, II and III"
+                "teks": "I, II dan III"
             }
         ],
         "jawapanBetul": "B",
@@ -9066,11 +9066,11 @@ const QUESTION_BANK = [
             },
             {
                 "id": "C",
-                "teks": "II dan III I and II II and III"
+                "teks": "II dan III"
             },
             {
                 "id": "D",
-                "teks": "II danIV I and IV II andIV"
+                "teks": "II dan IV"
             }
         ],
         "jawapanBetul": "C",
@@ -10223,12 +10223,12 @@ const QUESTION_BANK = [
         "topik": "2.4 Inersia",
         "aras": "Sederhana",
         "konstruk": "Memahami",
-        "soalan": "Antara berikut yang manakah menunjukkan\nkesan inersia?\nWhich of he following shows effect of inertia'?\n(Selangor: Set 1: 2021)\nI Seorang budak perempuan mengeringkan\nrambut yang basah dengan menggerakkan\nkepalanya dengan cepat",
+        "soalan": "Antara berikut yang manakah menunjukkan kesan inersia?\nWhich of the following shows the effect of inertia? (Selangor: Set 1: 2021)\nI Seorang budak perempuan mengeringkan rambut yang basah dengan menggerakkan kepalanya dengan cepat\nA girl dries her wet hair by moving her head quickly\nII Struktur keluli yang kukuh dipasangkan di ruang antara tempat duduk pemandu dengan kayu balak\nA sturdy steel structure is installed in the space between the driver's seat and the logs\nIII Kepala tukul diketatkan dengan menghentakkan bahagian pemegangnya pada lantai\nThe hammer head is tightened by striking the handle part on the floor",
         "rajahUrl": "",
         "pilihan": [
             {
                 "id": "A",
-                "teks": "girl dried her wet hair by moving her head quickly II Struktur keluli yang kukuh dipasangkan di ruang antara tempat duduk pemandu dengan kayu balak A sturdy steel structure is installed in the space between the driver s seat and the logs III Kepala tukul diketatkan dengan menghentakkan bahagian pemegangnya pada lantai The hammer head is tightened by striking the handle part on thefloor A I dan II"
+                "teks": "I dan II"
             },
             {
                 "id": "B",
@@ -10236,11 +10236,11 @@ const QUESTION_BANK = [
             },
             {
                 "id": "C",
-                "teks": "II dan III I and II II and III"
+                "teks": "II dan III"
             },
             {
                 "id": "D",
-                "teks": "I,Il dan III I and III 1, II and III"
+                "teks": "I, II dan III"
             }
         ],
         "jawapanBetul": "B",
@@ -10416,11 +10416,11 @@ const QUESTION_BANK = [
             },
             {
                 "id": "C",
-                "teks": "II dan III IandII IIand II"
+                "teks": "II dan III"
             },
             {
                 "id": "D",
-                "teks": "1, II dan III IandIII I, II and II"
+                "teks": "I, II dan III"
             }
         ],
         "jawapanBetul": "A",
@@ -11005,7 +11005,7 @@ const QUESTION_BANK = [
             },
             {
                 "id": "D",
-                "teks": "II danIV I and IV III and IV"
+                "teks": "III dan IV"
             }
         ],
         "jawapanBetul": "B",

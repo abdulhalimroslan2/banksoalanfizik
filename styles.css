@@ -1458,6 +1458,8 @@ body {
   color: #0F172A;
   font-weight: 600;
   margin: 0.25rem 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .qcard-diagram-box {
@@ -1547,6 +1549,8 @@ body {
   font-size: 0.92rem;
   color: #1E293B;
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .sub-q-label {
@@ -1925,6 +1929,8 @@ body {
   font-weight: 600;
   color: #0F172A;
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Diagram box */
@@ -2040,6 +2046,8 @@ body {
   color: #1E293B;
   line-height: 1.55;
   flex: 1;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .slot-subq-mark {
@@ -5670,6 +5678,11 @@ body {
   font-style: italic !important;
   font-weight: 400 !important;
   color: #64748B;
+}
+
+.lpm-q-text {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .lpm-q-text .soalan-en {
