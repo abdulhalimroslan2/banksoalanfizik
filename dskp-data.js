@@ -9099,31 +9099,31 @@ const QUESTION_BANK = [
         "aras": "Sederhana",
         "konstruk": "Memahami",
         "soalan": "Carta pita manakah menunjukkan pergerakan\nobjek dengan pecutan seragam?\nWhich tape chart shows a motion of object with\nuniform acceleration? (SBP: 2022)",
-        "rajahUrl": "",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_q39_carta_pita.webp",
         "pilihan": [
-            {
-                "id": "A",
-                "teks": "Carta pita A (Jarak detik bertambah secara seragam) / Tape chart A"
-            },
-            {
-                "id": "B",
-                "teks": "Carta pita B (Jarak detik seragam) / Tape chart B"
-            },
-            {
-                "id": "C",
-                "teks": "Carta pita C (Jarak detik berkurang secara seragam) / Tape chart C"
-            },
-            {
-                "id": "D",
-                "teks": "Carta pita D (Jarak detik tidak seragam) / Tape chart D"
-            }
+                {
+                        "id": "A",
+                        "teks": "Carta pita A / Tape chart A"
+                },
+                {
+                        "id": "B",
+                        "teks": "Carta pita B / Tape chart B"
+                },
+                {
+                        "id": "C",
+                        "teks": "Carta pita C / Tape chart C"
+                },
+                {
+                        "id": "D",
+                        "teks": "Carta pita D / Tape chart D"
+                }
         ],
-        "jawapanBetul": "B",
-        "penerangan": "Berdasarkan prinsip fizik bagi SK 2.1 Gerakan Linear, konsep yang diaplikasikan menghasilkan jawapan B.",
+        "jawapanBetul": "A",
+        "penerangan": "Berdasarkan carta pita detik, panjang jalur pita bertambah secara seragam dari masa ke masa menunjukkan halaju bertambah secara seragam, iaitu objek mengalami pecutan seragam (Carta pita A).",
         "markah": 1,
         "statusSemakan": "Disemak (Modul K1)",
-        "jawapan": "B"
-    },
+        "jawapan": "A"
+},
     {
         "id": "MODUL_T4_B2_K2_Q40",
         "sumber": "Percubaan SBP 2022",
@@ -10674,7 +10674,7 @@ const QUESTION_BANK = [
         "aras": "Sederhana",
         "konstruk": "Memahami",
         "soalan": "Satu zarah bergerak dari titik P ke titik Q dalam masa, T. Antara pernyataan berikut yang manakah benar tentang halaju purata dan pecutan purata bagi zarah tersebut?\nA particle moves from a point P to a point Q in a time T. Which one of the following correctly defines both the average velocity and average acceleration of the particle? (Pahang: 2021)",
-        "rajahUrl": "",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_q74_table.webp",
         "pilihan": [
                 {
                         "id": "A",
@@ -10764,7 +10764,7 @@ const QUESTION_BANK = [
         "aras": "Sederhana",
         "konstruk": "Memahami",
         "soalan": "Rajah 55 menunjukkan sebiji bola dijatuhkan dari sebuah permukaan atas meja. Rintangan udara diabaikan.\nDiagram 55 shows a ball dropped from a tabletop. Air resistance is ignored. (Pahang: 2021)\n\nApakah jenis gerakan bola itu?\nWhat is the type of motion of the ball?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah55.webp",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah55_v2.webp",
         "pilihan": [
                 {
                         "id": "A",
@@ -12024,7 +12024,7 @@ const QUESTION_BANK = [
         "aras": "Sederhana",
         "konstruk": "Mengaplikasi",
         "soalan": "Rajah 76 menunjukkan sebuah kereta pada titik M. Kereta itu bergerak ke arah N, kemudian bergerak ke arah L dan berhenti di L.\nDiagram 76 shows a car at M. The car moves toward N, then moves toward L and stops at L. (Pahang: 2023)\n\nBerapakah sesaran kereta itu?\nWhat is the displacement of the car?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah76.webp",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah76_v2.webp",
         "pilihan": [
                 {
                         "id": "A",

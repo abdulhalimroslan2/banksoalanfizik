@@ -60,6 +60,13 @@ Standard Operasi Prosedur (SOP) dan enjin automasi komprehensif bagi memastikan 
 8. **Integriti Sandaran Wajib (Mandatory Backup Rule):**
    Setiap fail projek (`app.js`, `dskp-data.js`, `styles.css`, fail pipeline) mesti disandarkan ke `/Users/halimroslan/NEW CIDS SUITES PRO/` dengan cap waktu (*timestamp*) sebelum sebarang pengubahsuaian dibuat.
 
+9. **Kewajipan Rajah Komposit bagi Soalan Carta Pita/Graf Berpilihan Visual (Visual Options Composite Stitching):**
+   - Soalan yang bertanyakan *"Carta pita manakah..."*, *"Graf manakah..."*, atau mempunyai pilihan jawapan berbentuk ilustrasi visual (seperti potongan pita detik atau pecahan berjadual) **DIHARAMKAN DIBIARKAN KOSONG TANPA RAJAH (`rajahUrl: ""`)**.
+   - Jika pilihan jawapan terpisah antara 2 lajur dalam kertas PDF (contoh: Pilihan A & B di lajur kiri, Pilihan C & D di lajur kanan), pipeline wajib mencantumkan (*composite stitch*) keempat-empat pilihan ke dalam satu imej rajah tersusun (format susunan Z: A, B di baris atas; C, D di baris bawah) dengan jarak margin yang bersih.
+
+10. **Pencegahan Cache CDN & Pelayar (Cache-Busting for Re-cropped Diagrams):**
+    - Setiap kali rajah dipotong semula (*re-cropped*) untuk menghapuskan tag sumber peperiksaan (`Pahang 2021`, `Pahang 2023`) atau garisan pembahagi lajur, fail WebP yang dimuat naik ke Cloudflare R2 wajib menggunakan penamaan versi baru (contoh: `_v2.webp`) di dalam pangkalan data `dskp-data.js` bagi memastikan pelayar pengguna tidak memaparkan cache imej lama.
+
 ---
 
 ## 🛠️ Skrip Automasi & Pengesahan Kualiti
