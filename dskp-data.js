@@ -13506,19 +13506,19 @@ const QUESTION_BANK = [
         "pilihan": [
                 {
                         "id": "A",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_a_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_a_v3.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
                 },
                 {
                         "id": "B",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_b_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_b_v3.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
                 },
                 {
                         "id": "C",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_c_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_c_v3.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
                 },
                 {
                         "id": "D",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_d_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_d_v3.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
                 }
         ],
         "jawapanBetul": "B",

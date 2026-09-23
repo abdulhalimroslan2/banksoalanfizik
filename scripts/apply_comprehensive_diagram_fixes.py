@@ -72,7 +72,7 @@ UPDATES = {
     },
     "MODUL_T4_B2_K3_Q40": {
         "rajahUrl": f"{CDN_PREFIX}/t4_b2_rajah98_v2.webp",
-        "pilihan": make_opts("t4_b2_k3_q40", "v2")
+        "pilihan": make_opts("t4_b2_k3_q40", "v3")
     }
 }
 
