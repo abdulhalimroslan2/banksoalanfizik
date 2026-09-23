@@ -14225,6 +14225,4191 @@ const QUESTION_BANK = [
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q01",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Menurut Hukum Kegravitian Semesta Newton, daya graviti di antara dua objek adalah berkadar terus dengan\nAccording to Newton's Universal Law of Gravitation, the gravitational force between two objects is directly proportional to\n(Melaka: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "pemalar kegravitian / the gravitational constant"
+      },
+      {
+        "id": "B",
+        "teks": "hasil darab jisim kedua-dua objek / the product of the masses of both objects"
+      },
+      {
+        "id": "C",
+        "teks": "jarak di antara kedua-dua objek / the distance between both objects"
+      },
+      {
+        "id": "D",
+        "teks": "kuasa dua jarak di antara objek-objek / the square of the distance between the objects"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q02",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Apakah bentuk orbit bagi sebuah planet yang mengelilingi Matahari?\nWhat is the shape of orbit of a planet that surround the Sun?\n(Pulau Pinang: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Elips / Ellipse"
+      },
+      {
+        "id": "B",
+        "teks": "Bulatan / Circle"
+      },
+      {
+        "id": "C",
+        "teks": "Membujur / Oval"
+      },
+      {
+        "id": "D",
+        "teks": "Perihelion / Perihelion"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q03",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Hukum Kegravitian Semesta Newton menyatakan bahawa daya graviti antara dua jasad berkadar terus dengan hasil darab jisim kedua-dua jasad itu dan berkadar songsang dengan\nNewton's Universal Law of Gravitation states that the gravitational force between two bodies is directly proportional to the product of the masses of the two bodies and is inversely proportional to\n(Perak: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "jarak di antara dua jasad / the distance between the two bodies"
+      },
+      {
+        "id": "B",
+        "teks": "kuasa dua hasil darab jejari jasad / the square of the product of the bodies' radius"
+      },
+      {
+        "id": "C",
+        "teks": "kuasa tiga jarak di antara dua jasad / the cube of the distance between the two bodies"
+      },
+      {
+        "id": "D",
+        "teks": "kuasa dua jarak di antara dua jasad / the square of the distance between the two bodies"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q04",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Apakah maksud kekuatan medan graviti?\nWhat is meant by gravitational field strength?\n(SBP: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Berat bagi sesuatu jasad / Weight of a body"
+      },
+      {
+        "id": "B",
+        "teks": "Kebolehan medan graviti menarik objek / The ability of the gravitational field to attract objects"
+      },
+      {
+        "id": "C",
+        "teks": "Daya graviti yang bertindak ke atas suatu objek / The gravitational force acting on an object"
+      },
+      {
+        "id": "D",
+        "teks": "Daya yang bertindak per unit jisim disebabkan tarikan graviti / The force acting per unit mass due to gravitational attraction"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q05",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 3.2 Hukum Kepler",
+    "sp": "SP 3.2.1 Memerihalkan Hukum Kepler I, II dan III",
+    "spKod": "3.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 47-48",
+    "rujukanBukuTeks": "Buku Teks T4 ms 89-94",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 24-25",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.2 Hukum Kepler",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Maklumat di bawah menyatakan satu hukum.\nThe information given below states one law.\n(Terengganu: 2023)\n\n\"Semua planet bergerak dalam orbit berbentuk elips dengan kedudukan Matahari pada satu titik fokus.\"\n\"All planets move in elliptical orbits with the Sun at one focus.\"\n\nApakah hukum yang diterangkan oleh pernyataan di atas?\nWhat law is explained by the above statement?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Kepler Pertama / Kepler's First Law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Kepler Kedua / Kepler's Second Law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Kepler Ketiga / Kepler's Third Law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Kegravitian Semesta Newton / Newton's Universal Law of Gravitation"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q06",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 3.2 Hukum Kepler",
+    "sp": "SP 3.2.1 Memerihalkan Hukum Kepler I, II dan III",
+    "spKod": "3.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 47-48",
+    "rujukanBukuTeks": "Buku Teks T4 ms 89-94",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 24-25",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.2 Hukum Kepler",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Pernyataan manakah yang betul tentang Hukum Kepler Kedua?\nWhich statement is correct about Kepler's Second Law?\n(MRSM: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Garis yang menyambungkan planet dengan Matahari akan mencakupi luas yang sama dalam sela masa yang sama apabila planet bergerak dalam orbitnya / A line that connects a planet to the Sun sweeps out equal areas in equal times when the planet moves in its orbit"
+      },
+      {
+        "id": "B",
+        "teks": "Orbit bagi setiap planet adalah elips dengan Matahari berada di satu daripada fokusnya / The orbit of each planet is elliptical with the Sun at one focus"
+      },
+      {
+        "id": "C",
+        "teks": "Kuasa dua tempoh orbit planet adalah berkadar terus dengan kuasa tiga jejari orbitnya / The square of the orbital period of any planet is directly proportional to the cube of the radius of its orbit"
+      },
+      {
+        "id": "D",
+        "teks": "Daya graviti antara dua jasad berkadar terus dengan hasil darab jisim kedua-dua jasad / The gravitational force between two bodies is directly proportional to the product of the masses of the two bodies"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q07",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 7,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Baca pernyataan di bawah:\nRead the statement below.\n(Kedah: 2022)\n\n\"Kuasa dua tempoh orbit planet adalah berkadar terus dengan kuasa tiga jejari orbitnya.\"\n\"The square of the orbital period of any planet is directly proportional to the cube of the radius of its orbit.\"\n\nPernyataan itu berkaitan\nThe statement is about",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Kepler Pertama / Kepler's First Law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Kepler Kedua / Kepler's Second Law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Kepler Ketiga / Kepler's Third Law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Gerakan Newton Ketiga / Newton's Third Law of Motion"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q08",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 8,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Tempoh orbit satelit geopegun ialah\nThe orbital period of a geostationary satellite is\n(Perlis: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "24 jam / 24 hours"
+      },
+      {
+        "id": "B",
+        "teks": "36 jam / 36 hours"
+      },
+      {
+        "id": "C",
+        "teks": "48 jam / 48 hours"
+      },
+      {
+        "id": "D",
+        "teks": "72 jam / 72 hours"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K1_Q09",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 9,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Kedudukan bagi sebuah planet yang berada paling hampir dengan Matahari ketika mengorbit dikenali sebagai\nThe position of a planet that is closest to the Sun when orbiting is known as\n(Perlis: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "perihelion / perihelion"
+      },
+      {
+        "id": "B",
+        "teks": "titik fokus / focal point"
+      },
+      {
+        "id": "C",
+        "teks": "aphelion / aphelion"
+      },
+      {
+        "id": "D",
+        "teks": "pusat / center"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q01",
+    "sumber": "Percubaan Kedah 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Satelit geopegun berada dalam orbit khas yang dikenali sebagai Orbit Bumi Geopegun. Satelit jenis ini digunakan untuk\nThe geostationary satellite is in a special orbit known as the Geostationary Earth Orbit. This type of satellite is used for\n(Kedah: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "GPS / GPS"
+      },
+      {
+        "id": "B",
+        "teks": "kaji cuaca / weather forecast"
+      },
+      {
+        "id": "C",
+        "teks": "komunikasi / communication"
+      },
+      {
+        "id": "D",
+        "teks": "Pengimejan Bumi / Earth imaging"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q02",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 1 menunjukkan sebuah roket air ketika dilancarkan.\nDiagram 1 shows a water rocket as it was launched. (Melaka: 2023)\n\nSituasi ini boleh dijelaskan oleh\nThis situation can be explained by",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah1.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "konsep inersia / concept of inertia"
+      },
+      {
+        "id": "B",
+        "teks": "prinsip keabadian tenaga / principle of conservation of energy"
+      },
+      {
+        "id": "C",
+        "teks": "keseimbangan daya / equilibrium of forces"
+      },
+      {
+        "id": "D",
+        "teks": "prinsip keabadian momentum / principle of conservation of momentum"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q03",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Bumi berupaya mengekalkan lapisan atmosferanya kerana\nThe Earth can maintain its layer of atmosphere because\n(Negeri Sembilan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "laju linear purata molekul gas bagi atmosfera lebih kecil daripada halaju lepas Bumi / the average linear speed of atmospheric gas molecules is less than Earth's escape velocity"
+      },
+      {
+        "id": "B",
+        "teks": "laju linear purata molekul gas bagi atmosfera lebih besar daripada halaju lepas Bumi / the average linear speed of atmospheric gas molecules is more than Earth's escape velocity"
+      },
+      {
+        "id": "C",
+        "teks": "medan magnet Bumi / the Earth's magnetic field"
+      },
+      {
+        "id": "D",
+        "teks": "kesan graviti Bulan / the gravitational effect of the Moon"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q04",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Berat ialah kuantiti vektor yang bertindak ke arah pusat Bumi. Berdasarkan formula berat, W = mg, apakah maksud kekuatan medan graviti, g?\nWeight is a vector quantity acting towards the center of the Earth. Based on the weight formula, W = mg, what is meant by the gravitational field strength, g?\n(Pahang: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Daya yang bertindak per unit jisim disebabkan tarikan graviti / The force acting per unit mass due to gravitational attraction"
+      },
+      {
+        "id": "B",
+        "teks": "Jisim yang bertindak per unit daya disebabkan tarikan graviti / Mass acting per unit force due to gravitational attraction"
+      },
+      {
+        "id": "C",
+        "teks": "Berat yang bertindak per unit jisim disebabkan tarikan graviti / Weight acting per unit mass due to gravitational attraction"
+      },
+      {
+        "id": "D",
+        "teks": "Tarikan graviti yang bertindak per unit jisim disebabkan oleh daya / Gravitational pull acting per unit mass due to force"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q05",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Formula Hukum Kegravitian Semesta Newton adalah seperti berikut:\nThe formula of Newton's Universal Law of Gravitation is as follows: (Pahang: 2023)\n\nF = G(m1 m2) / r^2\n\nApakah kesan pada daya graviti apabila jarak di antara dua jasad bertambah?\nWhat are the effects on gravitational force when the distance between the two bodies increases?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Berkurang / Decreases"
+      },
+      {
+        "id": "B",
+        "teks": "Bertambah / Increases"
+      },
+      {
+        "id": "C",
+        "teks": "Tidak berubah / Unchanged"
+      },
+      {
+        "id": "D",
+        "teks": "Bertambah dua kali ganda / Doubled"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q06",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Graf manakah yang mewakili hubungan antara pecutan graviti, g dengan jarak pemisahan, r, antara satu objek dengan Bumi?\nWhich graph represents the relationship between the gravitational acceleration, g and the separation distance, r, between an object and the Earth?\n(Pulau Pinang: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_a.webp\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_b.webp\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_c.webp\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_d.webp\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q07",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 7,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara graf berikut, yang manakah menunjukkan variasi pecutan graviti, g dengan jarak, r dari pusat Bumi yang betul bagi kedudukan r ≥ R?\nWhich of the following graphs shows the correct variation of gravitational acceleration, g and distance, r from the centre of the Earth for the position of r ≥ R?\n(Perak: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_a.webp\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_b.webp\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_c.webp\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_d.webp\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q08",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 8,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Pernyataan yang manakah menerangkan satelit geopegun dengan betul?\nWhich statement describes the geostationary satellite correctly?\n(Perak: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Banyak digunakan dalam pengimejan Bumi / Widely used in Earth imaging"
+      },
+      {
+        "id": "B",
+        "teks": "Arah gerakan tidak sama dengan arah putaran Bumi / Direction of motion is not the same as the direction of the Earth's rotation"
+      },
+      {
+        "id": "C",
+        "teks": "Tempoh orbit yang lebih lama berbanding dengan tempoh orbit Bumi / The orbital period is longer than the Earth's orbital period"
+      },
+      {
+        "id": "D",
+        "teks": "Sentiasa berada di atas kedudukan geografi yang sama di permukaan Bumi / Always above the same geographical location on the surface of the Earth"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q09",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 9,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Apakah hubungan antara tempoh orbit bagi sebuah planet, T, dengan jejari, r, planet itu mengelilingi Matahari?\nWhat is the relationship between the orbital period of a planet, T, and the radius, r, of the planet orbiting the Sun?\n(Perlis: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "T² berkadar terus dengan r³ / T² is directly proportional to r³"
+      },
+      {
+        "id": "B",
+        "teks": "T berkadar terus dengan r / T is directly proportional to r"
+      },
+      {
+        "id": "C",
+        "teks": "T² berkadar songsang dengan r³ / T² is inversely proportional to r³"
+      },
+      {
+        "id": "D",
+        "teks": "T berkadar songsang dengan r² / T is inversely proportional to r²"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q10",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 10,
+    "sk": "SK 3.2 Hukum Kepler",
+    "sp": "SP 3.2.1 Memerihalkan Hukum Kepler I, II dan III",
+    "spKod": "3.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 47-48",
+    "rujukanBukuTeks": "Buku Teks T4 ms 89-94",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 24-25",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.2 Hukum Kepler",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara pernyataan berikut yang manakah benar mengenai Hukum Kepler Ketiga?\nWhich of the following statements is true about Kepler's Third Law?\n(Perlis: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Orbit bagi setiap planet adalah elips / The orbit of each planet is an ellipse"
+      },
+      {
+        "id": "B",
+        "teks": "Garis yang menyambungkan planet dengan Matahari mencakupi luas yang sama dalam sela masa yang sama / A line connecting a planet to the Sun sweeps out equal areas in equal times"
+      },
+      {
+        "id": "C",
+        "teks": "Kuasa tiga tempoh orbit berkadar terus dengan kuasa dua jejari / The cube of orbital period is directly proportional to the square of radius"
+      },
+      {
+        "id": "D",
+        "teks": "Kuasa dua tempoh orbit planet berkadar terus dengan kuasa tiga jejari orbitnya / The square of the orbital period of any planet is directly proportional to the cube of the radius of its orbit"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q11",
+    "sumber": "Percubaan Selangor Set 1 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 11,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 2 menunjukkan Ahmad, Rama dan Lim yang mempunyai jisim yang sama berdiri pada kedudukan masing-masing.\nDiagram 2 shows Ahmad, Rama and Lim who have the same mass standing at their respective positions.\n(Selangor: Set 1: 2023)\n\nPernyataan manakah yang betul?\nWhich statement is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Daya graviti antara Ahmad dan Rama lebih besar daripada antara Ahmad dan Lim / Gravitational force between Ahmad and Rama is greater than between Ahmad and Lim"
+      },
+      {
+        "id": "B",
+        "teks": "Daya graviti antara Ahmad dan Rama sama dengan daya graviti antara Ahmad dan Lim / Gravitational force between Ahmad and Rama is equal to gravitational force between Ahmad and Lim"
+      },
+      {
+        "id": "C",
+        "teks": "Daya graviti antara Ahmad dan Rama lebih kecil daripada antara Ahmad dan Lim / Gravitational force between Ahmad and Rama is smaller than between Ahmad and Lim"
+      },
+      {
+        "id": "D",
+        "teks": "Tiada daya graviti bertindak antara mereka / No gravitational force acts between them"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q12",
+    "sumber": "Percubaan Selangor Set 2 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 12,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Mengapakah nilai pecutan graviti, g di kutub Bumi lebih besar berbanding nilai g di khatulistiwa?\nWhy is the value of gravitational acceleration, g at the Earth's poles greater than the value of g at the equator?\n(Selangor: Set 2: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jejari Bumi di kutub lebih kecil daripada jejari di khatulistiwa / The Earth's radius at the poles is smaller than the radius at the equator"
+      },
+      {
+        "id": "B",
+        "teks": "Jejari Bumi di kutub lebih besar daripada jejari di khatulistiwa / The Earth's radius at the poles is larger than the radius at the equator"
+      },
+      {
+        "id": "C",
+        "teks": "Ketumpatan Bumi di kutub lebih kecil / The Earth's density at the poles is smaller"
+      },
+      {
+        "id": "D",
+        "teks": "Suhu di kutub lebih rendah / The temperature at the poles is lower"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q13",
+    "sumber": "Percubaan Selangor Set 3 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 13,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.3 Mengkonsepsikan halaju lepas, v = sqrt(2GM/r)",
+    "spKod": "3.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Apakah faktor yang mempengaruhi halaju lepas dari permukaan sesebuah planet?\nWhat factors affect the escape velocity from the surface of a planet?\n(Selangor: Set 3: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jisim objek yang dilancarkan sahaja / The mass of the launched object only"
+      },
+      {
+        "id": "B",
+        "teks": "Jisim planet dan jejari planet / The mass of the planet and the radius of the planet"
+      },
+      {
+        "id": "C",
+        "teks": "Ketumpatan atmosfera planet sahaja / The density of the planet's atmosphere only"
+      },
+      {
+        "id": "D",
+        "teks": "Bentuk aerodinamik objek / The aerodynamic shape of the object"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q14",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 14,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara pernyataan berikut, yang manakah tidak benar tentang satelit bukan geopegun?\nWhich of the following statements is not true about a non-geostationary satellite?\n(Terengganu: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tempoh orbit boleh lebih pendek atau lebih panjang daripada 24 jam / Orbital period can be shorter or longer than 24 hours"
+      },
+      {
+        "id": "B",
+        "teks": "Sentiasa berada di atas kedudukan geografi yang sama di Bumi / Always above the same geographical location on Earth"
+      },
+      {
+        "id": "C",
+        "teks": "Arah gerakan tidak semestinya sama dengan arah putaran Bumi / Direction of motion does not have to be the same as Earth's rotation"
+      },
+      {
+        "id": "D",
+        "teks": "Biasanya berada pada orbit rendah atau orbit kutub / Usually in lower orbit or polar orbit"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q15",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 15,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Apakah yang akan berlaku kepada sebuah satelit jika laju linearnya kurang daripada laju linear yang diperlukan untuk kekal dalam orbitnya?\nWhat will happen to a satellite if its linear speed is less than the linear speed required to stay in its orbit?\n(Terengganu: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Satelit akan terlepas ke angkasa lepas / The satellite will escape into outer space"
+      },
+      {
+        "id": "B",
+        "teks": "Satelit akan bergerak ke orbit yang lebih tinggi / The satellite will move to a higher orbit"
+      },
+      {
+        "id": "C",
+        "teks": "Satelit akan terus mengorbit pada kelajuan sama / The satellite will continue to orbit at the same speed"
+      },
+      {
+        "id": "D",
+        "teks": "Satelit akan jatuh kembali ke Bumi mengikut lintasan pilin / The satellite will fall back towards the Earth in a spiral path"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q16",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 16,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Di manakah kekuatan medan graviti bernilai sifar antara Bumi dan Bulan?\nWhere is the gravitational field strength zero between the Earth and the Moon?\n(MRSM: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tepat di tengah-tengah jarak antara Bumi dan Bulan / Exactly at the midpoint between the Earth and the Moon"
+      },
+      {
+        "id": "B",
+        "teks": "Pada suatu titik neutral yang lebih hampir dengan Bulan / At a neutral point closer to the Moon"
+      },
+      {
+        "id": "C",
+        "teks": "Pada suatu titik neutral yang lebih hampir dengan Bumi / At a neutral point closer to the Earth"
+      },
+      {
+        "id": "D",
+        "teks": "Di permukaan Bulan / At the surface of the Moon"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q17",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 17,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 3 menunjukkan angkasawan memakai sut angkasa lepas berjisim 82 kg. Dia mendapati berjalan di permukaan Bulan lebih mudah berbanding di permukaan Bumi dengan memakai sut yang sama.\nDiagram 3 shows an astronaut wearing a space suit with mass 82 kg. He discovered that walking on the surface of Moon is easier compared to the surface of Earth wearing the same suit.\n(MRSM: 2023)\n\nSituasi ini berlaku kerana\nThis situation occurs because",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah3.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jisim sut angkasa lebih rendah di Bulan / The mass of the space suit is lower on the Moon"
+      },
+      {
+        "id": "B",
+        "teks": "Pecutan graviti di Bulan lebih kecil daripada di Bumi / Gravitational acceleration on the Moon is smaller than on Earth"
+      },
+      {
+        "id": "C",
+        "teks": "Tiada rintangan udara di Bulan / There is no air resistance on the Moon"
+      },
+      {
+        "id": "D",
+        "teks": "Sut angkasa kehilangan inersianya di Bulan / The space suit loses its inertia on the Moon"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q18",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 18,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 4 menunjukkan sebuah roket dilancarkan bagi menghantar satelit buatan manusia ke angkasa lepas.\nDiagram 4 shows a rocket being launched to send man-made satellite to outer space.\n(Melaka: 2022)\n\nApakah syarat agar roket dapat mengatasi daya graviti Bumi sepenuhnya?\nWhat is the condition for the rocket to completely overcome Earth's gravitational pull?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah4.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Halaju roket mesti mencapai atau melebihi halaju lepas Bumi / The rocket velocity must reach or exceed Earth's escape velocity"
+      },
+      {
+        "id": "B",
+        "teks": "Halaju roket sama dengan laju linear orbit rendah / The rocket velocity is equal to the linear speed of low orbit"
+      },
+      {
+        "id": "C",
+        "teks": "Jisim roket mestilah lebih kecil daripada jisim satelit / The mass of the rocket must be smaller than the satellite mass"
+      },
+      {
+        "id": "D",
+        "teks": "Daya tujah roket mestilah sifar di angkasa / The thrust of the rocket must be zero in space"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q19",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 19,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.4 Memerihalkan daya memusat dalam sistem gerakan bumi dan satelit, F = mv^2/r",
+    "spKod": "3.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 5 menunjukkan satu objek berjisim, m bergerak dalam lintasan membulat berjejari, r dengan laju linear, v. Objek tersebut mengalami daya memusat, F.\nDiagram 5 shows an object of mass, m moves in a circular path of radius, r with a linear speed, v. The object experiences centripetal force, F.\n(Melaka: 2022)\n\nArah daya memusat adalah sentiasa\nThe direction of centripetal force is always",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah5.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "mengarah ke pusat bulatan / directed towards the centre of the circle"
+      },
+      {
+        "id": "B",
+        "teks": "tangensial kepada lintasan membulat / tangential to the circular path"
+      },
+      {
+        "id": "C",
+        "teks": "menjauhi pusat bulatan / directed away from the centre of the circle"
+      },
+      {
+        "id": "D",
+        "teks": "selari dengan arah halaju linear / parallel to the direction of linear velocity"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q20",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 20,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Satelit geopegun sentiasa berada di atas lokasi geografi yang sama di Bumi. Antara berikut, yang manakah fungsi utama satelit ini?\nGeostationary satellites always remain above the same geographical location on Earth. Which of the following is the main function of this satellite?\n(Pahang: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pengimejan ketenteraan resolusi tinggi / High resolution military imaging"
+      },
+      {
+        "id": "B",
+        "teks": "Penyiaran telekomunikasi dan televisyen secara berterusan / Continuous telecommunication and television broadcasting"
+      },
+      {
+        "id": "C",
+        "teks": "Penyelidikan saintifik kutub Bumi / Scientific research of Earth's poles"
+      },
+      {
+        "id": "D",
+        "teks": "Pemantauan pertanian bermusim / Seasonal agricultural monitoring"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q21",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 21,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Manakah antara satelit berikut yang paling sesuai digunakan untuk menyediakan data ramalan cuaca di rantau khatulistiwa tanpa gangguan?\nWhich of the following satellites is most suitable for providing uninterrupted weather forecasting data in the equatorial region?\n(Pahang: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Satelit orbit rendah (LEO) / Low Earth Orbit (LEO) satellite"
+      },
+      {
+        "id": "B",
+        "teks": "Satelit geopegun (GEO) / Geostationary Earth Orbit (GEO) satellite"
+      },
+      {
+        "id": "C",
+        "teks": "Satelit orbit kutub / Polar orbit satellite"
+      },
+      {
+        "id": "D",
+        "teks": "Satelit altitud sederhana / Medium altitude satellite"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q22",
+    "sumber": "Percubaan Perak 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 22,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Apakah unit S.I. bagi pemalar kegravitian semesta, G?\nWhat is the S.I. unit for the universal gravitational constant, G?\n(Perak: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "N m kg⁻¹ / N m kg⁻¹"
+      },
+      {
+        "id": "B",
+        "teks": "N m² kg⁻¹ / N m² kg⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "N m² kg⁻² / N m² kg⁻²"
+      },
+      {
+        "id": "D",
+        "teks": "N m⁻² kg² / N m⁻² kg²"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q23",
+    "sumber": "Percubaan Perak 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 23,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.3 Mengkonsepsikan halaju lepas, v = sqrt(2GM/r)",
+    "spKod": "3.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Halaju lepas dari permukaan sesebuah planet diberikan oleh rumus v = √(2GM / R). Pernyataan manakah yang benar tentang halaju lepas?\nThe escape velocity from the surface of a planet is given by the formula v = √(2GM / R). Which statement is true about escape velocity?\n(Perak: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Halaju lepas bertambah jika jejari planet bertambah / Escape velocity increases if the radius of the planet increases"
+      },
+      {
+        "id": "B",
+        "teks": "Halaju lepas bertambah jika jisim planet bertambah / Escape velocity increases if the mass of the planet increases"
+      },
+      {
+        "id": "C",
+        "teks": "Halaju lepas bergantung kepada jisim objek yang dilancarkan / Escape velocity depends on the mass of the launched object"
+      },
+      {
+        "id": "D",
+        "teks": "Halaju lepas adalah sifar di angkasa lepas / Escape velocity is zero in outer space"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q24",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 24,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Apakah yang akan berlaku kepada daya tarikan graviti antara dua objek jika jarak pemisahan antara kedua-duanya digandakan menjadi dua kali ganda?\nWhat will happen to the gravitational force between two objects if the separation distance between them is doubled?\n(Perlis: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Daya graviti digandakan dua kali / Gravitational force is doubled"
+      },
+      {
+        "id": "B",
+        "teks": "Daya graviti tidak berubah / Gravitational force remains unchanged"
+      },
+      {
+        "id": "C",
+        "teks": "Daya graviti menjadi separuh daripada nilai asal / Gravitational force becomes half of the original value"
+      },
+      {
+        "id": "D",
+        "teks": "Daya graviti berkurang kepada 1/4 daripada nilai asal / Gravitational force is reduced to 1/4 of the original value"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q25",
+    "sumber": "Percubaan Putrajaya 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 25,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 6 menunjukkan graf hubungan antara daya graviti, F dan jisim, m untuk objek berhampiran permukaan Bumi.\nDiagram 6 shows the graph of relationship between gravitational force, F and mass, m for objects near to Earth's surface.\n(Putrajaya: 2022)\n\nKecerunan graf mewakili\nGradient of graph represents",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah6.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "pecutan graviti, g / gravitational acceleration, g"
+      },
+      {
+        "id": "B",
+        "teks": "pemalar kegravitian semesta, G / universal gravitational constant, G"
+      },
+      {
+        "id": "C",
+        "teks": "jisim Bumi / mass of Earth"
+      },
+      {
+        "id": "D",
+        "teks": "jejari Bumi / radius of Earth"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q26",
+    "sumber": "Percubaan Putrajaya 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 26,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.4 Memerihalkan daya memusat dalam sistem gerakan bumi dan satelit, F = mv^2/r",
+    "spKod": "3.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 7 menunjukkan sebuah planet berjisim m, bergerak dalam orbit membulat berjejari r mengelilingi Matahari berjisim M dalam satu pusingan lengkap.\nDiagram 7 shows a planet of mass m, moving in a circular orbit of radius r around the Sun of mass M in one complete revolution.\n(Putrajaya: 2022)\n\nDaya graviti yang bertindak sebagai daya memusat diberikan oleh\nThe gravitational force that acts as the centripetal force is given by",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah7.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "F = mv / r / F = mv / r"
+      },
+      {
+        "id": "B",
+        "teks": "F = mv² / r² / F = mv² / r²"
+      },
+      {
+        "id": "C",
+        "teks": "F = GM / r² / F = GM / r²"
+      },
+      {
+        "id": "D",
+        "teks": "F = GMm / r² / F = GMm / r²"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q27",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 27,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Seorang angkasawan lebih mudah berjalan di atas permukaan Bulan berbanding di atas permukaan Bumi. Mengapakah keadaan ini berlaku?\nAn astronaut walks more easily on the surface of the Moon than on the surface of the Earth. Why does this happen?\n(SBP: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jisim angkasawan lebih kecil di Bulan / The mass of the astronaut is smaller on the Moon"
+      },
+      {
+        "id": "B",
+        "teks": "Tiada atmosfera di Bulan / There is no atmosphere on the Moon"
+      },
+      {
+        "id": "C",
+        "teks": "Daya graviti yang bertindak ke atas angkasawan di Bulan lebih kecil daripada di Bumi / The gravitational force acting on the astronaut on the Moon is smaller than on Earth"
+      },
+      {
+        "id": "D",
+        "teks": "Ketumpatan Bulan lebih tinggi berbanding Bumi / The density of the Moon is higher than Earth"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q28",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 28,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 8 menunjukkan sebuah satelit yang digunakan dalam Sistem Penentu Kedudukan Global (GPS).\nDiagram 8 shows a satellite used in the Global Positioning System (GPS).\n(SBP: 2022)\n\nAntara ciri-ciri satelit GPS berikut, yang manakah benar?\nWhich of the following characteristics of a GPS satellite is true?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah8.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Merupakan satelit geopegun dengan tempoh orbit 24 jam / It is a geostationary satellite with an orbital period of 24 hours"
+      },
+      {
+        "id": "B",
+        "teks": "Merupakan satelit bukan geopegun dengan tempoh orbit kira-kira 12 jam / It is a non-geostationary satellite with an orbital period of about 12 hours"
+      },
+      {
+        "id": "C",
+        "teks": "Sentiasa berada di atas kedudukan geografi yang sama di Bumi / It always remains above the same geographical location on Earth"
+      },
+      {
+        "id": "D",
+        "teks": "Arah pergerakan sentiasa bertentangan dengan putaran Bumi / Its direction of motion is always opposite to Earth's rotation"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q29",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 29,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.3 Mengkonsepsikan halaju lepas, v = sqrt(2GM/r)",
+    "spKod": "3.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 9 menunjukkan sebuah satelit yang mengorbit Bumi.\nDiagram 9 shows a satellite orbiting the Earth.\n(SMKA: 2022)\n\nAntara lintasan A, B, C atau D yang manakah akan dilalui oleh satelit itu jika laju linearnya bertambah secara mendadak tetapi belum mencapai halaju lepas?\nWhich of the paths A, B, C or D will the satellite follow if its linear speed increases suddenly but has not reached escape velocity?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah9.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Lintasan A / Path A"
+      },
+      {
+        "id": "B",
+        "teks": "Lintasan B / Path B"
+      },
+      {
+        "id": "C",
+        "teks": "Lintasan C / Path C"
+      },
+      {
+        "id": "D",
+        "teks": "Lintasan D / Path D"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q30",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 30,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara berikut, yang manakah BUKAN ciri bagi sebuah satelit bukan geopegun?\nWhich of the following is NOT a characteristic of a non-geostationary satellite?\n(SMKA: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tempoh orbit boleh kurang atau lebih daripada 24 jam / Orbital period can be less or more than 24 hours"
+      },
+      {
+        "id": "B",
+        "teks": "Satah orbit tidak semestinya berada pada satah khatulistiwa / Orbital plane does not have to be on the equatorial plane"
+      },
+      {
+        "id": "C",
+        "teks": "Arah gerakan tidak semestinya sama dengan arah putaran Bumi / Direction of motion does not have to be same as Earth's rotation"
+      },
+      {
+        "id": "D",
+        "teks": "Sentiasa berada di atas lokasi geografi yang sama di Bumi / Always above the same geographical location on Earth"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q31",
+    "sumber": "Percubaan Terengganu 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 31,
+    "sk": "SK 3.2 Hukum Kepler",
+    "sp": "SP 3.2.1 Memerihalkan Hukum Kepler I, II dan III",
+    "spKod": "3.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 47-48",
+    "rujukanBukuTeks": "Buku Teks T4 ms 89-94",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 24-25",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.2 Hukum Kepler",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Pernyataan yang manakah adalah betul mengenai Hukum Kepler Pertama?\nWhich statement is correct regarding Kepler's First Law?\n(Terengganu: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Semua planet bergerak dalam orbit bulatan mengelilingi Matahari / All planets move in circular orbits around the Sun"
+      },
+      {
+        "id": "B",
+        "teks": "Kuasa dua tempoh orbit planet berkadar terus dengan kuasa tiga jejari orbitnya / The square of the orbital period is directly proportional to the cube of the orbital radius"
+      },
+      {
+        "id": "C",
+        "teks": "Garis yang menyambungkan planet dengan Matahari menyapu luas yang sama dalam sela masa yang sama / A line connecting a planet to the Sun sweeps out equal areas in equal times"
+      },
+      {
+        "id": "D",
+        "teks": "Semua planet bergerak dalam orbit elips dengan Matahari berada di salah satu fokusnya / All planets move in elliptical orbits with the Sun at one of the foci"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q32",
+    "sumber": "Percubaan Terengganu 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 32,
+    "sk": "SK 3.2 Hukum Kepler",
+    "sp": "SP 3.2.1 Memerihalkan Hukum Kepler I, II dan III",
+    "spKod": "3.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 47-48",
+    "rujukanBukuTeks": "Buku Teks T4 ms 89-94",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 24-25",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.2 Hukum Kepler",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 10 menunjukkan luas yang dicakup dalam masa yang sama di kawasan PQR dan XYZ bagi sebuah planet yang mengorbit Matahari.\nDiagram 10 shows the area swept out in the same time in regions PQR and XYZ for a planet orbiting the Sun.\n(Terengganu: 2022)\n\nAntara berikut yang manakah benar tentang luas PQR dan XYZ?\nWhich of the following is true about the areas PQR and XYZ?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah10.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Luas PQR = Luas XYZ / Area PQR = Area XYZ"
+      },
+      {
+        "id": "B",
+        "teks": "Luas PQR > Luas XYZ / Area PQR > Area XYZ"
+      },
+      {
+        "id": "C",
+        "teks": "Luas PQR < Luas XYZ / Area PQR < Area XYZ"
+      },
+      {
+        "id": "D",
+        "teks": "Luas PQR bergantung kepada jisim planet / Area PQR depends on the mass of the planet"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q33",
+    "sumber": "Percubaan Terengganu 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 33,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Berat Karim di Bumi ialah 800 N. Apakah yang akan berlaku kepada berat Karim jika dia berada di Bulan?\nKarim's weight on Earth is 800 N. What will happen to his weight on the Moon?\n(Terengganu: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Beratnya bertambah / His weight increases"
+      },
+      {
+        "id": "B",
+        "teks": "Beratnya berkurang / His weight decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Beratnya tidak berubah / His weight remains unchanged"
+      },
+      {
+        "id": "D",
+        "teks": "Beratnya menjadi sifar / His weight becomes zero"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q34",
+    "sumber": "Percubaan Terengganu 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 34,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara graf berikut yang manakah menunjukkan perubahan pecutan disebabkan oleh graviti Bumi, g' dengan jarak dari pusat Bumi, r di mana g adalah pecutan graviti di permukaan Bumi?\nWhich of the following graphs shows the change in acceleration due to the Earth's gravity, g' with the distance from the Earth's center, r where g is the gravitational acceleration at the Earth's surface?\n(Terengganu: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_a.webp\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_b.webp\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_c.webp\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_d.webp\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q35",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 35,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Jadual 1 menunjukkan nilai pecutan graviti bagi planet Utarid, Marikh, Uranus dan Neptun.\nTable 1 shows the acceleration value due to gravity for planet Mercury, Mars, Uranus and Neptune.\n(MRSM: 2021)\n\nPlanet | Pecutan graviti, g (m s⁻²)\nUtarid (Mercury) : 3.59\nMarikh (Mars) : 3.77\nUranus (Uranus) : 10.67\nNeptun (Neptune) : 14.07\n\nPlanet manakah yang akan menghasilkan berat terbesar terhadap objek yang sama?\nWhich planet produced the greatest weight on an identical object?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Neptun / Neptune"
+      },
+      {
+        "id": "B",
+        "teks": "Uranus / Uranus"
+      },
+      {
+        "id": "C",
+        "teks": "Marikh / Mars"
+      },
+      {
+        "id": "D",
+        "teks": "Utarid / Mercury"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q36",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 36,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 11 menunjukkan satu planet mengorbit Matahari.\nDiagram 11 shows a planet orbiting the Sun.\n(MRSM: 2021)\n\nPernyataan yang manakah betul menerangkan pergerakan planet tersebut dalam orbitnya?\nWhich statement is correct to describe movement of the planet in its orbit?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah11.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Planet itu bergerak pada orbit membulat / The planet moves in circular orbit"
+      },
+      {
+        "id": "B",
+        "teks": "Luas sektor PFQ lebih besar berbanding sektor RFS / Sector area PFQ is larger than RFS"
+      },
+      {
+        "id": "C",
+        "teks": "Planet itu mengambil masa lebih pendek untuk bergerak pada RS berbanding PQ / The planet takes shorter time to move at RS compared to PQ"
+      },
+      {
+        "id": "D",
+        "teks": "Planet itu bergerak pada kelajuan linear yang lebih tinggi pada PQ berbanding RS / The planet moves at higher linear speed at PQ compared to RS"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q37",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 37,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.3 Mengkonsepsikan halaju lepas, v = sqrt(2GM/r)",
+    "spKod": "3.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 12 menunjukkan sebuah roket dilancarkan bagi melepaskan diri daripada tarikan graviti Bumi.\nDiagram 12 shows a rocket being launched to escape from Earth's gravity.\n(MRSM: 2021)\n\nApakah yang dimaksudkan dengan halaju lepas?\nWhat is meant by escape velocity?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah12.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Halaju minimum yang diperlukan oleh objek untuk mengorbit Bumi / Minimum velocity needed by an object to orbit Earth"
+      },
+      {
+        "id": "B",
+        "teks": "Halaju maksimum yang boleh dicapai oleh roket di atmosfera / Maximum velocity that can be achieved by a rocket in atmosphere"
+      },
+      {
+        "id": "C",
+        "teks": "Halaju purata roket ketika berlepas dari pelantar / Average velocity of the rocket when launching from platform"
+      },
+      {
+        "id": "D",
+        "teks": "Halaju minimum yang diperlukan oleh jasad di permukaan Bumi untuk mengatasi daya graviti dan terlepas ke angkasa lepas / Minimum velocity needed by a body on Earth's surface to overcome gravitational force and escape to outer space"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q38",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 38,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 13 menunjukkan empat kedudukan bagi sebuah planet yang bergerak mengelilingi Matahari mengikut orbit berbentuk elips.\nDiagram 13 shows four positions of a planet that moves around the Sun in an elliptical orbit.\n(Pahang: 2021)\n\nPada kedudukan manakah A, B, C dan D, halaju planet tersebut adalah maksimum?\nAt which position A, B, C or D, the velocity of the planet is maximum?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah13.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kedudukan A (perihelion) / Position A (perihelion)"
+      },
+      {
+        "id": "B",
+        "teks": "Kedudukan B / Position B"
+      },
+      {
+        "id": "C",
+        "teks": "Kedudukan C / Position C"
+      },
+      {
+        "id": "D",
+        "teks": "Kedudukan D / Position D"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q39",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 39,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.3 Mengkonsepsikan halaju lepas, v = sqrt(2GM/r)",
+    "spKod": "3.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Halaju lepas dari permukaan sebuah planet bergantung kepada\nThe escape velocity from the surface of a planet depends on\n(Pahang: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "jejari planet tersebut sahaja / the radius of the planet only"
+      },
+      {
+        "id": "B",
+        "teks": "jisim planet tersebut sahaja / the mass of the planet only"
+      },
+      {
+        "id": "C",
+        "teks": "jejari dan jisim planet tersebut / the radius and the mass of the planet"
+      },
+      {
+        "id": "D",
+        "teks": "kekuatan medan graviti di permukaan planet tersebut sahaja / the gravitational field strength at the surface of the planet only"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q40",
+    "sumber": "Percubaan SBP 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 40,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 14 menunjukkan sebuah satelit geopegun sedang mengorbit Bumi.\nDiagram 14 shows a geostationary satellite is orbiting the Earth.\n(SBP: 2021)\n\nPernyataan manakah yang betul mengenai satelit tersebut?\nWhich statement is correct about the satellite?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah14.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tempoh orbit satelit adalah melebihi 24 jam / The orbital period of the satellite is more than 24 hours"
+      },
+      {
+        "id": "B",
+        "teks": "Tempoh orbit satelit adalah kurang daripada 24 jam / The orbital period of the satellite is shorter than 24 hours"
+      },
+      {
+        "id": "C",
+        "teks": "Satelit mempunyai arah gerakan sama dengan arah putaran Bumi / The satellite has direction of motion same as the direction of Earth rotation"
+      },
+      {
+        "id": "D",
+        "teks": "Satelit berada di atas lokasi geografi yang berlainan pada masa berlainan / The satellite is above different geographical locations at different times"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q41",
+    "sumber": "Percubaan SBP 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 41,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara pernyataan berikut, yang manakah menerangkan kesan daya graviti Bulan ke atas Bumi?\nWhich of the following statements explains the effect of the Moon's gravitational pull on Earth?\n(SBP: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Menyebabkan perubahan empat musim di Bumi / Causes the four seasons change on Earth"
+      },
+      {
+        "id": "B",
+        "teks": "Menyebabkan siang dan malam di Bumi / Causes day and night on Earth"
+      },
+      {
+        "id": "C",
+        "teks": "Menyebabkan medan magnet Bumi terhasil / Causes the Earth's magnetic field to form"
+      },
+      {
+        "id": "D",
+        "teks": "Menyebabkan kejadian air pasang dan air surut / Causes the phenomenon of high and low tides"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q42",
+    "sumber": "Percubaan Selangor 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 42,
+    "sk": "SK 3.2 Hukum Kepler",
+    "sp": "SP 3.2.3 Menyelesaikan masalah menggunakan rumus Hukum Kepler Ketiga",
+    "spKod": "3.2.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 47-48",
+    "rujukanBukuTeks": "Buku Teks T4 ms 89-94",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 24-25",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.2 Hukum Kepler",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Berdasarkan pernyataan berikut pilih pernyataan yang betul tentang Hukum Kepler Ketiga.\nBased on the following statements, choose the correct statement about Kepler's Third Law.\n(Selangor: 2021)\n\nI. Tempoh orbit berkadar terus dengan jejari orbit / Orbital period is directly proportional to orbital radius\nII. Kuasa dua tempoh orbit berkadar terus dengan kuasa tiga jejari orbit / The square of orbital period is directly proportional to the cube of orbital radius\nIII. Nilai T² / r³ adalah malar bagi semua planet yang mengorbit Matahari / The value of T² / r³ is constant for all planets orbiting the Sun",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II sahaja / I and II only"
+      },
+      {
+        "id": "B",
+        "teks": "I dan III sahaja / I and III only"
+      },
+      {
+        "id": "C",
+        "teks": "II dan III sahaja / II and III only"
+      },
+      {
+        "id": "D",
+        "teks": "I, II dan III / I, II and III"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q43",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 43,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 15 menunjukkan orbit sebuah roket sepanjang lengkung R apabila ia bergerak dengan laju linear, v.\nDiagram 15 shows the orbit of a rocket along curve R when it moves with linear speed, v.\n(Perlis: 2021)\n\nJika tiba-tiba kelajuannya dikurangkan ke ½ v, mana satu antara P, Q, S dan T akan menjadi orbit baru bagi roket tersebut?\nIf suddenly its speed is reduced to ½ v, which one of P, Q, S and T will become the new orbit for the rocket?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah15.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P / P"
+      },
+      {
+        "id": "B",
+        "teks": "Q / Q"
+      },
+      {
+        "id": "C",
+        "teks": "S / S"
+      },
+      {
+        "id": "D",
+        "teks": "T / T"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q44",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 44,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Graf T² melawan r³ bagi sistem planet yang mengelilingi Matahari adalah satu garis lurus melalui asalan. Apakah pemalar bagi kecerunan graf tersebut?\nThe graph of T² against r³ for the system of planets orbiting the Sun is a straight line through the origin. What is the constant for the gradient of the graph?\n(Perlis: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "GM / (4π²) / GM / (4π²)"
+      },
+      {
+        "id": "B",
+        "teks": "2π / (GM) / 2π / (GM)"
+      },
+      {
+        "id": "C",
+        "teks": "4π² / (GM) / 4π² / (GM)"
+      },
+      {
+        "id": "D",
+        "teks": "4π / (GM) / 4π / (GM)"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q45",
+    "sumber": "SPM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 45,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.3 Mengkonsepsikan halaju lepas, v = sqrt(2GM/r)",
+    "spKod": "3.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 16 menunjukkan sebuah roket sedang berlepas dari permukaan Bumi.\nDiagram 16 shows a rocket is taking off from the surface of the Earth.\n(SPM: 2021)\n\nApakah faktor yang mempengaruhi halaju lepas roket tersebut dari permukaan Bumi?\nWhat factor affects the escape velocity of the rocket from the Earth's surface?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah16.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jisim roket / Mass of the rocket"
+      },
+      {
+        "id": "B",
+        "teks": "Daya tujah enjin roket / Thrust force of the rocket engine"
+      },
+      {
+        "id": "C",
+        "teks": "Jisim Bumi dan jejari Bumi / Mass of the Earth and radius of the Earth"
+      },
+      {
+        "id": "D",
+        "teks": "Ketinggian pelantar pelancaran / Height of the launch platform"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q46",
+    "sumber": "SPM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 46,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Graf manakah yang menunjukkan hubungan yang betul antara pecutan, g dengan jarak, r dari pusat Bumi?\nWhich graph shows the correct relationship between gravitational acceleration, g to the distance, r from the centre of the Earth?\n(SPM: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_a.webp\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_b.webp\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_c.webp\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_d.webp\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q47",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 47,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara yang berikut, yang manakah ciri-ciri satelit bukan geopegun?\nWhich of the following are the characteristics of a non-geostationary satellite?\n(Kelantan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tempoh orbit tepat 24 jam / Orbital period is exactly 24 hours"
+      },
+      {
+        "id": "B",
+        "teks": "Tempoh orbit boleh lebih atau kurang daripada 24 jam / Orbital period can be longer or shorter than 24 hours"
+      },
+      {
+        "id": "C",
+        "teks": "Sentiasa berada di atas kedudukan geografi yang sama / Always above the same geographical location"
+      },
+      {
+        "id": "D",
+        "teks": "Arah gerakan mesti mengikut arah putaran Bumi / Direction of motion must follow the direction of Earth's rotation"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q48",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 48,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Sebuah satelit mengorbit mengelilingi Bumi dalam orbit membulat. Apakah daya yang bertindak sebagai daya memusat yang mengekalkan satelit tersebut dalam orbitnya?\nA satellite orbits the Earth in a circular orbit. What force acts as the centripetal force that keeps the satellite in its orbit?\n(Kelantan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Daya magnetik Bumi / Earth's magnetic force"
+      },
+      {
+        "id": "B",
+        "teks": "Daya tujah roket / Rocket thrust force"
+      },
+      {
+        "id": "C",
+        "teks": "Daya tarikan graviti antara Bumi dan satelit / Gravitational attraction force between Earth and satellite"
+      },
+      {
+        "id": "D",
+        "teks": "Daya emparan satelit / Centrifugal force of satellite"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q49",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 49,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.2 Berkomunikasi untuk menerangkan satelit geopegun dan bukan geopegun",
+    "spKod": "3.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara berikut yang manakah menerangkan perbezaan utama antara satelit geopegun dan satelit bukan geopegun?\nWhich of the following explains the main difference between a geostationary satellite and a non-geostationary satellite?\n(Pahang: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Satelit geopegun bergerak lebih laju daripada satelit bukan geopegun / Geostationary satellite moves faster than non-geostationary satellite"
+      },
+      {
+        "id": "B",
+        "teks": "Satelit bukan geopegun tidak mengalami daya graviti / Non-geostationary satellite does not experience gravitational force"
+      },
+      {
+        "id": "C",
+        "teks": "Satelit geopegun berada lebih dekat dengan permukaan Bumi / Geostationary satellite is closer to Earth's surface"
+      },
+      {
+        "id": "D",
+        "teks": "Satelit geopegun mempunyai tempoh orbit 24 jam dan pegun relatif kepada satu titik di Bumi / Geostationary satellite has an orbital period of 24 hours and is stationary relative to a point on Earth"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q50",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 50,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Daya graviti Bumi terhadap Bulan ialah 2.0 × 10²⁰ N. Berapakah magnitud daya graviti Bulan terhadap Bumi?\nThe gravitational force of Earth on the Moon is 2.0 × 10²⁰ N. What is the magnitude of the gravitational force of the Moon on the Earth?\n(Melaka: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0 N / 0 N"
+      },
+      {
+        "id": "B",
+        "teks": "2.0 × 10²⁰ N / 2.0 × 10²⁰ N"
+      },
+      {
+        "id": "C",
+        "teks": "1.0 × 10²⁰ N / 1.0 × 10²⁰ N"
+      },
+      {
+        "id": "D",
+        "teks": "4.0 × 10²⁰ N / 4.0 × 10²⁰ N"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K2_Q51",
+    "sumber": "SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 51,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 17 menunjukkan sebuah roket dilancarkan dengan halaju tinggi dan mengatasi daya graviti Bumi.\nDiagram 17 shows a rocket launched with high velocity and overcome the Earth's gravitational force.\n(SPM: 2023)\n\nAntara pernyataan berikut, yang manakah betul?\nWhich of the following statements is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah17.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Halaju roket ≥ halaju lepas / Velocity of the rocket ≥ escape velocity"
+      },
+      {
+        "id": "B",
+        "teks": "Halaju roket = laju linear / Velocity of the rocket = linear speed"
+      },
+      {
+        "id": "C",
+        "teks": "Halaju roket < halaju lepas / Velocity of the rocket < escape velocity"
+      },
+      {
+        "id": "D",
+        "teks": "Halaju roket < laju linear / Velocity of the rocket < linear speed"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q01",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.4 Menyelesaikan masalah yang melibatkan halaju lepas",
+    "spKod": "3.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Berapakah halaju lepas untuk sebuah roket bergerak ke angkasa lepas?\n[Diberi; Jisim Bumi, M = 5.97 × 10²⁴ kg, Pemalar Kegravitian Semesta, G = 6.67 × 10⁻¹¹ N m² kg⁻², Jejari Bumi, R = 6.37 × 10⁶ m]\nWhat is the escape velocity for a rocket to move to outer space?\n[Given; Mass of Earth, M = 5.97 × 10²⁴ kg, Universal Gravitational Constant, G = 6.67 × 10⁻¹¹ N m² kg⁻², Radius of Earth, R = 6.37 × 10⁶ m]\n(Kelantan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2.03 × 10⁶ m s⁻¹ / 2.03 × 10⁶ m s⁻¹"
+      },
+      {
+        "id": "B",
+        "teks": "7.91 × 10³ m s⁻¹ / 7.91 × 10³ m s⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "1.12 × 10⁴ m s⁻¹ / 1.12 × 10⁴ m s⁻¹"
+      },
+      {
+        "id": "D",
+        "teks": "1.25 × 10⁴ m s⁻¹ / 1.25 × 10⁴ m s⁻¹"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "v = sqrt(2GM / r) = sqrt(2(6.67e-11)(5.97e24) / (6.37e6)) = 11 181.38 m/s ≈ 1.12 x 10^4 m s⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q02",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Sebuah satelit buatan manusia mengorbit mengelilingi Bumi pada ketinggian 1720 km. Berapakah laju linear satelit itu?\n[Jisim Bumi = 5.97 × 10²⁴ kg, Jejari Bumi = 6.37 × 10⁶ m, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nA man-made satellite orbits around the Earth at a height of 1720 km. What is the linear speed of the satellite?\n[Mass of the Earth = 5.97 × 10²⁴ kg, Radius of the Earth = 6.37 × 10⁶ m, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\n(Melaka: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "7.02 × 10³ m s⁻¹ / 7.02 × 10³ m s⁻¹"
+      },
+      {
+        "id": "B",
+        "teks": "7.22 × 10³ m s⁻¹ / 7.22 × 10³ m s⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "8.02 × 10³ m s⁻¹ / 8.02 × 10³ m s⁻¹"
+      },
+      {
+        "id": "D",
+        "teks": "9.92 × 10³ m s⁻¹ / 9.92 × 10³ m s⁻¹"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "v = sqrt(GM / (r + h)) = sqrt((6.67e-11)(5.97e24) / ((6.37e6) + (1720e3))) = 7016.66 m/s ≈ 7.02 x 10^3 m s⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q03",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Bumi mempunyai tempoh orbit 365 hari dan jarak puratanya dari Matahari adalah 1.495 × 10⁸ km. Jarak purata planet Marikh dari Matahari ialah 2.28 × 10⁸ km. Kirakan tempoh orbit Marikh dalam hari di Bumi.\nEarth has an orbital period of 365 days and its mean distance from the Sun is 1.495 × 10⁸ km. The planet Mars' mean distance from the Sun is 2.28 × 10⁸ km. Calculate Mars' orbital period in Earth days.\n(Negeri Sembilan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "6.87 × 10² hari / 6.87 × 10² days"
+      },
+      {
+        "id": "B",
+        "teks": "5.64 × 10² hari / 5.64 × 10² days"
+      },
+      {
+        "id": "C",
+        "teks": "4.72 × 10² hari / 4.72 × 10² days"
+      },
+      {
+        "id": "D",
+        "teks": "1.29 × 10² hari / 1.29 × 10² days"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "T1²/r1³ = T2²/r2³ => 365² / (1.495e11)³ = T² / (2.28e11)³ => T = 687.44 hari ≈ 6.87 x 10² hari",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q04",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 18 menunjukkan satelit penyelidikan mengorbit pada ketinggian 420 km untuk melihat pengimejan sebuah pulau di tengah laut.\n[Jejari orbit Bulan = 3.83 × 10⁸ m, jejari Bumi = 6.37 × 10⁶ m, tempoh orbit Bulan = 655.2 jam]\nDiagram 18 shows the research satellite orbits at an altitude of 420 km to see the imaging of an island in the middle of the ocean.\n[Radius of the orbit of the Moon = 3.83 × 10⁸ m, radius of the Earth = 6.37 × 10⁶ m, orbital period of the Moon = 655.2 hours]\n(Pahang: 2023)\n\nBerapakah tempoh orbit satelit itu?\nWhat is the period of the satellite's orbit?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah18.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.0604 jam / 0.0604 hours"
+      },
+      {
+        "id": "B",
+        "teks": "1.5466 jam / 1.5466 hours"
+      },
+      {
+        "id": "C",
+        "teks": "2.3920 jam / 2.3920 hours"
+      },
+      {
+        "id": "D",
+        "teks": "3.6508 jam / 3.6508 hours"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "T1²/r1³ = T2²/(r2+h)³ => 655.2² / (3.83e8)³ = T² / (420e3 + 6.37e6)³ => T = 1.55 jam",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q05",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.5 Menentukan jisim Bumi dan Matahari menggunakan rumus Hukum Kegravitian Semesta Newton",
+    "spKod": "3.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 19 menunjukkan Bulan beredar mengelilingi Bumi dalam orbitnya.\nDiagram 19 shows the Moon revolves around the Earth in its orbit.\n(Pulau Pinang: 2023)\n\nTentukan daya graviti yang dikenakan oleh Bumi terhadap Bulan.\n[Jisim Bumi = 5.97 × 10²⁴ kg, Jisim Bulan = 7.35 × 10²² kg, Jarak di antara pusat Bumi ke pusat Bulan = 3.83 × 10⁸ m dan G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nDetermine the gravitational force exerted by Earth on the Moon.\n[Mass of the Earth = 5.97 × 10²⁴ kg, Mass of the Moon = 7.35 × 10²² kg, Distance between center of the Earth to the center of the Moon = 3.83 × 10⁸ m and G = 6.67 × 10⁻¹¹ N m² kg⁻²]",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah19.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2.00 × 10¹⁷ N / 2.00 × 10¹⁷ N"
+      },
+      {
+        "id": "B",
+        "teks": "2.00 × 10²⁰ N / 2.00 × 10²⁰ N"
+      },
+      {
+        "id": "C",
+        "teks": "7.65 × 10²⁵ N / 7.65 × 10²⁵ N"
+      },
+      {
+        "id": "D",
+        "teks": "7.65 × 10²⁸ N / 7.65 × 10²⁸ N"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "F = Gm1m2 / r² = (6.67e-11)(5.97e24)(7.35e22) / (3.8e8)² = 2.03 x 10²⁰ N",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q06",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Tempoh orbit Bumi dan Musytari ialah 1.0 tahun dan 11.9 tahun masing-masing. Jika jejari orbit Bumi ialah 1.50 × 10¹¹ m, hitung jejari orbit Musytari.\nThe orbital periods of the Earth and Jupiter are 1.0 year and 11.9 years respectively. If the orbital radius of the Earth is 1.50 × 10¹¹ m, calculate the orbital radius of Jupiter.\n(Perak: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2.88 × 10¹¹ m / 2.88 × 10¹¹ m"
+      },
+      {
+        "id": "B",
+        "teks": "7.82 × 10¹¹ m / 7.82 × 10¹¹ m"
+      },
+      {
+        "id": "C",
+        "teks": "1.79 × 10¹² m / 1.79 × 10¹² m"
+      },
+      {
+        "id": "D",
+        "teks": "6.16 × 10¹² m / 6.16 × 10¹² m"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "T1²/r1³ = T2²/(r2+h)³ => 1² / (1.50e11)³ = 11.9² / r³ => r = 7.82 x 10¹¹ m",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q07",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 7,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Sebuah satelit sedang mengorbit Bumi. Daya graviti yang bertindak pada satelit itu ialah F_G dan daya memusat untuk mengekalkan satelit dalam orbit ialah F_c. Rajah yang manakah menunjukkan daya-daya yang bertindak pada satelit itu?\nA satellite is orbiting the Earth. The gravitational force acting on the satellite is F_G and the centripetal force for keeping the satellite in orbit is F_c. Which diagram shows the forces acting on the orbiting satellite?\n(Perlis: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_a.webp' alt='Pilihan A' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+      },
+      {
+        "id": "B",
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_b.webp' alt='Pilihan B' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+      },
+      {
+        "id": "C",
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_c.webp' alt='Pilihan C' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+      },
+      {
+        "id": "D",
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_d.webp' alt='Pilihan D' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Daya graviti bertindak sebagai daya memusat bagi satelit mengorbit Bumi (Fg bertindak ke arah pusat Bumi).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q08",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 8,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 20 menunjukkan sebuah satelit berjisim 500 kg mengorbit Bumi pada jarak 380 km daripada permukaan Bumi.\nDiagram 20 shows a satellite of mass 500 kg orbiting Earth at a distance of 380 km from the surface of Earth.\n(SBP: 2023)\n\nDengan menggunakan rumus T² = 4π²r³ / (GM), hitung tempoh orbit bagi satelit itu.\n[Jisim Bumi = 5.97 × 10²⁴ kg, Jejari Bumi = 6.37 × 10³ km, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nBy using formula T² = 4π²r³ / (GM), calculate the orbital period of the satellite.\n[Mass of the Earth = 5.97 × 10²⁴ kg, Radius of the Earth = 6.37 × 10³ km, G = 6.67 × 10⁻¹¹ N m² kg⁻²]",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah20.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3.049 × 10³ s / 3.049 × 10³ s"
+      },
+      {
+        "id": "B",
+        "teks": "2.563 × 10³ s / 2.563 × 10³ s"
+      },
+      {
+        "id": "C",
+        "teks": "5.522 × 10³ s / 5.522 × 10³ s"
+      },
+      {
+        "id": "D",
+        "teks": "5.062 × 10³ s / 5.062 × 10³ s"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "T² = 4π²r³ / GM = 4π²(r + h)³ / GM => T = 5521.86 s ≈ 5.52 x 10³ s",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q09",
+    "sumber": "Percubaan SMKA 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 9,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.5 Menentukan jisim Bumi dan Matahari menggunakan rumus Hukum Kegravitian Semesta Newton",
+    "spKod": "3.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 21 menunjukkan Bulan berputar mengelilingi Bumi. Daya yang menarik Bulan ke Bumi ialah 2.01 × 10²⁰ N.\n[Diberi jisim Bumi ialah 5.97 × 10²⁴ kg dan jisim Bulan ialah 7.35 × 10²² kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nDiagram 21 shows the Moon revolving around the Earth. The force that pulls the Moon towards the Earth is 2.01 × 10²⁰ N.\n[Given the mass of the Earth is 5.97 × 10²⁴ kg and the mass of the Moon is 7.35 × 10²² kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\n(SMKA: 2023)\n\nBerapakah jarak antara Bumi dengan Bulan?\nWhat is the distance between the Earth and the Moon?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah21.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.92 × 10⁵ km / 1.92 × 10⁵ km"
+      },
+      {
+        "id": "B",
+        "teks": "3.74 × 10⁵ km / 3.74 × 10⁵ km"
+      },
+      {
+        "id": "C",
+        "teks": "3.82 × 10⁵ km / 3.82 × 10⁵ km"
+      },
+      {
+        "id": "D",
+        "teks": "4.12 × 10⁵ km / 4.12 × 10⁵ km"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "F = Gm1m2 / r² => r² = (6.67e-11)(5.97e24)(7.35e22) / (2.01e20) => r = 3.82 x 10⁵ km",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q10",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 10,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Bumi dan Zuhrah mengorbit mengelilingi Matahari. Berapakah tempoh orbit Zuhrah?\n[Jejari orbit Bumi, r_B = 1.50 × 10¹¹ m, tempoh orbit Bumi, T_B = 365 hari, jejari orbit Zuhrah, r_Z = 1.08 × 10¹¹ m]\nThe Earth and Venus orbit around the Sun. What is the orbital period of Venus?\n[Radius of orbit of the Earth, r_E = 1.50 × 10¹¹ m, period of orbit of the Earth, T_E = 365 days, radius of orbit of Venus, r_V = 1.08 × 10¹¹ m]\n(Kedah: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "323 hari / 323 days"
+      },
+      {
+        "id": "B",
+        "teks": "322 hari / 322 days"
+      },
+      {
+        "id": "C",
+        "teks": "223 hari / 223 days"
+      },
+      {
+        "id": "D",
+        "teks": "213 hari / 213 days"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "T1²/r1³ = T2²/r2³ => 365² / (1.50e11)³ = T² / (1.08e11)³ => T = 223 hari",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q11",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 11,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Satelit J mengambil masa 20 minggu untuk mengorbit Bumi. Kedudukan satelit J adalah 4 kali lebih jauh dari Bumi berbanding satelit K. Berapa lamakah tempoh satelit K mengorbit Bumi?\nSatellite J takes 20 weeks to orbit the Earth. The position of satellite J is 4 times further from the Earth than satellite K. How long does satellite K orbit the Earth?\n(Kelantan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2 minggu / 2 weeks"
+      },
+      {
+        "id": "B",
+        "teks": "2.5 minggu / 2.5 weeks"
+      },
+      {
+        "id": "C",
+        "teks": "4 minggu / 4 weeks"
+      },
+      {
+        "id": "D",
+        "teks": "4.5 minggu / 4.5 weeks"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "T1²/r1³ = T2²/r2³ => 20² / (4r)³ = T² / r³ => T = 2.5 minggu, TQ = 1.79 minggu",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q12",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 12,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Sebuah satelit pengimejan radar mengorbit mengelilingi Bumi pada ketinggian 480 km. Berapakah pecutan graviti di kedudukan satelit itu?\n[G = 6.67 × 10⁻¹¹ N m² kg⁻², M = 5.97 × 10²⁴ kg, R = 6.37 × 10⁶ m]\nA radar imaging satellite orbits around the Earth at a height of 480 km. What is the value of gravitational acceleration at the position of the satellite?\n[G = 6.67 × 10⁻¹¹ N m² kg⁻², M = 5.97 × 10²⁴ kg, R = 6.37 × 10⁶ m]\n(Melaka: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "8.00 m s⁻² / 8.00 m s⁻²"
+      },
+      {
+        "id": "B",
+        "teks": "8.49 m s⁻² / 8.49 m s⁻²"
+      },
+      {
+        "id": "C",
+        "teks": "9.81 m s⁻² / 9.81 m s⁻²"
+      },
+      {
+        "id": "D",
+        "teks": "10.0 m s⁻² / 10.0 m s⁻²"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "g = GM / (r + h)² = (6.67e-11)(5.97e24) / (6.37e6 + 480000)² = 8.49 m s⁻²",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q13",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 13,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 22 menunjukkan satelit Teleskop Angkasa Hubble berjisim 11 000 kg yang mengorbit pada ketinggian 547 km dari permukaan Bumi.\n[Jisim Bumi, M = 5.97 × 10²⁴ kg, Jejari Bumi, R = 6.37 × 10⁶ m, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nDiagram 22 shows the Hubble Space Telescope satellite with mass of 11 000 kg orbits at a height of 547 km above the Earth's surface.\n[Mass of the Earth, M = 5.97 × 10²⁴ kg, Radius of the Earth, R = 6.37 × 10⁶ m, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\n(MRSM: 2022)\n\nBerapakah daya graviti satelit tersebut?\nWhat is the gravitational force of the satellite?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah22.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "9.155 × 10⁴ N / 9.155 × 10⁴ N"
+      },
+      {
+        "id": "B",
+        "teks": "1.079 × 10⁵ N / 1.079 × 10⁵ N"
+      },
+      {
+        "id": "C",
+        "teks": "1.464 × 10⁵ N / 1.464 × 10⁵ N"
+      },
+      {
+        "id": "D",
+        "teks": "6.332 × 10¹¹ N / 6.332 × 10¹¹ N"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "F = Gm1m2 / (r + h)² = (6.67e-11)(5.97e24)(11000) / (6.37e6 + 547000)² = 9.16 x 10⁵ N",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q14",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 14,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Seorang angkasawan memakai sut angkasawan semasa meneroka di Bulan seperti dalam Rajah 23. Jisim sut angkasawan di Bumi ialah 60.25 kg.\nAn astronaut wears an astronaut suit while exploring on the Moon as in Diagram 23. The mass of the astronaut suit on the Earth is 60.25 kg.\n(Pahang: 2022)\n\nKira berat sut angkasawan di Bulan jika kekuatan medan graviti di Bulan ialah 1/6 daripada kekuatan medan graviti Bumi.\n[Pecutan graviti Bumi = 9.81 N kg⁻¹]\nCalculate the weight of the astronaut suit on the Moon if the strength of the gravitational field on the Moon is 1/6 of the strength of Earth's gravitational field.\n[Gravitational acceleration of Earth = 9.81 N kg⁻¹]",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah23.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "98.05 N / 98.05 N"
+      },
+      {
+        "id": "B",
+        "teks": "98.10 N / 98.10 N"
+      },
+      {
+        "id": "C",
+        "teks": "98.40 N / 98.40 N"
+      },
+      {
+        "id": "D",
+        "teks": "98.51 N / 98.51 N"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "W = mg = (1/6)(60.25 x 9.81) = 98.51 N",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q15",
+    "sumber": "Percubaan Selangor 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 15,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Hitung jarak antara Musytari dan satelit semula jadinya Callisto, jika daya graviti antara mereka ialah 6.76 × 10²¹ N.\n[Jisim Musytari = 1.99 × 10²⁷ kg, Jisim Callisto = 1.08 × 10²³ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nCalculate the distance between Jupiter and its natural satellite Callisto, if the gravitational force between them is 6.76 × 10²¹ N.\n[Mass of Jupiter = 1.99 × 10²⁷ kg, Mass of Callisto = 1.08 × 10²³ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\n(Selangor: Set 1: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.46 × 10⁹ m / 1.46 × 10⁹ m"
+      },
+      {
+        "id": "B",
+        "teks": "2.12 × 10⁹ m / 2.12 × 10⁹ m"
+      },
+      {
+        "id": "C",
+        "teks": "1.46 × 10¹¹ m / 1.46 × 10¹¹ m"
+      },
+      {
+        "id": "D",
+        "teks": "2.12 × 10¹¹ m / 2.12 × 10¹¹ m"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "F = Gm1m2 / r² => r² = (6.67e-11)(5.97e24)(1.08e23) / (6.76e21) => r = 1.46 x 10⁹ m",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q16",
+    "sumber": "Percubaan Selangor 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 16,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.5 Menentukan jisim Bumi dan Matahari menggunakan rumus Hukum Kegravitian Semesta Newton",
+    "spKod": "3.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 24 menunjukkan sebuah objek berjisim 3 kg dilontar 5 m ke atas dari permukaan Bumi.\nDiagram 24 shows an object of mass 3 kg is thrown 5 m upward from the surface of the Earth.\n(Selangor: Set 2: 2022)\n\nHitung daya graviti yang dikenakan pada Bumi oleh objek itu.\n[Jejari Bumi = 6.37 × 10⁶ m, Jisim Bumi = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nCalculate the gravitational force exerted on the Earth by the object.\n[Radius of the Earth = 6.37 × 10⁶ m, Mass of the Earth = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah24.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "29.43 N / 29.43 N"
+      },
+      {
+        "id": "B",
+        "teks": "35.18 N / 35.18 N"
+      },
+      {
+        "id": "C",
+        "teks": "30.20 × 10¹² N / 30.20 × 10¹² N"
+      },
+      {
+        "id": "D",
+        "teks": "47.34 × 10¹² N / 47.34 × 10¹² N"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "F = Gm1m2 / (r + h)² = (6.67e-11)(5.97e24)(3) / (6.37e6 + 5)² = 29.44 N",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q17",
+    "sumber": "Percubaan Selangor 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 17,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Jejari orbit membulat dua satelit Bumi, A dan B masing-masing ialah 4R dan R. Jika kelajuan satelit A ialah 3v, berapakah kelajuan satelit B?\nThe radius of circular orbits of two satellites A and B of the Earth are 4R and R, respectively. If the speed of satellite A is 3v, what is the speed of satellite B?\n(Selangor: Set 2: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3/4 v / 3/4 v"
+      },
+      {
+        "id": "B",
+        "teks": "3/2 v / 3/2 v"
+      },
+      {
+        "id": "C",
+        "teks": "6v / 6v"
+      },
+      {
+        "id": "D",
+        "teks": "12v / 12v"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "v = sqrt(GM / R) => vA / vB = sqrt(R_B / R_A) = sqrt(R / 4R) = 1/2 => vB = 2 vA = 6 V",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q18",
+    "sumber": "Percubaan Terengganu 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 18,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Satelit P adalah 5 kali lebih jauh dari planet berbanding satelit Q. Apabila satelit P mengambil masa 20 minggu untuk mengorbit planet tersebut, berapa lamakah masa untuk satelit Q mengorbit planet itu?\nSatellite P is 5 times farther from a planet than satellite Q. When the satellite P takes 20 weeks to complete a full orbit around the planet, how long will satellite Q take to travel around the planet once?\n(Terengganu: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.79 minggu / 1.79 weeks"
+      },
+      {
+        "id": "B",
+        "teks": "2.5 minggu / 2.5 weeks"
+      },
+      {
+        "id": "C",
+        "teks": "3.2 minggu / 3.2 weeks"
+      },
+      {
+        "id": "D",
+        "teks": "4.5 minggu / 4.5 weeks"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "T² ∝ r³ => rP = 5 rQ",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q19",
+    "sumber": "Percubaan Terengganu 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 19,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Berapakah laju linear orbit satelit mengelilingi Bumi pada jarak orbit 6.5 × 10⁶ m?\n[G = 6.67 × 10⁻¹¹ N m² kg⁻², Jisim Bumi = 6.0 × 10²⁴ kg]\nWhat is the linear orbital speed of a satellite revolving around Earth at an orbital distance of 6.5 × 10⁶ m?\n[G = 6.67 × 10⁻¹¹ N m² kg⁻², Mass of Earth = 6.0 × 10²⁴ kg]\n(Terengganu: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1 174 m s⁻¹ / 1 174 m s⁻¹"
+      },
+      {
+        "id": "B",
+        "teks": "7 864 m s⁻¹ / 7 864 m s⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "120 185 m s⁻¹ / 120 185 m s⁻¹"
+      },
+      {
+        "id": "D",
+        "teks": "61 842 496 m s⁻¹ / 61 842 496 m s⁻¹"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "v = sqrt(GM / (r + h)) = sqrt((6.67e-11)(6e24) / (6.5e6)) = 7864.61 m s⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q20",
+    "sumber": "Percubaan Kedah 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 20,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.4 Menyelesaikan masalah yang melibatkan halaju lepas",
+    "spKod": "3.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Diberi jejari Bumi ialah R dan halaju lepas di permukaan Bumi ialah 11 km s⁻¹. Berapakah halaju lepas pada ketinggian 0.5R dari permukaan Bumi?\nGiven that the radius of the Earth is R and the escape velocity on the surface of the Earth is 11 km s⁻¹. What is the escape velocity at a height of 0.5R from the surface of the Earth?\n(Kedah: 2021)\n\nPetua / Hint:\nv = √(2GM / r)\nv = halaju lepas / escape velocity\nG = pemalar kegravitian / gravitational constant\nr = jarak dari pusat Bumi / distance from the centre of the Earth\nM = jisim Bumi / mass of Earth",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "9.0 km s⁻¹ / 9.0 km s⁻¹"
+      },
+      {
+        "id": "B",
+        "teks": "8.0 km s⁻¹ / 8.0 km s⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "7.0 km s⁻¹ / 7.0 km s⁻¹"
+      },
+      {
+        "id": "D",
+        "teks": "6.0 km s⁻¹ / 6.0 km s⁻¹"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "v = sqrt(2GM / r) => Pada r = 1.5R, v = 11 / sqrt(1.5) = 8.98 km s⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q21",
+    "sumber": "Percubaan Kelantan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 21,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.4 Memerihalkan daya memusat dalam sistem gerakan bumi dan satelit, F = mv^2/r",
+    "spKod": "3.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 25 menunjukkan sebiji bebola besi berjisim 0.2 kg diikat pada hujung tali yang diputarkan secara mengufuk oleh seorang pelajar. Jejari bulatan ialah 0.5 m.\nDiagram 25 shows a metal ball of mass 0.2 kg tied to the end of a string that is spun horizontally by a student. Radius of the circle is 0.5 m.\n(Kelantan: 2021)\n\nJika bebola besi itu berputar dengan kelajuan malar 4 m s⁻¹, hitungkan daya memusat.\nIf the metal ball rotates at constant speed 4 m s⁻¹, calculate the centripetal force.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah25.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "6.25 N / 6.25 N"
+      },
+      {
+        "id": "B",
+        "teks": "6.40 N / 6.40 N"
+      },
+      {
+        "id": "C",
+        "teks": "16.00 N / 16.00 N"
+      },
+      {
+        "id": "D",
+        "teks": "64.00 N / 64.00 N"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "F = mv² / r = (0.2)(4)² / 0.5 = 6.4 N",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q22",
+    "sumber": "Percubaan Terengganu 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 22,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.4 Menyelesaikan masalah yang melibatkan halaju lepas",
+    "spKod": "3.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Halaju lepas dari Bumi adalah 11.2 km s⁻¹. Planet lain mempunyai jisim 500 kali daripada jisim Bumi dan jejari 20 kali daripada jejari Bumi. Berapakah halaju lepas dari planet itu?\nThe escape velocity from the Earth is 11.2 km s⁻¹. Another planet has a mass 500 times the mass of the Earth and a radius 20 times the radius of the Earth. What is the escape velocity from that planet?\n(Terengganu: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2.24 km s⁻¹ / 2.24 km s⁻¹"
+      },
+      {
+        "id": "B",
+        "teks": "11.2 km s⁻¹ / 11.2 km s⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "55.9 km s⁻¹ / 55.9 km s⁻¹"
+      },
+      {
+        "id": "D",
+        "teks": "280 km s⁻¹ / 280 km s⁻¹"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Halaju lepas v = sqrt(2GM / R). Bagi Planet: M_p = 500M, R_p = 20R => v_planet = sqrt(500/20) * v_bumi = 5 * 11.2 = 56.0 km s⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q23",
+    "sumber": "Percubaan Selangor 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 23,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Berat seketul batu di Bumi adalah 19.62 N, berapakah beratnya di Bulan?\nKekuatan medan graviti Bulan adalah 1.64 N kg⁻¹.\nWeight of a stone on Earth is 19.62 N, what is its weight on the Moon?\nThe Moon's gravitational field strength is 1.64 N kg⁻¹.\n(Selangor: Set 1: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3.28 N / 3.28 N"
+      },
+      {
+        "id": "B",
+        "teks": "6.56 N / 6.56 N"
+      },
+      {
+        "id": "C",
+        "teks": "17.98 N / 17.98 N"
+      },
+      {
+        "id": "D",
+        "teks": "12.08 N / 12.08 N"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "W = mg = (1/6)(19.62) = 3.27 N",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q24",
+    "sumber": "Percubaan Selangor 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 24,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Tempoh satelit di orbit bulatan berjejari R adalah T. Tempoh satelit lain dalam orbit bulat berjejari 4R adalah\nThe period of a satellite in a circular orbit of radius R is T. The period of another satellite in circular orbit of radius 4R is\n(Selangor: Set 2: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "8T / 8T"
+      },
+      {
+        "id": "B",
+        "teks": "2T / 2T"
+      },
+      {
+        "id": "C",
+        "teks": "½T / ½T"
+      },
+      {
+        "id": "D",
+        "teks": "4T / 4T"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "T = 2π * sqrt(r³ / GM). Jika r' = 4R => T' = 2π * sqrt((4R)³ / GM) = 8 * (2π * sqrt(R³ / GM)) = 8T",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q25",
+    "sumber": "Percubaan Negeri Sembilan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 25,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 26 menunjukkan sebuah satelit sedang mengorbit Bumi pada ketinggian 600 km.\nDiagram 26 shows a satellite orbiting the Earth at a height of 600 km.\n(Negeri Sembilan: 2021)\n\nHitung halaju linear satelit tersebut.\n[Jejari Bumi = 6.37 × 10⁶ m, Jisim Bumi = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nCalculate the linear velocity of the satellite.\n[Radius of Earth = 6.37 × 10⁶ m, Mass of Earth = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah26.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3.822 × 10³ m s⁻¹ / 3.822 × 10³ m s⁻¹"
+      },
+      {
+        "id": "B",
+        "teks": "4.968 × 10³ m s⁻¹ / 4.968 × 10³ m s⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "7.559 × 10³ m s⁻¹ / 7.559 × 10³ m s⁻¹"
+      },
+      {
+        "id": "D",
+        "teks": "9.799 × 10³ m s⁻¹ / 9.799 × 10³ m s⁻¹"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "v = sqrt(GM / (r + h)) = sqrt((6.67e-11)(6e24) / (6.37e6 + 600000)) = 7.58 x 10³ m s⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q26",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 26,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.2 Menghubung kait pecutan graviti, g di permukaan bumi dengan pemalar kegravitian semesta, G",
+    "spKod": "3.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Pecutan graviti di permukaan Bumi ialah g dan jejari Bumi ialah R. Pada jarak berapakah pecutan graviti dari permukaan Bumi adalah ¼ g?\nThe gravitational acceleration on the surface of the Earth is g and the radius of the Earth is R. At what distance is the acceleration of gravity from the Earth's surface ¼ g?\n(Pahang: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "R dari permukaan dan 2R dari pusat Bumi / R from the surface and 2R from the centre of the Earth"
+      },
+      {
+        "id": "B",
+        "teks": "½R dari permukaan dan 4R dari pusat Bumi / ½R from the surface and 4R from the centre of the Earth"
+      },
+      {
+        "id": "C",
+        "teks": "½R dari permukaan dan 2R dari pusat Bumi / ½R from the surface and 2R from the centre of the Earth"
+      },
+      {
+        "id": "D",
+        "teks": "¼R dari permukaan dan 4R dari pusat Bumi / ¼R from the surface and 4R from the centre of the Earth"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "g1 = GM / (R + h)² = g / 4 => (R + h)² / R² = 4 => (R + h) / R = 2 => R + h = 2R => h = R",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K3_Q27",
+    "sumber": "SPM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 27,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.5 Menentukan jisim Bumi dan Matahari menggunakan rumus Hukum Kegravitian Semesta Newton",
+    "spKod": "3.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Seorang atlet lompat jauh dengan jisim 54 kg telah mencapai suatu jarak dari tapak berlepas. Apakah daya graviti di antara atlet dengan Bumi?\n[Pemalar kegravitian, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\n[Jisim Bumi = 5.97 × 10²⁴ kg]\n[Jarak antara pusat Bumi dan atlet, r = 6.37 × 10⁶ m]\nA long jump athlete with a mass of 54 kg has reached a distance from a take-off point. What is the gravitational force between the athlete and the Earth?\n[Gravitational constant, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\n[Mass of Earth = 5.97 × 10²⁴ kg]\n[Distance between center of the Earth and athlete, r = 6.37 × 10⁶ m]\n(SPM: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3.84 × 10⁻⁷ N / 3.84 × 10⁻⁷ N"
+      },
+      {
+        "id": "B",
+        "teks": "2.45 × 10⁻²⁰ N / 2.45 × 10⁻²⁰ N"
+      },
+      {
+        "id": "C",
+        "teks": "5.30 × 10² N / 5.30 × 10² N"
+      },
+      {
+        "id": "D",
+        "teks": "3.38 × 10⁶ N / 3.38 × 10⁶ N"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "F = Gm1m2 / r² = (6.67e-11)(5.97e24)(54) / (6.37e6)² = 5.30 x 10² N",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K4_Q01",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 3.2 Hukum Kepler",
+    "sp": "SP 3.2.1 Memerihalkan Hukum Kepler I, II dan III",
+    "spKod": "3.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 47-48",
+    "rujukanBukuTeks": "Buku Teks T4 ms 89-94",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 24-25",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.2 Hukum Kepler",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 27 menunjukkan ilustrasi Hukum Kepler Kedua. Planet tersebut mengambil masa yang sama untuk bergerak dari A ke B berbanding dari C ke D melalui orbit.\nDiagram 27 shows an illustration of Kepler's Second Law. The planet took the same period to move from A to B as compared to moving from C to D through the orbit.\n(Melaka: 2023)\n\nManakah antara berikut adalah benar?\nWhich of the following is true?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah27.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Luas FAB adalah sama dengan luas FCD / Area of FAB is equal to area of FCD"
+      },
+      {
+        "id": "B",
+        "teks": "Luas FAB adalah lebih kecil berbanding luas FCD / Area of FAB is less than area of FCD"
+      },
+      {
+        "id": "C",
+        "teks": "Laju purata planet dari A ke B adalah sama dengan laju purata planet dari C ke D / Average speed of planet from A to B is equal to average speed of planet from C to D"
+      },
+      {
+        "id": "D",
+        "teks": "Laju purata planet dari A ke B adalah kurang berbanding laju purata planet dari C ke D / Average speed of planet from A to B is less than average speed of planet from C to D"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B3_K4_Q02",
+    "sumber": "Percubaan SMKA 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 28 menunjukkan 3 buah satelit yang serupa P, Q dan R yang berada pada ketinggian berbeza dari permukaan Bumi.\nDiagram 28 shows 3 identical satellites P, Q and R which are located at different heights from the Earth's surface.\n(SMKA: 2023)\n\nManakah menunjukkan perbandingan yang betul?\nWhich shows the correct comparison?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah28.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Daya graviti, F: P > Q > R | Pecutan graviti, g: P < Q < R / Gravitational force, F: P > Q > R | Gravitational acceleration, g: P < Q < R"
+      },
+      {
+        "id": "B",
+        "teks": "Daya graviti, F: P < Q > R | Pecutan graviti, g: P < Q > R / Gravitational force, F: P < Q > R | Gravitational acceleration, g: P < Q > R"
+      },
+      {
+        "id": "C",
+        "teks": "Daya graviti, F: P < Q < R | Pecutan graviti, g: P > Q > R / Gravitational force, F: P < Q < R | Gravitational acceleration, g: P > Q > R"
+      },
+      {
+        "id": "D",
+        "teks": "Daya graviti, F: P > Q < R | Pecutan graviti, g: P > Q < R / Gravitational force, F: P > Q < R | Gravitational acceleration, g: P > Q < R"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K4_Q03",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 3,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 29 menunjukkan daya graviti, F yang bertindak ke atas dua jasad berjisim m₁ dan m₂ masing-masing.\nDiagram 29 shows gravitational force, F acting on two bodies with mass m₁ and m₂ respectively.\n(SMKA: 2022)\n\nAntara berikut yang manakah menerangkan hubungan antara F, m₁, m₂ dan r?\nWhich of the following explains the relationship between F, m₁, m₂ and r?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah29.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "F berkadar terus dengan m₁m₂ dan F berkadar terus dengan r / F is directly proportional to m₁m₂ and F is directly proportional to r"
+      },
+      {
+        "id": "B",
+        "teks": "F berkadar terus dengan m₁m₂ dan F berkadar songsang dengan r² / F is directly proportional to m₁m₂ and F is inversely proportional to r²"
+      },
+      {
+        "id": "C",
+        "teks": "F berkadar songsang dengan m₁m₂ dan F berkadar terus dengan r / F is inversely proportional to m₁m₂ and F is directly proportional to r"
+      },
+      {
+        "id": "D",
+        "teks": "F berkadar songsang dengan m₁m₂ dan F berkadar songsang dengan r² / F is inversely proportional to m₁m₂ and F is inversely proportional to r²"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B3_K4_Q04",
+    "sumber": "Percubaan Sarawak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 4,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 30 menunjukkan sebahagian planet-planet dalam sistem suria.\nDiagram 30 shows some planets in the solar system.\n(Sarawak: 2021)\n\nDaripada Rajah 30, apakah kesimpulan yang boleh dibuat?\nFrom Diagram 30, what conclusion can be made?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah30.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jejari orbit berkadar terus dengan tempoh orbit planet / Radius of orbit is directly proportional to orbital period of planets"
+      },
+      {
+        "id": "B",
+        "teks": "Kuasa dua jejari orbit berkadar terus dengan kuasa tiga tempoh orbit planet / The square of radius of orbit is directly proportional to the cube of orbital period of planets"
+      },
+      {
+        "id": "C",
+        "teks": "Semakin besar saiz planet, semakin bertambah tempoh orbit / The greater the size of planet, the greater the period of orbit"
+      },
+      {
+        "id": "D",
+        "teks": "Kuasa tiga jejari orbit berkadar terus dengan kuasa dua tempoh orbit planet / The cube of radius of orbit is directly proportional to the square of orbital period of planets"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B3_K4_Q05",
+    "sumber": "Percubaan Selangor 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 5,
+    "sk": "SK 3.3 Satelit Buatan Manusia",
+    "sp": "SP 3.3.1 Menerangkan orbit satelit dan laju linear satelit, v = sqrt(GM/r)",
+    "spKod": "3.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 49-50",
+    "rujukanBukuTeks": "Buku Teks T4 ms 95-103",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 26-28",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.3 Satelit Buatan Manusia",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 31 menunjukkan dua satelit, M dan N dalam orbit yang berlainan mengelilingi Bumi. Orbit N terletak lebih jauh dari Bumi berbanding orbit M.\nDiagram 31 shows two satellites, M and N, in different orbits around the Earth. The orbit of N is located further from the Earth than the orbit of M.\n(Selangor: Set 1: 2021)\n\nAntara perbandingan berikut, yang manakah betul?\nWhich of the following comparisons is true?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah31.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pecutan graviti pada N > Pecutan graviti pada M / Gravitational acceleration on N > Gravitational acceleration on M"
+      },
+      {
+        "id": "B",
+        "teks": "Daya memusat pada N > Daya memusat pada M / Centripetal force on N > Centripetal force on M"
+      },
+      {
+        "id": "C",
+        "teks": "Tempoh orbit N > Tempoh orbit M / Orbital period of N > Orbital period of M"
+      },
+      {
+        "id": "D",
+        "teks": "Halaju mengorbit bagi N > Halaju mengorbit bagi M / Orbiting velocity of N > Orbiting velocity of M"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B3_K4_Q06",
+    "sumber": "SPM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 6,
+    "sk": "SK 3.1 Hukum Kegravitian Semesta Newton",
+    "sp": "SP 3.1.1 Menerangkan Hukum Kegravitian Semesta Newton, F = G(m1m2)/r^2",
+    "spKod": "3.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 44-46",
+    "rujukanBukuTeks": "Buku Teks T4 ms 78-88",
+    "rujukanCheatnote": "Cheatnote T4 Bab 3 ms 21-23",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 3,
+    "babNama": "Kegravitian",
+    "bidang": "Mekanik Newton",
+    "topik": "3.1 Hukum Kegravitian Semesta Newton",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 32 menunjukkan sebuah lastik berbentuk-Y yang digunakan oleh seorang murid dalam suatu eksperimen untuk menentukan nilai v² bagi jisim batu yang berbeza, m. Hubungan pemboleh ubah dalam eksperimen ini diberi oleh:\nFD = mv²\nDengan keadaan m = jisim, v = halaju batu, F = daya tarikan dan D = jarak regangan.\nDiagram 32 shows a Y-shaped slingshot used by a student in an experiment to determine the value of v² of different masses of stones, m. The relationship of the variables in this experiment is given by:\nFD = mv²\nSuch that m = mass, v = velocity of stone, F = force of attraction and D = extension distance.\n(SPM: 2021)\n\nPernyataan manakah yang betul mengenai eksperimen ini?\nWhich statement is correct about this experiment?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah32.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kecerunan graf v² melawan 1/m bersamaan dengan nilai FD / The gradient of graph v² against 1/m is equal to the value of FD"
+      },
+      {
+        "id": "B",
+        "teks": "Halaju batu meningkat apabila jisim batu meningkat / The velocity of stone increases as the mass of the stone increases"
+      },
+      {
+        "id": "C",
+        "teks": "Hasil darab F dan D sentiasa dimalarkan bagi jisim batu yang berbeza / The product of F and D is always kept constant for different masses of stones"
+      },
+      {
+        "id": "D",
+        "teks": "Apabila F bertambah, D bertambah / As F increases, D increases"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
   }
 ];
 
