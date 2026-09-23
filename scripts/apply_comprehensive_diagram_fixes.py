@@ -5,12 +5,13 @@ import re
 
 CDN_PREFIX = "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2"
 
-def make_opts(prefix):
+def make_opts(prefix, suffix=""):
+    sfx = f"_{suffix}" if suffix else ""
     return [
-        {"id": "A", "teks": f'<img src="{CDN_PREFIX}/{prefix}_opt_a.webp" style="max-height:120px; border-radius:4px;" alt="Graf A">'},
-        {"id": "B", "teks": f'<img src="{CDN_PREFIX}/{prefix}_opt_b.webp" style="max-height:120px; border-radius:4px;" alt="Graf B">'},
-        {"id": "C", "teks": f'<img src="{CDN_PREFIX}/{prefix}_opt_c.webp" style="max-height:120px; border-radius:4px;" alt="Graf C">'},
-        {"id": "D", "teks": f'<img src="{CDN_PREFIX}/{prefix}_opt_d.webp" style="max-height:120px; border-radius:4px;" alt="Graf D">'}
+        {"id": "A", "teks": f'<img src="{CDN_PREFIX}/{prefix}_opt_a{sfx}.webp" style="max-height:120px; border-radius:4px;" alt="Graf A">'},
+        {"id": "B", "teks": f'<img src="{CDN_PREFIX}/{prefix}_opt_b{sfx}.webp" style="max-height:120px; border-radius:4px;" alt="Graf B">'},
+        {"id": "C", "teks": f'<img src="{CDN_PREFIX}/{prefix}_opt_c{sfx}.webp" style="max-height:120px; border-radius:4px;" alt="Graf C">'},
+        {"id": "D", "teks": f'<img src="{CDN_PREFIX}/{prefix}_opt_d{sfx}.webp" style="max-height:120px; border-radius:4px;" alt="Graf D">'}
     ]
 
 UPDATES = {
@@ -38,13 +39,15 @@ UPDATES = {
         "pilihan": make_opts("t4_b2_k2_q56")
     },
     "MODUL_T4_B2_K2_Q67": {
-        "pilihan": make_opts("t4_b2_k2_q67")
+        "rajahUrl": f"{CDN_PREFIX}/t4_b2_rajah49_v2.webp",
+        "pilihan": make_opts("t4_b2_k2_q67", "v2")
     },
     "MODUL_T4_B2_K2_Q72": {
         "pilihan": make_opts("t4_b2_k2_q72")
     },
     "MODUL_T4_B2_K2_Q75": {
-        "pilihan": make_opts("t4_b2_k2_q75")
+        "rajahUrl": f"{CDN_PREFIX}/t4_b2_rajah54_v2.webp",
+        "pilihan": make_opts("t4_b2_k2_q75", "v2")
     },
     "MODUL_T4_B2_K2_Q83": {
         "rajahUrl": None,
@@ -68,7 +71,8 @@ UPDATES = {
         "pilihan": make_opts("t4_b2_k3_q17")
     },
     "MODUL_T4_B2_K3_Q40": {
-        "pilihan": make_opts("t4_b2_k3_q40")
+        "rajahUrl": f"{CDN_PREFIX}/t4_b2_rajah98_v2.webp",
+        "pilihan": make_opts("t4_b2_k3_q40", "v2")
     }
 }
 

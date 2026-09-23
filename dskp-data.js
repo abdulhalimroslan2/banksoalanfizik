@@ -10352,23 +10352,23 @@ const QUESTION_BANK = [
         "aras": "Sederhana",
         "konstruk": "Memahami",
         "soalan": "Rajah 49 menunjukkan graf sesaran-masa bagi\nsebuah kereta yang bergerak di sepanjang garis\nlurus.\nDiagram 49 shows a displacement-time graph of\na car moving in a straight line.\n(Selangor: Set 2: 2021)\nAntara graf halaju-masa yang berikut, manakah\nmewakili pergerakan kereta tersebut?\nWhich of the following velocity-time graph\nrepresents the motion of the car?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah49.webp",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah49_v2.webp",
         "pilihan": [
                 {
                         "id": "A",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_a_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
                 },
                 {
                         "id": "B",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_b_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
                 },
                 {
                         "id": "C",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_c_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
                 },
                 {
                         "id": "D",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q67_opt_d_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
                 }
         ],
         "jawapanBetul": "B",
@@ -10711,24 +10711,24 @@ const QUESTION_BANK = [
         "topik": "2.2 Graf Gerakan Linear",
         "aras": "Sederhana",
         "konstruk": "Memahami",
-        "soalan": "Rajah 54 menunjukkan graf perubahan halaju, v\nterhadap masa, t bagi sebuah objek yang\nbergerarak\nDiagram 54 show shows a graph of the variation\nwith timet ofthe velocity v of anobject.\n(Pahang: 2021)\n7\nAntara graf-graf berikut yang manakah mewakili\nperubahan pecutan terhadap masa bagi objek\ntersebut?\nWhich one of the following graphsbestrepresents\nthe variation with time t of the acceleration a of\nthe object?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah54.webp",
+        "soalan": "Rajah 54 menunjukkan graf perubahan halaju, v terhadap masa, t bagi sebuah objek yang bergerarak\nDiagram 54 show shows a graph of the variation with timet ofthe velocity v of anobject. (Pahang: 2021)\nAntara graf-graf berikut yang manakah mewakili perubahan pecutan terhadap masa bagi objek tersebut?\nWhich one of the following graphsbestrepresents the variation with time t of the acceleration a of the object?",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah54_v2.webp",
         "pilihan": [
                 {
                         "id": "A",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_a_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
                 },
                 {
                         "id": "B",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_b_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
                 },
                 {
                         "id": "C",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_c_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
                 },
                 {
                         "id": "D",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k2_q75_opt_d_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
                 }
         ],
         "jawapanBetul": "A",
@@ -13502,23 +13502,23 @@ const QUESTION_BANK = [
         "aras": "Tinggi",
         "konstruk": "Mengaplikasi",
         "soalan": "Mei Mei mengayuh basikal dari rumahnya ke\nsekolah. Dalam perjalanan balik dari sekolah, dia\nsinggah di kedai runcit di belakang rumahnya.\nRajah 98 menunjukkan graf sesaran-masa\nperjalanannya.\nMei Mei cycles from her house to school. On her\nway back from school, she stops at a grocery store\nbehind her house. Diagram 98 shows a\ndisplacement-time graph of her journey.\n(SPM: 2021)\nGraf halaju-masa yang manakah menerangkan\npergerakan Mei Mei?\nWhich velocity-time graph describes the\nmovement of Mei Mei?",
-        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah98.webp",
+        "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_rajah98_v2.webp",
         "pilihan": [
                 {
                         "id": "A",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_a.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_a_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf A\">"
                 },
                 {
                         "id": "B",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_b.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_b_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf B\">"
                 },
                 {
                         "id": "C",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_c.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_c_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf C\">"
                 },
                 {
                         "id": "D",
-                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_d.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
+                        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b2/t4_b2_k3_q40_opt_d_v2.webp\" style=\"max-height:120px; border-radius:4px;\" alt=\"Graf D\">"
                 }
         ],
         "jawapanBetul": "B",
