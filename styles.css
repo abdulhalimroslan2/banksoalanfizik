@@ -5653,42 +5653,82 @@ body {
 
 
 /* ==========================================================================
-   BILINGUAL SPM FORMATTING (ENGLISH TRANSLATION IN ITALICS)
+   BILINGUAL SPM FORMATTING (ENGLISH TRANSLATION IN ITALICS) & JUSTIFIED LAYOUT
    ========================================================================== */
+.qcard-hero-body,
+.slot-complete-stem,
+.sub-q-text,
+.slot-subq-text,
+.scoring-item-body,
+.lpm-q-text,
+.docx-q-stem-cell {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  hyphens: auto;
+  word-break: normal;
+}
+
 .soalan-en {
   font-style: italic !important;
   font-weight: 400 !important;
   color: #475569;
   display: inline;
-  line-height: 1.5;
+  line-height: 1.55;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .slot-complete-stem .soalan-en,
 .qcard-hero-body .soalan-en,
 .slot-subq-text .soalan-en,
 .sub-q-text .soalan-en,
-.scoring-item-body .soalan-en {
+.scoring-item-body .soalan-en,
+.docx-q-stem-cell .soalan-en {
+  display: block !important;
+  width: 100% !important;
+  margin-top: 0.35rem !important;
+  margin-bottom: 0.25rem !important;
   font-style: italic !important;
   font-weight: 400 !important;
-  color: #475569;
+  color: #475569 !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  line-height: 1.55 !important;
+}
+
+/* Eliminate redundant blank line before block English translation */
+.qcard-hero-body br:has(+ .soalan-en),
+.slot-complete-stem br:has(+ .soalan-en),
+.sub-q-text br:has(+ .soalan-en),
+.slot-subq-text br:has(+ .soalan-en),
+.scoring-item-body br:has(+ .soalan-en),
+.docx-q-stem-cell br:has(+ .soalan-en) {
+  display: none;
 }
 
 .slot-option-text .soalan-en,
-.lpm-options-list .soalan-en {
+.lpm-options-list .soalan-en,
+.option-pill-item .soalan-en {
+  display: inline !important;
   font-style: italic !important;
   font-weight: 400 !important;
-  color: #64748B;
+  color: #64748B !important;
 }
 
 .lpm-q-text {
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: justify !important;
+  text-justify: inter-word !important;
 }
 
 .lpm-q-text .soalan-en {
+  display: block !important;
+  width: 100% !important;
+  margin-top: 0.35rem !important;
   font-style: italic !important;
   font-weight: normal !important;
-  color: #1E293B;
+  color: #1E293B !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
 }
 
 @media print {
