@@ -1253,8 +1253,41 @@ function formatOptionText(text) {
   // Case 2: Option with slash (Malay / English)
   if (text.includes(" / ")) {
     const parts = text.split(" / ");
-    if (parts.length === 2 && parts[1].length > 1) {
-      return `${parts[0].trim()} / <span class="soalan-en">${parts[1].trim()}</span>`;
+    if (parts.length >= 2 && parts[1].length > 1) {
+      return `${parts[0].trim()} / <span class="soalan-en">${parts.slice(1).join(" / ").trim()}</span>`;
+    }
+  }
+
+  // Case 3: Table options with pipe
+  if (text.includes(" | ")) return text;
+
+  // Case 4: Heuristic fallback for unseparated bilingual text
+  const EN_STARTERS = [
+    "Newton's", "Law of", "Vector", "Scalar", "Base", "Fixed at",
+    "The gravitational", "The quantity", "The net force", "The forward force",
+    "The lifting force", "The frictional force", "The force of gravity",
+    "The upward acceleration", "The total momentum", "The momentum of",
+    "The collision", "The length of", "The equation", "The gradient", "The energy",
+    "The S.I", "The feather", "The cat", "The bull", "The baseball", "The motorcycle",
+    "The racket", "The backwards", "The reduction", "Thrust", "Total momentum", "Momentum",
+    "Object", "Objects", "Slow down", "Speed up", "Move with", "Move both",
+    "Push", "Rotate", "Spread the", "Bend the", "Lay the", "Landing on", "Uphold the",
+    "When the", "If t", "Acceleration", "Nothing happens", "support the",
+    "increase the", "Decrease", "reduce the", "To reduce", "To increase", "concept of",
+    "principle of", "impulsive force", "Mass depends", "Weight depends", "Mass is a",
+    "force only", "mass only", "force, mass", "Increasing velocity",
+    "Decreasing velocity", "Velocity increases", "Velocity decreases",
+    "Period of", "the concept of", "Increase inertia", "the weight of",
+    "the air resistance", "inertia of", "is a scalar", "is a based", "is directly",
+    "is inversely", "is increase", "is equal", "is greater", "is smaller",
+    "uniform acceleration", "decreasing speed", "constant velocity"
+  ];
+
+  for (const starter of EN_STARTERS) {
+    const re = new RegExp("^([\\s\\S]+?)\\s+(" + starter.replace(/'/g, "\\x27") + "\\b[\\s\\S]*)$", "i");
+    const m = text.match(re);
+    if (m && m[1].trim().length >= 2 && m[2].trim().length >= 2) {
+      return `${m[1].trim()} / <span class="soalan-en">${m[2].trim()}</span>`;
     }
   }
 

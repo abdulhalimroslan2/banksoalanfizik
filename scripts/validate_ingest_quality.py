@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Automated Quality Assurance & Verification Script for HUB BANK SOALAN FIZIK.
-Enforces the 12 Golden Invariants from the `spm-fizik-ingest-pipeline` skill:
+Enforces the 13 Golden Invariants from the `spm-fizik-ingest-pipeline` skill:
 1. Strict Complete Stem Diagram Crop (zero option bundling, full axes & units, preserved caption).
 2. Full Negative Graph Range Preservation & Strict 2x2 Option Isolation (x0 >= 192 pt, zero arrow leaks).
 3. Zero Leaked Answers, Page Numbers, or Stray Tokens at End of Stems.
@@ -14,6 +14,7 @@ Enforces the 12 Golden Invariants from the `spm-fizik-ingest-pipeline` skill:
 10. Clean Roman Numerals Separation (I, II, III).
 11. Complete Physics Rationales & Answers.
 12. Mandatory Backup Verification.
+13. Strict OCR Spelling, Squashed Spacing & Bilingual Slash Separation Standard.
 """
 
 import sys
@@ -32,6 +33,7 @@ STRAY_DIAGRAM_LABEL_PATTERNS = [
     r'\bAlu\s+Pestle\s+Lesung\b',
     r'\bKayu besbol\s+Baseball bat\b',
     r'\bHos\s+Hose\b',
+    r'\bDaya tujab itienl orce\b',
 ]
 
 LEAKED_TABLE_HEADER_PATTERNS = [
@@ -59,6 +61,120 @@ SWALLOWED_STEM_IN_OPTION_PATTERNS = [
     r'\bvolleyball player throwing a ball\b',
     r'\btrue statement about momentum according to the diagram\b',
     r'\bA true statement about momentum\b',
+    r'\bfootball of mass 0\.5 kg is kicked\b',
+    r'\bcar noving with uniform velocity\b',
+]
+
+KNOWN_OCR_TYPO_PATTERNS = [
+    r'\bThirdLavwof\b',
+    r'\bThirdLavw\b',
+    r'\bSecond Lav\b',
+    r'\bLavwof\b',
+    r'\bNewton\s+s\b',
+    r'\bstatenent\b',
+    r'\bseckor\b',
+    r'\bschelai\b',
+    r'\bscbiji\b',
+    r'\bscbelum\b',
+    r'\bscbclum\b',
+    r'\bincrsia\b',
+    r'\bberjsim\b',
+    r'\bmenycbabkan\b',
+    r'\bterscbut\b',
+    r'\bafier\b',
+    r'\bafer\b',
+    r'\btvolley\b',
+    r'\btheinmpulsive\b',
+    r'\bobjck\b',
+    r'\bforwvard\b',
+    r'\bconpared\b',
+    r'\bofplaver\b',
+    r'\bmomnentum\b',
+    r'\bMonmentum\b',
+    r'\bMomentumB\b',
+    r'\bcaleulate\b',
+    r'\bfromn\b',
+    r'\bliabaikan\b',
+    r'\blincar\b',
+    r'\bactedon\b',
+    r'\bthesmalldurian\b',
+    r'\bbis durian\b',
+    r'\btha object\b',
+    r'\bdirecthy\b',
+    r'\blo the\b',
+    r'\bglassincreases\b',
+    r'\bglassdecreases\b',
+    r'\bwater bertambah\b',
+    r'\btotalmomentum\b',
+    r'\bIft =',
+    r'\bbolatersebut\b',
+    r'\btentangpergerakan\b',
+    r'\bMengupakah\b',
+    r'\bohjects\b',
+    r'\bmotorcvcle\b',
+    r'\bhardplastic\b',
+    r'\bofmnassm\b',
+    r'\bthedisplacenmentof\b',
+    r'\bDiagramm\s+\d+\b',
+]
+
+KNOWN_SQUASHED_SPACING_PATTERNS = [
+    r'\bthanthe\b',
+    r'\bofthe\b',
+    r'\bofchange\b',
+    r'\btheresultant\b',
+    r'\btheobject\b',
+    r'\bofmotion\b',
+    r'\bofMotion\b',
+    r'\bofmomentum\b',
+    r'\btheconceptof\b',
+    r'\bconceptof\b',
+    r'\bthefrictional\b',
+    r'\btheimpulsive\b',
+    r'\bthecar\b',
+    r'\btheball\b',
+    r'\btheground\b',
+    r'\btheacceleration\b',
+    r'\bthevelocity\b',
+    r'\btheforce\b',
+    r'\bthemass\b',
+    r'\btheequation\b',
+    r'\bthestatement\b',
+    r'\bthesituation\b',
+    r'\bthesurface\b',
+    r'\btochange\b',
+    r'\btoovercome\b',
+    r'\btoact\b',
+    r'\bisacted\b',
+    r'\bisstated\b',
+    r'\binthe\b',
+    r'\bonthe\b',
+    r'\bfromthe\b',
+    r'\bwiththe\b',
+    r'\bandthe\b',
+    r'\bbythe\b',
+    r'\bforthe\b',
+    r'\bisthe\b',
+    r'\barethe\b',
+    r'\bthatthe\b',
+    r'\bofmass\b',
+    r'\bofvelocity\b',
+    r'\bwithvelocity\b',
+    r'\bwitha\b',
+    r'\bwithan\b',
+    r'\bmovingwith\b',
+    r'\bmoveswith\b',
+    r'\banaccelerationof\b',
+    r'\batthe\b',
+    r'\bincreasethe\b',
+    r'\breducethe\b',
+    r'\bdecreasingspeed\b',
+    r'\btheathlete\b',
+    r'\bofoscillation\b',
+    r'\bofforces\b',
+    r'\bofconservation\b',
+    r'\bofconsenvationof\b',
+    r'\bofnnomentum\b',
 ]
 
 def audit_question_bank(js_file_path):
@@ -116,6 +232,17 @@ def audit_question_bank(js_file_path):
             if m:
                 issues.append(f"[{qid}] Invariant 3 Violation: Leaked table header / option values '{m.group(0)}' found in stem")
 
+        # --- INVARIANT 13 (Stem): Strict OCR Spelling & Spacing ---
+        for pattern in KNOWN_OCR_TYPO_PATTERNS:
+            m = re.search(pattern, stem, re.IGNORECASE)
+            if m:
+                issues.append(f"[{qid}] Invariant 13 Violation: OCR spelling typo '{m.group(0)}' found in stem")
+
+        for pattern in KNOWN_SQUASHED_SPACING_PATTERNS:
+            m = re.search(pattern, stem, re.IGNORECASE)
+            if m:
+                issues.append(f"[{qid}] Invariant 13 Violation: Squashed spacing error '{m.group(0)}' found in stem")
+
         # --- INVARIANT 5: Strict DSKP Semantic Classification Matrix ---
         stem_lower = stem.lower()
 
@@ -162,6 +289,25 @@ def audit_question_bank(js_file_path):
             if re.search(r'\b\d+\s*(?:km|ms|m|s|N|kg|g)\s+\d{1,3}$', teks):
                 issues.append(f"[{qid}] Invariant 8 Violation: Option {oid} has trailing stray digits: '{teks}'")
 
+            # Invariant 13 (Options): OCR typos & squashed spacing
+            for pattern in KNOWN_OCR_TYPO_PATTERNS:
+                m = re.search(pattern, teks, re.IGNORECASE)
+                if m:
+                    issues.append(f"[{qid}] Invariant 13 Violation: Option {oid} contains OCR spelling typo '{m.group(0)}'")
+
+            for pattern in KNOWN_SQUASHED_SPACING_PATTERNS:
+                m = re.search(pattern, teks, re.IGNORECASE)
+                if m:
+                    issues.append(f"[{qid}] Invariant 13 Violation: Option {oid} contains squashed spacing error '{m.group(0)}'")
+
+            # Invariant 13 (Options): Bilingual slash separation
+            if "<img" not in teks and len(teks) > 15:
+                has_bm = bool(re.search(r'\b(daya|hukum|pecutan|halaju|jisim|inersia|momentum|berat|objek|panjang|tempoh|arah|lebih|kurang|bertambah|berkurang|malar|seragam|sifar|sama)\b', teks, re.I))
+                has_en = bool(re.search(r'\b(force|law|acceleration|velocity|mass|inertia|momentum|weight|object|length|period|direction|greater|smaller|increase|decrease|constant|uniform|zero|same|thrust|frictional)\b', teks, re.I))
+                if has_bm and has_en:
+                    if " / " not in teks and r"\n" not in teks and " | " not in teks:
+                        issues.append(f"[{qid}] Invariant 13 Violation: Option {oid} contains bilingual text but lacks ' / ' separator: '{teks[:60]}...'")
+
     print(f"[*] Audited {question_count} questions successfully.")
 
     # --- INVARIANT 4: CSS Layout & Justified Alignment Check ---
@@ -180,7 +326,7 @@ def audit_question_bank(js_file_path):
             print(f"    - {iss}")
         return False
     else:
-        print("\n[✓] ALL 12 INVARIANTS SATISFIED (100% PASS): Repository is in pristine production state!")
+        print("\n[✓] ALL 13 INVARIANTS SATISFIED (100% PASS): Repository is in pristine production state!")
         return True
 
 if __name__ == "__main__":
