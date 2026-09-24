@@ -133,13 +133,13 @@ def main():
                         
             if stem_blocks:
                 stem_y1 = max(b[3] for b in stem_blocks)
+                y0 = stem_y1 + 2.0
             else:
-                candidates = [b[3] for b in blocks if (b[0] >= 285) == is_right and b[3] < cap_y0 - 50]
-                stem_y1 = max(candidates) if candidates else 50.0
+                # Diagram is positioned at the top of the column
+                y0 = 45.0
                 
-            x0 = 295.0 if is_right else 35.0
-            x1 = 555.0 if is_right else 295.0
-            y0 = stem_y1 + 2.0
+            x0 = 305.0 if is_right else 35.0
+            x1 = 555.0 if is_right else 290.0
             y1 = cap_y0 - 3.0
             
             # Initial crop
