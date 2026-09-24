@@ -18476,7 +18476,7 @@ const QUESTION_BANK = [
     "aras": "Rendah",
     "konstruk": "Mengingat",
     "soalan": "Rajah menunjukkan proses perubahan pepejal kepada cecair.\nDiagram shows a process of a solid changes to liquid.\n(SMKA: 2023)",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah1.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah1_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18611,7 +18611,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 2 menunjukkan graf penyejukan suatu bahan.\nDiagram 2 shows the cooling graph of a substance. (Kelantan: 2023)\n\nApakah yang berlaku kepada tenaga kinetik molekul antara titik X dan Y?\nWhat happen to the kinetic energy of the molecules between point X and Y?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah2.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah2_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18656,7 +18656,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 3 menunjukkan daya yang dikenakan pada satu omboh yang mengandungi udara terperangkap. Didapati isipadu udara terperangkap berkurang apabila daya yang lebih besar digunakan.\nDiagram 3 shows the force exerted on a piston containing trapped air. It was found that the volume of trapped air decreases when a greater force is applied. (Kelantan: 2023)\n\nApakah hukum yang menerangkan situasi di atas?\nWhat is the law that explain the above situation?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah3.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah3_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18701,7 +18701,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 4 menunjukkan dua objek yang berada dalam keseimbangan terma.\nDiagram 4 shows two objects that are in thermal equilibrium. (Melaka: 2023)\n\nPernyataan manakah yang betul bagi kedua-dua objek ini?\nWhich statement is correct for these two objects?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah4.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah4_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18746,7 +18746,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 5 menunjukkan nasi sedang dimasak menggunakan periuk tanah.\nDiagram 5 shows rice being cooked using clay pot. (Negeri Sembilan: 2023)\n\nApakah antara sifat fizikal periuk tanah yang menjadikannya sesuai digunakan untuk tujuan di atas?\nWhat are some of the physical properties of the clay pots that make them suitable to be used for the above purpose?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah5.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah5_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18791,7 +18791,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 6 menunjukkan proses respirasi (menarik nafas dan menghembus nafas).\nDiagram 6 shows respiration process (inhalation and exhalation). (Negeri Sembilan: 2023)\n\nAntara hukum fizik berikut, yang manakah menerangkan fenomena di atas?\nWhich of the following physics laws explains the phenomenon above?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah6.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah6_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18836,7 +18836,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 7 menunjukkan seorang budak yang demam dan diperiksa suhu badannya oleh seorang jururawat. Bacaan termometer diambil setelah bunyi 'bip' kedengaran pada termometer tersebut.\nDiagram 7 shows a boy with a fever and his temperature being checked by a nurse. The thermometer reading is taken after the 'beep' sound is heard on the thermometer. (Pahang: 2023)\n\nKonsep fizik manakah yang boleh menerangkan situasi ini?\nWhich physics concept can explain this situation?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah7.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah7_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18881,7 +18881,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 8 menunjukkan udara terperangkap dalam sebuah botol yang terapung di permukaan tasik pada waktu tengah hari. Pada waktu malam, isipadu udara yang terperangkap berkurang.\nDiagram 8 shows air trapped in a bottle floating on the surface of a lake at noon. At night, the volume of trapped air decreases. (Pahang: 2023)\n\nHukum manakah yang menerangkan situasi ini?\nWhich law explains this situation?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah8.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah8_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18926,7 +18926,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 9 menunjukkan rumah kayu di kawasan iklim sejuk.\nDiagram 9 shows a wooden house in a cold climate region. (Pulau Pinang: 2023)\n\nMengapakah rumah kayu sesuai dibina di kawasan iklim sejuk?\nWhy is a wooden house suitable to be built in cold climates?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah9.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah9_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -18971,7 +18971,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 10 menunjukkan Aziz sedang duduk berhampiran satu unggun api di dalam sebuah iglu untuk memanaskan badannya.\nDiagram 10 shows Aziz sitting near a campfire in an igloo to warm himself. (Pulau Pinang: 2023)\n\nApakah yang berlaku apabila keseimbangan terma tercapai?\nWhat happens when thermal equilibrium is achieved?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah10.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah10_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19016,7 +19016,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 11 menunjukkan graf suhu-masa bagi pepejal P dan Q. Kuantiti haba yang dibekalkan kepada P dan Q adalah sama.\nDiagram 11 shows the temperature-time graph for solid P and Q. The amount of heat supplied to P and Q is the same. (Pulau Pinang: 2023)\n\nAntara pernyataan berikut, yang manakah menerangkan tentang graf?\nWhich of the following statements explains the graph?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah11.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah11_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19106,7 +19106,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 12 menunjukkan dua blok logam P dan Q.\nDiagram 12 shows two metal blocks P and Q. (Perak: 2023)\n\nAntara pernyataan berikut, manakah yang benar mengenai situasi tersebut?\nWhich of the following statements is true about the situation?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah12.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah12_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19151,7 +19151,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 13 menunjukkan dua blok kuprum, P dan Q masing-masing mempunyai suhu 80 °C dan 40 °C. Kedua-dua blok itu berada dalam sentuhan terma.\nDiagram 13 shows two copper blocks, P and Q at a temperature of 80 °C and 40 °C respectively. The two blocks are in thermal contact. (Perlis: 2023)\n\nAntara pernyataan berikut, manakah yang betul?\nWhich of the following statements is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah13.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah13_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19241,7 +19241,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 14 menunjukkan semangkuk sup yang panas dibiarkan pada suhu bilik.\nDiagram 14 shows a bowl of hot soup being left at room temperature. (SBP: 2023)\n\nKeseimbangan terma dicapai apabila\nThermal equilibrium is reached when",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah14.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah14_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19286,7 +19286,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 15 menunjukkan sebiji belon yang masing-masing berisi udara dan air dibawa ke arah lilin yang menyala. Belon yang berisi udara meletup, manakala belon yang berisi air tidak meletup apabila ia menyentuh nyalaan lilin.\nDiagram 15 shows a balloon filled with air and water respectively being brought towards a lit candle. The balloon filled with air bursts, while the balloon filled with water does not burst when touching the candle flame. (SBP: 2023)\n\nPernyataan manakah yang betul?\nWhich statement is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah15.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah15_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19331,7 +19331,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 16 menunjukkan zarah-zarah udara dalam sebuah bekas tertutup sebelum dan selepas dipanaskan selama 5 minit.\nDiagram 16 shows air particles in a closed container before and after being heated for 5 minutes. (SBP: 2023)\n\nPasangan manakah yang betul selepas bekas tersebut dipanaskan?\nWhich pair is correct after the closed container is being heated?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah16.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah16_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19376,7 +19376,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 17 menunjukkan lengkung penyejukan apabila objek berubah keadaannya daripada gas kepada cecair.\nDiagram 17 shows the cooling curve when an object changes its state from gas to liquid. (Terengganu: 2023)\n\nApakah yang berlaku semasa proses pemeluwapan?\nWhat happens during condensation process?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah17.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah17_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19421,7 +19421,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 18 (a) menunjukkan bola ping-pong yang kemek. Rajah 18 (b) menunjukkan keadaan bola selepas diletakkan di dalam air panas.\nDiagram 18 (a) shows a dented ping-pong ball. Diagram 18 (b) shows the state of the ball after being placed in hot water. (SMKA: 2023)\n\nHukum fizik manakah yang menerangkan situasi ini?\nWhich physics law explains this situation?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah18.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah18_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19466,7 +19466,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 19 menunjukkan termometer digunakan untuk mengukur suhu air. Bacaan suhu diambil apabila termometer mencapai keseimbangan terma.\nDiagram 19 shows a thermometer is used to measure the temperature of water. The reading of the temperature is taken when the thermometer reaches thermal equilibrium. (SMKA: 2023)\n\nPernyataan manakah yang betul mengenai situasi ini?\nWhich statement is correct regarding this situation?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah19.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah19_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19511,7 +19511,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 20 (a) menunjukkan sebiji belon berisi gas helium di atas tanah. Rajah 20 (b) menunjukkan belon yang sama mengembang apabila ia naik ke atas. Kedua-dua situasi berlaku pada suhu yang sama.\nDiagram 20 (a) shows a balloon filled with helium gas on the ground. Diagram 20 (b) shows the same balloon expanding as it rises up. Both situations occur at the same temperature. (Kedah: 2022)\n\nHukum fizik manakah yang terlibat dalam situasi di atas?\nWhich physics law is involved in the situation above?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah20.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah20_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19556,7 +19556,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 21 menunjukkan susunan radas untuk mentahkikkan Hukum Charles. Apakah kegunaan turus asid sulfurik dalam tiub kapilari?\nDiagram 21 shows the arrangement of the apparatus to verify Charles' Law. What is the function of sulfuric acid column in the capillary tube? (Kedah: 2022)",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah21.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah21_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19646,7 +19646,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 22 menunjukkan lengkung penyejukan bagi suatu bahan berubah dari gas kepada pepejal.\nDiagram 22 shows the cooling curve of a substance changing from gas to solid. (Kelantan: 2022)\n\nPada peringkat manakah haba pendam tentu pengewapan dibebaskan?\nAt which stage is the specific latent heat of vaporization released?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah22.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah22_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19691,7 +19691,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 23 menunjukkan pembentukan bayu laut.\nDiagram 23 shows the formation of sea breeze. (Melaka: 2022)\n\nPernyataan manakah yang betul?\nWhich statement is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah23.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah23_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19736,7 +19736,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 24 menunjukkan periuk yang mempunyai tapak aluminium.\nDiagram 24 shows a pot with aluminium base. (MRSM: 2022)\n\nApakah yang terjadi kepada masa memasak makanan jika tapak periuk tersebut digantikan dengan kuprum?\n[Muatan haba tentu aluminium = 900 J kg^-1 °C^-1, kuprum = 390 J kg^-1 °C^-1]\nWhat happens to cooking time if the pot base is replaced with copper?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah24.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah24_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19781,7 +19781,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 25 menunjukkan graf pemanasan suhu, θ melawan masa, t bagi bahan X.\nDiagram 25 shows a heating graph of temperature, θ against time, t for substance X. (MRSM: 2022)\n\nPernyataan manakah yang benar?\nWhich statement is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah25.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah25_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19826,7 +19826,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 26 (a) menunjukkan sebiji belon diletakkan di atas pinggan. Rajah 26 (b) menunjukkan belon tersebut selepas cecair nitrogen dituang ke atasnya.\nDiagram 26 (a) shows a balloon put on a plate. Diagram 26 (b) shows the balloon after liquid nitrogen was poured over it. (MRSM: 2022)\n\nHukum gas manakah yang menerangkan situasi ini?\nWhich gas law explains this situation?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah26.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah26_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -19871,7 +19871,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 27 menunjukkan sebuah termometer merkuri.\nDiagram 27 shows a mercury thermometer. (Negeri Sembilan: 2022)\n\nAntara berikut, yang manakah akan menambahkan kepekaan termometer itu?\nWhich of the following will increase the sensitivity of the thermometer?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah27.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah27_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20006,7 +20006,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 28 menunjukkan lengkung pemanasan suatu bahan pepejal.\nDiagram 28 shows the heating curve of a solid material. (Pahang: 2022)\n\nPada peringkat Y, haba yang diserap oleh objek ialah\nAt level Y, the heat absorbed by the object is",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah28.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah28_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20096,7 +20096,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Sejenis bahan dipanaskan pada kadar yang tetap. Bahan tersebut berubah daripada pepejal menjadi cecair, dan kemudian gas. Rajah 29 menunjukkan graf bagaimana suhunya berubah terhadap masa.\nA substance is heated at a steady rate. It changes from solid to a liquid, and then to a gas. Diagram 29 shows the graph of how its temperature varies with time. (Perlis: 2022)\n\nAntara bahagian graf berikut, yang manakah mewakili peleburan?\nWhich part of the graph represents melting?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah29.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah29_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20276,7 +20276,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 30 menunjukkan lengkung penyejukan suatu bahan.\nDiagram 30 shows the cooling curve of a substance. (Selangor: Set 1: 2022)\n\nApakah kesan haba yang dibebaskan oleh bahan tersebut antara masa t1 dan t2?\nWhat is the effect of heat released by the substance between time t1 and t2?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah30.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah30_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20366,7 +20366,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 31 menunjukkan sebiji bola logam yang panas dimasukkan ke dalam air sejuk.\nDiagram 31 shows a hot metal ball being immersed into a cold water. (Selangor: Set 2: 2022)\n\nApakah yang berlaku apabila keseimbangan terma dicapai?\nWhat happens when thermal equilibrium is reached?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah31.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah31_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20501,7 +20501,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 32 menunjukkan sebuah botol plastik berisi udara di dalam peti sejuk, sebelum dan selepas disejukkan.\nDiagram 32 shows an empty plastic bottle filled with air in the refrigerator, before and after cooling. (SMKA: 2022)\n\nFenomena ini berlaku kerana\nThis phenomenon occurs because",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah32.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah32_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20546,7 +20546,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 33 menunjukkan lengkung pemanasan bagi suatu cecair.\nDiagram 33 shows the heating curve of a liquid. (Terengganu: 2022)\n\nPernyataan manakah yang menerangkan apa yang berlaku semasa cecair mendidih?\nWhich statement explains what happens when the liquid is boiling?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah33.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah33_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20636,7 +20636,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 34 menunjukkan susunan radas untuk mengkaji hubungan antara isipadu turus udara, V dan suhu, T bagi jisim udara yang malar.\nDiagram 34 shows an arrangement of apparatus to investigate the relationship between the volume of air column, V and temperature, T for a constant mass of air. (Perak: 2021)\n\nApakah fungsi turus asid sulfurik pekat?\nWhat is the function of the concentrated sulfuric acid column?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah34.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah34_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20681,7 +20681,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 35 menunjukkan seorang budak berjalan di atas pasir dan seorang budak berjalan dalam air laut pada waktu siang yang panas.\nDiagram 35 shows a boy walking on the sand and another boy walking in sea water on a hot daytime. (Sarawak: 2021)\n\nMengapakah pasir terasa lebih panas berbanding air laut?\nWhy does sand feel hotter than sea water?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah35.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah35_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20726,7 +20726,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 36 menunjukkan alkohol ditiup berulang kali menggunakan penyedut minuman. Didapati bahawa bahagian luar bikar menjadi sejuk.\nDiagram 36 shows alcohol is blown repeatedly by using drinking straw. It was found that the outside of the beaker becomes cold. (Sarawak: 2021)\n\nHal ini berlaku kerana\nThis happens because",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah36.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah36_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20771,7 +20771,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 37 menunjukkan objek A dan objek B pada suhu T1 dan T2. Haba mengalir dari A ke B sehingga keseimbangan terma dicapai pada suhu T.\nDiagram 37 shows object A and object B at temperatures T1 and T2. Heat flows from A to B until thermal equilibrium is achieved at temperature T. (Selangor: Set 1: 2021)\n\nHubungan suhu manakah yang betul?\nWhich temperature relationship is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah37.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah37_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20861,7 +20861,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 38 menunjukkan sebiji belon yang diletakkan di dalam bekas kedap udara.\nDiagram 38 shows a balloon which is placed in an air-tight container. (Selangor: Set 1: 2021)\n\nJika omboh ditolak ke bawah pada suhu malar, apakah yang akan berlaku kepada saiz belon?\nIf the piston is pushed down at constant temperature, what will happen to the size of the balloon?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah38.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah38_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20906,7 +20906,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 39 menunjukkan blok pepejal A dan B yang berjisim sama sedang dipanaskan. Suhu awal A dan B adalah sama dan dipanaskan dengan jumlah tenaga yang sama. Didapati suhu akhir A lebih tinggi daripada suhu akhir B.\nDiagram 39 shows solid blocks A and B of equal mass being heated. The initial temperature of A and B is the same and they are heated with the same amount of energy. It is found that the final temperature of A is higher than B. (Selangor: Set 2: 2021)\n\nPernyataan manakah yang benar?\nWhich statement is true?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah39.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah39_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -20996,7 +20996,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 40 menunjukkan seorang lelaki menuangkan air ke dalam radiator kereta bertujuan membantu mengawal suhu enjin.\nDiagram 40 shows a man pouring water into his car's radiator to control the temperature of an engine. (MRSM: 2021)\n\nMengapakah air digunakan dalam sistem penyejuk radiator kereta?\nWhy is water used in a car radiator cooling system?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah40.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah40_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21041,7 +21041,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 41 menunjukkan fenomena bayu laut.\nDiagram 41 shows the sea breeze phenomenon. (MRSM: 2021)\n\nMengapakah fenomena bayu laut berlaku pada waktu siang?\nWhy does the sea breeze phenomenon occur during daytime?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah41.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah41_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21086,7 +21086,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 42 (a) menunjukkan air dipanaskan menggunakan pemanas. Sebuah termometer dwilogam merekodkan suhu air tersebut. Rajah 42 (b) menunjukkan isipadu air selepas 20 minit mendidih.\nDiagram 42 (a) shows water is being heated using a heater. A bimetallic thermometer is used to record the temperature. Diagram 42 (b) shows volume of water after 20 minutes of boiling. (Melaka: 2021)\n\nApakah konsep fizik yang menerangkan penurunan isipadu air semasa mendidih pada suhu malar?\nWhat is the physics concept that explains the decrease in water volume during boiling at constant temperature?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah42.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah42_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21131,7 +21131,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 43 menunjukkan pandangan belakang sebuah peti sejuk. Selepas gas penyejuk dimampatkan oleh pemampat, ia akan melalui bahagian kondenser. Perubahan keadaan jirim berlaku kepada gas semasa melalui kondenser.\nDiagram 43 shows rear view of a refrigerator. After refrigerant gas is compressed, it flows through condenser. State of matter changes when gas passes through condenser. (Melaka: 2021)\n\nApakah perubahan fasa yang berlaku di dalam kondenser?\nWhat phase change occurs in the condenser?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah43.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah43_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21176,7 +21176,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 44 menunjukkan sfera logam pada suhu 90 °C direndam ke dalam cecair pada suhu 40 °C.\nDiagram 44 shows a metal sphere at temperature of 90 °C immersed in a liquid at temperature of 40 °C. (Melaka: 2021)\n\nAntara pernyataan berikut, yang manakah betul apabila keseimbangan terma dicapai?\nWhich of the following statements is correct when thermal equilibrium is reached?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah44.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah44_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21221,7 +21221,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 45 menunjukkan satu sudu logam diletakkan dalam secawan kopi panas.\nDiagram 45 shows a cold metal spoon is placed in a cup of hot coffee. (Perlis: 2021)\n\nTentukan pernyataan yang betul tentang pengaliran haba antara sudu dan kopi panas sebelum mencapai keseimbangan terma.\nDetermine the correct statement about heat flow between spoon and hot coffee before reaching thermal equilibrium.",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah45.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah45_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21266,7 +21266,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 46 menunjukan botol plastik kosong diletakkan dalam peti sejuk. Selepas beberapa minit disejukkan, botol plastik itu kemek.\nDiagram 46 shows an empty plastic bottle is placed in a refrigerator. After a few minutes of cooling, the plastic bottle is dented. (Perlis: 2021)\n\nFenomena ini dapat diterangkan oleh\nThis phenomenon can be explained by",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah46.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah46_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21311,7 +21311,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 47 menunjukkan satu termometer yang diletakkan di bawah lidah pesakit. Selepas beberapa ketika, suhu pesakit ialah 37.8 °C.\nDiagram 47 shows a thermometer is placed under a patient's tongue. After a while, the patient's temperature is 37.8 °C. (Perlis: 2021)\n\nPernyataan manakah yang betul?\nWhich statement is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah47.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah47_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21356,7 +21356,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 48 menunjukkan keadaan baju yang digosok menggunakan seterika wap. Baju yang digosok menggunakan seterika wap lebih licin dan rapi.\nDiagram 48 shows a condition of a shirt that is ironed with a steamed iron. Clothes that are ironed using a steamed iron are smoother and neater. (Perlis: 2021)\n\nApakah konsep fizik yang diaplikasikan?\nWhat physics concept is applied?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah48.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah48_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21491,7 +21491,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 49 menunjukkan sekeping keju diletakkan di atas sekeping roti dan dibakar di dalam oven. Apabila dikeluarkan dari oven dalam beberapa minit, didapati keju yang cair masih lagi panas berbanding roti.\nDiagram 49 shows a piece of cheese placed on top of a piece of bread and baked in the oven. When removed from the oven in a few minutes, it is found that the melted cheese is still hotter than the bread. (SPM: 2023)\n\nAntara pernyataan berikut, yang manakah betul?\nWhich of the following statements is correct?\nI Keju menyerap haba dengan banyak / Cheese absorbs more heat\nII Keju mempunyai muatan haba tentu yang tinggi / Cheese has higher specific heat capacity\nIII Keju dan roti mempunyai muatan haba tentu yang sama / Cheese and bread have same specific heat capacity\nIV Muatan haba tentu keju lebih rendah berbanding roti / The specific heat capacity of cheese is lower than the bread",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah49.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah49_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21626,7 +21626,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 50 menunjukkan sebuah tangki skuba.\nDiagram 50 shows a scuba tank. (Negeri Sembilan: 2023)\n\nTekanan awal di dalam tangki ialah 1.317 x 10^7 Pa. Kira tekanan akhir di dalam tangki selepas ia menyejuk dari 1 000 °C hingga 25 °C.\nThe initial pressure in the tank is 1.317 x 10^7 Pa. Calculate the final pressure in the tank after it cools from 1 000 °C to 25 °C.",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah50.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah50_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21671,7 +21671,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 51 menunjukkan omboh kedap udara di dalam silinder yang mengandungi gas pada suhu malar.\nDiagram 51 shows an air tight piston in a cylinder containing gas at a constant temperature. (Perlis: 2023)\n\nApabila omboh berada di kedudukan W (panjang turus 20 cm), tekanan gas ialah P. Berapakah tekanan gas itu apabila omboh ditarik keluar ke kedudukan X (panjang turus 40 cm)?\nWhen the piston is at position W, the gas pressure is P. What is the gas pressure when the piston is pulled out to position X?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah51.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah51_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -21761,7 +21761,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Sebuah cerek elektrik yang mempunyai kadar kuasa 240 V, 2000 W digunakan untuk mendidihkan 500 g air. Rajah 52 menunjukkan graf suhu, T melawan masa, t bagi proses tersebut.\nAn electric kettle with power rating 240 V, 2000 W is used to boil 500 g of water. Diagram 52 shows the graph of temperature, T against time, t of the process. (MRSM: 2023)\n\nBerapakah masa yang diperlukan, X untuk mendidihkan air tersebut?\n[Muatan haba tentu air, c = 4200 J kg^-1 °C^-1]\nWhat is the time taken, X to boil the water?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah52.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah52_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22076,7 +22076,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 53 menunjukkan ketulan ais dipanaskan menggunakan pemanas elektrik berkuasa 50 Watt selama 60 saat.\nDiagram 53 shows ice cubes being heated by an electrical heater with the power 50 Watt within 60 seconds. (SBP: 2022)\n\nHitung jisim ais yang telah melebur.\n[Haba pendam tentu pelakuran = 3.3 x 10^5 J kg^-1]\nCalculate the mass of the ice cubes that have melted.",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah53.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah53_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22121,7 +22121,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 54 menunjukkan satu silinder logam yang berjisim 3 kg dan muatan haba tentu 2 450 J kg^-1 °C^-1 dipanaskan dengan pemanas yang berkuasa 0.5 kW.\nDiagram 54 shows a metal cylinder of mass 3 kg and specific heat capacity 2 450 J kg^-1 °C^-1 is heated with a heater of power 0.5 kW. (Selangor: Set 1: 2022)\n\nBerapakah kenaikan suhu silinder itu jika pemanas dihidupkan selama 1 minit?\nWhat is the rise in temperature of the cylinder if the heater is switched on for 1 minute?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah54.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah54_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22166,7 +22166,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 55 menunjukkan satu silinder logam yang berjisim 2.5 kg dipanaskan dengan pemanas yang berkuasa 0.3 kW selama 3 minit.\nDiagram 55 shows a metal cylinder of mass 2.5 kg is heated with a heater of power 0.3 kW for 3 minutes. (Selangor: Set 2: 2022)\n\nApakah muatan haba tentu untuk silinder itu jika kenaikan suhu adalah sebanyak 34 °C?\nWhat is the specific heat capacity of the cylinder if the temperature rise is 34 °C?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah55.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah55_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22301,7 +22301,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 56 menunjukkan empat blok P, Q, R dan S dengan muatan haba tentu yang berbeza tetapi mempunyai jisim dan suhu awal yang serupa, dipanaskan di atas dapur dengan jumlah tenaga haba yang sama.\nDiagram 56 shows four blocks, P, Q, R and S with different specific heat capacity but have the same mass and initial temperature, were heated on the stove by the same amount of heat energy. (Kelantan: 2021)\n[P = 900 J kg^-1 °C^-1, Q = 500 J kg^-1 °C^-1, R = 390 J kg^-1 °C^-1, S = 130 J kg^-1 °C^-1]\n\nBlok manakah yang akan mempunyai kenaikan suhu yang paling tinggi selepas dipanaskan selama 10 minit?\nWhich block will have the highest increase in temperature after being heated for 10 minutes?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah56.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah56_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22346,7 +22346,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 57 (a) dan Rajah 57 (b) menunjukkan dua picagari yang serupa dengan muncungnya ditutup. Apabila isipadu udara terperangkap dalam picagari adalah 3 ml, tekanannya adalah 1 x 10^5 Pa. Kemudian omboh ditolak perlahan-lahan sehingga isipadunya 0.45 ml.\nDiagram 57 (a) and Diagram 57 (b) shows two identical syringes with their nozzles closed. When the volume of air trapped in the syringe is 3 ml, the pressure is 1 x 10^5 Pa. Then the piston is pushed slowly until its volume is 0.45 ml. (Sarawak: 2021)\n\nBerapakah tekanan udara yang terperangkap?\nWhat is the pressure of trapped air?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah57.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah57_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22391,7 +22391,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 58 menunjukkan bacaan tolok tekanan di dalam sebuah kelalang yang berisi gas pada bilik yang bersuhu 20 °C ialah 80 kPa. Apabila dipanaskan sehingga peningkatan suhu sebanyak 30 °C, bacaan tolok tekanan menunjukkan perubahan.\nDiagram 58 shows the reading of the pressure gauge in a flask containing gas in a room at temperature of 20 °C is 80 kPa. When heated to the increase of the temperature by 30 °C, the readings of the pressure gauge show a change. (Negeri Sembilan: 2021)\n\nApakah bacaan tolok tekanan pada suhu yang baru?\nWhat is the pressure gauge reading at the new temperature?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah58.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah58_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22436,7 +22436,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Rajah 59 menunjukkan sebuah termometer merkuri dalam kaca. Skala termometer belum ditandakan. Panjang turus merkuri, l meningkat secara seragam dengan suhu. Panjang, l ialah 2.0 cm pada 0 °C dan 26.0 cm pada 100 °C.\nDiagram 59 shows a mercury-in-glass thermometer. The scale has not been marked. Length of mercury column, l increases uniformly with temperature. Length l is 2.0 cm at 0 °C and 26.0 cm at 100 °C. (Pahang: 2021)\n\nBerapakah nilai l apabila bebuli diletakkan di dalam air pada suhu 50 °C?\nWhat is the value of l when the bulb is placed in water at 50 °C?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah59.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah59_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22526,7 +22526,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
     "soalan": "Suatu pepejal berjisim 1.2 kg dipanaskan menggunakan pemanas elektrik yang membekalkan 600 J tenaga haba dalam masa satu saat. Rajah 60 menunjukkan graf suhu melawan masa bagi pepejal tersebut.\nA solid of a mass 1.2 kg is heated by an electric heater which supplies 600 J of heat energy per second. Diagram 60 shows the temperature-time graph of the solid. (Perlis: 2021)\n\nCari nilai haba pendam tentu pelakuran bagi pepejal tersebut.\nFind the specific latent heat of fusion for the solid.",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah60.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah60_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22571,7 +22571,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 61 (a) menunjukkan sebuah picagari dengan udara terperangkap. Rajah 61 (b) menunjukkan keadaan picagari itu apabila ombohnya ditekan ke bawah secara perlahan-lahan.\nDiagram 61 (a) shows a syringe with air trapped. Diagram 61 (b) shows the syringe after the piston was pushed down slowly. (Perak: 2023)\n\nAntara berikut, yang manakah betul mengenai situasi zarah-zarah udara dalam Rajah 61 (b) berbanding dengan Rajah 61 (a)?\nWhich comparison is correct between the situation of air particles in Diagram 61 (b) compared to Diagram 61 (a)?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah61.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah61_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22616,7 +22616,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 62 menunjukkan pergerakan udara semasa bayu darat pada waktu malam.\nDiagram 62 shows the movement of air during a land breeze at night. (Melaka: 2023)\n\nAntara pernyataan berikut yang manakah benar?\nWhich of the following statements is true?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah62.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah62_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22661,7 +22661,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 63 menunjukkan sebungkus ais diletakkan di atas dahi seorang kanak-kanak yang mengalami demam panas.\nDiagram 63 shows an ice pack placed on the forehead of a child with a high fever. (Negeri Sembilan: 2023)\n\nPada permulaannya, manakah antara yang berikut betul tentang sentuhan terma kepala kanak-kanak dengan bungkusan ais tersebut?\nInitially, which of the following is correct about the thermal contact of the child's head with the ice pack?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah63.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah63_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22706,7 +22706,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 64 menunjukkan sebuah radiator kereta. Air digunakan sebagai agen penyejuk dalam radiator.\nDiagram 64 shows a radiator of a car. Water is used as a cooling agent in the radiator. (SBP: 2022)\n\nKombinasi manakah yang betul untuk menerangkan mengapa air sesuai digunakan sebagai agen penyejuk dalam radiator kereta?\nWhich combination is correct to explain why water is suitable to be used as a cooling agent?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah64.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah64_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22751,7 +22751,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 65 menunjukkan keadaan belon sebelum dan semasa kelalang berisi air dipanaskan.\nDiagram 65 shows the state of the balloon before and while the flask filled with water is heated. (SBP: 2022)\n\nAntara berikut yang manakah menerangkan situasi ini?\nWhich of the following explains this situation?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah65.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah65_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22796,7 +22796,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 66 (a) menunjukkan dua cecair M dan N yang sama jisim dipanaskan oleh dapur yang sama. Muatan haba tentu cecair M = 4800 J kg^-1 °C^-1 manakala cecair N = 4000 J kg^-1 °C^-1. Rajah 66 (b) menunjukkan cecair selepas dipanaskan selama 5 minit.\nDiagram 66 (a) shows two liquids M and N of equal mass heated by an identical stove. Diagram 66 (b) shows the liquids after heated for 5 minutes. (Terengganu: 2022)\n\nAntara pernyataan berikut, yang manakah betul berdasarkan situasi di atas?\nWhich of the following statements is correct based on situations above?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah66.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah66_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22841,7 +22841,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 67 menunjukkan bacaan tekanan molekul-molekul gas di dalam dua buah kelalang yang bersambungan melalui satu injap.\nDiagram 67 shows the pressure readings of gas molecules in two flasks connected through a valve. (Negeri Sembilan: 2021)\n\nManakah perbandingan bacaan tolok tekanan A dan B adalah benar apabila injap dibuka?\nWhich comparison is true for the readings of pressure gauges A and B when the valve is opened?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah67.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah67_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22931,7 +22931,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 68 menunjukkan satu picagari tertutup yang mengandungi udara terperangkap dipanaskan di dalam bikar berisi air. Selepas pemanasan, kedudukan omboh didapati bergerak ke atas.\nDiagram 68 shows a sealed syringe containing air trapped is heated in a beaker filled with water. After heating the position of the piston moves upward. (SBP: 2021)\n\nBerdasarkan pemerhatian dalam Rajah 68, didapati bahawa\nBased on the observation in Diagram 68, it is found that",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah68.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah68_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -22976,7 +22976,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 69 menunjukkan satu blok plumbum (c = 130 J kg^-1 °C^-1), satu blok besi (c = 460 J kg^-1 °C^-1) dan satu blok aluminium (c = 910 J kg^-1 °C^-1). Semua blok itu mempunyai jisim dan suhu awal yang sama dan dibiarkan menyejuk. Selepas 15 minit suhu ketiga-tiga logam itu direkodkan.\nDiagram 69 shows a lead block, an iron block and aluminium block of same mass and initial temperature left to cool. (Melaka: 2021)\n\nPerbandingan yang manakah betul tentang perubahan suhu bagi blok plumbum, θP, blok besi, θQ dan blok aluminium, θR?\nWhich comparison is correct about the change in temperature of lead block, θP, iron block, θQ, and aluminium block, θR?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah69.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah69_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -23021,7 +23021,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 70 menunjukkan empat blok logam yang mempunyai jisim yang sama dengan muatan haba tentu yang berbeza [A: 150 J kg^-1 °C^-1, B: 450 J kg^-1 °C^-1, C: 500 J kg^-1 °C^-1, D: 1000 J kg^-1 °C^-1]. Sejumlah haba yang sama dibekalkan kepada setiap blok.\nDiagram 70 shows four metal blocks having the same mass with different specific heat capacities. The same amount of heat is supplied to each block. (Perak: 2023)\n\nAntara blok logam A, B, C dan D, manakah akan menunjukkan bacaan suhu yang paling tinggi?\nWhich metal block A, B, C and D, will show the highest temperature reading?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah70.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah70_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -23111,7 +23111,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 71 menunjukkan dua buah rumah banglo yang dibuat daripada bahan yang sama.\nDiagram 71 shows two bungalows which are made from the same material. (SPM: 2022)\n\nAntara berikut, pernyataan yang manakah betul?\nWhich of the following statements is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah71.webp",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah71_v2.webp",
     "pilihan": [
       {
         "id": "A",

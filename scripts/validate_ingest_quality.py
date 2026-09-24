@@ -233,8 +233,10 @@ def audit_question_bank(js_file_path):
             # Must point to production Cloudflare R2 CDN or valid local asset
             if not (img_url.startswith("https://pub-") or img_url.startswith("assets/")):
                 issues.append(f"[{qid}] Invariant 1 Violation: Diagram image URL '{img_url}' not hosted on valid CDN/asset path")
-            # Invariant 1 & 6: For Bab 3 questions, ensure upgraded _v2.webp is used (strictly excluding caption "Rajah [...]")
+            # Invariant 1 & 6: For Bab 3 & Bab 4 questions, ensure upgraded _v2.webp is used (strictly excluding caption "Rajah [...]")
             if "_B3_" in qid and "t4_b3_rajah" in img_url and "_v2.webp" not in img_url:
+                issues.append(f"[{qid}] Invariant 1 Violation: Diagram '{img_url}' is using legacy v1 crop with caption text. Must use '_v2.webp'")
+            if "_B4_" in qid and "t4_b4_rajah" in img_url and "_v2.webp" not in img_url:
                 issues.append(f"[{qid}] Invariant 1 Violation: Diagram '{img_url}' is using legacy v1 crop with caption text. Must use '_v2.webp'")
 
         # --- INVARIANT 2 & 9: Diagram label & table header leaks ---
