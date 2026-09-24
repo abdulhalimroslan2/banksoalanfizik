@@ -14696,7 +14696,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 1 menunjukkan sebuah roket air ketika dilancarkan.\nDiagram 1 shows a water rocket as it was launched. (Melaka: 2023)\n\nSituasi ini boleh dijelaskan oleh\nThis situation can be explained by",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah1.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah1.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -14880,19 +14880,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_a.webp?v=20260924_v2\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_a.webp?v=20260924_v3\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "B",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_b.webp?v=20260924_v2\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_b.webp?v=20260924_v3\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "C",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_c.webp?v=20260924_v2\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_c.webp?v=20260924_v3\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "D",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_d.webp?v=20260924_v2\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q06_opt_d.webp?v=20260924_v3\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
       }
     ],
     "jawapanBetul": "A",
@@ -14925,19 +14925,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_a.webp?v=20260924_v2\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_a.webp?v=20260924_v3\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "B",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_b.webp?v=20260924_v2\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_b.webp?v=20260924_v3\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "C",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_c.webp?v=20260924_v2\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_c.webp?v=20260924_v3\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "D",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_d.webp?v=20260924_v2\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q07_opt_d.webp?v=20260924_v3\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
       }
     ],
     "jawapanBetul": "D",
@@ -15101,7 +15101,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 2 menunjukkan Ahmad, Rama dan Lim yang mempunyai jisim yang sama berdiri pada kedudukan masing-masing.\nDiagram 2 shows Ahmad, Rama and Lim who have the same mass standing at their respective positions.\n(Selangor: Set 1: 2023)\n\nPernyataan manakah yang betul?\nWhich statement is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah2.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah2.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -15371,7 +15371,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 3 menunjukkan angkasawan memakai sut angkasa lepas berjisim 82 kg. Dia mendapati berjalan di permukaan Bulan lebih mudah berbanding di permukaan Bumi dengan memakai sut yang sama.\nDiagram 3 shows an astronaut wearing a space suit with mass 82 kg. He discovered that walking on the surface of Moon is easier compared to the surface of Earth wearing the same suit.\n(MRSM: 2023)\n\nSituasi ini berlaku kerana\nThis situation occurs because",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah3.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah3.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -15416,7 +15416,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 4 menunjukkan sebuah roket dilancarkan bagi menghantar satelit buatan manusia ke angkasa lepas.\nDiagram 4 shows a rocket being launched to send man-made satellite to outer space.\n(Melaka: 2022)\n\nApakah syarat agar roket dapat mengatasi daya graviti Bumi sepenuhnya?\nWhat is the condition for the rocket to completely overcome Earth's gravitational pull?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah4.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah4.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -15461,7 +15461,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 5 menunjukkan satu objek berjisim, m bergerak dalam lintasan membulat berjejari, r dengan laju linear, v. Objek tersebut mengalami daya memusat, F.\nDiagram 5 shows an object of mass, m moves in a circular path of radius, r with a linear speed, v. The object experiences centripetal force, F.\n(Melaka: 2022)\n\nArah daya memusat adalah sentiasa\nThe direction of centripetal force is always",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah5.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah5.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -15731,7 +15731,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 6 menunjukkan graf hubungan antara daya graviti, F dan jisim, m untuk objek berhampiran permukaan Bumi.\nDiagram 6 shows the graph of relationship between gravitational force, F and mass, m for objects near to Earth's surface.\n(Putrajaya: 2022)\n\nKecerunan graf mewakili\nGradient of graph represents",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah6.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah6.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -15776,7 +15776,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 7 menunjukkan sebuah planet berjisim m, bergerak dalam orbit membulat berjejari r mengelilingi Matahari berjisim M dalam satu pusingan lengkap.\nDiagram 7 shows a planet of mass m, moving in a circular orbit of radius r around the Sun of mass M in one complete revolution.\n(Putrajaya: 2022)\n\nDaya graviti yang bertindak sebagai daya memusat diberikan oleh\nThe gravitational force that acts as the centripetal force is given by",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah7.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah7.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -15866,7 +15866,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 8 menunjukkan sebuah satelit yang digunakan dalam Sistem Penentu Kedudukan Global (GPS).\nDiagram 8 shows a satellite used in the Global Positioning System (GPS).\n(SBP: 2022)\n\nAntara ciri-ciri satelit GPS berikut, yang manakah benar?\nWhich of the following characteristics of a GPS satellite is true?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah8.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah8.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -15911,7 +15911,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 9 menunjukkan sebuah satelit yang mengorbit Bumi.\nDiagram 9 shows a satellite orbiting the Earth.\n(SMKA: 2022)\n\nAntara lintasan A, B, C atau D yang manakah akan dilalui oleh satelit itu jika laju linearnya bertambah secara mendadak tetapi belum mencapai halaju lepas?\nWhich of the paths A, B, C or D will the satellite follow if its linear speed increases suddenly but has not reached escape velocity?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah9.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah9.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -16046,7 +16046,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 10 menunjukkan luas yang dicakup dalam masa yang sama di kawasan PQR dan XYZ bagi sebuah planet yang mengorbit Matahari.\nDiagram 10 shows the area swept out in the same time in regions PQR and XYZ for a planet orbiting the Sun.\n(Terengganu: 2022)\n\nAntara berikut yang manakah benar tentang luas PQR dan XYZ?\nWhich of the following is true about the areas PQR and XYZ?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah10.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah10.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -16140,19 +16140,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_a.webp?v=20260924_v2\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_a.webp?v=20260924_v3\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "B",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_b.webp?v=20260924_v2\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_b.webp?v=20260924_v3\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "C",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_c.webp?v=20260924_v2\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_c.webp?v=20260924_v3\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "D",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_d.webp?v=20260924_v2\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q34_opt_d.webp?v=20260924_v3\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
       }
     ],
     "jawapanBetul": "B",
@@ -16226,7 +16226,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 11 menunjukkan satu planet mengorbit Matahari.\nDiagram 11 shows a planet orbiting the Sun.\n(MRSM: 2021)\n\nPernyataan yang manakah betul menerangkan pergerakan planet tersebut dalam orbitnya?\nWhich statement is correct to describe movement of the planet in its orbit?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah11.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah11.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -16271,7 +16271,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 12 menunjukkan sebuah roket dilancarkan bagi melepaskan diri daripada tarikan graviti Bumi.\nDiagram 12 shows a rocket being launched to escape from Earth's gravity.\n(MRSM: 2021)\n\nApakah yang dimaksudkan dengan halaju lepas?\nWhat is meant by escape velocity?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah12.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah12.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -16316,7 +16316,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 13 menunjukkan empat kedudukan bagi sebuah planet yang bergerak mengelilingi Matahari mengikut orbit berbentuk elips.\nDiagram 13 shows four positions of a planet that moves around the Sun in an elliptical orbit.\n(Pahang: 2021)\n\nPada kedudukan manakah A, B, C dan D, halaju planet tersebut adalah maksimum?\nAt which position A, B, C or D, the velocity of the planet is maximum?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah13.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah13.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -16406,7 +16406,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 14 menunjukkan sebuah satelit geopegun sedang mengorbit Bumi.\nDiagram 14 shows a geostationary satellite is orbiting the Earth.\n(SBP: 2021)\n\nPernyataan manakah yang betul mengenai satelit tersebut?\nWhich statement is correct about the satellite?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah14.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah14.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -16541,7 +16541,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 15 menunjukkan orbit sebuah roket sepanjang lengkung R apabila ia bergerak dengan laju linear, v.\nDiagram 15 shows the orbit of a rocket along curve R when it moves with linear speed, v.\n(Perlis: 2021)\n\nJika tiba-tiba kelajuannya dikurangkan ke ½ v, mana satu antara P, Q, S dan T akan menjadi orbit baru bagi roket tersebut?\nIf suddenly its speed is reduced to ½ v, which one of P, Q, S and T will become the new orbit for the rocket?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah15.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah15.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -16631,7 +16631,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 16 menunjukkan sebuah roket sedang berlepas dari permukaan Bumi.\nDiagram 16 shows a rocket is taking off from the surface of the Earth.\n(SPM: 2021)\n\nApakah faktor yang mempengaruhi halaju lepas roket tersebut dari permukaan Bumi?\nWhat factor affects the escape velocity of the rocket from the Earth's surface?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah16.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah16.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -16680,19 +16680,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_a.webp?v=20260924_v2\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_a.webp?v=20260924_v3\" alt=\"Graf Pilihan A\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "B",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_b.webp?v=20260924_v2\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_b.webp?v=20260924_v3\" alt=\"Graf Pilihan B\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "C",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_c.webp?v=20260924_v2\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_c.webp?v=20260924_v3\" alt=\"Graf Pilihan C\" style=\"max-height:100px; display:block; margin:auto;\" />"
       },
       {
         "id": "D",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_d.webp?v=20260924_v2\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k2_q46_opt_d.webp?v=20260924_v3\" alt=\"Graf Pilihan D\" style=\"max-height:100px; display:block; margin:auto;\" />"
       }
     ],
     "jawapanBetul": "B",
@@ -16901,7 +16901,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 17 menunjukkan sebuah roket dilancarkan dengan halaju tinggi dan mengatasi daya graviti Bumi.\nDiagram 17 shows a rocket launched with high velocity and overcome the Earth's gravitational force.\n(SPM: 2023)\n\nAntara pernyataan berikut, yang manakah betul?\nWhich of the following statements is correct?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah17.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah17.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -17081,7 +17081,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 18 menunjukkan satelit penyelidikan mengorbit pada ketinggian 420 km untuk melihat pengimejan sebuah pulau di tengah laut.\n[Jejari orbit Bulan = 3.83 × 10⁸ m, jejari Bumi = 6.37 × 10⁶ m, tempoh orbit Bulan = 655.2 jam]\nDiagram 18 shows the research satellite orbits at an altitude of 420 km to see the imaging of an island in the middle of the ocean.\n[Radius of the orbit of the Moon = 3.83 × 10⁸ m, radius of the Earth = 6.37 × 10⁶ m, orbital period of the Moon = 655.2 hours]\n(Pahang: 2023)\n\nBerapakah tempoh orbit satelit itu?\nWhat is the period of the satellite's orbit?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah18.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah18.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -17126,7 +17126,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 19 menunjukkan Bulan beredar mengelilingi Bumi dalam orbitnya.\nDiagram 19 shows the Moon revolves around the Earth in its orbit.\n(Pulau Pinang: 2023)\n\nTentukan daya graviti yang dikenakan oleh Bumi terhadap Bulan.\n[Jisim Bumi = 5.97 × 10²⁴ kg, Jisim Bulan = 7.35 × 10²² kg, Jarak di antara pusat Bumi ke pusat Bulan = 3.83 × 10⁸ m dan G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nDetermine the gravitational force exerted by Earth on the Moon.\n[Mass of the Earth = 5.97 × 10²⁴ kg, Mass of the Moon = 7.35 × 10²² kg, Distance between center of the Earth to the center of the Moon = 3.83 × 10⁸ m and G = 6.67 × 10⁻¹¹ N m² kg⁻²]",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah19.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah19.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -17220,19 +17220,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_a.webp?v=20260924_v2' alt='Pilihan A' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_a.webp?v=20260924_v3' alt='Pilihan A' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
       },
       {
         "id": "B",
-        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_b.webp?v=20260924_v2' alt='Pilihan B' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_b.webp?v=20260924_v3' alt='Pilihan B' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
       },
       {
         "id": "C",
-        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_c.webp?v=20260924_v2' alt='Pilihan C' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_c.webp?v=20260924_v3' alt='Pilihan C' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
       },
       {
         "id": "D",
-        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_d.webp?v=20260924_v2' alt='Pilihan D' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_d.webp?v=20260924_v3' alt='Pilihan D' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
       }
     ],
     "jawapanBetul": "C",
@@ -17261,7 +17261,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 20 menunjukkan sebuah satelit berjisim 500 kg mengorbit Bumi pada jarak 380 km daripada permukaan Bumi.\nDiagram 20 shows a satellite of mass 500 kg orbiting Earth at a distance of 380 km from the surface of Earth.\n(SBP: 2023)\n\nDengan menggunakan rumus T² = 4π²r³ / (GM), hitung tempoh orbit bagi satelit itu.\n[Jisim Bumi = 5.97 × 10²⁴ kg, Jejari Bumi = 6.37 × 10³ km, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nBy using formula T² = 4π²r³ / (GM), calculate the orbital period of the satellite.\n[Mass of the Earth = 5.97 × 10²⁴ kg, Radius of the Earth = 6.37 × 10³ km, G = 6.67 × 10⁻¹¹ N m² kg⁻²]",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah20.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah20.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -17306,7 +17306,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 21 menunjukkan Bulan berputar mengelilingi Bumi. Daya yang menarik Bulan ke Bumi ialah 2.01 × 10²⁰ N.\n[Diberi jisim Bumi ialah 5.97 × 10²⁴ kg dan jisim Bulan ialah 7.35 × 10²² kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nDiagram 21 shows the Moon revolving around the Earth. The force that pulls the Moon towards the Earth is 2.01 × 10²⁰ N.\n[Given the mass of the Earth is 5.97 × 10²⁴ kg and the mass of the Moon is 7.35 × 10²² kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\n(SMKA: 2023)\n\nBerapakah jarak antara Bumi dengan Bulan?\nWhat is the distance between the Earth and the Moon?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah21.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah21.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -17486,7 +17486,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 22 menunjukkan satelit Teleskop Angkasa Hubble berjisim 11 000 kg yang mengorbit pada ketinggian 547 km dari permukaan Bumi.\n[Jisim Bumi, M = 5.97 × 10²⁴ kg, Jejari Bumi, R = 6.37 × 10⁶ m, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nDiagram 22 shows the Hubble Space Telescope satellite with mass of 11 000 kg orbits at a height of 547 km above the Earth's surface.\n[Mass of the Earth, M = 5.97 × 10²⁴ kg, Radius of the Earth, R = 6.37 × 10⁶ m, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\n(MRSM: 2022)\n\nBerapakah daya graviti satelit tersebut?\nWhat is the gravitational force of the satellite?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah22.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah22.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -17531,7 +17531,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Seorang angkasawan memakai sut angkasawan semasa meneroka di Bulan seperti dalam Rajah 23. Jisim sut angkasawan di Bumi ialah 60.25 kg.\nAn astronaut wears an astronaut suit while exploring on the Moon as in Diagram 23. The mass of the astronaut suit on the Earth is 60.25 kg.\n(Pahang: 2022)\n\nKira berat sut angkasawan di Bulan jika kekuatan medan graviti di Bulan ialah 1/6 daripada kekuatan medan graviti Bumi.\n[Pecutan graviti Bumi = 9.81 N kg⁻¹]\nCalculate the weight of the astronaut suit on the Moon if the strength of the gravitational field on the Moon is 1/6 of the strength of Earth's gravitational field.\n[Gravitational acceleration of Earth = 9.81 N kg⁻¹]",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah23.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah23.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -17621,7 +17621,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 24 menunjukkan sebuah objek berjisim 3 kg dilontar 5 m ke atas dari permukaan Bumi.\nDiagram 24 shows an object of mass 3 kg is thrown 5 m upward from the surface of the Earth.\n(Selangor: Set 2: 2022)\n\nHitung daya graviti yang dikenakan pada Bumi oleh objek itu.\n[Jejari Bumi = 6.37 × 10⁶ m, Jisim Bumi = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nCalculate the gravitational force exerted on the Earth by the object.\n[Radius of the Earth = 6.37 × 10⁶ m, Mass of the Earth = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah24.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah24.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -17846,7 +17846,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 25 menunjukkan sebiji bebola besi berjisim 0.2 kg diikat pada hujung tali yang diputarkan secara mengufuk oleh seorang pelajar. Jejari bulatan ialah 0.5 m.\nDiagram 25 shows a metal ball of mass 0.2 kg tied to the end of a string that is spun horizontally by a student. Radius of the circle is 0.5 m.\n(Kelantan: 2021)\n\nJika bebola besi itu berputar dengan kelajuan malar 4 m s⁻¹, hitungkan daya memusat.\nIf the metal ball rotates at constant speed 4 m s⁻¹, calculate the centripetal force.",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah25.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah25.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -18026,7 +18026,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 26 menunjukkan sebuah satelit sedang mengorbit Bumi pada ketinggian 600 km.\nDiagram 26 shows a satellite orbiting the Earth at a height of 600 km.\n(Negeri Sembilan: 2021)\n\nHitung halaju linear satelit tersebut.\n[Jejari Bumi = 6.37 × 10⁶ m, Jisim Bumi = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]\nCalculate the linear velocity of the satellite.\n[Radius of Earth = 6.37 × 10⁶ m, Mass of Earth = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻²]",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah26.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah26.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -18161,7 +18161,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 27 menunjukkan ilustrasi Hukum Kepler Kedua. Planet tersebut mengambil masa yang sama untuk bergerak dari A ke B berbanding dari C ke D melalui orbit.\nDiagram 27 shows an illustration of Kepler's Second Law. The planet took the same period to move from A to B as compared to moving from C to D through the orbit.\n(Melaka: 2023)\n\nManakah antara berikut adalah benar?\nWhich of the following is true?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah27.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah27.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -18206,7 +18206,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 28 menunjukkan 3 buah satelit yang serupa P, Q dan R yang berada pada ketinggian berbeza dari permukaan Bumi.\nDiagram 28 shows 3 identical satellites P, Q and R which are located at different heights from the Earth's surface.\n(SMKA: 2023)\n\nManakah menunjukkan perbandingan yang betul?\nWhich shows the correct comparison?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah28.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah28.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -18251,7 +18251,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 29 menunjukkan daya graviti, F yang bertindak ke atas dua jasad berjisim m₁ dan m₂ masing-masing.\nDiagram 29 shows gravitational force, F acting on two bodies with mass m₁ and m₂ respectively.\n(SMKA: 2022)\n\nAntara berikut yang manakah menerangkan hubungan antara F, m₁, m₂ dan r?\nWhich of the following explains the relationship between F, m₁, m₂ and r?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah29.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah29.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -18296,7 +18296,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 30 menunjukkan sebahagian planet-planet dalam sistem suria.\nDiagram 30 shows some planets in the solar system.\n(Sarawak: 2021)\n\nDaripada Rajah 30, apakah kesimpulan yang boleh dibuat?\nFrom Diagram 30, what conclusion can be made?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah30.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah30.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -18341,7 +18341,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 31 menunjukkan dua satelit, M dan N dalam orbit yang berlainan mengelilingi Bumi. Orbit N terletak lebih jauh dari Bumi berbanding orbit M.\nDiagram 31 shows two satellites, M and N, in different orbits around the Earth. The orbit of N is located further from the Earth than the orbit of M.\n(Selangor: Set 1: 2021)\n\nAntara perbandingan berikut, yang manakah betul?\nWhich of the following comparisons is true?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah31.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah31.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
@@ -18386,7 +18386,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 32 menunjukkan sebuah lastik berbentuk-Y yang digunakan oleh seorang murid dalam suatu eksperimen untuk menentukan nilai v² bagi jisim batu yang berbeza, m. Hubungan pemboleh ubah dalam eksperimen ini diberi oleh:\nFD = mv²\nDengan keadaan m = jisim, v = halaju batu, F = daya tarikan dan D = jarak regangan.\nDiagram 32 shows a Y-shaped slingshot used by a student in an experiment to determine the value of v² of different masses of stones, m. The relationship of the variables in this experiment is given by:\nFD = mv²\nSuch that m = mass, v = velocity of stone, F = force of attraction and D = extension distance.\n(SPM: 2021)\n\nPernyataan manakah yang betul mengenai eksperimen ini?\nWhich statement is correct about this experiment?",
-    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah32.webp?v=20260924_v2",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_rajah32.webp?v=20260924_v3",
     "pilihan": [
       {
         "id": "A",
