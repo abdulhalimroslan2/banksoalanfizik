@@ -17220,19 +17220,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_a.webp?v=20260924_v3' alt='Pilihan A' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_a_v2.webp' alt='Pilihan A' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
       },
       {
         "id": "B",
-        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_b.webp?v=20260924_v3' alt='Pilihan B' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_b_v2.webp' alt='Pilihan B' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
       },
       {
         "id": "C",
-        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_c.webp?v=20260924_v3' alt='Pilihan C' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_c_v2.webp' alt='Pilihan C' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
       },
       {
         "id": "D",
-        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_d.webp?v=20260924_v3' alt='Pilihan D' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
+        "teks": "<img src='https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b3/t4_b3_k3_q07_opt_d_v2.webp' alt='Pilihan D' class='h-28 mx-auto my-1 object-contain dark:bg-slate-800 p-1 rounded'>"
       }
     ],
     "jawapanBetul": "C",

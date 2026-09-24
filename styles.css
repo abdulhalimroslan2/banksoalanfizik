@@ -1498,6 +1498,28 @@ body {
   color: #1E293B;
   font-weight: 500;
   transition: all 0.2s ease;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.option-pill-item > div:last-child {
+  min-width: 0;
+  flex: 1;
+}
+
+/* Ensure images inside options scale responsively and never get clipped */
+.option-pill-item img,
+.slot-option-pill img,
+.slot-option-text img {
+  max-width: 100% !important;
+  max-height: 140px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0.25rem auto !important;
+  background: transparent;
+  border-radius: 4px;
 }
 
 .option-pill-item:hover {
@@ -1963,13 +1985,15 @@ body {
 
 .slot-option-pill {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.65rem;
   padding: 0.65rem 0.85rem;
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
   border-radius: 8px;
   transition: all 0.15s ease;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .slot-option-pill:hover {
@@ -2006,6 +2030,35 @@ body {
   color: #334155;
   line-height: 1.45;
   flex: 1;
+  min-width: 0;
+}
+
+/* Utility support for diagram options and images */
+.h-28 {
+  max-height: 140px !important;
+  height: auto !important;
+}
+
+.object-contain {
+  object-fit: contain !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.my-1 {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.p-1 {
+  padding: 0.25rem !important;
+}
+
+.rounded {
+  border-radius: 6px !important;
 }
 
 .slot-option-pill.is-correct .slot-option-text {
