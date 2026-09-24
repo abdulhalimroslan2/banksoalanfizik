@@ -18410,7 +18410,4733 @@ const QUESTION_BANK = [
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K1_Q01",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Apakah yang dimaksudkan dengan keseimbangan terma?\nWhat is meant by thermal equilibrium?\n(Terengganu: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kadar pengaliran haba bersih antara dua objek menjadi sifar / Net rate of heat flow between two objects becomes zero"
+      },
+      {
+        "id": "B",
+        "teks": "Proses penentukuran termometer cecair menggunakan sifat termometri cecair / The process of calibrating thermometer uses thermometric property of liquid"
+      },
+      {
+        "id": "C",
+        "teks": "Kuantiti haba yang diperlukan untuk menaikkan suhu objek sebanyak 1 °C / The quantity of heat needed to raise the temperature of the object by 1 °C"
+      },
+      {
+        "id": "D",
+        "teks": "Kuantiti haba diperlukan untuk menaikkan suhu 1 kg jisim bahan sebanyak 1 °C / The quantity of heat needed to raise the temperature of 1 kg mass of the substance by 1 °C"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Keseimbangan terma tercapai apabila kadar pengaliran haba bersih antara dua objek yang bersentuhan terma adalah sifar dan kedua-dua objek mempunyai suhu yang sama.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K1_Q02",
+    "sumber": "Percubaan SMKA 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Rajah menunjukkan proses perubahan pepejal kepada cecair.\nDiagram shows a process of a solid changes to liquid.\n(SMKA: 2023)",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah1.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Muatan haba tentu pepejal / Specific heat capacity of solid"
+      },
+      {
+        "id": "B",
+        "teks": "Muatan haba tentu cecair / Specific heat capacity of liquid"
+      },
+      {
+        "id": "C",
+        "teks": "Muatan haba tentu pengewapan / Specific heat capacity of vaporisation"
+      },
+      {
+        "id": "D",
+        "teks": "Haba pendam tentu pelakuran / Specific latent heat of fusion"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Keseimbangan terma antara termometer dan badan pesakit membolehkan suhu badan disukat dengan tepat apabila pemindahan haba bersih sifar.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K1_Q03",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 3,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Keseimbangan terma berlaku apabila\nThermal equilibrium occurs when\n(Kedah: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "tiada pemindahan haba berlaku antara dua objek bersentuhan terma / no heat is transferred between two objects in thermal contact"
+      },
+      {
+        "id": "B",
+        "teks": "pemindahan haba bersih antara dua objek bersentuhan terma adalah sifar / the net heat transfer between two objects in thermal contact is zero"
+      },
+      {
+        "id": "C",
+        "teks": "pemindahan haba bersih antara dua objek bersentuhan terma adalah sama / the net heat transfer between two objects in thermal contact is equal"
+      },
+      {
+        "id": "D",
+        "teks": "pemindahan haba bersih antara dua objek bersentuhan terma adalah minimum / the net heat transfer between two objects in thermal contact is minimum"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Pemindahan haba bersih antara dua objek bersentuhan terma adalah sifar apabila kedua-dua objek mencapai suhu yang sama.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K1_Q04",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 4,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.1 Menjelaskan tekanan, suhu dan isi padu gas dari segi teori kinetik gas",
+    "spKod": "4.4.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Suhu sifar mutlak adalah suhu di mana molekul-molekul gas secara teori\nAbsolute zero is the temperature at which gas molecules theoretically\n(Perlis: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "tiada langsung isipadu / occupy no volume at all"
+      },
+      {
+        "id": "B",
+        "teks": "bergerak paling laju / move the fastest"
+      },
+      {
+        "id": "C",
+        "teks": "bacaan suhu adalah 273 °C / temperature reading is 273 °C"
+      },
+      {
+        "id": "D",
+        "teks": "mengandungi dua kali bilangan molekul pada suhu bilik / contain twice the number of molecules at room temperature"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Suhu sifar mutlak (0 K atau -273 °C) ialah suhu di mana molekul-molekul gas secara teori tidak mempunyai tenaga kinetik dan tidak memenuhi sebarang isi padu (tiada langsung isi padu).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q01",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 2 menunjukkan graf penyejukan suatu bahan.\nDiagram 2 shows the cooling graph of a substance. (Kelantan: 2023)\n\nApakah yang berlaku kepada tenaga kinetik molekul antara titik X dan Y?\nWhat happen to the kinetic energy of the molecules between point X and Y?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Berkurang / Decrease"
+      },
+      {
+        "id": "B",
+        "teks": "Bertambah / Increase"
+      },
+      {
+        "id": "C",
+        "teks": "Tetap / Constant"
+      },
+      {
+        "id": "D",
+        "teks": "Sifar / Zero"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q02",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.1 Menjelaskan tekanan, suhu dan isi padu gas dari segi teori kinetik gas",
+    "spKod": "4.4.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 3 menunjukkan daya yang dikenakan pada satu omboh yang mengandungi udara terperangkap. Didapati isipadu udara terperangkap berkurang apabila daya yang lebih besar digunakan.\nDiagram 3 shows the force exerted on a piston containing trapped air. It was found that the volume of trapped air decreases when a greater force is applied. (Kelantan: 2023)\n\nApakah hukum yang menerangkan situasi di atas?\nWhat is the law that explain the above situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah3.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Boyle / Boyle's Law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Charles / Charles' Law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Gay-Lussac / Gay-Lussac's Law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Tekanan / Pressure Law"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q03",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 4 menunjukkan dua objek yang berada dalam keseimbangan terma.\nDiagram 4 shows two objects that are in thermal equilibrium. (Melaka: 2023)\n\nPernyataan manakah yang betul bagi kedua-dua objek ini?\nWhich statement is correct for these two objects?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah4.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jisim yang sama / The same mass"
+      },
+      {
+        "id": "B",
+        "teks": "Kuantiti tenaga haba yang sama / The same amount of heat energy"
+      },
+      {
+        "id": "C",
+        "teks": "Muatan haba yang sama / The same heat capacity"
+      },
+      {
+        "id": "D",
+        "teks": "Suhu yang sama / The same temperature"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q04",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 5 menunjukkan nasi sedang dimasak menggunakan periuk tanah.\nDiagram 5 shows rice being cooked using clay pot. (Negeri Sembilan: 2023)\n\nApakah antara sifat fizikal periuk tanah yang menjadikannya sesuai digunakan untuk tujuan di atas?\nWhat are some of the physical properties of the clay pots that make them suitable to be used for the above purpose?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah5.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tenaga yang sedikit diperlukan untuk meningkatkan suhu periuk tanah tersebut / A small amount of heat is needed to raise the temperature of the clay pot"
+      },
+      {
+        "id": "B",
+        "teks": "Periuk tanah murah dan tidak berkarat / Clay pots are cheap and do not rust"
+      },
+      {
+        "id": "C",
+        "teks": "Muatan haba tentu periuk tanah adalah sangat rendah / The specific heat capacity of clay pot is very low"
+      },
+      {
+        "id": "D",
+        "teks": "Muatan haba tentu periuk tanah adalah tinggi / The specific heat capacity of clay pot is high"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q05",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 6 menunjukkan proses respirasi (menarik nafas dan menghembus nafas).\nDiagram 6 shows respiration process (inhalation and exhalation). (Negeri Sembilan: 2023)\n\nAntara hukum fizik berikut, yang manakah menerangkan fenomena di atas?\nWhich of the following physics laws explains the phenomenon above?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah6.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Boyle / Boyle's law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Gay-Lussac / Gay-Lussac's law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Charles / Charles' law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum gas unggul / Ideal gas law"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q06",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.2 Menentukur sebuah termometer cecair dalam kaca menggunakan dua takat tetap",
+    "spKod": "4.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 7 menunjukkan seorang budak yang demam dan diperiksa suhu badannya oleh seorang jururawat. Bacaan termometer diambil setelah bunyi 'bip' kedengaran pada termometer tersebut.\nDiagram 7 shows a boy with a fever and his temperature being checked by a nurse. The thermometer reading is taken after the 'beep' sound is heard on the thermometer. (Pahang: 2023)\n\nKonsep fizik manakah yang boleh menerangkan situasi ini?\nWhich physics concept can explain this situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah7.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Muatan haba tentu / Specific heat capacity"
+      },
+      {
+        "id": "B",
+        "teks": "Haba pendam tentu / Specific latent heat"
+      },
+      {
+        "id": "C",
+        "teks": "Keseimbangan daya / Forces in equilibrium"
+      },
+      {
+        "id": "D",
+        "teks": "Keseimbangan terma / Thermal equilibrium"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q07",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 7,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 8 menunjukkan udara terperangkap dalam sebuah botol yang terapung di permukaan tasik pada waktu tengah hari. Pada waktu malam, isipadu udara yang terperangkap berkurang.\nDiagram 8 shows air trapped in a bottle floating on the surface of a lake at noon. At night, the volume of trapped air decreases. (Pahang: 2023)\n\nHukum manakah yang menerangkan situasi ini?\nWhich law explains this situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah8.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Snell / Snell's law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Boyle / Boyle's law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Charles / Charles' law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Gay-Lussac / Gay-Lussac's law"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q08",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 8,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 9 menunjukkan rumah kayu di kawasan iklim sejuk.\nDiagram 9 shows a wooden house in a cold climate region. (Pulau Pinang: 2023)\n\nMengapakah rumah kayu sesuai dibina di kawasan iklim sejuk?\nWhy is a wooden house suitable to be built in cold climates?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah9.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pengalir haba yang baik / Good heat conductor"
+      },
+      {
+        "id": "B",
+        "teks": "Kayu tidak mudah membeku / The wood does not easily freeze"
+      },
+      {
+        "id": "C",
+        "teks": "Muatan haba tentu kayu adalah tinggi / Specific heat capacity of wood is high"
+      },
+      {
+        "id": "D",
+        "teks": "Haba pendam tentu kayu adalah tinggi / Specific latent heat of wood is high"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q09",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 9,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 10 menunjukkan Aziz sedang duduk berhampiran satu unggun api di dalam sebuah iglu untuk memanaskan badannya.\nDiagram 10 shows Aziz sitting near a campfire in an igloo to warm himself. (Pulau Pinang: 2023)\n\nApakah yang berlaku apabila keseimbangan terma tercapai?\nWhat happens when thermal equilibrium is achieved?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah10.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Suhu badan Aziz meningkat / Aziz's body temperature increased"
+      },
+      {
+        "id": "B",
+        "teks": "Suhu udara di dalam iglu itu berkurang / The air temperature inside the igloo decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Terdapat pengaliran haba bersih antara udara di dalam iglu dengan badan Aziz / There is net heat flow between the air inside the igloo and Aziz's body"
+      },
+      {
+        "id": "D",
+        "teks": "Tiada pengaliran haba bersih antara udara di dalam iglu dengan badan Aziz / There is no net heat flow between the air inside the igloo and Aziz's body"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q10",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 10,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 11 menunjukkan graf suhu-masa bagi pepejal P dan Q. Kuantiti haba yang dibekalkan kepada P dan Q adalah sama.\nDiagram 11 shows the temperature-time graph for solid P and Q. The amount of heat supplied to P and Q is the same. (Pulau Pinang: 2023)\n\nAntara pernyataan berikut, yang manakah menerangkan tentang graf?\nWhich of the following statements explains the graph?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah11.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Q menyerap lebih haba daripada P / Q absorbs more heat than P"
+      },
+      {
+        "id": "B",
+        "teks": "Takat lebur Q adalah lebih tinggi daripada P / The melting point of Q is higher than P"
+      },
+      {
+        "id": "C",
+        "teks": "Muatan haba tentu Q adalah lebih tinggi daripada P / The specific heat capacity of Q is higher than P"
+      },
+      {
+        "id": "D",
+        "teks": "Haba pendam tentu pelakuran Q adalah lebih rendah daripada P / The specific latent heat of fusion of Q is lower than P"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q11",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 11,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.3 Menentukan hubungan antara isi padu dan suhu bagi suatu gas pada tekanan malar (Hukum Charles)",
+    "spKod": "4.4.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara aplikasi berikut, yang manakah mematuhi hukum Charles?\nAmong the following applications, which one obeys Charles' law? (Pulau Pinang: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Roti mengembung apabila dibakar / The bread puffs up when it is baked"
+      },
+      {
+        "id": "B",
+        "teks": "Tekanan tayar kenderaan sesuai diukur ketika cuaca sejuk / Vehicle tire pressure should be measured when the weather is cold"
+      },
+      {
+        "id": "C",
+        "teks": "Suhu yang tinggi boleh menyebabkan botol deodoran meletup / High temperature can cause a deodorant spray can to explode"
+      },
+      {
+        "id": "D",
+        "teks": "Gelembung udara mengembang apabila naik ke permukaan air / Air bubbles expand when rising to the water surface"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q12",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 12,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 12 menunjukkan dua blok logam P dan Q.\nDiagram 12 shows two metal blocks P and Q. (Perak: 2023)\n\nAntara pernyataan berikut, manakah yang benar mengenai situasi tersebut?\nWhich of the following statements is true about the situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah12.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P dan Q adalah dalam keseimbangan terma / P and Q are in thermal equilibrium"
+      },
+      {
+        "id": "B",
+        "teks": "Kadar pemindahan haba dari P ke Q adalah lebih tinggi daripada Q ke P / The rate of heat transfer from P to Q is higher than from Q to P"
+      },
+      {
+        "id": "C",
+        "teks": "Kadar pemindahan haba dari Q ke P adalah lebih tinggi daripada P ke Q / The rate of heat transfer from Q to P is higher than from P to Q"
+      },
+      {
+        "id": "D",
+        "teks": "Tiada haba yang dipindahkan antara P dan Q / No heat is transferred between P and Q"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q13",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 13,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 13 menunjukkan dua blok kuprum, P dan Q masing-masing mempunyai suhu 80 °C dan 40 °C. Kedua-dua blok itu berada dalam sentuhan terma.\nDiagram 13 shows two copper blocks, P and Q at a temperature of 80 °C and 40 °C respectively. The two blocks are in thermal contact. (Perlis: 2023)\n\nAntara pernyataan berikut, manakah yang betul?\nWhich of the following statements is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah13.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P dan Q mempunyai kuantiti haba yang sama / P and Q have the same quantity of heat"
+      },
+      {
+        "id": "B",
+        "teks": "Pemindahan haba bersih antara P dengan Q ialah sifar / Net heat transfer between P and Q is zero"
+      },
+      {
+        "id": "C",
+        "teks": "Suhu Q lebih tinggi daripada suhu P / Temperature of Q is higher than temperature of P"
+      },
+      {
+        "id": "D",
+        "teks": "Kadar pemindahan haba dari P ke Q lebih tinggi daripada kadar pemindahan haba dari Q ke P / Rate of heat transfer from P to Q is higher than rate of heat transfer from Q to P"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q14",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 14,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Mengapakah air sesuai dijadikan sebagai agen penyejuk?\nWhy water is suitable to be used as cooling agent? (Perlis: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Ketumpatan tinggi / High density"
+      },
+      {
+        "id": "B",
+        "teks": "Haba pendam yang tinggi / High latent heat"
+      },
+      {
+        "id": "C",
+        "teks": "Muatan haba tentu yang tinggi / High specific heat capacity"
+      },
+      {
+        "id": "D",
+        "teks": "Daya lekatan antara molekul yang tinggi / High adhesive force between molecules"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q15",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 15,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 14 menunjukkan semangkuk sup yang panas dibiarkan pada suhu bilik.\nDiagram 14 shows a bowl of hot soup being left at room temperature. (SBP: 2023)\n\nKeseimbangan terma dicapai apabila\nThermal equilibrium is reached when",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah14.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "suhu sup berkurang / soup temperature decreases"
+      },
+      {
+        "id": "B",
+        "teks": "suhu udara persekitaran meningkat / the surrounding air temperature increases"
+      },
+      {
+        "id": "C",
+        "teks": "tiada pengaliran haba antara udara persekitaran dan sup / no heat transferred between the surrounding air and soup"
+      },
+      {
+        "id": "D",
+        "teks": "tiada pengaliran haba bersih antara udara persekitaran dan sup / there is no net heat transferred between the surrounding air and soup"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q16",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 16,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 15 menunjukkan sebiji belon yang masing-masing berisi udara dan air dibawa ke arah lilin yang menyala. Belon yang berisi udara meletup, manakala belon yang berisi air tidak meletup apabila ia menyentuh nyalaan lilin.\nDiagram 15 shows a balloon filled with air and water respectively being brought towards a lit candle. The balloon filled with air bursts, while the balloon filled with water does not burst when touching the candle flame. (SBP: 2023)\n\nPernyataan manakah yang betul?\nWhich statement is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah15.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Air mempunyai muatan haba tentu yang tinggi / Water has a high specific heat capacity"
+      },
+      {
+        "id": "B",
+        "teks": "Air mempunyai muatan haba tentu yang rendah / Water has a low specific heat capacity"
+      },
+      {
+        "id": "C",
+        "teks": "Udara mempunyai muatan haba tentu yang tinggi / Air has a high specific heat capacity"
+      },
+      {
+        "id": "D",
+        "teks": "Air menyerap haba lebih perlahan berbanding getah belon / Water absorbs heat slower than balloon rubber"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q17",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 17,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 16 menunjukkan zarah-zarah udara dalam sebuah bekas tertutup sebelum dan selepas dipanaskan selama 5 minit.\nDiagram 16 shows air particles in a closed container before and after being heated for 5 minutes. (SBP: 2023)\n\nPasangan manakah yang betul selepas bekas tersebut dipanaskan?\nWhich pair is correct after the closed container is being heated?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah16.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tenaga kinetik udara: Bertambah | Tekanan udara: Bertambah / Kinetic energy of air: Increases | Air pressure: Increases"
+      },
+      {
+        "id": "B",
+        "teks": "Tenaga kinetik udara: Berkurang | Tekanan udara: Berkurang / Kinetic energy of air: Decreases | Air pressure: Decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Tenaga kinetik udara: Bertambah | Tekanan udara: Berkurang / Kinetic energy of air: Increases | Air pressure: Decreases"
+      },
+      {
+        "id": "D",
+        "teks": "Tenaga kinetik udara: Berkurang | Tekanan udara: Bertambah / Kinetic energy of air: Decreases | Air pressure: Increases"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q18",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 18,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 17 menunjukkan lengkung penyejukan apabila objek berubah keadaannya daripada gas kepada cecair.\nDiagram 17 shows the cooling curve when an object changes its state from gas to liquid. (Terengganu: 2023)\n\nApakah yang berlaku semasa proses pemeluwapan?\nWhat happens during condensation process?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah17.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Haba diserap untuk memecahkan ikatan molekul / Heat is absorbed to break molecular bonds"
+      },
+      {
+        "id": "B",
+        "teks": "Haba pendam dibebaskan untuk membentuk ikatan molekul / Latent heat is released to form molecular bonds"
+      },
+      {
+        "id": "C",
+        "teks": "Tenaga kinetik molekul meningkat / Kinetic energy of molecules increases"
+      },
+      {
+        "id": "D",
+        "teks": "Suhu bahan terus berkurang semasa perubahan fasa / Temperature of substance continues to decrease during phase change"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q19",
+    "sumber": "Percubaan SMKA 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 19,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 18 (a) menunjukkan bola ping-pong yang kemek. Rajah 18 (b) menunjukkan keadaan bola selepas diletakkan di dalam air panas.\nDiagram 18 (a) shows a dented ping-pong ball. Diagram 18 (b) shows the state of the ball after being placed in hot water. (SMKA: 2023)\n\nHukum fizik manakah yang menerangkan situasi ini?\nWhich physics law explains this situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah18.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Boyle / Boyle's law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Charles / Charles' law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Gay-Lussac / Gay-Lussac's law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Tekanan / Pressure law"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q20",
+    "sumber": "Percubaan SMKA 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 20,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.2 Menentukur sebuah termometer cecair dalam kaca menggunakan dua takat tetap",
+    "spKod": "4.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 19 menunjukkan termometer digunakan untuk mengukur suhu air. Bacaan suhu diambil apabila termometer mencapai keseimbangan terma.\nDiagram 19 shows a thermometer is used to measure the temperature of water. The reading of the temperature is taken when the thermometer reaches thermal equilibrium. (SMKA: 2023)\n\nPernyataan manakah yang betul mengenai situasi ini?\nWhich statement is correct regarding this situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah19.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Suhu air adalah lebih tinggi daripada suhu termometer / Water temperature is higher than thermometer temperature"
+      },
+      {
+        "id": "B",
+        "teks": "Kadar pemindahan haba bersih antara air dan termometer adalah sifar / Net rate of heat transfer between water and thermometer is zero"
+      },
+      {
+        "id": "C",
+        "teks": "Haba mengalir daripada termometer ke air sahaja / Heat flows from thermometer to water only"
+      },
+      {
+        "id": "D",
+        "teks": "Muatan haba tentu air sama dengan merkuri / Specific heat capacity of water is equal to mercury"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q21",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 21,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 20 (a) menunjukkan sebiji belon berisi gas helium di atas tanah. Rajah 20 (b) menunjukkan belon yang sama mengembang apabila ia naik ke atas. Kedua-dua situasi berlaku pada suhu yang sama.\nDiagram 20 (a) shows a balloon filled with helium gas on the ground. Diagram 20 (b) shows the same balloon expanding as it rises up. Both situations occur at the same temperature. (Kedah: 2022)\n\nHukum fizik manakah yang terlibat dalam situasi di atas?\nWhich physics law is involved in the situation above?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah20.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Boyle / Boyle's law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Charles / Charles' law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Gay-Lussac / Gay-Lussac's law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Graviti Newton / Newton's law of gravitation"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q22",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 22,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.3 Menentukan hubungan antara isi padu dan suhu bagi suatu gas pada tekanan malar (Hukum Charles)",
+    "spKod": "4.4.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 21 menunjukkan susunan radas untuk mentahkikkan Hukum Charles. Apakah kegunaan turus asid sulfurik dalam tiub kapilari?\nDiagram 21 shows the arrangement of the apparatus to verify Charles' Law. What is the function of sulfuric acid column in the capillary tube? (Kedah: 2022)",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah21.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sebagai penunjuk indeks dan memerangkap udara / As index pointer and traps air"
+      },
+      {
+        "id": "B",
+        "teks": "Untuk mengukur tekanan gas / To measure gas pressure"
+      },
+      {
+        "id": "C",
+        "teks": "Untuk mengekalkan suhu malar / To keep temperature constant"
+      },
+      {
+        "id": "D",
+        "teks": "Untuk mengelakkan merkuri meruap / To prevent mercury from evaporating"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q23",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 23,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Sifat gas yang bertindak sebagai agen penyejuk dalam sistem penyejukan sebuah peti sejuk ialah\nThe characteristic of the gas that acts as cooling agent in the cooling system of a refrigerator is (Kelantan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "mudah meruap dan mempunyai haba pendam tentu pengewapan tinggi / easily volatilized and has high specific latent heat of vaporization"
+      },
+      {
+        "id": "B",
+        "teks": "mudah melebur / easily melted"
+      },
+      {
+        "id": "C",
+        "teks": "takat didih tinggi / high boiling point"
+      },
+      {
+        "id": "D",
+        "teks": "ketumpatan sangat rendah / very low density"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q24",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 24,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 22 menunjukkan lengkung penyejukan bagi suatu bahan berubah dari gas kepada pepejal.\nDiagram 22 shows the cooling curve of a substance changing from gas to solid. (Kelantan: 2022)\n\nPada peringkat manakah haba pendam tentu pengewapan dibebaskan?\nAt which stage is the specific latent heat of vaporization released?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah22.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Peringkat PQ (gas menyejuk) / Stage PQ (gas cooling)"
+      },
+      {
+        "id": "B",
+        "teks": "Peringkat QR (kondensasi gas ke cecair) / Stage QR (gas condensing to liquid)"
+      },
+      {
+        "id": "C",
+        "teks": "Peringkat RS (cecair menyejuk) / Stage RS (liquid cooling)"
+      },
+      {
+        "id": "D",
+        "teks": "Peringkat ST (pembekuan cecair ke pepejal) / Stage ST (liquid freezing to solid)"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q25",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 25,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 23 menunjukkan pembentukan bayu laut.\nDiagram 23 shows the formation of sea breeze. (Melaka: 2022)\n\nPernyataan manakah yang betul?\nWhich statement is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah23.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Muatan haba tentu air laut lebih tinggi daripada muatan haba tentu darat / The specific heat capacity of sea water is higher than land"
+      },
+      {
+        "id": "B",
+        "teks": "Muatan haba tentu darat lebih tinggi daripada muatan haba tentu air laut / The specific heat capacity of land is higher than sea water"
+      },
+      {
+        "id": "C",
+        "teks": "Darat membebaskan haba lebih perlahan daripada laut / Land releases heat slower than sea"
+      },
+      {
+        "id": "D",
+        "teks": "Ketumpatan udara di darat lebih tinggi pada waktu siang / Density of air on land is higher during daytime"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q26",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 26,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 24 menunjukkan periuk yang mempunyai tapak aluminium.\nDiagram 24 shows a pot with aluminium base. (MRSM: 2022)\n\nApakah yang terjadi kepada masa memasak makanan jika tapak periuk tersebut digantikan dengan kuprum?\n[Muatan haba tentu aluminium = 900 J kg^-1 °C^-1, kuprum = 390 J kg^-1 °C^-1]\nWhat happens to cooking time if the pot base is replaced with copper?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah24.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Masa memasak berkurang kerana kuprum lebih cepat panas / Cooking time decreases because copper heats up faster"
+      },
+      {
+        "id": "B",
+        "teks": "Masa memasak bertambah kerana kuprum menyerap haba perlahan / Cooking time increases because copper absorbs heat slower"
+      },
+      {
+        "id": "C",
+        "teks": "Masa memasak tidak berubah / Cooking time remains unchanged"
+      },
+      {
+        "id": "D",
+        "teks": "Kuprum tidak sesuai sebagai tapak periuk / Copper is not suitable as pot base"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q27",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 27,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 25 menunjukkan graf pemanasan suhu, θ melawan masa, t bagi bahan X.\nDiagram 25 shows a heating graph of temperature, θ against time, t for substance X. (MRSM: 2022)\n\nPernyataan manakah yang benar?\nWhich statement is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah25.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Haba yang dibekalkan semasa fasa mendatar digunakan untuk mengatasi daya tarikan antara molekul / Heat supplied during flat phase is used to overcome intermolecular forces"
+      },
+      {
+        "id": "B",
+        "teks": "Tenaga kinetik molekul meningkat semasa peleburan / Kinetic energy of molecules increases during melting"
+      },
+      {
+        "id": "C",
+        "teks": "Suhu meningkat semasa perubahan keadaan jirim / Temperature increases during phase change"
+      },
+      {
+        "id": "D",
+        "teks": "Bahan X membebaskan haba ke persekitaran / Substance X releases heat to surroundings"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q28",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 28,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 26 (a) menunjukkan sebiji belon diletakkan di atas pinggan. Rajah 26 (b) menunjukkan belon tersebut selepas cecair nitrogen dituang ke atasnya.\nDiagram 26 (a) shows a balloon put on a plate. Diagram 26 (b) shows the balloon after liquid nitrogen was poured over it. (MRSM: 2022)\n\nHukum gas manakah yang menerangkan situasi ini?\nWhich gas law explains this situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah26.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Charles / Charles' law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Boyle / Boyle's law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Tekanan / Pressure law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Gay-Lussac / Gay-Lussac's law"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q29",
+    "sumber": "Percubaan Negeri Sembilan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 29,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.2 Menentukur sebuah termometer cecair dalam kaca menggunakan dua takat tetap",
+    "spKod": "4.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 27 menunjukkan sebuah termometer merkuri.\nDiagram 27 shows a mercury thermometer. (Negeri Sembilan: 2022)\n\nAntara berikut, yang manakah akan menambahkan kepekaan termometer itu?\nWhich of the following will increase the sensitivity of the thermometer?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah27.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Menggunakan tiub kapilari yang lebih sempit / Using a narrower capillary tube"
+      },
+      {
+        "id": "B",
+        "teks": "Menggunakan be bebuli kaca yang lebih tebal / Using a thicker glass bulb"
+      },
+      {
+        "id": "C",
+        "teks": "Mengurangkan kuantiti merkuri di dalam bebuli / Decreasing the quantity of mercury in the bulb"
+      },
+      {
+        "id": "D",
+        "teks": "Menggunakan tiub kapilari berdinding tebal / Using a thick-walled capillary tube"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q30",
+    "sumber": "Percubaan Negeri Sembilan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 30,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Haba pendam diserap apabila\nLatent heat is absorbed when (Negeri Sembilan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "air membeku / water freezing"
+      },
+      {
+        "id": "B",
+        "teks": "naftalena dipanaskan / naphthalene is heated"
+      },
+      {
+        "id": "C",
+        "teks": "wap air terkondensasi / water vapour condensed"
+      },
+      {
+        "id": "D",
+        "teks": "cecair alkohol menyejat / liquid alcohol evaporates"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q31",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 31,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.2 Menentukur sebuah termometer cecair dalam kaca menggunakan dua takat tetap",
+    "spKod": "4.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Apakah konsep yang digunakan dalam pengukuran suhu kopi menggunakan termometer?\nWhat is the concept used in measuring the temperature of coffee using a thermometer? (Pahang: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Perolakan terma / Thermal convection"
+      },
+      {
+        "id": "B",
+        "teks": "Haba pendam tentu / Specific latent heat"
+      },
+      {
+        "id": "C",
+        "teks": "Keseimbangan terma / Thermal equilibrium"
+      },
+      {
+        "id": "D",
+        "teks": "Muatan haba tentu / Specific heat capacity"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q32",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 32,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 28 menunjukkan lengkung pemanasan suatu bahan pepejal.\nDiagram 28 shows the heating curve of a solid material. (Pahang: 2022)\n\nPada peringkat Y, haba yang diserap oleh objek ialah\nAt level Y, the heat absorbed by the object is",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah28.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sifar / Zero"
+      },
+      {
+        "id": "B",
+        "teks": "Muatan haba tentu pepejal / Specific heat capacity of solid"
+      },
+      {
+        "id": "C",
+        "teks": "Haba pendam tentu pelakuran / Specific latent heat of fusion"
+      },
+      {
+        "id": "D",
+        "teks": "Haba pendam tentu pengewapan / Specific latent heat of vaporization"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q33",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 33,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Apabila berlaku pembekuan air, perkara berikut akan berlaku\nWhen there is freezing of water, the following situation will occur (Perlis: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Suhu air naik / Temperature of water rises"
+      },
+      {
+        "id": "B",
+        "teks": "Suhu air turun / Temperature of water decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Suhu air tidak berubah / Temperature of water is constant"
+      },
+      {
+        "id": "D",
+        "teks": "Haba diserap oleh air / Heat is absorbed by water"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q34",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 34,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Sejenis bahan dipanaskan pada kadar yang tetap. Bahan tersebut berubah daripada pepejal menjadi cecair, dan kemudian gas. Rajah 29 menunjukkan graf bagaimana suhunya berubah terhadap masa.\nA substance is heated at a steady rate. It changes from solid to a liquid, and then to a gas. Diagram 29 shows the graph of how its temperature varies with time. (Perlis: 2022)\n\nAntara bahagian graf berikut, yang manakah mewakili peleburan?\nWhich part of the graph represents melting?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah29.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Bahagian PQ / Part PQ"
+      },
+      {
+        "id": "B",
+        "teks": "Bahagian QR / Part QR"
+      },
+      {
+        "id": "C",
+        "teks": "Bahagian RS / Part RS"
+      },
+      {
+        "id": "D",
+        "teks": "Bahagian ST / Part ST"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q35",
+    "sumber": "Percubaan Putrajaya 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 35,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.4 Menentukan hubungan antara tekanan dan suhu bagi suatu gas pada isi padu malar (Hukum Gay-Lussac)",
+    "spKod": "4.4.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara hukum yang berikut, manakah menyatakan hubungan antara tekanan dan suhu pada isi padu gas malar?\nWhich of the following laws states the relationship between pressure and temperature at constant volume of gas? (Putrajaya: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Boyle / Boyle's law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Charles / Charles' law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Gay-Lussac / Gay-Lussac's law"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Tekanan Ohm / Ohm's law"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q36",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 36,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Situasi manakah yang menunjukkan konsep keseimbangan terma?\nWhich situation shows the concept of thermal equilibrium? (SBP: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Dua objek pada suhu 30 °C dan 70 °C bersentuhan / Two objects at 30 °C and 70 °C in contact"
+      },
+      {
+        "id": "B",
+        "teks": "Dua objek pada suhu 40 °C dan 40 °C dengan penghalang haba di antaranya / Two objects at 40 °C and 40 °C with heat barrier between them"
+      },
+      {
+        "id": "C",
+        "teks": "Dua objek pada suhu 35 °C dan 35 °C dalam sentuhan terma / Two objects at 35 °C and 35 °C in thermal contact"
+      },
+      {
+        "id": "D",
+        "teks": "Dua objek pada suhu 30 °C dan 0 °C bersentuhan / Two objects at 30 °C and 0 °C in contact"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q37",
+    "sumber": "Percubaan Selangor Set 1 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 37,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.2 Menentukur sebuah termometer cecair dalam kaca menggunakan dua takat tetap",
+    "spKod": "4.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara takat tetap yang berikut, yang manakah digunakan untuk penentukuran skala sebatang termometer?\nWhich of the following fixed points is used to calibrate the scale of a thermometer? (Selangor: Set 1: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Takat ais (0 °C) dan takat stim (100 °C) / Ice point (0 °C) and steam point (100 °C)"
+      },
+      {
+        "id": "B",
+        "teks": "Takat lebur lilin dan takat didih alkohol / Melting point of wax and boiling point of alcohol"
+      },
+      {
+        "id": "C",
+        "teks": "Suhu bilik dan suhu badan manusia / Room temperature and human body temperature"
+      },
+      {
+        "id": "D",
+        "teks": "Suhu sifar mutlak dan takat tigaan air / Absolute zero temperature and triple point of water"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q38",
+    "sumber": "Percubaan Selangor Set 1 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 38,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 30 menunjukkan lengkung penyejukan suatu bahan.\nDiagram 30 shows the cooling curve of a substance. (Selangor: Set 1: 2022)\n\nApakah kesan haba yang dibebaskan oleh bahan tersebut antara masa t1 dan t2?\nWhat is the effect of heat released by the substance between time t1 and t2?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah30.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Memperlahankan gerakan molekul / Slows down molecular motion"
+      },
+      {
+        "id": "B",
+        "teks": "Membentuk ikatan antara molekul untuk menjadi pepejal / Forms bonds between molecules to become solid"
+      },
+      {
+        "id": "C",
+        "teks": "Menurunkan suhu bahan / Lowers the temperature of the substance"
+      },
+      {
+        "id": "D",
+        "teks": "Memecahkan ikatan antara zarah / Breaks bonds between particles"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q39",
+    "sumber": "Percubaan Selangor Set 1 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 39,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.3 Menentukan hubungan antara isi padu dan suhu bagi suatu gas pada tekanan malar (Hukum Charles)",
+    "spKod": "4.4.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Graf manakah menunjukkan hubungan antara isipadu dan suhu bagi satu jisim tetap gas pada tekanan malar?\nWhich graph shows the relationship between the volume and temperature of a fixed mass of gas at constant pressure? (Selangor: Set 1: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Graf V melawan T (°C) memotong paksi suhu pada -273 °C / Graph V against T (°C) intercepting temperature axis at -273 °C"
+      },
+      {
+        "id": "B",
+        "teks": "Graf V melawan T berkadar songsang / Graph V inversely proportional to T"
+      },
+      {
+        "id": "C",
+        "teks": "Graf V melawan T berbentuk parabola / Parabolic graph of V against T"
+      },
+      {
+        "id": "D",
+        "teks": "Graf V melawan T garis mendatar malar / Horizontal constant line of V against T"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q40",
+    "sumber": "Percubaan Selangor Set 2 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 40,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 31 menunjukkan sebiji bola logam yang panas dimasukkan ke dalam air sejuk.\nDiagram 31 shows a hot metal ball being immersed into a cold water. (Selangor: Set 2: 2022)\n\nApakah yang berlaku apabila keseimbangan terma dicapai?\nWhat happens when thermal equilibrium is reached?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah31.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Suhu akhir bola logam dan air adalah sama / Final temperature of metal ball and water is the same"
+      },
+      {
+        "id": "B",
+        "teks": "Kadar pemindahan haba dari bola ke air lebih tinggi / Rate of heat transfer from ball to water is higher"
+      },
+      {
+        "id": "C",
+        "teks": "Tenaga haba bola logam menjadi sifar / Heat energy of the metal ball becomes zero"
+      },
+      {
+        "id": "D",
+        "teks": "Air mendidih serta-merta / Water boils immediately"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q41",
+    "sumber": "Percubaan Selangor Set 2 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 41,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.4 Menentukan hubungan antara tekanan dan suhu bagi suatu gas pada isi padu malar (Hukum Gay-Lussac)",
+    "spKod": "4.4.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Graf manakah menunjukkan hubungan antara tekanan dan suhu mutlak bagi suatu gas berjisim tetap pada isipadu malar?\nWhich graph shows the relationship between the pressure and absolute temperature of a fixed mass of gas at constant volume? (Selangor: Set 2: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Graf garis lurus bermula dari asalan (P berkadar terus dengan T dalam Kelvin) / Straight line graph starting from origin (P directly proportional to T in Kelvin)"
+      },
+      {
+        "id": "B",
+        "teks": "Graf lengkung hiperbola (P berkadar songsang dengan T) / Hyperbolic curve (P inversely proportional to T)"
+      },
+      {
+        "id": "C",
+        "teks": "Graf mendatar (tekanan malar dengan T) / Horizontal line (pressure constant with T)"
+      },
+      {
+        "id": "D",
+        "teks": "Graf garis lurus dengan kecerunan negatif / Straight line with negative gradient"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q42",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 42,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Kadar penyejatan air dalam sebuah bekas dapat dikurangkan dengan meletakkan bekas tersebut\nThe rate of evaporation of water in a container can be reduced by placing the container (SMKA: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "di dalam ruang pada suhu bilik / in a room with room temperature"
+      },
+      {
+        "id": "B",
+        "teks": "di kawasan yang mempunyai kelembapan udara yang tinggi / in an area with high air humidity"
+      },
+      {
+        "id": "C",
+        "teks": "di bawah pancaran matahari terik / under direct sunlight"
+      },
+      {
+        "id": "D",
+        "teks": "di hadapan kipas yang berputar laju / in front of a fast-spinning fan"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q43",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 43,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 32 menunjukkan sebuah botol plastik berisi udara di dalam peti sejuk, sebelum dan selepas disejukkan.\nDiagram 32 shows an empty plastic bottle filled with air in the refrigerator, before and after cooling. (SMKA: 2022)\n\nFenomena ini berlaku kerana\nThis phenomenon occurs because",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah32.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "tekanan udara di luar berkurang / external air pressure decreases"
+      },
+      {
+        "id": "B",
+        "teks": "tenaga kinetik molekul udara di dalam botol berkurang menyebabkan isi padu berkurang / kinetic energy of air molecules inside the bottle decreases causing volume to decrease"
+      },
+      {
+        "id": "C",
+        "teks": "jisim udara di dalam botol berkurang / mass of air inside the bottle decreases"
+      },
+      {
+        "id": "D",
+        "teks": "ketumpatan plastik bertambah / density of plastic increases"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q44",
+    "sumber": "Percubaan Terengganu 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 44,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 33 menunjukkan lengkung pemanasan bagi suatu cecair.\nDiagram 33 shows the heating curve of a liquid. (Terengganu: 2022)\n\nPernyataan manakah yang menerangkan apa yang berlaku semasa cecair mendidih?\nWhich statement explains what happens when the liquid is boiling?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah33.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Suhu meningkat dengan cepat / Temperature increases rapidly"
+      },
+      {
+        "id": "B",
+        "teks": "Haba diserap untuk memutuskan ikatan antara molekul cecair / Heat is absorbed to break bonds between liquid molecules"
+      },
+      {
+        "id": "C",
+        "teks": "Tenaga kinetik purata molekul bertambah / Average kinetic energy of molecules increases"
+      },
+      {
+        "id": "D",
+        "teks": "Haba dibebaskan ke persekitaran / Heat is released to surroundings"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q45",
+    "sumber": "Percubaan Kedah 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 45,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.2 Menentukur sebuah termometer cecair dalam kaca menggunakan dua takat tetap",
+    "spKod": "4.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Pernyataan manakah adalah betul mengenai termometer cecair dalam kaca?\nWhich of the following statement is correct about liquid-in-glass thermometer? (Kedah: 2021)\n\nI Termometer itu mengaplikasikan konsep keseimbangan terma / The thermometer applies the concept of thermal equilibrium\nII Merkuri digunakan kerana ia membasahi kaca / Mercury is used because it wets glass\nIII Tiub kapilari yang sempit meningkatkan kepekaan / Narrow capillary tube increases sensitivity",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II sahaja / I and II only"
+      },
+      {
+        "id": "B",
+        "teks": "I dan III sahaja / I and III only"
+      },
+      {
+        "id": "C",
+        "teks": "II dan III sahaja / II and III only"
+      },
+      {
+        "id": "D",
+        "teks": "I, II dan III / I, II and III"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q46",
+    "sumber": "Percubaan Perak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 46,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 34 menunjukkan susunan radas untuk mengkaji hubungan antara isipadu turus udara, V dan suhu, T bagi jisim udara yang malar.\nDiagram 34 shows an arrangement of apparatus to investigate the relationship between the volume of air column, V and temperature, T for a constant mass of air. (Perak: 2021)\n\nApakah fungsi turus asid sulfurik pekat?\nWhat is the function of the concentrated sulfuric acid column?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah34.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Memerangkap udara dan bertindak sebagai penunjuk indeks / Traps air and acts as index indicator"
+      },
+      {
+        "id": "B",
+        "teks": "Mengeringkan air di dalam bikar / Dries water in beaker"
+      },
+      {
+        "id": "C",
+        "teks": "Meningkatkan tekanan udara terperangkap / Increases trapped air pressure"
+      },
+      {
+        "id": "D",
+        "teks": "Menyerap haba secara seragam / Absorbs heat uniformly"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q47",
+    "sumber": "Percubaan Sarawak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 47,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 35 menunjukkan seorang budak berjalan di atas pasir dan seorang budak berjalan dalam air laut pada waktu siang yang panas.\nDiagram 35 shows a boy walking on the sand and another boy walking in sea water on a hot daytime. (Sarawak: 2021)\n\nMengapakah pasir terasa lebih panas berbanding air laut?\nWhy does sand feel hotter than sea water?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah35.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Muatan haba tentu pasir lebih rendah daripada muatan haba tentu air laut / Specific heat capacity of sand is lower than sea water"
+      },
+      {
+        "id": "B",
+        "teks": "Muatan haba tentu pasir lebih tinggi daripada muatan haba tentu air laut / Specific heat capacity of sand is higher than sea water"
+      },
+      {
+        "id": "C",
+        "teks": "Ketumpatan pasir lebih tinggi daripada air laut / Density of sand is higher than sea water"
+      },
+      {
+        "id": "D",
+        "teks": "Pasir membebaskan haba lebih perlahan / Sand releases heat slower"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q48",
+    "sumber": "Percubaan Sarawak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 48,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 36 menunjukkan alkohol ditiup berulang kali menggunakan penyedut minuman. Didapati bahawa bahagian luar bikar menjadi sejuk.\nDiagram 36 shows alcohol is blown repeatedly by using drinking straw. It was found that the outside of the beaker becomes cold. (Sarawak: 2021)\n\nHal ini berlaku kerana\nThis happens because",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah36.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "penyejatan alkohol menyerap haba pendam daripada bikar / evaporation of alcohol absorbs latent heat from beaker"
+      },
+      {
+        "id": "B",
+        "teks": "penyejatan alkohol membebaskan haba pendam ke bikar / evaporation of alcohol releases latent heat to beaker"
+      },
+      {
+        "id": "C",
+        "teks": "alkohol membeku di dalam bikar / alcohol freezes inside beaker"
+      },
+      {
+        "id": "D",
+        "teks": "udara yang ditiup mempunyai suhu sangat rendah / blown air has very low temperature"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q49",
+    "sumber": "Percubaan Selangor Set 1 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 49,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 37 menunjukkan objek A dan objek B pada suhu T1 dan T2. Haba mengalir dari A ke B sehingga keseimbangan terma dicapai pada suhu T.\nDiagram 37 shows object A and object B at temperatures T1 and T2. Heat flows from A to B until thermal equilibrium is achieved at temperature T. (Selangor: Set 1: 2021)\n\nHubungan suhu manakah yang betul?\nWhich temperature relationship is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah37.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "T1 > T > T2"
+      },
+      {
+        "id": "B",
+        "teks": "T2 > T > T1"
+      },
+      {
+        "id": "C",
+        "teks": "T > T1 > T2"
+      },
+      {
+        "id": "D",
+        "teks": "T1 = T2 = T"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q50",
+    "sumber": "Percubaan Selangor Set 1 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 50,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Jadual 1 menunjukkan muatan haba tentu bagi empat bahan P, Q, R dan S.\nTable 1 shows the specific heat capacity of four materials P, Q, R and S. (Selangor: Set 1: 2021)\n[P: 800 J kg^-1 °C^-1, Q: 900 J kg^-1 °C^-1, R: 1300 J kg^-1 °C^-1, S: 2100 J kg^-1 °C^-1]\n\nBahan manakah yang paling sesuai digunakan sebagai tapak kuali memasak?\nWhich material is most suitable to be used as base of a cooking pan?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Bahan P (muatan haba tentu paling rendah, cepat panas) / Material P (lowest specific heat capacity, heats up fast)"
+      },
+      {
+        "id": "B",
+        "teks": "Bahan Q / Material Q"
+      },
+      {
+        "id": "C",
+        "teks": "Bahan R / Material R"
+      },
+      {
+        "id": "D",
+        "teks": "Bahan S / Material S"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q51",
+    "sumber": "Percubaan Selangor Set 1 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 51,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.1 Menjelaskan tekanan, suhu dan isi padu gas dari segi teori kinetik gas",
+    "spKod": "4.4.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 38 menunjukkan sebiji belon yang diletakkan di dalam bekas kedap udara.\nDiagram 38 shows a balloon which is placed in an air-tight container. (Selangor: Set 1: 2021)\n\nJika omboh ditolak ke bawah pada suhu malar, apakah yang akan berlaku kepada saiz belon?\nIf the piston is pushed down at constant temperature, what will happen to the size of the balloon?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah38.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Mengecil kerana tekanan udara di luar belon bertambah / Shrinks because air pressure outside balloon increases"
+      },
+      {
+        "id": "B",
+        "teks": "Membesar / Expands"
+      },
+      {
+        "id": "C",
+        "teks": "Tidak berubah / Remains unchanged"
+      },
+      {
+        "id": "D",
+        "teks": "Meletup serta merta / Bursts immediately"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q52",
+    "sumber": "Percubaan Selangor Set 2 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 52,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 39 menunjukkan blok pepejal A dan B yang berjisim sama sedang dipanaskan. Suhu awal A dan B adalah sama dan dipanaskan dengan jumlah tenaga yang sama. Didapati suhu akhir A lebih tinggi daripada suhu akhir B.\nDiagram 39 shows solid blocks A and B of equal mass being heated. The initial temperature of A and B is the same and they are heated with the same amount of energy. It is found that the final temperature of A is higher than B. (Selangor: Set 2: 2021)\n\nPernyataan manakah yang benar?\nWhich statement is true?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah39.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Muatan haba tentu A lebih rendah daripada B / Specific heat capacity of A is lower than B"
+      },
+      {
+        "id": "B",
+        "teks": "Muatan haba tentu A lebih tinggi daripada B / Specific heat capacity of A is higher than B"
+      },
+      {
+        "id": "C",
+        "teks": "Haba pendam tentu A lebih rendah daripada B / Specific latent heat of A is lower than B"
+      },
+      {
+        "id": "D",
+        "teks": "Blok A menyerap lebih banyak haba berbanding B / Block A absorbs more heat than B"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q53",
+    "sumber": "Percubaan Selangor Set 2 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 53,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.4 Menentukan hubungan antara tekanan dan suhu bagi suatu gas pada isi padu malar (Hukum Gay-Lussac)",
+    "spKod": "4.4.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara graf berikut, yang manakah adalah berkaitan dengan Hukum Gay-Lussac?\nWhich of the following graphs is related to Gay-Lussac's Law? (Selangor: Set 2: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Graf P melawan T (Kelvin) bermula dari asalan / Graph of P against T (Kelvin) passing through origin"
+      },
+      {
+        "id": "B",
+        "teks": "Graf P melawan 1/V garis lurus / Graph of P against 1/V straight line"
+      },
+      {
+        "id": "C",
+        "teks": "Graf V melawan T (Kelvin) bermula dari asalan / Graph of V against T (Kelvin) passing through origin"
+      },
+      {
+        "id": "D",
+        "teks": "Graf P melawan V garis mendatar / Horizontal graph of P against V"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q54",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 54,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 40 menunjukkan seorang lelaki menuangkan air ke dalam radiator kereta bertujuan membantu mengawal suhu enjin.\nDiagram 40 shows a man pouring water into his car's radiator to control the temperature of an engine. (MRSM: 2021)\n\nMengapakah air digunakan dalam sistem penyejuk radiator kereta?\nWhy is water used in a car radiator cooling system?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah40.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Muatan haba tentu air adalah tinggi / Specific heat capacity of water is high"
+      },
+      {
+        "id": "B",
+        "teks": "Ketumpatan air adalah rendah / Density of water is low"
+      },
+      {
+        "id": "C",
+        "teks": "Takat didih air adalah sangat rendah / Boiling point of water is very low"
+      },
+      {
+        "id": "D",
+        "teks": "Air tidak bertindak balas dengan logam / Water does not react with metals"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q55",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 55,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 41 menunjukkan fenomena bayu laut.\nDiagram 41 shows the sea breeze phenomenon. (MRSM: 2021)\n\nMengapakah fenomena bayu laut berlaku pada waktu siang?\nWhy does the sea breeze phenomenon occur during daytime?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah41.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laut membebaskan haba lebih cepat berbanding darat / Sea releases heat faster than land"
+      },
+      {
+        "id": "B",
+        "teks": "Laut mempunyai haba pendam tentu lebih tinggi berbanding darat / Sea has higher specific latent heat than land"
+      },
+      {
+        "id": "C",
+        "teks": "Laut menyerap lebih banyak haba berbanding darat pada waktu siang / Sea absorbs more heat than land during daytime"
+      },
+      {
+        "id": "D",
+        "teks": "Laut mempunyai muatan haba tentu yang lebih tinggi berbanding darat / Sea has higher specific heat capacity than land"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q56",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 56,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 42 (a) menunjukkan air dipanaskan menggunakan pemanas. Sebuah termometer dwilogam merekodkan suhu air tersebut. Rajah 42 (b) menunjukkan isipadu air selepas 20 minit mendidih.\nDiagram 42 (a) shows water is being heated using a heater. A bimetallic thermometer is used to record the temperature. Diagram 42 (b) shows volume of water after 20 minutes of boiling. (Melaka: 2021)\n\nApakah konsep fizik yang menerangkan penurunan isipadu air semasa mendidih pada suhu malar?\nWhat is the physics concept that explains the decrease in water volume during boiling at constant temperature?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah42.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Haba pendam tentu pengewapan / Specific latent heat of vaporization"
+      },
+      {
+        "id": "B",
+        "teks": "Haba pendam tentu pelakuran / Specific latent heat of fusion"
+      },
+      {
+        "id": "C",
+        "teks": "Muatan haba tentu air / Specific heat capacity of water"
+      },
+      {
+        "id": "D",
+        "teks": "Keseimbangan terma / Thermal equilibrium"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q57",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 57,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 43 menunjukkan pandangan belakang sebuah peti sejuk. Selepas gas penyejuk dimampatkan oleh pemampat, ia akan melalui bahagian kondenser. Perubahan keadaan jirim berlaku kepada gas semasa melalui kondenser.\nDiagram 43 shows rear view of a refrigerator. After refrigerant gas is compressed, it flows through condenser. State of matter changes when gas passes through condenser. (Melaka: 2021)\n\nApakah perubahan fasa yang berlaku di dalam kondenser?\nWhat phase change occurs in the condenser?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah43.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gas membebaskan haba pendam tentu dan memeluwap menjadi cecair / Gas releases latent heat and condenses to liquid"
+      },
+      {
+        "id": "B",
+        "teks": "Cecair menyerap haba dan menyejat / Liquid absorbs heat and evaporates"
+      },
+      {
+        "id": "C",
+        "teks": "Cecair membeku menjadi pepejal / Liquid freezes to solid"
+      },
+      {
+        "id": "D",
+        "teks": "Gas mengembang tanpa perubahan fasa / Gas expands without phase change"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q58",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 58,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 44 menunjukkan sfera logam pada suhu 90 °C direndam ke dalam cecair pada suhu 40 °C.\nDiagram 44 shows a metal sphere at temperature of 90 °C immersed in a liquid at temperature of 40 °C. (Melaka: 2021)\n\nAntara pernyataan berikut, yang manakah betul apabila keseimbangan terma dicapai?\nWhich of the following statements is correct when thermal equilibrium is reached?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah44.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Suhu sfera logam dan cecair menjadi sama / Temperature of metal sphere and liquid becomes equal"
+      },
+      {
+        "id": "B",
+        "teks": "Tenaga dalam sfera logam menjadi sifar / Internal energy of metal sphere becomes zero"
+      },
+      {
+        "id": "C",
+        "teks": "Haba mengalir daripada cecair ke sfera logam / Heat flows from liquid to metal sphere"
+      },
+      {
+        "id": "D",
+        "teks": "Kadar pemindahan haba dari sfera ke cecair kekal lebih tinggi / Rate of heat transfer from sphere to liquid remains higher"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q59",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 59,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 45 menunjukkan satu sudu logam diletakkan dalam secawan kopi panas.\nDiagram 45 shows a cold metal spoon is placed in a cup of hot coffee. (Perlis: 2021)\n\nTentukan pernyataan yang betul tentang pengaliran haba antara sudu dan kopi panas sebelum mencapai keseimbangan terma.\nDetermine the correct statement about heat flow between spoon and hot coffee before reaching thermal equilibrium.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah45.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Haba mengalir dari kopi panas ke sudu logam pada kadar lebih tinggi daripada sudu ke kopi / Heat flows from hot coffee to metal spoon at higher rate than from spoon to coffee"
+      },
+      {
+        "id": "B",
+        "teks": "Haba hanya mengalir satu arah dari sudu ke kopi / Heat flows only one-way from spoon to coffee"
+      },
+      {
+        "id": "C",
+        "teks": "Tiada pengaliran haba berlaku / No heat flow occurs"
+      },
+      {
+        "id": "D",
+        "teks": "Kadar pemindahan haba bersih adalah sifar / Net rate of heat transfer is zero"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q60",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 60,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 46 menunjukan botol plastik kosong diletakkan dalam peti sejuk. Selepas beberapa minit disejukkan, botol plastik itu kemek.\nDiagram 46 shows an empty plastic bottle is placed in a refrigerator. After a few minutes of cooling, the plastic bottle is dented. (Perlis: 2021)\n\nFenomena ini dapat diterangkan oleh\nThis phenomenon can be explained by",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah46.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Hukum Charles / Charles' law"
+      },
+      {
+        "id": "B",
+        "teks": "Hukum Boyle / Boyle's law"
+      },
+      {
+        "id": "C",
+        "teks": "Hukum Gay-Lussac / Gay-Lussac's law"
+      },
+      {
+        "id": "D",
+        "teks": "Prinsip Archimedes / Archimedes' principle"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q61",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 61,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.2 Menentukur sebuah termometer cecair dalam kaca menggunakan dua takat tetap",
+    "spKod": "4.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 47 menunjukkan satu termometer yang diletakkan di bawah lidah pesakit. Selepas beberapa ketika, suhu pesakit ialah 37.8 °C.\nDiagram 47 shows a thermometer is placed under a patient's tongue. After a while, the patient's temperature is 37.8 °C. (Perlis: 2021)\n\nPernyataan manakah yang betul?\nWhich statement is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah47.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Keseimbangan terma telah dicapai antara pesakit dan termometer / Thermal equilibrium has been achieved between patient and thermometer"
+      },
+      {
+        "id": "B",
+        "teks": "Suhu pesakit lebih tinggi daripada termometer / Patient's temperature is higher than thermometer"
+      },
+      {
+        "id": "C",
+        "teks": "Pemindahan haba bersih masih berlaku ke arah termometer / Net heat transfer is still occurring towards thermometer"
+      },
+      {
+        "id": "D",
+        "teks": "Merkuri tidak mencapai suhu yang sama dengan badan pesakit / Mercury does not reach the same temperature as patient's body"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q62",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 62,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 48 menunjukkan keadaan baju yang digosok menggunakan seterika wap. Baju yang digosok menggunakan seterika wap lebih licin dan rapi.\nDiagram 48 shows a condition of a shirt that is ironed with a steamed iron. Clothes that are ironed using a steamed iron are smoother and neater. (Perlis: 2021)\n\nApakah konsep fizik yang diaplikasikan?\nWhat physics concept is applied?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah48.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Haba pendam tentu pengewapan stim membebaskan sejumlah besar haba apabila memeluwap pada serat kain / Specific latent heat of vaporization of steam releases large amount of heat when condensing on fabric fibers"
+      },
+      {
+        "id": "B",
+        "teks": "Muatan haba tentu air yang rendah / Low specific heat capacity of water"
+      },
+      {
+        "id": "C",
+        "teks": "Haba pendam tentu pelakuran / Specific latent heat of fusion"
+      },
+      {
+        "id": "D",
+        "teks": "Hukum Boyle bagi stim / Boyle's law of steam"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q63",
+    "sumber": "SPM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 63,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.3 Menentukan hubungan antara isi padu dan suhu bagi suatu gas pada tekanan malar (Hukum Charles)",
+    "spKod": "4.4.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Situasi manakah yang melibatkan Hukum Charles?\nWhich situations involved Charles' Law? (SPM: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Bola ping-pong kemek diletakkan dalam air panas menjadi bulat semula / Dented ping-pong ball placed in hot water becomes round again"
+      },
+      {
+        "id": "B",
+        "teks": "Picagari ditekan pada suhu malar / Syringe compressed at constant temperature"
+      },
+      {
+        "id": "C",
+        "teks": "Tekanan tayar diukur sebelum dan selepas perjalanan jauh / Tyre pressure measured before and after long journey"
+      },
+      {
+        "id": "D",
+        "teks": "Belon udara panas mengecut dalam cecair sejuk / Hot air balloon shrinking in cold water"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q64",
+    "sumber": "SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 64,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Sebatang sudu logam telah diletakkan ke dalam air kopi panas. Antara pernyataan yang berikut, yang manakah betul tentang pengaliran haba?\nA metal spoon is placed inside hot coffee water. Which of the following is correct about the heat flow? (SPM: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Haba hanya mengalir dari air kopi ke sudu / Heat flows from coffee water to spoon only"
+      },
+      {
+        "id": "B",
+        "teks": "Haba bersih mengalir dari sudu ke air kopi / Net heat flows from spoon to coffee water"
+      },
+      {
+        "id": "C",
+        "teks": "Tiada haba mengalir dari kedua-dua air kopi dan sudu pada keseimbangan terma / No heat flows from both coffee water and spoon at thermal equilibrium"
+      },
+      {
+        "id": "D",
+        "teks": "Kadar pemindahan haba dari air kopi ke sudu adalah sama dengan kadar pemindahan haba dari sudu ke air kopi pada keseimbangan terma / Rate of heat transfer from coffee water to spoon is equal to rate of heat transfer from spoon to coffee water at thermal equilibrium"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K2_Q65",
+    "sumber": "SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 65,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 49 menunjukkan sekeping keju diletakkan di atas sekeping roti dan dibakar di dalam oven. Apabila dikeluarkan dari oven dalam beberapa minit, didapati keju yang cair masih lagi panas berbanding roti.\nDiagram 49 shows a piece of cheese placed on top of a piece of bread and baked in the oven. When removed from the oven in a few minutes, it is found that the melted cheese is still hotter than the bread. (SPM: 2023)\n\nAntara pernyataan berikut, yang manakah betul?\nWhich of the following statements is correct?\nI Keju menyerap haba dengan banyak / Cheese absorbs more heat\nII Keju mempunyai muatan haba tentu yang tinggi / Cheese has higher specific heat capacity\nIII Keju dan roti mempunyai muatan haba tentu yang sama / Cheese and bread have same specific heat capacity\nIV Muatan haba tentu keju lebih rendah berbanding roti / The specific heat capacity of cheese is lower than the bread",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah49.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II / I and II"
+      },
+      {
+        "id": "B",
+        "teks": "I dan IV / I and IV"
+      },
+      {
+        "id": "C",
+        "teks": "II dan III / II and III"
+      },
+      {
+        "id": "D",
+        "teks": "III dan IV / III and IV"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Berdasarkan konsep Fizik Termal Bab 4 dan analisis prinsip keseimbangan terma, muatan haba tentu, haba pendam tentu, atau hukum gas, jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q01",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.2 Menyelesaikan masalah melibatkan muatan haba tentu menggunakan rumus Q = mc theta dan Pt = mc theta",
+    "spKod": "4.2.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Sebuah sfera logam berjisim 100 g pada suhu 90 °C dimasukkan ke dalam sebuah bikar mengandungi 200 g air pada suhu 30 °C. Selepas mencapai keseimbangan terma, suhu air dan sfera logam menjadi 36 °C. Berapakah muatan haba tentu sfera logam itu?\n[Muatan haba tentu air = 4.2 x 10^3 J kg^-1 °C^-1]\nA metal sphere with mass 100 g at 90 °C is placed into a beaker containing 200 g of water at 30 °C. After reaching thermal equilibrium, the temperature of water and metal sphere becomes 36 °C. What is the specific heat capacity of the metal sphere? (Kelantan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "840.00 J kg^-1 °C^-1"
+      },
+      {
+        "id": "B",
+        "teks": "933.33 J kg^-1 °C^-1"
+      },
+      {
+        "id": "C",
+        "teks": "2800.00 J kg^-1 °C^-1"
+      },
+      {
+        "id": "D",
+        "teks": "8400.00 J kg^-1 °C^-1"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Haba yang dibebaskan oleh logam = Haba yang diserap oleh air\nQ_logam = Q_air\n(mcθ)_logam = (mcθ)_air\n(0.1)(c)(90 - 36) = (0.2)(4.2 × 10³)(36 - 30)\n∴ c = 933.333 J kg⁻¹ °C⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q02",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Suatu gas berjisim tetap mempunyai isipadu V pada suhu 40 °C dengan tekanan malar. Berapakah suhu gas tersebut sekiranya isipadu gas meningkat kepada 3 V?\nA gas of constant mass has a volume V at a temperature of 40 °C and a constant pressure. What is the temperature of the gas if the volume of the gas increases to 3 V? (Melaka: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "313 K"
+      },
+      {
+        "id": "B",
+        "teks": "626 K"
+      },
+      {
+        "id": "C",
+        "teks": "939 K"
+      },
+      {
+        "id": "D",
+        "teks": "979 K"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Hukum Charles,\nV₁ / T₁ = V₂ / T₂\n1 / (40 + 273) = 3 / θ\n∴ θ = 939 K",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q03",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.5 Menyelesaikan masalah melibatkan tekanan, suhu dan isi padu gas menggunakan rumus Hukum-hukum Gas",
+    "spKod": "4.4.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 50 menunjukkan sebuah tangki skuba.\nDiagram 50 shows a scuba tank. (Negeri Sembilan: 2023)\n\nTekanan awal di dalam tangki ialah 1.317 x 10^7 Pa. Kira tekanan akhir di dalam tangki selepas ia menyejuk dari 1 000 °C hingga 25 °C.\nThe initial pressure in the tank is 1.317 x 10^7 Pa. Calculate the final pressure in the tank after it cools from 1 000 °C to 25 °C.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah50.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3.08 x 10^6 Pa"
+      },
+      {
+        "id": "B",
+        "teks": "3.29 x 10^5 Pa"
+      },
+      {
+        "id": "C",
+        "teks": "5.62 x 10^7 Pa"
+      },
+      {
+        "id": "D",
+        "teks": "5.27 x 10^8 Pa"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Hukum Gay-Lussac / Hukum Tekanan,\nP₁ / T₁ = P₂ / T₂\n1.317 × 10⁷ / (1000 + 273) = P₂ / (25 + 273)\n∴ P₂ = 3.083 × 10⁶ Pa",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q04",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.5 Menyelesaikan masalah melibatkan tekanan, suhu dan isi padu gas menggunakan rumus Hukum-hukum Gas",
+    "spKod": "4.4.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 51 menunjukkan omboh kedap udara di dalam silinder yang mengandungi gas pada suhu malar.\nDiagram 51 shows an air tight piston in a cylinder containing gas at a constant temperature. (Perlis: 2023)\n\nApabila omboh berada di kedudukan W (panjang turus 20 cm), tekanan gas ialah P. Berapakah tekanan gas itu apabila omboh ditarik keluar ke kedudukan X (panjang turus 40 cm)?\nWhen the piston is at position W, the gas pressure is P. What is the gas pressure when the piston is pulled out to position X?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah51.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1/4 P"
+      },
+      {
+        "id": "B",
+        "teks": "1/2 P"
+      },
+      {
+        "id": "C",
+        "teks": "2 P"
+      },
+      {
+        "id": "D",
+        "teks": "3 P"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Hukum Boyle,\nP₁V₁ = P₂V₂\nKedudukan W = 1P (20 cm)\nDari kedudukan W ditarik ke kedudukan X = 3P (60 cm)\nP₁(20) = P₂(60)\n∴ P₂ = ⅓ P₁",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q05",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Tekanan awal dan suhu udara dalam tayar lori masing-masing 790 kPa dan 35 °C. Selepas perjalanan, tekanan udara dalam tayar ialah 813 kPa. Hitung suhu udara dalam tayar dalam °C.\nThe initial pressure and air temperature in the truck tyre are 790 kPa and 35 °C respectively. After the journey, the air pressure in the tyre is 813 kPa. Calculate the temperature of air in the tyre in °C. (Terengganu: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "18.35 °C"
+      },
+      {
+        "id": "B",
+        "teks": "34.01 °C"
+      },
+      {
+        "id": "C",
+        "teks": "36.02 °C"
+      },
+      {
+        "id": "D",
+        "teks": "43.97 °C"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Hukum Gay-Lussac / Hukum Tekanan,\nP₁ / T₁ = P₂ / T₂\n790 × 10³ / (35 + 273) = 813 × 10³ / θ₂\nθ₂ = 316.9671 K\nθ₂ = 316.9671 - 273\n∴ θ₂ = 43.97 °C",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q06",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.2 Menyelesaikan masalah melibatkan haba pendam tentu menggunakan rumus Q = mL dan Pt = mL",
+    "spKod": "4.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Sebuah cerek elektrik yang mempunyai kadar kuasa 240 V, 2000 W digunakan untuk mendidihkan 500 g air. Rajah 52 menunjukkan graf suhu, T melawan masa, t bagi proses tersebut.\nAn electric kettle with power rating 240 V, 2000 W is used to boil 500 g of water. Diagram 52 shows the graph of temperature, T against time, t of the process. (MRSM: 2023)\n\nBerapakah masa yang diperlukan, X untuk mendidihkan air tersebut?\n[Muatan haba tentu air, c = 4200 J kg^-1 °C^-1]\nWhat is the time taken, X to boil the water?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah52.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "73.5 s"
+      },
+      {
+        "id": "B",
+        "teks": "105.0 s"
+      },
+      {
+        "id": "C",
+        "teks": "73 500.0 s"
+      },
+      {
+        "id": "D",
+        "teks": "105 000.0 s"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Pt = mcθ\n(2000)(t) = (0.5)(4200)(100 - 30)\n2000t = 147 000\n∴ t = 73.5 s",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q07",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 7,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.2 Menyelesaikan masalah melibatkan muatan haba tentu menggunakan rumus Q = mc theta dan Pt = mc theta",
+    "spKod": "4.2.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Suatu bahan api menghasilkan 4 kJ tenaga bagi setiap 0.002 kg pembakarannya. Jika bahan api ini digunakan untuk memanaskan suatu cecair berjisim 5 kg dari suhu 40 °C hingga 90 °C, berapakah jisim bahan api yang diperlukan?\n[Muatan haba tentu cecair = 5.0 x 10^3 J kg^-1 °C^-1]\nA fuel produced 4 kJ of energy for every 0.002 kg of its combustion. If the fuel is used to heat liquid of mass 5 kg with a temperature 40 °C to 90 °C, what is the mass of fuel required? (Kedah: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.375 kg"
+      },
+      {
+        "id": "B",
+        "teks": "0.450 kg"
+      },
+      {
+        "id": "C",
+        "teks": "0.624 kg"
+      },
+      {
+        "id": "D",
+        "teks": "0.865 kg"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Bahan api: Q = 4 kJ = 4000 J bagi m = 0.002 kg\nCecair: Q = mcθ = (5)(5 × 10³)(90 - 40) = 125 000 J\nJisim bahan api yang diperlukan:\nm = (125 000 / 4000) × 0.002 kg\n∴ m = 0.625 kg",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q08",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 8,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Tekanan udara dalam tayar kereta ialah 210 kPa pada suhu 27 °C. Berapakah tekanan dalam tayar tersebut pada suhu 35 °C?\n[Anggapkan isipadu udara dalam tayar adalah tetap]\nThe air pressure in a car tyre is 210 kPa at a temperature of 27 °C. What is the air pressure in the tyre when the temperature rises to 35 °C? (Kelantan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "215.6 kPa"
+      },
+      {
+        "id": "B",
+        "teks": "218.4 kPa"
+      },
+      {
+        "id": "C",
+        "teks": "224.2 kPa"
+      },
+      {
+        "id": "D",
+        "teks": "272.2 kPa"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Hukum Gay-Lussac / Hukum Tekanan,\nP₁ / T₁ = P₂ / T₂\n210 × 10³ / (27 + 273) = P₂ / (35 + 273)\nP₂ = 215 600 Pa\n∴ P₂ = 215.60 kPa",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q09",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 9,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.2 Menyelesaikan masalah melibatkan haba pendam tentu menggunakan rumus Q = mL dan Pt = mL",
+    "spKod": "4.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Tenaga haba sebanyak 21 600 J digunakan untuk meningkatkan suhu sebuah blok logam 0.8 kg daripada 30 °C kepada 60 °C. Berapakah muatan haba tentu blok logam itu?\nHeat energy of 21 600 J is used to raise the temperature of a 0.8 kg metal block from 30 °C to 60 °C. What is the specific heat capacity of the metal block? (Kelantan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "450 J kg^-1 °C^-1"
+      },
+      {
+        "id": "B",
+        "teks": "576 J kg^-1 °C^-1"
+      },
+      {
+        "id": "C",
+        "teks": "900 J kg^-1 °C^-1"
+      },
+      {
+        "id": "D",
+        "teks": "1200 J kg^-1 °C^-1"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Q = mcθ\n21 600 = (0.8)(c)(60 - 30)\n21 600 = 24c\n∴ c = 900 J kg⁻¹ °C⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q10",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 10,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Sebiji bola ping pong yang kemek mempunyai isipadu 30 cm^3 telah mengembang kepada 38 cm^3 setelah dimasukkan ke dalam air panas bersuhu 100 °C. Berapakah suhu awal udara dalam bola ping pong?\nA dented ping pong ball has volume 30 cm^3 is inflated to 38 cm^3 in hot water of temperature 100 °C. What is the initial temperature of the air inside the ping pong ball? (Melaka: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "21.47 °C"
+      },
+      {
+        "id": "B",
+        "teks": "25.00 °C"
+      },
+      {
+        "id": "C",
+        "teks": "34.21 °C"
+      },
+      {
+        "id": "D",
+        "teks": "38.95 °C"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Hukum Charles,\nV₁ / T₁ = V₂ / T₂\n30 / θ₂ = 38 / (100 + 273)\nθ₂ = 297.47 K\nθ₂ = 297.47 - 273\n∴ θ₂ = 21.473 °C",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q11",
+    "sumber": "Percubaan Negeri Sembilan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 11,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Sebiji belon diisi dengan sejenis gas pada tekanan atmosfera. Belon itu kemudian ditenggelamkan di dalam air sehingga isipadunya menjadi 1/2 daripada isipadu asalnya. Berapakah kedalaman belon itu di bawah permukaan air?\n[Tekanan atmosfera = 10 m air]\nA balloon filled with a gas at atmospheric pressure. The balloon then is immersed in water until its volume becomes 1/2 of its initial volume. What is the depth of the balloon under the water surface? (Negeri Sembilan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "5.0 m"
+      },
+      {
+        "id": "B",
+        "teks": "10.0 m"
+      },
+      {
+        "id": "C",
+        "teks": "12.5 m"
+      },
+      {
+        "id": "D",
+        "teks": "20.0 m"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Hukum Boyle,\nP₁V₁ = P₂V₂\nP₁ = P_atm = 10 m, V₁ = 1, V₂ = ¼\n(10)(1) = P₂(¼) ⇒ P₂ = 40 m\nP₂ = P_gas + P_atm\n40 m = P_gas + 10 m\n∴ P_gas = 30 m",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q12",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 12,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Suatu gas berjisim tetap pada tekanan malar mempunyai isipadu 3V pada suhu 45 °C. Sekiranya gas itu mengembang menjadi isipadu 6V, berapakah suhu gas itu sekarang?\nA fixed mass of gas at constant pressure has a volume of 3V at temperature of 45 °C. If the gas expands to a volume of 6V, what is the temperature of the gas now? (Pahang: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "-123.0 °C"
+      },
+      {
+        "id": "B",
+        "teks": "13.5 °C"
+      },
+      {
+        "id": "C",
+        "teks": "327.0 °C"
+      },
+      {
+        "id": "D",
+        "teks": "363.0 °C"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Hukum Charles,\nV₁ / T₁ = V₂ / T₂\n3V / (45 + 273) = 6V / θ₂\nθ₂ = 636 K\nθ₂ = 636 - 273\n∴ θ₂ = 363.0 °C",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q13",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 13,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.2 Menyelesaikan masalah melibatkan haba pendam tentu menggunakan rumus Q = mL dan Pt = mL",
+    "spKod": "4.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 53 menunjukkan ketulan ais dipanaskan menggunakan pemanas elektrik berkuasa 50 Watt selama 60 saat.\nDiagram 53 shows ice cubes being heated by an electrical heater with the power 50 Watt within 60 seconds. (SBP: 2022)\n\nHitung jisim ais yang telah melebur.\n[Haba pendam tentu pelakuran = 3.3 x 10^5 J kg^-1]\nCalculate the mass of the ice cubes that have melted.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah53.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.45 x 10^-3 kg"
+      },
+      {
+        "id": "B",
+        "teks": "9.09 x 10^-3 kg"
+      },
+      {
+        "id": "C",
+        "teks": "1.0 x 10^-2 kg"
+      },
+      {
+        "id": "D",
+        "teks": "9.09 x 10^-1 kg"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Pt = mL\n(50)(60) = (m)(3.3 × 10⁵)\n3000 = m(3.3 × 10⁵)\n∴ m = 9.0909 × 10⁻³ kg",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q14",
+    "sumber": "Percubaan Selangor Set 1 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 14,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.2 Menyelesaikan masalah melibatkan muatan haba tentu menggunakan rumus Q = mc theta dan Pt = mc theta",
+    "spKod": "4.2.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 54 menunjukkan satu silinder logam yang berjisim 3 kg dan muatan haba tentu 2 450 J kg^-1 °C^-1 dipanaskan dengan pemanas yang berkuasa 0.5 kW.\nDiagram 54 shows a metal cylinder of mass 3 kg and specific heat capacity 2 450 J kg^-1 °C^-1 is heated with a heater of power 0.5 kW. (Selangor: Set 1: 2022)\n\nBerapakah kenaikan suhu silinder itu jika pemanas dihidupkan selama 1 minit?\nWhat is the rise in temperature of the cylinder if the heater is switched on for 1 minute?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah54.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.25 °C"
+      },
+      {
+        "id": "B",
+        "teks": "0.61 °C"
+      },
+      {
+        "id": "C",
+        "teks": "4.08 °C"
+      },
+      {
+        "id": "D",
+        "teks": "18.00 °C"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Pt = mcθ\n(0.5 × 1000)(1 × 60) = (3)(2450)(θ)\n30 000 = 7350θ\n∴ θ = 4.0816 °C",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q15",
+    "sumber": "Percubaan Selangor Set 2 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 15,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.2 Menyelesaikan masalah melibatkan muatan haba tentu menggunakan rumus Q = mc theta dan Pt = mc theta",
+    "spKod": "4.2.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 55 menunjukkan satu silinder logam yang berjisim 2.5 kg dipanaskan dengan pemanas yang berkuasa 0.3 kW selama 3 minit.\nDiagram 55 shows a metal cylinder of mass 2.5 kg is heated with a heater of power 0.3 kW for 3 minutes. (Selangor: Set 2: 2022)\n\nApakah muatan haba tentu untuk silinder itu jika kenaikan suhu adalah sebanyak 34 °C?\nWhat is the specific heat capacity of the cylinder if the temperature rise is 34 °C?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah55.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "635.29 J kg^-1 °C^-1"
+      },
+      {
+        "id": "B",
+        "teks": "944.44 J kg^-1 °C^-1"
+      },
+      {
+        "id": "C",
+        "teks": "1270.58 J kg^-1 °C^-1"
+      },
+      {
+        "id": "D",
+        "teks": "8160.00 J kg^-1 °C^-1"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Pt = mcθ\n(0.3 × 1000)(3 × 60) = (2.5)(c)(34)\n54 000 = 85c\n∴ c = 635.294 J kg⁻¹ °C⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q16",
+    "sumber": "Percubaan Kedah 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 16,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.2 Menyelesaikan masalah melibatkan haba pendam tentu menggunakan rumus Q = mL dan Pt = mL",
+    "spKod": "4.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Sekeping logam dengan jisim 100 g dan suhu 100 °C dimasukkan ke dalam sebikar ais pada 0 °C. Didapati 10 g daripada ais tersebut melebur dan suhu logam turun ke 60 °C. Berapakah muatan haba tentu logam itu dalam unit J kg^-1 °C^-1?\n[Haba pendam peleburan ais = 3.34 x 10^5 J kg^-1]\nA piece of metal with a mass of 100 g and at a temperature of 100 °C is placed in a beaker of ice at 0 °C. 10 g of the ice has melted while temperature of the metal decreases to 60 °C. What is the specific heat capacity of the metal? (Kedah: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "835 J kg^-1 °C^-1"
+      },
+      {
+        "id": "B",
+        "teks": "910 J kg^-1 °C^-1"
+      },
+      {
+        "id": "C",
+        "teks": "299 J kg^-1 °C^-1"
+      },
+      {
+        "id": "D",
+        "teks": "334 J kg^-1 °C^-1"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Haba yang dibebaskan oleh logam = Haba yang diserap oleh ais\nQ_logam = Q_ais\nmcθ = mL\n(0.1)(c)(100 - 60) = (10/1000)(3.34 × 10⁵)\n4c = 3340\n∴ c = 835 J kg⁻¹ °C⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q17",
+    "sumber": "Percubaan Kelantan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 17,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Gas yang berada dalam bekas tertutup mempunyai tekanan 125 kPa pada suhu 30 °C. Tentukan suhu gas di dalam bekas itu jika tekanannya meningkat kepada 201 kPa.\nA gas in a sealed container has a pressure of 125 kPa at 30 °C. Determine the temperature of the gas in the container if the pressure is increased to 201 kPa. (Kelantan: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "48 °C"
+      },
+      {
+        "id": "B",
+        "teks": "214 °C"
+      },
+      {
+        "id": "C",
+        "teks": "487 °C"
+      },
+      {
+        "id": "D",
+        "teks": "838 °C"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Hukum Gay-Lussac / Hukum Tekanan,\nP₁ / T₁ = P₂ / T₂\n125 × 10³ / (30 + 273) = (201 × 10³) / θ₂\nθ₂ = 487.224 K\nθ₂ = 487.224 - 273\n∴ θ₂ = 214.224 °C",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q18",
+    "sumber": "Percubaan Kelantan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 18,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.2 Menyelesaikan masalah melibatkan muatan haba tentu menggunakan rumus Q = mc theta dan Pt = mc theta",
+    "spKod": "4.2.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 56 menunjukkan empat blok P, Q, R dan S dengan muatan haba tentu yang berbeza tetapi mempunyai jisim dan suhu awal yang serupa, dipanaskan di atas dapur dengan jumlah tenaga haba yang sama.\nDiagram 56 shows four blocks, P, Q, R and S with different specific heat capacity but have the same mass and initial temperature, were heated on the stove by the same amount of heat energy. (Kelantan: 2021)\n[P = 900 J kg^-1 °C^-1, Q = 500 J kg^-1 °C^-1, R = 390 J kg^-1 °C^-1, S = 130 J kg^-1 °C^-1]\n\nBlok manakah yang akan mempunyai kenaikan suhu yang paling tinggi selepas dipanaskan selama 10 minit?\nWhich block will have the highest increase in temperature after being heated for 10 minutes?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah56.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Blok P / Block P"
+      },
+      {
+        "id": "B",
+        "teks": "Blok Q / Block Q"
+      },
+      {
+        "id": "C",
+        "teks": "Blok R / Block R"
+      },
+      {
+        "id": "D",
+        "teks": "Blok S (muatan haba tentu paling rendah) / Block S (lowest specific heat capacity)"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Blok S mempunyai kenaikan suhu yang paling tinggi selepas dipanaskan selama 10 minit kerana mempunyai muatan haba tentu, c yang paling rendah (Q = mcθ ⇒ θ = Q/mc).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q19",
+    "sumber": "Percubaan Sarawak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 19,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.5 Menyelesaikan masalah melibatkan tekanan, suhu dan isi padu gas menggunakan rumus Hukum-hukum Gas",
+    "spKod": "4.4.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 57 (a) dan Rajah 57 (b) menunjukkan dua picagari yang serupa dengan muncungnya ditutup. Apabila isipadu udara terperangkap dalam picagari adalah 3 ml, tekanannya adalah 1 x 10^5 Pa. Kemudian omboh ditolak perlahan-lahan sehingga isipadunya 0.45 ml.\nDiagram 57 (a) and Diagram 57 (b) shows two identical syringes with their nozzles closed. When the volume of air trapped in the syringe is 3 ml, the pressure is 1 x 10^5 Pa. Then the piston is pushed slowly until its volume is 0.45 ml. (Sarawak: 2021)\n\nBerapakah tekanan udara yang terperangkap?\nWhat is the pressure of trapped air?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah57.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "8.0 x 10^5 Pa"
+      },
+      {
+        "id": "B",
+        "teks": "7.67 x 10^5 Pa"
+      },
+      {
+        "id": "C",
+        "teks": "5.67 x 10^5 Pa"
+      },
+      {
+        "id": "D",
+        "teks": "6.67 x 10^5 Pa"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Hukum Boyle,\nP₁V₁ = P₂V₂\n(1 × 10⁵)(3 ml) = P₂(0.45 ml)\n∴ P₂ = 6.6667 × 10⁵ Pa",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q20",
+    "sumber": "Percubaan Negeri Sembilan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 20,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 58 menunjukkan bacaan tolok tekanan di dalam sebuah kelalang yang berisi gas pada bilik yang bersuhu 20 °C ialah 80 kPa. Apabila dipanaskan sehingga peningkatan suhu sebanyak 30 °C, bacaan tolok tekanan menunjukkan perubahan.\nDiagram 58 shows the reading of the pressure gauge in a flask containing gas in a room at temperature of 20 °C is 80 kPa. When heated to the increase of the temperature by 30 °C, the readings of the pressure gauge show a change. (Negeri Sembilan: 2021)\n\nApakah bacaan tolok tekanan pada suhu yang baru?\nWhat is the pressure gauge reading at the new temperature?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah58.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "82 733 Pa"
+      },
+      {
+        "id": "B",
+        "teks": "88 191 Pa"
+      },
+      {
+        "id": "C",
+        "teks": "120 000 Pa"
+      },
+      {
+        "id": "D",
+        "teks": "200 000 Pa"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Hukum Gay-Lussac / Hukum Tekanan,\nP₁ / T₁ = P₂ / T₂\n80 × 10³ / (20 + 273) = P₂ / (20 + 30 + 273)\n80 × 10³ / 293 = P₂ / 323\n∴ P₂ = 88 191.126 Pa",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q21",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 21,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.2 Menentukur sebuah termometer cecair dalam kaca menggunakan dua takat tetap",
+    "spKod": "4.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Rajah 59 menunjukkan sebuah termometer merkuri dalam kaca. Skala termometer belum ditandakan. Panjang turus merkuri, l meningkat secara seragam dengan suhu. Panjang, l ialah 2.0 cm pada 0 °C dan 26.0 cm pada 100 °C.\nDiagram 59 shows a mercury-in-glass thermometer. The scale has not been marked. Length of mercury column, l increases uniformly with temperature. Length l is 2.0 cm at 0 °C and 26.0 cm at 100 °C. (Pahang: 2021)\n\nBerapakah nilai l apabila bebuli diletakkan di dalam air pada suhu 50 °C?\nWhat is the value of l when the bulb is placed in water at 50 °C?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah59.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "12.0 cm"
+      },
+      {
+        "id": "B",
+        "teks": "13.0 cm"
+      },
+      {
+        "id": "C",
+        "teks": "14.0 cm"
+      },
+      {
+        "id": "D",
+        "teks": "16.0 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "θ = [(L_θ - L₀) / (L₁₀₀ - L₀)] × 100 °C\n50 = [(L_θ - 2) / (26 - 2)] × 100\n0.5 = (L_θ - 2) / 24\nL_θ - 2 = 12\n∴ L_θ = 14.0 cm",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q22",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 22,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "400 g air yang bersuhu 30 °C dimasukkan ke dalam X g air yang bersuhu 100 °C. Dalam keadaan keseimbangan terma, suhu air tersebut adalah 60 °C. Hitung nilai X.\n400 g of water at temperature 30 °C is added to X g of water at temperature of 100 °C. In a thermal equilibrium state, the temperature of the water is 60 °C. Find the value of X. (Perlis: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "400 g"
+      },
+      {
+        "id": "B",
+        "teks": "300 g"
+      },
+      {
+        "id": "C",
+        "teks": "800 g"
+      },
+      {
+        "id": "D",
+        "teks": "933 g"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Haba dibebaskan air 400 g = Haba diserap air X g\nQ_air 400g = Q_air X g\nmcθ = mcθ\nNilai c adalah sama bagi kedua-dua bahagian (air).\n(400)(60 - 30) = X(100 - 60)\n(400)(30) = 40X\n12 000 = 40X\n∴ X = m = 300 g",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K3_Q23",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 23,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.2 Menyelesaikan masalah melibatkan haba pendam tentu menggunakan rumus Q = mL dan Pt = mL",
+    "spKod": "4.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi Kuantitatif",
+    "soalan": "Suatu pepejal berjisim 1.2 kg dipanaskan menggunakan pemanas elektrik yang membekalkan 600 J tenaga haba dalam masa satu saat. Rajah 60 menunjukkan graf suhu melawan masa bagi pepejal tersebut.\nA solid of a mass 1.2 kg is heated by an electric heater which supplies 600 J of heat energy per second. Diagram 60 shows the temperature-time graph of the solid. (Perlis: 2021)\n\nCari nilai haba pendam tentu pelakuran bagi pepejal tersebut.\nFind the specific latent heat of fusion for the solid.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah60.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3 kJ kg^-1"
+      },
+      {
+        "id": "B",
+        "teks": "4 kJ kg^-1"
+      },
+      {
+        "id": "C",
+        "teks": "180 kJ kg^-1"
+      },
+      {
+        "id": "D",
+        "teks": "240 kJ kg^-1"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Pt = mL\n(600)(14 - 6)(60) = (1.2)L\n(600)(8)(60) = 1.2L\n288 000 = 1.2L\n∴ L = 240 000 J kg⁻¹",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q01",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.1 Menjelaskan tekanan, suhu dan isi padu gas dari segi teori kinetik gas",
+    "spKod": "4.4.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 61 (a) menunjukkan sebuah picagari dengan udara terperangkap. Rajah 61 (b) menunjukkan keadaan picagari itu apabila ombohnya ditekan ke bawah secara perlahan-lahan.\nDiagram 61 (a) shows a syringe with air trapped. Diagram 61 (b) shows the syringe after the piston was pushed down slowly. (Perak: 2023)\n\nAntara berikut, yang manakah betul mengenai situasi zarah-zarah udara dalam Rajah 61 (b) berbanding dengan Rajah 61 (a)?\nWhich comparison is correct between the situation of air particles in Diagram 61 (b) compared to Diagram 61 (a)?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah61.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kadar perlanggaran zarah tidak berubah, halaju zarah bertambah / Rate of collision no change, velocity increases"
+      },
+      {
+        "id": "B",
+        "teks": "Kadar perlanggaran zarah berkurang, halaju zarah bertambah / Rate of collision decreases, velocity increases"
+      },
+      {
+        "id": "C",
+        "teks": "Kadar perlanggaran zarah bertambah, halaju zarah berkurang / Rate of collision increases, velocity decreases"
+      },
+      {
+        "id": "D",
+        "teks": "Kadar perlanggaran zarah dengan dinding picagari bertambah, halaju zarah tidak berubah / Rate of collision of particles with syringe wall increases, velocity of particles unchanged"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q02",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 62 menunjukkan pergerakan udara semasa bayu darat pada waktu malam.\nDiagram 62 shows the movement of air during a land breeze at night. (Melaka: 2023)\n\nAntara pernyataan berikut yang manakah benar?\nWhich of the following statements is true?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah62.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tekanan di darat lebih rendah berbanding tekanan di laut / The pressure of the land is lower than the pressure of sea water"
+      },
+      {
+        "id": "B",
+        "teks": "Ketumpatan udara di atas permukaan darat lebih rendah daripada ketumpatan udara di atas permukaan air laut / The density of air above land is lower than density of air above sea water"
+      },
+      {
+        "id": "C",
+        "teks": "Suhu darat menjadi lebih tinggi daripada suhu air laut / The temperature of land is higher than the temperature of sea water"
+      },
+      {
+        "id": "D",
+        "teks": "Muatan haba tentu darat lebih rendah daripada muatan haba tentu air laut, menyebabkan darat menyejuk lebih cepat / The specific heat capacity of the land is lower than sea water, causing land to cool down faster"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q03",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 63 menunjukkan sebungkus ais diletakkan di atas dahi seorang kanak-kanak yang mengalami demam panas.\nDiagram 63 shows an ice pack placed on the forehead of a child with a high fever. (Negeri Sembilan: 2023)\n\nPada permulaannya, manakah antara yang berikut betul tentang sentuhan terma kepala kanak-kanak dengan bungkusan ais tersebut?\nInitially, which of the following is correct about the thermal contact of the child's head with the ice pack?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah63.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kadar pengaliran haba dari ais ke kepala kanak-kanak adalah lebih tinggi dari kadar pengaliran haba dari kepala ke ais / Rate of heat transfer from ice to child's head is higher than head to ice"
+      },
+      {
+        "id": "B",
+        "teks": "Kadar pengaliran haba dari ais ke kepala kanak-kanak adalah sama dengan kadar pengaliran haba dari kepala ke ais / Rate of heat transfer from ice to child's head is equal to head to ice"
+      },
+      {
+        "id": "C",
+        "teks": "Kadar pengaliran haba dari ais ke kepala kanak-kanak adalah lebih rendah dari kadar pengaliran haba dari kepala kanak-kanak ke ais / The rate of heat transfer from the ice to the child's head is lower than the rate of heat transfer from the child's head to the ice"
+      },
+      {
+        "id": "D",
+        "teks": "Pemindahan haba bersih antara ais dan kepala kanak-kanak adalah sifar / Net heat transfer between the ice and child's head is zero"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q04",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 4,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 64 menunjukkan sebuah radiator kereta. Air digunakan sebagai agen penyejuk dalam radiator.\nDiagram 64 shows a radiator of a car. Water is used as a cooling agent in the radiator. (SBP: 2022)\n\nKombinasi manakah yang betul untuk menerangkan mengapa air sesuai digunakan sebagai agen penyejuk dalam radiator kereta?\nWhich combination is correct to explain why water is suitable to be used as a cooling agent?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah64.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Muatan haba tentu tinggi: Cepat serap haba / High specific heat capacity: Absorbs heat quickly"
+      },
+      {
+        "id": "B",
+        "teks": "Muatan haba tentu rendah: Lambat serap haba / Low specific heat capacity: Slow heat absorption"
+      },
+      {
+        "id": "C",
+        "teks": "Muatan haba tentu air adalah tinggi: Menyerap lebih banyak haba dengan kenaikan suhu yang rendah / High specific heat capacity: Absorbs more heat with a low temperature rise"
+      },
+      {
+        "id": "D",
+        "teks": "Muatan haba tentu air adalah rendah: Menyerap lebih haba dengan kenaikan suhu yang tinggi / Low specific heat capacity: Absorbs more heat with a high temperature rise"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q05",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 5,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 65 menunjukkan keadaan belon sebelum dan semasa kelalang berisi air dipanaskan.\nDiagram 65 shows the state of the balloon before and while the flask filled with water is heated. (SBP: 2022)\n\nAntara berikut yang manakah menerangkan situasi ini?\nWhich of the following explains this situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah65.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Isipadu bertambah, suhu malar, tekanan berkurang / Volume increases, temperature constant, pressure decreases"
+      },
+      {
+        "id": "B",
+        "teks": "Isipadu berkurang, suhu bertambah, tekanan malar / Volume decreases, temperature increases, pressure constant"
+      },
+      {
+        "id": "C",
+        "teks": "Isipadu udara bertambah, suhu udara bertambah, tekanan udara adalah malar (Hukum Charles) / Volume of air increases, temperature of air increases, pressure of air is constant (Charles' Law)"
+      },
+      {
+        "id": "D",
+        "teks": "Isipadu malar, suhu bertambah, tekanan berkurang / Volume constant, temperature increases, pressure decreases"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q06",
+    "sumber": "Percubaan Terengganu 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 6,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 66 (a) menunjukkan dua cecair M dan N yang sama jisim dipanaskan oleh dapur yang sama. Muatan haba tentu cecair M = 4800 J kg^-1 °C^-1 manakala cecair N = 4000 J kg^-1 °C^-1. Rajah 66 (b) menunjukkan cecair selepas dipanaskan selama 5 minit.\nDiagram 66 (a) shows two liquids M and N of equal mass heated by an identical stove. Diagram 66 (b) shows the liquids after heated for 5 minutes. (Terengganu: 2022)\n\nAntara pernyataan berikut, yang manakah betul berdasarkan situasi di atas?\nWhich of the following statements is correct based on situations above?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah66.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Semakin tinggi suhu bahan, semakin tinggi muatan haba tentu bahan / The higher the temperature of substance, the higher the specific heat capacity"
+      },
+      {
+        "id": "B",
+        "teks": "Semakin tinggi suhu bahan, semakin rendah muatan haba tentu bahan / The higher the temperature of substance, the lower the specific heat capacity"
+      },
+      {
+        "id": "C",
+        "teks": "Semakin rendah muatan haba tentu bahan, semakin berkurang perubahan suhu / The lower the specific heat capacity, the lower the change of temperature"
+      },
+      {
+        "id": "D",
+        "teks": "Semakin rendah muatan haba tentu bahan, semakin bertambah perubahan suhu / The lower the specific heat capacity of substance, the higher the change of temperature"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q07",
+    "sumber": "Percubaan Negeri Sembilan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 7,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 67 menunjukkan bacaan tekanan molekul-molekul gas di dalam dua buah kelalang yang bersambungan melalui satu injap.\nDiagram 67 shows the pressure readings of gas molecules in two flasks connected through a valve. (Negeri Sembilan: 2021)\n\nManakah perbandingan bacaan tolok tekanan A dan B adalah benar apabila injap dibuka?\nWhich comparison is true for the readings of pressure gauges A and B when the valve is opened?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah67.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tolok Tekanan A bertambah, Tolok Tekanan B bertambah, Bacaan A > B"
+      },
+      {
+        "id": "B",
+        "teks": "Tolok Tekanan A bertambah, Tolok Tekanan B berkurang, Bacaan B > A"
+      },
+      {
+        "id": "C",
+        "teks": "Tolok Tekanan A berkurang, Tolok Tekanan B berkurang, Bacaan A = B"
+      },
+      {
+        "id": "D",
+        "teks": "Tolok Tekanan A berkurang, Tolok Tekanan B bertambah, Bacaan Tolok Tekanan A = B / Pressure Gauge A decreases, Pressure Gauge B increases, Pressure Gauge Reading A = B"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q08",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 8,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Kuantiti tenaga haba yang sama diberikan kepada dua objek X dan Y. Kenaikan suhu objek X kurang daripada kenaikan suhu objek Y. Apa yang menjelaskan perbezaan ini?\nThe same quantity of heat energy is given to two objects X and Y. The temperature rise of object X is less than the temperature rise of object Y. What accounts for this difference? (Pahang: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Objek Y adalah konduktor haba yang lebih baik daripada objek X / Object Y is a better thermal conductor than object X"
+      },
+      {
+        "id": "B",
+        "teks": "Objek X adalah konduktor haba yang lebih baik daripada objek Y / Object X is a better thermal conductor than object Y"
+      },
+      {
+        "id": "C",
+        "teks": "Objek Y mempunyai muatan haba tentu yang lebih besar daripada objek X / Object Y has a larger specific heat capacity than object X"
+      },
+      {
+        "id": "D",
+        "teks": "Objek X mempunyai muatan haba tentu yang lebih besar daripada objek Y / Object X has a larger specific heat capacity than object Y"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q09",
+    "sumber": "Percubaan SBP 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 9,
+    "sk": "SK 4.4 Hukum Gas",
+    "sp": "SP 4.4.1 Menjelaskan tekanan, suhu dan isi padu gas dari segi teori kinetik gas",
+    "spKod": "4.4.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 60-63",
+    "rujukanBukuTeks": "Buku Teks T4 ms 148-164",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 37-40",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.4 Hukum Gas",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 68 menunjukkan satu picagari tertutup yang mengandungi udara terperangkap dipanaskan di dalam bikar berisi air. Selepas pemanasan, kedudukan omboh didapati bergerak ke atas.\nDiagram 68 shows a sealed syringe containing air trapped is heated in a beaker filled with water. After heating the position of the piston moves upward. (SBP: 2021)\n\nBerdasarkan pemerhatian dalam Rajah 68, didapati bahawa\nBased on the observation in Diagram 68, it is found that",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah68.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "haba dibekalkan kepada air menyebabkan suhu dan jisim udara terperangkap meningkat / heat supplied causes temperature and mass of trapped air to increase"
+      },
+      {
+        "id": "B",
+        "teks": "tekanan udara terperangkap bertambah disebabkan pertambahan suhu udara terperangkap apabila dipanaskan / pressure increases due to increase in temperature"
+      },
+      {
+        "id": "C",
+        "teks": "apabila suhu bertambah, isipadu udara terperangkap bertambah, tetapi tekanan udara terperangkap adalah malar / as temperature increases, volume of trapped air increases, but pressure of trapped air is constant"
+      },
+      {
+        "id": "D",
+        "teks": "isipadu udara terperangkap bertambah dan tekanan bagi udara terperangkap berkurang apabila udara terperangkap dipanaskan / volume increases and pressure decreases"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q10",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 10,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 69 menunjukkan satu blok plumbum (c = 130 J kg^-1 °C^-1), satu blok besi (c = 460 J kg^-1 °C^-1) dan satu blok aluminium (c = 910 J kg^-1 °C^-1). Semua blok itu mempunyai jisim dan suhu awal yang sama dan dibiarkan menyejuk. Selepas 15 minit suhu ketiga-tiga logam itu direkodkan.\nDiagram 69 shows a lead block, an iron block and aluminium block of same mass and initial temperature left to cool. (Melaka: 2021)\n\nPerbandingan yang manakah betul tentang perubahan suhu bagi blok plumbum, θP, blok besi, θQ dan blok aluminium, θR?\nWhich comparison is correct about the change in temperature of lead block, θP, iron block, θQ, and aluminium block, θR?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah69.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "θP > θQ > θR (plumbum mempunyai muatan haba tentu paling rendah, mengalami perubahan suhu paling besar) / θP > θQ > θR"
+      },
+      {
+        "id": "B",
+        "teks": "θQ > θP > θR"
+      },
+      {
+        "id": "C",
+        "teks": "θR > θP > θQ"
+      },
+      {
+        "id": "D",
+        "teks": "θR > θQ > θP"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q11",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 11,
+    "sk": "SK 4.2 Muatan Haba Tentu",
+    "sp": "SP 4.2.1 Memerihalkan muatan haba tentu, c",
+    "spKod": "4.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 56-57",
+    "rujukanBukuTeks": "Buku Teks T4 ms 125-136",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 31-33",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.2 Muatan Haba Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 70 menunjukkan empat blok logam yang mempunyai jisim yang sama dengan muatan haba tentu yang berbeza [A: 150 J kg^-1 °C^-1, B: 450 J kg^-1 °C^-1, C: 500 J kg^-1 °C^-1, D: 1000 J kg^-1 °C^-1]. Sejumlah haba yang sama dibekalkan kepada setiap blok.\nDiagram 70 shows four metal blocks having the same mass with different specific heat capacities. The same amount of heat is supplied to each block. (Perak: 2023)\n\nAntara blok logam A, B, C dan D, manakah akan menunjukkan bacaan suhu yang paling tinggi?\nWhich metal block A, B, C and D, will show the highest temperature reading?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah70.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Blok A (muatan haba tentu paling rendah, 150 J kg^-1 °C^-1) / Block A (lowest specific heat capacity)"
+      },
+      {
+        "id": "B",
+        "teks": "Blok B / Block B"
+      },
+      {
+        "id": "C",
+        "teks": "Blok C / Block C"
+      },
+      {
+        "id": "D",
+        "teks": "Blok D / Block D"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q12",
+    "sumber": "SPM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 12,
+    "sk": "SK 4.3 Haba Pendam Tentu",
+    "sp": "SP 4.3.1 Memerihalkan haba pendam tentu pelakuran, l_f dan haba pendam tentu pengewapan, l_v",
+    "spKod": "4.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 58-59",
+    "rujukanBukuTeks": "Buku Teks T4 ms 137-147",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 34-36",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.3 Haba Pendam Tentu",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Jadual 2 menunjukkan haba pendam tentu pelakuran dan jumlah haba yang dibebaskan oleh 1 kg bahan R, S dan T semasa proses pembekuan.\nTable 2 shows the specific latent heat of fusion and the amount of heat released by 1 kg of substances R, S and T during solidification process. (SPM: 2021)\n[R: 339 kJ kg^-1 -> QR, S: 334 kJ kg^-1 -> QS, T: 257 kJ kg^-1 -> QT]\n\nPerbandingan manakah bagi haba yang dibebaskan semasa pembekuan adalah betul?\nWhich comparison of heat released during solidification is correct?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "QR > QS > QT"
+      },
+      {
+        "id": "B",
+        "teks": "QS > QT > QR"
+      },
+      {
+        "id": "C",
+        "teks": "QT > QS > QR"
+      },
+      {
+        "id": "D",
+        "teks": "QR = QS = QT"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B4_K4_Q13",
+    "sumber": "SPM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 13,
+    "sk": "SK 4.1 Keseimbangan Terma",
+    "sp": "SP 4.1.1 Menjelaskan dengan contoh keseimbangan terma dalam kehidupan harian",
+    "spKod": "4.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 54-55",
+    "rujukanBukuTeks": "Buku Teks T4 ms 120-124",
+    "rujukanCheatnote": "Cheatnote T4 Bab 4 ms 29-30",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 4,
+    "babNama": "Haba",
+    "bidang": "Termofizik",
+    "topik": "4.1 Keseimbangan Terma",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 71 menunjukkan dua buah rumah banglo yang dibuat daripada bahan yang sama.\nDiagram 71 shows two bungalows which are made from the same material. (SPM: 2022)\n\nAntara berikut, pernyataan yang manakah betul?\nWhich of the following statements is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah71.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Ketinggian rumah mempengaruhi suhu / The height of the house affects the temperature"
+      },
+      {
+        "id": "B",
+        "teks": "Suhu dipengaruhi oleh keamatan cahaya matahari / The temperature is affected by the intensity of sunlight"
+      },
+      {
+        "id": "C",
+        "teks": "Keamatan cahaya dipengaruhi oleh lebar rumah / The intensity of light is affected by the width of the house"
+      },
+      {
+        "id": "D",
+        "teks": "Lebar rumah mempengaruhi suhu kerana luas permukaan yang lebih besar menyerap lebih banyak haba / The width of the house affects the temperature because larger surface area absorbs more heat"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Berdasarkan analisis pemboleh ubah termofizik dan tafsiran hubungan kuantitatif/kualitatif dalam Rajah, pilihan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
   }
+
 ];
 
 /**

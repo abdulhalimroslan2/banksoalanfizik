@@ -223,10 +223,12 @@ def audit_question_bank(js_file_path):
 
         # --- INVARIANT 1: Strict Stem Diagram Crop & Clean Cloudflare R2 Hosting ---
         img_match = re.search(r"<img[^>]+src=['\"]([^'\"]+)['\"]", stem)
-        if img_match:
-            img_url = img_match.group(1)
+        rajah_prop_match = re.search(r'"rajahUrl":\s*"([^"]+)"', full_q_block)
+        img_url = img_match.group(1) if img_match else (rajah_prop_match.group(1) if rajah_prop_match else "")
+        if img_url:
+            clean_img_url = img_url.split("?")[0]
             # Must be modern webp format
-            if not img_url.endswith(".webp"):
+            if not clean_img_url.endswith(".webp"):
                 issues.append(f"[{qid}] Invariant 6 Violation: Diagram image URL '{img_url}' is not in WebP format")
             # Must point to production Cloudflare R2 CDN or valid local asset
             if not (img_url.startswith("https://pub-") or img_url.startswith("assets/")):
