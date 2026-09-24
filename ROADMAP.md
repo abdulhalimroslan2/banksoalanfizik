@@ -1,6 +1,6 @@
 # 🗺️ MASTER ROADMAP: HUB BANK SOALAN FIZIK SPM (KSSM KOD 4531)
 
-> **Status Projek:** FASA 6 (Ingestion Bab 4 Haba & Precision Crop v2) ✅ SELESAI | FASA 7 🔄 AKTIF  
+> **Status Projek:** FASA 7 (Ingestion Bab 5 Gelombang & Precision Crop v2) ✅ SELESAI | FASA 8 🔄 AKTIF  
 > **Sasaran Penuh:** Meliputi 100% Silibus KSSM Tingkatan 4 (6 Bab) & Tingkatan 5 (7 Bab) bagi Kertas 1, Kertas 2, dan Kertas 3  
 > **Kemas Kini Terakhir:** 2026-09-24  
 > **Fail Pangkalan Data Utama:** [`dskp-data.js`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/dskp-data.js)
@@ -10,8 +10,8 @@
 ## 1. 📊 Status Kemajuan Semasa (Progress Tracker)
 
 ```
-[████████████████████████████████░░░░░░░░░░░░░░░░░░] 60% Selesai (Fasa 1 - 6 Selesai)
-Total Soalan Aktif: 504 Soalan K1 Objektif Berrajah Bersih (100% Disahkan & Diaudit)
+[█████████████████████████████████████░░░░░░░░░░░] 70% Selesai (Fasa 1 - 7 Selesai)
+Total Soalan Aktif: 656 Soalan K1 Objektif Berrajah Bersih (100% Disahkan & Diaudit)
 ```
 
 | Fasa | Modul / Bab Silibus | Status | Bil. Soalan | Rajah R2 v2 | QA Invariants |
@@ -24,8 +24,8 @@ Total Soalan Aktif: 504 Soalan K1 Objektif Berrajah Bersih (100% Disahkan & Diau
 | **Fasa 5B**| T4 Bab 2: Daya & Gerakan I | ✅ Selesai | 134 | 48 Rajah | 100% |
 | **Fasa 5C**| T4 Bab 3: Kegravitian (Gravitation) | ✅ Selesai | 93 | 52 Rajah v2 | 100% |
 | **Fasa 6** | T4 Bab 4: Haba (Heat) & Crop v2 | ✅ Selesai | 105 | 71 Rajah v2 | 100% |
-| **Fasa 7** | T4 Bab 5: Gelombang (Waves) | 🔄 Sedia Mula | ~90 (Est) | TBD | Pending |
-| **Fasa 8** | T4 Bab 6: Cahaya dan Optik | ⏳ Seterusnya | ~95 (Est) | TBD | Pending |
+| **Fasa 7** | T4 Bab 5: Gelombang (Waves) | ✅ Selesai | 148 | 112 Rajah v2 | 100% |
+| **Fasa 8** | T4 Bab 6: Cahaya dan Optik | 🔄 Sedia Mula | ~95 (Est) | TBD | Pending |
 | **Fasa 9** | Silibus Tingkatan 5 (Bab 1 – 7) | ⏳ Fasa 2026 | ~650 (Est) | TBD | Pending |
 | **Fasa 10**| Modul Soalan Segar Kertas 2 (A/B/C) | ⏳ Perancangan | 100 Set | TBD | Pending |
 | **Fasa 11**| Hub Kertas 3 (Amali Fizik DSKP) | ⏳ Perancangan | 15 Modul | TBD | Pending |
@@ -57,6 +57,11 @@ Total Soalan Aktif: 504 Soalan K1 Objektif Berrajah Bersih (100% Disahkan & Diau
   - Menyelaraskan kesemua 71 URL rajah di `dskp-data.js` ke versi `_v2.webp`.
 
 ---
+
+### Fasa 7: Ingestion Tingkatan 4 Bab 5 — Gelombang (Waves)
+- [x] **148 Soalan Modul Objektif Berpiawai:** 8 Mengingat (K1), 103 Memahami (K2), 30 Mengaplikasi (K3), 7 Menganalisis (K4) berteraskan SK 5.1 – SK 5.7.
+- [x] **112 Rajah Stem Precision Crop v2:** Dipotong 300 DPI bebas teks kapsyen `Rajah [...]`, dihoskan pada Cloudflare R2 bucket `fizik-spm-bank`.
+- [x] **100% Audit Kualiti (13 Invariants):** Melepasi semua saringan audit kualiti automatik `scripts/validate_ingest_quality.py`.
 
 ## 3. 🎯 Pelan Tindakan Fasa Seterusnya (Upcoming Roadmap)
 

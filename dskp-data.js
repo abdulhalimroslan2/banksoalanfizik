@@ -23135,8 +23135,6667 @@ const QUESTION_BANK = [
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K1_Q01",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.2 Menyatakan jenis gelombang",
+    "spKod": "5.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Antara yang berikut, manakah merupakan gelombang mekanikal?\nWhich of the following is mechanical waves?\n(Pahang: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sinar gama / Gamma ray"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang radio / Radio waves"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang cahaya / Light waves"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang seismik / Seismic waves"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K1_Q02",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.4 Menerangkan ciri-ciri gelombang: Amplitud, Tempoh, Frekuensi, Panjang Gelombang dan Laju Gelombang",
+    "spKod": "5.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Rajah menunjukkan suatu gelombang melintang.\nDiagram shows a transverse wave.\n(Perlis: 2023)\n\nApakah yang mewakili panjang gelombang?\nWhat represents the wavelength?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah1_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P / P"
+      },
+      {
+        "id": "B",
+        "teks": "Q / Q"
+      },
+      {
+        "id": "C",
+        "teks": "R / R"
+      },
+      {
+        "id": "D",
+        "teks": "S / S"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K1_Q03",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Manakah yang berikut merupakan sejenis gelombang mekanik?\nWhich of the following is a type of mechanical wave?\n(SBP: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang air / Water wave"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang radio / Radio waves"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang mikro / Microwave"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang cahaya / Light waves"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K1_Q04",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Nyatakan satu ciri gelombang elektromagnet.\nState one characteristic of electromagnetic waves.\n(Terengganu: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tidak boleh merambat melalui vakum / Cannot propagate through a vacuum"
+      },
+      {
+        "id": "B",
+        "teks": "Tidak memerlukan medium perambatan / Does not require a propagation medium"
+      },
+      {
+        "id": "C",
+        "teks": "Bergerak dengan laju yang lebih besar dalam medium / Move with the greater speed in the medium"
+      },
+      {
+        "id": "D",
+        "teks": "Hanya menunjukkan fenomena pantulan dan pembiasan sahaja / Shows the phenomenon reflection and refraction only"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K1_Q05",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 5,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Rajah menunjukkan spektrum elektromagnet.\nDiagram shows an electromagnetic spectrum.\n(Kedah: 2022)\n\nApakah gelombang Q?\nWhat is wave Q?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah2_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang ultrasonik / Ultrasonic wave"
+      },
+      {
+        "id": "B",
+        "teks": "Sinar inframerah / Infrared ray"
+      },
+      {
+        "id": "C",
+        "teks": "Sinar ultraungu / Ultraviolet ray"
+      },
+      {
+        "id": "D",
+        "teks": "Sinar gama / Gamma ray"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K1_Q06",
+    "sumber": "Percubaan Terengganu 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 6,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.3 Membandingkan gelombang melintang dan gelombang membujur",
+    "spKod": "5.1.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Antara gelombang berikut, yang manakah gelombang membujur?\nWhich of the following waves is longitudinal wave?\n(Terengganu: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang radio / Radio waves"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang ultrasonik / Ultrasonic wave"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang air / Water wave"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang cahaya / Light waves"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K1_Q07",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 7,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Rajah menunjukkan suatu spektrum elektromagnet.\nDiagram shows an electromagnetic spectrum.\n(Perlis: 2021)\n\nApakah yang mewakili P, Q dan R?\nWhat represents P, Q and R?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah3_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P: Inframerah (Infrared) | Q: Ultraungu (Ultraviolet) | R: Sinar gama (Gamma ray)"
+      },
+      {
+        "id": "B",
+        "teks": "P: Ultraungu (Ultraviolet) | Q: Sinar gama (Gamma ray) | R: Inframerah (Infrared)"
+      },
+      {
+        "id": "C",
+        "teks": "P: Ultraungu (Ultraviolet) | Q: Inframerah (Infrared) | R: Sinar gama (Gamma ray)"
+      },
+      {
+        "id": "D",
+        "teks": "P: Sinar gama (Gamma ray) | Q: Inframerah (Infrared) | R: Ultraungu (Ultraviolet)"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K1_Q08",
+    "sumber": "SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 8,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Jadual menunjukkan sebahagian daripada spektrum gelombang elektromagnet.\nTable shows a part of an electromagnetic wave spectrum.\n(SPM: 2023)\n\nAntara yang berikut, yang manakah betul?\nWhich of the following is correct?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Q: Gelombang mikro (Microwave) | R: Ultra ungu (Ultraviolet)"
+      },
+      {
+        "id": "B",
+        "teks": "Q: Gelombang radio (Radio wave) | R: Gelombang mikro (Microwave)"
+      },
+      {
+        "id": "C",
+        "teks": "Q: Sinar gama (Gamma ray) | R: Gelombang radio (Radio wave)"
+      },
+      {
+        "id": "D",
+        "teks": "Q: Ultra ungu (Ultraviolet) | R: Sinar gama (Gamma ray)"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q01",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Gelombang elektromagnet manakah mempunyai frekuensi paling rendah dan panjang gelombang paling besar?\nWhich of the electromagnetic waves has the lowest frequency and the longest wavelength?\n(Kelantan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang radio / Radio wave"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang mikro / Microwave"
+      },
+      {
+        "id": "C",
+        "teks": "Sinar gama / Gamma ray"
+      },
+      {
+        "id": "D",
+        "teks": "Sinar ultraungu / Ultraviolet ray"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q02",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 5.5 Pembelauan Gelombang",
+    "sp": "SP 5.5.1 Menghuraikan pembelauan gelombang dari pelbagai aspek",
+    "spKod": "5.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 72-73",
+    "rujukanBukuTeks": "Buku Teks T4 ms 202-209",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 6",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.5 Pembelauan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Kuantiti fizik yang malar pada suatu gelombang selepas merambat melalui satu celah adalah\nThe physical quantity of waves which constant after the waves is propagate through a slit are\n(Kelantan: 2023)\n\nI Laju / Speed\n<br><br>\nII Amplitud / Amplitude\n<br><br>\nIII Frekuensi / Frequency\n<br><br>\nIV Panjang gelombang / Wavelength",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II / I and II"
+      },
+      {
+        "id": "B",
+        "teks": "I dan III / I and III"
+      },
+      {
+        "id": "C",
+        "teks": "I, II dan IV / I, II and IV"
+      },
+      {
+        "id": "D",
+        "teks": "I, III dan IV / I, III and IV"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q03",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.4 Menerangkan ciri-ciri gelombang: Amplitud, Tempoh, Frekuensi, Panjang Gelombang dan Laju Gelombang",
+    "spKod": "5.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan lima bandul yang digantung pada satu benang MN. Bandul P disesarkan ke sisi dan dilepaskan supaya berayun.\nDiagram shows five pendulums are hung to a MN thread. Pendulum P is displaced to the side and released to oscillate.\n(Kelantan: 2023)\n\nBandul yang manakah akan berayun dengan amplitud paling tinggi?\nWhich pendulum will oscillate with higher amplitude?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah4_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "W / W"
+      },
+      {
+        "id": "B",
+        "teks": "X / X"
+      },
+      {
+        "id": "C",
+        "teks": "Y / Y"
+      },
+      {
+        "id": "D",
+        "teks": "Z / Z"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q04",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.5 Melakar dan mentafsir graf gelombang sesaran-masa dan sesaran-jarak",
+    "spKod": "5.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu graf perubahan sesaran gelombang melawan masa pada suatu titik di sepanjang gelombang.\nDiagram shows a graph of the change in wave displacement against time at a point along the wave.\n(Melaka: 2023)\n\nApakah kuantiti fizik yang dimalarkan?\nWhat is the physical quantity that is constant?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah5_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Saiz / Size"
+      },
+      {
+        "id": "B",
+        "teks": "Tempoh / Period"
+      },
+      {
+        "id": "C",
+        "teks": "Tenaga / Energy"
+      },
+      {
+        "id": "D",
+        "teks": "Amplitud / Amplitude"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q05",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.2 Menyatakan komponen spektrum elektromagnet mengikut urutan panjang gelombang dan frekuensi",
+    "spKod": "5.7.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara sinaran elektromagnet berikut, yang manakah mempunyai tenaga paling tinggi?\nWhich of the following electromagnetic radiation has the highest energy?\n(Melaka: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Cahaya nampak / Visible light"
+      },
+      {
+        "id": "B",
+        "teks": "Sinar X / X-ray"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang mikro / Microwave"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang radio / Radio wave"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q06",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Satu sistem mempunyai frekuensi asli bersamaan f. Satu daya luar memberikan tenaga kepada sistem itu untuk meneruskan ayunan. Resonans akan berlaku dalam sistem itu jika tenaga diberikan kepada sistem itu pada frekuensi yang sama dengan\nA system has a natural frequency of oscillation equals to f. An external force is supplying energy to the system to perpetuate the oscillations of the system. Resonance will occur in this system if energy is supplied to the system at a frequency equal to\n(Negeri Sembilan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "f / f"
+      },
+      {
+        "id": "B",
+        "teks": "√2 f / √2 f"
+      },
+      {
+        "id": "C",
+        "teks": "2f / 2f"
+      },
+      {
+        "id": "D",
+        "teks": "f / 2 / f / 2"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q07",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 7,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan penggunaan gelombang elektromagnet dalam sistem radar.\nDiagram shows an application of electromagnetic waves in a radar system.\n(Negeri Sembilan: 2023)\n\nPasangan yang manakah yang betul tentang ciri-ciri gelombang yang digunakan?\nWhich pair is correct about the characteristics of the wave used?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah6_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Frekuensi: Tinggi | Panjang gelombang: Pendek / Frequency: High | Wavelength: Short"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi: Tinggi | Panjang gelombang: Panjang / Frequency: High | Wavelength: Long"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi: Rendah | Panjang gelombang: Panjang / Frequency: Low | Wavelength: Long"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi: Rendah | Panjang gelombang: Pendek / Frequency: Low | Wavelength: Short"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q08",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 8,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.2 Melukis gambar rajah pantulan gelombang air",
+    "spKod": "5.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan dua orang remaja sedang berbual di dalam sebuah rumah kosong. Mereka mendapati suara mereka kurang jelas kedengaran kerana gema yang kuat.\nDiagram shows two teenagers chatting in an empty house. They find that their voices are not clearly heard because of the strong echo.\n(Pahang: 2023)\n\nAntara berikut, manakah faktor yang mempengaruhi fenomena di dalam rumah tersebut?\nWhich of the following factors affect the phenomenon in the house?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah7_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Suasana rumah yang sunyi dan sepi / The surrounding of the house is quiet"
+      },
+      {
+        "id": "B",
+        "teks": "Bunyi suara mereka dipantulkan oleh dinding dan lantai / The sound of their voices was reflected by the walls and floor"
+      },
+      {
+        "id": "C",
+        "teks": "Bunyi suara mereka terbelau oleh tingkap dan pintu bilik / The sound of their voices was diffracted by the windows and doors of the rooms"
+      },
+      {
+        "id": "D",
+        "teks": "Bunyi suara mereka dibiaskan oleh sisi penjuru ruang rumah / The sound of their voices was refracted by the corner of the room"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q09",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 9,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan seorang lelaki dapat mendengar dengan jelas bunyi dari sebuah rumah pada waktu malam.\nDiagram shows a man can clearly hear a sound from a house at night.\n(Pahang: 2023)\n\nApakah fenomena gelombang yang terlibat?\nWhat is the waves phenomenon involved?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah8_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pembiasan gelombang / Refraction of waves"
+      },
+      {
+        "id": "B",
+        "teks": "Interferens gelombang / Waves interference"
+      },
+      {
+        "id": "C",
+        "teks": "Pantulan gelombang / Reflection of waves"
+      },
+      {
+        "id": "D",
+        "teks": "Pembelauan gelombang / Diffraction of waves"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q10",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 10,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelombang air merambat dari laut ke pantai.\nDiagram shows water waves propagating from sea to beach.\n(Pulau Pinang: 2023)\n\nManakah ciri-ciri gelombang bagi situasi di atas adalah yang betul?\nWhich characteristics of wave for above situation is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah9_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laju: Bertambah | Panjang gelombang: Bertambah / Speed: Increase | Wavelength: Increase"
+      },
+      {
+        "id": "B",
+        "teks": "Laju: Bertambah | Panjang gelombang: Berkurang / Speed: Increase | Wavelength: Decrease"
+      },
+      {
+        "id": "C",
+        "teks": "Laju: Berkurang | Panjang gelombang: Bertambah / Speed: Decrease | Wavelength: Increase"
+      },
+      {
+        "id": "D",
+        "teks": "Laju: Berkurang | Panjang gelombang: Berkurang / Speed: Decrease | Wavelength: Decrease"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q11",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 11,
+    "sk": "SK 5.5 Pembelauan Gelombang",
+    "sp": "SP 5.5.3 Melukis gambar rajah corak pembelauan gelombang air dan cahaya",
+    "spKod": "5.5.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 72-73",
+    "rujukanBukuTeks": "Buku Teks T4 ms 202-209",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 6",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.5 Pembelauan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu penghadang ombak.\nDiagram shows a wave barrier.\n(Pulau Pinang: 2023)\n\nApakah fungsi bukaan di antara penghadang ombak?\nWhat is the function of the gap between the wave barriers?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah10_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Untuk mengurangkan halaju gelombang / To reduce the velocity of the wave"
+      },
+      {
+        "id": "B",
+        "teks": "Untuk mengurangkan panjang gelombang / To reduce wavelength"
+      },
+      {
+        "id": "C",
+        "teks": "Untuk mengurangkan amplitud gelombang / To reduce the amplitude of the wave"
+      },
+      {
+        "id": "D",
+        "teks": "Untuk mengurangkan frekuensi gelombang / To reduce the frequency of the wave"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q12",
+    "sumber": "Percubaan Pulau Pinang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 12,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan suatu spektrum gelombang elektromagnet.\nDiagram shows a spectrum of electromagnetic waves.\n(Pulau Pinang: 2023)\n\nKuantiti fizik manakah bertambah daripada sinar gama ke gelombang radio?\nWhich physical quantity increases from gamma ray to radio wave?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah11_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tenaga / Energy"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi / Frequency"
+      },
+      {
+        "id": "C",
+        "teks": "Laju gelombang / Wave speed"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang / Wavelength"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q13",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 13,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan spring slinki digerakkan ke hadapan dan belakang pada satu hujungnya.\nDiagram shows a slinky spring being moved forward and backward at one of its ends.\n(Perak: 2023)\n\nSituasi manakah menghasilkan jenis gelombang yang sama seperti di atas?\nWhich of the following situation produce the same type of wave as above?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah12_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang cahaya daripada lampu suluh / Light waves from a torchlight"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang air dalam tangki riak / Water waves in a ripple tank"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang pada tali yang digetarkan / Waves on a vibrating string"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang bunyi daripada tala bunyi yang bergetar / Sound waves from a vibrating tuning fork"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q14",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 14,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.2 Melukis gambar rajah pantulan gelombang air",
+    "spKod": "5.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan pantulan gelombang satah oleh pemantul satah.\nDiagram shows the reflection of a plane wave by a plane reflector.\n(Perak: 2023)\n\nAntara pernyataan berikut, manakah yang tidak benar?\nWhich of the following statements is not true?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah13_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sudut tuju, i adalah sama dengan sudut pantulan, r / Angle of incidence, i is equal to the angle of reflection, r"
+      },
+      {
+        "id": "B",
+        "teks": "Arah perambatan gelombang pantulan berubah / The direction of propagation of reflected waves is changed"
+      },
+      {
+        "id": "C",
+        "teks": "Kelajuan gelombang pantulan sama dengan gelombang tuju / The speed of the reflected wave is the same as the incident waves"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi gelombang pantulan adalah separuh daripada gelombang tuju / The frequency of the reflected wave is half of the incident wave"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q15",
+    "sumber": "Percubaan Perak 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 15,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Pernyataan manakah benar tentang sifat-sifat gelombang elektromagnet?\nWhich statement is true about the properties of electromagnetic waves?\n(Perak: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang elektromagnet ialah gelombang membujur / Electromagnetic waves are longitudinal wave"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang elektromagnet merambat pada 300 m s⁻¹ / Electromagnetic waves propagate at 300 m s⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang elektromagnet mengalami pantulan, pembiasan, pembelauan dan interferens / Electromagnetic waves undergo reflection, refraction, diffraction and interference"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang elektromagnet terdiri daripada medan elektrik dan medan magnet yang berayun selari dengan arah perambatan gelombang / Electromagnetic waves consist of an oscillating electric field and magnetic field parallel to the direction of wave propagation"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q16",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 16,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan corak interferens bagi tiga sumber cahaya monokromatik, X, Y dan Z.\nDiagram shows the interference patterns for three monochromatic light sources, X, Y and Z.\n(Perlis: 2023)\n\nApakah warna spektrum bagi sumber cahaya X, Y dan Z?\nWhat is the colour spectrum for light source X, Y and Z?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah14_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "X: Biru | Y: Hijau | Z: Merah / X: Blue | Y: Green | Z: Red"
+      },
+      {
+        "id": "B",
+        "teks": "X: Hijau | Y: Biru | Z: Merah / X: Green | Y: Blue | Z: Red"
+      },
+      {
+        "id": "C",
+        "teks": "X: Biru | Y: Merah | Z: Hijau / X: Blue | Y: Red | Z: Green"
+      },
+      {
+        "id": "D",
+        "teks": "X: Merah | Y: Hijau | Z: Biru / X: Red | Y: Green | Z: Blue"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q17",
+    "sumber": "Percubaan Perlis 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 17,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.3 Berkomunikasi untuk menerangkan aplikasi setiap komponen spektrum elektromagnet dalam kehidupan",
+    "spKod": "5.7.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu aplikasi gelombang elektromagnet.\nDiagram shows an application of electromagnetic wave.\n(Perlis: 2023)\n\nAntara berikut, pernyataan manakah yang betul mengenai gelombang yang digunakan?\nWhich of the following statement is correct about the wave used?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah15_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jenis gelombang: Membujur | Frekuensi: Tinggi | Jumlah tenaga: Tinggi / Type of wave: Longitudinal | Frequency: High | Total energy: High"
+      },
+      {
+        "id": "B",
+        "teks": "Jenis gelombang: Melintang | Frekuensi: Tinggi | Jumlah tenaga: Rendah / Type of wave: Transverse | Frequency: High | Total energy: Low"
+      },
+      {
+        "id": "C",
+        "teks": "Jenis gelombang: Melintang | Frekuensi: Tinggi | Jumlah tenaga: Tinggi / Type of wave: Transverse | Frequency: High | Total energy: High"
+      },
+      {
+        "id": "D",
+        "teks": "Jenis gelombang: Membujur | Frekuensi: Rendah | Jumlah tenaga: Rendah / Type of wave: Longitudinal | Frequency: Low | Total energy: Low"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q18",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 18,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.1 Menghuraikan pantulan gelombang dari pelbagai aspek",
+    "spKod": "5.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Ciri manakah tidak berubah selepas gelombang air dipantulkan?\nWhich characteristic does not change after water wave is reflected?\n(SBP: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Halaju / Velocity"
+      },
+      {
+        "id": "B",
+        "teks": "Amplitud / Amplitude"
+      },
+      {
+        "id": "C",
+        "teks": "Arah gelombang / Direction of wave"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang / Wavelength"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q19",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 19,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan seorang murid boleh mendengar muzik yang datang dari luar.\nDiagram shows a pupil can hear music from outside.\n(SBP: 2023)\n\nApakah fenomena yang berkaitan dengan situasi di atas?\nWhat is phenomenon related to the above situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah16_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pantulan / Reflection"
+      },
+      {
+        "id": "B",
+        "teks": "Pembiasan / Refraction"
+      },
+      {
+        "id": "C",
+        "teks": "Interferens / Interference"
+      },
+      {
+        "id": "D",
+        "teks": "Pembelauan / Diffraction"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q20",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 20,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara pernyataan berikut, yang manakah betul tentang gelombang elektromagnet?\nWhich of the following statements is correct about electromagnetic waves?\n(Terengganu: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Memerlukan medium untuk memindahkan tenaga / Requires a medium to transfer energy"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang air dan gelombang bunyi adalah contoh gelombang elektromagnet / Water waves and sound waves are examples of electromagnetic waves"
+      },
+      {
+        "id": "C",
+        "teks": "Profil gelombang tidak merambat dengan masa / The profile of the wave does not propagate with time"
+      },
+      {
+        "id": "D",
+        "teks": "Terdiri daripada medan elektrik dan medan magnet yang berayun berserenjang antara satu sama lain / Consist of an oscillating electric field and magnetic fields that are perpendicular to one another"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q21",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 21,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan seekor ikan lumba-lumba menghantar gelombang untuk mencari makanan.\nDiagram shows a dolphin sending out waves to search for foods.\n(Terengganu: 2023)\n\nApakah nama gelombang yang digunakan oleh ikan lumba-lumba untuk mengesan lokasi ikan?\nWhat is the name of waves used by the dolphin to detect the location of the fish?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah17_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang infrasonik / Infrasonic waves"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang audiosonik / Audiosonic waves"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang ultrasonik / Ultrasonic waves"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang elektromagnet / Electromagnetic waves"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q22",
+    "sumber": "Percubaan SMKA 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 22,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.2 Mewajarkan kesan resonans terhadap kehidupan harian",
+    "spKod": "5.2.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan dua tala bunyi yang serupa, X dan Y diletakkan bersebelahan. Tala bunyi X diketuk supaya bergetar. Tala bunyi Y kemudian turut bergetar.\nDiagram shows two identical tuning forks, X and Y, which are placed side by side. Tuning fork X is struck to vibrate. Tuning fork Y then vibrates too.\n(SMKA: 2023)\n\nKesan ini dikenali sebagai\nThis effect is known as",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah18_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "kelangsingan / pitch"
+      },
+      {
+        "id": "B",
+        "teks": "pelembapan / damping"
+      },
+      {
+        "id": "C",
+        "teks": "resonans / resonance"
+      },
+      {
+        "id": "D",
+        "teks": "ayunan / oscillation"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q23",
+    "sumber": "Percubaan SMKA 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 23,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.2 Melukis gambar rajah pembiasan gelombang air bagi dua kedalaman",
+    "spKod": "5.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan corak pembiasan bagi gelombang air dari P ke Q.\nDiagram shows the refraction pattern of water wave from P to Q.\n(SMKA: 2023)\n\nPasangan manakah yang betul mengenai ciri-ciri bagi gelombang air dalam Q?\nWhich pair is correct about the characteristics of water wave in Q?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah19_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Frekuensi: Lebih tinggi | Laju: Lebih tinggi / Frequency: Higher | Speed: Higher"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi: Lebih tinggi | Laju: Lebih rendah / Frequency: Higher | Speed: Lower"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi: Tidak berubah | Laju: Lebih tinggi / Frequency: Unchanged | Speed: Higher"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi: Tidak berubah | Laju: Lebih rendah / Frequency: Unchanged | Speed: Lower"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q24",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 24,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelombang membujur yang dihasilkan oleh tala bunyi.\nDiagram shows longitudinal waves produced by a tuning fork.\n(MRSM: 2023)\n\nAntara berikut, pernyataan manakah yang menerangkan gelombang membujur?\nWhich of the following statements explains longitudinal wave?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah20_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Zarah-zarah medium bergetar pada arah yang bertentangan dengan arah perambatan gelombang / Particles of the medium vibrate in the opposite direction with the direction of propagation of the wave"
+      },
+      {
+        "id": "B",
+        "teks": "Zarah-zarah medium bergetar pada arah yang berserenjang dengan arah perambatan gelombang / Particles of the medium vibrate in the direction perpendicular to the direction of propagation of the wave"
+      },
+      {
+        "id": "C",
+        "teks": "Zarah-zarah medium bergetar pada arah yang sama dengan arah perambatan gelombang / Particles of the medium vibrate in the same direction with the direction of propagation of the wave"
+      },
+      {
+        "id": "D",
+        "teks": "Zarah-zarah medium bergetar pada arah yang selari dengan arah perambatan gelombang / Particles of the medium vibrate in the direction parallel to the direction of propagation of the wave"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q25",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 25,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelas kaca pecah apabila seorang penyanyi soprano menyanyi.\nDiagram shows a glass shattered when a soprano singer sings.\n(MRSM: 2023)\n\nApakah fenomena fizik yang menerangkan situasi di atas?\nWhat is the physics phenomenon that explains the above situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah21_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pembiasan gelombang / Refraction of waves"
+      },
+      {
+        "id": "B",
+        "teks": "Pelembapan / Damping"
+      },
+      {
+        "id": "C",
+        "teks": "Interferens / Interference"
+      },
+      {
+        "id": "D",
+        "teks": "Resonans / Resonance"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q26",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 26,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan proses mengeraskan bahan tampalan gigi menggunakan gelombang elektromagnet.\nDiagram shows process of hardening tooth filling material using electromagnetic wave.\n(MRSM: 2023)\n\nApakah nama gelombang yang digunakan?\nWhat is the name of wave used?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah22_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang radio / Radio wave"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang mikro / Microwave"
+      },
+      {
+        "id": "C",
+        "teks": "Sinaran ultraungu / Ultraviolet ray"
+      },
+      {
+        "id": "D",
+        "teks": "Sinar-X / X-ray"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q27",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 27,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.2 Melukis gambar rajah pantulan gelombang air",
+    "spKod": "5.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan pantulan sejenis gelombang.\nDiagram shows reflection of a wave.\n(Kedah: 2022)\n\nPernyataan manakah benar tentang ciri-ciri gelombang pantulan?\nWhich statement is correct about the characteristics of reflected waves?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah23_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Amplitud gelombang bertambah / Amplitude of the wave increases"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi gelombang berkurang / Frequency of the wave decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang tidak berubah / Wavelength does not change"
+      },
+      {
+        "id": "D",
+        "teks": "Halaju gelombang tidak berubah / Velocity of the wave does not change"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q28",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 28,
+    "sk": "SK 5.5 Pembelauan Gelombang",
+    "sp": "SP 5.5.3 Melukis gambar rajah corak pembelauan gelombang air dan cahaya",
+    "spKod": "5.5.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 72-73",
+    "rujukanBukuTeks": "Buku Teks T4 ms 202-209",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 6",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.5 Pembelauan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelombang air bergerak mendekati suatu benteng.\nDiagram shows water wave moves towards an embankment.\n(Kedah: 2022)\n\nCiri-ciri gelombang manakah berubah apabila gelombang air merambat melalui celah benteng itu?\nWhich characteristics of wave change when water wave propagate through the gap of embankment?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah24_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laju / Speed"
+      },
+      {
+        "id": "B",
+        "teks": "Amplitud / Amplitude"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi / Frequency"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang / Wavelength"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q29",
+    "sumber": "Percubaan Kedah 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 29,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.2 Menghuraikan corak gelombang interferens bagi air, bunyi dan cahaya",
+    "spKod": "5.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan susunan radas untuk mengkaji interferens gelombang cahaya.\nDiagram shows the arrangement of an apparatus to investigate the interference of light wave.\n(Kedah: 2022)\n\nGraf manakah yang menunjukkan hubungan yang betul antara D dan x?\nWhich graph shows the correct relationship between D and x?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah25_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "x berkadar terus dengan D (garis lurus melalui asalan) / x is directly proportional to D (straight line through origin)"
+      },
+      {
+        "id": "B",
+        "teks": "x berkadar songsang dengan D / x is inversely proportional to D"
+      },
+      {
+        "id": "C",
+        "teks": "x bertambah secara linear dengan D (kecerunan negatif) / x increases linearly with D (negative gradient)"
+      },
+      {
+        "id": "D",
+        "teks": "x tidak bergantung kepada D (garis mendatar) / x does not depend on D (horizontal line)"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q30",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 30,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.3 Menghubung kait λ, a, x dan D berdasarkan corak interferens gelombang",
+    "spKod": "5.6.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan susunan radas yang digunakan dalam eksperimen interferens gelombang bunyi.\nDiagram shows the arrangement of apparatus used in the experiment of the interference of sound waves.\n(Kelantan: 2022)\n\nJarak antara dua bunyi kuat, x meningkat apabila\nThe distance between two loud sounds, x increases as",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah26_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "jarak antara dua pembesar suara, a meningkat / the distance between two loud speakers, a increases"
+      },
+      {
+        "id": "B",
+        "teks": "diameter pembesar suara bertambah / the diameter of the loudspeaker increases"
+      },
+      {
+        "id": "C",
+        "teks": "frekuensi penjana isyarat audio bertambah / the frequency of the audio signal generator increases"
+      },
+      {
+        "id": "D",
+        "teks": "jarak antara pembesar suara dan bunyi dikesan, D bertambah / the distance between the loudspeakers and the sound detected, D increases"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q31",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 31,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.4 Menerangkan ciri-ciri gelombang: Amplitud, Tempoh, Frekuensi, Panjang Gelombang dan Laju Gelombang",
+    "spKod": "5.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Manakah kuantiti fizikal yang akan berubah apabila amplitud gelombang bertambah?\nWhen the amplitude of the wave increases, which physical quantity changes?\n(Melaka: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tempoh berkurang / Period decreases"
+      },
+      {
+        "id": "B",
+        "teks": "Tenaga bertambah / Energy increases"
+      },
+      {
+        "id": "C",
+        "teks": "Laju bertambah / Speed increases"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang bertambah / Wavelength increases"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q32",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 32,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.3 Menjelaskan fenomena semula jadi akibat pembiasan gelombang dalam kehidupan harian",
+    "spKod": "5.4.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan muka gelombang merambat menuju pantai dari laut. Adalah diperhatikan laut lebih tenang di teluk berbanding di tanjung.\nDiagram shows wavefronts that move towards the beach from the sea. It is observed that the sea is calmer at the bay than at the cape.\n(Melaka: 2022)\n\nFenomena ini dikenali sebagai\nThe phenomenon is known as",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah27_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "pantulan / reflection"
+      },
+      {
+        "id": "B",
+        "teks": "pembiasan / refraction"
+      },
+      {
+        "id": "C",
+        "teks": "pembelauan / diffraction"
+      },
+      {
+        "id": "D",
+        "teks": "interferens / interference"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q33",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 33,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan seorang budak lelaki di atas buaian. Buaian tersebut mengalami pelembapan.\nDiagram shows a boy on a swing. The swing undergoes damping.\n(MRSM: 2022)\n\nJawapan manakah yang betul?\nWhich answer is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah28_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Amplitud berkurang terhadap masa, frekuensi malar / Amplitude decreases with time, frequency is constant"
+      },
+      {
+        "id": "B",
+        "teks": "Amplitud bertambah terhadap masa, frekuensi berkurang / Amplitude increases with time, frequency decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Amplitud malar, frekuensi berkurang terhadap masa / Amplitude is constant, frequency decreases with time"
+      },
+      {
+        "id": "D",
+        "teks": "Amplitud dan frekuensi kedua-duanya berkurang terhadap masa / Both amplitude and frequency decrease with time"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q34",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 34,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.2 Melukis gambar rajah pembiasan gelombang air bagi dua kedalaman",
+    "spKod": "5.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelombang air merambat dari kawasan cetek ke kawasan dalam.\nDiagram shows water waves propagates from shallow area to deep area.\n(MRSM: 2022)\n\nGraf yang manakah mewakili hubungan antara panjang gelombang, λ dan kedalaman air, h?\nWhich graph represents the relationship between wavelength, λ and depth, h of the water?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah29_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "λ bertambah secara langsung dengan h / λ increases directly with h"
+      },
+      {
+        "id": "B",
+        "teks": "λ berkurang secara songsang dengan h / λ decreases inversely with h"
+      },
+      {
+        "id": "C",
+        "teks": "λ malar terhadap h / λ is constant against h"
+      },
+      {
+        "id": "D",
+        "teks": "λ berkadar songsang dengan h² / λ is inversely proportional to h²"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q35",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 35,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan hologram pada sekeping kad bank.\nDiagram shows hologram on a bank card.\n(MRSM: 2022)\n\nKuantiti manakah yang berubah apabila cahaya melepasi hologram tersebut?\nWhich quantity changes when the light pass through the hologram?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah30_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laju berkurang / Speed decreases"
+      },
+      {
+        "id": "B",
+        "teks": "Tenaga berkurang / Energy decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi berkurang / Frequency decreases"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang berkurang / Wavelength decreases"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q36",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 36,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.2 Menghuraikan corak gelombang interferens bagi air, bunyi dan cahaya",
+    "spKod": "5.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan dua pembesar suara yang disambungkan kepada satu penjana isyarat audio. Pembesar suara menghasilkan siri bunyi kuat dan perlahan berselang seli.\nDiagram shows two speakers connected to an audio signal generator. The speakers produced a series of loud and soft sounds alternately.\n(MRSM: 2022)\n\nJarak di antara dua bunyi kuat yang berurutan bertambah apabila\nThe distance between two consecutive loud sound increases when",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah31_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "frekuensi bunyi berkurang / the frequency of sound decreases"
+      },
+      {
+        "id": "B",
+        "teks": "panjang gelombang berkurang / wavelength decreases"
+      },
+      {
+        "id": "C",
+        "teks": "jarak di antara dua pembesar suara bertambah / the distance between two speakers increases"
+      },
+      {
+        "id": "D",
+        "teks": "jarak serenjang dari pembesar suara dan kedudukan di mana siri bunyi kuat dan perlahan dihasilkan berkurang / the perpendicular distance from the speakers and the position where series of loud and soft sound produced decreases"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q37",
+    "sumber": "Percubaan MRSM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 37,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sinar gama digunakan untuk mengekalkan kesegaran sayur.\nDiagram shows gamma ray used to maintain the freshness of vegetables.\n(MRSM: 2022)\n\nPasangan ciri manakah yang betul?\nWhich pair of characteristics is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah32_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Frekuensi: Tinggi | Panjang gelombang: Pendek / Frequency: High | Wavelength: Short"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi: Rendah | Panjang gelombang: Pendek / Frequency: Low | Wavelength: Short"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi: Tinggi | Panjang gelombang: Panjang / Frequency: High | Wavelength: Long"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi: Rendah | Panjang gelombang: Panjang / Frequency: Low | Wavelength: Long"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q38",
+    "sumber": "Percubaan Negeri Sembilan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 38,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Pernyataan manakah antara berikut adalah benar mengenai gelombang elektromagnet?\nWhich statement is true about electromagnetic waves?\n(Negeri Sembilan: 2022)\n\nI Merupakan gelombang melintang / They are transverse waves\n<br><br>\nII Gelombang yang memerlukan medium untuk merambat / Waves that require a medium to travel\n<br><br>\nIII Boleh merambat melalui vakum / Can travel through a vacuum\n<br><br>\nIV Terdiri daripada kedua-dua medan magnet dan medan elektrik / Consist of both magnetic fields and electric fields",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan IV / I and IV"
+      },
+      {
+        "id": "B",
+        "teks": "II, III dan IV / II, III and IV"
+      },
+      {
+        "id": "C",
+        "teks": "I, III dan IV / I, III and IV"
+      },
+      {
+        "id": "D",
+        "teks": "I, II dan IV / I, II and IV"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q39",
+    "sumber": "Percubaan Negeri Sembilan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 39,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan ombak sedang menuju ke sebuah pelabuhan.\nDiagram shows water waves moving towards a harbour.\n(Negeri Sembilan: 2022)\n\nAntara pernyataan-pernyataan berikut, yang manakah betul mengenai ombak di P?\nWhich of the following statement is correct about the waves at P?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah33_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Frekuensi berkurang / Frequency is decrease"
+      },
+      {
+        "id": "B",
+        "teks": "Halaju bertambah / Velocity is increase"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang bertambah / Wavelength is increase"
+      },
+      {
+        "id": "D",
+        "teks": "Tenaga gelombang berkurang / Energy is decrease"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q40",
+    "sumber": "Percubaan Negeri Sembilan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 40,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.3 Menghubung kait λ, a, x dan D berdasarkan corak interferens gelombang",
+    "spKod": "5.6.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan pinggir-pinggir yang diperolehi apabila cahaya biru digunakan dalam eksperimen dwi-celah Young.\nDiagram shows the fringes obtained when blue light is used in a Young's double slit experiment.\n(Negeri Sembilan: 2022)\n\nPinggir-pinggir manakah yang diperhatikan jika cahaya merah digunakan dalam eksperimen tersebut?\nWhich fringes are observed if the red light is used in this experiment?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah34_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak antara pinggir bertambah (pinggir lebih lebar) / The distance between fringes increases (wider fringes)"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak antara pinggir berkurang (pinggir lebih rapat) / The distance between fringes decreases (narrower fringes)"
+      },
+      {
+        "id": "C",
+        "teks": "Jarak antara pinggir tidak berubah / The distance between fringes does not change"
+      },
+      {
+        "id": "D",
+        "teks": "Tiada pinggir terbentuk di atas skrin / No fringes formed on the screen"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q41",
+    "sumber": "Percubaan Negeri Sembilan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 41,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan dua tapak perkhemahan yang dipisahkan oleh sebuah tasik. Pada waktu tengah malam, bunyi dari tapak perkhemahan yang bertentangan dapat didengari dengan jelas.\nDiagram shows two campsites that are separated by a lake. At midnight, the sound from the opposite campsite can be heard clearly.\n(Negeri Sembilan: 2022)\n\nFenomena manakah yang menerangkan situasi di atas?\nWhich phenomenon explains the situation above?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah35_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pantulan gelombang / Reflection of wave"
+      },
+      {
+        "id": "B",
+        "teks": "Pembiasan gelombang / Refraction of wave"
+      },
+      {
+        "id": "C",
+        "teks": "Pembelauan gelombang / Diffraction of wave"
+      },
+      {
+        "id": "D",
+        "teks": "Interferens gelombang / Interference of wave"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q42",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 42,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu sistem ayunan beban logam yang berayun dalam air.\nDiagram shows an oscillating system of a metal bob oscillating in water.\n(Pahang: 2022)\n\nGraf manakah yang menunjukkan hubungan yang betul antara sesaran dan masa bagi sistem ayunan itu?\nWhich graph shows the correct relationship between displacement and time for this oscillating system?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah36_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Graf ayunan dengan amplitud yang berkurang secara beransur-ansur terhadap masa / Oscillation graph with amplitude gradually decreasing with time"
+      },
+      {
+        "id": "B",
+        "teks": "Graf ayunan dengan amplitud malar terhadap masa / Oscillation graph with constant amplitude with time"
+      },
+      {
+        "id": "C",
+        "teks": "Graf ayunan dengan amplitud yang meningkat terhadap masa / Oscillation graph with amplitude increasing with time"
+      },
+      {
+        "id": "D",
+        "teks": "Graf sesaran malar tanpa ayunan / Graph of constant displacement without oscillation"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q43",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 43,
+    "sk": "SK 5.5 Pembelauan Gelombang",
+    "sp": "SP 5.5.3 Melukis gambar rajah corak pembelauan gelombang air dan cahaya",
+    "spKod": "5.5.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 72-73",
+    "rujukanBukuTeks": "Buku Teks T4 ms 202-209",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 6",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.5 Pembelauan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelombang air merambat melalui suatu celah kecil.\nDiagram shows a water wave propagating through a small gap.\n(Pahang: 2022)\n\nCiri gelombang terbelau manakah yang betul?\nWhich property of the diffracted wave is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah37_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kelajuan berkurang / The speed is decreased"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi bertambah / The frequency is increased"
+      },
+      {
+        "id": "C",
+        "teks": "Amplitud berkurang / The amplitude is decreased"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang berkurang / The wavelength is decreased"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q44",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 44,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.2 Menghuraikan corak gelombang interferens bagi air, bunyi dan cahaya",
+    "spKod": "5.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan corak interferens bagi dua punca gelombang air yang koheren, X dan Y.\nDiagram shows an interference pattern of two coherent water wave sources, X and Y.\n(Perlis: 2022)\n\nPada titik manakah, A, B, C atau D, interferens memusnah berlaku?\nAt which point, A, B, C or D, does the destructive interference occur?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah38_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "A / A"
+      },
+      {
+        "id": "B",
+        "teks": "B / B"
+      },
+      {
+        "id": "C",
+        "teks": "C / C"
+      },
+      {
+        "id": "D",
+        "teks": "D / D"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q45",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 45,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan graf sesaran-masa bagi suatu gelombang yang mengalami pelembapan.\nDiagram shows a displacement-time graph for a wave undergoing damping.\n(Perlis: 2022)\n\nAntara yang berikut, yang manakah betul tentang frekuensi dan tenaga bagi gelombang?\nWhich of the following is correct about the frequency and energy of the wave?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah39_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Frekuensi: Meningkat | Tenaga: Tidak berubah / Frequency: Increases | Energy: Unchanged"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi: Meningkat | Tenaga: Berkurang / Frequency: Increases | Energy: Decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi: Tidak berubah | Tenaga: Berkurang / Frequency: Unchanged | Energy: Decreases"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi: Tidak berubah | Tenaga: Tidak berubah / Frequency: Unchanged | Energy: Unchanged"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q46",
+    "sumber": "Percubaan Putrajaya 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 46,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.4 Menerangkan ciri-ciri gelombang: Amplitud, Tempoh, Frekuensi, Panjang Gelombang dan Laju Gelombang",
+    "spKod": "5.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan suatu sistem berayun mengalami pengurangan amplitud dengan masa.\nDiagram shows a swinging system experiences a decrease in amplitude with time.\n(Putrajaya: 2022)\n\nApakah proses tersebut dan kesannya ke atas tenaga sistem tersebut?\nWhat is the process and its impression on the system energy?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah40_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Proses: Pelembapan | Tenaga: Bertambah / Process: Damping | Energy: Increases"
+      },
+      {
+        "id": "B",
+        "teks": "Proses: Resonans | Tenaga: Bertambah / Process: Resonance | Energy: Increases"
+      },
+      {
+        "id": "C",
+        "teks": "Proses: Resonans | Tenaga: Malar / Process: Resonance | Energy: Constant"
+      },
+      {
+        "id": "D",
+        "teks": "Proses: Pelembapan | Tenaga: Berkurang / Process: Damping | Energy: Decreases"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q47",
+    "sumber": "Percubaan Putrajaya 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 47,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.2 Melukis gambar rajah pantulan gelombang air",
+    "spKod": "5.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan pemantulan gelombang satah oleh pemantul satah.\nDiagram shows the reflection of a plane wave by a plane reflector.\n(Putrajaya: 2022)\n\nAntara pernyataan yang berikut, manakah tidak benar?\nWhich of the following statements is not true?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah41_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sudut tuju, i adalah sama dengan sudut pantulan, r / Angle of incidence, i is equal to angle of reflection, r"
+      },
+      {
+        "id": "B",
+        "teks": "Arah perambatan gelombang pantulan berubah / The direction of propagation of reflected waves is changed"
+      },
+      {
+        "id": "C",
+        "teks": "Kelajuan gelombang pantulan sama dengan gelombang tuju / The speed of the reflected wave is same as the incident wave"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi gelombang pantulan adalah separuh daripada gelombang tuju / The frequency of the reflected wave is half of the incident wave"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q48",
+    "sumber": "Percubaan Putrajaya 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 48,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.1 Menghuraikan pembiasan gelombang dari pelbagai aspek",
+    "spKod": "5.4.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara berikut, yang manakah merupakan ciri gelombang biasan dari kawasan air cetek ke kawasan air dalam?\nWhich of the following is the characteristics of refractive waves from a shallow water region to a deep-water region?\n(Putrajaya: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sudut tuju lebih daripada sudut pembiasan / The angle of incident is more than the angle of refraction"
+      },
+      {
+        "id": "B",
+        "teks": "Panjang gelombang meningkat / The wavelength increases"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi berkurang / The frequency decreases"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi meningkat / The frequency increases"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q49",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 49,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.4 Menerangkan ciri-ciri gelombang: Amplitud, Tempoh, Frekuensi, Panjang Gelombang dan Laju Gelombang",
+    "spKod": "5.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan bandul L berayun dengan amplitud yang paling besar apabila bandul Y diayunkan.\nDiagram shows pendulum L oscillates with the largest amplitude when pendulum Y is oscillated.\n(SBP: 2022)\n\nApakah konsep fizik yang terlibat?\nWhat is the physics concept involved?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah42_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Resonans / Resonance"
+      },
+      {
+        "id": "B",
+        "teks": "Interferens / Interference"
+      },
+      {
+        "id": "C",
+        "teks": "Pelembapan / Damping"
+      },
+      {
+        "id": "D",
+        "teks": "Pembelauan / Diffraction"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q50",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 50,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.2 Melukis gambar rajah pembiasan gelombang air bagi dua kedalaman",
+    "spKod": "5.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan seorang peluncur bergerak menghampiri pantai. Peluncur itu mendapati apabila gelombang bergerak daripada kawasan dalam ke kawasan cetek, jarak antara dua puncak gelombang air berturutan semakin dekat disebabkan oleh fenomena pembiasan gelombang air.\nDiagram shows a surfer moving towards the beach. The surfer found that as the wave moves from deep water to shallow water, the distance between two consecutive water wave crest gets closer due to the phenomenon of refraction of water waves.\n(SBP: 2022)\n\nApakah kuantiti fizik yang menyebabkan pembiasan gelombang berlaku?\nWhat is the physical quantity that causes wave refraction to occur?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah43_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Frekuensi gelombang / Wave's frequency"
+      },
+      {
+        "id": "B",
+        "teks": "Amplitud gelombang / Wave's amplitude"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang / Wavelength"
+      },
+      {
+        "id": "D",
+        "teks": "Kedalaman air / Depth of water"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q51",
+    "sumber": "Percubaan SBP 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 51,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.3 Menghubung kait λ, a, x dan D berdasarkan corak interferens gelombang",
+    "spKod": "5.6.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan corak interferens yang terbentuk di atas skrin dalam eksperimen dwicelah Young yang menggunakan cahaya monokromatik dengan panjang gelombang, λ.\nDiagram shows the interference patterns formed on the screen in Young's double slit experiment using monochromatic light with wavelength, λ.\n(SBP: 2022)\nApakah yang akan berlaku pada bilangan pinggir gelap atas skrin sekiranya jarak pemisah dwicelah yang lebih besar digunakan?\nWhat will happen to the number of dark fringes on the screen if a larger slit separation distance is used?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah44_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Bertambah / Increases"
+      },
+      {
+        "id": "B",
+        "teks": "Berkurang / Decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Tidak berubah / Unchanged"
+      },
+      {
+        "id": "D",
+        "teks": "Menjadi sifar / Becomes zero"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q52",
+    "sumber": "Percubaan Selangor Set 1 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 52,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sebiji batu dijatuhkan ke dalam sebuah kolam yang tenang. Gelombang yang terhasil pada permukaan air bergerak keluar sebagai bulatan yang mengembang bermula dari pusat tempat gangguan.\nDiagram shows a stone dropped into a calm pond. The waves produced at the water's surface travel outwards in expanding circles from the centre of the disturbance.\n(Selangor: Set 1: 2022)\nPernyataan manakah yang betul berkenaan pergerakan zarah-zarah air semasa perambatan gelombang?\nWhich statement is correct about the movement of the water particles during the propagation of the wave?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah45_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Bergerak keluar dalam bulatan / Moves outward in circle"
+      },
+      {
+        "id": "B",
+        "teks": "Bergetar secara mendatar / Vibrates horizontally"
+      },
+      {
+        "id": "C",
+        "teks": "Bergetar secara menegak / Vibrates vertically"
+      },
+      {
+        "id": "D",
+        "teks": "Bergerak secara menegak dan mendatar / Moves vertically and horizontally"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q53",
+    "sumber": "Percubaan Selangor Set 1 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 53,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.1 Menghuraikan pantulan gelombang dari pelbagai aspek",
+    "spKod": "5.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Pernyataan manakah yang betul apabila gelombang air dipantulkan oleh pemantul?\nWhich statement is correct when water waves are reflected by a reflector?\n(Selangor: Set 1: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laju gelombang air sebelum dan selepas pantulan adalah sama / The speed of water waves before and after reflection are the same"
+      },
+      {
+        "id": "B",
+        "teks": "Panjang gelombang air menjadi lebih panjang selepas pantulan / The wavelength of water waves becomes longer after reflection"
+      },
+      {
+        "id": "C",
+        "teks": "Amplitud gelombang air menjadi lebih besar selepas pantulan / The amplitude of water waves becomes larger after reflection"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi gelombang air berkurang selepas pantulan / The frequency of water waves decreases after reflection"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q54",
+    "sumber": "Percubaan Selangor Set 1 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 54,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.3 Berkomunikasi untuk menerangkan aplikasi setiap komponen spektrum elektromagnet dalam kehidupan",
+    "spKod": "5.7.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Berikut adalah beberapa kegunaan gelombang elektromagnet:\nThe following are some uses of electromagnetic waves:\n(Selangor: Set 1: 2022)\nP: Sistem penggera keselamatan / Anti-theft alarm systems\n<br><br>\nQ: Mengesan wang kertas palsu / Detecting fake notes\n<br><br>\nR: Peralatan dapur / Kitchen appliance\n<br><br>\nS: Kemoterapi / Chemotherapy\nNyatakan jenis gelombang elektromagnet yang digunakan dalam P, Q, R dan S.\nState the type of electromagnetic wave used in P, Q, R and S.",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P: Sinar inframerah | Q: Sinar ultraungu | R: Gelombang mikro | S: Sinar gama / P: Infrared radiation | Q: Ultraviolet radiation | R: Microwaves | S: Gamma rays"
+      },
+      {
+        "id": "B",
+        "teks": "P: Sinar ultraungu | Q: Sinar inframerah | R: Gelombang mikro | S: Sinar gama / P: Ultraviolet radiation | Q: Infrared radiation | R: Microwaves | S: Gamma rays"
+      },
+      {
+        "id": "C",
+        "teks": "P: Sinar inframerah | Q: Gelombang mikro | R: Sinar ultraungu | S: Sinar gama / P: Infrared radiation | Q: Microwaves | R: Ultraviolet radiation | S: Gamma rays"
+      },
+      {
+        "id": "D",
+        "teks": "P: Sinar inframerah | Q: Sinar ultraungu | R: Sinar gama | S: Gelombang mikro / P: Infrared radiation | Q: Ultraviolet radiation | R: Gamma rays | S: Microwaves"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q55",
+    "sumber": "Percubaan Selangor Set 2 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 55,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sebiji bola terapung di dalam sebuah tangki air.\nDiagram shows a ball floating in a water tank.\n(Selangor: Set 2: 2022)\nAntara berikut yang manakah menggambarkan pergerakan bola yang betul apabila gelombang melalui permukaan air?\nWhich of the following describes the correct movement of the ball, when a wave passes through the water surface?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah46_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Bola berayun ke atas dan ke bawah pada kedudukan yang sama / Ball oscillates up and down at the same position"
+      },
+      {
+        "id": "B",
+        "teks": "Bola bergerak ke hadapan mengikut arah perambatan gelombang / Ball moves forward following the direction of wave propagation"
+      },
+      {
+        "id": "C",
+        "teks": "Bola bergerak ke belakang bertentangan arah gelombang / Ball moves backward against the wave direction"
+      },
+      {
+        "id": "D",
+        "teks": "Bola tenggelam ke dasar tangki air / Ball sinks to the bottom of the water tank"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q56",
+    "sumber": "Percubaan Selangor Set 2 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 56,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.1 Menghuraikan pantulan gelombang dari pelbagai aspek",
+    "spKod": "5.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara ciri gelombang berikut, yang manakah berubah apabila gelombang dipantulkan?\nWhich of the following characteristics of waves changes when waves are reflected?\n(Selangor: Set 2: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Arah perambatan / Direction of propagation"
+      },
+      {
+        "id": "B",
+        "teks": "Laju / Speed"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi / Frequency"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang / Wavelength"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q57",
+    "sumber": "Percubaan Selangor Set 2 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 57,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Mamografi adalah satu proses memeriksa payudara manusia untuk mengesan gejala kanser. Gelombang elektromagnet manakah digunakan untuk tujuan ini?\nMammography is a process of examining the human breast to detect the occurrence of cancer. Which electromagnetic wave is used for this purpose?\n(Selangor: Set 2: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sinar-X / X-ray"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang mikro / Microwave"
+      },
+      {
+        "id": "C",
+        "teks": "Inframerah / Infrared"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang radio / Radio wave"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q58",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 58,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.2 Menghuraikan corak gelombang interferens bagi air, bunyi dan cahaya",
+    "spKod": "5.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan corak interferens bagi gelombang air yang dihasilkan oleh dua sumber koheren, S₁ dan S₂.\nDiagram shows the interference pattern of water waves produced by two coherent sources, S₁ and S₂.\n(SMKA: 2022)\nPada titik-titik yang manakah interferens membina berlaku?\nAt which points do constructive interference occur?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah47_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P dan Q / P and Q"
+      },
+      {
+        "id": "B",
+        "teks": "P dan R / P and R"
+      },
+      {
+        "id": "C",
+        "teks": "Q dan R / Q and R"
+      },
+      {
+        "id": "D",
+        "teks": "P, Q dan R / P, Q and R"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q59",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 59,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara pernyataan berikut yang manakah betul mengenai gelombang radio?\nWhich of the following statements is correct about radio waves?\n(SMKA: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang membujur / Longitudinal waves"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang yang memerlukan medium untuk merambat / The waves that require a medium to travel"
+      },
+      {
+        "id": "C",
+        "teks": "Halaju gelombang dipengaruhi oleh panjang gelombang / The velocity of the waves is influenced by the wavelength"
+      },
+      {
+        "id": "D",
+        "teks": "Terdiri daripada kedua-dua medan magnet dan medan elektrik / Consist of both magnetic fields and electric fields"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q60",
+    "sumber": "Percubaan Terengganu 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 60,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.3 Berkomunikasi untuk menerangkan aplikasi setiap komponen spektrum elektromagnet dalam kehidupan",
+    "spKod": "5.7.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu imej yang terhasil daripada aplikasi gelombang elektromagnet dalam radioterapi untuk kanser otak.\nDiagram shows an image produced from application of electromagnetic waves in radiotherapy for brain cancer.\n(Terengganu: 2022)\nApakah ciri-ciri gelombang elektromagnet itu?\nWhat are the characteristics of the electromagnetic waves?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah48_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Frekuensi: Tinggi | Panjang gelombang: Pendek / Frequency: High | Wavelength: Short"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi: Rendah | Panjang gelombang: Pendek / Frequency: Low | Wavelength: Short"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi: Rendah | Panjang gelombang: Panjang / Frequency: Low | Wavelength: Long"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi: Tinggi | Panjang gelombang: Panjang / Frequency: High | Wavelength: Long"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q61",
+    "sumber": "Percubaan Kedah 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 61,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.2 Menghuraikan corak gelombang interferens bagi air, bunyi dan cahaya",
+    "spKod": "5.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu gelombang bunyi yang dihasilkan oleh dua pembesar suara yang koheren.\nDiagram shows an interference of sound waves emitted from two loudspeakers which are coherent.\n(Kedah: 2021)\nInterferens membina berlaku di\nConstructive interference occurs at",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah49_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "R dan T / R and T"
+      },
+      {
+        "id": "B",
+        "teks": "Q dan R / Q and R"
+      },
+      {
+        "id": "C",
+        "teks": "P dan S / P and S"
+      },
+      {
+        "id": "D",
+        "teks": "T dan Q / T and Q"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q62",
+    "sumber": "Percubaan Kelantan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 62,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan Kamal yang berada di dalam sebuah bilik boleh mendengar bunyi piano di ruang tamu.\nDiagram shows Kamal is in a room able to hear the sound of a piano in the living room.\n(Kelantan: 2021)\nSituasi ini adalah disebabkan oleh\nThe situation is due to",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah50_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "pantulan / reflection"
+      },
+      {
+        "id": "B",
+        "teks": "pembiasan / refraction"
+      },
+      {
+        "id": "C",
+        "teks": "pembelauan / diffraction"
+      },
+      {
+        "id": "D",
+        "teks": "interferens / interference"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q63",
+    "sumber": "Percubaan Kelantan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 63,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.2 Melukis gambar rajah pembiasan gelombang air bagi dua kedalaman",
+    "spKod": "5.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu gelombang air yang sedang bergerak dari kawasan dalam ke kawasan cetek.\nDiagram shows water waves moving from deep region to a shallow region.\n(Kelantan: 2021)\nYang manakah antara berikut akan berlaku apabila gelombang memasuki kawasan cetek?\nWhich of the following will happen when waves entering the shallow region?\nI Laju berkurang / The speed decreases\n<br><br>\nII Arah pergerakan membengkok mendekati garis normal / Direction of motion bends towards the normal line\n<br><br>\nIII Jarak gelombang berkurang / Wavelength decreases",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah51_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II / I and II"
+      },
+      {
+        "id": "B",
+        "teks": "II dan III / II and III"
+      },
+      {
+        "id": "C",
+        "teks": "I, II dan III / I, II and III"
+      },
+      {
+        "id": "D",
+        "teks": "I dan III / I and III"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q64",
+    "sumber": "Percubaan Sarawak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 64,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan corak cahaya yang terhasil di atas skrin dalam suatu eksperimen.\nDiagram shows patterns of light produced on screen in an experiment.\n(Sarawak: 2021)\nApakah fenomena yang terlibat?\nWhat is the phenomenon involved?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah52_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pantulan / Reflection"
+      },
+      {
+        "id": "B",
+        "teks": "Pembelauan / Diffraction"
+      },
+      {
+        "id": "C",
+        "teks": "Pembiasan / Refraction"
+      },
+      {
+        "id": "D",
+        "teks": "Interferens / Interference"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q65",
+    "sumber": "Percubaan Terengganu 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 65,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.1 Menghuraikan pembiasan gelombang dari pelbagai aspek",
+    "spKod": "5.4.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara ciri gelombang berikut, yang manakah tidak akan berubah apabila gelombang merambat dari kawasan dalam ke kawasan cetek?\nWhich of the following characteristics of waves will not change when the waves are move from deep water to shallow water?\n(Terengganu: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Arah perambatan gelombang / Direction of propagation"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi / Frequency"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang / Wavelength"
+      },
+      {
+        "id": "D",
+        "teks": "Laju gelombang / Speed of wave"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q66",
+    "sumber": "Percubaan Terengganu 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 66,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.2 Menghuraikan corak gelombang interferens bagi air, bunyi dan cahaya",
+    "spKod": "5.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah di bawah menunjukkan corak interferens gelombang air daripada dua punca yang koheren, S₁ dan S₂.\nDiagram shows the interference pattern of water waves from two coherent sources, S₁ and S₂.\n(Terengganu: 2021)\nKumpulan manakah yang menerangkan interferens pada titik X dengan betul?\nWhich of the groups describe the interference at point X correctly?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah53_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang daripada S₁: Puncak | Gelombang daripada S₂: Puncak | Kesan: Interferens membina / Wave from S₁: Crest | Wave from S₂: Crest | Result: Constructive interference"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang daripada S₁: Puncak | Gelombang daripada S₂: Lembangan | Kesan: Interferens memusnah / Wave from S₁: Crest | Wave from S₂: Trough | Result: Destructive interference"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang daripada S₁: Lembangan | Gelombang daripada S₂: Lembangan | Kesan: Interferens membina / Wave from S₁: Trough | Wave from S₂: Trough | Result: Constructive interference"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang daripada S₁: Lembangan | Gelombang daripada S₂: Puncak | Kesan: Interferens membina / Wave from S₁: Trough | Wave from S₂: Crest | Result: Constructive interference"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q67",
+    "sumber": "Percubaan Terengganu 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 67,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sebahagian spektrum gelombang elektromagnet.\nDiagram shows part of electromagnetic waves spectrum.\n(Terengganu: 2021)\nKedudukan cahaya nampak adalah\nThe position of the visible light is",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah54_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "di antara sinar gamma dan sinar ultraungu / between gamma rays and ultraviolet rays"
+      },
+      {
+        "id": "B",
+        "teks": "di antara sinar inframerah dan sinar ultraungu / between infrared rays and ultraviolet rays"
+      },
+      {
+        "id": "C",
+        "teks": "di antara gelombang mikro dan sinar inframerah / between microwave and infrared rays"
+      },
+      {
+        "id": "D",
+        "teks": "di antara sinar ultraungu dan sinar-X / between ultraviolet rays and X-rays"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q68",
+    "sumber": "Percubaan Selangor Set 1 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 68,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan bandul Barton. Bandul B ditolak supaya berayun.\nDiagram shows a Barton's pendulum. Pendulum B is pushed to oscillate.\n(Selangor: Set 1: 2021)\nBandul D didapati berayun dengan amplitud maksimum kerana\nPendulum D is found to oscillate with maximum amplitude because",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah55_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "frekuensi asli bandul B adalah sama dengan frekuensi asli bandul D / the natural frequency of pendulum B is equal to the natural frequency of pendulum D"
+      },
+      {
+        "id": "B",
+        "teks": "jisim bandul B adalah sama dengan jisim bandul D / the mass of pendulum B is equal to the mass of pendulum D"
+      },
+      {
+        "id": "C",
+        "teks": "bandul B memindahkan tenaga hanya ke bandul D / pendulum B transfers energy only to pendulum D"
+      },
+      {
+        "id": "D",
+        "teks": "bandul B memindahkan daya ke bandul D / pendulum B transfers force to pendulum D"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q69",
+    "sumber": "Percubaan Selangor Set 1 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 69,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.2 Melukis gambar rajah pantulan gelombang air",
+    "spKod": "5.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan arah perambatan satu gelombang tuju menuju ke sebuah pemantul cekung.\nDiagram shows the direction of propagation of the incident wave approaching a concave reflector.\n(Selangor: Set 1: 2021)\nAntara yang berikut, yang manakah benar tentang pantulan gelombang itu?\nWhich of the following is true about the reflected waves?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah56_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laju gelombang pantulan bertambah / The speed of the reflected wave increases"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang pantulan adalah berbentuk membulat menuju ke titik fokus / The reflected wave is in circular shape converging towards focal point"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi gelombang pantulan adalah lebih besar daripada gelombang tuju / The frequency of the reflected wave is higher than the incident waves"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang pantulan adalah dua kali ganda daripada panjang gelombang tuju / The wavelength of the reflected wave is twice than wavelength of the incident waves"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q70",
+    "sumber": "Percubaan Selangor Set 1 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 70,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan muka gelombang bagi tiga titisan air pada permukaan suatu besen air.\nDiagram shows the wavefronts of three water droplets on the surface of a water basin.\n(Selangor: Set 1: 2021)\nRajah manakah merupakan susunan besen yang betul?\nWhich diagram below likely to be the arrangement of the basin?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah57_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Besen condong dengan kawasan dalam di sebelah kiri dan kawasan cetek di sebelah kanan / Slanted basin with deep region on left and shallow region on right"
+      },
+      {
+        "id": "B",
+        "teks": "Besen mendatar dengan kedalaman seragam di seluruh permukaan / Horizontal basin with uniform depth across entire surface"
+      },
+      {
+        "id": "C",
+        "teks": "Besen condong dengan kawasan cetek di sebelah kiri dan kawasan dalam di sebelah kanan / Slanted basin with shallow region on left and deep region on right"
+      },
+      {
+        "id": "D",
+        "teks": "Besen dengan bongkah perspeks berbentuk segitiga di tengah-tengah / Basin with triangular perspex block in the middle"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q71",
+    "sumber": "Percubaan Selangor Set 1 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 71,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.3 Berkomunikasi untuk menerangkan aplikasi setiap komponen spektrum elektromagnet dalam kehidupan",
+    "spKod": "5.7.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara yang berikut, yang manakah ciri-ciri gelombang mikro yang menjadikannya sesuai digunakan dalam komunikasi satelit?\nWhich of the following characteristics of microwave makes it suitable to be used in satellite communication?\n(Selangor: Set 1: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Ia adalah neutral / It is neutral"
+      },
+      {
+        "id": "B",
+        "teks": "Ia mempunyai frekuensi yang tinggi dan boleh menembusi atmosfera / It has a high frequency and can penetrate the atmosphere"
+      },
+      {
+        "id": "C",
+        "teks": "Ia memerlukan medium untuk merambat / It needs a medium to propagate"
+      },
+      {
+        "id": "D",
+        "teks": "Ia mempunyai panjang gelombang yang sangat panjang / It has a very long wavelength"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q72",
+    "sumber": "Percubaan Selangor Set 2 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 72,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu beban diikat pada satu spring berayun secara menegak dalam air.\nDiagram shows a load tied to a spring which oscillates vertically in the water.\n(Selangor: Set 2: 2021)\nAntara graf sesaran-masa berikut, yang manakah menunjukkan ayunan beban itu?\nWhich of the following displacement-time graphs shows the oscillation of the load?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah58_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Graf ayunan dengan amplitud berkurang secara beransur-ansur (pelembapan) / Oscillation graph with amplitude gradually decreasing (damping)"
+      },
+      {
+        "id": "B",
+        "teks": "Graf ayunan dengan amplitud malar tanpa pelembapan / Oscillation graph with constant amplitude without damping"
+      },
+      {
+        "id": "C",
+        "teks": "Graf ayunan dengan tempoh yang semakin bertambah / Oscillation graph with period increasing"
+      },
+      {
+        "id": "D",
+        "teks": "Graf garis lurus sesaran bertambah secara linear / Straight line graph of displacement increasing linearly"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q73",
+    "sumber": "Percubaan Selangor Set 2 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 73,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara yang berikut, yang manakah sifat gelombang elektromagnet?\nWhich of the following is a property of an electromagnetic wave?\n(Selangor: Set 2: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Ia boleh dikutubkan / It can be polarised"
+      },
+      {
+        "id": "B",
+        "teks": "Ia adalah gelombang membujur / It is a longitudinal wave"
+      },
+      {
+        "id": "C",
+        "teks": "Ia tidak boleh merambat melalui vakum / It cannot propagate through vacuum"
+      },
+      {
+        "id": "D",
+        "teks": "Ia terpesong oleh medan elektrik dan medan magnet / It is deflected by electric and magnetic fields"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q74",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 74,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sebiji batu dijatuhkan ke dalam sebuah kolam yang tenang dan menghasilkan muka gelombang.\nDiagram shows a stone is dropped into a calm pond producing a wavefront.\n(MRSM: 2021)\nApakah jenis gelombang yang terhasil pada rajah di atas?\nWhat type of wave is produced in the diagram above?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah59_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang satah / Plane wave"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang melintang / Transverse wave"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang membujur / Longitudinal wave"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang elektromagnet / Electromagnetic wave"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q75",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 75,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.2 Mewajarkan kesan resonans terhadap kehidupan harian",
+    "spKod": "5.2.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Manakah antara berikut merupakan kebaikan resonans dalam kehidupan harian?\nWhich of the following is the benefit of resonance in daily life?\n(MRSM: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Penalaan frekuensi pada radio untuk menerima siaran stesen pilihan / Tuning of frequency on a radio to receive desired station broadcast"
+      },
+      {
+        "id": "B",
+        "teks": "Keruntuhan jambatan gantung akibat tiupan angin kuat / Collapse of suspension bridges due to strong wind blowing"
+      },
+      {
+        "id": "C",
+        "teks": "Gelas kaca pecah apabila penyanyi opera menyanyi dengan nada tinggi / Shattering of glass when opera singer sings at high pitch"
+      },
+      {
+        "id": "D",
+        "teks": "Gegaran pada sayap kapal terbang semasa penerbangan laju / Vibration of airplane wings during high-speed flight"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q76",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 76,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.3 Mewajarkan aplikasi pantulan gelombang dalam kehidupan harian",
+    "spKod": "5.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sebuah kapal yang menggunakan SONAR untuk mengukur kedalaman laut.\nDiagram shows a ship that uses SONAR to measure the depth of a sea.\n(MRSM: 2021)\nPernyataan yang manakah menerangkan situasi di atas?\nWhich statement describes the situation above?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah60_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laju gelombang yang dikesan lebih laju dari gelombang yang dipancarkan / The speed of detected wave is faster than the speed of the transmitted wave"
+      },
+      {
+        "id": "B",
+        "teks": "Laju gelombang yang dikesan lebih perlahan dari laju gelombang yang dipancarkan / The speed of detected wave is slower than the speed of the transmitted wave"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang yang dikesan adalah sama dengan panjang gelombang yang dipancarkan / The wavelength of detected wave is equal to the wavelength of transmitted wave"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang yang dikesan adalah lebih pendek dari panjang gelombang yang dipancarkan / The wavelength of detected wave is shorter than the wavelength of transmitted wave"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q77",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 77,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.2 Melukis gambar rajah pembiasan gelombang air bagi dua kedalaman",
+    "spKod": "5.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan arah perambatan gelombang air dari kawasan dalam ke kawasan cetek.\nDiagram shows the direction of propagation of a water wave from deep region to shallow region.\n(MRSM: 2021)\nApakah yang berlaku kepada arah perambatan dan panjang gelombang apabila ia berada dalam kawasan cetek?\nWhat happens to the direction of propagation and wavelength in the shallow region?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah61_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Arah perambatan: Mendekati garis normal | Panjang gelombang: Berkurang / Direction of propagation: Towards normal line | Wavelength: Decreasing"
+      },
+      {
+        "id": "B",
+        "teks": "Arah perambatan: Menjauhi garis normal | Panjang gelombang: Bertambah / Direction of propagation: Away from normal line | Wavelength: Increasing"
+      },
+      {
+        "id": "C",
+        "teks": "Arah perambatan: Mendekati garis normal | Panjang gelombang: Tiada perubahan / Direction of propagation: Towards normal line | Wavelength: No change"
+      },
+      {
+        "id": "D",
+        "teks": "Arah perambatan: Menjauhi garis normal | Panjang gelombang: Berkurang / Direction of propagation: Away from normal line | Wavelength: Decreasing"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q78",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 78,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan pandangan atas pelan sebuah rumah. Bunyi dari televisyen di ruang tamu boleh didengari oleh seseorang yang berada di dalam bilik tidur.\nDiagram shows a top view plan of a house. The sound from the television in the living room can be heard by a person in the bedroom.\n(MRSM: 2021)\nApakah fenomena yang menyebabkan bunyi merambat daripada televisyen kepada orang tersebut?\nWhat is the phenomenon which causes sound to propagate from the television to the person?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah62_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pembelauan / Diffraction"
+      },
+      {
+        "id": "B",
+        "teks": "Pembiasan / Refraction"
+      },
+      {
+        "id": "C",
+        "teks": "Pantulan / Reflection"
+      },
+      {
+        "id": "D",
+        "teks": "Interferens / Interference"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q79",
+    "sumber": "Percubaan MRSM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 79,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan penggunaan satelit dalam bidang telekomunikasi.\nDiagram shows the usage of satellites in the field of communication.\n(MRSM: 2021)\nApakah nama gelombang yang dihantar oleh isyarat komunikasi?\nWhat is the name of the wave sent by the communication signal?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah63_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sinar-X / X-ray"
+      },
+      {
+        "id": "B",
+        "teks": "Cahaya nampak / Visible light"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang mikro / Microwave"
+      },
+      {
+        "id": "D",
+        "teks": "Sinar ultraungu / Ultraviolet ray"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q80",
+    "sumber": "Percubaan Negeri Sembilan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 80,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.2 Menyatakan jenis gelombang",
+    "spKod": "5.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara berikut yang manakah boleh digunakan untuk menghasilkan gelombang pegun?\nWhich of the following can be used to produce stationary waves?\n(Negeri Sembilan: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Meniup udara melalui trumpet / Blowing air through a trumpet"
+      },
+      {
+        "id": "B",
+        "teks": "Menghasilkan bunyi daripada pembesar suara / Producing sound from a speaker"
+      },
+      {
+        "id": "C",
+        "teks": "Menyinari cahaya melalui suatu dwi-celah / Shines light through double slits"
+      },
+      {
+        "id": "D",
+        "teks": "Menyebarkan gelombang air ke kawasan cetek / Propagates water waves to shallower region"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q81",
+    "sumber": "Percubaan Negeri Sembilan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 81,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.3 Membandingkan gelombang melintang dan gelombang membujur",
+    "spKod": "5.1.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Pernyataan manakah antara berikut merujuk kepada gelombang membujur?\nWhich of the following statement refers to a longitudinal wave?\n(Negeri Sembilan: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang cahaya bergerak dalam gentian optik / Light waves travel in optical fibers"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang radio bergerak melalui suatu vakum / Radio waves travel through a vacuum"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang air yang dihasilkan di dalam tangki riak / Water waves generated in the ripple tank"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang bunyi bergerak melalui udara / Sound waves travel through the air"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q82",
+    "sumber": "Percubaan Negeri Sembilan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 82,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.3 Mewajarkan aplikasi pantulan gelombang dalam kehidupan harian",
+    "spKod": "5.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sebuah bot nelayan menggunakan sistem SONAR untuk mengesan lokasi sekumpulan ikan.\nDiagram shows a fishing boat using a SONAR system to detect the location of a shoal of fish.\n(Negeri Sembilan: 2021)\nFenomena gelombang yang terlibat ialah\nThe wave phenomenon involved is",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah64_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "interferens / interference"
+      },
+      {
+        "id": "B",
+        "teks": "pembiasan / refraction"
+      },
+      {
+        "id": "C",
+        "teks": "pembelauan / diffraction"
+      },
+      {
+        "id": "D",
+        "teks": "pantulan / reflection"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q83",
+    "sumber": "Percubaan Negeri Sembilan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 83,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara gelombang berikut, yang manakah tidak boleh merambat melalui vakum?\nWhich of the following waves cannot propagate in a vacuum?\n(Negeri Sembilan: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang ultrasonik / Ultrasonic waves"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang mikro / Microwaves"
+      },
+      {
+        "id": "C",
+        "teks": "Sinar ultraungu / Ultraviolet waves"
+      },
+      {
+        "id": "D",
+        "teks": "Sinar-X / X-rays"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q84",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 84,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu graf suatu sistem ayunan yang mengalami pelembapan.\nDiagram shows a graph of an oscillation system experiences damping.\n(Pahang: 2021)\nYang mana di antara berikut tidak berubah?\nWhich of the following quantity does not change?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah65_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Saiz ayunan / Size of oscillation"
+      },
+      {
+        "id": "B",
+        "teks": "Tenaga ayunan / Energy of oscillation"
+      },
+      {
+        "id": "C",
+        "teks": "Tempoh ayunan / Period of oscillation"
+      },
+      {
+        "id": "D",
+        "teks": "Amplitud ayunan / Amplitude of oscillation"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q85",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 85,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelombang air merambat dari kawasan X ke kawasan Y.\nDiagram shows a water wave move from region X to region Y.\n(Pahang: 2021)\nAntara pernyataan berikut, yang manakah benar?\nWhich of the following statements is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah66_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang itu bergerak lebih laju di kawasan Y / The waves move faster in region Y"
+      },
+      {
+        "id": "B",
+        "teks": "Laju gelombang itu adalah malar apabila bergerak dari kawasan X ke kawasan Y / The speed of the waves is constant when it moves from region X to region Y"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang itu mempunyai frekuensi lebih besar di kawasan X / The waves have a bigger frequency at region X"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang itu mempunyai amplitud lebih tinggi di kawasan Y / The waves have a higher amplitude at region Y"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q86",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 86,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.3 Berkomunikasi untuk menerangkan aplikasi setiap komponen spektrum elektromagnet dalam kehidupan",
+    "spKod": "5.7.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah di bawah menunjukkan sebuah peralatan memasak ketuhar gelombang mikro. Gelombang yang manakah digunakan oleh peralatan tersebut untuk memasak makanan?\nDiagram below shows a microwave oven cooking utensil. Which type of wave is used by the cooking utensil to cook food?\n(Pahang: 2021)",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah67_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Inframerah / Infrared"
+      },
+      {
+        "id": "B",
+        "teks": "Sinaran gama / Gamma rays"
+      },
+      {
+        "id": "C",
+        "teks": "Ultraungu / Ultraviolet"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang mikro / Microwaves"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q87",
+    "sumber": "Percubaan SBP 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 87,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Kuantiti fizik manakah semakin berkurang apabila suatu sistem getaran mengalami pelembapan?\nWhich physical quantity decreases when a vibrating system is experiences damping?\n(SBP: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Halaju / Velocity"
+      },
+      {
+        "id": "B",
+        "teks": "Amplitud / Amplitude"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi / Frequency"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang / Wavelength"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q88",
+    "sumber": "Percubaan SBP 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 88,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.2 Melukis gambar rajah pantulan gelombang air",
+    "spKod": "5.3.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelombang satah merambat ke arah satu pemantul satah dalam satu eksperimen menggunakan tangki riak.\nDiagram shows plane wavefront propagate towards a plane reflector in an experiment by using a ripple tank.\n(SBP: 2021)\nPasangan manakah yang betul untuk menerangkan gelombang pantulan?\nWhich pair is correct to describe the reflected wave?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah68_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Frekuensi gelombang: Berkurang | Panjang gelombang: Bertambah / Frequency of wave: Decreases | Wavelength: Increases"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi gelombang: Sama | Panjang gelombang: Berkurang / Frequency of wave: Same | Wavelength: Decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi gelombang: Bertambah | Panjang gelombang: Sama / Frequency of wave: Increases | Wavelength: Same"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi gelombang: Sama | Panjang gelombang: Sama / Frequency of wave: Same | Wavelength: Same"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q89",
+    "sumber": "Percubaan SBP 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 89,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan dua tapak perkhemahan yang dipisahkan oleh sebuah tasik. Ketika awal pagi, bunyi dari tapak perkhemahan yang bertentangan dapat didengari dengan jelas.\nDiagram shows two campsites that are separated by a lake. At dawn, the sound from the opposite campsite can be heard clearly.\n(SBP: 2021)\nFenomena manakah yang menerangkan situasi di atas?\nWhich phenomenon explains the situation above?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah69_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pantulan gelombang / Reflection of wave"
+      },
+      {
+        "id": "B",
+        "teks": "Pembiasan gelombang / Refraction of wave"
+      },
+      {
+        "id": "C",
+        "teks": "Interferens gelombang / Interference of wave"
+      },
+      {
+        "id": "D",
+        "teks": "Pembelauan gelombang / Diffraction of wave"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q90",
+    "sumber": "Percubaan SBP 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 90,
+    "sk": "SK 5.5 Pembelauan Gelombang",
+    "sp": "SP 5.5.3 Melukis gambar rajah corak pembelauan gelombang air dan cahaya",
+    "spKod": "5.5.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 72-73",
+    "rujukanBukuTeks": "Buku Teks T4 ms 202-209",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 6",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.5 Pembelauan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan gelombang air merambat ke arah satu celah.\nDiagram shows water waves propagating towards a gap.\n(SBP: 2021)\nApakah fenomena gelombang dan bentuk muka gelombang selepas melalui celah?\nWhat is the wave phenomenon and the shape of wavefront after passing through the gap?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah70_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Fenomena: Pembelauan | Bentuk muka gelombang: Membulat / Phenomenon: Diffraction | Shape of wavefront: Circular"
+      },
+      {
+        "id": "B",
+        "teks": "Fenomena: Pembelauan | Bentuk muka gelombang: Satah / Phenomenon: Diffraction | Shape of wavefront: Plane"
+      },
+      {
+        "id": "C",
+        "teks": "Fenomena: Pembiasan | Bentuk muka gelombang: Membulat / Phenomenon: Refraction | Shape of wavefront: Circular"
+      },
+      {
+        "id": "D",
+        "teks": "Fenomena: Pembiasan | Bentuk muka gelombang: Satah / Phenomenon: Refraction | Shape of wavefront: Plane"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q91",
+    "sumber": "Percubaan SBP 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 91,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.3 Menghubung kait λ, a, x dan D berdasarkan corak interferens gelombang",
+    "spKod": "5.6.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan susunan radas bagi eksperimen untuk menghasilkan corak interferens di atas skrin dengan menggunakan sumber cahaya monokromatik.\nDiagram shows an experimental setup to produce an interference pattern on the screen using a monochromatic light source.\n(SBP: 2021)\nApakah yang akan berlaku pada corak pinggir jika jarak antara dwicelah dengan skrin, D ditambah?\nWhat will happen to the fringe pattern if the distance between the double slits and the screen, D is increased?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah71_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak antara dua pinggir cerah berturutan bertambah / The distance between two consecutive bright fringes increases"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak antara dua pinggir cerah berturutan berkurang / The distance between two consecutive bright fringes decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Kecerahan pinggir berkurang tetapi jarak antara pinggir tidak berubah / The brightness of fringes decreases but fringe separation is unchanged"
+      },
+      {
+        "id": "D",
+        "teks": "Corak interferens hilang sepenuhnya / The interference pattern disappears completely"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q92",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 92,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.2 Melukis gambar rajah pembiasan gelombang air bagi dua kedalaman",
+    "spKod": "5.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sebuah besen condong yang berisi air. Satu penggetar sfera digunakan untuk menghasilkan gelombang membulat di kawasan cetek.\nDiagram shows an inclined basin containing water. A spherical dipper is used to produce circular waves in the shallow region.\n(Melaka: 2021)\nMuka gelombang yang manakah akan diperhatikan apabila gelombang merambat ke kawasan dalam?\nWhich wavefront will be observed when the wave propagates to the deep region?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah72_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Muka gelombang membulat dengan jarak antara muka gelombang semakin besar / Circular wavefront with increasing distance between wavefronts"
+      },
+      {
+        "id": "B",
+        "teks": "Muka gelombang satah dengan jarak antara muka gelombang malar / Plane wavefront with constant distance between wavefronts"
+      },
+      {
+        "id": "C",
+        "teks": "Muka gelombang membulat dengan jarak antara muka gelombang semakin rapat / Circular wavefront with decreasing distance between wavefronts"
+      },
+      {
+        "id": "D",
+        "teks": "Muka gelombang pegun tanpa perubahan corak / Stationary wavefront without pattern change"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q93",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 93,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.3 Menghubung kait λ, a, x dan D berdasarkan corak interferens gelombang",
+    "spKod": "5.6.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan pinggir-pinggir yang diperolehi apabila cahaya merah digunakan dalam eksperimen dwicelah Young.\nDiagram shows the fringes obtained when red light is used in Young's double slit experiment.\n(Melaka: 2021)\nPinggir-pinggir manakah yang diperhatikan jika cahaya merah digantikan dengan cahaya biru?\nWhich fringes are observed when the red light is replaced by blue light?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah73_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak antara pinggir berkurang (pinggir lebih rapat) / The distance between fringes decreases (fringes closer together)"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak antara pinggir bertambah (pinggir lebih lebar) / The distance between fringes increases (fringes further apart)"
+      },
+      {
+        "id": "C",
+        "teks": "Jarak antara pinggir tidak berubah / The distance between fringes does not change"
+      },
+      {
+        "id": "D",
+        "teks": "Pinggir menjadi kabur dan tidak kelihatan / Fringes become blur and invisible"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q94",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 94,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan satu senarai gelombang elektromagnet:\nDiagram shows a list of electromagnetic waves:\n(Melaka: 2021)\nU: Sinar ultraungu / Ultraviolet wave\n<br><br>\nV: Cahaya nampak / Visible light\n<br><br>\nM: Gelombang mikro / Microwave\n<br><br>\nX: Sinar-X / X-ray\n<br><br>\nR: Gelombang radio / Radio wave\nSenarai yang manakah menunjukkan panjang gelombang disusun secara menaik?\nWhich of the following shows their wavelengths arranged in an ascending order?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah74_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "U, V, M, X, R / U, V, M, X, R"
+      },
+      {
+        "id": "B",
+        "teks": "R, M, V, U, X / R, M, V, U, X"
+      },
+      {
+        "id": "C",
+        "teks": "X, U, V, M, R / X, U, V, M, R"
+      },
+      {
+        "id": "D",
+        "teks": "X, V, U, M, R / X, V, U, M, R"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q95",
+    "sumber": "Percubaan Perlis 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 95,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan dua denyutan gelombang dihasilkan pada P dan Q. P dan Q adalah sama jarak dari X.\nDiagram shows two wave pulses produced at P and Q. P and Q are at the same distance from X.\n(Perlis: 2021)\nPilih bentuk gelombang yang boleh diperhatikan di X apabila kedua-dua denyutan bertemu?\nChoose the suitable waveform observed at X when both pulses meet?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah75_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Superposisi membina dengan amplitud paduan adalah dua kali ganda ke atas / Constructive superposition with resultant amplitude doubled upwards"
+      },
+      {
+        "id": "B",
+        "teks": "Superposisi memusnah menghasilkan sesaran sifar seketika / Destructive superposition producing instantaneous zero displacement"
+      },
+      {
+        "id": "C",
+        "teks": "Superposisi membina dengan denyutan ke bawah / Constructive superposition with downward pulse"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang pegun dengan nod dan antinod / Stationary wave with nodes and antinodes"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q96",
+    "sumber": "Percubaan Sarawak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 96,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.2 Melukis gambar rajah pembiasan gelombang air bagi dua kedalaman",
+    "spKod": "5.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara rajah-rajah berikut, yang manakah betul menunjukkan pembiasan gelombang dari udara ke dalam air?\nWhich of the following diagram shows the correct refraction of wave from air to water?\n(Sarawak: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gelombang terbias membengkok mendekati garis normal kerana laju gelombang berkurang dalam air / Refracted wave bends towards the normal line because wave speed decreases in water"
+      },
+      {
+        "id": "B",
+        "teks": "Gelombang terbias membengkok menjauhi garis normal / Refracted wave bends away from the normal line"
+      },
+      {
+        "id": "C",
+        "teks": "Gelombang merambat lurus tanpa pembiasan pada sebarang sudut tuju / Wave propagates straight without refraction at any angle of incidence"
+      },
+      {
+        "id": "D",
+        "teks": "Gelombang mengalami pantulan dalam penuh ke udara / Wave undergoes total internal reflection back to air"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q97",
+    "sumber": "SPM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 97,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.4 Menerangkan ciri-ciri gelombang: Amplitud, Tempoh, Frekuensi, Panjang Gelombang dan Laju Gelombang",
+    "spKod": "5.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan keratan rentas sebuah tangki riak apabila gelombang air bergerak dari kawasan A ke kawasan B.\nDiagram shows a cross-section of a ripple tank when water wave moves from region A to region B.\n(SPM: 2021)\nApakah pembolehubah yang menyebabkan panjang gelombang berkurang?\nWhat is the variable that causes the wavelength decreases?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah76_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Isipadu / Volume"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi / Frequency"
+      },
+      {
+        "id": "C",
+        "teks": "Kedalaman / Depth"
+      },
+      {
+        "id": "D",
+        "teks": "Ketumpatan / Density"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q98",
+    "sumber": "SPM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 98,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.4 Menerangkan ciri-ciri gelombang: Amplitud, Tempoh, Frekuensi, Panjang Gelombang dan Laju Gelombang",
+    "spKod": "5.1.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Bluetooth adalah teknologi tanpa wayar dengan julat frekuensi antara 2.4 GHz hingga 2.48 GHz, digunakan untuk menghantar data antara peranti tetap dengan peranti mudah alih dalam jarak pendek. Berdasarkan maklumat di atas, bluetooth adalah sejenis\nBluetooth is a wireless technology with a frequency range of 2.4 GHz to 2.48 GHz used to send data between fixed and mobile devices over short distance. Based on the information above, bluetooth is a type of\n(SPM: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "gelombang ultrasonik / ultrasonic wave"
+      },
+      {
+        "id": "B",
+        "teks": "gelombang mikro / microwave"
+      },
+      {
+        "id": "C",
+        "teks": "sinar infra merah / infrared ray"
+      },
+      {
+        "id": "D",
+        "teks": "sinar ultra ungu / ultraviolet ray"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q99",
+    "sumber": "SPM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 99,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan seorang nenek yang duduk di atas kerusi goyang. Ayunan kerusi goyang akan berkurang dan akhirnya berhenti.\nDiagram shows a grandmother is sitting on a rocking chair. The swing of the rocking chair will decrease and eventually stop.\n(SPM: 2022)\nKonsep manakah yang menerangkan situasi tersebut?\nWhich of the following concepts describe the situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah77_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Resonans / Resonance"
+      },
+      {
+        "id": "B",
+        "teks": "Pelembapan / Damping"
+      },
+      {
+        "id": "C",
+        "teks": "Pantulan gelombang / Reflection of waves"
+      },
+      {
+        "id": "D",
+        "teks": "Pembiasan gelombang / Refraction of waves"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q100",
+    "sumber": "SPM 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 100,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan luar busur bulbous sebuah kapal yang menghasilkan keadaan air di sekitar kapal lebih tenang dan mengurangkan seretan air.\nDiagram shows the bulbous bow of a ship which produces calmer water conditions around the ship and reduces water drag.\n(SPM: 2022)\nAntara yang berikut, yang manakah betul mengenai fungsi luar busur bulbous?\nWhich of the following is correct about the bulbous bow?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah78_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Menghasilkan gelombang air yang berinterferens memusnah apabila kapal sedang bergerak / Produces water waves with the destructive interference when the ship is moving"
+      },
+      {
+        "id": "B",
+        "teks": "Berfungsi sebagai pemecah ombak / Functions as a wave breaker"
+      },
+      {
+        "id": "C",
+        "teks": "Bertindak sebagai penstabil kapal / Acts as a ship stabilizer"
+      },
+      {
+        "id": "D",
+        "teks": "Meningkatkan daya apungan / Increases the buoyancy force"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q101",
+    "sumber": "SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 101,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.5 Melakar dan mentafsir graf gelombang sesaran-masa dan sesaran-jarak",
+    "spKod": "5.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan graf sesaran-masa bagi gelombang.\nDiagram shows a displacement-time graph of a wave.\n(SPM: 2023)\nAntara yang berikut, kuantiti fizik manakah yang boleh didapati daripada graf?\nWhich of the following physical quantities can be obtained from the graph?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah79_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tempoh dan laju gelombang / Period and wave speed"
+      },
+      {
+        "id": "B",
+        "teks": "Amplitud dan tempoh / Amplitude and period"
+      },
+      {
+        "id": "C",
+        "teks": "Amplitud dan laju gelombang / Amplitude and wave speed"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang dan laju gelombang / Wavelength and wave speed"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q102",
+    "sumber": "SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 102,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan sebuah bandul ringkas yang disediakan dalam makmal.\nDiagram shows a simple pendulum that is set up in a laboratory.\n(SPM: 2023)\nAntara yang berikut, manakah faktor yang mengurangkan frekuensi ayunan?\nWhich of the following factors that reduces the frequency of oscillation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah80_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Menambah panjang tali / Increasing the length of the thread"
+      },
+      {
+        "id": "B",
+        "teks": "Mengurangkan panjang tali / Decreasing the length of the thread"
+      },
+      {
+        "id": "C",
+        "teks": "Menambah jisim bandul / Increasing the mass of the pendulum"
+      },
+      {
+        "id": "D",
+        "teks": "Mengurangkan jisim bandul / Decreasing the mass of the pendulum"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K2_Q103",
+    "sumber": "SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 103,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.3 Menghubung kait λ, a, x dan D berdasarkan corak interferens gelombang",
+    "spKod": "5.6.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah menunjukkan pinggir-pinggir cahaya kuning yang terbentuk semasa eksperimen dwicelah Young.\nDiagram shows the fringes of yellow light that is formed during Young's double slit experiment.\n(SPM: 2023)\nJarak antara pinggir-pinggir boleh dikurangkan dengan\nThe distance between fringes can be reduced by",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah81_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "menggantikan cahaya kuning kepada cahaya merah / replacing the yellow light to red light"
+      },
+      {
+        "id": "B",
+        "teks": "menggantikan cahaya kuning kepada cahaya biru / replacing the yellow light to blue light"
+      },
+      {
+        "id": "C",
+        "teks": "mengurangkan jarak antara dwicelah / decreasing the distance between the double slits"
+      },
+      {
+        "id": "D",
+        "teks": "menambahkan jarak antara dwicelah dengan skrin / increasing the distance between the double slits and the screen"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q01",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan gelombang bunyi yang dihasilkan oleh sebuah tala bunyi. Laju gelombang bunyi di dalam udara ialah 330 m s⁻¹.\nDiagram shows sound waves produced by a tuning fork. The speed of the sound waves in air is 330 m s⁻¹.\n(Kelantan: 2023)\n\nBerapakah frekuensi gelombang bunyi tersebut?\nWhat is the frequency of the sound waves?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah82_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "9.7 Hz / 9.7 Hz"
+      },
+      {
+        "id": "B",
+        "teks": "275.0 Hz / 275.0 Hz"
+      },
+      {
+        "id": "C",
+        "teks": "366.7 Hz / 366.7 Hz"
+      },
+      {
+        "id": "D",
+        "teks": "396.0 Hz / 396.0 Hz"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "v = fλ. 330 = f(3.6 / 3) ∴ f = 275 Hz (atau s⁻¹).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q02",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.6 Menentukan panjang gelombang, frekuensi dan laju gelombang menggunakan rumus v = fλ",
+    "spKod": "5.1.6",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan satu gelombang membujur merambat dari P ke Q.\nDiagram shows a longitudinal wave propagating from P to Q.\n(Melaka: 2023)\n\nAntara berikut, yang manakah benar mengenai arah getaran dan arah pemindahan tenaga antara P dan Q?\nWhich of the following is true about the direction of vibration and the direction of energy transfer between P and Q?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah83_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Arah getaran: ⟵⟶ (Selari) | Arah pemindahan tenaga: ⟶ (Dari P ke Q) / Direction of vibration: ⟵⟶ (Parallel) | Direction of energy: ⟶ (From P to Q)"
+      },
+      {
+        "id": "B",
+        "teks": "Arah getaran: ⟵⟶ (Selari) | Arah pemindahan tenaga: ⟵ (Dari Q ke P) / Direction of vibration: ⟵⟶ (Parallel) | Direction of energy: ⟵ (From Q to P)"
+      },
+      {
+        "id": "C",
+        "teks": "Arah getaran: ↕ (Serenjang) | Arah pemindahan tenaga: ⟶ (Dari P ke Q) / Direction of vibration: ↕ (Perpendicular) | Direction of energy: ⟶ (From P to Q)"
+      },
+      {
+        "id": "D",
+        "teks": "Arah getaran: ↕ (Serenjang) | Arah pemindahan tenaga: ⟵ (Dari Q ke P) / Direction of vibration: ↕ (Perpendicular) | Direction of energy: ⟵ (From Q to P)"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Gelombang P ke Q adalah gelombang membujur. Arah perambatan gelombang adalah selari dengan arah getaran zarah dari kiri ke kanan.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q03",
+    "sumber": "Percubaan Melaka 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan corak interferens bagi gelombang air dari dua sumber, S₁ dan S₂ yang koheren.\nDiagram shows the interference patterns for water waves from two coherent sources, S₁ and S₂.\n(Melaka: 2023)\n\nAntara yang berikut, yang manakah menunjukkan superposisi gelombang pada titik Y?\nWhich of the following shows the superposition of the waves at point Y?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah84_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Puncak + Puncak / Crest + Crest"
+      },
+      {
+        "id": "B",
+        "teks": "Puncak + Garis mendatar / Crest + Flat line"
+      },
+      {
+        "id": "C",
+        "teks": "Puncak + Palung / Crest + Trough"
+      },
+      {
+        "id": "D",
+        "teks": "Garis mendatar + Garis mendatar / Flat line + Flat line"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Pada titik Y, puncak (garis penuh) bertemu dengan lembangan (garis putus-putus), menghasilkan interferens memusnah.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q04",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.6 Menentukan panjang gelombang, frekuensi dan laju gelombang menggunakan rumus v = fλ",
+    "spKod": "5.1.6",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan keratan rentas sebuah tangki riak dengan dasar condong dengan penggetar satah digetarkan.\nDiagram shows a cross sectional of ripple tank with a sloping base and a plane dipper being vibrated.\n(Negeri Sembilan: 2023)\n\nAntara corak gelombang berikut, yang manakah boleh diperhatikan di atas skrin?\nWhich of the following wave patterns can be seen on the screen?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah85_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak antara muka gelombang bertambah dari kiri ke kanan (panjang gelombang bertambah di kawasan dalam) / Distance between wavefronts increases from left to right (wavelength increases in deep region)"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak antara muka gelombang adalah seragam dari kiri ke kanan / Distance between wavefronts is uniform from left to right"
+      },
+      {
+        "id": "C",
+        "teks": "Jarak antara muka gelombang berkurang dari kiri ke kanan (panjang gelombang berkurang di kawasan dalam) / Distance between wavefronts decreases from left to right (wavelength decreases in deep region)"
+      },
+      {
+        "id": "D",
+        "teks": "Jarak antara muka gelombang paling rapat di tengah-tengah / Distance between wavefronts is closest in the middle"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Pembiasan gelombang: Kawasan cetek mempunyai panjang gelombang λ lebih kecil manakala kawasan dalam mempunyai λ lebih besar.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q05",
+    "sumber": "Percubaan Negeri Sembilan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.6 Menentukan panjang gelombang, frekuensi dan laju gelombang menggunakan rumus v = fλ",
+    "spKod": "5.1.6",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan dua denyutan gelombang yang berada sama jarak dari X.\nDiagram shows two wave pulses are at the same distance from X.\n(Negeri Sembilan: 2023)\n\nBentuk gelombang yang manakah diperhatikan di X?\nWhich waveform is observed at X?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah86_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Palung dengan amplitud paduan 2a / Trough with resultant amplitude 2a"
+      },
+      {
+        "id": "B",
+        "teks": "Puncak dengan amplitud paduan 2a / Crest with resultant amplitude 2a"
+      },
+      {
+        "id": "C",
+        "teks": "Garis lurus mendatar (amplitud paduan sifar akibat interferens memusnah) / Flat horizontal line (zero resultant amplitude due to destructive interference)"
+      },
+      {
+        "id": "D",
+        "teks": "Puncak dan palung bersebelahan / Adjacent crest and trough"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Pada titik X, lembangan (kiri) bertemu dengan puncak (kanan). Interferens memusnah dihasilkan.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q06",
+    "sumber": "Percubaan Terengganu 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan susunan radas yang digunakan dalam eksperimen interferens bunyi. Bunyi yang kuat dan lemah didengar berselang-seli.\nDiagram shows the arrangement of the apparatus used in the sound interference experiment. Loud and weak sounds are heard alternately.\n(Terengganu: 2023)\n\nKira panjang gelombang bagi bunyi yang digunakan.\nCalculate the wavelength of the sound used.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah87_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.6 m / 0.6 m"
+      },
+      {
+        "id": "B",
+        "teks": "1.2 m / 1.2 m"
+      },
+      {
+        "id": "C",
+        "teks": "1.5 m / 1.5 m"
+      },
+      {
+        "id": "D",
+        "teks": "1.8 m / 1.8 m"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "λ = ax / D = (2.0)(0.9) / 3.0 ∴ λ = 0.6 m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q07",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 7,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.4 Menyelesaikan masalah melibatkan pantulan gelombang menggunakan rumus d = vt / 2",
+    "spKod": "5.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan seorang lelaki menggunakan satu alat untuk mengukur kedalaman sebuah telaga. Masa yang diambil untuk gelombang bunyi yang dipancarkan kembali ke penerima ialah 0.05 s.\nDiagram shows a man using a device to measure the depth of a well. The time taken for the emitted sound wave to return to the receiver is 0.05 s.\n(MRSM: 2023)\n\nBerapakah kedalaman perigi itu? [Kelajuan bunyi di udara, v = 340 m s⁻¹]\nWhat is the depth of the well? [Speed of sound in air, v = 340 m s⁻¹]",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah88_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "340.00 m / 340.00 m"
+      },
+      {
+        "id": "B",
+        "teks": "17.00 m / 17.00 m"
+      },
+      {
+        "id": "C",
+        "teks": "8.50 m / 8.50 m"
+      },
+      {
+        "id": "D",
+        "teks": "4.25 m / 4.25 m"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "D = vt / 2 = (340)(0.05) / 2 ∴ D = 8.50 m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q08",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 8,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.4 Menyelesaikan masalah melibatkan pembiasan gelombang",
+    "spKod": "5.4.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah manakah yang betul apabila gelombang air merambat dari kawasan dalam ke kawasan cetek merentasi sempadan condong?\nWhich diagram is correct when water wave propagates from deep region to shallow region across a slanted boundary?\n(Kelantan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Panjang gelombang bertambah dan membengkok menjauhi garis normal / Wavelength increases and bends away from normal"
+      },
+      {
+        "id": "B",
+        "teks": "Panjang gelombang bertambah dan arah perambatan tidak terbias / Wavelength increases and direction of propagation is not refracted"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang berkurang tetapi membengkok menjauhi garis normal / Wavelength decreases but bends away from normal"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang berkurang (muka gelombang lebih rapat) dan membengkok mendekati garis normal / Wavelength decreases (wavefronts closer) and bends towards normal"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Pembiasan gelombang: Kawasan cetek mempunyai panjang gelombang λ lebih kecil manakala kawasan dalam mempunyai λ lebih besar.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q09",
+    "sumber": "Percubaan Kelantan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 9,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah manakah menunjukkan interferens memusnah berlaku?\nWhich diagram shows destructive interference occurs?\n(Kelantan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Dua puncak gelombang bertembung (puncak + puncak) / Two wave crests meeting (crest + crest)"
+      },
+      {
+        "id": "B",
+        "teks": "Dua palung gelombang bertembung (palung + palung) / Two wave troughs meeting (trough + trough)"
+      },
+      {
+        "id": "C",
+        "teks": "Satu puncak dan satu palung bertembung (puncak + palung menghasilkan sesaran sifar) / A crest and a trough meeting (crest + trough producing zero displacement)"
+      },
+      {
+        "id": "D",
+        "teks": "Dua denyutan gelombang bergerak menjauhi satu sama lain / Two wave pulses moving away from each other"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Pada titik O, lembangan (kanan) bertemu dengan puncak (kiri). Interferens memusnah dihasilkan.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q10",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 10,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.1 Memerihalkan pelembapan dan resonans bagi satu sistem ayunan/getaran",
+    "spKod": "5.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan sebuah tala bunyi diketuk untuk menghasilkan gelombang bunyi.\nDiagram shows a tuning fork tapped to produce sound waves.\n(Melaka: 2022)\n\nBerapakah amplitud dan panjang gelombang bunyi itu?\nWhat is the amplitude and the wavelength of the sound?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah89_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Amplitud: 3 mm | Panjang gelombang: 60 cm / Amplitude: 3 mm | Wavelength: 60 cm"
+      },
+      {
+        "id": "B",
+        "teks": "Amplitud: 3 mm | Panjang gelombang: 120 cm / Amplitude: 3 mm | Wavelength: 120 cm"
+      },
+      {
+        "id": "C",
+        "teks": "Amplitud: 6 mm | Panjang gelombang: 60 cm / Amplitude: 6 mm | Wavelength: 60 cm"
+      },
+      {
+        "id": "D",
+        "teks": "Amplitud: 6 mm | Panjang gelombang: 120 cm / Amplitude: 6 mm | Wavelength: 120 cm"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Amplitud, A = 6 mm / 2 = 3 mm. Panjang gelombang, λ = 120 cm / 2 = 60 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q11",
+    "sumber": "Percubaan Melaka 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 11,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.4 Menyelesaikan masalah melibatkan pantulan gelombang menggunakan rumus d = vt / 2",
+    "spKod": "5.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan sebuah kapal sedang menghantar isyarat ultrasonik ke dasar laut.\nDiagram shows a ship is sending out a pulse of ultrasound to the seabed.\n(Melaka: 2022)\n\nJika gelombang ultrabunyi yang dipantulkan diterima selepas 0.36 s, apakah kedalaman laut itu?\n[Anggap: halaju bunyi dalam air laut = 1500 m s⁻¹]\nIf the reflected ultrasound is received 0.36 s later, what is the depth of the sea?\n[Assume: the speed of sound in sea water = 1500 m s⁻¹]",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah90_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "9.3 m / 9.3 m"
+      },
+      {
+        "id": "B",
+        "teks": "270 m / 270 m"
+      },
+      {
+        "id": "C",
+        "teks": "540 m / 540 m"
+      },
+      {
+        "id": "D",
+        "teks": "4 166 m / 4 166 m"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "D = vt / 2 = (1500)(0.36) / 2 ∴ D = 270 m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q12",
+    "sumber": "Percubaan Perlis 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 12,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.6 Menentukan panjang gelombang, frekuensi dan laju gelombang menggunakan rumus v = fλ",
+    "spKod": "5.1.6",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan dua gelombang bergerak pada arah yang bertentangan dan bertemu di titik R.\nDiagram shows two waves moving in the opposite direction and meeting at point R.\n(Perlis: 2022)\n\nBerapakah amplitud paduan gelombang pada titik R?\nWhat is the resultant amplitude of the wave at point R?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah91_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0 / 0"
+      },
+      {
+        "id": "B",
+        "teks": "a / a"
+      },
+      {
+        "id": "C",
+        "teks": "2a / 2a"
+      },
+      {
+        "id": "D",
+        "teks": "3a / 3a"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Prinsip superposisi: Amplitud paduan = a + 2a = 3a.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q13",
+    "sumber": "Percubaan Selangor Set 1 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 13,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan corak interferens gelombang air yang dihasilkan dalam tangki riak.\nDiagram shows the interference pattern of water waves produced in a ripple tank.\n(Selangor: Set 1: 2022)\n\nBerdasarkan Rajah, graf yang manakah mewakili sesaran titik-titik, P, Q, R, S dan T pada suatu masa tertentu?\nBased on Diagram, which graph represents the displacement of the points, P, Q, R, S and T at a given time?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah92_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Puncak pada Q, palung pada S / Peak at Q, trough at S"
+      },
+      {
+        "id": "B",
+        "teks": "Garis lurus mendatar pada kedudukan keseimbangan / Straight horizontal line at equilibrium position"
+      },
+      {
+        "id": "C",
+        "teks": "Puncak pada P dan T, palung pada R, sesaran sifar pada Q dan S / Peak at P and T, trough at R, zero displacement at Q and S"
+      },
+      {
+        "id": "D",
+        "teks": "Palung pada P dan T, puncak pada R / Trough at P and T, peak at R"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Puncak bertemu puncak: P dan T adalah Puncak, R adalah Lembangan, manakala Q dan S adalah kedudukan keseimbangan.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q14",
+    "sumber": "Percubaan Selangor Set 2 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 14,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan corak interferens yang diperoleh dalam eksperimen dwicelah Young menggunakan cahaya monokromatik. Jarak pemisah dwicelah ialah 0.5 mm dan jarak antara dwicelah dengan skrin ialah 3 m.\nDiagram shows the interference pattern which is obtained from a Young's double slit experiment using monochromatic light. The double slit is 0.5 mm and the distance between the double slit and the screen is 3 m.\n(Selangor: Set 2: 2022)\n\nJika panjang gelombang cahaya monokromatik ialah 6.5 × 10⁻⁷ m, berapakah nilai y?\nIf the wavelength of the monochromatic light is 6.5 × 10⁻⁷ m, what is the value of y?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah93_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.3 × 10⁻³ m / 1.3 × 10⁻³ m"
+      },
+      {
+        "id": "B",
+        "teks": "3.9 × 10⁻³ m / 3.9 × 10⁻³ m"
+      },
+      {
+        "id": "C",
+        "teks": "1.56 × 10⁻² m / 1.56 × 10⁻² m"
+      },
+      {
+        "id": "D",
+        "teks": "1.17 × 10⁻² m / 1.17 × 10⁻² m"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "λ = ax / D => 6.5 × 10⁻⁷ m = [(0.5 × 10⁻³ m)(y)] / 3 m ∴ y = 3.9 × 10⁻³ m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q15",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 15,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.4 Menyelesaikan masalah melibatkan pantulan gelombang menggunakan rumus d = vt / 2",
+    "spKod": "5.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah yang manakah menunjukkan corak pantulan gelombang air yang betul bagi gelombang satah yang menuju ke pemantul satah condong?\nWhich diagram shows the correct pattern of reflected water waves for plane waves incident upon a slanted plane reflector?\n(SMKA: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Panjang gelombang pantulan sama dengan gelombang tuju dan sudut pantulan sama dengan sudut tuju / Reflected wavelength equals incident wavelength and angle of reflection equals angle of incidence"
+      },
+      {
+        "id": "B",
+        "teks": "Sudut pantulan tidak sama dengan sudut tuju / Angle of reflection does not equal angle of incidence"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang pantulan lebih besar daripada gelombang tuju / Reflected wavelength is greater than incident wavelength"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang pantulan lebih pendek daripada gelombang tuju / Reflected wavelength is shorter than incident wavelength"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Hukum pantulan: sudut tuju, i = sudut pantulan, r.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q16",
+    "sumber": "Percubaan SMKA 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 16,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.4 Menyelesaikan masalah melibatkan pembiasan gelombang",
+    "spKod": "5.4.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan pembiasan gelombang air.\nDiagram shows a refraction of a water wave.\n(SMKA: 2022)\n\nApakah laju gelombang air di kawasan air cetek jika laju gelombang air di kawasan dalam ialah 6 cm s⁻¹?\nWhat is the speed of the water wave in the shallow water area if the water wave speed in the deep area is 6 cm s⁻¹?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah94_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.0 cm s⁻¹ / 1.0 cm s⁻¹"
+      },
+      {
+        "id": "B",
+        "teks": "3.0 cm s⁻¹ / 3.0 cm s⁻¹"
+      },
+      {
+        "id": "C",
+        "teks": "4.0 cm s⁻¹ / 4.0 cm s⁻¹"
+      },
+      {
+        "id": "D",
+        "teks": "9.0 cm s⁻¹ / 9.0 cm s⁻¹"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "v = fλ. Frekuensi malar (f_dalam = f_cetek). v1 / λ1 = v2 / λ2 => v1 / 2 cm = 6 cm s⁻¹ / 3 cm ∴ v1 = 4 cm s⁻¹.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q17",
+    "sumber": "Percubaan Terengganu 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 17,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Hasil suatu eksperimen dwicelah Young telah dijalankan sepertimana Rajah (a) dan Rajah (b). Jarak antara dua sumber, a, dan jarak antara sumber dan skrin, D, adalah malar.\nRajah (a) menunjukkan pinggir-pinggir cahaya biru dengan panjang gelombang 4.20 × 10⁻⁷ m. Rajah (b) menunjukkan pinggir-pinggir cahaya yang terbentuk oleh cahaya P dengan panjang gelombang λₚ.\nThe results of a Young's double-slit experiment were carried out as shown in Diagram (a) and Diagram (b). The distance between the two sources, a, and the distance between the source and the screen, D, are constant.\nDiagram (a) shows the fringes of blue light with a wavelength of 4.20 × 10⁻⁷ m. Diagram (b) shows the fringes of light formed by light P with wavelength λₚ.\n(Terengganu: 2022)\n\nBerapakah panjang gelombang bagi cahaya P?\nWhat is the wavelength of light P?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah95_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2.33 × 10⁻⁷ m / 2.33 × 10⁻⁷ m"
+      },
+      {
+        "id": "B",
+        "teks": "5.64 × 10⁻⁷ m / 5.64 × 10⁻⁷ m"
+      },
+      {
+        "id": "C",
+        "teks": "5.21 × 10⁻⁷ m / 5.21 × 10⁻⁷ m"
+      },
+      {
+        "id": "D",
+        "teks": "6.09 × 10⁻⁷ m / 6.09 × 10⁻⁷ m"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "λbiru = 4.2 × 10⁻⁷ m, xbiru = 1.80 / 5 = 0.36 cm. λp = ?, xp = 1.45 / 3 = 0.483 cm. Jarak a dan D adalah malar: λp = (4.83 × 10⁻³)(4.2 × 10⁻⁷) / (3.6 × 10⁻³) ∴ λp = 5.635 × 10⁻⁷ m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q18",
+    "sumber": "Percubaan Kedah 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 18,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.6 Menentukan panjang gelombang, frekuensi dan laju gelombang menggunakan rumus v = fλ",
+    "spKod": "5.1.6",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan graf sesaran-masa bagi suatu gelombang.\nDiagram shows the displacement-time graph of a wave.\n(Kedah: 2021)\n\nBerapakah frekuensi gelombang itu?\nWhat is the frequency of the wave?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah96_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.20 Hz / 0.20 Hz"
+      },
+      {
+        "id": "B",
+        "teks": "1.25 Hz / 1.25 Hz"
+      },
+      {
+        "id": "C",
+        "teks": "2.50 Hz / 2.50 Hz"
+      },
+      {
+        "id": "D",
+        "teks": "5.00 Hz / 5.00 Hz"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Daripada graf, tempoh T = 0.4 s. Frekuensi f = 1 / T = 1 / 0.4 s ∴ f = 2.5 Hz.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q19",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 19,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan keadaan molekul-molekul udara apabila gelombang bunyi dari sebuah pembesar suara bergerak melaluinya.\nDiagram shows the state of the air molecules when sound waves from a loudspeaker moves through it.\n(Kelantan: 2023)\n\nLaju gelombang bunyi itu adalah 330 m s⁻¹. Berapakah frekuensi gelombang bunyi itu?\nThe speed of the sound waves is 330 m s⁻¹. What is the frequency of the sound waves?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah97_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3 300 Hz / 3 300 Hz"
+      },
+      {
+        "id": "B",
+        "teks": "825 Hz / 825 Hz"
+      },
+      {
+        "id": "C",
+        "teks": "132 Hz / 132 Hz"
+      },
+      {
+        "id": "D",
+        "teks": "33 Hz / 33 Hz"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "v = fλ. 330 = f(10 / 4) ∴ f = 132 Hz (atau s⁻¹).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q20",
+    "sumber": "Percubaan Kelantan 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 20,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Satu cahaya monokromatik dengan panjang gelombang 5 × 10⁻⁷ m mengalami interferens apabila bergerak melalui dua celahan. Pinggir-pinggir cerah dan gelap terbentuk pada skrin yang berada 1.0 m daripada dwicelah itu. Jarak antara dua pinggir gelap berturutan adalah 10⁻³ m.\nA monochromatic light with wavelength 5 × 10⁻⁷ m experiences interference after propagates through two slits. Bright and dark fringes formed on the screen which are at 1.0 m from the double slits. The distance between two consecutive dark fringes is 10⁻³ m.\n(Kelantan: 2023)\n\nBerapakah jarak antara dua celahan itu?\nWhat is the distance between the two slits?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2.5 × 10⁻⁴ m / 2.5 × 10⁻⁴ m"
+      },
+      {
+        "id": "B",
+        "teks": "5.0 × 10⁻⁴ m / 5.0 × 10⁻⁴ m"
+      },
+      {
+        "id": "C",
+        "teks": "2.5 × 10⁻¹⁰ m / 2.5 × 10⁻¹⁰ m"
+      },
+      {
+        "id": "D",
+        "teks": "5.0 × 10⁻¹⁰ m / 5.0 × 10⁻¹⁰ m"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "λ = ax / D => 5 × 10⁻⁷ m = (a)(10⁻³) / 1.0 m ∴ y = 5.0 × 10⁻³ m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q21",
+    "sumber": "Percubaan Sarawak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 21,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.6 Menentukan panjang gelombang, frekuensi dan laju gelombang menggunakan rumus v = fλ",
+    "spKod": "5.1.6",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan graf sesaran-masa bagi gelombang yang merambat sepanjang seutas tali.\nDiagram shows a displacement-time graph for a wave propagating along a piece of rope.\n(Sarawak: 2021)\n\nApakah amplitud dan tempoh bagi gelombang tersebut?\nWhat is the amplitude and period of the wave?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah98_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Amplitud: 5 m | Tempoh: 3.0 s / Amplitude: 5 m | Period: 3.0 s"
+      },
+      {
+        "id": "B",
+        "teks": "Amplitud: 10 m | Tempoh: 1.0 s / Amplitude: 10 m | Period: 1.0 s"
+      },
+      {
+        "id": "C",
+        "teks": "Amplitud: 5 m | Tempoh: 1.0 s / Amplitude: 5 m | Period: 1.0 s"
+      },
+      {
+        "id": "D",
+        "teks": "Amplitud: 10 m | Tempoh: 2.0 s / Amplitude: 10 m | Period: 2.0 s"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan formula interferens gelombang λ = ax / D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q22",
+    "sumber": "Percubaan Sarawak 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 22,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan dwicelah Young menghasilkan corak interferens pada skrin. Jarak di antara pinggir merah yang bersebelahan adalah 5.6 mm.\nDiagram shows Young's double slits produces interference patterns on the screen. The distance between consecutive red fringes is 5.6 mm.\n(Sarawak: 2021)\n\nHitung panjang gelombang cahaya merah.\nCalculate wavelength of red light.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah99_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "7.5 × 10⁻⁷ m / 7.5 × 10⁻⁷ m"
+      },
+      {
+        "id": "B",
+        "teks": "6.0 × 10⁻⁷ m / 6.0 × 10⁻⁷ m"
+      },
+      {
+        "id": "C",
+        "teks": "6.5 × 10⁻⁷ m / 6.5 × 10⁻⁷ m"
+      },
+      {
+        "id": "D",
+        "teks": "4.2 × 10⁻⁷ m / 4.2 × 10⁻⁷ m"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Tukar unit mm kepada m. λ = ax / D = [(0.4 / 1000)(5.6 / 1000)] / 3.0 ∴ λ = 7.47 × 10⁻⁷ m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q23",
+    "sumber": "Percubaan Selangor Set 1 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 23,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan satu corak interferens yang dihasilkan dari dua sumber koheren, S₁ dan S₂ dalam tangki riak. Jarak pemisahan antara S₁ dan S₂ ialah 5.0 cm dan panjang gelombang air ialah 3.0 cm.\nDiagram shows the interference pattern produced by two coherent sources, S₁ and S₂ in a ripple tank. The separation between S₁ and S₂ is 5.0 cm and the wavelength of water waves is 3.0 cm.\n(Selangor: Set 1: 2021)\n\nHitungkan jarak x antara dua garis nod pada jarak 30.0 cm dari S₁ dan S₂?\nCalculate the distance, x, between two nodal lines 30.0 cm from S₁ and S₂?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah100_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2.0 cm / 2.0 cm"
+      },
+      {
+        "id": "B",
+        "teks": "6.6 cm / 6.6 cm"
+      },
+      {
+        "id": "C",
+        "teks": "18.0 cm / 18.0 cm"
+      },
+      {
+        "id": "D",
+        "teks": "50.0 cm / 50.0 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "λ = ax / D => 3 cm = (5 cm)(x) / 30 cm ∴ x = 18.0 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q24",
+    "sumber": "Percubaan Selangor Set 2 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 24,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan satu corak interferens yang dihasilkan oleh dua sumber gelombang air.\nDiagram shows an interference pattern produced by two sources of water waves.\n(Selangor: Set 2: 2021)\n\nJika panjang gelombang ialah 1.0 cm, berapakah nilai bagi jarak antara dua sumber a?\nIf the wavelength is 1.0 cm, then what is the value of a, the distance between the two sources?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah101_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.0 cm / 1.0 cm"
+      },
+      {
+        "id": "B",
+        "teks": "1.4 cm / 1.4 cm"
+      },
+      {
+        "id": "C",
+        "teks": "2.8 cm / 2.8 cm"
+      },
+      {
+        "id": "D",
+        "teks": "3.2 cm / 3.2 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "λ = ax / D => 1.0 cm = (a)(5.0 cm / 2) / 7.0 cm ∴ a = 2.8 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q25",
+    "sumber": "Percubaan Negeri Sembilan 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 25,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Dalam satu eksperimen dwi-celah Young, satu sumber cahaya dengan panjang gelombang 780 nm melalui dwi-celah yang berjarak 0.5 mm. Corak pinggir yang terhasil diperhatikan pada skrin yang diletakkan 4 m daripada dwi-celah.\nApakah jarak antara dua jalur cerah yang berurutan?\nIn a Young's double slit experiment, a light of wavelength 780 nm passes through two slits which is 0.5 mm apart. The fringes pattern produced are observed on a screen placed 4 m from the double slits.\nWhat is the distance between two consecutive bright fringes?\n(Negeri Sembilan: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "6.24 × 10³ m / 6.24 × 10³ m"
+      },
+      {
+        "id": "B",
+        "teks": "1.56 × 10³ m / 1.56 × 10³ m"
+      },
+      {
+        "id": "C",
+        "teks": "6.24 × 10⁻³ m / 6.24 × 10⁻³ m"
+      },
+      {
+        "id": "D",
+        "teks": "9.75 × 10⁻³ m / 9.75 × 10⁻³ m"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Tukar unit mm kepada m. λ = ax / D => 780 × 10⁻⁹ m = [(0.5 / 1000)(x)] / 4.0 m ∴ x = 6.24 × 10⁻³ m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q26",
+    "sumber": "Percubaan Pahang 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 26,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.6 Menentukan panjang gelombang, frekuensi dan laju gelombang menggunakan rumus v = fλ",
+    "spKod": "5.1.6",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan satu gelombang sinusoidal pada graf sesaran melawan masa.\nDiagram shows a sinusoidal wave on a displacement against time graph.\n(Pahang: 2021)\n\nKira frekuensi gelombang itu.\nCalculate the frequency of the wave.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah102_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.15 Hz / 0.15 Hz"
+      },
+      {
+        "id": "B",
+        "teks": "0.25 Hz / 0.25 Hz"
+      },
+      {
+        "id": "C",
+        "teks": "4 Hz / 4 Hz"
+      },
+      {
+        "id": "D",
+        "teks": "6 Hz / 6 Hz"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "f = 1 / T = 1 / 4 s ∴ f = 0.25 Hz.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q27",
+    "sumber": "Percubaan Melaka 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 27,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.6 Menentukan panjang gelombang, frekuensi dan laju gelombang menggunakan rumus v = fλ",
+    "spKod": "5.1.6",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan graf sesaran-jarak bagi satu gelombang.\nDiagram shows a displacement-distance graph of a wave.\n(Melaka: 2021)\n\nBerapakah panjang gelombang dan amplitud gelombang?\nWhat is the wavelength and amplitude of the wave?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah103_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Panjang gelombang: 6 cm | Amplitud: 8 cm / Wavelength: 6 cm | Amplitude: 8 cm"
+      },
+      {
+        "id": "B",
+        "teks": "Panjang gelombang: 4 cm | Amplitud: 8 cm / Wavelength: 4 cm | Amplitude: 8 cm"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang: 4 cm | Amplitud: 16 cm / Wavelength: 4 cm | Amplitude: 16 cm"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang: 6 cm | Amplitud: 16 cm / Wavelength: 6 cm | Amplitude: 16 cm"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Puncak ke puncak (T) = 4 cm, Puncak = amplitud (A) = 8 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q28",
+    "sumber": "Percubaan Pahang 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 28,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan eksperimen dwicelah Young menghasilkan corak interferens pada skrin. Jarak pemisahan dwicelah ialah 0.4 mm dan jarak antara dwicelah dengan skrin ialah 3.0 m.\nDiagram shows a Young's double-slit experiment produces interference pattern on screen. The separation distance of the double-slit is 0.4 mm and the distance between the double-slit and the screen is 3.0 m.\n(Pahang: 2023)\n\nJika panjang gelombang cahaya monokromatik ialah 6.97 × 10⁻⁷ m, berapakah nilai x?\nIf the wavelength of monochromatic light is 6.97 × 10⁻⁷ m, what is the value of x?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah104_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "5.23 × 10⁻³ m / 5.23 × 10⁻³ m"
+      },
+      {
+        "id": "B",
+        "teks": "9.29 × 10⁻¹¹ m / 9.29 × 10⁻¹¹ m"
+      },
+      {
+        "id": "C",
+        "teks": "1.72 × 10³ m / 1.72 × 10³ m"
+      },
+      {
+        "id": "D",
+        "teks": "1.72 × 10⁶ m / 1.72 × 10⁶ m"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Tukar unit mm kepada m. λ = ax / D => 6.97 × 10⁻⁷ m = [(0.4 / 1000)(x)] / 3.0 m ∴ a = 5.23 × 10⁻³ m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q29",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 29,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan satu susunan radas eksperimen dwicelah Young. Panjang gelombang cahaya monokromatik ialah 5.5 × 10⁻⁷ m. Jarak antara dua celah ialah 5.00 × 10⁻⁴ m dan jarak antara dwicelah dengan skrin ialah 4 m.\nDiagram shows the apparatus set-up of Young's double slit experiment. The wavelength of the monochromatic light is 5.5 × 10⁻⁷ m. The distance between the two slits is 5.00 × 10⁻⁴ m and the distance between the double slit and the screen 4 m.\n(SBP: 2023)\n\nHitung jarak antara dua pinggir cerah?\nCalculate distance between two bright fringes?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah105_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3.64 × 10⁻³ m / 3.64 × 10⁻³ m"
+      },
+      {
+        "id": "B",
+        "teks": "4.40 × 10⁻³ m / 4.40 × 10⁻³ m"
+      },
+      {
+        "id": "C",
+        "teks": "3.64 × 10⁻¹¹ m / 3.64 × 10⁻¹¹ m"
+      },
+      {
+        "id": "D",
+        "teks": "6.88 × 10⁻¹¹ m / 6.88 × 10⁻¹¹ m"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "λ = ax / D => 5.5 × 10⁻⁷ m = [(5.00 × 10⁻⁴ m)(x)] / 4.0 m ∴ a = 4.4 × 10⁻³ m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K3_Q30",
+    "sumber": "SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 30,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.4 Menyelesaikan masalah melibatkan interferens gelombang menggunakan rumus λ = ax / D",
+    "spKod": "5.6.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah menunjukkan sebahagian corak interferens. S₁ dan S₂ adalah dua sumber koheren.\nDiagram shows a part of an interference pattern. S₁ and S₂ are two coherent sources.\n(SPM: 2023)\n\nAntara yang berikut, graf manakah yang betul menunjukkan gerakan gelombang dari P ke Q?\nWhich of the following graphs correctly shows the propagation of the waves from P to Q?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah106_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Graf sesaran-jarak dengan amplitud malar kecil / Displacement-distance graph with constant small amplitude"
+      },
+      {
+        "id": "B",
+        "teks": "Graf sesaran-jarak dengan amplitud berkurang dari P ke Q / Displacement-distance graph with amplitude decreasing from P to Q"
+      },
+      {
+        "id": "C",
+        "teks": "Graf sesaran-jarak dengan amplitud bertambah dari P ke Q / Displacement-distance graph with amplitude increasing from P to Q"
+      },
+      {
+        "id": "D",
+        "teks": "Graf sesaran-jarak dengan amplitud maksimum (2a) berayun seragam (garis antinod) / Displacement-distance graph with uniform maximum amplitude (2a) oscillating steadily (antinodal line)"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Titik P: Lembangan bertemu lembangan (interferens membina). Titik Q: Puncak bertemu puncak (interferens membina).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "D"
+  },
+  {
+    "id": "MODUL_T4_B5_K4_Q01",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 5.4 Pembiasan Gelombang",
+    "sp": "SP 5.4.2 Melukis gambar rajah pembiasan gelombang air bagi dua kedalaman",
+    "spKod": "5.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 70-71",
+    "rujukanBukuTeks": "Buku Teks T4 ms 194-201",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.4 Pembiasan Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah menunjukkan gelombang air dibiaskan apabila merambat dari kawasan X ke kawasan Y.\nDiagram shows water waves refracted when it propagates from region X to region Y.\n(MRSM: 2023)\n\nAntara berikut, pernyataan manakah yang betul?\nWhich of the following statements is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah107_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kawasan X adalah lebih dalam / Region X is deeper"
+      },
+      {
+        "id": "B",
+        "teks": "Kawasan Y adalah lebih dalam / Region Y is deeper"
+      },
+      {
+        "id": "C",
+        "teks": "Frekuensi air di kawasan X adalah lebih tinggi / Water frequency at region X is higher"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi air di kawasan Y adalah lebih tinggi / Water frequency at region Y is higher"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K4_Q02",
+    "sumber": "Percubaan MRSM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.2 Menghuraikan corak gelombang interferens bagi air, bunyi dan cahaya",
+    "spKod": "5.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah (a) menunjukkan corak interferens daripada eksperimen dwi-celah Young menggunakan sumber cahaya kuning. Rajah (b) menunjukkan corak interferens daripada eksperimen yang sama menggunakan sumber cahaya hijau.\nDiagram (a) shows the interference pattern from Young's double-slit experiment using a yellow light source. Diagram (b) shows the interference pattern from the same experiment using a green light source.\n(MRSM: 2023)\n\nHubungan manakah yang menerangkan situasi di atas?\nWhich relationship explains the above situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah108_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Panjang gelombang bertambah, jarak x bertambah / Wavelength increases, distance x increases"
+      },
+      {
+        "id": "B",
+        "teks": "Panjang gelombang bertambah, jarak x berkurang / Wavelength increases, distance x decreases"
+      },
+      {
+        "id": "C",
+        "teks": "Kelajuan gelombang berkurang, jarak x bertambah / Speed of wave decreases, distance x increases"
+      },
+      {
+        "id": "D",
+        "teks": "Kelajuan gelombang berkurang, jarak x berkurang / Speed of wave decreases, distance x decreases"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "A"
+  },
+  {
+    "id": "MODUL_T4_B5_K4_Q03",
+    "sumber": "Percubaan Negeri Sembilan 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 3,
+    "sk": "SK 5.1 Asas Gelombang",
+    "sp": "SP 5.1.1 Memerihalkan gelombang",
+    "spKod": "5.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 64-65",
+    "rujukanBukuTeks": "Buku Teks T4 ms 172-183",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 1-2",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.1 Asas Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah menunjukkan suatu corak gelombang apabila seorang murid membaling seketul batu ke dalam air.\nDiagram shows a pattern of waves when a student threw a stone into water.\n(Negeri Sembilan: 2022)\n\nPerbandingan manakah yang benar mengenai kawasan M dan kawasan N?\nWhich comparison is true about area M and area N?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah109_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kawasan M lebih dalam daripada kawasan N / Area M is deeper than area N"
+      },
+      {
+        "id": "B",
+        "teks": "Halaju gelombang air di kawasan M lebih kecil daripada kawasan N / Velocity of water waves at area M is smaller than area N"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang gelombang air di kawasan M lebih besar daripada kawasan N / Wavelength of water waves at area M is bigger than area N"
+      },
+      {
+        "id": "D",
+        "teks": "Frekuensi gelombang air di kawasan M lebih tinggi daripada kawasan N / Frequency of water waves at area M is higher than area N"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K4_Q04",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 4,
+    "sk": "SK 5.3 Pantulan Gelombang",
+    "sp": "SP 5.3.1 Menghuraikan pantulan gelombang dari pelbagai aspek",
+    "spKod": "5.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 68-69",
+    "rujukanBukuTeks": "Buku Teks T4 ms 188-193",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 4",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.3 Pantulan Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Gelombang bunyi dipantulkan daripada dinding konkrit. Perbandingan manakah yang betul bagi gelombang bunyi terpantul dengan gelombang bunyi tuju?\nA sound wave reflected from a concrete wall. Which comparison is correct about the reflected sound wave and the incident sound wave?\n(Pahang: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laju bagi gelombang tuju dengan gelombang terpantul adalah sama / The speed of the incident wave and the reflected wave is the same"
+      },
+      {
+        "id": "B",
+        "teks": "Frekuensi gelombang tuju adalah lebih kecil daripada gelombang terpantul / The frequency of the incident wave is less than the reflected wave"
+      },
+      {
+        "id": "C",
+        "teks": "Sudut tuju gelombang adalah lebih besar daripada sudut pantulan gelombang / The angle of the incident wave is greater than the angle of the reflected wave"
+      },
+      {
+        "id": "D",
+        "teks": "Panjang gelombang bagi gelombang tuju adalah lebih pendek daripada gelombang terpantul / The wavelength of the incident wave is shorter than the reflected wave"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Berdasarkan skema modul jawapan ialah C (atau mengikut fizik pantulan bunyi dalam medium sama, laju gelombang tuju dan terpantul adalah sama, sudut i = r).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K4_Q05",
+    "sumber": "Percubaan Pahang 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 5,
+    "sk": "SK 5.6 Interferens Gelombang",
+    "sp": "SP 5.6.2 Menghuraikan corak gelombang interferens bagi air, bunyi dan cahaya",
+    "spKod": "5.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 74-77",
+    "rujukanBukuTeks": "Buku Teks T4 ms 210-219",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 7-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.6 Interferens Gelombang",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah (a) menunjukkan satu susunan radas eksperimen dwicelah Young. Rajah (b) menunjukkan corak interferens yang dihasilkan oleh tiga sumber cahaya monokromatik berbeza X, Y dan Z.\nDiagram (a) shows an apparatus set-up of Young's double slit experiment. Diagram (b) shows the interference pattern produced on the screen by three different monochromatic light sources X, Y and Z.\n(Pahang: 2022)\n\nApakah warna X, Y dan Z?\nWhat are the colours of X, Y and Z?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah110_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "X: Hijau | Y: Merah | Z: Kuning / X: Green | Y: Red | Z: Yellow"
+      },
+      {
+        "id": "B",
+        "teks": "X: Merah | Y: Biru | Z: Kuning / X: Red | Y: Blue | Z: Yellow"
+      },
+      {
+        "id": "C",
+        "teks": "X: Merah | Y: Kuning | Z: Biru / X: Red | Y: Yellow | Z: Blue"
+      },
+      {
+        "id": "D",
+        "teks": "X: Biru | Y: Kuning | Z: Merah / X: Blue | Y: Yellow | Z: Red"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "C"
+  },
+  {
+    "id": "MODUL_T4_B5_K4_Q06",
+    "sumber": "Percubaan SBP 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 5.7 Gelombang Elektromagnet",
+    "sp": "SP 5.7.1 Mencirikan gelombang elektromagnet",
+    "spKod": "5.7.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 220-225",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 9",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.7 Gelombang Elektromagnet",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah menunjukkan suatu spektrum elektromagnet.\nDiagram shows an electromagnetic spectrum.\n(SBP: 2023)\n\nApakah komponen-komponen spektrum elektromagnet pada X dan Y?\nWhat are the components of electromagnetic spectrum at X and Y?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah111_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "X: Sinar-X | Y: Gelombang mikro / X: X-ray | Y: Microwave"
+      },
+      {
+        "id": "B",
+        "teks": "X: Inframerah | Y: Ultraungu / X: Infrared | Y: Ultraviolet"
+      },
+      {
+        "id": "C",
+        "teks": "X: Ultraungu | Y: Inframerah / X: Ultraviolet | Y: Infrared"
+      },
+      {
+        "id": "D",
+        "teks": "X: Gelombang mikro | Y: Sinar-X / X: Microwave | Y: X-ray"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B5_K4_Q07",
+    "sumber": "SPM 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 7,
+    "sk": "SK 5.2 Pelembapan dan Resonans",
+    "sp": "SP 5.2.2 Mewajarkan kesan resonans terhadap kehidupan harian",
+    "spKod": "5.2.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 66-67",
+    "rujukanBukuTeks": "Buku Teks T4 ms 184-187",
+    "rujukanCheatnote": "Cheatnote T4 Bab 5 ms 3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 5,
+    "babNama": "Gelombang",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "5.2 Pelembapan dan Resonans",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah menunjukkan pemasangan radas untuk mengkaji kesan resonans dengan menggunakan bandul Barton.\nDiagram shows the setup of apparatus to study the effect of resonance by using Barton's pendulum.\n(SPM: 2021)\n\nBerdasarkan pemerhatian tersebut, pernyataan yang manakah adalah betul?\nBased on the observation, which of the following statements is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b5/t4_b5_rajah112_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Bandul J berayun lebih laju kerana mempunyai panjang tali bandul yang lebih pendek / Pendulum J oscillates faster because it has a shorter length of the pendulum string"
+      },
+      {
+        "id": "B",
+        "teks": "Bandul K berayun dengan amplitud maksimum kerana frekuensi aslinya adalah sama dengan frekuensi bandul X / Pendulum K oscillates with maximum amplitude because its natural frequency is the same with the frequency of pendulum X"
+      },
+      {
+        "id": "C",
+        "teks": "Bandul L berayun lebih laju kerana menyerap tenaga yang dibawa oleh bandul J, K dan M / Pendulum L oscillates faster because it absorbs the energy carried by pendulums J, K and M"
+      },
+      {
+        "id": "D",
+        "teks": "Bandul M berayun dengan amplitud maksimum kerana tenaga yang diserap adalah maksimum / Pendulum M oscillates with maximum amplitude because the energy absorbed is maximum"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)",
+    "jawapan": "B"
   }
-
 ];
 
 /**

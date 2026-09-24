@@ -238,6 +238,8 @@ def audit_question_bank(js_file_path):
                 issues.append(f"[{qid}] Invariant 1 Violation: Diagram '{img_url}' is using legacy v1 crop with caption text. Must use '_v2.webp'")
             if "_B4_" in qid and "t4_b4_rajah" in img_url and "_v2.webp" not in img_url:
                 issues.append(f"[{qid}] Invariant 1 Violation: Diagram '{img_url}' is using legacy v1 crop with caption text. Must use '_v2.webp'")
+            if "_B5_" in qid and "t4_b5_rajah" in img_url and "_v2.webp" not in img_url:
+                issues.append(f"[{qid}] Invariant 1 Violation: Diagram '{img_url}' is using legacy v1 crop with caption text. Must use '_v2.webp'")
 
         # --- INVARIANT 2 & 9: Diagram label & table header leaks ---
         for pattern in STRAY_DIAGRAM_LABEL_PATTERNS:

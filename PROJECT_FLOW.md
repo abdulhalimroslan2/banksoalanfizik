@@ -1,10 +1,10 @@
 # 🧭 PROJECT FLOW & LIVING ARCHITECTURE: HUB BANK SOALAN FIZIK SPM
 
-> **Status Semasa:** FASA 6 (Ingest Modul Bab 4 Haba & Precision Re-crop v2) ✅ SELESAI | FASA 7 (Ingest T4 Bab 5: Gelombang) 🔄 SEDIA DIMULAKAN  
+> **Status Semasa:** FASA 7 (Ingest Modul Bab 5 Gelombang & Precision Crop v2) ✅ SELESAI | FASA 8 (Ingest T4 Bab 6: Cahaya dan Optik) 🔄 SEDIA DIMULAKAN  
 > **Tarikh Kemas Kini Terakhir:** 2026-09-24  
 > **Direktori Utama Projek:** `/Users/halimroslan/Desktop/HUB BANK SOALAN FIZIK/FIZIK_SPM_HUB_PROJEK`  
 > **Pelayan Tempatan:** `http://localhost:8192` | **GitHub Repo:** `https://github.com/abdulhalimroslan2/banksoalanfizik`  
-> **Fail Pangkalan Data:** [`dskp-data.js`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/dskp-data.js) (504 Soalan Aktif)
+> **Fail Pangkalan Data:** [`dskp-data.js`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/dskp-data.js) (656 Soalan Aktif)
 
 ---
 
@@ -23,8 +23,8 @@ Platform web bersepadu pengurusan Bank Soalan Fizik SPM (KSSM Kod 4531) merangku
 | **Fasa 4** | **Integrasi Cloudflare R2 Bucket** | ✅ Selesai | Storan rajah WebP 300 DPI diasingkan ke endpoint `pub-833572f7cc244a0d9627cef82c840538.r2.dev`. |
 | **Fasa 5** | **Ingest Verbatim DSKP T4 Bab 1 – Bab 3** | ✅ Selesai | 399 soalan dengan skema rasmi dan rajah WebP bersih v2. |
 | **Fasa 6** | **Ingest Modul Bab 4: Haba & Precision Crop v2** | ✅ Selesai | **105 soalan** (K1: 21, K2: 42, K3: 30, K4: 12) + **71 rajah stem v2** disahkan 100% bebas kebocoran kapsyen/teks soalan. |
-| **Fasa 7** | **Ingest T4 Bab 5: Gelombang (Waves)** | 🔄 Sedia Mula | Sumber PDF tersedia (~90 soalan est); saringan K1–K4 berteraskan SK 5.1 – SK 5.7. |
-| **Fasa 8** | **Ingest T4 Bab 6: Cahaya dan Optik** | ⏳ Seterusnya | Sumber PDF sedia ada (~95 soalan est); SK 6.1 – SK 6.6. |
+| **Fasa 7** | **Ingest T4 Bab 5: Gelombang (Waves)** | ✅ Selesai | **148 soalan** (K1: 8, K2: 103, K3: 30, K4: 7) + **112 rajah stem v2** disahkan 100% bebas kebocoran kapsyen/teks soalan. |
+| **Fasa 8** | **Ingest T4 Bab 6: Cahaya dan Optik** | 🔄 Sedia Mula | Sumber PDF sedia ada (~95 soalan est); SK 6.1 – SK 6.6. |
 | **Fasa 9** | **Ingest Silibus Penuh Tingkatan 5 (Bab 1 – 7)** | ⏳ Fasa 2026 | ~650 soalan est meliputi 7 bab DSKP Tingkatan 5. |
 | **Fasa 10** | **Modul Soalan Segar Kertas 2 (LPM Rules)** | ⏳ Perancangan | Olahan soalan berstruktur & esei Bahagian A (60m), B (20m), C (20m). |
 | **Fasa 11** | **Hub Kertas 3 (Amali Fizik DSKP)** | ⏳ Perancangan | 15 markah instrumen amali radas DSKP (Hukum Hooke, Ohm, dll). |
@@ -52,7 +52,7 @@ Platform web bersepadu pengurusan Bank Soalan Fizik SPM (KSSM Kod 4531) merangku
 ## 4. 📁 Peta Fail & Komponen Utama
 - [`index.html`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/index.html): Muka depan korporat, paparan JSU, dan workbench bank soalan.
 - [`app.js`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/app.js): Logik UI, pengurusan penapis, pemilihan soalan, dan pengiraan JSU.
-- [`dskp-data.js`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/dskp-data.js): Pangkalan data soalan Kertas 1 & Kertas 2 (504 soalan aktif).
+- [`dskp-data.js`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/dskp-data.js): Pangkalan data soalan Kertas 1 & Kertas 2 (656 soalan aktif).
 - [`docx_engine.py`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/docx_engine.py): Enjin Python untuk penjanaan dokumen peperiksaan DOCX berpiawaian LPM.
 - [`scripts/validate_ingest_quality.py`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/scripts/validate_ingest_quality.py): Skrip audit kualiti automatik 13 Invariants.
 - [`scripts/recrop_and_upload_all_b4_diagrams_v2.py`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/scripts/recrop_and_upload_all_b4_diagrams_v2.py): Enjin cropping berketepatan tinggi bagi 71 rajah Bab 4.
@@ -74,5 +74,6 @@ Platform web bersepadu pengurusan Bank Soalan Fizik SPM (KSSM Kod 4531) merangku
 - [x] Audit visual & koordinat penuh ke atas semua 71 rajah stem dan 8 imej pilihan graf Bab 4.
 - [x] Precision re-crop dan muat naik versi `_v2.webp` ke Cloudflare R2 (100% Pass bagi Rajah 37, 38, 46, 58, 64 dll).
 - [x] Pengemaskinian `dskp-data.js` dan skrip audit `validate_ingest_quality.py` (504/504 soalan 100% Pass).
-- [ ] **Fasa 7:** Ingestion Modul Konstruk Tingkatan 4 Bab 5: Gelombang (Waves) daripada fail `/Users/halimroslan/Downloads/Modul Konstruk K1 Objektif/Tingkatan 4/Modul Konstruk K1 BAB 5 T4.pdf` menggunakan kemahiran `/spm-fizik-ingest-pipeline`.
+- [x] **Fasa 7:** Ingestion Modul Konstruk Tingkatan 4 Bab 5: Gelombang (Waves) daripada fail PDF rasmi (148 soalan aktif: K1: 8, K2: 103, K3: 30, K4: 7; 112 rajah stem v2 300 DPI R2; 100% lulus 13 Invariants).
+- [ ] **Fasa 8:** Ingestion Modul Konstruk Tingkatan 4 Bab 6: Cahaya dan Optik (Light and Optics) berteraskan SK 6.1 – SK 6.6.
 - [ ] **Fasa 10:** Persediaan modul soalan Kertas 2 (Bahagian A: 60 markah, Bahagian B: 20 markah, Bahagian C: 20 markah) mengikut piawaian LPM.
