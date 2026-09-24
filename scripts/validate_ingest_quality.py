@@ -2,7 +2,7 @@
 """
 Automated Quality Assurance & Verification Script for HUB BANK SOALAN FIZIK.
 Enforces the 13 Golden Invariants from the `spm-fizik-ingest-pipeline` skill:
-1. Strict Complete Stem Diagram Crop (zero option bundling, full axes & units, preserved caption).
+1. Strict Stem Diagram Crop (sifar teks kapsyen "Rajah [...]", zero option bundling, full axes & units, autocrop whitespace trimmed).
 2. Full Negative Graph Range Preservation & Strict 2x2 Option Isolation (x0 >= 192 pt, zero arrow leaks).
 3. Zero Leaked Answers, Page Numbers, or Stray Tokens at End of Stems.
 4. Full Justified Alignment & Standard Bilingual Typography.
@@ -220,6 +220,20 @@ def audit_question_bank(js_file_path):
             last_line = lines[-1]
             if re.match(r'^(?:[A-D]|\d+|R|to)$', last_line, re.I):
                 issues.append(f"[{qid}] Invariant 3 Violation: Leaked answer/page token '{last_line}' at end of stem")
+
+        # --- INVARIANT 1: Strict Stem Diagram Crop & Clean Cloudflare R2 Hosting ---
+        img_match = re.search(r"<img[^>]+src=['\"]([^'\"]+)['\"]", stem)
+        if img_match:
+            img_url = img_match.group(1)
+            # Must be modern webp format
+            if not img_url.endswith(".webp"):
+                issues.append(f"[{qid}] Invariant 6 Violation: Diagram image URL '{img_url}' is not in WebP format")
+            # Must point to production Cloudflare R2 CDN or valid local asset
+            if not (img_url.startswith("https://pub-") or img_url.startswith("assets/")):
+                issues.append(f"[{qid}] Invariant 1 Violation: Diagram image URL '{img_url}' not hosted on valid CDN/asset path")
+            # Invariant 1 & 6: For Bab 3 questions, ensure upgraded _v2.webp is used (strictly excluding caption "Rajah [...]")
+            if "_B3_" in qid and "t4_b3_rajah" in img_url and "_v2.webp" not in img_url:
+                issues.append(f"[{qid}] Invariant 1 Violation: Diagram '{img_url}' is using legacy v1 crop with caption text. Must use '_v2.webp'")
 
         # --- INVARIANT 2 & 9: Diagram label & table header leaks ---
         for pattern in STRAY_DIAGRAM_LABEL_PATTERNS:
