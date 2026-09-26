@@ -3,7 +3,11 @@
 """
 Precision Diagram Cropping & R2 Upload Pipeline
 Tingkatan 4 Bab 6: Cahaya dan Optik (Light and Optics)
-Strict Adherence to 13 Golden Invariants (Zero Caption Leakage, 300 DPI WebP)
+Strict Adherence to 13 Golden Invariants:
+- Zero Caption Leakage (Rajah / Diagram captions excluded)
+- Zero Stem Text Leakage (English translation & source tags excluded)
+- Zero Vertical Column Line Leakage (safe column margins & edge line stripping)
+- 300 DPI WebP Rendering with 95 Quality
 """
 
 import os
@@ -17,6 +21,8 @@ import numpy as np
 from PIL import Image
 import pytesseract
 
+pytesseract.pytesseract.tesseract_cmd = '/Users/halimroslan/.local/bin/tesseract'
+
 from scripts.r2_uploader import upload_bytes
 
 PDF_PATH = '/Users/halimroslan/Downloads/Modul Konstruk K1 Objektif/Tingkatan 4/Modul Konstruk K1 BAB 6 T4.pdf'
@@ -25,16 +31,38 @@ os.makedirs(LOCAL_DIR, exist_ok=True)
 
 R2_BASE_URL = 'https://pub-833572f7cc244a0d9627cef82c840538.r2.dev'
 
+def get_page_divider(page):
+    pix = page.get_pixmap(dpi=72)
+    arr = np.array(Image.frombytes('RGB', [pix.width, pix.height], pix.samples).convert('L'))
+    h, w = arr.shape
+    vlines = []
+    for x in range(270, 325):
+        if np.sum(arr[80:h-80, x] < 180) > (h - 160) * 0.40:
+            vlines.append(x)
+    return int(np.mean(vlines)) if vlines else 295
+
+def strip_edge_vertical_lines(arr, thresh=200):
+    h, w = arr.shape
+    new_arr = arr.copy()
+    for x in range(min(35, w//4)):
+        if np.sum(arr[:, x] < thresh) > h * 0.55:
+            new_arr[:, max(0, x-2):min(w, x+3)] = 255
+    for x in range(max(0, w - 35), w):
+        if np.sum(arr[:, x] < thresh) > h * 0.55:
+            new_arr[:, max(0, x-2):min(w, x+3)] = 255
+    return new_arr
+
 def clean_crop_diagram(pil_img, thresh=220, pad=10):
     gray = pil_img.convert('L')
     arr = np.array(gray)
+    arr = strip_edge_vertical_lines(arr)
     dark_mask = arr < thresh
     if not np.any(dark_mask):
         return pil_img
     y_indices, x_indices = np.where(dark_mask)
     x_min, x_max = max(0, x_indices.min() - pad), min(arr.shape[1], x_indices.max() + pad)
     y_min, y_max = max(0, y_indices.min() - pad), min(arr.shape[0], y_indices.max() + pad)
-    return pil_img.crop((x_min, y_min, x_max, y_max))
+    return Image.fromarray(arr).crop((x_min, y_min, x_max, y_max))
 
 def check_caption_leakage(pil_img):
     w, h = pil_img.size
@@ -53,7 +81,8 @@ def main():
         for b in blocks:
             t = b[4].strip()
             norm = re.sub(r'\s+', ' ', t).replace('1 ll', '111').replace('I12', '112').replace('8l', '81').replace('8I', '81').replace('9l', '91').replace('9I', '91')
-            if ('rajah' in norm.lower() or 'rajalh' in norm.lower() or 'rujah' in norm.lower() or 'diagram' in norm.lower()) and 'menunjukkan' not in norm.lower() and 'shows' not in norm.lower():
+            if ('rajah' in norm.lower() or 'rajalh' in norm.lower() or 'rujah' in norm.lower() or 'diagram' in norm.lower()) \
+               and 'menunjukkan' not in norm.lower() and 'shows' not in norm.lower() and ' show ' not in norm.lower() and len(norm) < 60:
                 m = re.search(r'(?:Rajah|Rajalh|Rujah|Diagram)\s*([0-9]+[a-z]?(?:\s*\([a-z]\))?)', norm, re.IGNORECASE)
                 if m:
                     r_key = m.group(1).replace(' ', '')
@@ -96,24 +125,78 @@ def main():
         is_right = c_info['is_right']
         cap_y0 = c_info['cap_bbox'][1]
 
-        blocks = page.get_text('blocks')
-        stem_blocks = []
-        for b in blocks:
-            b_right = b[0] >= 285
-            if b_right == is_right and b[3] < cap_y0:
-                t = b[4].strip()
-                if re.search(r'(menunjukkan|shows)', t, re.IGNORECASE) or re.search(r'\([A-Za-z\s]+(:\s*Set\s*\d+)?:\s*\d{4}\)', t) or re.search(r'^\d{1,3}[\.\,]\s*(Rajah|Diagram)', t, re.IGNORECASE):
-                    stem_blocks.append(b)
+        # Calculate exact page divider coordinate
+        x_div = get_page_divider(page)
 
-        if stem_blocks:
-            stem_y1 = max(b[3] for b in stem_blocks)
-            y0 = stem_y1 + 2.0
+        # Detect horizontal boundaries strictly outside divider line
+        if is_right:
+            x0 = max(x_div + 6.0, 316.0)
+            x1 = 565.0
         else:
-            y0 = 45.0
+            x0 = 35.0
+            x1 = min(x_div - 6.0, 276.0)
 
-        x0 = 305.0 if is_right else 35.0
-        x1 = 555.0 if is_right else 290.0
-        y1 = cap_y0 - 3.0
+        # Word-level detection for stem text above caption
+        words = page.get_text('words')
+        stem_y_list = []
+        for w in words:
+            w_right = w[0] >= 285
+            if w_right == is_right and w[3] < cap_y0:
+                t = w[4].strip()
+                # If word belongs to stem, question number, or source tag
+                if re.search(r'(\d{1,2}\.|menunjukkan|shows|dilihat|keadaan|perkataan|rajah|diagram|\d{4}|\:)', t, re.IGNORECASE):
+                    stem_y_list.append(w[3])
+
+        if stem_y_list:
+            y0 = max(stem_y_list) + 3.0
+        else:
+            blocks = page.get_text('blocks')
+            stem_blocks = []
+            for b in blocks:
+                b_right = b[0] >= 285
+                if b_right == is_right and b[3] < cap_y0:
+                    t = b[4].strip()
+                    if re.search(r'(menunjukkan|shows)', t, re.IGNORECASE) or re.search(r'\([A-Za-z\s]+(:\s*Set\s*\d+)?:\s*\d{4}\)', t) or re.search(r'^\d{1,3}[\.\,]\s*(Rajah|Diagram)', t, re.IGNORECASE):
+                        stem_blocks.append(b)
+            if stem_blocks:
+                y0 = max(b[3] for b in stem_blocks) + 3.0
+            else:
+                y0 = 45.0
+
+        # Special overrides for diagrams where text layout requires custom bounds
+        if r_key == '21': # K2 Q33 AUDIT magnifying glass
+            y0 = 262.0
+            y1 = 344.0
+        elif r_key == '59': # K3 Q24 marble in glass container
+            x0 = 316.0
+            y0 = 367.0
+            x1 = 560.0
+            y1 = 508.0
+        elif r_key == '61': # K3 Q27 ray directed into glass block
+            x0 = 35.0
+            y0 = 576.0
+            x1 = 276.0
+            y1 = 694.0
+        elif r_key == '90(b)':
+            x0 = 35.0
+            y0 = 305.0
+            x1 = 276.0
+            y1 = 415.0
+        elif r_key == '91(a)':
+            x0 = 316.0
+            y0 = 55.0
+            x1 = 435.0
+            y1 = 163.0
+        elif r_key == '91(b)':
+            x0 = 440.0
+            y0 = 55.0
+            x1 = 560.0
+            y1 = 163.0
+        else:
+            y1 = cap_y0 - 3.0
+
+        if y0 >= y1 - 10.0:
+            y0 = max(45.0, y1 - 150.0)
 
         clip = fitz.Rect(x0, y0, x1, y1)
         pix = page.get_pixmap(clip=clip, dpi=300)

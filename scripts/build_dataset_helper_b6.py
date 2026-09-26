@@ -169,8 +169,12 @@ EXACT_QUESTION_STEMS = {
         "What is the distance between the observer and his image?"
     ),
     "MODUL_T4_B6_K2_Q30": (
-        "Antara fenomena berikut, yang manakah TIDAK melibatkan pantulan dalam penuh?\n"
-        "Which of the following phenomena does NOT involve total internal reflection?"
+        "Antara berikut yang manakah mengaplikasikan konsep pantulan dalam penuh?\n"
+        "Which of the following apply the concept of total internal reflection?\n"
+        "I Pembentukan pelangi / Formation of rainbow\n"
+        "II Logamaya / Mirage\n"
+        "III Periskop cermin satah / Plane mirror periscope\n"
+        "IV Gentian optik / Optical fibre"
     ),
     "MODUL_T4_B6_K2_Q33": (
         "Rajah 21 menunjukkan perkataan AUDIT dilihat melalui suatu kanta pembesar.\n"
@@ -556,8 +560,8 @@ def clean_general_stem(qid, text):
     t = unicodedata.normalize('NFKD', t)
     
     # Generic fixes
-    t = t.replace('betweeneeneen', 'between')
     t = t.replace('betweeneen', 'between')
+    t = t.replace('between', 'between')
     t = t.replace('Incidentraypasses', 'Incident ray passes')
     t = t.replace('raypasses', 'ray passes')
     t = t.replace('merambatselepas', 'merambat selepas')
@@ -654,6 +658,88 @@ def clean_ocr_typos_b6(text):
     t = t.replace('Miksoskop', 'Mikroskop')
     t = re.sub(r'\s+/\s*', ' / ', t)
     return t.strip()
+
+
+EXACT_QUESTION_OPTIONS = {
+    "MODUL_T4_B6_K2_Q17": [
+        {"id": "A", "teks": "Pantulan / Reflection"},
+        {"id": "B", "teks": "Pembiasan / Refraction"},
+        {"id": "C", "teks": "Pembelauan / Diffraction"},
+        {"id": "D", "teks": "Pantulan dalam penuh / Total internal reflection"}
+    ],
+    "MODUL_T4_B6_K2_Q23": [
+        {"id": "A", "teks": "Pemantul dalam lampu depan kereta / Reflector in car headlight"},
+        {"id": "B", "teks": "Cermin sisi / Side mirror"},
+        {"id": "C", "teks": "Cermin titik buta / Blind spot mirror"},
+        {"id": "D", "teks": "Cermin pandang belakang kenderaan / Vehicle rear mirror"}
+    ],
+    "MODUL_T4_B6_K2_Q26": [
+        {"id": "A", "teks": "Nyata dan tegak / Real and upright"},
+        {"id": "B", "teks": "Nyata dan songsang / Real and inverted"},
+        {"id": "C", "teks": "Maya dan tegak / Virtual and upright"},
+        {"id": "D", "teks": "Maya dan songsang / Virtual and inverted"}
+    ],
+    "MODUL_T4_B6_K2_Q30": [
+        {"id": "A", "teks": "I, II dan III / I, II and III"},
+        {"id": "B", "teks": "I, II dan IV / I, II and IV"},
+        {"id": "C", "teks": "II, III dan IV / II, III and IV"},
+        {"id": "D", "teks": "III dan IV / III and IV"}
+    ],
+    "MODUL_T4_B6_K2_Q33": [
+        {"id": "A", "teks": "Pantulan / Reflection"},
+        {"id": "B", "teks": "Pembelauan / Diffraction"},
+        {"id": "C", "teks": "Pembiasan / Refraction"},
+        {"id": "D", "teks": "Pantulan dalam penuh / Total internal reflection"}
+    ],
+    "MODUL_T4_B6_K2_Q34": [
+        {"id": "A", "teks": "Sama dengan 2f / Equal to 2f"},
+        {"id": "B", "teks": "Lebih daripada 2f / More than 2f"},
+        {"id": "C", "teks": "Kurang daripada 2f / Less than 2f"},
+        {"id": "D", "teks": "Antara f dan 2f / Between f and 2f"}
+    ],
+    "MODUL_T4_B6_K2_Q40": [
+        {"id": "A", "teks": "Pantulan / Reflection"},
+        {"id": "B", "teks": "Pembiasan / Refraction"},
+        {"id": "C", "teks": "Pembelauan / Diffraction"},
+        {"id": "D", "teks": "Pantulan dalam penuh / Total internal reflection"}
+    ],
+    "MODUL_T4_B6_K2_Q43": [
+        {"id": "A", "teks": "Pantulan / Reflection"},
+        {"id": "B", "teks": "Pembiasan / Refraction"},
+        {"id": "C", "teks": "Interferens / Interference"},
+        {"id": "D", "teks": "Pantulan dalam penuh / Total internal reflection"}
+    ],
+    "MODUL_T4_B6_K2_Q45": [
+        {"id": "A", "teks": "Pembiasan cahaya / Refraction of light"},
+        {"id": "B", "teks": "Pembelauan cahaya / Diffraction of light"},
+        {"id": "C", "teks": "Interferens cahaya / Interference of light"},
+        {"id": "D", "teks": "Pantulan dalam penuh / Total internal reflection"}
+    ],
+    "MODUL_T4_B6_K2_Q56": [
+        {"id": "A", "teks": "Kanta objektif dan kanta mata adalah kanta cekung / The objective lens and eyepiece are concave lenses"},
+        {"id": "B", "teks": "Kuasa kanta objektif < kuasa kanta mata / Power of objective lens < power of eyepiece"},
+        {"id": "C", "teks": "Pelarasan normal > jarak fokus kanta mata + jarak fokus kanta objektif / Normal adjustment > focal length of eyepiece + focal length of objective lens"},
+        {"id": "D", "teks": "Pelarasan normal < jarak fokus kanta mata + jarak fokus kanta objektif / Normal adjustment < focal length of eyepiece + focal length of objective lens"}
+    ],
+    "MODUL_T4_B6_K2_Q61": [
+        {"id": "A", "teks": "I dan II / I and II"},
+        {"id": "B", "teks": "I dan III / I and III"},
+        {"id": "C", "teks": "I, II dan III / I, II and III"},
+        {"id": "D", "teks": "I, III dan IV / I, III and IV"}
+    ],
+    "MODUL_T4_B6_K3_Q02": [
+        {"id": "A", "teks": "Di hadapan cermin dan v = f / In front of the mirror and v = f"},
+        {"id": "B", "teks": "Di hadapan cermin dan f < v < 2f / In front of the mirror and f < v < 2f"},
+        {"id": "C", "teks": "Di hadapan cermin dan v = 2f / In front of the mirror and v = 2f"},
+        {"id": "D", "teks": "Di hadapan cermin dan v > 2f / In front of the mirror and v > 2f"}
+    ],
+    "MODUL_T4_B6_K4_Q01": [
+        {"id": "A", "teks": "Ketumpatan air dalam Rajah 88 (b) lebih besar. / The density of water in Diagram 88 (b) is greater."},
+        {"id": "B", "teks": "Penglihatan dalam Rajah 88 (b) berlaku pada suatu sudut dari garis normal. / The sighting in Diagram 88 (b) is done at an angle to the normal."},
+        {"id": "C", "teks": "Jarak antara ikan dan kumbang dalam Rajah 88 (b) lebih dekat. / The distance between the fish and the beetle in Diagram 88 (b) is closer."},
+        {"id": "D", "teks": "Kedalaman ikan dari permukaan air dalam Rajah 88 (b) lebih besar. / The depth of the fish from the surface of the water in Diagram 88 (b) is greater."}
+    ]
+}
 
 def classify_dskp_b6(soalan, konstruk_num=2):
     s = soalan.lower()
@@ -792,6 +878,9 @@ def make_b6_q(qid, no, aras, konstruk, soalan, pilihan, rajah_key="", sumber="Pe
             rajah_url = DIAGRAM_URLS[f'rajah{clean_key}']
 
     # Format options - check if this question has diagram options
+    if qid in EXACT_QUESTION_OPTIONS:
+        pilihan = EXACT_QUESTION_OPTIONS[qid]
+
     opt_lookup_key = f"{q_parts[3]}_{q_parts[4]}" if len(q_parts) >= 5 else ""
     has_opt_diagrams = opt_lookup_key in OPTION_URLS
 

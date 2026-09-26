@@ -30612,19 +30612,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Pantulan"
+        "teks": "Pantulan / Reflection"
       },
       {
         "id": "B",
-        "teks": "Pembiasan"
+        "teks": "Pembiasan / Refraction"
       },
       {
         "id": "C",
-        "teks": "Pembelauan Reflection Diffraction"
+        "teks": "Pembelauan / Diffraction"
       },
       {
         "id": "D",
-        "teks": "Pantulan dalam Refraction penuh Total internal of reflection"
+        "teks": "Pantulan dalam penuh / Total internal reflection"
       }
     ],
     "jawapanBetul": "D",
@@ -30876,19 +30876,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "(G0 Pemantul dalam lampu depan kerela Reflector in car headlight"
+        "teks": "Pemantul dalam lampu depan kereta / Reflector in car headlight"
       },
       {
         "id": "B",
-        "teks": "Cermin sisi Side mirror"
+        "teks": "Cermin sisi / Side mirror"
       },
       {
         "id": "C",
-        "teks": "Ceniin itik buta Blindspot mirror"
+        "teks": "Cermin titik buta / Blind spot mirror"
       },
       {
         "id": "D",
-        "teks": "Ccmin pandangbelakangkenderaan Vehicle rear mirror"
+        "teks": "Cermin pandang belakang kenderaan / Vehicle rear mirror"
       }
     ],
     "jawapanBetul": "A",
@@ -31008,19 +31008,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Nyata dan tegak"
+        "teks": "Nyata dan tegak / Real and upright"
       },
       {
         "id": "B",
-        "teks": "Nyata dan"
+        "teks": "Nyata dan songsang / Real and inverted"
       },
       {
         "id": "C",
-        "teks": "Maya dan tegak / Real and upright Virtual and upright"
+        "teks": "Maya dan tegak / Virtual and upright"
       },
       {
         "id": "D",
-        "teks": "Maya dan songsang songsang / Real and Virtual and inverted inverted"
+        "teks": "Maya dan songsang / Virtual and inverted"
       }
     ],
     "jawapanBetul": "C",
@@ -31179,24 +31179,24 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Antara fenomena berikut, yang manakah TIDAK melibatkan pantulan dalam penuh?\nWhich of the following phenomena does NOT involve total internal reflection?",
+    "soalan": "Antara berikut yang manakah mengaplikasikan konsep pantulan dalam penuh?\nWhich of the following apply the concept of total internal reflection?\nI Pembentukan pelangi / Formation of rainbow\nII Logamaya / Mirage\nIII Periskop cermin satah / Plane mirror periscope\nIV Gentian optik / Optical fibre",
     "rajahUrl": "",
     "pilihan": [
       {
         "id": "A",
-        "teks": "I,l danIII"
+        "teks": "I, II dan III / I, II and III"
       },
       {
         "id": "B",
-        "teks": "I,Il dan IV"
+        "teks": "I, II dan IV / I, II and IV"
       },
       {
         "id": "C",
-        "teks": "II, II dan IV I, II and III II, IIl and IV"
+        "teks": "II, III dan IV / II, III and IV"
       },
       {
         "id": "D",
-        "teks": "Il danIV 1, II and IV III and IV"
+        "teks": "III dan IV / III and IV"
       }
     ],
     "jawapanBetul": "B",
@@ -31316,19 +31316,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Pantu"
+        "teks": "Pantulan / Reflection"
       },
       {
         "id": "B",
-        "teks": "Pembelauan"
+        "teks": "Pembelauan / Diffraction"
       },
       {
         "id": "C",
-        "teks": "Pembiasan Reflection Refraction"
+        "teks": "Pembiasan / Refraction"
       },
       {
         "id": "D",
-        "teks": "Pantulan dalam Diffraction penuh Total internal reflection"
+        "teks": "Pantulan dalam penuh / Total internal reflection"
       }
     ],
     "jawapanBetul": "C",
@@ -31360,19 +31360,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Sama dengan 2f"
+        "teks": "Sama dengan 2f / Equal to 2f"
       },
       {
         "id": "B",
-        "teks": "Lebihdaripada 2f"
+        "teks": "Lebih daripada 2f / More than 2f"
       },
       {
         "id": "C",
-        "teks": "Kurang daripada Equal to 2f 2f Less than 2f"
+        "teks": "Kurang daripada 2f / Less than 2f"
       },
       {
         "id": "D",
-        "teks": "Antara fdan 2f More than 2f Between fand 2f"
+        "teks": "Antara f dan 2f / Between f and 2f"
       }
     ],
     "jawapanBetul": "A",
@@ -31624,19 +31624,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Pantulan"
+        "teks": "Pantulan / Reflection"
       },
       {
         "id": "B",
-        "teks": "Pembiasan"
+        "teks": "Pembiasan / Refraction"
       },
       {
         "id": "C",
-        "teks": "Pembelauan Reflection Diffraction"
+        "teks": "Pembelauan / Diffraction"
       },
       {
         "id": "D",
-        "teks": "Pantulan dalam penuh Refraction Total internal reflection"
+        "teks": "Pantulan dalam penuh / Total internal reflection"
       }
     ],
     "jawapanBetul": "B",
@@ -31756,19 +31756,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "pantulan"
+        "teks": "Pantulan / Reflection"
       },
       {
         "id": "B",
-        "teks": "pembiasan"
+        "teks": "Pembiasan / Refraction"
       },
       {
         "id": "C",
-        "teks": "interferens reflection interference"
+        "teks": "Interferens / Interference"
       },
       {
         "id": "D",
-        "teks": "pantulan dalam penuh refraction total internal reflection"
+        "teks": "Pantulan dalam penuh / Total internal reflection"
       }
     ],
     "jawapanBetul": "D",
@@ -31844,19 +31844,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Pembiasan cahaya Refractionof light"
+        "teks": "Pembiasan cahaya / Refraction of light"
       },
       {
         "id": "B",
-        "teks": "Pembelauan cahaya Diffraction oflight"
+        "teks": "Pembelauan cahaya / Diffraction of light"
       },
       {
         "id": "C",
-        "teks": "Inteferens cahaya Interferenceof light"
+        "teks": "Interferens cahaya / Interference of light"
       },
       {
         "id": "D",
-        "teks": "Pantulan dalam penuh Total internal reflection"
+        "teks": "Pantulan dalam penuh / Total internal reflection"
       }
     ],
     "jawapanBetul": "D",
@@ -32328,19 +32328,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Kanta objektif dan kanta mata adalah kanta cekung The objective lens and eyepiece are concave lens"
+        "teks": "Kanta objektif dan kanta mata adalah kanta cekung / The objective lens and eyepiece are concave lenses"
       },
       {
         "id": "B",
-        "teks": "Kuasa kanta objektif< kuasa kanta mata Power of objective lens < power ofeyepiece"
+        "teks": "Kuasa kanta objektif < kuasa kanta mata / Power of objective lens < power of eyepiece"
       },
       {
         "id": "C",
-        "teks": "Pelarasan normal > jarak fokus kanta mata + jarak fokus kanta objektif Normaladustment> focal lengthofeyepiece + focal length of objective lens"
+        "teks": "Pelarasan normal > jarak fokus kanta mata + jarak fokus kanta objektif / Normal adjustment > focal length of eyepiece + focal length of objective lens"
       },
       {
         "id": "D",
-        "teks": "Pelarasannormal < jarak fokus kanta mata jarak fokus kanta objektif Normaladjustment< focal lengthofeyepiece + focal length of objective lens"
+        "teks": "Pelarasan normal < jarak fokus kanta mata + jarak fokus kanta objektif / Normal adjustment < focal length of eyepiece + focal length of objective lens"
       }
     ],
     "jawapanBetul": "B",
@@ -32548,19 +32548,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "I dan II"
+        "teks": "I dan II / I and II"
       },
       {
         "id": "B",
-        "teks": "I dan III"
+        "teks": "I dan III / I and III"
       },
       {
         "id": "C",
-        "teks": "I,IIdanII I and II 1, Il and II"
+        "teks": "I, II dan III / I, II and III"
       },
       {
         "id": "D",
-        "teks": "I, III dan IV I and III I, III and IV"
+        "teks": "I, III dan IV / I, III and IV"
       }
     ],
     "jawapanBetul": "D",
@@ -32768,19 +32768,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Di hadapancernmindan v =f In frontofthemirrorand v=f"
+        "teks": "Di hadapan cermin dan v = f / In front of the mirror and v = f"
       },
       {
         "id": "B",
-        "teks": "Di hadapancemin dan f<v< 2f In frontofthemirrorand f<v <2f"
+        "teks": "Di hadapan cermin dan f < v < 2f / In front of the mirror and f < v < 2f"
       },
       {
         "id": "C",
-        "teks": "Di hadapan cermin dan v = 2f In front of the mirror and v = 2f"
+        "teks": "Di hadapan cermin dan v = 2f / In front of the mirror and v = 2f"
       },
       {
         "id": "D",
-        "teks": "Di hadapan cermin dan v> 2f In front of the mirror and v > 2f"
+        "teks": "Di hadapan cermin dan v > 2f / In front of the mirror and v > 2f"
       }
     ],
     "jawapanBetul": "C",
@@ -35452,19 +35452,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Ketumpatan air dalam Rajah 88 (b) lebih besar. The density of water in Diagram 88 (b) is / greater."
+        "teks": "Ketumpatan air dalam Rajah 88 (b) lebih besar. / The density of water in Diagram 88 (b) is greater."
       },
       {
         "id": "B",
-        "teks": "Penglihatan dalam Rajah 88 (b) berlaku pada sudutnomal. The sighting in Diagram 88 (b) is done at an angle to the normal."
+        "teks": "Penglihatan dalam Rajah 88 (b) berlaku pada suatu sudut dari garis normal. / The sighting in Diagram 88 (b) is done at an angle to the normal."
       },
       {
         "id": "C",
-        "teks": "Jarak antara ikan dan kumbang dalam Rajah The distance betveen the fish and the beetle in Diagram 88 (b) is closer."
+        "teks": "Jarak antara ikan dan kumbang dalam Rajah 88 (b) lebih dekat. / The distance betweeneen the fish and the beetle in Diagram 88 (b) is closer."
       },
       {
         "id": "D",
-        "teks": "Kedalaman ikan dari permukaan air dalam Rajah 88 (b) lebih besar. The depth of the fish rom the surface of the water in Diagram 88 (b) is / greater."
+        "teks": "Kedalaman ikan dari permukaan air dalam Rajah 88 (b) lebih besar. / The depth of the fish from the surface of the water in Diagram 88 (b) is greater."
       }
     ],
     "jawapanBetul": "B",
