@@ -1,6 +1,6 @@
 # 🗺️ MASTER ROADMAP: HUB BANK SOALAN FIZIK SPM (KSSM KOD 4531)
 
-> **Status Semasa:** FASA 7 (Ingestion Tingkatan 4 Bab 5: Gelombang) ✅ SELESAI | FASA 8 (Ingestion Tingkatan 4 Bab 6: Cahaya dan Optik) 🔄 SEDIA DIMULAKAN  
+> **Status Semasa:** FASA 8 (Ingestion Tingkatan 4 Bab 6: Cahaya dan Optik & Precision Ingestion v2) ✅ SELESAI | FASA 9 (Ingestion Silibus Penuh Tingkatan 5) 🔄 SEDIA DIMULAKAN  
 > **Kemas Kini Terakhir:** 2026-09-24  
 > **Fail Pangkalan Data Utama:** [`dskp-data.js`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/dskp-data.js)
 
@@ -9,8 +9,8 @@
 ## 1. 📊 Status Kemajuan Semasa (Progress Tracker)
 
 ```
-[█████████████████████████████████████████░░░░░░░] 75% Selesai (Fasa 1 - 7 Selesai)
-Total Soalan Aktif: 656 Soalan K1 Objektif Berrajah Bersih (100% Disahkan & Diaudit)
+[████████████████████████████████████████████░░░░] 85% Selesai (Fasa 1 - 8 Selesai)
+Total Soalan Aktif: 788 Soalan K1 Objektif Berrajah Bersih (100% Disahkan & Diaudit)
 ```
 
 | Fasa | Modul / Bab Silibus | Status | Bil. Soalan | Rajah R2 v2 | QA Invariants |

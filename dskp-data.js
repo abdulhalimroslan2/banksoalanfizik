@@ -29795,6 +29795,5814 @@ const QUESTION_BANK = [
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
+  },
+  {
+    "id": "MODUL_T4_B6_K1_Q01",
+    "sumber": "Percubaan Kelantan: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Apakah ciri-ciri imej yang dihasilkan oleh cermin\ncembung?\nWhat are the characteristics of image produced\nby a convex mirror? (Kelantan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tegak dan nyata / Upright and real"
+      },
+      {
+        "id": "B",
+        "teks": "Tegak dan maya / Upright and virtual"
+      },
+      {
+        "id": "C",
+        "teks": "Songsang dan nyata / Inverted and real"
+      },
+      {
+        "id": "D",
+        "teks": "Songsang dan maya / Inverted and virtual"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Ciri imej yang dihasilkan oleh cermin cembung sentiasa maya, tegak dan diperkecilkan.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K1_Q02",
+    "sumber": "Percubaan Kelantan: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis",
+    "spKod": "6.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 264-266",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Rendah",
+    "konstruk": "Mengingat",
+    "soalan": "Berikut adalah formula bagi kanta nipis.\nFollowing is the formula for a thin lens.\n(Kelantan: 2023)\n1 1 1\nf u v\nf mewakili\nf represents",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak imej / Image distance"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak objek / Object distance"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang fokus / Focal length"
+      },
+      {
+        "id": "D",
+        "teks": "Kuasa kanta / Power of lens"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Formula kanta nipis: 1/f = 1/u + 1/v di mana f mewakili panjang fokus (focal length).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q01",
+    "sumber": "Percubaan Negeri Sembilan: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.4 Menyatakan pembesaran linear, m = v/u = hi/ho",
+    "spKod": "6.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 259-261",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 1 menunjukkan graf jarak imej, v melawan\npembesaran linear, m bagi suatu kanta cembung\nDiagram 1 shows a graph of image distance, v\nagainst linear magnification, m for a convex lens.\n(Negeri Sembilan: 2023)\n-m\nApakah kuantiti yang diwakili oleh p?\nWhat is the quantity represented by p?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah1_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Ketinggian imej / Image height"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak objek / Object distance"
+      },
+      {
+        "id": "C",
+        "teks": "Panjang fokus / Focal length"
+      },
+      {
+        "id": "D",
+        "teks": "Kuasa kanta / Power of lens"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q02",
+    "sumber": "Percubaan Negeri Sembilan: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara yang berikut, alat optik manakah yang\nmenggunakan konsep pantulan dalam penuh?\nWhich of the following optical instrument uses\nthe concept of the total internal reflection?\n(Negeri Sembilan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kanta pembesar / Magnifying glass"
+      },
+      {
+        "id": "B",
+        "teks": "Mikroskop / Microscope"
+      },
+      {
+        "id": "C",
+        "teks": "Kamera / Camera"
+      },
+      {
+        "id": "D",
+        "teks": "Periskop berprisma / Prism periscope"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q03",
+    "sumber": "Percubaan Negeri Sembilan: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.3 Menerangkan aplikasi pantulan dalam penuh (gentian optik, logamaya, periskop)",
+    "spKod": "6.2.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 247-250",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Pembentukan logamaya boleh dilihat di atas jalan\nraya pada hari yang panas. Fenomena cahaya\nmanakah menyebabkan kejadian logamaya?\nMirage can be seen on a road on a hot day. Which\nlight phenomena cause the appearance of\nmirages? (Negeri Sembilan: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pembiasan dan pantulan / Refraction and reflection"
+      },
+      {
+        "id": "B",
+        "teks": "Pembiasan dan pantulan dalam penuh / Refraction and total internal reflection"
+      },
+      {
+        "id": "C",
+        "teks": "Pantulan dan pantulan dalam penuh / Reflection and total internal reflection"
+      },
+      {
+        "id": "D",
+        "teks": "Pantulan, pembiasan dan pantulan dalam penuh / Reflection, refraction and total internal reflection"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q04",
+    "sumber": "Percubaan Pahang: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.3 Menerangkan aplikasi pantulan dalam penuh (gentian optik, logamaya, periskop)",
+    "spKod": "6.2.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 247-250",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 2 menunjukkan kabel gentian optik.\nDiagram 2 shows an optical fibre cable.\n(Pahang: 2023)\nTeras dalam\nKabel gentian oplk Penyalut Innercore\nOptical fbre cable Outer cadding\nPernyataan manakah yang betul berkenaan\nisyarat cahaya yang masuk ke dalam gentian\noptik?\nWhich statement is correct regarding the light\nsignal enter an optical fibre?\nI Sudut biasan, r lebih kecil daripada sudut\ntuju, i\nThe angle of refraction, r is less than the\nangle of incidence, i\nII Indeks biasan teras dalam, n, lebih tinggi\ndaripada indeks biasan penyalut, no\nThe refractive index of the inner core, n, is\nhigher than the refractive index of the outer\ncladding, no\nIII Pantulan dalam penuh berlaku apabila sudut\ntuju, i melebihi sudut genting, c\nTotal internal reflection occurs when the\nangle of incidence, i greater than the critical\nangle, c\nIV Sudut tuju, i adalah sama dengan sudut\npantulan, r apabila berlakunya pantulan\ndalam penuh di dalam teras\nThe angle of incidence, i is equal to the angle\nof reflection, r during the occurrence of total\ninternal reflection in the core",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah2_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II / I and II"
+      },
+      {
+        "id": "B",
+        "teks": "II dan III / II and III"
+      },
+      {
+        "id": "C",
+        "teks": "I, II dan IV / I, II and IV"
+      },
+      {
+        "id": "D",
+        "teks": "II, III dan IV / II, III and IV"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q05",
+    "sumber": "Percubaan Pahang:2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis",
+    "spKod": "6.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 264-266",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Formula kanta nipis memberikan hubungan\nantara jarak objek, u, jarak imej, v, dengan\npanjang fokus, f bagi suatu kanta sebagai:\nThin lens formula gives the relationship betweeneeneen\nthe object distance, u, the image distance, v, and\nfocal length,f for alensas:(Pahang:2023)\nAntara berikut, kombinasi manakah benar\nberkaitan dengan peraturan tanda bagi panjang\nfokus, f untuk formula kantanipis?\nWhich of the following combination is true\nregarding the sign conventionfor the focal length\nof a lensfor a thin lensformula?\nJenis kanta Peraturan tanda\nType oflens Signconvention\nCembung Positif\nConvex Positive\nCekung Positif\nConcave Positive\nII Cembung Negatif\nConvex Negative\nIV Cekung Negatif\nConcave Negative",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II / I and II"
+      },
+      {
+        "id": "B",
+        "teks": "I dan IV / I and IV"
+      },
+      {
+        "id": "C",
+        "teks": "II dan III / II and III"
+      },
+      {
+        "id": "D",
+        "teks": "III dan IV / III and IV"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q06",
+    "sumber": "Percubaan Pahang: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 3 menunjukkan sebuah cermin bintik buta\nyang diletakkan di sebuah selekoh.\nDiagram 3 shows a blind spot mirror placed on a\nsharp bend of the road. (Pahang: 2023)\nCermin cembung\nConvex mirror\nRajah3 / Diagram3\nAntara berikut, manakah merupakan kelebihan\nmenggunakan cermin cembung sebagai cermin\nbintik buta tersebut?\nWhichof the following is an advantage of using a\nconvex mirror as a blind spot mirror?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Memberikan imej yang lebih tajam Providesa sharper image"
+      },
+      {
+        "id": "B",
+        "teks": "Pantulan cahaya yang lebih banyak More reflection of light"
+      },
+      {
+        "id": "C",
+        "teks": "Medan penglihatan yang lebih luas Widerfield ofview"
+      },
+      {
+        "id": "D",
+        "teks": "Menghasilkan imej yang diperbesarkan Produces an enlarged image"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q07",
+    "sumber": "Percubaan Pulau Pinang: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 7,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 4 menunjukkan sebatang lilin dengan\nimejnya dalam cermin satah.\nDiagram 4 shows a candle with its inage in a\nplane mirror (Pulau Pinang: 2023)\nCermin satah\nPlane mirror\nObjek Imej\nObject Image\nJarak objek, u\nObject distance, u\nPasangan manakah yang betul jika imej yang\ningin dihasilkan adalah besar dan tegak?\nWhich pair is correct if the image to beproduced\nis large and uprigh?\nJenis cermin Kedudukan lilin\nTypeof nirror The position of candle",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah4_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Cekung u> panjangfokus Concave cermin u> focalengthof mirror"
+      },
+      {
+        "id": "B",
+        "teks": "Cckung u< panjang fokus Concave cermin u<focallengthof mirror"
+      },
+      {
+        "id": "C",
+        "teks": "Cembung u> panjangfokus Convex cermin u>focal lengthof mirror"
+      },
+      {
+        "id": "D",
+        "teks": "Cembung u< panjangfokus Convex cermin u<focal lengthof mirror"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q08",
+    "sumber": "Percubaan Perak: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 8,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 5 menunjukkan satu sinar cahaya\nmerambat dari udara ke kaca.\nDiagram 5 shows a light ray propagates from air\nto glass. (Perak: 2023)\nKaca\nGlut\nUdara\nAlr\nApakah indeks biasan kaca itu?\nWhat is the refractive index of the glass?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah5_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "sin Y / sin W"
+      },
+      {
+        "id": "B",
+        "teks": "sin W / sin Y"
+      },
+      {
+        "id": "C",
+        "teks": "sin Z / sin W"
+      },
+      {
+        "id": "D",
+        "teks": "sin W / sin Z"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q09",
+    "sumber": "Percubaan Perak: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 9,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh",
+    "spKod": "6.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 242-245",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 6 menunjukkan satu sinar cahaya MN\nditujukan ke arah satu blok semibulatan yang lut\nsinar. Sudut genting bagi blok lut sinar itu ialah\n41°. Arah manakah sinar itu bergerak dari titik 0?\nDiagram 6 shows a light ray MN directed to a\ntransparent semicircular block. The critical angle\nof the transparent block is 41°. Which direction\ndoes the ray move from point O? (Perak: 2023)\nGaris normal\nNornal line\no B\nBlok semibulatan\nSemicircular block\nNX",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah6_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Arah A / Direction A"
+      },
+      {
+        "id": "B",
+        "teks": "Arah B / Direction B"
+      },
+      {
+        "id": "C",
+        "teks": "Arah C / Direction C"
+      },
+      {
+        "id": "D",
+        "teks": "Arah D / Direction D"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q10",
+    "sumber": "Percubaan Perak: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 10,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh",
+    "spKod": "6.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 242-245",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara alat berikut, yang manakah\nmengaplikasikan pantulan dalam penuh?\nWhich of thefollowving instruments applies total\ninternal reflection? (Perak: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kanta pembesar / Magnifying glass"
+      },
+      {
+        "id": "B",
+        "teks": "Periskop cermin / Mirror periscope"
+      },
+      {
+        "id": "C",
+        "teks": "Periskop prisma / Prism periscope"
+      },
+      {
+        "id": "D",
+        "teks": "Mikroskop majmuk / Compound microscope"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q11",
+    "sumber": "Percubaan Perlis: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 11,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 7 menunjukkan satu alat optik yang\ndigunakan secara meluas dalam bidang\ntelekomunikasi dan perubatan.\nDiagram 7 below shows an optical instrument\nthat is used widely in the fields of\ntelecommunications and medicine. (Perlis: 2023)\nApakah fenomena cahaya yang membolehkan\nalat itu berfungsi?\nWhat is the phenomenon of light that enable the\ninstrument to function?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah7_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "sin Y / sin W"
+      },
+      {
+        "id": "B",
+        "teks": "sin W / sin Y"
+      },
+      {
+        "id": "C",
+        "teks": "sin Z / sin W"
+      },
+      {
+        "id": "D",
+        "teks": "sin W / sin Z"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q12",
+    "sumber": "Percubaan Perlis: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 12,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.2 Aplikasi cermin cekung dan cermin cembung dalam kehidupan harian",
+    "spKod": "6.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 280-282",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 8 menunjukkan satu cermin pergigian yang\ndigunakan oleh doktor gigi untuk memeriksa\nkeadaan gigi pesakit.\nDiagram 8 shows a dental mirror used by a\ndentist to examine the condition of the patient 's\nteeth. (Perlis: 2023)\nRajah8/ Diagram 8\nMengapakah cermin yang digunakan oleh doktor\ngigi tersebut bukan cermin cembung?\nWhy is the mirror used by the dentist is not a\nconvex mirror?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Cermin cembung menghasilkan imej maya, tegak dan mengecil A convex mirror produces a / virtual, upright and diminished image"
+      },
+      {
+        "id": "B",
+        "teks": "Cermin cembung menghasilkan imej nyata, songsang dan diperbesarkan A conver mirror produces a / real, inverted and magified image"
+      },
+      {
+        "id": "C",
+        "teks": "Cermin cembung menghasilkan imej nyata, songsang dan mengecil A convex mirror produces a / real, iverted and diminished image"
+      },
+      {
+        "id": "D",
+        "teks": "Cermin cembung menghasilkan imej maya, tegak dan diperbesar A convex mirror produces a / virtual, upright and magmified image"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q13",
+    "sumber": "Percubaan SBP: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 13,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.5 Menerangkan dalam nyata dan dalam ketara",
+    "spKod": "6.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 238-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 9 menunjukkan seekor ikan melihat imej\nserangga berada di atas kedudukan sebenar.\nDiagram 9 shows a fish seeing an insect image\nabove the actual position. (SBP: 2023)\nImej serangga\nİnsect image\nSerangga\nInsect\nIkan\nFish\nPernyataan manakah yang betul menerangkan\nsituasi tersebut?\nWhich statement is correct to explain the\nsituation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah9_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Nyata, songsang dan lebih besar / Real, inverted and bigger"
+      },
+      {
+        "id": "B",
+        "teks": "Maya, tegak dan lebih besar / Virtual, upright and bigger"
+      },
+      {
+        "id": "C",
+        "teks": "Nyata, songsang dan lebih kecil / Real, inverted and smaller"
+      },
+      {
+        "id": "D",
+        "teks": "Maya, tegak dan lebih kecil / Virtual, upright and smaller"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q14",
+    "sumber": "Percubaan SBP: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 14,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh",
+    "spKod": "6.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 242-245",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Alat manakah yang mengaplikasikan konsep\npantulan dalam penuh?\nWhich instrument apply the concept of total\ninternal reflection? (SBP: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Mikroskop / Microscope"
+      },
+      {
+        "id": "B",
+        "teks": "Kanta pembesar / Magnifying glass"
+      },
+      {
+        "id": "C",
+        "teks": "Binokular prisma / Prism binocular"
+      },
+      {
+        "id": "D",
+        "teks": "Teleskop astronomi / Astronomical telescope"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q15",
+    "sumber": "Percubaan SBP: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 15,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Alat manakah yang menghasilkan suatu imej\nnyata, diperkecilkan dan songsang?\nWhich instrument produce a real, diminished and\ninverted image? (SBP: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Periskop"
+      },
+      {
+        "id": "B",
+        "teks": "Projektor LCD"
+      },
+      {
+        "id": "C",
+        "teks": "Kanta pembesar Periscope Magnifying glass"
+      },
+      {
+        "id": "D",
+        "teks": "Kamera telefon LCD projector pintar Smartphone camera"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q16",
+    "sumber": "Percubaan Terengganu: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 16,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 10 menunjukkan satu sinar cahaya\nmerambat dari udara ke dalam kaca.\nDiagram 10 shows a light ray propagating from\nair into glass. (Terengganu: 2023)\nNormal\nNormal\nUdara\nAir\nKaca\nGLASS\nApakah yang berlaku kepada sinar cahaya di\ndalam kaca?\nWhat happens to the light ray in the glass?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah10_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Dibiaskan ke arah normal / Refracts towards normal"
+      },
+      {
+        "id": "B",
+        "teks": "Dibiaskan menjauhi normal / Refracts away from normal"
+      },
+      {
+        "id": "C",
+        "teks": "Mengalami pantulan dalam penuh / Experiences total internal reflection"
+      },
+      {
+        "id": "D",
+        "teks": "Dipantulkan dengan sudut yang sama dengan sudut tuju / Reflects with the same angle as the incidence angle"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q17",
+    "sumber": "Percubaan Terengganu: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 17,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh",
+    "spKod": "6.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 242-245",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "• Cahaya merambat dari medium\nberketumpatan optik tinggi ke medium yang\nberketumpatan optik rendah.\nLight travels from a medium ofhigh optical\ndensity to a medium of low optical density.\n• Sudut tuju lebih besar daripada sudut\ngenting, C.\nThe angle of incidence is greater than the\ncritical angle,c.\nBerdasarkan pernyataan di atas, apakah\nfenomena yang terlibat?\nBased on the above statement, what is the\nphenomenon involved? (Terengganu: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pantulan"
+      },
+      {
+        "id": "B",
+        "teks": "Pembiasan"
+      },
+      {
+        "id": "C",
+        "teks": "Pembelauan Reflection Diffraction"
+      },
+      {
+        "id": "D",
+        "teks": "Pantulan dalam Refraction penuh Total internal of reflection"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q18",
+    "sumber": "Percubaan Terengganu: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 18,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 1l menunjukkan susunan radas bagi\neksperimen untuk mengkaji hubungan antara\njarak u dan jarak imej, v bagi kanta cembung.\nDiagram 11 shows an apparatus set-up of an\nexperiment to investigate the relationship\nbetveen object distance, u and image distance, v\nofa convex lens. (Terengganu: 2023)\nSkin puth\nKanta cembung White screen\nPembaris meler\nConvex lens\nObjek Metre rule\nObjedt\nMentol\nBulb\nPerubahan manakah meningkatkan jarak imej, v?\nWhich changes increases the inage distance, v?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tambahkan jarak objek, u / Increase the object distance, u"
+      },
+      {
+        "id": "B",
+        "teks": "Kurangkan jarak objek, u / Decrease the object distance, u"
+      },
+      {
+        "id": "C",
+        "teks": "Kurangkan jarak antara objek dengan mentol / Decrease the distance betweeneen object and bulb"
+      },
+      {
+        "id": "D",
+        "teks": "Tambahkan jarak antara objek dengan mentol / Increase the distance betweeneen object and bulb"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q19",
+    "sumber": "Percubaan Terengganu: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 19,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 12 menunjukkan sebuah cermin cekung.\nDiagram 12 shows a concave mirror.\n(Terengganu: 2023)\nCermin cekung\nConcave miror\nApakah jarak di antara P ke F?\nWhat is the distance betweeneeneen P and F?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah12_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II / I and II"
+      },
+      {
+        "id": "B",
+        "teks": "I dan III / I and III"
+      },
+      {
+        "id": "C",
+        "teks": "II dan IV / II and IV"
+      },
+      {
+        "id": "D",
+        "teks": "III dan IV / III and IV"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q20",
+    "sumber": "Percubaan SMKA: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 20,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 13 menunjukkan satu cermin keselamatan\ndipasang di selekoh tajam jalan raya.\nDiagram 13 shows a safety mirror installed at a\nsharp bend on the road. (SMKA: 2023)\nApakah ciri-ciri imej yang dihasilkan oleh cermin\ntersebut?\nWhat are the characteristics of the image\nproduced by the mirror?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah13_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Nyata, tegak dan diperbesar / Real, upright and magnified"
+      },
+      {
+        "id": "B",
+        "teks": "Nyata, songsang dan diperkecil / Real, inverted and diminished"
+      },
+      {
+        "id": "C",
+        "teks": "Maya, songsang dan diperbesar / Virtual, inverted and magnified"
+      },
+      {
+        "id": "D",
+        "teks": "Maya, tegak dan diperkecil / Virtual, upright and diminished"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q21",
+    "sumber": "Percubaan MRSM: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 21,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 14 menunjukkan seorang budak lelaki\nmelihat plat besi yang kelihatan hampir dengan\npemukaan air.\nDiagram 14 shows a boy looking at a metalplate\nthat appears closer to the water surface.\n(MRSM: 2023)\nimej\nImage\nobjek\nobject\nPernyataan manakah yang menerangkan situasi\ntersebut dengan betul?\nWhich statement explains the situation correctly'?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah14_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Cahaya dari mata merambat kepada plat besi dibiaskan mendekati garis normal Light propagates from eyes to metal plate refracted towards normal line"
+      },
+      {
+        "id": "B",
+        "teks": "Cahaya dari mata merambat kepada plat besi dibiaskan menjauhi garis normal Light propagates from eyes to metal plate refracted away from normal line"
+      },
+      {
+        "id": "C",
+        "teks": "Cahaya dari plat besi merambat kepada mata dibiaskan mendekati garis normal Light propagates from metal plate to eyes refracted towards normal line"
+      },
+      {
+        "id": "D",
+        "teks": "Cahaya dari plat besi merambat kepada mata dibiaskan menjauhi garis normal Light propagates from metal plate to eyes refracted awayfrom normal line"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q22",
+    "sumber": "Percubaan MRSM: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 22,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 15 menunjukkan seorang ahli gemologi\nsedang menggunakan kanta pembesar untuk\nmelihat berlian dengan lebih jelas.\nDiagram 15 shows a genımologist using\nmagnifying lens to observe the diamond clearly.\n(MRSM: 2023)\nBerlian\nDlamond\nApakah ciri imej berlian yang terbentuk?\nWhat is the characteristic of the diamond image\nformed?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah15_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Mengecil / Diminished"
+      },
+      {
+        "id": "B",
+        "teks": "Songsang / Inverted"
+      },
+      {
+        "id": "C",
+        "teks": "Nyata / Real"
+      },
+      {
+        "id": "D",
+        "teks": "Maya / Virtual"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q23",
+    "sumber": "Percubaan MRSM: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 23,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.2 Aplikasi cermin cekung dan cermin cembung dalam kehidupan harian",
+    "spKod": "6.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 280-282",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Berikut menunjukkan empat aplikasi cermin\nsfera dalam kehidupan harian. Aplikasi manakah\nmenunjukkan kegunaan cermin cekung?\nThe following shows four applications of\nspherical mirror in daily life. Which application\nshows the useof concave mirror? (MRSM: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "(G0 Pemantul dalam lampu depan kerela Reflector in car headlight"
+      },
+      {
+        "id": "B",
+        "teks": "Cermin sisi Side mirror"
+      },
+      {
+        "id": "C",
+        "teks": "Ceniin itik buta Blindspot mirror"
+      },
+      {
+        "id": "D",
+        "teks": "Ccmin pandangbelakangkenderaan Vehicle rear mirror"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q24",
+    "sumber": "Percubaan Kedah: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 24,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh",
+    "spKod": "6.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 242-245",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 16 menunjukkan satu sinar merambat\ndalam satu bongkah kaca JKLM. Pantulan dalam\npenuh berlaku di X.\nDiagram 16 showsa ray of light propagates in a\nglass block JKLM. Total internal reflection\noccurs at X. (Kedah: 2022)\nSinar tuju\nIncident ray\nKotak sinar\nRay box M\nSinar pantulan\nBongkah kaca Reflected ray\nGlass blbck\nApakah syarat untuk berlakunya pantulan dalam\npenuh?\nWhat is the condition for total internal reflection\noccurs?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah16_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sudut tuju > sudut biasan Incident angle > refracted angle"
+      },
+      {
+        "id": "B",
+        "teks": "Sudut biasan > sudut tuju Refracted angle > incident angle"
+      },
+      {
+        "id": "C",
+        "teks": "Sudut tuju > sudut genting Incident angle > critical angle"
+      },
+      {
+        "id": "D",
+        "teks": "Sudut biasan > sudut genting Refracted angle > critical angle"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q25",
+    "sumber": "Percubaan Melaka: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 25,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 17 menunjukkan sinar cahaya diarahkan ke\nblok kaca.\nDiagram 17 shows a ray of light directed to a\nglass block. (Melaka: 2022)\nNormal.\nCahaya\nLight\nRajah 17 / I Diagran l17\nPernyataan manakah yang betul?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sudut tuju sama dengan sudut biasan The incident angle is equal to the refracted angle"
+      },
+      {
+        "id": "B",
+        "teks": "Cahaya merambat lebih laju apabila memasuki blok kaca The light ravels faster as it enters the glass block"
+      },
+      {
+        "id": "C",
+        "teks": "Cahaya terbias mendekati normal apabila memasuki blok kaca The light refracts towards normal as it enters the glass block"
+      },
+      {
+        "id": "D",
+        "teks": "Kecerahan cahaya bertambah apabila ia merambat di dalam blok kaca The brightness of light / increases as it travels in the glass block"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q26",
+    "sumber": "Percubaan Melaka: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 26,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara yang berikut, yang manakah\nmenunjukkan ciri-ciri imej yang dilihat di bawah\nkanta pembesar?\nWhich of the following shows the characteristics\nof an image seen under a magnifying glass?\n(Melaka: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Nyata dan tegak"
+      },
+      {
+        "id": "B",
+        "teks": "Nyata dan"
+      },
+      {
+        "id": "C",
+        "teks": "Maya dan tegak / Real and upright Virtual and upright"
+      },
+      {
+        "id": "D",
+        "teks": "Maya dan songsang songsang / Real and Virtual and inverted inverted"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q27",
+    "sumber": "Percubaan MRSM: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 27,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.3 Menerangkan aplikasi pantulan dalam penuh (gentian optik, logamaya, periskop)",
+    "spKod": "6.2.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 247-250",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 18 menunjukkan dua kabel gentian optik\nyang digunakan untuk penghantaran maklumat\ndalam sistem telekomunikasi.\nDiagram 18 shows two optical fibre cables that\nare used in transferring information in\ntelecommunication systems. (MRSM: 2022)\nGentian opik A Gentian optik B\nOptical fiber A Optical iber B\nudtgenting,c=33.75* Sudutgenting,c=41.47\nCritical angle, e Cotical angle, c\nRajah 18 / I Diagram 18\nPasangan ciri manakah dapat mengurangkan\nkehilangan maklumat semasa penghantaran?\nWhich pair of characteristics can reduce\ninformation lost during transmission?\nCermin pandang belakang kenderaan\nVehicle rear mirror\n24. Rajah 16 menunjukkan satu sinar merambat\ndalam satu bongkah kaca JKLM. Pantulan dalam\npenuh berlaku di X.\nDiagram 16 shows a ray of light propagates in a\nglass block JKLM. Total internal reflection\noccurs at X. (Kedah: 2022)\nShar tuu\nIncident ray\nKotak :sinar\nRay box M\nSnarpantulan\nBongkah kaca Refected ray\nGlass block\nRajah 16 / I Diagram 16\nApakah syarat untuk berlakunya pantulan dalam\npenuh?\nWhat is the condition for total internal reflection\noccurs?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah17_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Nilai indeks biasan: Tinggi, Pantulan dalam penuh: Tinggi / Refractive index: Higher, Total internal reflection: Higher"
+      },
+      {
+        "id": "B",
+        "teks": "Nilai indeks biasan: Rendah, Pantulan dalam penuh: Rendah / Refractive index: Lower, Total internal reflection: Lower"
+      },
+      {
+        "id": "C",
+        "teks": "Nilai indeks biasan: Tinggi, Pantulan dalam penuh: Rendah / Refractive index: Higher, Total internal reflection: Lower"
+      },
+      {
+        "id": "D",
+        "teks": "Nilai indeks biasan: Rendah, Pantulan dalam penuh: Tinggi / Refractive index: Lower, Total internal reflection: Higher"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q28",
+    "sumber": "Percubaan MRSM: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 28,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 19 menunjukkan imej nyata, kecil dan\nsongsang yang terbentuk olch kanta cembung.\nDiagram 19 shows a real, diminished and\ninverted image formed by convex lens.\n(MRSM: 2022)\nMedan Saia\npenelihatan casor\nField\nitien ente\nJaral obick Panjasg fokus\nObitt distace Forallmgih\nAlatan manakah yang menghasilkan imej yang\nsama seperti Rajah 19?\nWhich instrument produced image as in Diagram\n19?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah19_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Teleskop"
+      },
+      {
+        "id": "B",
+        "teks": "Projektor LCD"
+      },
+      {
+        "id": "C",
+        "teks": "Kamera telefon Telescope pintar Smartphone camera"
+      },
+      {
+        "id": "D",
+        "teks": "Mikroskop majmuk LCD projector Compound microscope"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q29",
+    "sumber": "Percubaan MRSM: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 29,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.2 Aplikasi cermin cekung dan cermin cembung dalam kehidupan harian",
+    "spKod": "6.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 280-282",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 20 menunjukkan keratan rentas cermin\ncekung bersama mentol yang digunakan pada\nlampu hadapan kereta. Jarak antara mentol dan\nkutub cermin sfera adalah d.\nDiagran 20 shows a cross sectional area of a\nconcave mirror witlh bulb used in a car headlight.\nDistance betweeneeneen bulb and pole of spherical\nmiror is d. (MRSM: 2022)\nCmsrturg\nKedudukan mentol yang manakah menghasilkan\npantulan cahaya yang selari?\nAt which position bulb will produce parallel\nreflection of ligh?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "d < panjang fokus, f / d < focal length, f"
+      },
+      {
+        "id": "B",
+        "teks": "d = panjang fokus, f / d = focal length, f"
+      },
+      {
+        "id": "C",
+        "teks": "panjang fokus, f < d < 2f / focal length, f < d < 2f"
+      },
+      {
+        "id": "D",
+        "teks": "d > dua kali panjang fokus, 2f / d > two times focal length, 2f"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q30",
+    "sumber": "Percubaan Negeri Sembilan: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 30,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.2 Aplikasi cermin cekung dan cermin cembung dalam kehidupan harian",
+    "spKod": "6.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 280-282",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara berikut yang manakah mengaplikasikan\nkonsep pantulan dalam penuh?\nWhich of the following apply the concept of total\ninternal reflection? (Negeri Sembilan: 2022)\nI Pembentukan pelangi\nFormation ofrainbow\nII Logamaya\nMirage\nIII Periskop cermin satah\nPlane mirror periscope\nIV Fiber optik\nOpticalfibre",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I,l danIII"
+      },
+      {
+        "id": "B",
+        "teks": "I,Il dan IV"
+      },
+      {
+        "id": "C",
+        "teks": "II, II dan IV I, II and III II, IIl and IV"
+      },
+      {
+        "id": "D",
+        "teks": "Il danIV 1, II and IV III and IV"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q31",
+    "sumber": "Percubaan Negeri Sembilan: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 31,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara berikut yang manakah ciri-ciri imej yang\ndibentuk oleh kanta cembung apabila objek\nberada di 2F?\nWhich of the following characteristics of image\nformed by a covex lens when the object is at 2F?\n(Negeri Sembilan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Lebih besar, tegak dan maya / Bigger, upright and virtual"
+      },
+      {
+        "id": "B",
+        "teks": "Lebih besar, songsang dan nyata / Bigger, inverted and real"
+      },
+      {
+        "id": "C",
+        "teks": "Sama saiz, songsang dan nyata / Same size, inverted and real"
+      },
+      {
+        "id": "D",
+        "teks": "Lebih kecil, songsang dan nyata / Smaller, inverted and real"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q32",
+    "sumber": "Percubaan Negeri Sembilan: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 32,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.2 Aplikasi cermin cekung dan cermin cembung dalam kehidupan harian",
+    "spKod": "6.6.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 280-282",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara berikut yang manakah bukan aplikasi\ncermin cekung?\nWhich of the following is not the application of\nconcave nnirror? (Negeri Sembilan: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Cermin solek"
+      },
+      {
+        "id": "B",
+        "teks": "Cermin pergigian"
+      },
+      {
+        "id": "C",
+        "teks": "Pemantul dalam Make up mirror lampu hadapan kereta Reflector in car headlight"
+      },
+      {
+        "id": "D",
+        "teks": "Cermin titik buta Dental mirror Blind spot mirror"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q33",
+    "sumber": "Percubaan SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 33,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 21 di bawah menunjukkan keadaan\nperkataan AUDIT dilihat melalui suatu kanta\npembesar.\nDiagram 21 below shows the appearance of the\nword AUDIT as seen through a magnifying lens.\n2022)(\n(Pahang:\nFenomenan cahaya manakah yang menerangkan\nsituasi ini?\nWhich light phenomenon explains this situation?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah21_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pantu"
+      },
+      {
+        "id": "B",
+        "teks": "Pembelauan"
+      },
+      {
+        "id": "C",
+        "teks": "Pembiasan Reflection Refraction"
+      },
+      {
+        "id": "D",
+        "teks": "Pantulan dalam Diffraction penuh Total internal reflection"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q34",
+    "sumber": "Percubaan Putrajaya: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 34,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Di manakah satu objek harus diletak di depan satu\nkanta cembung supaya imej sama besar dengan\nobjek? Jarak fokus kanta cembung itu ialah f.\nWhere should the object be placed in front of a\nconvex lens for it image is same as the objecr?\nThe focal length of the convex lens is f.\n(Putrajaya: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Sama dengan 2f"
+      },
+      {
+        "id": "B",
+        "teks": "Lebihdaripada 2f"
+      },
+      {
+        "id": "C",
+        "teks": "Kurang daripada Equal to 2f 2f Less than 2f"
+      },
+      {
+        "id": "D",
+        "teks": "Antara fdan 2f More than 2f Between fand 2f"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q35",
+    "sumber": "Percubaan SBP: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 35,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 22 menunjukkan sinar cahaya yang selari\nditumpukan pada titik fokus, F kanta selepas\nmelalui sebuah kanta cembung.\nDiagram 22 shows parallel light rays coverged\nat a focal point, F of the lens after passing\nthrough a convex lens. (SBP: 2022)\nPaksi utama\nPrincipal axis\nPanjang fokus, f\nFocal lengih. f\nApakah yang akan berlaku pada panjang focus, f\napabila kanta cembung yang lebih tebal\ndigunakan?\nWhat will happen to the focal length, f when a\nthicker convex lens is used?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah22_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Lebih panjang / Longer"
+      },
+      {
+        "id": "B",
+        "teks": "Lebih pendek / Shorter"
+      },
+      {
+        "id": "C",
+        "teks": "Tidak berubah / No change"
+      },
+      {
+        "id": "D",
+        "teks": "Menjadi sifar / Becomes zero"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q36",
+    "sumber": "Percubaan Selangor: Set 1: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 36,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.5 Menerangkan dalam nyata dan dalam ketara",
+    "spKod": "6.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 238-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 23 menunjukkan kedudukan ketara seekor\nikan dilihat oleh seorang pemerhati yang berdiri\ndi pinggir sebuah tasik.\nDiagram 23showstheapparentposition of a fish\nas seen by an observer standing on the edge of a\nlake. (Selangor: Set 1: 2022)",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah23_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Titik A / Point A"
+      },
+      {
+        "id": "B",
+        "teks": "Titik B / Point B"
+      },
+      {
+        "id": "C",
+        "teks": "Titik C / Point C"
+      },
+      {
+        "id": "D",
+        "teks": "Titik D / Point D"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q37",
+    "sumber": "Percubaan Selangor: Set 1: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 37,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 24 menunjukkan satu objek di hadapan\nsuatu cermin satah.\nDiagram 24 shows an object in front of a plane\nmirror (Selangor: Set 1: 2022)\nI4m\nCermin satah\nPlane mirror\nObick\nObject\nRajalh 24 / Diagram 24\nDi kedudukan manakah A, B, C dan D imej\nterbentuk?\nAt which position A, B, C or D is the image\nformed?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kedudukan A / Position A"
+      },
+      {
+        "id": "B",
+        "teks": "Kedudukan B / Position B"
+      },
+      {
+        "id": "C",
+        "teks": "Kedudukan C / Position C"
+      },
+      {
+        "id": "D",
+        "teks": "Kedudukan D / Position D"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q38",
+    "sumber": "Percubaan Selangor: Set 1: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 38,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 25 menunjukkan empat alat optik.\nDiagram 25 shows four optical devices.\n(Selangor: Set 1: 2022)\nPeriskop Endoskop Mikroskop\nPeriscope Telescope Endascope R Microscope\nAlat manakah yang menggunakan pantulan\ndalam penuh?\nWhich device uses total internal reflection?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah25_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P dan Q / P and Q"
+      },
+      {
+        "id": "B",
+        "teks": "P dan R / P and R"
+      },
+      {
+        "id": "C",
+        "teks": "Q dan S / Q and S"
+      },
+      {
+        "id": "D",
+        "teks": "Q dan R / Q and R"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q39",
+    "sumber": "Percubaan Selangor: Set 2: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 39,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Sebuah kanta mempunyai panjang fokus f.\nApakah syarat-syarat untuk membolehkan kanta\nitu digunakan sebagai kanta pembesar?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Cembung, kurang dari f / Convex, less than f"
+      },
+      {
+        "id": "B",
+        "teks": "Cembung, antara f dan 2f / Convex, betweeneen f and 2f"
+      },
+      {
+        "id": "C",
+        "teks": "Cekung, kurang dari f / Concave, less than f"
+      },
+      {
+        "id": "D",
+        "teks": "Cekung, antara f dan 2f / Concave, betweeneen f and 2f"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q40",
+    "sumber": "Percubaan SMKA: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 40,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajalh 26 menunjukkan sebuah blok kaca\ndiletakkan di hadapan sebatang pen. Pen itu\nkelihatan bengkok. Fenomena cahaya manakah\nyang menerangkan situasi ini?\nDiagram 26 shows a glass block is placed in front\nof thepen. Which lightphenonmenonexplains this\nsituation? (SMKA: 2022)",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah26_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pantulan"
+      },
+      {
+        "id": "B",
+        "teks": "Pembiasan"
+      },
+      {
+        "id": "C",
+        "teks": "Pembelauan Reflection Diffraction"
+      },
+      {
+        "id": "D",
+        "teks": "Pantulan dalam penuh Refraction Total internal reflection"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q41",
+    "sumber": "Percubaan SMKA: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 41,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.1 Eksperimen menentukan panjang fokus menggunakan formula kanta 1/f = 1/u + 1/v",
+    "spKod": "6.4.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 261-264",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Graf manakah menunjukkan hubungan yang\nbetul antara jarak objek, u dan jarak imej, v bagi\nsatu eksperimen kanta nipis.\nWhich graph shows a correct relationship\nbetweeneeneen object distance, u and image distance, v\nfor a thin lens experiment. (SMKA: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q41_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q41_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q41_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q41_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q42",
+    "sumber": "Percubaan Terengganu: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 42,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.3 Aplikasi kanta bersaiz kecil dalam teknologi optik",
+    "spKod": "6.5.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 272-273",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 27 di bawah menunjukkan pembentukan\nimej oleh kanta bersaiz kecil dalam Kamera Litar\nTertutup (CCTV).\nDiagram 27 shows the formation of an image by\na small-sized lens in a Closed-Circuit Camera\n(CCTV). (Terengganu: 2022)\nCamera itar tertutup\nClosed-Circuit Comera\n(CCTV)\nKanta\nLens\nMedan\npenglihatan\nField Vision ol sensor\nJarakobjek Panlang tokus\nObject distance Focal length\nPernyataan yang manakah adalah betul?\nWhich statement is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah27_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Panjang fokus kanta CCTV tidak boleh bernilai sifar / The focal length of a CCTV lens cannot be zero"
+      },
+      {
+        "id": "B",
+        "teks": "Imej yang terhasil adalah maya, songsang dan diperkecilkan pada sensor / The form of an image is virtual, inverted and diminished on the sensor"
+      },
+      {
+        "id": "C",
+        "teks": "Jarak maksimum di antara sensor dengan pusat kanta haruslah sama dengan panjang fokus / The maximum distance betweeneen the sensor and the centre of the lens has to be the same as the focal length"
+      },
+      {
+        "id": "D",
+        "teks": "Ketebalan keseluruhan bekas CCTV tidak terhad kepada panjang fokus kanta CCTV tersebut / The overall thickness of the CCTV casing is not limited to the focal length of the CCTV lens"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q43",
+    "sumber": "Percubaan Kedah: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 43,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh",
+    "spKod": "6.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 242-245",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 28 menunjukkan sebutir berlian kelihatan\nberkilauan apabila disinari calhaya. Fenomena ini\ndisebabkan oleh\nDiagram 28 shows a diamond gliter when struck\nby light rays. This phenomenon caused by\n(Kedah: 2021)",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah28_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "pantulan"
+      },
+      {
+        "id": "B",
+        "teks": "pembiasan"
+      },
+      {
+        "id": "C",
+        "teks": "interferens reflection interference"
+      },
+      {
+        "id": "D",
+        "teks": "pantulan dalam penuh refraction total internal reflection"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q44",
+    "sumber": "Percubaan Kelantan: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 44,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 29 menunjukkan satu alat optik yang\ndigunakan oleh ahli gemologi untuk menilai\nsuatu batu permata.\nDiagram 29 shows an optical tool used by a\ngemmologist to evaluate a gemstone.\n(Kelantan: 2021)\nAlat optik\nOptical tool\nPada kedudukan manakah batu permata itu perlu\ndiletakkan di hadapan alat optik itu bagi\nmembolehkan ahli gemologi itu melihat imej\nyang tegak dan diperbesarkan?\nAt which position the genstone should be placed\nin front of the optical tool to enable the\ngemmologist to see an upright and magnified\nimage?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah29_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "u < f"
+      },
+      {
+        "id": "B",
+        "teks": "f < u < 2f"
+      },
+      {
+        "id": "C",
+        "teks": "u = 2f"
+      },
+      {
+        "id": "D",
+        "teks": "u > 2f"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q45",
+    "sumber": "Percubaan Terengganu: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 45,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.3 Menerangkan aplikasi pantulan dalam penuh (gentian optik, logamaya, periskop)",
+    "spKod": "6.2.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 247-250",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajalh 30 menunjukkan satu gentian optik.\nDiagram 30 shows afibre optic.\n(Terengganu: 2021)\nKaca dalam lebih tumpat\nDenser inner glass\nCahaya keluar\night out\nKaca luar kurang tumpat\nLess dense outer glass\nCahaya masuk\night enter\nApakah fenomena gelombang yang berlaku?\nWhat is the wave's phenomenon occurs?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah30_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Pembiasan cahaya Refractionof light"
+      },
+      {
+        "id": "B",
+        "teks": "Pembelauan cahaya Diffraction oflight"
+      },
+      {
+        "id": "C",
+        "teks": "Inteferens cahaya Interferenceof light"
+      },
+      {
+        "id": "D",
+        "teks": "Pantulan dalam penuh Total internal reflection"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q46",
+    "sumber": "Percubaan Terengganu: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 46,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajalh 31 menunjukkan satu rajah sinar.\nDiagram 31 shows a ray diagram.\n(Terengganu: 2021)\nImej\nImage\nObiek\nObject\nIni ialah sebuah rajah sinar bagi\nThis is a ray diagram ofa",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah31_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Mesin fotostat"
+      },
+      {
+        "id": "B",
+        "teks": "Projektor"
+      },
+      {
+        "id": "C",
+        "teks": "Kanta pembesar Photostat Magnifying glass machine"
+      },
+      {
+        "id": "D",
+        "teks": "Teleskop Projector Telescope"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q47",
+    "sumber": "Percubaan Terengganu: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 47,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Panjang fokus kanta objektif dan kanta mata bagi\nsebuah teleskop astronomi masing-masing adalah\nf, dan fm. Jarak antara kedua-dua kanta pula\nadalah L. Manakah antara hubungan berikut\nantara L, fo dan fm adalah benar bagi teleskop\nastronomi pada pelarasan normal?\nThe focal length of the objective lens and the\neyepiece lens of an astrononical telescope are fo\nand fm respectively. The distance betweeneeneen the two\nlenses is L. Which of the relationship betweeneeneen L,\nfo and fm is correct for the astronomical telescope\nat normal adjustment? (Terengganu: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "L = fₒ + fₑ"
+      },
+      {
+        "id": "B",
+        "teks": "L < fₒ + fₑ"
+      },
+      {
+        "id": "C",
+        "teks": "L > fₒ + fₑ"
+      },
+      {
+        "id": "D",
+        "teks": "L = fₒ - fₑ"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q48",
+    "sumber": "Percubaan Selangor: Set 1: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 48,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Satu periskop diperbuat daripada dua prisma 45°-\n90°-45°. Antara gambarajah berikut yang\nmanakah menunjukkan susunan yang betul\nprisma itu?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "periscope is made from two 45°-90°-45° prisms. Whichofthe following diagrams show the correct arrangement of the glass prism? (Selangor: Set 1: 2021) Sinar cahaya Light ray"
+      },
+      {
+        "id": "B",
+        "teks": "Sinar cahaya Light ray"
+      },
+      {
+        "id": "C",
+        "teks": "Sinar cahaya Light ray"
+      },
+      {
+        "id": "D",
+        "teks": "Sinar cahaya Light ray"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q49",
+    "sumber": "Percubaan Selangor: Set 2: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 49,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.3 Menerangkan aplikasi pantulan dalam penuh (gentian optik, logamaya, periskop)",
+    "spKod": "6.2.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 247-250",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 32 menunjukkan sinar cahaya yang\nbergerak melalui gentian optik. Gentian optik itu\nmempunyai teras kaca, X, dengan indeks biasan,\nnx dan suatu salutan kaca, Y, yang mempunyai\nindeks biasan, ny.\nDiagran 32 shows a light ray travelling through\nan optical fibre. The optical fibre has a glass\ncore, X, of refractive index, nx and a glass\ncladding, Y, of refractive index, ny.\n(Selangor: Set 2: 2021)\nSalutankaca Y\nGlass cladding.\nTeras kaca X\nGlasscore, X\nAntara yang berikut, yang manakah adalah\nbetul?\nWhich of the following is correc?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah32_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "nx = ny"
+      },
+      {
+        "id": "B",
+        "teks": "nx > ny"
+      },
+      {
+        "id": "C",
+        "teks": "nx < ny"
+      },
+      {
+        "id": "D",
+        "teks": "nx ≤ ny"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q50",
+    "sumber": "Percubaan Selangor: Set 2: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 50,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajalh 33 menunjukkan inej yang terbentuk pada\nskrin adalah kabur.\nDiagram 33 shows the image formed on the\nscreen is blurred. (Selangor: Set 2: 2021)\nScreen\nLens Shrln\nkota\nObject\nObjek\nPerubahan manakah akan menghasilkan satu imej\nyang jelas pada skrin?\nWhich modification will produce a sharp image\non the screen?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah33_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Gantikan kanta cembung berpanjang fokus lebih pendek / Replace with convex lens of shorter focal length"
+      },
+      {
+        "id": "B",
+        "teks": "Gantikan kanta cembung berpanjang fokus lebih panjang / Replace with convex lens of longer focal length"
+      },
+      {
+        "id": "C",
+        "teks": "Gerakkan objek lebih jauh daripada kanta / Move object further from lens"
+      },
+      {
+        "id": "D",
+        "teks": "Gerakkan skrin lebih dekat ke kanta / Move screen closer to lens"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q51",
+    "sumber": "Percubaan MRSM: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 51,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh",
+    "spKod": "6.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 242-245",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 34 menunjukkan sinar dari satu mentol\nyang diletakkan di dasar sebuah akuarium.\nDiagram 34 shows light ray fron a bulb placed\nal a bottom of an aquarium. (MRSM: 2021)\nBulb\nMetal\nLintasan sinar cahaya yang manakah adalah betul\nselepas titik 0?\nWhich path of light ray is correct after point 0?\n[Critical angle of water = 49°]",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah34_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Lintasan A / Path A"
+      },
+      {
+        "id": "B",
+        "teks": "Lintasan B / Path B"
+      },
+      {
+        "id": "C",
+        "teks": "Lintasan C / Path C"
+      },
+      {
+        "id": "D",
+        "teks": "Lintasan D / Path D"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q52",
+    "sumber": "Percubaan MRSM: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 52,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 35 menunjukkan sebuah teleskop\nastronomi. Panjang fokus kanta objektif dan\nkanta mata bagi teleskop tersebut masing-masing\nadalah f, dan fe. Panjang tiub teleskop itu adalah\nDiagram 35 showvs an astronomical telescope.\nThe focal length of the objective lens and\neyepiece lens of the telescope is fo and fe\nrespectively. The length of the tube of the\ntelescopeis L. (MRSM: 2021)\nObjcctive lens-\nKunta otyeuf\nAEyepiece lens\nAN\nHubungan manakah yang betul antara L, f, dan fe\nbagi teleskop astronomi tersebut pada pelarasan\nnormal?\nWhich of the relationships betweeneeneen L, fo and fę is\ncorrect for the astronomicaltelescope at normal\nadjustment?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah35_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "L=f,+ f."
+      },
+      {
+        "id": "B",
+        "teks": "L>fo+ f"
+      },
+      {
+        "id": "C",
+        "teks": "L<f,+ fe"
+      },
+      {
+        "id": "D",
+        "teks": "L=fo- fe"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q53",
+    "sumber": "Percubaan Negeri Sembilan: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 53,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.1 Mengenal pasti kanta cembung penumpu dan kanta cekung pencapah",
+    "spKod": "6.3.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 251-253",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Imej manakah yang dihasilkan oleh kanta\npenumpu pada skrin?\nWhich image is produced by a convex lens on the\nscreen? (Negeri Sembilan: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Songsang dan nyata / Inverted and real"
+      },
+      {
+        "id": "B",
+        "teks": "Maya dan songsang / Virtual and inverted"
+      },
+      {
+        "id": "C",
+        "teks": "Nyata dan tegak / Real and upright"
+      },
+      {
+        "id": "D",
+        "teks": "Tegak dan maya / Upright ang virtual"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q54",
+    "sumber": "Percubaan Negeri Sembilan: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 54,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 36 menunjukkan sinar cahaya yang\nmerambat dari air ke udara.\nDiagram 36 shows light ray travels from the\nwater to the air. (Negeri Sembilan: 2021)\nIndeks biasan bagi air ialah\nThe refractive index of the water is",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah36_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "sin r"
+      },
+      {
+        "id": "B",
+        "teks": "sinp"
+      },
+      {
+        "id": "C",
+        "teks": "sin s sin q sinp"
+      },
+      {
+        "id": "D",
+        "teks": "sinp sins sin r"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q55",
+    "sumber": "Percubaan Negeri Sembilan: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 55,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh",
+    "spKod": "6.2.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 242-245",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 37 menunjukkan satu sinar cahaya, K\nditujukan kepada satu bongkah kaca. Sudut\ngenting kaca itu ialah 42°. Ke arah manakah sinar\nitu bergerak dari titik 0?\nDiagram 37 shows a light ray K, directed into a\nglass block. The critical angle of the glass is420.\nİn which does the light move from point 0?\n(Negeri Sembilan: 2021)\nGarisan normal\nNormal line Bongkah kaca\nGlass block\nSinar cahaya\nLighıtroy",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah37_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "P"
+      },
+      {
+        "id": "B",
+        "teks": "Q"
+      },
+      {
+        "id": "C",
+        "teks": "R"
+      },
+      {
+        "id": "D",
+        "teks": "S"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q56",
+    "sumber": "Percubaan Pahang: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 56,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Antara pernyataan berikut manakah betul\nmengenai teleskop astronomi?\nWhich of the following statementis true aboutthe\ntelescope? (Pahang: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kanta objektif dan kanta mata adalah kanta cekung The objective lens and eyepiece are concave lens"
+      },
+      {
+        "id": "B",
+        "teks": "Kuasa kanta objektif< kuasa kanta mata Power of objective lens < power ofeyepiece"
+      },
+      {
+        "id": "C",
+        "teks": "Pelarasan normal > jarak fokus kanta mata + jarak fokus kanta objektif Normaladustment> focal lengthofeyepiece + focal length of objective lens"
+      },
+      {
+        "id": "D",
+        "teks": "Pelarasannormal < jarak fokus kanta mata jarak fokus kanta objektif Normaladjustment< focal lengthofeyepiece + focal length of objective lens"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q57",
+    "sumber": "Percubaan SBP: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 57,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 38 menunjukkan imej sehelai daun\ndiperhatikan menggunakan kata pembesar.\nDiagram 38 shows an image of a leaf observed\nby' using a magnifying glass. (SBP: 2021)\nKanta pembesar\nMagnifing glass\nKombinasi manakah benar bagi situasi di atas?\nWhich combinations is true for the situation\nabove?\nJarak antara sehelai Panjang fokus\ndaun dengan kanta kanta penmbesar\npembesar (cm) (cm)\nDistance betweeneeneen a Focal length of\nleaf and amagnifying magnifying lens\nglass(cm) (cm)\n10 15\n20 8",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah38_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak objek = 10 cm, Panjang fokus = 15 cm / Object distance = 10 cm, Focal length = 15 cm"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak objek = 10 cm, Panjang fokus = 8 cm / Object distance = 10 cm, Focal length = 8 cm"
+      },
+      {
+        "id": "C",
+        "teks": "Jarak objek = 15 cm, Panjang fokus = 10 cm / Object distance = 15 cm, Focal length = 10 cm"
+      },
+      {
+        "id": "D",
+        "teks": "Jarak objek = 20 cm, Panjang fokus = 8 cm / Object distance = 20 cm, Focal length = 8 cm"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q58",
+    "sumber": "Percubaan Perlis: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 58,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 39 menunjukkan satu sinar cahaya\nditujukan kepada satu bongkah kaca.\nDiagram 39 shows a light ray directed into a\nglass block. (Perlis: 2021)\nPilih pasangan sudut yang mempunyai nilai yang\nsama.\nChoose pair of angles that have the same value.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah39_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II / I and II"
+      },
+      {
+        "id": "B",
+        "teks": "I dan III / I and III"
+      },
+      {
+        "id": "C",
+        "teks": "I dan IV / I and IV"
+      },
+      {
+        "id": "D",
+        "teks": "II dan IV / II and IV"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q59",
+    "sumber": "Percubaan Kelantan: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 59,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 40 menunjukkan sinar cahaya bergerak\ndari udara ke medium X.\nDiagram 40showsa beamof light travelling from\nair to medium X. (Kelantan: 2022)\nUdara\nAir\nMedium X\nApakah indeks biasan medium itu?\nWhat is the refractive index of that medium?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah40_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "sin P"
+      },
+      {
+        "id": "B",
+        "teks": "sin Q"
+      },
+      {
+        "id": "C",
+        "teks": "sin S sin Q sin R"
+      },
+      {
+        "id": "D",
+        "teks": "sin R sin S sinS"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q60",
+    "sumber": "Percubaan SPM: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 60,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.4 Menyatakan pembesaran linear, m = v/u = hi/ho",
+    "spKod": "6.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 259-261",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 41 menunjukkan graf jarak imej, v\nmelawan pembesaran linear, m.\nDiagram 41 shows a graph of image distance,\nagainst linear magnification, m. (SPM: 2021)\nv (cm)\nRajah 41 / Diagran 41\nX diwakili oleh\nX is represented by",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak objek / Object distance"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak imej / Image distance"
+      },
+      {
+        "id": "C",
+        "teks": "Kuasa kanta / Power of lens"
+      },
+      {
+        "id": "D",
+        "teks": "Jarak antara imej dengan objek / Distance betweeneen image and object"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Jawapan yang tepat ialah B.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q61",
+    "sumber": "Percubaan SPM: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 61,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya",
+    "spKod": "6.1.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 232-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 42 menunjukkan lampu botol air yang\ndigunakan semasa perkhemahan.\nDiagram 42 shows a water bottle lamp used\nduring camping. (SPM: 2022)\nLampu botol air\nWater botle lamp\nAntara berikut, yang manakah betul apabila sinar\ncahaya dibiaskan oleh air dalam botol air\ntersebut?\nWhich of the following is correct when the light\nrays are refracted by the water in the water\nbottle?\nI Lajunya berubah\nThe speed changes\nII Frekuensi berubah\nFrequency changes\nIII Arahnya berubah\nThe direction changes\nIV Panjang gelombang berubah\nThe wavelength changes",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah42_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II"
+      },
+      {
+        "id": "B",
+        "teks": "I dan III"
+      },
+      {
+        "id": "C",
+        "teks": "I,IIdanII I and II 1, Il and II"
+      },
+      {
+        "id": "D",
+        "teks": "I, III dan IV I and III I, III and IV"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Jawapan yang tepat ialah D.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q62",
+    "sumber": "Percubaan SPM: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 62,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 43 menunjukkan susunan radas bagi\neksperimen pembentukan imej oleh kanta\ncembung.\nDiagram 43 shows the arrangement of the\napparatus for theexperimentof imageformation\nby a covex lens. (SPM: 2022)\nKouk sina\nRay bar\nKanta cembung\nConez lers 7 Kentas anak pnah lutsinar schaaichiek dengan\nTroasparentpoper wik\naor asobiet\nPembaris\nRoiler\nSuria puth\nPerubahan pemboleh ubah yang manakah\nmenyebabkan pertambahan saiz imej?\nWhich changes of variables causes the increase\nof image size?\nDiameter kanta Panjangfokus, f\nLens diameter Focallength,t",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Diameter kanta tiada perubahan, Panjang fokus bertambah / Lens diameter no changes, Focal length increases"
+      },
+      {
+        "id": "B",
+        "teks": "Diameter kanta bertambah, Panjang fokus tiada perubahan / Lens diameter increases, Focal length no changes"
+      },
+      {
+        "id": "C",
+        "teks": "Diameter kanta tiada perubahan, Panjang fokus berkurang / Lens diameter no changes, Focal length decreases"
+      },
+      {
+        "id": "D",
+        "teks": "Diameter kanta berkurang, Panjang fokus tiada perubahan / Lens diameter decreases, Focal length no changes"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q63",
+    "sumber": "Percubaan SPM: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 63,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 44 menunjukkan suatu imej yang terbentuk\noleh satu kanta cembung.\nDiagram 44 shows an image that is formed by a\nconvex lens. (SPM: 2023)\niImej\nImage Objek\nObject\nRajah 44 / Diagranm 44\nAntara yang berikut, alat manakah yang\nmenghasilkan imej seperti di atas?\nWhich of the following equipment produces an\nimage as above?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kanta pembesar"
+      },
+      {
+        "id": "B",
+        "teks": "Mikroskop"
+      },
+      {
+        "id": "C",
+        "teks": "Teleskop Magnifying lens Telescope"
+      },
+      {
+        "id": "D",
+        "teks": "Kamera Microscope Camera"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K2_Q64",
+    "sumber": "Percubaan SPM: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 64,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Memahami",
+    "soalan": "Rajah 45 menunjukkan imej Ali dalam sebuah\ncermin apabila dia berdiri pada jarak kurang\ndaripadapanjang fokus cermin itu.\nDiagram 45 shows the image of Ali in a mirror\nwhen he stands at a distance less than the focal\nlengthof the mirror. (SPM: 2023)\nLmej di dalun cermin\nnage in the mirror",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah45_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Cermin satah / Plane mirror"
+      },
+      {
+        "id": "B",
+        "teks": "Cermin cembung / Convex mirror"
+      },
+      {
+        "id": "C",
+        "teks": "Cermin cekung / Concave mirror"
+      },
+      {
+        "id": "D",
+        "teks": "Cermin permukaan tidak rata / Uneven surface mirror"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Jawapan yang tepat ialah C.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q01",
+    "sumber": "Percubaan Kelantan: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 46 menunjukkan cahaya merambat dari\nmedium A dan kemudian memasuki medium B.\nDiagram 46 shows light propagating from\nmedium A and then entering medium B.\n(Kelantan: 2023)\nMedlum A\nn133\nMedium B\no150\nRajah 46/ Diagranm 46\nHitung r.\nCalculate r.",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "26.320"
+      },
+      {
+        "id": "B",
+        "teks": "26.600"
+      },
+      {
+        "id": "C",
+        "teks": "33.830"
+      },
+      {
+        "id": "D",
+        "teks": "34.330"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Menggunakan Hukum Snell: n₁ sin θ₁ = n₂ sin θ₂ → 1.33 sin 30° = 1.50 sin θᵣ → θᵣ = 26.32°.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q02",
+    "sumber": "Percubaan Kelantan: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 2,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 47 menunjukkan rajah sinar bagi sebuah\ncermin cekung.\nDiagram 47 shows a ray diagram for a curve\nmirror. (Kelantan: 2023)\nApakah kedudukan dan jarak imej, v yang\nterhasil?\nWhat is the position and image distance, v\nproduced?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah47_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Di hadapancernmindan v =f In frontofthemirrorand v=f"
+      },
+      {
+        "id": "B",
+        "teks": "Di hadapancemin dan f<v< 2f In frontofthemirrorand f<v <2f"
+      },
+      {
+        "id": "C",
+        "teks": "Di hadapan cermin dan v = 2f In front of the mirror and v = 2f"
+      },
+      {
+        "id": "D",
+        "teks": "Di hadapan cermin dan v> 2f In front of the mirror and v > 2f"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Rajah sinar cermin cekung pada jarak objek u = 2f: Imej terbentuk adalah nyata, songsang dan sama saiz.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q02_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q03",
+    "sumber": "Percubaan Melaka: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 3,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Suatu objek dengan ketinggian 50 cm diletakkan\npada jarak 60 cm dari satu kanta cekung. Panjang\nfokus kanta tersebut ialah 20 cm. Nyatakan ciri-\nciri imej yang terbentuk oleh kanta itu.\nAn object with a height of 50 cm is placed at\ndistance of 60 cmfrom a concave lens. The focal\nlength of the lens is 20 cm. State\ncharacteristics of the image formed by the lens.\n(Melaka: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Nyata, songsang, saiz diperkecilkan / Real, inverted, diminished"
+      },
+      {
+        "id": "B",
+        "teks": "Maya, songsang, saiz diperbecsarkan / Virtual, iverted, magnified"
+      },
+      {
+        "id": "C",
+        "teks": "Maya, tegak, saiz diperkecilkan / Virtual, upright, diminished"
+      },
+      {
+        "id": "D",
+        "teks": "Nyata, tegak, saiz diperbesarkan / Real, upright, magnified"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Kanta cekung (f = negatif): 1/f = 1/u + 1/v → 1/(-20) = 1/60 + 1/v → v = -30 cm (Maya & Tegak). Pembesaran linear M = |v|/u = 30/60 = 0.5 < 1 (Diperkecilkan).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q04",
+    "sumber": "Percubaan Melaka: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 4,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 48 menunjukkan suatu objek di hadapan\nsebuah kanta cembung dan imejnya.\nDiagram48showsan object in front of a covex\nlens and its image. (Melaka: 2023)\n0=0cm\nObjek 4\nObject|\nImej\nImoge\n30 cm\nBerapakah panjang fokus kanta itu?\nWhat is the focal length of the lens?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah48_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.15 cm"
+      },
+      {
+        "id": "B",
+        "teks": "6.67 cm"
+      },
+      {
+        "id": "C",
+        "teks": "7.50 cm"
+      },
+      {
+        "id": "D",
+        "teks": "20.00 cm"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Formula kanta nipis: 1/f = 1/u + 1/v → 1/f = 1/10 + 1/(30-10) = 1/10 + 1/20 = 3/20 → f = 20/3 = 6.67 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q05",
+    "sumber": "Percubaan Melaka: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 5,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 49 menunjukkan satu objek diletakkan\nhadapan sebuah cermin cekung. F ialah titik\nfokus bagi cermin itu.\nDiagram 49 shows an object placed in front of\nconcave mirror. F is the focal point of the mirror.\n(Melaka: 2023)\nCermin cekung\nConcne miror\nObjek\nObject\nApakah ciri imej yang terbentuk?\nWhatare the characteristics of theimage formed?\na A Maya dan lebih besar daripada objek\nVirtual and bigger than the object\nthe B Nyata dan lebih kecil daripada objek\nReal and smaller than the object\nC Maya dan lebih kecil daripada objek\nVirtual and smaller than the object\nD Nyata dan lebih besar daripada objek\nReal and bigger than the object",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah49_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Maya dan lebih besar daripada objek / Virtual and bigger than the object"
+      },
+      {
+        "id": "B",
+        "teks": "Nyata dan lebih kecil daripada objek / Real and smaller than the object"
+      },
+      {
+        "id": "C",
+        "teks": "Maya dan lebih kecil daripada objek / Virtual and smaller than the object"
+      },
+      {
+        "id": "D",
+        "teks": "Nyata dan lebih besar daripada objek / Real and bigger than the object"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Rajah sinar cermin cekung bagi jarak objek u < f: Imej yang terhasil di belakang cermin adalah maya, tegak dan diperbesarkan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q05_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q06",
+    "sumber": "Percubaan Negeri Sembilan: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 6,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 50 menunjukkan satu sinar cahaya\nmerambat dari medium kaca ke udara. Indeks\nbiasan kaca ialah 1.50.\nDiagran 50 shows a light ray propagating from\nglass medium to the air The refractive index of\nglass is 1.50. (Negeri Sembilan: 2023)\nUdara\nAir\nKaca\nGlns\nRajah 50/ Diagran 50\nBerapakah laju cahaya di dalam medium kaca?\nWhat is the speed of light in the glass medium?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "L.5x 10 ms!"
+      },
+      {
+        "id": "B",
+        "teks": "2.0 x 10 ms"
+      },
+      {
+        "id": "C",
+        "teks": "3.0 x 10 ms!"
+      },
+      {
+        "id": "D",
+        "teks": "4.5 x 10 ms"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Indeks biasan n = c/v → 1.50 = (3.0 × 10⁸ m s⁻¹) / v → v = 2.0 × 10⁸ m s⁻¹.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q07",
+    "sumber": "Percubaan Pahang: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 7,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 51 menunjukkan satu objek, O yang\ndiletakkan di hadapan sebuah kanta cekung.\ndi Diagram 51 shows an object, O is placed in front\nofa concave lens. (Pahang: 2023)\n2r\nAntara berikut, apakah ciri-ciri imej yang\nterbentuk?\nWhich of the following are the characteristics of\nthe image formed?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah51_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Maya, tegak dan diperkecilkan / Virtual, upright and diminished"
+      },
+      {
+        "id": "B",
+        "teks": "Maya, tegak dan diperbesarkan / Virtual, upright and magnified"
+      },
+      {
+        "id": "C",
+        "teks": "Nyata, songsang dan sama saiz / Real, inverted and same size"
+      },
+      {
+        "id": "D",
+        "teks": "Nyata, songsang dan diperkecilkan / Real, inverted and diminished"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Rajah sinar kanta cekung bagi sebarang jarak objek (termasuk u = 2f): Ciri imej sentiasa maya, tegak dan diperkecilkan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q07_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q08",
+    "sumber": "Percubaan Pulau Pinang: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 8,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Antara berikut yang manakah menunjukkan\nlaluan cahaya yang betul apabila cahaya\nmerambat melalui dua lapisan udara yang\nberbeza suhu?\nWhich of the following shows the correct light\npath when light propagates through two layers of\nair with different temperature?\n(Pulau Pinang: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Rajah A: Terbias mendekati garis normal / Diagram A: Refracts towards normal line"
+      },
+      {
+        "id": "B",
+        "teks": "Rajah B: Terbias menjauhi garis normal / Diagram B: Refracts away from normal line"
+      },
+      {
+        "id": "C",
+        "teks": "Rajah C: Pantulan dalam penuh / Diagram C: Total internal reflection"
+      },
+      {
+        "id": "D",
+        "teks": "Rajah D: Tidak terbias / Diagram D: Undeviated"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Udara sejuk lebih tumpat secara optik berbanding udara panas. Apabila cahaya merambat dari medium lebih tumpat ke kurang tumpat, sinar terbias menjauhi garis normal.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q09",
+    "sumber": "Percubaan Pulau Pinang: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 9,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis",
+    "spKod": "6.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 264-266",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Satu objek diletakkan 15.0 cm di hadapan sebuah\nkanta cembung dengan panjang fokus 10.0 cm.\nBerapakah jarak imej?\nAn object is placed 15.0cm in front of a covex\nlens with a focal length of 10.0 cm. What is the\nimage distance? (Pulau Pinang: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "6 cm"
+      },
+      {
+        "id": "B",
+        "teks": "25 cm"
+      },
+      {
+        "id": "C",
+        "teks": "30 cm"
+      },
+      {
+        "id": "D",
+        "teks": "150 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Formula kanta nipis: 1/f = 1/u + 1/v → 1/10 = 1/15 + 1/v → 1/v = 1/10 - 1/15 = 1/30 → v = 30.0 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q10",
+    "sumber": "Percubaan Perak: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 10,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 52 menunjukkan suatu objek diletakkan 20\ncm di hadapan suatu cermin cekung yang\nmempunyai panjang fokus, f, 10 cm.\nDiagram 52 shows an object placed 20 cm in\nfront ofa concave mirror offocal length, f, 10 cm.\n(Perak: 2023)\nCemin cekung\nObjek Concave mirror\nObject\n20 cm 10cm\nApakah ciri-ciri imej yang terbentuk?\nWhatarethe characteristics of the image forned?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah52_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Nyata, sama saiz, songsang / Real, sanmesize, inverted"
+      },
+      {
+        "id": "B",
+        "teks": "Nyata, dikecilkan, songsang / Real, diminished, inverted"
+      },
+      {
+        "id": "C",
+        "teks": "Maya, sama saiz, tegak / Virtual, same size, upright"
+      },
+      {
+        "id": "D",
+        "teks": "Maya, dikecilkan, tegak / Virtual, diminished, upright"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Rajah sinar cermin cekung pada u = 2f: Imej nyata, songsang dan sama saiz terbentuk pada kedudukan 2f (pusat kelengkungan C).\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q10_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q11",
+    "sumber": "Percubaan Perlis: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 11,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis",
+    "spKod": "6.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 264-266",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 53 menunjukkan satu objek yang\ndiletakkan 12 cm dari satu kanta cembung.\nPanjang fokus kanta itu ialah 8 cm.\nDiagram 53 shows an object is placed 12 cm from\na convex lens.The focal length of the lens is 8 cm.\n(Perlis: 2023)\n4 12 cm\nBerapakah jarak imej dari kanta itu?\nWhat is the image distance from the lens?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah53_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "4 cm"
+      },
+      {
+        "id": "B",
+        "teks": "18 cm"
+      },
+      {
+        "id": "C",
+        "teks": "20 cm"
+      },
+      {
+        "id": "D",
+        "teks": "24 cm"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Formula kanta nipis: 1/f = 1/u + 1/v → 1/8 = 1/12 + 1/v → 1/v = 1/8 - 1/12 = 1/24 → v = 24 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q12",
+    "sumber": "Percubaan SBP: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 12,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis",
+    "spKod": "6.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 264-266",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Satu objek diletakkan 8.0 cm di hadapan sebuah\nkanta cembung dengan panjang fokus 10.0 cm.\nBerapakah jarak imej dan apakah ciri-ciri imej\nyang terbentuk?\nAn object is placed 8.0 cm in front of a convex\nlens of focal length 10.0 cm. What is the image\ndistance and the characteristics of the image\nformed? (SBP: 2023)\nJarak imej\n(cm) Ciri-ciri imej\nImage Characteristics of image\ndistance (cm)\nSongsang, nyata dan\ndiperkecilkan",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Tegak, maya dan diperkecilkan / Upright, virtual and diminished"
+      },
+      {
+        "id": "B",
+        "teks": "Songsang, nyata dan diperkecilkan / Inverted, real and diminished"
+      },
+      {
+        "id": "C",
+        "teks": "Tegak, maya dan diperbesarkan / Upright, virtual and magnified"
+      },
+      {
+        "id": "D",
+        "teks": "Songsang, nyata dan diperbesarkan / Inverted, real and magnified"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Kanta cembung (f = +10 cm): 1/f = 1/u + 1/v → 1/10 = 1/8 + 1/v → 1/v = 1/10 - 1/8 = -1/40 → v = -40 cm (Maya & Tegak). M = |v|/u = 40/8 = 5 (Diperbesarkan).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q13",
+    "sumber": "Percubaan SBP: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 13,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Sebuah cermin cekung mempunyai titik fokus, F\ndan pusat lengkungan, C. Kedudukan objek yang\nmanakah akan menghasilkan satu imnej yang\nnyata, songsang dan diperbesarkan bagi cermin\ncekung itu?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Objek dan imej berada pada titik fokus / Object and image at focal point"
+      },
+      {
+        "id": "B",
+        "teks": "Objek berada di antara F dan 2F / Object betweeneen F and 2F"
+      },
+      {
+        "id": "C",
+        "teks": "Objek berada pada jarak kurang dari F / Object at distance less than F"
+      },
+      {
+        "id": "D",
+        "teks": "Objek berada pada jarak lebih dari 2F / Object at distance greater than 2F"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Rajah sinar cermin cekung bagi f < u < 2f: Imej adalah nyata, songsang dan diperbesarkan pada jarak imej v > 2f.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q13_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q14",
+    "sumber": "Percubaan SMKA: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 14,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 54 menunjukkan satu objek diletakkan di\nhadapan sebuah kanta cekung. Titik fokus, F\nditandakan pada kedua belah itu. Pada kedudukan\nmanakah imej akan terbentuk?\nDiagram 54 shows an object placed in front of a\nconcave lens. The focal point, F is marked on\nboth sides. At what position will the image be\nformed? (SMKA: 2023)\nObjek / Object\nOhject",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah54_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kedudukan A / Position A"
+      },
+      {
+        "id": "B",
+        "teks": "Kedudukan B / Position B"
+      },
+      {
+        "id": "C",
+        "teks": "Kedudukan C / Position C"
+      },
+      {
+        "id": "D",
+        "teks": "Kedudukan D / Position D"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Rajah sinar kanta cekung pada u = 2f: Imej maya, tegak, diperkecilkan terbentuk pada jarak kurang daripada panjang fokus (v < f).\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q14_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q15",
+    "sumber": "Percubaan SMKA: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 15,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Manakah antara berikut menunjukkan\ngambarajah sinar yang betul1?\nWhich of the following shows the correct ray\ndiagram? (SMKA: 2023)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q15_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q15_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q15_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q15_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Susunan sinar mengikut petunjuk: 1 mewakili kotak sinar, 2 mewakili titik fokus (Fokus), dan 3 mewakili pusat optik (Centre).\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q15_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q16",
+    "sumber": "Percubaan SMKA: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 16,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 55 menunjukkan satu objek diletakkan di\nhadapan scbuah kanta cembung.\nDiagram 55 shows an object placed in front of a\nconvex lens. (SMKA: 2023)\nKanta cembung\nComer lens\nObjek / Object\nObject\n2F\nAntara berikut, yang manakah ciri-ciri imej yang\nterbentuk\nWhich of the following are the characteristics of\ntheimage formed.\nI Maya III Nyata\nVirtual Real\nII Dibesarkan IV Tegak\nMagnified Upright",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah55_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "I dan II / I and II"
+      },
+      {
+        "id": "B",
+        "teks": "II dan III / II and III"
+      },
+      {
+        "id": "C",
+        "teks": "I dan III / I and III"
+      },
+      {
+        "id": "D",
+        "teks": "III dan IV / III and IV"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Rajah sinar kanta cembung bagi f < u < 2f: Imej yang terbentuk pada skrin adalah nyata, songsang dan diperbesarkan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q16_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q17",
+    "sumber": "Percubaan MRSM: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 17,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh",
+    "spKod": "6.2.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 250-251",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 56 menunjukkan sinar cahaya yang keluar\napabila melalui sebuah bongkah kaca semi\nbulatan.\nDiagram 56 shows the rays of light that came out\nwhen passing through a senmicircular glass block.\n(MRSM: 2023)\nApakah sudut tuju untuk pantulan dalam penuh\nberlaku?\nWhat is the incident angle for a total internal\nreflection to occur?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah56_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "35°"
+      },
+      {
+        "id": "B",
+        "teks": "420"
+      },
+      {
+        "id": "C",
+        "teks": "45°"
+      },
+      {
+        "id": "D",
+        "teks": "90°"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Sudut tuju i = 90° - 48° = 42°. Pantulan dalam penuh hanya berlaku apabila sudut tuju melebihi sudut genting bahan (i > c).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q18",
+    "sumber": "Percubaan SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 18,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 57 menunjukkan satu objek yang\ndiletakkan 15.0 cm dari sebuah kanta cembung\ndengan panjang fokus 10.0 cm.\nDiagram 57 shows an object that is placed 15.0\ncm from a convex lens with focal length of 10.0\nObjek\nObject\n15.0cm\n10.0 cm\nApakah ciri-ciri imej yang terbentuk?\nWhatare the characteristics of image formed?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah57_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Maya, tegak dan dibesarkan / Virtual, upright and magnified"
+      },
+      {
+        "id": "B",
+        "teks": "Maya, tegak dan dikecilkan / Virtual, upright and diminished"
+      },
+      {
+        "id": "C",
+        "teks": "Nyata, songsang dan dibesarkan / Real, inverted and magnified"
+      },
+      {
+        "id": "D",
+        "teks": "Nyata, songsang dan dikecilkan / Real, inverted and diminished"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Kanta cembung (f = +10 cm, u = 15 cm): 1/10 = 1/15 + 1/v → v = +30 cm (Nyata & Songsang). Pembesaran linear M = v/u = 30/15 = 2 (Diperbesarkan).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q19",
+    "sumber": "Percubaan Kedah: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 19,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 58 menunjukkan kedudukan imej\nterbentuk apabila objek diletakkan 6 cm di\nhadapan kanta cembung. Ketinggian objek dan\nimej masing-masing ialah 3 cm dan 12 cm.\nDiagram 58 shows an image formed when an\nobject placed 6 cm in front of a convex lens.\nHeight of the object and the image is 3 cm and 12\ncm respectively. (Kedah: 2022)\nKanla cembung\nObjel\nxlens\nObject\nIme\nBan\nImage\n12 cm\nBerapakah jarak antara objek dan imej, P?\nWhat is distance betweeneeneen object and image, P?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah58_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "30 cm"
+      },
+      {
+        "id": "B",
+        "teks": "24 cm"
+      },
+      {
+        "id": "C",
+        "teks": "12 cm"
+      },
+      {
+        "id": "D",
+        "teks": "10 cm"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Pembesaran linear: hᵢ/hₒ = v/u → 12 cm / 3 cm = v / 6 cm → v = 24 cm. Jarak P antara objek dan imej = u + v = 6 cm + 24 cm = 30 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q20",
+    "sumber": "Percubaan Melaka: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 20,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh",
+    "spKod": "6.2.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 250-251",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Sudut genting bagi suatu bongkah kaca\nsemibulatan ialah 42\". Rajah manakah yang\nmenunjukkan pantulan dalam penuh?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q20_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q20_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q20_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q20_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Diberi sudut genting c = 42° dan sudut tuju i = 45°. Oleh sebab i > c, fenomena pantulan dalam penuh berlaku sepenuhnya.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q21",
+    "sumber": "Percubaan Melaka: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 21,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis",
+    "spKod": "6.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 264-266",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Suatu objek berada 25 cm di hadapan sebuah\nkanta cembung dengan panjang fokus 10 cm.\nBerapakah jarak imej yang terhasil?\nAn object is 25 cm in front of convex lens with a\nfocal length of 10 cm. What is the distance of the\nimage formed? (Melaka: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "16.7 cm"
+      },
+      {
+        "id": "B",
+        "teks": "20.0 cm"
+      },
+      {
+        "id": "C",
+        "teks": "25.0 cm"
+      },
+      {
+        "id": "D",
+        "teks": "35.0 cm"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Formula kanta nipis: 1/f = 1/u + 1/v → 1/10 = 1/25 + 1/v → 1/v = 1/10 - 1/25 = 3/50 → v = 16.67 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q22",
+    "sumber": "Percubaan MRSM: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 22,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah manakah menunjukkan lintasan sinar\ncahaya yang betul?\nWhich diagram shows the correct path of light\nray? (MRSM: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q22_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q22_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q22_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q22_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Rajah sinar kanta cekung pada jarak u = 2f menghasilkan imej maya, tegak dan diperkecilkan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q22_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q23",
+    "sumber": "Percubaan Pahang: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 23,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh",
+    "spKod": "6.2.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 250-251",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Sudut genting bagi sempadan kaca-udara ialah c.\nRajah yang manakah menunjukkan laluan sinar\ncahaya yang betul?\nThe critical angle for a glass-air boundary is c.\nWhich diagram shows the correct path of the light\nray? (Pahang: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q23_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q23_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q23_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q23_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Sinar merambat dari kaca ke udara pada sudut genting c di mana sudut biasan r = 90°.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q23_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q24",
+    "sumber": "Percubaan Perlis: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 24,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.5 Menerangkan dalam nyata dan dalam ketara",
+    "spKod": "6.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 238-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 59 menunjukkan sebiji guli berada di dasar\nsebuah bekas kaca. Imej guli itu hanya dapat\ndilihat setelah suatu cecair ditambah sedalam l0\ncm ke dalam bekas kaca berkenaan.\nDiagran 59 shows a marble at the base of a glass\ncontainer: The image of marble can only be seen\nafter a liquid is added to a depth of 10 cm into the\nglass container. (Perlis: 2022)\nPemerhati Pemerbati\nObserver Observer\nImej guli\nImageofmarble\nGuli -\nMarble Bekas kosong Bekas diisikan dengan cecair\nEnıplycontainer Conainerfilled withliquid\nJika indeks biasan cecair tersebut ialah 1.33,\nberapakah jarak imej guli dari kedudukan guli\nsebenar?\nIf the vefractive index of the liguid is 1.33, what\nis the distance of the image of marble from the\nactual position of the marble?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah59_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.00 cm"
+      },
+      {
+        "id": "B",
+        "teks": "2.48 cm"
+      },
+      {
+        "id": "C",
+        "teks": "7.52 cm"
+      },
+      {
+        "id": "D",
+        "teks": "13.33 cm"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Indeks biasan n = Dalam nyata (D) / Dalam ketara (d) → 1.33 = 10 cm / d → d = 7.52 cm. Jarak pergeseran imej dari kedudukan asal = D - d = 10 - 7.52 = 2.48 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q25",
+    "sumber": "Percubaan Perlis: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 25,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 60 menunjukkan cahaya dari kotak sinar\nditujukan pada sebuah cermin satah di titik R dan\nterpantul pada objek Q.\nDiagram 60 shows light from a ray box directed\nat a plane mirror at point R and reflected at\nobject Q. (Perlis: 2022)\nObjek Q\nObjecQ\nCeminatah\nKotsk sinr Plene nrirnmr\nRn bos\nJika kotak sinar digerakkan I m secara menegak\nke bawah, berapa jauhkah objek Q perlu\ndigerakkan untuk memastikan cahaya masih\nterpantul pada objek Q?\nIf the ray box is moved I m vertically dowmward,\nhow far should the object Q be moved to ensure\nthat the light is still reflected toward object Q?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah60_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Im keatas"
+      },
+      {
+        "id": "B",
+        "teks": "Im kebawah"
+      },
+      {
+        "id": "C",
+        "teks": "2 m ke atas I m upward 2 m upwvard"
+      },
+      {
+        "id": "D",
+        "teks": "2 m ke bawah I mdownward 2 m dowmward"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Jawapan yang tepat ialah A.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q26",
+    "sumber": "Percubaan Perlis: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 26,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis",
+    "spKod": "6.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 264-266",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Berapakah pembesaran linear jika jarak objek\nadalah 4 cm dengan panjang fokus kanta cekung\nadalah 12 cm?\nWhat is the linear magnification if the object\ndistance is 4 cm with the focal length of he\nconcave lens is 12 cm? (Perlis: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.75"
+      },
+      {
+        "id": "B",
+        "teks": "0.95"
+      },
+      {
+        "id": "C",
+        "teks": "1.25"
+      },
+      {
+        "id": "D",
+        "teks": "2.50"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Kanta cekung (f = -12 cm, u = 4 cm): 1/(-12) = 1/4 + 1/v → 1/v = -1/12 - 1/4 = -4/12 = -1/3 → v = -3 cm (Maya & Tegak). M = 3/4 = 0.75 < 1 (Diperkecilkan).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q27",
+    "sumber": "Percubaan Putrajaya: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 27,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 61 menunjukkan sinar tuju ditujukan ke\natas satu permukaan kaca. Arah manakah sinar itu\nmerambat selepas melalui X?\nDiagram 6l shows an incident ray, is directed\ninto glass block. Which direction does the light\ntravels after through X? (Putrajaya: 2022)\nSinar tuju\nIncldent ray",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah61_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Arah A / Direction A"
+      },
+      {
+        "id": "B",
+        "teks": "Arah B / Direction B"
+      },
+      {
+        "id": "C",
+        "teks": "Arah C / Direction C"
+      },
+      {
+        "id": "D",
+        "teks": "Arah D / Direction D"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Pembiasan tidak berlaku apabila sinar cahaya merambat serenjang (sudut tuju i = 0°) dengan sempadan dua medium.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q28",
+    "sumber": "Percubaan Putrajaya: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 28,
+    "sk": "SK 6.4 Formula Kanta Nipis",
+    "sp": "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis",
+    "spKod": "6.4.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 84-85",
+    "rujukanBukuTeks": "Buku Teks T4 ms 264-266",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 9-10",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.4 Formula Kanta Nipis",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 62 menunjukkan satu objek di hadapan\nsebuah kanta cembung.\nDiagram 62showsan object in front of a covex\nlens. (Putrajaya: 2022)\nf-15cm\n+\nU 2.5 cm\nHitung jarak imej.\nCalculate the image distance.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah62_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "25 cm"
+      },
+      {
+        "id": "B",
+        "teks": "30 cm"
+      },
+      {
+        "id": "C",
+        "teks": "45 cm"
+      },
+      {
+        "id": "D",
+        "teks": "50 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Formula kanta: 1/f = 1/u + 1/v → 1/15 = 1/22.5 + 1/v → 1/v = 1/15 - 1/22.5 = 1/45 → v = 45 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q29",
+    "sumber": "Percubaan SBP: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 29,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh",
+    "spKod": "6.2.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 250-251",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah manakah A, B, C atau D yang\nmenunjukkan takrifan sudut genting, c dengan\nbetul apabila cahaya merambat melalui dua\nmedium berbeza ketumpatan?\nWhich diagram A, B, C or D shows the correct\ndefinition of a critical angle, c when light\npropagate through two mediums of different\ndensities? (SBP: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q29_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q29_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q29_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q29_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Syarat berlakunya pantulan dalam penuh: (1) Sudut tuju melebihi sudut genting (i > c), (2) Cahaya merambat dari medium lebih tumpat optik ke medium kurang tumpat optik.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q30",
+    "sumber": "Percubaan SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 30,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Nyata, tegak dan diperkecil / Real, upright and diminished"
+      },
+      {
+        "id": "B",
+        "teks": "Maya, tegak dan diperkecil / Virtual, upright and diminished"
+      },
+      {
+        "id": "C",
+        "teks": "Nyata, songsang dan diperkecil / Real, inverted and diminished"
+      },
+      {
+        "id": "D",
+        "teks": "Maya, songsang dan diperkecil / Virtual, inverted and diminished"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Kanta cekung (f = -30 cm, u = 60 cm): 1/(-30) = 1/60 + 1/v → v = -20 cm (Maya & Tegak). Pembesaran linear M = 20/60 = 0.33 < 1 (Diperkecilkan).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q31",
+    "sumber": "Percubaan Selangor: Set 1: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 31,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 63 menunjukkan suatu objek di hadapan\nsatu kanta cembung.\nDiagram 63 shows an object in firont of a conver\nlens. (Selangor: Set 1: 2022)\nObjek\nObject\nTf= 10cm\n2F\nu=15cm\nBerapakah jarak imej?\nWhat is the image distance?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah63_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "15 cm"
+      },
+      {
+        "id": "B",
+        "teks": "20 cm"
+      },
+      {
+        "id": "C",
+        "teks": "25 cm"
+      },
+      {
+        "id": "D",
+        "teks": "30 cm"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Formula kanta nipis: 1/f = 1/u + 1/v → 1/10 = 1/15 + 1/v → v = 30 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q32",
+    "sumber": "Percubaan SMKA: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 32,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh",
+    "spKod": "6.2.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 250-251",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah manakah yang menunjukkan suatu sinar\nmelalui suatu bongkah kaca semibulatan pada\nsudut genting 0?\nWhich diagran shows a ray passing through a\nsemicircular glass block at the critical angle 0?\n(SMKA: 2022)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Rajah A / Diagram A"
+      },
+      {
+        "id": "B",
+        "teks": "Rajah B / Diagram B"
+      },
+      {
+        "id": "C",
+        "teks": "Rajah C / Diagram C"
+      },
+      {
+        "id": "D",
+        "teks": "Rajah D / Diagram D"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Sinar cahaya yang keluar ke udara membengkok menjauhi normal mengikut hukum pembiasan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q32_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q33",
+    "sumber": "Percubaan SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 33,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.5 Menerangkan dalam nyata dan dalam ketara",
+    "spKod": "6.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 238-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajalh 64 menunjukkan sebiji gelas diisi dengan\nminyak zaiton setinggi 9 cm yang mempunyai\nindeks biasan 1.47.\nDiagram 64 shows a glass filled with olive oil\nwith aheight of9 cm which hasa refractive inder\nPemerhati\nObserver\n9 cm\nBerapakah dalam ketara gelas tersebut yang\ndilihat oleh pemerhati?\nWhat is the apparent depth seen by the observer?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah64_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "6.12 cm"
+      },
+      {
+        "id": "B",
+        "teks": "7.11 cm"
+      },
+      {
+        "id": "C",
+        "teks": "13.23 cm"
+      },
+      {
+        "id": "D",
+        "teks": "16.33 cm"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Indeks biasan n = D/d → 1.47 = 9 cm / d → d = 9 / 1.47 = 6.12 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q34",
+    "sumber": "Percubaan Terengganu: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 34,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 65 menunjukkan cahaya bergerak melalui\nsatu bongkah kaca.\nDiagram 65 shows a light ray passing through a\nglass block. (Terengganu: 2022)\nBongkohkaca\nGloss blcock\nBerapakah indeks biasan bongkah kaca itu?\nWhat is the refractive index of the glass block?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah65_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "1.89"
+      },
+      {
+        "id": "B",
+        "teks": "1.49"
+      },
+      {
+        "id": "C",
+        "teks": "1.39"
+      },
+      {
+        "id": "D",
+        "teks": "1.35"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Hubungan sudut genting: n = 1 / sin c = 1 / sin 48° = 1 / 0.7431 = 1.346.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q35",
+    "sumber": "Percubaan Terengganu: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 35,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah-rajah berikut menunjukkan lintasan sinar\ncahaya yang melalui sebuah kanta cekung.\nThefollowing diagramsshows path of light ray\nthrough a concave lens. (Terengganu: 2022)\nII\nLintasan sinar bias manakah adalah benar?\nWhich refiaction path is correct?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q35_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q35_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q35_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q35_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Rajah sinar kanta cekung mencapahkan sinar dari titik fokus utama F.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q35_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q36",
+    "sumber": "Percubaan Kedah: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 36,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Gambarajah sinar berikut yang manakah akan\nmenghasilkan imej yang maya, tegak dan lebih\nbesar daripada objek?\nWhich of the following diagrams produces image\nthat is virtual, upright and bigger than the object?\n(Kedah: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q36_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q36_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q36_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q36_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Rajah sinar kanta cembung bagi objek di dalam titik fokus (u < f): Imej maya, tegak dan lebih besar terbentuk.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q36_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q37",
+    "sumber": "Percubaan SPM 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 37,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.4 Menyatakan pembesaran linear, m = v/u = hi/ho",
+    "spKod": "6.3.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 259-261",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Sebuah objek diletakkan 5 cm di hadapan sebuah\nkanta cembung yang mempunyai panjang fokus\n10 cm. Apakah nilai m, pembesaran imej?\nAn object is placed 5 cm in front of a covex lens\nwhich has a focal length of 10 cm. What is the",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "5.0"
+      },
+      {
+        "id": "B",
+        "teks": "2.0"
+      },
+      {
+        "id": "C",
+        "teks": "1.5"
+      },
+      {
+        "id": "D",
+        "teks": "0.5"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Kanta cembung (f = +10 cm, u = 5 cm): 1/10 = 1/5 + 1/v → v = -10 cm (Maya & Tegak). M = |v|/u = 10/5 = 2 (Diperbesarkan).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q38",
+    "sumber": "Percubaan Kelantan: 2021: 17",
+    "tahun": 2021,
+    "noSoalanAsal": 38,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 66 menunjukkan satu lintasan cahaya.\nDiagram 66 shows a path of light.\n(Kelantan: 2021: 17)\nCxir P\nUgud P\nIndeks biasan air dan cecair P adalah masing-\nmasing 1.3 dan 1.5. Berapakah sudut biasan, r\ndalam cecair P?\nThe refractive index of water and liquid P are 1.3\nand I.5 respectively. What is the refracted angle,\nr in liquid P?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah66_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "25.4°"
+      },
+      {
+        "id": "B",
+        "teks": "29.6°"
+      },
+      {
+        "id": "C",
+        "teks": "33.9°"
+      },
+      {
+        "id": "D",
+        "teks": "47.9°"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Hukum Snell: n₁ sin θ₁ = n₂ sin θ₂ → 1.33 sin 40° = 1.50 sin θ₂ → sin θ₂ = 0.5700 → θ₂ = 33.85°.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q39",
+    "sumber": "Percubaan Sarawak: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 39,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 67 menunjukkan cahaya dari udara terbias\napabila masuk ke dalam air dan perspeks. Indeks\nbiasan bagi air dan perspeks masing-masing\nadalah 1.33 dan 1.5.\nDiagram 67 shows a light from air refracted\nwhen enter the water and perspex. Refractive\nindex of water and perspex respectively is 1.33\nand 1.5. (Sarawak: 2021)\nai 50: normal\nwater\nPerspeks\nPerspex\nTentukan sudut, 0.\nDetermine the angle, 0.",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah67_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "30.00°"
+      },
+      {
+        "id": "B",
+        "teks": "35.45°"
+      },
+      {
+        "id": "C",
+        "teks": "40.27°"
+      },
+      {
+        "id": "D",
+        "teks": "42.78°"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Hukum Snell: n₁ sin θ₁ = n₂ sin θ₂ → 1.33 sin 50° = 1.50 sin θ₂ → sin θ₂ = 0.6792 → θ₂ = 42.78°.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q40",
+    "sumber": "Percubaan Sarawak: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 40,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 68 menunjukkan imej yang dihasilkan oleh\nsebuah kanta pembesar.\nDiagram 68 shows the imnage formned by a\nmagnifying glass. (Sarawak: 2021)\ncrdeme\nRajah sinar manakah yang betul menerangkan\nsifat imej yang terhasil?\nWhich of the following ray diagran is correct to\nshow the characteristics of theimage forned?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah68_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q40_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q40_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q40_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q40_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Kanta cembung bagi objek di antara pusat optik dan titik fokus (u < f): Menghasilkan imej maya, tegak dan diperbesarkan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q40_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q41",
+    "sumber": "Percubaan Terengganu: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 41,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Halaju cahaya di dalam vakum ialah 3 x 10 m s\n1. Indeks biasan bagi air ialah 1.30. Berapakah\nhalaju cahaya di dalam air?\nThe velocity of light in vacuunmis 3 x 10 ms'.\nThe refractive index of water is 1.30. What is the\nvelocity of light in the water?\n(Terengganu: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "2.11x10 msl"
+      },
+      {
+        "id": "B",
+        "teks": "2.31 x 10 m s'"
+      },
+      {
+        "id": "C",
+        "teks": "3.11 x 10 m s"
+      },
+      {
+        "id": "D",
+        "teks": "4.26x 10 ms'"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Laju cahaya dalam medium: v = c / n = (3.0 × 10⁸ m s⁻¹) / 1.30 = 2.31 × 10⁸ m s⁻¹.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q42",
+    "sumber": "Percubaan Selangor: Set 1: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 42,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Laju cahaya dalam vakum ialah 3 x 10 m s'\nApabila cahaya melalui satu tingkap kaca,\nkelajuannya menjadi 1.86 x 10° m s\". Berapakah\nindeks biasan kaca tingkap iu?\nThe speed of light in vacuum is 3 x 10 m s'.\nWhen the light penetrates a glass window, its\nspeed becomes 1.86 x 10 m s'. What is the\nrefractive index of ihe glass window?\n(Selangor: Set 1: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.62"
+      },
+      {
+        "id": "B",
+        "teks": "1.51"
+      },
+      {
+        "id": "C",
+        "teks": "1.61"
+      },
+      {
+        "id": "D",
+        "teks": "2.92"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Indeks biasan n = c / v = (3.0 × 10⁸ m s⁻¹) / (1.86 × 10⁸ m s⁻¹) = 1.613.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q43",
+    "sumber": "Percubaan Selangor: Set 1: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 43,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 69 menunjukkan satu objek diletak pada\njarak u cm dari pusat sebuah kanta cembung.\nPanjang fokus kanta itu ialah 20 cm.\nDiagran 69 shows an object which is placed at u\ncm from the center of a convex lens. The focal\nlength of the lens is 20 cm.\n(Selangor: Set 1: 2021)\nObjek\nObect\nApakah ciri-ciri imej yang terbentuk jika u adalah\n40 cm?\nWhat are the characteristics of theimage formed\nifu is 40 cm?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah69_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Maya dan sama saiz / Virtual and same size"
+      },
+      {
+        "id": "B",
+        "teks": "Maya dan lebih besar / Virtual and bigger"
+      },
+      {
+        "id": "C",
+        "teks": "Nyata dan sama saiz / Real and same size"
+      },
+      {
+        "id": "D",
+        "teks": "Nyata dan lebih kecil / Real and smaller"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Kanta cembung (f = +20 cm, u = 40 cm = 2f): 1/20 = 1/40 + 1/v → v = 40 cm. M = v/u = 40/40 = 1 (Imej nyata, songsang dan sama saiz).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q44",
+    "sumber": "Percubaan Selangor: Set 1: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 44,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 70 menunjukkan sebuah objek diletakkan\ndi hadapan cermin cekung. Manakah kedudukan\nimej yang betul?\nDiagram 70 shows an object is placed in front of\na concave mirror: Which is the correct position of\nthe image? (Selangor: Set 1: 2021)\nObjek / Object\nOblet\nCermin cekung\nF-Titkfokus Concavemiror\nFocus poini\nQ-Pusatkelengkungan\nCentre ofcneture",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kedudukan A / Position A"
+      },
+      {
+        "id": "B",
+        "teks": "Kedudukan B / Position B"
+      },
+      {
+        "id": "C",
+        "teks": "Kedudukan C / Position C"
+      },
+      {
+        "id": "D",
+        "teks": "Kedudukan D / Position D"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Rajah sinar cermin cekung bagi f < u < 2f: Menghasilkan imej nyata, songsang dan diperbesarkan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q44_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q45",
+    "sumber": "Percubaan Selangor: Set 2: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 45,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 7l menunjukkan satu sinar cahaya melalui\nsatu bongkah kaca. Indeks biasan bagi kaca itu\nialah I.52.\nDiagram 71 shows a ray of light passing into a\nglass block. The refractive index of the glass is\n1.52. (Selangor: Set 2: 2021)\nbongkah kaca\nglass block\nRajah 71 / Diagran 71\nBerapakah sudut x?\nWhat is the angle of x?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "23.00°"
+      },
+      {
+        "id": "B",
+        "teks": "29.30°"
+      },
+      {
+        "id": "C",
+        "teks": "60.70°"
+      },
+      {
+        "id": "D",
+        "teks": "67.00°"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Hukum Snell: n = sin i / sin r → 1.52 = sin i / sin 35° → sin i = 0.8718 → i = 60.67°. Sudut x = 90° - 60.67° = 29.33°.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q46",
+    "sumber": "Percubaan Selangor: Set 2: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 46,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 72 menunjukkan satu objek diletak pada\njarak u cm dari pusat sebuah kanta cembung.\nPanjang fokus kanta itu ialah 30 cm.\nDiagram 72 shows an object which is placed at u\ncm from the center of a conver lens. The focal\nlengih of the lens is 30 cm.\n(Selangor: Set 2: 2021)\nObjek\nObject\nAntara ciri-ciri imej yang berikut yang manakah\nbetul jika u ialah 25 cm, 40 cm, 55 cm, dan 70\ncm dari kanta itu?\nWhich of the following characteristics of the\nimage is correct if u is 25 cm, 40 cm, 60 cm and\n70 cm from the lens?\nCiri-ciri imej\n(cm) Characteristics of the image\nMaya dan lebih besar",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah72_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak objek = 25 cm, Ciri imej = Maya dan lebih kecil / Object distance = 25 cm, Image = Virtual and smaller"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak objek = 40 cm, Ciri imej = Nyata dan sama saiz / Object distance = 40 cm, Image = Real and same size"
+      },
+      {
+        "id": "C",
+        "teks": "Jarak objek = 60 cm, Ciri imej = Nyata dan lebih besar / Object distance = 60 cm, Image = Real and bigger"
+      },
+      {
+        "id": "D",
+        "teks": "Jarak objek = 10 cm, Ciri imej = Maya dan lebih besar / Object distance = 10 cm, Image = Virtual and bigger"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Kanta cembung f = 30 cm, u = 25 cm (u < f): Imej terbentuk adalah maya, tegak dan diperbesarkan (berfungsi sebagai kanta pembesar).\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q46_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q47",
+    "sumber": "Percubaan Selangor: Set 2: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 47,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 73 menunjukkan sebuah objek di depan\ncermin cekung. Manakah imej yang betul?\nDiagram 73 shows an object in front ofa concave\nmirror. Vhich is the correct image?\n(Selangor: Set 2: 2021)\nObjek )\nObiec\nF- Titikfokus incekung\nFocus point Concave minor\nQ-Pusat lengkungan\nCentre ofcurvature",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah73_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kedudukan A / Position A"
+      },
+      {
+        "id": "B",
+        "teks": "Kedudukan B / Position B"
+      },
+      {
+        "id": "C",
+        "teks": "Kedudukan C / Position C"
+      },
+      {
+        "id": "D",
+        "teks": "Kedudukan D / Position D"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Rajah sinar cermin cekung bagi u > 2f: Imej nyata, songsang dan diperkecilkan terbentuk di antara F dan C.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q47_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q48",
+    "sumber": "Percubaan MRSM: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 48,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 74 menunjukkan satu alur cahaya yang\nditujukan pada suatu bongkah kaca.\nDiagram 4 showsabeam oflight that is directed\ntowards a glass block. (MRSM: 2021)\nAi\nUdara\nGlass block\nBonghahhaca\nAir\nUlars\nManakah nilai yang betul bagi sudut r?\nWhich is the correct value for angle r?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah74_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "r < 30°"
+      },
+      {
+        "id": "B",
+        "teks": "r = 30°"
+      },
+      {
+        "id": "C",
+        "teks": "r > 30°"
+      },
+      {
+        "id": "D",
+        "teks": "r = 0°"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Sinar terbias mendekati garis normal apabila memasuki medium lebih tumpat, dan membengkok menjauhi garis normal apabila keluar ke medium kurang tumpat.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q48_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q49",
+    "sumber": "Percubaan Negeri Sembilan: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 49,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 75 di bawah menunjukkan satu imej tajam\nyang terbentuk pada skrin apabila jarak antara\nobjek dan skrin adalah 60 cm.\nDiagram 75 below shows a sharp image being\nformed on a screen when the distance betveen the\nobject and the screen is 60 cm.\n(Negeri Sembilan: 2021)\nSkrin\n60 cm Sereen\nOhick\nObject\nBerapakah panjang fokus kanta sckiranya saiz\nimcj adalah sama dengan saiz objek?\nWhat is the focal length of the lens if the size of\nthe image is the same as the object?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "10 cm"
+      },
+      {
+        "id": "B",
+        "teks": "12 cm"
+      },
+      {
+        "id": "C",
+        "teks": "15 cm"
+      },
+      {
+        "id": "D",
+        "teks": "20 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Saiz imej sama dengan saiz objek maka u = v. Jarak antara objek dan imej = 60 cm → u + v = 60 cm → u = v = 30 cm. 1/f = 1/30 + 1/30 = 2/30 → f = 15 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q50",
+    "sumber": "Percubaan Pahang: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 50,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 76 menunjukkan seorang pemerhati\nmelihat imej scorang penyelam 2.0 m dari\npermukaan air.\nDiagram 76 shows an observer looking at the\nimage of a diver 2.0 m from the water surface.\n(Pahang: 2021)\nObsener\nPemerhati\nWatersurface\nPermukaanair\nDiver's image\nImej pemelan\n35 d=20m\nDiver\nPemelam\nBerapakah dalam sebenar penyelam itu?\nWhat is the actual depth of the diver?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah76_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "140 cm"
+      },
+      {
+        "id": "B",
+        "teks": "1.50 cm"
+      },
+      {
+        "id": "C",
+        "teks": "2.67 cm"
+      },
+      {
+        "id": "D",
+        "teks": "2.86 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Hukum Snell n = sin 50° / sin 35° = 1.33. Kedalaman nyata n = D/d → 1.33 = D / 2.0 m → D = 2.67 m.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q51",
+    "sumber": "Percubaan Pahang: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 51,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.2 Menerangkan indeks biasan, n",
+    "spKod": "6.1.2",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 233-235",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "S1. Rajah 77 menunjukkan satu sinar cahaya P,\nditujukan kepada pusat, O satu bongkah kaca\nsemibulatan. Indeks biasan kaca itu adalah 1.52.\nDiagram 77 shows a light ray, P is directed to the\ncentre, O of semicireular glass block. Refractive\nindex of theglass is 1.52. (Pahang: 2021)\nRajah 77 / I Diagram 77\nArah manakah antara A, B,C atau D sinar itu\nmerambatselepas titik 0?\nAt which direction A, B, C or D does the light\npropagate after point 0?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Arah A / Direction A"
+      },
+      {
+        "id": "B",
+        "teks": "Arah B / Direction B"
+      },
+      {
+        "id": "C",
+        "teks": "Arah C / Direction C"
+      },
+      {
+        "id": "D",
+        "teks": "Arah D / Direction D"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Sudut genting n = 1 / sin c → 1.52 = 1 / sin c → c = 41.14°. Sudut tuju i = 45° > c (41.14°), maka pantulan dalam penuh berlaku.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q52",
+    "sumber": "Percubaan Pahang: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 52,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 78 menunjukkan pembentukan imej\ndaripada suatu objek oleh kanta cembung.\nDiagram 78 shows the formation of an image\nfrom an object by a convex lens. (Pahang: 2021)\n10 cr\nImcj\nInaee\nObck 4 cm\nObject\n30em\nRajah 78 / Diagran 78\nBerapakah tinggi objek itu jika tinggi imejnya\nadalah 4 cm?\nWhat is the height of the object ifthe height of its\nimage is 4 cm?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.5 cm"
+      },
+      {
+        "id": "B",
+        "teks": "1.0 cm"
+      },
+      {
+        "id": "C",
+        "teks": "2.0 cm"
+      },
+      {
+        "id": "D",
+        "teks": "3.0 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Pembesaran linear: hᵢ/hₒ = v/u → 4 cm / hₒ = (30 - 10) cm / 10 cm = 20/10 = 2 → hₒ = 4 / 2 = 2.0 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q53",
+    "sumber": "Percubaan Pahang: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 53,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 79 menunjukkan sinar cahaya selari\nditujukan ke permukaan cermin cekung.\nDiagram 79 shows parallel light rays directed at\nthe surface ofa concave mirror. (Pahang: 2021)\nRajah yang manakah menunjukkan lintasan\ncahaya selepas terkena cermin itu?\nWhich diagram shows the path of the rays after\nstriking the mirror?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah79_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q53_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q53_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q53_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q53_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Cermin cekung menumpukan alur sinar cahaya yang selari dengan paksi utama ke titik fokus F.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q53_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q54",
+    "sumber": "Percubaan SBP: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 54,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya",
+    "spKod": "6.1.7",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 241-242",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 80 menunjukkan satu sinar cahaya\nditujukan secara normal dengan permukaan PQ\nbagi sebuah prisma kaca. Diberi bahawa indeks\nbiasan prisma tersebut ialah 1.50.\nDiagram 80 shows a light ray directed normally\nto PQ of a glass prism. Given that the vefractive\nindex of the prism is 1.50. (SBP: 2021)\nLintasan manakah A, B, C dan D menunjukkan\nperambatan cahaya yang betul selepas melalui\nPR?\nWhich path A, B, C and D shows the correct\npropagation of light after passing PR?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah80_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Lintasan A / Path A"
+      },
+      {
+        "id": "B",
+        "teks": "Lintasan B / Path B"
+      },
+      {
+        "id": "C",
+        "teks": "Lintasan C / Path C"
+      },
+      {
+        "id": "D",
+        "teks": "Lintasan D / Path D"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Sudut genting n = 1 / sin c → 1.50 = 1 / sin c → c = 41.81°. Sudut tuju i = 70° > c, maka pantulan dalam penuh berlaku.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q55",
+    "sumber": "Percubaan SBP: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 55,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 81 menunjukkan satu rajah sinar yang tidak\nlengkap bagi sebuah kanta cekung. Tentukan\nkedudukan imej.\nDiagram 81 shows an incomplete ray diagram\nfor a concavelens. Determine position of image.\n(SBP: 2021)",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah81_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Kedudukan A / Position A"
+      },
+      {
+        "id": "B",
+        "teks": "Kedudukan B / Position B"
+      },
+      {
+        "id": "C",
+        "teks": "Kedudukan C / Position C"
+      },
+      {
+        "id": "D",
+        "teks": "Kedudukan D / Position D"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Rajah sinar kanta cekung mencapahkan sinar dari titik fokus F di hadapan kanta.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q55_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q56",
+    "sumber": "Percubaan Melaka: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 56,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 82 menunjukkan satu objek diletakkan di\nhadapan sebuah kanta cembung dengan panjang\nfokus 10 cm.\nDiagram 82 shows an object is placed in front of\na convex lens with focal length of 10 cm.\n(Melaka: 2021)\n6 cm\nObjek\nObject\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of image formed?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah82_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Mengecil, tegak, maya / Diminished, upright, virtual"
+      },
+      {
+        "id": "B",
+        "teks": "Mengecil, songsang, nyata / Diminished, inverted, real"
+      },
+      {
+        "id": "C",
+        "teks": "Membesar, songsang, nyata / Magnified, inverted, real"
+      },
+      {
+        "id": "D",
+        "teks": "Membesar, tegak, maya / Magnified, upright, virtual"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Kanta cembung (f = +10 cm, u = 6 cm): 1/10 = 1/6 + 1/v → 1/v = 1/10 - 1/6 = -4/60 → v = -15 cm (Maya & Tegak). M = 15/6 = 2.5 (Diperbesarkan).",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q57",
+    "sumber": "Percubaan Melaka: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 57,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 83 menunjukkan pembentukan imej\ndaripada suatu objek oleh kanta cembung.\nDiagram 83 shows the formation of an image\nfrom an object by a convex lens. (Melaka: 2021)\n20,cP\nf Imej\nInage\nObjek 4 cm\nObject\n60 em\nBerapakalh tinggi objek itu jika tinggi imejnya\nadalah 4 cm?\nWhatis the height oftheobject if the heightof its\nimage is 4 cm?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah83_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "0.3 cm"
+      },
+      {
+        "id": "B",
+        "teks": "1.3 cm"
+      },
+      {
+        "id": "C",
+        "teks": "2.0 cm"
+      },
+      {
+        "id": "D",
+        "teks": "3.0 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Pembesaran linear: hᵢ/hₒ = v/u → 4 cm / hₒ = (60 - 20) cm / 20 cm = 40/20 = 2 → hₒ = 4 / 2 = 2.0 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q58",
+    "sumber": "Percubaan Melaka: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 58,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah manakah yang menunjukkan pantulan\ncahaya yang betul oleh sebuah cermin cekung?\nWhich diagram shows the correct reflection of\nlight by a concave nirror? (Melaka: 2021)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q58_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+      },
+      {
+        "id": "B",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q58_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+      },
+      {
+        "id": "C",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q58_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+      },
+      {
+        "id": "D",
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k3_q58_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Cermin cekung bagi u > 2f membentuk imej nyata, songsang dan diperkecilkan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q58_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q59",
+    "sumber": "Percubaan Perlis: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 59,
+    "sk": "SK 6.3 Pembentukan Imej oleh Kanta",
+    "sp": "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung",
+    "spKod": "6.3.3",
+    "rujukanDskp": "DSKP Fizik T4 ms 82-83",
+    "rujukanBukuTeks": "Buku Teks T4 ms 254-259",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 6-8",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.3 Pembentukan Imej oleh Kanta",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 84 menunjukkan pembentukan imej suatu\nobjek oleh sebuah kanta cembung.\nDiagram 84 shows the image formation of an\nobject by a convex lens (Perlis: 2021)\nObjek Object Image\n26 cm\nRajah 84 / Diagran 84\nJika tinggi objek ialah 2 cm, berapakah tinggi\nimej?\nIf the height of the object is 2 cm, what is the\nheightoftheimage?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "3.25 cm"
+      },
+      {
+        "id": "B",
+        "teks": "4.00 cm"
+      },
+      {
+        "id": "C",
+        "teks": "4.50 cm"
+      },
+      {
+        "id": "D",
+        "teks": "6.50 cm"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Pembesaran linear: hᵢ/hₒ = v/u → hᵢ / 2 cm = (26 - 8) cm / 8 cm = 18/8 = 2.25 → hᵢ = 4.5 cm.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q60",
+    "sumber": "Percubaan SPM: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 60,
+    "sk": "SK 6.6 Pembentukan Imej oleh Cermin Sfera",
+    "sp": "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung",
+    "spKod": "6.6.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 88-89",
+    "rujukanBukuTeks": "Buku Teks T4 ms 273-280",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 13-14",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 85 menunjukkan satu objek diletakkan 10\ncm di hadapan sebuah cermin cekung yang\nmempunyai panjang fokus, f = 5 cm.\nDiagram 85 shows an object that is placed 10 cm\nin front ofaconcavemirror offocallength, f= 5\ncm. (SPM: 2021)\nObjek\nObiect Cermin cekung\nConcave mirror\n10 cm Sem\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of the image formed?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah85_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Nyata, sama saiz, songsang / Real, same size, inverted"
+      },
+      {
+        "id": "B",
+        "teks": "Nyata, diperkecil, songsang / Real, diminished, inverted"
+      },
+      {
+        "id": "C",
+        "teks": "Maya, sama saiz, tegak / Virtual, same size, upright"
+      },
+      {
+        "id": "D",
+        "teks": "Maya, diperkecil, tegak / Virtual, diminished, upright"
+      }
+    ],
+    "jawapanBetul": "A",
+    "penerangan": "Cermin cekung pada u = 2f menghasilkan imej nyata, songsang dan sama saiz pada titik C.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q60_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q61",
+    "sumber": "Percubaan SPM: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 61,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh",
+    "spKod": "6.2.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 250-251",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 86 menunjukkan satu sinar cahaya yang\nmerambat keluar dari suatu bongkah perspeks.\nDiagram 86 shows a light ray propagates out\nfron theperspex block. (SPM: 2022)\nNomal\nNanuol\nSinar tuju\nIncident ray\nBlok perspeks\nPerspexbiock\nBerapakah nilai sudut genting perspeks itu?\nWhat is the critical angle of theperspex?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah86_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "37.73°"
+      },
+      {
+        "id": "B",
+        "teks": "41.73°"
+      },
+      {
+        "id": "C",
+        "teks": "60.16°"
+      },
+      {
+        "id": "D",
+        "teks": "70.66°"
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Hukum Snell n = sin 60° / sin 35.2° = 1.50. Sudut genting n = 1 / sin c → 1.50 = 1 / sin c → c = 41.73°.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K3_Q62",
+    "sumber": "Percubaan SPM: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 62,
+    "sk": "SK 6.2 Pantulan Dalam Penuh",
+    "sp": "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh",
+    "spKod": "6.2.4",
+    "rujukanDskp": "DSKP Fizik T4 ms 80-81",
+    "rujukanBukuTeks": "Buku Teks T4 ms 250-251",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 4-5",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.2 Pantulan Dalam Penuh",
+    "aras": "Sederhana",
+    "konstruk": "Mengaplikasi",
+    "soalan": "Rajah 87 menunjukkan sebutir berlian yang\nbersinar apabila terkena cahaya. Sudut genting\nbagi berlian ialah 25°.\nDiagram 87 shows a diamond that shines when\nexposed to light. The critical angle of the\ndiamond is 25°. (SPM: 2023)\nAntara A, B, C, dan D, yang manakah\nmenunjukkan laluan sinar yang betul selepas\nsinar tuju melalui titik P?\nWhich of A, B, C, or D shows the correct path of\nthe ray after the incident raypasses through point\nP?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah87_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Laluan A / Path A"
+      },
+      {
+        "id": "B",
+        "teks": "Laluan B / Path B"
+      },
+      {
+        "id": "C",
+        "teks": "Laluan C / Path C"
+      },
+      {
+        "id": "D",
+        "teks": "Laluan D / Path D"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Bagi intan dengan sudut genting c = 25°, sudut tuju i = 65° > c menyebabkan berlakunya pantulan dalam penuh berkali-kali menghasilkan kilauan intan.\n<div class=\"rubrik-diagram my-2\"><img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/rubrik/t4_b6_k3_q62_rubrik_v2.webp\" alt=\"Rajah Sinar / Rubrik Jawapan\" style=\"max-height:220px; border-radius:6px; border:1px solid #e2e8f0;\"/></div>",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K4_Q01",
+    "sumber": "Percubaan Pulau Pinang: 2023",
+    "tahun": 2023,
+    "noSoalanAsal": 1,
+    "sk": "SK 6.1 Pembiasan Cahaya",
+    "sp": "SP 6.1.5 Menerangkan dalam nyata dan dalam ketara",
+    "spKod": "6.1.5",
+    "rujukanDskp": "DSKP Fizik T4 ms 78-79",
+    "rujukanBukuTeks": "Buku Teks T4 ms 238-241",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 1-3",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.1 Pembiasan Cahaya",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 88 (a) dan Rajah 88 (b) menunjukkan\nseekor ikan melihat seekor kumbang pada\nkedudukan yang berbeza.\nDiagram 88 (a) and Diagram 88 (b) show a fish\nlooking at a beetle in different positions.\n(Pulau Pinang: 2023)\nImej kumbang Kumbang\nImageofbeele\nBeetle Beete\nIkan Ikan\nFish Fish\nRajah 88 (a) Rajah 88 (b)\nDiagram 88 (a) Diagram 88 (b)\nMengapakah ikan dalam Rajah 88 (b) melihat\nkumbang dan imejnya berada pada kedudukan\nyang sama?\nWhy does the fish in Diagram 88 (b) see the\nbeetle and its image in the same position?",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Ketumpatan air dalam Rajah 88 (b) lebih besar. The density of water in Diagram 88 (b) is / greater."
+      },
+      {
+        "id": "B",
+        "teks": "Penglihatan dalam Rajah 88 (b) berlaku pada sudutnomal. The sighting in Diagram 88 (b) is done at an angle to the normal."
+      },
+      {
+        "id": "C",
+        "teks": "Jarak antara ikan dan kumbang dalam Rajah The distance betveen the fish and the beetle in Diagram 88 (b) is closer."
+      },
+      {
+        "id": "D",
+        "teks": "Kedalaman ikan dari permukaan air dalam Rajah 88 (b) lebih besar. The depth of the fish rom the surface of the water in Diagram 88 (b) is / greater."
+      }
+    ],
+    "jawapanBetul": "B",
+    "penerangan": "Analisis pembiasan dan kedalaman ketara: Pembiasan cahaya menyebabkan imej ikan kelihatan lebih cetek berbanding kedalaman sebenar.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K4_Q02",
+    "sumber": "Percubaan SBP: 2022",
+    "tahun": 2022,
+    "noSoalanAsal": 2,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 89 menunjukkan kanta cembung yang\ndigunakan dalam sebuah teleskop astronomi.\nJarak fokus kanta objektif dan kanta mata\nmasing-masing adalah f dan fe, manakala L\nadalah jarak antara kanta objektif dan kanta mata.\nDiagram 89 shows a convex lens used in an\nastronomy telescope. The focal length of the\nobjective and eye lenses are fo and fe respectively,\nwhile L is the distance betweeneeneen the objective lens\nand eyepiece lens. (SBP: 2022)\nKanta objektif\nObjective lens\nKantarmata\n|Eyepiece lens\nYang manakah antara penerangan berikut adalah\nbetul?\nWhich of the following explanations is correct?\nSpesifikasi Sebab\nSpecification Reason\nImej akhir yang paling\ntajam dan paling cerah",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah89_v2.webp",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "L > fo + fe : Imej akhir yang paling tajam dan paling cerah terhasil / The final image produced is the sharpest and brightest"
+      },
+      {
+        "id": "B",
+        "teks": "fo > fe : Pembesaran linear imej kecil / Small linear magnification of the image"
+      },
+      {
+        "id": "C",
+        "teks": "L = fo + fe : Imej akhir yang paling tajam dan paling cerah terhasil / The final image produced is the sharpest and brightest"
+      },
+      {
+        "id": "D",
+        "teks": "fo < fe : Pembesaran linear imej besar / Big linear magnification of the image"
+      }
+    ],
+    "jawapanBetul": "C",
+    "penerangan": "Teleskop astronomi: Kanta objektif berfokus panjang fₒ dan kanta mata berfokus pendek fₑ. Pada pelarasan normal, jarak pemisahan kanta L = fₒ + fₑ.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K4_Q03",
+    "sumber": "Percubaan SPM: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 3,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 90 (a) dan Rajah 90 (b) menunjukkan rajah\nsinar kanta cembung dengan panjang fokus yang\nsama dalam sebuah kamera yang menghasilkan\nsatu imej dengan ketinggian, h₁ dan h2.\nDiagrams 90 (a) dan Diagram 90 (b) show a ray\ndiagram of convex lens with a same focal length\nin a camera which produces an image of height,\nh₁ and h2. (SPM: 2021)\nObjek / Object h,\nObject\nRajah 90 (a) / Diagram 90 (a)\nObjek\nObject\nRajah 90 (b) / Diagram 90 (b)\nHubungan yang manakah betul?\nWhich relationship is correct?\nJarak objek Ketinggian imej\nObject distance Height ofimage\nSama Bertambah\nSame Increases\nBertambah Sama\nIncreases Same\nBerkurang Berkurang\nDecreases Decreases\nD Berkurang Bertambah\nDecreases Increases",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Jarak objek sama, Ketinggian imej bertambah / Object distance same, Image height increases"
+      },
+      {
+        "id": "B",
+        "teks": "Jarak objek bertambah, Ketinggian imej sama / Object distance increases, Image height same"
+      },
+      {
+        "id": "C",
+        "teks": "Jarak objek berkurang, Ketinggian imej berkurang / Object distance decreases, Image height decreases"
+      },
+      {
+        "id": "D",
+        "teks": "Jarak objek berkurang, Ketinggian imej bertambah / Object distance decreases, Image height increases"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Kanta kamera: Apabila jarak objek berkurang (objek mendekati kamera), jarak imej dan ketinggian imej bertambah.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
+  },
+  {
+    "id": "MODUL_T4_B6_K4_Q04",
+    "sumber": "Percubaan SPM: 2021",
+    "tahun": 2021,
+    "noSoalanAsal": 4,
+    "sk": "SK 6.5 Peralatan Optik",
+    "sp": "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)",
+    "spKod": "6.5.1",
+    "rujukanDskp": "DSKP Fizik T4 ms 86-87",
+    "rujukanBukuTeks": "Buku Teks T4 ms 266-270",
+    "rujukanCheatnote": "Cheatnote T4 Bab 6 ms 11-12",
+    "kertas": 1,
+    "tingkatan": 4,
+    "babNo": 6,
+    "babNama": "Cahaya dan Optik",
+    "bidang": "Gelombang, Cahaya dan Optik",
+    "topik": "6.5 Peralatan Optik",
+    "aras": "Tinggi",
+    "konstruk": "Menganalisis",
+    "soalan": "Rajah 91 (a) dan Rajah 91 (b) menunjukkan imej\ndari kanta kamera yang mempunyai panjang\nfokus yang sama.\nDiagrams 91 (a) and91 (b) show the images from\na camera lens of thesame focal length.\n(SPM: 2021)\nRajah 91 (a) Rajah 91 (b)\nDiagram 91 (a) Diagran 91 (b)\nPasangan kedudukan objek manakah yang betul?\nWhich pair of position ofan object is correct?\nRajah 91 (a) Rajah 91 (b)\nDiagram 91 (a) Diagram 91 (b)",
+    "rajahUrl": "",
+    "pilihan": [
+      {
+        "id": "A",
+        "teks": "Rajah 91(a): u = 2f, Rajah 91(b): f < u < 2f / Diagram 91(a): u = 2f, Diagram 91(b): f < u < 2f"
+      },
+      {
+        "id": "B",
+        "teks": "Rajah 91(a): u > 2f, Rajah 91(b): u = 2f / Diagram 91(a): u > 2f, Diagram 91(b): u = 2f"
+      },
+      {
+        "id": "C",
+        "teks": "Rajah 91(a): u > 2f, Rajah 91(b): f < u < 2f / Diagram 91(a): u > 2f, Diagram 91(b): f < u < 2f"
+      },
+      {
+        "id": "D",
+        "teks": "Rajah 91(a): f < u < 2f, Rajah 91(b): u > 2f / Diagram 91(a): f < u < 2f, Diagram 91(b): u > 2f"
+      }
+    ],
+    "jawapanBetul": "D",
+    "penerangan": "Kedudukan objek pada kanta kamera: Imej yang lebih kecil terhasil apabila jarak objek u > 2f, manakala imej yang lebih besar terhasil apabila jarak objek berada pada f < u < 2f.",
+    "markah": 1,
+    "statusSemakan": "Disemak (Modul K1)"
   }
 ];
 

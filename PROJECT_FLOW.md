@@ -1,10 +1,10 @@
 # 🧭 PROJECT FLOW & LIVING ARCHITECTURE: HUB BANK SOALAN FIZIK SPM
 
-> **Status Semasa:** FASA 7 (Ingest Modul Bab 5 Gelombang & Precision Crop v2) ✅ SELESAI | FASA 8 (Ingest T4 Bab 6: Cahaya dan Optik) 🔄 SEDIA DIMULAKAN  
+> **Status Semasa:** FASA 8 (Ingestion Tingkatan 4 Bab 6: Cahaya dan Optik & Precision Crop v2) ✅ SELESAI | FASA 9 (Ingest Silibus Penuh Tingkatan 5) 🔄 SEDIA DIMULAKAN  
 > **Tarikh Kemas Kini Terakhir:** 2026-09-24  
 > **Direktori Utama Projek:** `/Users/halimroslan/Desktop/HUB BANK SOALAN FIZIK/FIZIK_SPM_HUB_PROJEK`  
 > **Pelayan Tempatan:** `http://localhost:8192` | **GitHub Repo:** `https://github.com/abdulhalimroslan2/banksoalanfizik`  
-> **Fail Pangkalan Data:** [`dskp-data.js`](file:///Users/halimroslan/Desktop/HUB%20BANK%20SOALAN%20FIZIK/FIZIK_SPM_HUB_PROJEK/dskp-data.js) (656 Soalan Aktif)
+> **Fail Pangkalan Data:** [`dskp-data.js`](file:///Users/halimroslan/Desktop/Kod%20Sumber%20(Antigravity)/HUB%20BANK%20SOALAN%20FIZIK%20SPM%20KSSM/FIZIK_SPM_HUB_PROJEK/dskp-data.js) (788 Soalan Aktif: 100% Golden Invariants)
 
 ---
 
@@ -24,7 +24,7 @@ Platform web bersepadu pengurusan Bank Soalan Fizik SPM (KSSM Kod 4531) merangku
 | **Fasa 5** | **Ingest Verbatim DSKP T4 Bab 1 – Bab 3** | ✅ Selesai | 399 soalan dengan skema rasmi dan rajah WebP bersih v2. |
 | **Fasa 6** | **Ingest Modul Bab 4: Haba & Precision Crop v2** | ✅ Selesai | **105 soalan** (K1: 21, K2: 42, K3: 30, K4: 12) + **71 rajah stem v2** disahkan 100% bebas kebocoran kapsyen/teks soalan. |
 | **Fasa 7** | **Ingest T4 Bab 5: Gelombang (Waves)** | ✅ Selesai | **148 soalan** (K1: 8, K2: 103, K3: 30, K4: 7) + **112 rajah stem v2** disahkan 100% bebas kebocoran kapsyen/teks soalan & pembaikan rajah puncak lajur. |
-| **Fasa 8** | **Ingest T4 Bab 6: Cahaya dan Optik** | 🔄 Sedia Mula | Sumber PDF sedia ada (`Modul Konstruk K1 BAB 6 T4.pdf`, ~95 soalan est); SK 6.1 – SK 6.6. |
+| **Fasa 8** | **Ingest T4 Bab 6: Cahaya dan Optik** | ✅ Selesai | **132 soalan** (K1: 2, K2: 64, K3: 62, K4: 4) + **96 rajah stem v2** di Cloudflare R2 + **23 rajah rubrik jawapan** + **44 rajah pilihan ABCD**; SK 6.1 – SK 6.6 disahkan 100% lulus 13 Golden Invariants. |
 | **Fasa 9** | **Ingest Silibus Penuh Tingkatan 5 (Bab 1 – 7)** | ⏳ Fasa 2026 | ~650 soalan est meliputi 7 bab DSKP Tingkatan 5. |
 | **Fasa 10** | **Modul Soalan Segar Kertas 2 (LPM Rules)** | ⏳ Perancangan | Olahan soalan berstruktur & esei Bahagian A (60m), B (20m), C (20m). |
 | **Fasa 11** | **Hub Kertas 3 (Amali Fizik DSKP)** | ⏳ Perancangan | 15 markah instrumen amali radas DSKP (Hukum Hooke, Ohm, dll). |
