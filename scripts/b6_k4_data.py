@@ -85,7 +85,7 @@ def get_k4_questions():
                         "teks": "Jarak objek berkurang, Ketinggian imej bertambah / Object distance decreases, Image height increases"
             }
 ],
-        "", "Percubaan SPM: 2021", 2021
+        "rajah90", "Percubaan SPM: 2021", 2021
     ))
 
     # MODUL_T4_B6_K4_Q04
@@ -110,7 +110,7 @@ def get_k4_questions():
                         "teks": "Rajah 91(a): f < u < 2f, Rajah 91(b): u > 2f / Diagram 91(a): f < u < 2f, Diagram 91(b): u > 2f"
             }
 ],
-        "", "Percubaan SPM: 2021", 2021
+        "rajah91", "Percubaan SPM: 2021", 2021
     ))
 
     return questions

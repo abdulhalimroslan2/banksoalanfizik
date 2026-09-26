@@ -29815,7 +29815,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Rendah",
     "konstruk": "Mengingat",
-    "soalan": "Apakah ciri-ciri imej yang dihasilkan oleh cermin\ncembung?\nWhat are the characteristics of image produced\nby a convex mirror? (Kelantan: 2023)",
+    "soalan": "Apakah ciri-ciri imej yang dihasilkan oleh cermin cembung?\nWhat are the characteristics of the image produced by a convex mirror?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -29859,7 +29859,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Rendah",
     "konstruk": "Mengingat",
-    "soalan": "Berikut adalah formula bagi kanta nipis.\nFollowing is the formula for a thin lens.\n(Kelantan: 2023)\n1 1 1\nf u v\nf mewakili\nf represents",
+    "soalan": "Berikut adalah formula bagi kanta nipis:\nFollowing is the formula for a thin lens:\n$$\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$$\nf mewakili\nf represents",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -29903,7 +29903,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 1 menunjukkan graf jarak imej, v melawan\npembesaran linear, m bagi suatu kanta cembung\nDiagram 1 shows a graph of image distance, v\nagainst linear magnification, m for a convex lens.\n(Negeri Sembilan: 2023)\n-m\nApakah kuantiti yang diwakili oleh p?\nWhat is the quantity represented by p?",
+    "soalan": "Rajah 1 menunjukkan graf jarak imej, v melawan pembesaran linear, m bagi suatu kanta cembung.\nDiagram 1 shows a graph of image distance, v against linear magnification, m for a convex lens.\nApakah kuantiti yang diwakili oleh p?\nWhat is the quantity represented by p?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah1_v2.webp",
     "pilihan": [
       {
@@ -29947,7 +29947,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Antara yang berikut, alat optik manakah yang\nmenggunakan konsep pantulan dalam penuh?\nWhich of the following optical instrument uses\nthe concept of the total internal reflection?\n(Negeri Sembilan: 2023)",
+    "soalan": "Antara yang berikut, alat optik manakah yang\nmenggunakan konsep pantulan dalam penuh?\nWhich of the following optical instrument uses\nthe concept of the total internal reflection?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -29991,7 +29991,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Pembentukan logamaya boleh dilihat di atas jalan\nraya pada hari yang panas. Fenomena cahaya\nmanakah menyebabkan kejadian logamaya?\nMirage can be seen on a road on a hot day. Which\nlight phenomena cause the appearance of\nmirages? (Negeri Sembilan: 2023)",
+    "soalan": "Pembentukan logamaya boleh dilihat di atas jalan\nraya pada hari yang panas. Fenomena cahaya\nmanakah menyebabkan kejadian logamaya?\nMirage can be seen on a road on a hot day. Which\nlight phenomena cause the appearance of\nmirages?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30035,7 +30035,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 2 menunjukkan kabel gentian optik.\nDiagram 2 shows an optical fibre cable.\n(Pahang: 2023)\nTeras dalam\nKabel gentian oplk Penyalut Innercore\nOptical fbre cable Outer cadding\nPernyataan manakah yang betul berkenaan\nisyarat cahaya yang masuk ke dalam gentian\noptik?\nWhich statement is correct regarding the light\nsignal enter an optical fibre?\nI Sudut biasan, r lebih kecil daripada sudut\ntuju, i\nThe angle of refraction, r is less than the\nangle of incidence, i\nII Indeks biasan teras dalam, n, lebih tinggi\ndaripada indeks biasan penyalut, no\nThe refractive index of the inner core, n, is\nhigher than the refractive index of the outer\ncladding, no\nIII Pantulan dalam penuh berlaku apabila sudut\ntuju, i melebihi sudut genting, c\nTotal internal reflection occurs when the\nangle of incidence, i greater than the critical\nangle, c\nIV Sudut tuju, i adalah sama dengan sudut\npantulan, r apabila berlakunya pantulan\ndalam penuh di dalam teras\nThe angle of incidence, i is equal to the angle\nof reflection, r during the occurrence of total\ninternal reflection in the core",
+    "soalan": "Rajah 2 menunjukkan kabel gentian optik.\nDiagram 2 shows an optical fibre cable.\nPernyataan manakah yang betul berkenaan isyarat cahaya yang masuk ke dalam gentian optik?\nWhich statement is correct regarding the light signal entering an optical fibre?\nI Sudut biasan, r lebih kecil daripada sudut tuju, i\nThe angle of refraction, r is less than the angle of incidence, i\nII Indeks biasan teras dalam, n₁ lebih tinggi daripada indeks biasan penyalut, n₂\nThe refractive index of the inner core, n₁ is higher than the refractive index of the outer cladding, n₂\nIII Pantulan dalam penuh berlaku apabila sudut tuju, i melebihi sudut genting, c\nTotal internal reflection occurs when the angle of incidence, i is greater than the critical angle, c\nIV Sudut tuju, i adalah sama dengan sudut pantulan, r apabila berlakunya pantulan dalam penuh di dalam teras\nThe angle of incidence, i is equal to the angle of reflection, r during the occurrence of total internal reflection in the core",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah2_v2.webp",
     "pilihan": [
       {
@@ -30079,7 +30079,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Formula kanta nipis memberikan hubungan\nantara jarak objek, u, jarak imej, v, dengan\npanjang fokus, f bagi suatu kanta sebagai:\nThin lens formula gives the relationship betweeneeneen\nthe object distance, u, the image distance, v, and\nfocal length,f for alensas:(Pahang:2023)\nAntara berikut, kombinasi manakah benar\nberkaitan dengan peraturan tanda bagi panjang\nfokus, f untuk formula kantanipis?\nWhich of the following combination is true\nregarding the sign conventionfor the focal length\nof a lensfor a thin lensformula?\nJenis kanta Peraturan tanda\nType oflens Signconvention\nCembung Positif\nConvex Positive\nCekung Positif\nConcave Positive\nII Cembung Negatif\nConvex Negative\nIV Cekung Negatif\nConcave Negative",
+    "soalan": "Formula kanta nipis memberikan hubungan\nantara jarak objek, u, jarak imej, v, dengan\npanjang fokus, f bagi suatu kanta sebagai:\nThin lens formula gives the relationship between\nthe object distance, u, the image distance, v, and\nfocal length,f for a lens as:\nAntara berikut, kombinasi manakah benar\nberkaitan dengan peraturan tanda bagi panjang\nfokus, f untuk formula kanta nipis?\nWhich of the following combination is true\nregarding the sign convention for the focal length\nof a lens for a thin lens formula?\nJenis kanta Peraturan tanda\nType of lens Signconvention\nCembung Positif\nConvex Positive\nCekung Positif\nConcave Positive\nII Cembung Negatif\nConvex Negative\nIV Cekung Negatif\nConcave Negative",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30123,7 +30123,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 3 menunjukkan sebuah cermin bintik buta\nyang diletakkan di sebuah selekoh.\nDiagram 3 shows a blind spot mirror placed on a\nsharp bend of the road. (Pahang: 2023)\nCermin cembung\nConvex mirror\nRajah3 / Diagram3\nAntara berikut, manakah merupakan kelebihan\nmenggunakan cermin cembung sebagai cermin\nbintik buta tersebut?\nWhichof the following is an advantage of using a\nconvex mirror as a blind spot mirror?",
+    "soalan": "Rajah 3 menunjukkan sebuah cermin bintik buta yang diletakkan di sebuah selekoh.\nDiagram 3 shows a blind spot mirror placed on a sharp bend of the road.\nAntara berikut, manakah merupakan kelebihan menggunakan cermin cembung sebagai cermin bintik buta tersebut?\nWhich of the following is an advantage of using a convex mirror as a blind spot mirror?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30167,7 +30167,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 4 menunjukkan sebatang lilin dengan\nimejnya dalam cermin satah.\nDiagram 4 shows a candle with its inage in a\nplane mirror (Pulau Pinang: 2023)\nCermin satah\nPlane mirror\nObjek Imej\nObject Image\nJarak objek, u\nObject distance, u\nPasangan manakah yang betul jika imej yang\ningin dihasilkan adalah besar dan tegak?\nWhich pair is correct if the image to beproduced\nis large and uprigh?\nJenis cermin Kedudukan lilin\nTypeof nirror The position of candle",
+    "soalan": "Rajah 4 menunjukkan sebatang lilin dengan imejnya dalam cermin satah.\nDiagram 4 shows a candle with its image in a plane mirror.\nPasangan manakah yang betul jika imej yang ingin dihasilkan adalah besar dan tegak?\nWhich pair is correct if the image to be produced is large and upright?\nJenis cermin Kedudukan lilin\nType of mirror The position of candle",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah4_v2.webp",
     "pilihan": [
       {
@@ -30211,7 +30211,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 5 menunjukkan satu sinar cahaya\nmerambat dari udara ke kaca.\nDiagram 5 shows a light ray propagates from air\nto glass. (Perak: 2023)\nKaca\nGlut\nUdara\nAlr\nApakah indeks biasan kaca itu?\nWhat is the refractive index of the glass?",
+    "soalan": "Rajah 5 menunjukkan satu sinar cahaya merambat dari udara ke kaca.\nDiagram 5 shows a light ray propagates from air to glass.\nApakah indeks biasan kaca itu?\nWhat is the refractive index of the glass?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah5_v2.webp",
     "pilihan": [
       {
@@ -30255,7 +30255,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 6 menunjukkan satu sinar cahaya MN\nditujukan ke arah satu blok semibulatan yang lut\nsinar. Sudut genting bagi blok lut sinar itu ialah\n41°. Arah manakah sinar itu bergerak dari titik 0?\nDiagram 6 shows a light ray MN directed to a\ntransparent semicircular block. The critical angle\nof the transparent block is 41°. Which direction\ndoes the ray move from point O? (Perak: 2023)\nGaris normal\nNornal line\no B\nBlok semibulatan\nSemicircular block\nNX",
+    "soalan": "Rajah 6 menunjukkan satu sinar cahaya MN ditujukan ke arah satu blok semibulatan yang lut sinar. Sudut genting bagi blok lut sinar itu ialah 41°. Arah manakah sinar itu bergerak dari titik O?\nDiagram 6 shows a light ray MN directed to a transparent semicircular block. The critical angle of the transparent block is 41°. Which direction does the ray move from point O?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah6_v2.webp",
     "pilihan": [
       {
@@ -30299,7 +30299,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Antara alat berikut, yang manakah\nmengaplikasikan pantulan dalam penuh?\nWhich of thefollowving instruments applies total\ninternal reflection? (Perak: 2023)",
+    "soalan": "Antara alat berikut, yang manakah\nmengaplikasikan pantulan dalam penuh?\nWhich of thefollowving instruments applies total\ninternal reflection?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30343,7 +30343,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 7 menunjukkan satu alat optik yang\ndigunakan secara meluas dalam bidang\ntelekomunikasi dan perubatan.\nDiagram 7 below shows an optical instrument\nthat is used widely in the fields of\ntelecommunications and medicine. (Perlis: 2023)\nApakah fenomena cahaya yang membolehkan\nalat itu berfungsi?\nWhat is the phenomenon of light that enable the\ninstrument to function?",
+    "soalan": "Rajah 7 menunjukkan satu alat optik yang\ndigunakan secara meluas dalam bidang\ntelekomunikasi dan perubatan.\nDiagram 7 below shows an optical instrument\nthat is used widely in the fields of\ntelecommunications and medicine.\nApakah fenomena cahaya yang membolehkan\nalat itu berfungsi?\nWhat is the phenomenon of light that enable the\ninstrument to function?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah7_v2.webp",
     "pilihan": [
       {
@@ -30387,7 +30387,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 8 menunjukkan satu cermin pergigian yang\ndigunakan oleh doktor gigi untuk memeriksa\nkeadaan gigi pesakit.\nDiagram 8 shows a dental mirror used by a\ndentist to examine the condition of the patient 's\nteeth. (Perlis: 2023)\nRajah8/ Diagram 8\nMengapakah cermin yang digunakan oleh doktor\ngigi tersebut bukan cermin cembung?\nWhy is the mirror used by the dentist is not a\nconvex mirror?",
+    "soalan": "Rajah 8 menunjukkan cermin yang digunakan oleh doktor gigi untuk melihat keadaan gigi pesakit.\nDiagram 8 shows the mirror used by a dentist to look at the patient's teeth.\nAntara berikut, kedudukan manakah yang sesuai untuk meletakkan gigi pesakit supaya menghasilkan imej yang besar dan tegak?\nWhich of the following is the suitable position to place the patient's teeth to produce a large and upright image?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30431,7 +30431,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 9 menunjukkan seekor ikan melihat imej\nserangga berada di atas kedudukan sebenar.\nDiagram 9 shows a fish seeing an insect image\nabove the actual position. (SBP: 2023)\nImej serangga\nİnsect image\nSerangga\nInsect\nIkan\nFish\nPernyataan manakah yang betul menerangkan\nsituasi tersebut?\nWhich statement is correct to explain the\nsituation?",
+    "soalan": "Rajah 9 menunjukkan seekor ikan melihat imej serangga berada di atas kedudukan sebenar.\nDiagram 9 shows a fish seeing an insect image above the actual position.\nPernyataan manakah yang betul menerangkan situasi tersebut?\nWhich statement is correct to explain the situation?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah9_v2.webp",
     "pilihan": [
       {
@@ -30475,7 +30475,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Alat manakah yang mengaplikasikan konsep\npantulan dalam penuh?\nWhich instrument apply the concept of total\ninternal reflection? (SBP: 2023)",
+    "soalan": "Alat manakah yang mengaplikasikan konsep\npantulan dalam penuh?\nWhich instrument apply the concept of total\ninternal reflection?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30519,7 +30519,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Alat manakah yang menghasilkan suatu imej\nnyata, diperkecilkan dan songsang?\nWhich instrument produce a real, diminished and\ninverted image? (SBP: 2023)",
+    "soalan": "Alat manakah yang menghasilkan suatu imej\nnyata, diperkecilkan dan songsang?\nWhich instrument produce a real, diminished and\ninverted image?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30563,7 +30563,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 10 menunjukkan satu sinar cahaya\nmerambat dari udara ke dalam kaca.\nDiagram 10 shows a light ray propagating from\nair into glass. (Terengganu: 2023)\nNormal\nNormal\nUdara\nAir\nKaca\nGLASS\nApakah yang berlaku kepada sinar cahaya di\ndalam kaca?\nWhat happens to the light ray in the glass?",
+    "soalan": "Rajah 10 menunjukkan satu sinar cahaya merambat dari udara ke dalam kaca.\nDiagram 10 shows a light ray propagating from air into glass.\nApakah yang berlaku kepada sinar cahaya di dalam kaca?\nWhat happens to the light ray in the glass?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah10_v2.webp",
     "pilihan": [
       {
@@ -30607,7 +30607,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "• Cahaya merambat dari medium\nberketumpatan optik tinggi ke medium yang\nberketumpatan optik rendah.\nLight travels from a medium ofhigh optical\ndensity to a medium of low optical density.\n• Sudut tuju lebih besar daripada sudut\ngenting, C.\nThe angle of incidence is greater than the\ncritical angle,c.\nBerdasarkan pernyataan di atas, apakah\nfenomena yang terlibat?\nBased on the above statement, what is the\nphenomenon involved? (Terengganu: 2023)",
+    "soalan": "• Cahaya merambat dari medium\nberketumpatan optik tinggi ke medium yang\nberketumpatan optik rendah.\nLight travels from a medium ofhigh optical\ndensity to a medium of low optical density.\n• Sudut tuju lebih besar daripada sudut\ngenting, C.\nThe angle of incidence is greater than the\ncritical angle,c.\nBerdasarkan pernyataan di atas, apakah\nfenomena yang terlibat?\nBased on the above statement, what is the\nphenomenon involved?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30651,7 +30651,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 1l menunjukkan susunan radas bagi\neksperimen untuk mengkaji hubungan antara\njarak u dan jarak imej, v bagi kanta cembung.\nDiagram 11 shows an apparatus set-up of an\nexperiment to investigate the relationship\nbetveen object distance, u and image distance, v\nofa convex lens. (Terengganu: 2023)\nSkin puth\nKanta cembung White screen\nPembaris meler\nConvex lens\nObjek Metre rule\nObjedt\nMentol\nBulb\nPerubahan manakah meningkatkan jarak imej, v?\nWhich changes increases the inage distance, v?",
+    "soalan": "Rajah 11 menunjukkan susunan radas bagi eksperimen untuk mengkaji hubungan antara jarak objek, u dan jarak imej, v bagi kanta cembung.\nDiagram 11 shows an apparatus set-up of an experiment to investigate the relationship between object distance, u and image distance, v of a convex lens.\nPerubahan manakah meningkatkan jarak imej, v?\nWhich changes increases the image distance, v?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30695,7 +30695,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 12 menunjukkan sebuah cermin cekung.\nDiagram 12 shows a concave mirror.\n(Terengganu: 2023)\nCermin cekung\nConcave miror\nApakah jarak di antara P ke F?\nWhat is the distance betweeneeneen P and F?",
+    "soalan": "Rajah 12 menunjukkan pembentukan imej bagi suatu objek oleh cermin cekung.\nDiagram 12 shows the image formation of an object by a concave mirror.\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of the image formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah12_v2.webp",
     "pilihan": [
       {
@@ -30739,7 +30739,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 13 menunjukkan satu cermin keselamatan\ndipasang di selekoh tajam jalan raya.\nDiagram 13 shows a safety mirror installed at a\nsharp bend on the road. (SMKA: 2023)\nApakah ciri-ciri imej yang dihasilkan oleh cermin\ntersebut?\nWhat are the characteristics of the image\nproduced by the mirror?",
+    "soalan": "Rajah 13 menunjukkan satu cermin keselamatan\ndipasang di selekoh tajam jalan raya.\nDiagram 13 shows a safety mirror installed at a\nsharp bend on the road.\nApakah ciri-ciri imej yang dihasilkan oleh cermin\ntersebut?\nWhat are the characteristics of the image\nproduced by the mirror?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah13_v2.webp",
     "pilihan": [
       {
@@ -30783,7 +30783,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 14 menunjukkan seorang budak lelaki\nmelihat plat besi yang kelihatan hampir dengan\npemukaan air.\nDiagram 14 shows a boy looking at a metalplate\nthat appears closer to the water surface.\n(MRSM: 2023)\nimej\nImage\nobjek\nobject\nPernyataan manakah yang menerangkan situasi\ntersebut dengan betul?\nWhich statement explains the situation correctly'?",
+    "soalan": "Rajah 13 menunjukkan imej seekor ikan kelihatan lebih dekat dengan permukaan air.\nDiagram 13 shows an image of a fish appears closer to the water surface.\nPernyataan manakah yang menerangkan situasi itu?\nWhich statement explains the situation?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah14_v2.webp",
     "pilihan": [
       {
@@ -30827,7 +30827,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 15 menunjukkan seorang ahli gemologi\nsedang menggunakan kanta pembesar untuk\nmelihat berlian dengan lebih jelas.\nDiagram 15 shows a genımologist using\nmagnifying lens to observe the diamond clearly.\n(MRSM: 2023)\nBerlian\nDlamond\nApakah ciri imej berlian yang terbentuk?\nWhat is the characteristic of the diamond image\nformed?",
+    "soalan": "Rajah 14 menunjukkan sebutir berlian yang bersinar.\nDiagram 14 shows a sparkling diamond.\nCiri cahaya yang manakah membolehkan berlian itu bersinar?\nWhich light characteristic enables the diamond to sparkle?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah15_v2.webp",
     "pilihan": [
       {
@@ -30871,7 +30871,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Berikut menunjukkan empat aplikasi cermin\nsfera dalam kehidupan harian. Aplikasi manakah\nmenunjukkan kegunaan cermin cekung?\nThe following shows four applications of\nspherical mirror in daily life. Which application\nshows the useof concave mirror? (MRSM: 2023)",
+    "soalan": "Berikut menunjukkan empat aplikasi cermin\nsfera dalam kehidupan harian. Aplikasi manakah\nmenunjukkan kegunaan cermin cekung?\nThe following shows four applications of\nspherical mirror in daily life. Which application\nshows the useof concave mirror?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -30915,7 +30915,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 16 menunjukkan satu sinar merambat\ndalam satu bongkah kaca JKLM. Pantulan dalam\npenuh berlaku di X.\nDiagram 16 showsa ray of light propagates in a\nglass block JKLM. Total internal reflection\noccurs at X. (Kedah: 2022)\nSinar tuju\nIncident ray\nKotak sinar\nRay box M\nSinar pantulan\nBongkah kaca Reflected ray\nGlass blbck\nApakah syarat untuk berlakunya pantulan dalam\npenuh?\nWhat is the condition for total internal reflection\noccurs?",
+    "soalan": "Rajah 16 menunjukkan satu sinar merambat dalam satu bongkah kaca JKLM. Pantulan dalam penuh berlaku di X.\nDiagram 16 shows a ray of light propagates in a glass block JKLM. Total internal reflection occurs at X.\nApakah syarat untuk berlakunya pantulan dalam penuh?\nWhat is the condition for total internal reflection to occur?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah16_v2.webp",
     "pilihan": [
       {
@@ -30959,7 +30959,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 17 menunjukkan sinar cahaya diarahkan ke\nblok kaca.\nDiagram 17 shows a ray of light directed to a\nglass block. (Melaka: 2022)\nNormal.\nCahaya\nLight\nRajah 17 / I Diagran l17\nPernyataan manakah yang betul?",
+    "soalan": "Rajah 17 menunjukkan satu sinar cahaya melalui satu blok kaca.\nDiagram 17 shows a ray of light passing through a glass block.\nApakah sudut biasan bagi sinar cahaya tersebut?\nWhat is the angle of refraction for the light ray?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31003,7 +31003,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Antara yang berikut, yang manakah\nmenunjukkan ciri-ciri imej yang dilihat di bawah\nkanta pembesar?\nWhich of the following shows the characteristics\nof an image seen under a magnifying glass?\n(Melaka: 2022)",
+    "soalan": "Antara yang berikut, yang manakah\nmenunjukkan ciri-ciri imej yang dilihat di bawah\nkanta pembesar?\nWhich of the following shows the characteristics\nof an image seen under a magnifying glass?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31047,7 +31047,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 18 menunjukkan dua kabel gentian optik\nyang digunakan untuk penghantaran maklumat\ndalam sistem telekomunikasi.\nDiagram 18 shows two optical fibre cables that\nare used in transferring information in\ntelecommunication systems. (MRSM: 2022)\nGentian opik A Gentian optik B\nOptical fiber A Optical iber B\nudtgenting,c=33.75* Sudutgenting,c=41.47\nCritical angle, e Cotical angle, c\nRajah 18 / I Diagram 18\nPasangan ciri manakah dapat mengurangkan\nkehilangan maklumat semasa penghantaran?\nWhich pair of characteristics can reduce\ninformation lost during transmission?\nCermin pandang belakang kenderaan\nVehicle rear mirror\n24. Rajah 16 menunjukkan satu sinar merambat\ndalam satu bongkah kaca JKLM. Pantulan dalam\npenuh berlaku di X.\nDiagram 16 shows a ray of light propagates in a\nglass block JKLM. Total internal reflection\noccurs at X. (Kedah: 2022)\nShar tuu\nIncident ray\nKotak :sinar\nRay box M\nSnarpantulan\nBongkah kaca Refected ray\nGlass block\nRajah 16 / I Diagram 16\nApakah syarat untuk berlakunya pantulan dalam\npenuh?\nWhat is the condition for total internal reflection\noccurs?",
+    "soalan": "Rajah 18 menunjukkan dua kabel gentian optik yang digunakan untuk penghantaran maklumat dalam sistem telekomunikasi.\nDiagram 18 shows two optical fibre cables that are used in transferring information in telecommunication systems.\nPasangan ciri manakah dapat mengurangkan kehilangan maklumat semasa penghantaran?\nWhich pair of characteristics can reduce information lost during transmission?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah17_v2.webp",
     "pilihan": [
       {
@@ -31091,7 +31091,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 19 menunjukkan imej nyata, kecil dan\nsongsang yang terbentuk olch kanta cembung.\nDiagram 19 shows a real, diminished and\ninverted image formed by convex lens.\n(MRSM: 2022)\nMedan Saia\npenelihatan casor\nField\nitien ente\nJaral obick Panjasg fokus\nObitt distace Forallmgih\nAlatan manakah yang menghasilkan imej yang\nsama seperti Rajah 19?\nWhich instrument produced image as in Diagram\n19?",
+    "soalan": "Rajah 19 menunjukkan cermin pandang belakang kenderaan.\nDiagram 19 shows the vehicle rear mirror.\nAntara berikut, pernyataan manakah yang betul mengenai cermin tersebut?\nWhich of the following statements is correct regarding the mirror?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah19_v2.webp",
     "pilihan": [
       {
@@ -31135,7 +31135,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 20 menunjukkan keratan rentas cermin\ncekung bersama mentol yang digunakan pada\nlampu hadapan kereta. Jarak antara mentol dan\nkutub cermin sfera adalah d.\nDiagran 20 shows a cross sectional area of a\nconcave mirror witlh bulb used in a car headlight.\nDistance betweeneeneen bulb and pole of spherical\nmiror is d. (MRSM: 2022)\nCmsrturg\nKedudukan mentol yang manakah menghasilkan\npantulan cahaya yang selari?\nAt which position bulb will produce parallel\nreflection of ligh?",
+    "soalan": "Rajah 20 menunjukkan seorang pemerhati berdiri di hadapan sebuah cermin satah pada jarak d.\nDiagram 20 shows an observer standing in front of a plane mirror at distance d.\nBerapakah jarak antara pemerhati dan imejnya?\nWhat is the distance between the observer and his image?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31179,7 +31179,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Antara berikut yang manakah mengaplikasikan\nkonsep pantulan dalam penuh?\nWhich of the following apply the concept of total\ninternal reflection? (Negeri Sembilan: 2022)\nI Pembentukan pelangi\nFormation ofrainbow\nII Logamaya\nMirage\nIII Periskop cermin satah\nPlane mirror periscope\nIV Fiber optik\nOpticalfibre",
+    "soalan": "Antara fenomena berikut, yang manakah TIDAK melibatkan pantulan dalam penuh?\nWhich of the following phenomena does NOT involve total internal reflection?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31223,7 +31223,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Antara berikut yang manakah ciri-ciri imej yang\ndibentuk oleh kanta cembung apabila objek\nberada di 2F?\nWhich of the following characteristics of image\nformed by a covex lens when the object is at 2F?\n(Negeri Sembilan: 2022)",
+    "soalan": "Antara berikut yang manakah ciri-ciri imej yang\ndibentuk oleh kanta cembung apabila objek\nberada di 2F?\nWhich of the following characteristics of image\nformed by a convex lens when the object is at 2F?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31267,7 +31267,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Antara berikut yang manakah bukan aplikasi\ncermin cekung?\nWhich of the following is not the application of\nconcave nnirror? (Negeri Sembilan: 2022)",
+    "soalan": "Antara berikut yang manakah bukan aplikasi\ncermin cekung?\nWhich of the following is not the application of\nconcave nnirror?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31311,7 +31311,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 21 di bawah menunjukkan keadaan\nperkataan AUDIT dilihat melalui suatu kanta\npembesar.\nDiagram 21 below shows the appearance of the\nword AUDIT as seen through a magnifying lens.\n2022)(\n(Pahang:\nFenomenan cahaya manakah yang menerangkan\nsituasi ini?\nWhich light phenomenon explains this situation?",
+    "soalan": "Rajah 21 menunjukkan perkataan AUDIT dilihat melalui suatu kanta pembesar.\nDiagram 21 shows the word AUDIT as seen through a magnifying lens.\nFenomena cahaya manakah yang menerangkan situasi ini?\nWhich light phenomenon explains this situation?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah21_v2.webp",
     "pilihan": [
       {
@@ -31355,7 +31355,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Di manakah satu objek harus diletak di depan satu\nkanta cembung supaya imej sama besar dengan\nobjek? Jarak fokus kanta cembung itu ialah f.\nWhere should the object be placed in front of a\nconvex lens for it image is same as the objecr?\nThe focal length of the convex lens is f.\n(Putrajaya: 2022)",
+    "soalan": "Di manakah satu objek harus diletak di depan satu\nkanta cembung supaya imej sama besar dengan\nobjek? Jarak fokus kanta cembung itu ialah f.\nWhere should the object be placed in front of a\nconvex lens for it image is same as the objecr?\nThe focal length of the convex lens is f.",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31399,7 +31399,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 22 menunjukkan sinar cahaya yang selari\nditumpukan pada titik fokus, F kanta selepas\nmelalui sebuah kanta cembung.\nDiagram 22 shows parallel light rays coverged\nat a focal point, F of the lens after passing\nthrough a convex lens. (SBP: 2022)\nPaksi utama\nPrincipal axis\nPanjang fokus, f\nFocal lengih. f\nApakah yang akan berlaku pada panjang focus, f\napabila kanta cembung yang lebih tebal\ndigunakan?\nWhat will happen to the focal length, f when a\nthicker convex lens is used?",
+    "soalan": "Rajah 22 menunjukkan sinar cahaya selari ditumpukan pada titik fokus, F selepas melalui sebuah kanta cembung.\nDiagram 22 shows parallel light rays converged at a focal point, F after passing through a convex lens.\nApakah yang akan berlaku pada panjang fokus, f apabila kanta cembung yang lebih tebal digunakan?\nWhat will happen to the focal length, f when a thicker convex lens is used?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah22_v2.webp",
     "pilihan": [
       {
@@ -31443,7 +31443,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 23 menunjukkan kedudukan ketara seekor\nikan dilihat oleh seorang pemerhati yang berdiri\ndi pinggir sebuah tasik.\nDiagram 23showstheapparentposition of a fish\nas seen by an observer standing on the edge of a\nlake. (Selangor: Set 1: 2022)",
+    "soalan": "Rajah 23 menunjukkan kedudukan ketara seekor\nikan dilihat oleh seorang pemerhati yang berdiri\ndi pinggir sebuah tasik.\nDiagram 23 shows the apparent position of a fish\nas seen by an observer standing on the edge of a\nlake.",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah23_v2.webp",
     "pilihan": [
       {
@@ -31487,7 +31487,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 24 menunjukkan satu objek di hadapan\nsuatu cermin satah.\nDiagram 24 shows an object in front of a plane\nmirror (Selangor: Set 1: 2022)\nI4m\nCermin satah\nPlane mirror\nObick\nObject\nRajalh 24 / Diagram 24\nDi kedudukan manakah A, B, C dan D imej\nterbentuk?\nAt which position A, B, C or D is the image\nformed?",
+    "soalan": "Rajah 24 menunjukkan satu objek di hadapan suatu cermin satah.\nDiagram 24 shows an object in front of a plane mirror.\nDi kedudukan manakah A, B, C dan D imej terbentuk?\nAt which position A, B, C or D is the image formed?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31531,7 +31531,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 25 menunjukkan empat alat optik.\nDiagram 25 shows four optical devices.\n(Selangor: Set 1: 2022)\nPeriskop Endoskop Mikroskop\nPeriscope Telescope Endascope R Microscope\nAlat manakah yang menggunakan pantulan\ndalam penuh?\nWhich device uses total internal reflection?",
+    "soalan": "Rajah 25 menunjukkan empat alat optik.\nDiagram 25 shows four optical devices.\nAlat manakah yang menggunakan pantulan dalam penuh?\nWhich device uses total internal reflection?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah25_v2.webp",
     "pilihan": [
       {
@@ -31619,7 +31619,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajalh 26 menunjukkan sebuah blok kaca\ndiletakkan di hadapan sebatang pen. Pen itu\nkelihatan bengkok. Fenomena cahaya manakah\nyang menerangkan situasi ini?\nDiagram 26 shows a glass block is placed in front\nof thepen. Which lightphenonmenonexplains this\nsituation? (SMKA: 2022)",
+    "soalan": "Rajah 26 menunjukkan sebuah blok kaca\ndiletakkan di hadapan sebatang pen. Pen itu\nkelihatan bengkok. Fenomena cahaya manakah\nyang menerangkan situasi ini?\nDiagram 26 shows a glass block is placed in front\nof thepen. Which lightphenonmenonexplains this\nsituation?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah26_v2.webp",
     "pilihan": [
       {
@@ -31663,7 +31663,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Graf manakah menunjukkan hubungan yang\nbetul antara jarak objek, u dan jarak imej, v bagi\nsatu eksperimen kanta nipis.\nWhich graph shows a correct relationship\nbetweeneeneen object distance, u and image distance, v\nfor a thin lens experiment. (SMKA: 2022)",
+    "soalan": "Graf manakah menunjukkan hubungan yang\nbetul antara jarak objek, u dan jarak imej, v bagi\nsatu eksperimen kanta nipis.\nWhich graph shows a correct relationship\nbetween object distance, u and image distance, v\nfor a thin lens experiment.",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -31707,7 +31707,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 27 di bawah menunjukkan pembentukan\nimej oleh kanta bersaiz kecil dalam Kamera Litar\nTertutup (CCTV).\nDiagram 27 shows the formation of an image by\na small-sized lens in a Closed-Circuit Camera\n(CCTV). (Terengganu: 2022)\nCamera itar tertutup\nClosed-Circuit Comera\n(CCTV)\nKanta\nLens\nMedan\npenglihatan\nField Vision ol sensor\nJarakobjek Panlang tokus\nObject distance Focal length\nPernyataan yang manakah adalah betul?\nWhich statement is correct?",
+    "soalan": "Rajah 27 menunjukkan kamera litar tertutup (CCTV) dipasang di satu sudut dinding.\nDiagram 27 shows a closed-circuit television (CCTV) camera mounted on a wall corner.\nApakah jenis kanta yang digunakan dan ciri imej yang terbentuk pada penderia kamera itu?\nWhat is the type of lens used and the characteristics of the image formed on the camera sensor?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah27_v2.webp",
     "pilihan": [
       {
@@ -31751,7 +31751,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 28 menunjukkan sebutir berlian kelihatan\nberkilauan apabila disinari calhaya. Fenomena ini\ndisebabkan oleh\nDiagram 28 shows a diamond gliter when struck\nby light rays. This phenomenon caused by\n(Kedah: 2021)",
+    "soalan": "Rajah 28 menunjukkan sebutir berlian kelihatan berkilauan apabila disinari cahaya. Fenomena ini disebabkan oleh\nDiagram 28 shows a diamond glitter when struck by light rays. This phenomenon is caused by",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah28_v2.webp",
     "pilihan": [
       {
@@ -31795,7 +31795,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 29 menunjukkan satu alat optik yang\ndigunakan oleh ahli gemologi untuk menilai\nsuatu batu permata.\nDiagram 29 shows an optical tool used by a\ngemmologist to evaluate a gemstone.\n(Kelantan: 2021)\nAlat optik\nOptical tool\nPada kedudukan manakah batu permata itu perlu\ndiletakkan di hadapan alat optik itu bagi\nmembolehkan ahli gemologi itu melihat imej\nyang tegak dan diperbesarkan?\nAt which position the genstone should be placed\nin front of the optical tool to enable the\ngemmologist to see an upright and magnified\nimage?",
+    "soalan": "Rajah 29 menunjukkan satu alat optik yang digunakan oleh ahli gemologi untuk menilai suatu batu permata.\nDiagram 29 shows an optical tool used by a gemmologist to evaluate a gemstone.\nPada kedudukan manakah batu permata itu perlu diletakkan di hadapan alat optik itu bagi membolehkan ahli gemologi itu melihat imej yang tegak dan diperbesarkan?\nAt which position the gemstone should be placed in front of the optical tool to enable the gemmologist to see an upright and magnified image?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah29_v2.webp",
     "pilihan": [
       {
@@ -31839,7 +31839,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajalh 30 menunjukkan satu gentian optik.\nDiagram 30 shows afibre optic.\n(Terengganu: 2021)\nKaca dalam lebih tumpat\nDenser inner glass\nCahaya keluar\night out\nKaca luar kurang tumpat\nLess dense outer glass\nCahaya masuk\night enter\nApakah fenomena gelombang yang berlaku?\nWhat is the wave's phenomenon occurs?",
+    "soalan": "Rajah 30 menunjukkan satu gentian optik.\nDiagram 30 shows a fibre optic.\nApakah fenomena gelombang yang berlaku?\nWhat is the wave's phenomenon occurs?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah30_v2.webp",
     "pilihan": [
       {
@@ -31883,7 +31883,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajalh 31 menunjukkan satu rajah sinar.\nDiagram 31 shows a ray diagram.\n(Terengganu: 2021)\nImej\nImage\nObiek\nObject\nIni ialah sebuah rajah sinar bagi\nThis is a ray diagram ofa",
+    "soalan": "Rajah 31 menunjukkan satu rajah sinar.\nDiagram 31 shows a ray diagram.\nIni ialah sebuah rajah sinar bagi\nThis is a ray diagram of a",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah31_v2.webp",
     "pilihan": [
       {
@@ -31927,7 +31927,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Panjang fokus kanta objektif dan kanta mata bagi\nsebuah teleskop astronomi masing-masing adalah\nf, dan fm. Jarak antara kedua-dua kanta pula\nadalah L. Manakah antara hubungan berikut\nantara L, fo dan fm adalah benar bagi teleskop\nastronomi pada pelarasan normal?\nThe focal length of the objective lens and the\neyepiece lens of an astrononical telescope are fo\nand fm respectively. The distance betweeneeneen the two\nlenses is L. Which of the relationship betweeneeneen L,\nfo and fm is correct for the astronomical telescope\nat normal adjustment? (Terengganu: 2021)",
+    "soalan": "Panjang fokus kanta objektif dan kanta mata bagi\nsebuah teleskop astronomi masing-masing adalah\nf, dan fm. Jarak antara kedua-dua kanta pula\nadalah L. Manakah antara hubungan berikut\nantara L, fo dan fm adalah benar bagi teleskop\nastronomi pada pelarasan normal?\nThe focal length of the objective lens and the\neyepiece lens of an astrononical telescope are fo\nand fm respectively. The distance between the two\nlenses is L. Which of the relationship between L,\nfo and fm is correct for the astronomical telescope\nat normal adjustment?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32015,7 +32015,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 32 menunjukkan sinar cahaya yang\nbergerak melalui gentian optik. Gentian optik itu\nmempunyai teras kaca, X, dengan indeks biasan,\nnx dan suatu salutan kaca, Y, yang mempunyai\nindeks biasan, ny.\nDiagran 32 shows a light ray travelling through\nan optical fibre. The optical fibre has a glass\ncore, X, of refractive index, nx and a glass\ncladding, Y, of refractive index, ny.\n(Selangor: Set 2: 2021)\nSalutankaca Y\nGlass cladding.\nTeras kaca X\nGlasscore, X\nAntara yang berikut, yang manakah adalah\nbetul?\nWhich of the following is correc?",
+    "soalan": "Rajah 32 menunjukkan sinar cahaya yang bergerak melalui gentian optik. Gentian optik itu mempunyai teras kaca, X dengan indeks biasan nx dan suatu salutan kaca, Y dengan indeks biasan ny.\nDiagram 32 shows a light ray travelling through an optical fibre. The optical fibre has a glass core, X of refractive index nx and a glass cladding, Y of refractive index ny.\nAntara yang berikut, yang manakah adalah betul?\nWhich of the following is correct?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah32_v2.webp",
     "pilihan": [
       {
@@ -32059,7 +32059,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajalh 33 menunjukkan inej yang terbentuk pada\nskrin adalah kabur.\nDiagram 33 shows the image formed on the\nscreen is blurred. (Selangor: Set 2: 2021)\nScreen\nLens Shrln\nkota\nObject\nObjek\nPerubahan manakah akan menghasilkan satu imej\nyang jelas pada skrin?\nWhich modification will produce a sharp image\non the screen?",
+    "soalan": "Rajah 33 menunjukkan imej yang terbentuk pada skrin adalah kabur.\nDiagram 33 shows the image formed on the screen is blurred.\nPerubahan manakah akan menghasilkan satu imej yang jelas pada skrin?\nWhich modification will produce a sharp image on the screen?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah33_v2.webp",
     "pilihan": [
       {
@@ -32103,7 +32103,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 34 menunjukkan sinar dari satu mentol\nyang diletakkan di dasar sebuah akuarium.\nDiagram 34 shows light ray fron a bulb placed\nal a bottom of an aquarium. (MRSM: 2021)\nBulb\nMetal\nLintasan sinar cahaya yang manakah adalah betul\nselepas titik 0?\nWhich path of light ray is correct after point 0?\n[Critical angle of water = 49°]",
+    "soalan": "Rajah 34 menunjukkan sinar dari satu mentol yang diletakkan di dasar sebuah akuarium. [Sudut genting air = 49°]\nDiagram 34 shows a light ray from a bulb placed at the bottom of an aquarium. [Critical angle of water = 49°]\nLintasan sinar cahaya yang manakah adalah betul selepas titik O?\nWhich path of light ray is correct after point O?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah34_v2.webp",
     "pilihan": [
       {
@@ -32147,7 +32147,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 35 menunjukkan sebuah teleskop\nastronomi. Panjang fokus kanta objektif dan\nkanta mata bagi teleskop tersebut masing-masing\nadalah f, dan fe. Panjang tiub teleskop itu adalah\nDiagram 35 showvs an astronomical telescope.\nThe focal length of the objective lens and\neyepiece lens of the telescope is fo and fe\nrespectively. The length of the tube of the\ntelescopeis L. (MRSM: 2021)\nObjcctive lens-\nKunta otyeuf\nAEyepiece lens\nAN\nHubungan manakah yang betul antara L, f, dan fe\nbagi teleskop astronomi tersebut pada pelarasan\nnormal?\nWhich of the relationships betweeneeneen L, fo and fę is\ncorrect for the astronomicaltelescope at normal\nadjustment?",
+    "soalan": "Rajah 35 menunjukkan sebuah teleskop astronomi. Panjang fokus kanta objektif dan kanta mata bagi teleskop tersebut masing-masing adalah fo dan fe. Panjang tiub teleskop itu adalah L.\nDiagram 35 shows an astronomical telescope. The focal length of the objective lens and eyepiece lens of the telescope is fo and fe respectively. The length of the tube of the telescope is L.\nHubungan manakah yang betul antara L, fo dan fe bagi teleskop astronomi tersebut pada pelarasan normal?\nWhich of the relationships between L, fo and fe is correct for the astronomical telescope at normal adjustment?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah35_v2.webp",
     "pilihan": [
       {
@@ -32191,7 +32191,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Imej manakah yang dihasilkan oleh kanta\npenumpu pada skrin?\nWhich image is produced by a convex lens on the\nscreen? (Negeri Sembilan: 2021)",
+    "soalan": "Imej manakah yang dihasilkan oleh kanta\npenumpu pada skrin?\nWhich image is produced by a convex lens on the\nscreen?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32235,7 +32235,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 36 menunjukkan sinar cahaya yang\nmerambat dari air ke udara.\nDiagram 36 shows light ray travels from the\nwater to the air. (Negeri Sembilan: 2021)\nIndeks biasan bagi air ialah\nThe refractive index of the water is",
+    "soalan": "Rajah 36 menunjukkan sinar cahaya yang\nmerambat dari air ke udara.\nDiagram 36 shows light ray travels from the\nwater to the air.\nIndeks biasan bagi air ialah\nThe refractive index of the water is",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah36_v2.webp",
     "pilihan": [
       {
@@ -32279,7 +32279,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 37 menunjukkan satu sinar cahaya, K\nditujukan kepada satu bongkah kaca. Sudut\ngenting kaca itu ialah 42°. Ke arah manakah sinar\nitu bergerak dari titik 0?\nDiagram 37 shows a light ray K, directed into a\nglass block. The critical angle of the glass is420.\nİn which does the light move from point 0?\n(Negeri Sembilan: 2021)\nGarisan normal\nNormal line Bongkah kaca\nGlass block\nSinar cahaya\nLighıtroy",
+    "soalan": "Rajah 37 menunjukkan satu sinar cahaya, K ditujukan kepada satu bongkah kaca. Sudut genting kaca itu ialah 42°. Ke arah manakah sinar itu bergerak dari titik O?\nDiagram 37 shows a light ray K, directed into a glass block. The critical angle of the glass is 42°. In which direction does the light move from point O?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah37_v2.webp",
     "pilihan": [
       {
@@ -32323,7 +32323,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Antara pernyataan berikut manakah betul\nmengenai teleskop astronomi?\nWhich of the following statementis true aboutthe\ntelescope? (Pahang: 2021)",
+    "soalan": "Antara pernyataan berikut manakah betul\nmengenai teleskop astronomi?\nWhich of the following statementis true aboutthe\ntelescope?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32367,7 +32367,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 38 menunjukkan imej sehelai daun\ndiperhatikan menggunakan kata pembesar.\nDiagram 38 shows an image of a leaf observed\nby' using a magnifying glass. (SBP: 2021)\nKanta pembesar\nMagnifing glass\nKombinasi manakah benar bagi situasi di atas?\nWhich combinations is true for the situation\nabove?\nJarak antara sehelai Panjang fokus\ndaun dengan kanta kanta penmbesar\npembesar (cm) (cm)\nDistance betweeneeneen a Focal length of\nleaf and amagnifying magnifying lens\nglass(cm) (cm)\n10 15\n20 8",
+    "soalan": "Rajah 38 menunjukkan imej sehelai daun diperhatikan menggunakan kanta pembesar.\nDiagram 38 shows an image of a leaf observed by using a magnifying glass.\nKombinasi manakah benar bagi situasi di atas?\nWhich combination is true for the situation above?\nJarak antara daun dengan kanta pembesar (cm) | Panjang fokus kanta pembesar (cm)\nDistance between leaf and magnifying lens (cm) | Focal length of magnifying lens (cm)",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah38_v2.webp",
     "pilihan": [
       {
@@ -32411,7 +32411,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 39 menunjukkan satu sinar cahaya\nditujukan kepada satu bongkah kaca.\nDiagram 39 shows a light ray directed into a\nglass block. (Perlis: 2021)\nPilih pasangan sudut yang mempunyai nilai yang\nsama.\nChoose pair of angles that have the same value.",
+    "soalan": "Rajah 39 menunjukkan satu sinar cahaya\nditujukan kepada satu bongkah kaca.\nDiagram 39 shows a light ray directed into a\nglass block.\nPilih pasangan sudut yang mempunyai nilai yang\nsama.\nChoose pair of angles that have the same value.",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah39_v2.webp",
     "pilihan": [
       {
@@ -32455,7 +32455,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 40 menunjukkan sinar cahaya bergerak\ndari udara ke medium X.\nDiagram 40showsa beamof light travelling from\nair to medium X. (Kelantan: 2022)\nUdara\nAir\nMedium X\nApakah indeks biasan medium itu?\nWhat is the refractive index of that medium?",
+    "soalan": "Rajah 40 menunjukkan sinar cahaya bergerak dari udara ke medium X.\nDiagram 40 shows a beam of light travelling from air to medium X.\nApakah indeks biasan medium itu?\nWhat is the refractive index of that medium?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah40_v2.webp",
     "pilihan": [
       {
@@ -32499,7 +32499,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 41 menunjukkan graf jarak imej, v\nmelawan pembesaran linear, m.\nDiagram 41 shows a graph of image distance,\nagainst linear magnification, m. (SPM: 2021)\nv (cm)\nRajah 41 / Diagran 41\nX diwakili oleh\nX is represented by",
+    "soalan": "Rajah 41 menunjukkan graf jarak imej, v melawan pembesaran linear, m.\nDiagram 41 shows a graph of image distance, v against linear magnification, m.\nKuantiti X diwakili oleh\nQuantity X is represented by",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32543,7 +32543,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 42 menunjukkan lampu botol air yang\ndigunakan semasa perkhemahan.\nDiagram 42 shows a water bottle lamp used\nduring camping. (SPM: 2022)\nLampu botol air\nWater botle lamp\nAntara berikut, yang manakah betul apabila sinar\ncahaya dibiaskan oleh air dalam botol air\ntersebut?\nWhich of the following is correct when the light\nrays are refracted by the water in the water\nbottle?\nI Lajunya berubah\nThe speed changes\nII Frekuensi berubah\nFrequency changes\nIII Arahnya berubah\nThe direction changes\nIV Panjang gelombang berubah\nThe wavelength changes",
+    "soalan": "Rajah 42 menunjukkan lampu botol air yang digunakan semasa perkhemahan.\nDiagram 42 shows a water bottle lamp used during camping.\nAntara berikut, yang manakah betul apabila sinar cahaya dibiaskan oleh air dalam botol air tersebut?\nWhich of the following is correct when the light rays are refracted by the water in the water bottle?\nI Lajunya berubah / The speed changes\nII Frekuensi berubah / Frequency changes\nIII Arahnya berubah / The direction changes\nIV Panjang gelombang berubah / The wavelength changes",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah42_v2.webp",
     "pilihan": [
       {
@@ -32587,7 +32587,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 43 menunjukkan susunan radas bagi\neksperimen pembentukan imej oleh kanta\ncembung.\nDiagram 43 shows the arrangement of the\napparatus for theexperimentof imageformation\nby a covex lens. (SPM: 2022)\nKouk sina\nRay bar\nKanta cembung\nConez lers 7 Kentas anak pnah lutsinar schaaichiek dengan\nTroasparentpoper wik\naor asobiet\nPembaris\nRoiler\nSuria puth\nPerubahan pemboleh ubah yang manakah\nmenyebabkan pertambahan saiz imej?\nWhich changes of variables causes the increase\nof image size?\nDiameter kanta Panjangfokus, f\nLens diameter Focallength,t",
+    "soalan": "Rajah 43 menunjukkan susunan radas bagi eksperimen pembentukan imej oleh kanta cembung.\nDiagram 43 shows the arrangement of the apparatus for the experiment of image formation by a convex lens.\nPerubahan pemboleh ubah yang manakah menyebabkan pertambahan saiz imej?\nWhich changes of variables causes the increase of image size?\nDiameter kanta Panjang fokus, f\nLens diameter Focal length, f",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32631,7 +32631,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 44 menunjukkan suatu imej yang terbentuk\noleh satu kanta cembung.\nDiagram 44 shows an image that is formed by a\nconvex lens. (SPM: 2023)\niImej\nImage Objek\nObject\nRajah 44 / Diagranm 44\nAntara yang berikut, alat manakah yang\nmenghasilkan imej seperti di atas?\nWhich of the following equipment produces an\nimage as above?",
+    "soalan": "Rajah 44 menunjukkan suatu imej yang terbentuk oleh satu kanta cembung.\nDiagram 44 shows an image that is formed by a convex lens.\nAntara yang berikut, alat manakah yang menghasilkan imej seperti di atas?\nWhich of the following equipment produces an image as above?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32675,7 +32675,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 45 menunjukkan imej Ali dalam sebuah\ncermin apabila dia berdiri pada jarak kurang\ndaripadapanjang fokus cermin itu.\nDiagram 45 shows the image of Ali in a mirror\nwhen he stands at a distance less than the focal\nlengthof the mirror. (SPM: 2023)\nLmej di dalun cermin\nnage in the mirror",
+    "soalan": "Rajah 45 menunjukkan imej Ali dalam sebuah cermin apabila dia berdiri pada jarak kurang daripada panjang fokus cermin itu.\nDiagram 45 shows the image of Ali in a mirror when he stands at a distance less than the focal length of the mirror.\nAntara berikut, yang manakah betul mengenai jenis cermin dan ciri imejnya?\nWhich of the following is correct regarding the type of mirror and its image characteristics?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah45_v2.webp",
     "pilihan": [
       {
@@ -32719,7 +32719,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 46 menunjukkan cahaya merambat dari\nmedium A dan kemudian memasuki medium B.\nDiagram 46 shows light propagating from\nmedium A and then entering medium B.\n(Kelantan: 2023)\nMedlum A\nn133\nMedium B\no150\nRajah 46/ Diagranm 46\nHitung r.\nCalculate r.",
+    "soalan": "Rajah 46 menunjukkan cahaya merambat dari medium A dan kemudian memasuki medium B.\nDiagram 46 shows light propagating from medium A and then entering medium B.\nHitung sudut biasan, r.\nCalculate the angle of refraction, r.",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32763,7 +32763,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 47 menunjukkan rajah sinar bagi sebuah\ncermin cekung.\nDiagram 47 shows a ray diagram for a curve\nmirror. (Kelantan: 2023)\nApakah kedudukan dan jarak imej, v yang\nterhasil?\nWhat is the position and image distance, v\nproduced?",
+    "soalan": "Rajah 47 menunjukkan rajah sinar bagi sebuah\ncermin cekung.\nDiagram 47 shows a ray diagram for a curve\nmirror.\nApakah kedudukan dan jarak imej, v yang\nterhasil?\nWhat is the position and image distance, v\nproduced?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah47_v2.webp",
     "pilihan": [
       {
@@ -32807,7 +32807,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Suatu objek dengan ketinggian 50 cm diletakkan\npada jarak 60 cm dari satu kanta cekung. Panjang\nfokus kanta tersebut ialah 20 cm. Nyatakan ciri-\nciri imej yang terbentuk oleh kanta itu.\nAn object with a height of 50 cm is placed at\ndistance of 60 cmfrom a concave lens. The focal\nlength of the lens is 20 cm. State\ncharacteristics of the image formed by the lens.\n(Melaka: 2023)",
+    "soalan": "Suatu objek dengan ketinggian 50 cm diletakkan\npada jarak 60 cm dari satu kanta cekung. Panjang\nfokus kanta tersebut ialah 20 cm. Nyatakan ciri-\nciri imej yang terbentuk oleh kanta itu.\nAn object with a height of 50 cm is placed at\ndistance of 60 cmfrom a concave lens. The focal\nlength of the lens is 20 cm. State\ncharacteristics of the image formed by the lens.",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32851,7 +32851,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 48 menunjukkan suatu objek di hadapan\nsebuah kanta cembung dan imejnya.\nDiagram48showsan object in front of a covex\nlens and its image. (Melaka: 2023)\n0=0cm\nObjek 4\nObject|\nImej\nImoge\n30 cm\nBerapakah panjang fokus kanta itu?\nWhat is the focal length of the lens?",
+    "soalan": "Rajah 48 menunjukkan suatu objek di hadapan sebuah kanta cembung dan imejnya.\nDiagram 48 shows an object in front of a convex lens and its image.\nBerapakah panjang fokus kanta itu?\nWhat is the focal length of the lens?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah48_v2.webp",
     "pilihan": [
       {
@@ -32895,7 +32895,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 49 menunjukkan satu objek diletakkan\nhadapan sebuah cermin cekung. F ialah titik\nfokus bagi cermin itu.\nDiagram 49 shows an object placed in front of\nconcave mirror. F is the focal point of the mirror.\n(Melaka: 2023)\nCermin cekung\nConcne miror\nObjek\nObject\nApakah ciri imej yang terbentuk?\nWhatare the characteristics of theimage formed?\na A Maya dan lebih besar daripada objek\nVirtual and bigger than the object\nthe B Nyata dan lebih kecil daripada objek\nReal and smaller than the object\nC Maya dan lebih kecil daripada objek\nVirtual and smaller than the object\nD Nyata dan lebih besar daripada objek\nReal and bigger than the object",
+    "soalan": "Rajah 49 menunjukkan satu objek diletakkan di hadapan sebuah cermin cekung. F ialah titik fokus bagi cermin itu.\nDiagram 49 shows an object placed in front of a concave mirror. F is the focal point of the mirror.\nApakah ciri imej yang terbentuk?\nWhat are the characteristics of the image formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah49_v2.webp",
     "pilihan": [
       {
@@ -32939,7 +32939,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 50 menunjukkan satu sinar cahaya\nmerambat dari medium kaca ke udara. Indeks\nbiasan kaca ialah 1.50.\nDiagran 50 shows a light ray propagating from\nglass medium to the air The refractive index of\nglass is 1.50. (Negeri Sembilan: 2023)\nUdara\nAir\nKaca\nGlns\nRajah 50/ Diagran 50\nBerapakah laju cahaya di dalam medium kaca?\nWhat is the speed of light in the glass medium?",
+    "soalan": "Rajah 50 menunjukkan satu sinar cahaya merambat dari medium kaca ke udara. Indeks biasan kaca ialah 1.50.\nDiagram 50 shows a light ray propagating from glass medium to the air. The refractive index of glass is 1.50.\nBerapakah laju cahaya di dalam medium kaca?\nWhat is the speed of light in the glass medium?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -32983,7 +32983,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 51 menunjukkan satu objek, O yang\ndiletakkan di hadapan sebuah kanta cekung.\ndi Diagram 51 shows an object, O is placed in front\nofa concave lens. (Pahang: 2023)\n2r\nAntara berikut, apakah ciri-ciri imej yang\nterbentuk?\nWhich of the following are the characteristics of\nthe image formed?",
+    "soalan": "Rajah 51 menunjukkan satu objek, O yang diletakkan di hadapan sebuah kanta cekung.\nDiagram 51 shows an object, O is placed in front of a concave lens.\nAntara berikut, apakah ciri-ciri imej yang terbentuk?\nWhich of the following are the characteristics of the image formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah51_v2.webp",
     "pilihan": [
       {
@@ -33027,7 +33027,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Antara berikut yang manakah menunjukkan\nlaluan cahaya yang betul apabila cahaya\nmerambat melalui dua lapisan udara yang\nberbeza suhu?\nWhich of the following shows the correct light\npath when light propagates through two layers of\nair with different temperature?\n(Pulau Pinang: 2023)",
+    "soalan": "Antara berikut yang manakah menunjukkan\nlaluan cahaya yang betul apabila cahaya\nmerambat melalui dua lapisan udara yang\nberbeza suhu?\nWhich of the following shows the correct light\npath when light propagates through two layers of\nair with different temperature?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -33071,7 +33071,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Satu objek diletakkan 15.0 cm di hadapan sebuah\nkanta cembung dengan panjang fokus 10.0 cm.\nBerapakah jarak imej?\nAn object is placed 15.0cm in front of a covex\nlens with a focal length of 10.0 cm. What is the\nimage distance? (Pulau Pinang: 2023)",
+    "soalan": "Satu objek diletakkan 15.0 cm di hadapan sebuah\nkanta cembung dengan panjang fokus 10.0 cm.\nBerapakah jarak imej?\nAn object is placed 15.0cm in front of a convex\nlens with a focal length of 10.0 cm. What is the\nimage distance?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -33115,7 +33115,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 52 menunjukkan suatu objek diletakkan 20\ncm di hadapan suatu cermin cekung yang\nmempunyai panjang fokus, f, 10 cm.\nDiagram 52 shows an object placed 20 cm in\nfront ofa concave mirror offocal length, f, 10 cm.\n(Perak: 2023)\nCemin cekung\nObjek Concave mirror\nObject\n20 cm 10cm\nApakah ciri-ciri imej yang terbentuk?\nWhatarethe characteristics of the image forned?",
+    "soalan": "Rajah 52 menunjukkan suatu objek diletakkan 20 cm di hadapan suatu cermin cekung yang mempunyai panjang fokus, f = 10 cm.\nDiagram 52 shows an object placed 20 cm in front of a concave mirror of focal length, f = 10 cm.\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of the image formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah52_v2.webp",
     "pilihan": [
       {
@@ -33159,7 +33159,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 53 menunjukkan satu objek yang\ndiletakkan 12 cm dari satu kanta cembung.\nPanjang fokus kanta itu ialah 8 cm.\nDiagram 53 shows an object is placed 12 cm from\na convex lens.The focal length of the lens is 8 cm.\n(Perlis: 2023)\n4 12 cm\nBerapakah jarak imej dari kanta itu?\nWhat is the image distance from the lens?",
+    "soalan": "Rajah 53 menunjukkan satu objek yang diletakkan 12 cm dari satu kanta cembung. Panjang fokus kanta itu ialah 8 cm.\nDiagram 53 shows an object is placed 12 cm from a convex lens. The focal length of the lens is 8 cm.\nBerapakah jarak imej dari kanta itu?\nWhat is the image distance from the lens?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah53_v2.webp",
     "pilihan": [
       {
@@ -33203,7 +33203,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Satu objek diletakkan 8.0 cm di hadapan sebuah\nkanta cembung dengan panjang fokus 10.0 cm.\nBerapakah jarak imej dan apakah ciri-ciri imej\nyang terbentuk?\nAn object is placed 8.0 cm in front of a convex\nlens of focal length 10.0 cm. What is the image\ndistance and the characteristics of the image\nformed? (SBP: 2023)\nJarak imej\n(cm) Ciri-ciri imej\nImage Characteristics of image\ndistance (cm)\nSongsang, nyata dan\ndiperkecilkan",
+    "soalan": "Satu objek diletakkan 8.0 cm di hadapan sebuah kanta cembung dengan panjang fokus 10.0 cm. Berapakah jarak imej dan apakah ciri-ciri imej yang terbentuk?\nAn object is placed 8.0 cm in front of a convex lens of focal length 10.0 cm. What is the image distance and the characteristics of the image formed?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -33291,7 +33291,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 54 menunjukkan satu objek diletakkan di\nhadapan sebuah kanta cekung. Titik fokus, F\nditandakan pada kedua belah itu. Pada kedudukan\nmanakah imej akan terbentuk?\nDiagram 54 shows an object placed in front of a\nconcave lens. The focal point, F is marked on\nboth sides. At what position will the image be\nformed? (SMKA: 2023)\nObjek / Object\nOhject",
+    "soalan": "Rajah 54 menunjukkan satu objek diletakkan di hadapan sebuah kanta cekung. Titik fokus, F ditandakan pada kedua-dua belah kanta itu. Pada kedudukan manakah imej akan terbentuk?\nDiagram 54 shows an object placed in front of a concave lens. The focal point, F is marked on both sides. At what position will the image be formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah54_v2.webp",
     "pilihan": [
       {
@@ -33335,7 +33335,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Manakah antara berikut menunjukkan\ngambarajah sinar yang betul1?\nWhich of the following shows the correct ray\ndiagram? (SMKA: 2023)",
+    "soalan": "Manakah antara berikut menunjukkan\ngambarajah sinar yang betul1?\nWhich of the following shows the correct ray\ndiagram?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -33379,7 +33379,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 55 menunjukkan satu objek diletakkan di\nhadapan scbuah kanta cembung.\nDiagram 55 shows an object placed in front of a\nconvex lens. (SMKA: 2023)\nKanta cembung\nComer lens\nObjek / Object\nObject\n2F\nAntara berikut, yang manakah ciri-ciri imej yang\nterbentuk\nWhich of the following are the characteristics of\ntheimage formed.\nI Maya III Nyata\nVirtual Real\nII Dibesarkan IV Tegak\nMagnified Upright",
+    "soalan": "Rajah 55 menunjukkan satu objek diletakkan di hadapan sebuah kanta cembung.\nDiagram 55 shows an object placed in front of a convex lens.\nAntara berikut, yang manakah ciri-ciri imej yang terbentuk?\nWhich of the following are the characteristics of the image formed?\nI Maya / Virtual\nII Dibesarkan / Magnified\nIII Nyata / Real\nIV Tegak / Upright",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah55_v2.webp",
     "pilihan": [
       {
@@ -33423,7 +33423,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 56 menunjukkan sinar cahaya yang keluar\napabila melalui sebuah bongkah kaca semi\nbulatan.\nDiagram 56 shows the rays of light that came out\nwhen passing through a senmicircular glass block.\n(MRSM: 2023)\nApakah sudut tuju untuk pantulan dalam penuh\nberlaku?\nWhat is the incident angle for a total internal\nreflection to occur?",
+    "soalan": "Rajah 56 menunjukkan sinar cahaya yang keluar\napabila melalui sebuah bongkah kaca semi\nbulatan.\nDiagram 56 shows the rays of light that came out\nwhen passing through a senmicircular glass block.\nApakah sudut tuju untuk pantulan dalam penuh\nberlaku?\nWhat is the incident angle for a total internal\nreflection to occur?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah56_v2.webp",
     "pilihan": [
       {
@@ -33467,7 +33467,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 57 menunjukkan satu objek yang\ndiletakkan 15.0 cm dari sebuah kanta cembung\ndengan panjang fokus 10.0 cm.\nDiagram 57 shows an object that is placed 15.0\ncm from a convex lens with focal length of 10.0\nObjek\nObject\n15.0cm\n10.0 cm\nApakah ciri-ciri imej yang terbentuk?\nWhatare the characteristics of image formed?",
+    "soalan": "Rajah 57 menunjukkan satu objek yang diletakkan 15.0 cm dari sebuah kanta cembung dengan panjang fokus 10.0 cm.\nDiagram 57 shows an object that is placed 15.0 cm from a convex lens with focal length of 10.0 cm.\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of the image formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah57_v2.webp",
     "pilihan": [
       {
@@ -33511,7 +33511,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 58 menunjukkan kedudukan imej\nterbentuk apabila objek diletakkan 6 cm di\nhadapan kanta cembung. Ketinggian objek dan\nimej masing-masing ialah 3 cm dan 12 cm.\nDiagram 58 shows an image formed when an\nobject placed 6 cm in front of a convex lens.\nHeight of the object and the image is 3 cm and 12\ncm respectively. (Kedah: 2022)\nKanla cembung\nObjel\nxlens\nObject\nIme\nBan\nImage\n12 cm\nBerapakah jarak antara objek dan imej, P?\nWhat is distance betweeneeneen object and image, P?",
+    "soalan": "Rajah 58 menunjukkan kedudukan imej terbentuk apabila objek diletakkan 6 cm di hadapan kanta cembung. Ketinggian objek dan imej masing-masing ialah 3 cm dan 12 cm.\nDiagram 58 shows an image formed when an object is placed 6 cm in front of a convex lens. The height of the object and the image is 3 cm and 12 cm respectively.\nBerapakah jarak antara objek dan imej, P?\nWhat is the distance between the object and image, P?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah58_v2.webp",
     "pilihan": [
       {
@@ -33599,7 +33599,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Suatu objek berada 25 cm di hadapan sebuah\nkanta cembung dengan panjang fokus 10 cm.\nBerapakah jarak imej yang terhasil?\nAn object is 25 cm in front of convex lens with a\nfocal length of 10 cm. What is the distance of the\nimage formed? (Melaka: 2022)",
+    "soalan": "Suatu objek berada 25 cm di hadapan sebuah\nkanta cembung dengan panjang fokus 10 cm.\nBerapakah jarak imej yang terhasil?\nAn object is 25 cm in front of convex lens with a\nfocal length of 10 cm. What is the distance of the\nimage formed?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -33643,7 +33643,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah manakah menunjukkan lintasan sinar\ncahaya yang betul?\nWhich diagram shows the correct path of light\nray? (MRSM: 2022)",
+    "soalan": "Rajah manakah menunjukkan lintasan sinar\ncahaya yang betul?\nWhich diagram shows the correct path of light\nray?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -33687,7 +33687,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Sudut genting bagi sempadan kaca-udara ialah c.\nRajah yang manakah menunjukkan laluan sinar\ncahaya yang betul?\nThe critical angle for a glass-air boundary is c.\nWhich diagram shows the correct path of the light\nray? (Pahang: 2022)",
+    "soalan": "Sudut genting bagi sempadan kaca-udara ialah c.\nRajah yang manakah menunjukkan laluan sinar\ncahaya yang betul?\nThe critical angle for a glass-air boundary is c.\nWhich diagram shows the correct path of the light\nray?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -33731,7 +33731,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 59 menunjukkan sebiji guli berada di dasar\nsebuah bekas kaca. Imej guli itu hanya dapat\ndilihat setelah suatu cecair ditambah sedalam l0\ncm ke dalam bekas kaca berkenaan.\nDiagran 59 shows a marble at the base of a glass\ncontainer: The image of marble can only be seen\nafter a liquid is added to a depth of 10 cm into the\nglass container. (Perlis: 2022)\nPemerhati Pemerbati\nObserver Observer\nImej guli\nImageofmarble\nGuli -\nMarble Bekas kosong Bekas diisikan dengan cecair\nEnıplycontainer Conainerfilled withliquid\nJika indeks biasan cecair tersebut ialah 1.33,\nberapakah jarak imej guli dari kedudukan guli\nsebenar?\nIf the vefractive index of the liguid is 1.33, what\nis the distance of the image of marble from the\nactual position of the marble?",
+    "soalan": "Rajah 59 menunjukkan sebiji guli berada di dasar sebuah bekas kaca. Imej guli itu hanya dapat dilihat setelah suatu cecair ditambah sedalam 10 cm ke dalam bekas kaca berkenaan.\nDiagram 59 shows a marble at the base of a glass container. The image of the marble can only be seen after a liquid is added to a depth of 10 cm into the glass container.\nJika indeks biasan cecair tersebut ialah 1.33, berapakah jarak imej guli dari kedudukan guli sebenar?\nIf the refractive index of the liquid is 1.33, what is the distance of the image of the marble from the actual position of the marble?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah59_v2.webp",
     "pilihan": [
       {
@@ -33775,7 +33775,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 60 menunjukkan cahaya dari kotak sinar\nditujukan pada sebuah cermin satah di titik R dan\nterpantul pada objek Q.\nDiagram 60 shows light from a ray box directed\nat a plane mirror at point R and reflected at\nobject Q. (Perlis: 2022)\nObjek Q\nObjecQ\nCeminatah\nKotsk sinr Plene nrirnmr\nRn bos\nJika kotak sinar digerakkan I m secara menegak\nke bawah, berapa jauhkah objek Q perlu\ndigerakkan untuk memastikan cahaya masih\nterpantul pada objek Q?\nIf the ray box is moved I m vertically dowmward,\nhow far should the object Q be moved to ensure\nthat the light is still reflected toward object Q?",
+    "soalan": "Rajah 60 menunjukkan cahaya dari kotak sinar ditujukan pada sebuah cermin satah di titik R dan terpantul pada objek Q.\nDiagram 60 shows light from a ray box directed at a plane mirror at point R and reflected to object Q.\nJika kotak sinar digerakkan 1 m secara menegak ke bawah, berapa jauhkah objek Q perlu digerakkan untuk memastikan cahaya masih terpantul pada objek Q?\nIf the ray box is moved 1 m vertically downward, how far should object Q be moved to ensure that light is still reflected to object Q?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah60_v2.webp",
     "pilihan": [
       {
@@ -33819,7 +33819,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Berapakah pembesaran linear jika jarak objek\nadalah 4 cm dengan panjang fokus kanta cekung\nadalah 12 cm?\nWhat is the linear magnification if the object\ndistance is 4 cm with the focal length of he\nconcave lens is 12 cm? (Perlis: 2022)",
+    "soalan": "Berapakah pembesaran linear jika jarak objek\nadalah 4 cm dengan panjang fokus kanta cekung\nadalah 12 cm?\nWhat is the linear magnification if the object\ndistance is 4 cm with the focal length of he\nconcave lens is 12 cm?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -33863,7 +33863,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 61 menunjukkan sinar tuju ditujukan ke\natas satu permukaan kaca. Arah manakah sinar itu\nmerambat selepas melalui X?\nDiagram 6l shows an incident ray, is directed\ninto glass block. Which direction does the light\ntravels after through X? (Putrajaya: 2022)\nSinar tuju\nIncldent ray",
+    "soalan": "Rajah 61 menunjukkan sinar tuju ditujukan ke atas satu permukaan kaca. Arah manakah sinar itu merambat selepas melalui X?\nDiagram 61 shows an incident ray directed into a glass block. Which direction does the light travel after passing through X?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah61_v2.webp",
     "pilihan": [
       {
@@ -33907,7 +33907,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 62 menunjukkan satu objek di hadapan\nsebuah kanta cembung.\nDiagram 62showsan object in front of a covex\nlens. (Putrajaya: 2022)\nf-15cm\n+\nU 2.5 cm\nHitung jarak imej.\nCalculate the image distance.",
+    "soalan": "Rajah 62 menunjukkan satu objek di hadapan sebuah kanta cembung dengan panjang fokus f = 1.5 cm dan jarak objek u = 2.5 cm.\nDiagram 62 shows an object in front of a convex lens with focal length f = 1.5 cm and object distance u = 2.5 cm.\nHitung jarak imej.\nCalculate the image distance.",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah62_v2.webp",
     "pilihan": [
       {
@@ -33951,7 +33951,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah manakah A, B, C atau D yang\nmenunjukkan takrifan sudut genting, c dengan\nbetul apabila cahaya merambat melalui dua\nmedium berbeza ketumpatan?\nWhich diagram A, B, C or D shows the correct\ndefinition of a critical angle, c when light\npropagate through two mediums of different\ndensities? (SBP: 2022)",
+    "soalan": "Rajah manakah A, B, C atau D yang\nmenunjukkan takrifan sudut genting, c dengan\nbetul apabila cahaya merambat melalui dua\nmedium berbeza ketumpatan?\nWhich diagram A, B, C or D shows the correct\ndefinition of a critical angle, c when light\npropagate through two mediums of different\ndensities?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34039,7 +34039,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 63 menunjukkan suatu objek di hadapan\nsatu kanta cembung.\nDiagram 63 shows an object in firont of a conver\nlens. (Selangor: Set 1: 2022)\nObjek\nObject\nTf= 10cm\n2F\nu=15cm\nBerapakah jarak imej?\nWhat is the image distance?",
+    "soalan": "Rajah 63 menunjukkan suatu objek di hadapan satu kanta cembung dengan panjang fokus f = 10 cm dan jarak objek u = 15 cm.\nDiagram 63 shows an object in front of a convex lens with focal length f = 10 cm and object distance u = 15 cm.\nBerapakah jarak imej?\nWhat is the image distance?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah63_v2.webp",
     "pilihan": [
       {
@@ -34083,7 +34083,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah manakah yang menunjukkan suatu sinar\nmelalui suatu bongkah kaca semibulatan pada\nsudut genting 0?\nWhich diagran shows a ray passing through a\nsemicircular glass block at the critical angle 0?\n(SMKA: 2022)",
+    "soalan": "Rajah manakah yang menunjukkan suatu sinar\nmelalui suatu bongkah kaca semibulatan pada\nsudut genting 0?\nWhich diagran shows a ray passing through a\nsemicircular glass block at the critical angle 0?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34127,7 +34127,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajalh 64 menunjukkan sebiji gelas diisi dengan\nminyak zaiton setinggi 9 cm yang mempunyai\nindeks biasan 1.47.\nDiagram 64 shows a glass filled with olive oil\nwith aheight of9 cm which hasa refractive inder\nPemerhati\nObserver\n9 cm\nBerapakah dalam ketara gelas tersebut yang\ndilihat oleh pemerhati?\nWhat is the apparent depth seen by the observer?",
+    "soalan": "Rajah 64 menunjukkan sebiji gelas diisi dengan minyak zaitun setinggi 9 cm yang mempunyai indeks biasan 1.47.\nDiagram 64 shows a glass filled with olive oil to a height of 9 cm which has a refractive index of 1.47.\nBerapakah dalam ketara gelas tersebut yang dilihat oleh pemerhati?\nWhat is the apparent depth seen by the observer?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah64_v2.webp",
     "pilihan": [
       {
@@ -34171,7 +34171,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 65 menunjukkan cahaya bergerak melalui\nsatu bongkah kaca.\nDiagram 65 shows a light ray passing through a\nglass block. (Terengganu: 2022)\nBongkohkaca\nGloss blcock\nBerapakah indeks biasan bongkah kaca itu?\nWhat is the refractive index of the glass block?",
+    "soalan": "Rajah 65 menunjukkan cahaya bergerak melalui satu bongkah kaca.\nDiagram 65 shows a light ray passing through a glass block.\nBerapakah indeks biasan bongkah kaca itu?\nWhat is the refractive index of the glass block?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah65_v2.webp",
     "pilihan": [
       {
@@ -34215,7 +34215,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah-rajah berikut menunjukkan lintasan sinar\ncahaya yang melalui sebuah kanta cekung.\nThefollowing diagramsshows path of light ray\nthrough a concave lens. (Terengganu: 2022)\nII\nLintasan sinar bias manakah adalah benar?\nWhich refiaction path is correct?",
+    "soalan": "Rajah-rajah berikut menunjukkan lintasan sinar cahaya yang melalui sebuah kanta cekung.\nThe following diagrams show the path of a light ray through a concave lens.\nLintasan sinar biasan manakah adalah benar?\nWhich refracted path is correct?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34259,7 +34259,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Gambarajah sinar berikut yang manakah akan\nmenghasilkan imej yang maya, tegak dan lebih\nbesar daripada objek?\nWhich of the following diagrams produces image\nthat is virtual, upright and bigger than the object?\n(Kedah: 2021)",
+    "soalan": "Gambarajah sinar berikut yang manakah akan\nmenghasilkan imej yang maya, tegak dan lebih\nbesar daripada objek?\nWhich of the following diagrams produces image\nthat is virtual, upright and bigger than the object?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34303,7 +34303,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Sebuah objek diletakkan 5 cm di hadapan sebuah\nkanta cembung yang mempunyai panjang fokus\n10 cm. Apakah nilai m, pembesaran imej?\nAn object is placed 5 cm in front of a covex lens\nwhich has a focal length of 10 cm. What is the",
+    "soalan": "Sebuah objek diletakkan 5 cm di hadapan sebuah\nkanta cembung yang mempunyai panjang fokus\n10 cm. Apakah nilai m, pembesaran imej?\nAn object is placed 5 cm in front of a convex lens\nwhich has a focal length of 10 cm. What is the",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34347,7 +34347,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 66 menunjukkan satu lintasan cahaya.\nDiagram 66 shows a path of light.\n(Kelantan: 2021: 17)\nCxir P\nUgud P\nIndeks biasan air dan cecair P adalah masing-\nmasing 1.3 dan 1.5. Berapakah sudut biasan, r\ndalam cecair P?\nThe refractive index of water and liquid P are 1.3\nand I.5 respectively. What is the refracted angle,\nr in liquid P?",
+    "soalan": "Rajah 66 menunjukkan satu lintasan cahaya merambat melalui air dan cecair P. Indeks biasan air dan cecair P adalah masing-masing 1.33 dan 1.50. Berapakah sudut biasan, r dalam cecair P?\nDiagram 66 shows a path of light propagating through water and liquid P. The refractive index of water and liquid P are 1.33 and 1.50 respectively. What is the refracted angle, r in liquid P?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah66_v2.webp",
     "pilihan": [
       {
@@ -34391,7 +34391,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 67 menunjukkan cahaya dari udara terbias\napabila masuk ke dalam air dan perspeks. Indeks\nbiasan bagi air dan perspeks masing-masing\nadalah 1.33 dan 1.5.\nDiagram 67 shows a light from air refracted\nwhen enter the water and perspex. Refractive\nindex of water and perspex respectively is 1.33\nand 1.5. (Sarawak: 2021)\nai 50: normal\nwater\nPerspeks\nPerspex\nTentukan sudut, 0.\nDetermine the angle, 0.",
+    "soalan": "Rajah 67 menunjukkan cahaya dari udara terbias apabila masuk ke dalam air dan perspeks. Indeks biasan bagi air dan perspeks masing-masing adalah 1.33 dan 1.50.\nDiagram 67 shows light from air refracted when entering water and perspex. The refractive index of water and perspex is 1.33 and 1.50 respectively.\nTentukan sudut, θ.\nDetermine the angle, θ.",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah67_v2.webp",
     "pilihan": [
       {
@@ -34435,7 +34435,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 68 menunjukkan imej yang dihasilkan oleh\nsebuah kanta pembesar.\nDiagram 68 shows the imnage formned by a\nmagnifying glass. (Sarawak: 2021)\ncrdeme\nRajah sinar manakah yang betul menerangkan\nsifat imej yang terhasil?\nWhich of the following ray diagran is correct to\nshow the characteristics of theimage forned?",
+    "soalan": "Rajah 68 menunjukkan imej yang dihasilkan oleh sebuah kanta pembesar.\nDiagram 68 shows the image formed by a magnifying glass.\nRajah sinar manakah yang betul menerangkan sifat imej yang terhasil?\nWhich of the following ray diagrams is correct to show the characteristics of the image formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah68_v2.webp",
     "pilihan": [
       {
@@ -34479,7 +34479,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Halaju cahaya di dalam vakum ialah 3 x 10 m s\n1. Indeks biasan bagi air ialah 1.30. Berapakah\nhalaju cahaya di dalam air?\nThe velocity of light in vacuunmis 3 x 10 ms'.\nThe refractive index of water is 1.30. What is the\nvelocity of light in the water?\n(Terengganu: 2021)",
+    "soalan": "Halaju cahaya di dalam vakum ialah 3 x 10 m s\n1. Indeks biasan bagi air ialah 1.30. Berapakah\nhalaju cahaya di dalam air?\nThe velocity of light in vacuunmis 3 x 10 ms'.\nThe refractive index of water is 1.30. What is the\nvelocity of light in the water?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34523,7 +34523,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Laju cahaya dalam vakum ialah 3 x 10 m s'\nApabila cahaya melalui satu tingkap kaca,\nkelajuannya menjadi 1.86 x 10° m s\". Berapakah\nindeks biasan kaca tingkap iu?\nThe speed of light in vacuum is 3 x 10 m s'.\nWhen the light penetrates a glass window, its\nspeed becomes 1.86 x 10 m s'. What is the\nrefractive index of ihe glass window?\n(Selangor: Set 1: 2021)",
+    "soalan": "Laju cahaya dalam vakum ialah 3 x 10 m s'\nApabila cahaya melalui satu tingkap kaca,\nkelajuannya menjadi 1.86 x 10° m s\". Berapakah\nindeks biasan kaca tingkap iu?\nThe speed of light in vacuum is 3 x 10 m s'.\nWhen the light penetrates a glass window, its\nspeed becomes 1.86 x 10 m s'. What is the\nrefractive index of the glass window?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34567,7 +34567,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 69 menunjukkan satu objek diletak pada\njarak u cm dari pusat sebuah kanta cembung.\nPanjang fokus kanta itu ialah 20 cm.\nDiagran 69 shows an object which is placed at u\ncm from the center of a convex lens. The focal\nlength of the lens is 20 cm.\n(Selangor: Set 1: 2021)\nObjek\nObect\nApakah ciri-ciri imej yang terbentuk jika u adalah\n40 cm?\nWhat are the characteristics of theimage formed\nifu is 40 cm?",
+    "soalan": "Rajah 69 menunjukkan satu objek diletak pada jarak u cm dari pusat sebuah kanta cembung. Panjang fokus kanta itu ialah 20 cm.\nDiagram 69 shows an object placed at u cm from the centre of a convex lens. The focal length of the lens is 20 cm.\nApakah ciri-ciri imej yang terbentuk jika u adalah 40 cm?\nWhat are the characteristics of the image formed if u is 40 cm?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah69_v2.webp",
     "pilihan": [
       {
@@ -34611,7 +34611,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 70 menunjukkan sebuah objek diletakkan\ndi hadapan cermin cekung. Manakah kedudukan\nimej yang betul?\nDiagram 70 shows an object is placed in front of\na concave mirror: Which is the correct position of\nthe image? (Selangor: Set 1: 2021)\nObjek / Object\nOblet\nCermin cekung\nF-Titkfokus Concavemiror\nFocus poini\nQ-Pusatkelengkungan\nCentre ofcneture",
+    "soalan": "Rajah 70 menunjukkan sebuah objek diletakkan di hadapan cermin cekung. Manakah kedudukan imej yang betul?\nDiagram 70 shows an object placed in front of a concave mirror. Which is the correct position of the image?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34655,7 +34655,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 7l menunjukkan satu sinar cahaya melalui\nsatu bongkah kaca. Indeks biasan bagi kaca itu\nialah I.52.\nDiagram 71 shows a ray of light passing into a\nglass block. The refractive index of the glass is\n1.52. (Selangor: Set 2: 2021)\nbongkah kaca\nglass block\nRajah 71 / Diagran 71\nBerapakah sudut x?\nWhat is the angle of x?",
+    "soalan": "Rajah 71 menunjukkan satu sinar cahaya melalui satu bongkah kaca. Indeks biasan bagi kaca itu ialah 1.52.\nDiagram 71 shows a ray of light passing into a glass block. The refractive index of the glass is 1.52.\nBerapakah sudut x?\nWhat is the angle of x?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34699,7 +34699,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 72 menunjukkan satu objek diletak pada\njarak u cm dari pusat sebuah kanta cembung.\nPanjang fokus kanta itu ialah 30 cm.\nDiagram 72 shows an object which is placed at u\ncm from the center of a conver lens. The focal\nlengih of the lens is 30 cm.\n(Selangor: Set 2: 2021)\nObjek\nObject\nAntara ciri-ciri imej yang berikut yang manakah\nbetul jika u ialah 25 cm, 40 cm, 55 cm, dan 70\ncm dari kanta itu?\nWhich of the following characteristics of the\nimage is correct if u is 25 cm, 40 cm, 60 cm and\n70 cm from the lens?\nCiri-ciri imej\n(cm) Characteristics of the image\nMaya dan lebih besar",
+    "soalan": "Rajah 72 menunjukkan satu objek diletak pada jarak u cm dari pusat sebuah kanta cembung. Panjang fokus kanta itu ialah 30 cm.\nDiagram 72 shows an object placed at u cm from the centre of a convex lens. The focal length of the lens is 30 cm.\nAntara ciri-ciri imej yang berikut, yang manakah betul jika u ialah 25 cm, 40 cm, 55 cm, dan 70 cm dari kanta itu?\nWhich of the following characteristics of the image is correct if u is 25 cm, 40 cm, 55 cm, and 70 cm from the lens?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah72_v2.webp",
     "pilihan": [
       {
@@ -34743,7 +34743,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 73 menunjukkan sebuah objek di depan\ncermin cekung. Manakah imej yang betul?\nDiagram 73 shows an object in front ofa concave\nmirror. Vhich is the correct image?\n(Selangor: Set 2: 2021)\nObjek )\nObiec\nF- Titikfokus incekung\nFocus point Concave minor\nQ-Pusat lengkungan\nCentre ofcurvature",
+    "soalan": "Rajah 73 menunjukkan sebuah objek di hadapan cermin cekung. Manakah imej yang betul?\nDiagram 73 shows an object in front of a concave mirror. Which is the correct image?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah73_v2.webp",
     "pilihan": [
       {
@@ -34787,7 +34787,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 74 menunjukkan satu alur cahaya yang\nditujukan pada suatu bongkah kaca.\nDiagram 4 showsabeam oflight that is directed\ntowards a glass block. (MRSM: 2021)\nAi\nUdara\nGlass block\nBonghahhaca\nAir\nUlars\nManakah nilai yang betul bagi sudut r?\nWhich is the correct value for angle r?",
+    "soalan": "Rajah 74 menunjukkan satu alur cahaya yang ditujukan pada suatu bongkah kaca.\nDiagram 74 shows a beam of light that is directed towards a glass block.\nManakah nilai yang betul bagi sudut r?\nWhich is the correct value for angle r?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah74_v2.webp",
     "pilihan": [
       {
@@ -34831,7 +34831,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 75 di bawah menunjukkan satu imej tajam\nyang terbentuk pada skrin apabila jarak antara\nobjek dan skrin adalah 60 cm.\nDiagram 75 below shows a sharp image being\nformed on a screen when the distance betveen the\nobject and the screen is 60 cm.\n(Negeri Sembilan: 2021)\nSkrin\n60 cm Sereen\nOhick\nObject\nBerapakah panjang fokus kanta sckiranya saiz\nimcj adalah sama dengan saiz objek?\nWhat is the focal length of the lens if the size of\nthe image is the same as the object?",
+    "soalan": "Rajah 75 menunjukkan satu imej tajam yang terbentuk pada skrin apabila jarak antara objek dan skrin adalah 60 cm.\nDiagram 75 shows a sharp image formed on a screen when the distance between the object and the screen is 60 cm.\nBerapakah panjang fokus kanta sekiranya saiz imej adalah sama dengan saiz objek?\nWhat is the focal length of the lens if the size of the image is the same as the object?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34875,7 +34875,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 76 menunjukkan seorang pemerhati\nmelihat imej scorang penyelam 2.0 m dari\npermukaan air.\nDiagram 76 shows an observer looking at the\nimage of a diver 2.0 m from the water surface.\n(Pahang: 2021)\nObsener\nPemerhati\nWatersurface\nPermukaanair\nDiver's image\nImej pemelan\n35 d=20m\nDiver\nPemelam\nBerapakah dalam sebenar penyelam itu?\nWhat is the actual depth of the diver?",
+    "soalan": "Rajah 76 menunjukkan seorang pemerhati melihat imej seorang penyelam 2.0 m dari permukaan air.\nDiagram 76 shows an observer looking at the image of a diver 2.0 m from the water surface.\nBerapakah dalam sebenar penyelam itu?\nWhat is the actual depth of the diver?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah76_v2.webp",
     "pilihan": [
       {
@@ -34919,7 +34919,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "S1. Rajah 77 menunjukkan satu sinar cahaya P,\nditujukan kepada pusat, O satu bongkah kaca\nsemibulatan. Indeks biasan kaca itu adalah 1.52.\nDiagram 77 shows a light ray, P is directed to the\ncentre, O of semicireular glass block. Refractive\nindex of theglass is 1.52. (Pahang: 2021)\nRajah 77 / I Diagram 77\nArah manakah antara A, B,C atau D sinar itu\nmerambatselepas titik 0?\nAt which direction A, B, C or D does the light\npropagate after point 0?",
+    "soalan": "Rajah 77 menunjukkan satu sinar cahaya P, ditujukan kepada pusat, O satu bongkah kaca semibulatan. Indeks biasan kaca itu adalah 1.52.\nDiagram 77 shows a light ray, P is directed to the centre, O of semicircular glass block. The refractive index of the glass is 1.52.\nArah manakah antara A, B, C atau D sinar itu merambat selepas titik O?\nAt which direction A, B, C or D does the light propagate after point O?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34963,7 +34963,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 78 menunjukkan pembentukan imej\ndaripada suatu objek oleh kanta cembung.\nDiagram 78 shows the formation of an image\nfrom an object by a convex lens. (Pahang: 2021)\n10 cr\nImcj\nInaee\nObck 4 cm\nObject\n30em\nRajah 78 / Diagran 78\nBerapakah tinggi objek itu jika tinggi imejnya\nadalah 4 cm?\nWhat is the height of the object ifthe height of its\nimage is 4 cm?",
+    "soalan": "Rajah 78 menunjukkan pembentukan imej daripada suatu objek oleh kanta cembung.\nDiagram 78 shows the formation of an image from an object by a convex lens.\nBerapakah tinggi objek itu jika tinggi imejnya adalah 4 cm?\nWhat is the height of the object if the height of its image is 4 cm?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -35007,7 +35007,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 79 menunjukkan sinar cahaya selari\nditujukan ke permukaan cermin cekung.\nDiagram 79 shows parallel light rays directed at\nthe surface ofa concave mirror. (Pahang: 2021)\nRajah yang manakah menunjukkan lintasan\ncahaya selepas terkena cermin itu?\nWhich diagram shows the path of the rays after\nstriking the mirror?",
+    "soalan": "Rajah 79 menunjukkan sinar cahaya selari\nditujukan ke permukaan cermin cekung.\nDiagram 79 shows parallel light rays directed at\nthe surface of a concave mirror.\nRajah yang manakah menunjukkan lintasan\ncahaya selepas terkena cermin itu?\nWhich diagram shows the path of the rays after\nstriking the mirror?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah79_v2.webp",
     "pilihan": [
       {
@@ -35051,7 +35051,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 80 menunjukkan satu sinar cahaya\nditujukan secara normal dengan permukaan PQ\nbagi sebuah prisma kaca. Diberi bahawa indeks\nbiasan prisma tersebut ialah 1.50.\nDiagram 80 shows a light ray directed normally\nto PQ of a glass prism. Given that the vefractive\nindex of the prism is 1.50. (SBP: 2021)\nLintasan manakah A, B, C dan D menunjukkan\nperambatan cahaya yang betul selepas melalui\nPR?\nWhich path A, B, C and D shows the correct\npropagation of light after passing PR?",
+    "soalan": "Rajah 80 menunjukkan satu sinar cahaya\nditujukan secara normal dengan permukaan PQ\nbagi sebuah prisma kaca. Diberi bahawa indeks\nbiasan prisma tersebut ialah 1.50.\nDiagram 80 shows a light ray directed normally\nto PQ of a glass prism. Given that the vefractive\nindex of the prism is 1.50.\nLintasan manakah A, B, C dan D menunjukkan\nperambatan cahaya yang betul selepas melalui\nPR?\nWhich path A, B, C and D shows the correct\npropagation of light after passing PR?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah80_v2.webp",
     "pilihan": [
       {
@@ -35095,7 +35095,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 81 menunjukkan satu rajah sinar yang tidak\nlengkap bagi sebuah kanta cekung. Tentukan\nkedudukan imej.\nDiagram 81 shows an incomplete ray diagram\nfor a concavelens. Determine position of image.\n(SBP: 2021)",
+    "soalan": "Rajah 81 menunjukkan satu rajah sinar yang tidak\nlengkap bagi sebuah kanta cekung. Tentukan\nkedudukan imej.\nDiagram 81 shows an incomplete ray diagram\nfor a concave lens. Determine position of image.",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah81_v2.webp",
     "pilihan": [
       {
@@ -35139,7 +35139,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 82 menunjukkan satu objek diletakkan di\nhadapan sebuah kanta cembung dengan panjang\nfokus 10 cm.\nDiagram 82 shows an object is placed in front of\na convex lens with focal length of 10 cm.\n(Melaka: 2021)\n6 cm\nObjek\nObject\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of image formed?",
+    "soalan": "Rajah 82 menunjukkan satu objek diletakkan di hadapan sebuah kanta cembung dengan panjang fokus 10 cm.\nDiagram 82 shows an object is placed in front of a convex lens with focal length of 10 cm.\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of the image formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah82_v2.webp",
     "pilihan": [
       {
@@ -35183,7 +35183,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 83 menunjukkan pembentukan imej\ndaripada suatu objek oleh kanta cembung.\nDiagram 83 shows the formation of an image\nfrom an object by a convex lens. (Melaka: 2021)\n20,cP\nf Imej\nInage\nObjek 4 cm\nObject\n60 em\nBerapakalh tinggi objek itu jika tinggi imejnya\nadalah 4 cm?\nWhatis the height oftheobject if the heightof its\nimage is 4 cm?",
+    "soalan": "Rajah 83 menunjukkan pembentukan imej daripada suatu objek oleh kanta cembung.\nDiagram 83 shows the formation of an image from an object by a convex lens.\nBerapakah tinggi objek itu jika tinggi imejnya adalah 4 cm?\nWhat is the height of the object if the height of its image is 4 cm?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah83_v2.webp",
     "pilihan": [
       {
@@ -35227,7 +35227,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah manakah yang menunjukkan pantulan\ncahaya yang betul oleh sebuah cermin cekung?\nWhich diagram shows the correct reflection of\nlight by a concave nirror? (Melaka: 2021)",
+    "soalan": "Rajah manakah yang menunjukkan pantulan\ncahaya yang betul oleh sebuah cermin cekung?\nWhich diagram shows the correct reflection of\nlight by a concave nirror?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -35271,7 +35271,7 @@ const QUESTION_BANK = [
     "topik": "6.3 Pembentukan Imej oleh Kanta",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 84 menunjukkan pembentukan imej suatu\nobjek oleh sebuah kanta cembung.\nDiagram 84 shows the image formation of an\nobject by a convex lens (Perlis: 2021)\nObjek Object Image\n26 cm\nRajah 84 / Diagran 84\nJika tinggi objek ialah 2 cm, berapakah tinggi\nimej?\nIf the height of the object is 2 cm, what is the\nheightoftheimage?",
+    "soalan": "Rajah 84 menunjukkan pembentukan imej suatu objek oleh sebuah kanta cembung.\nDiagram 84 shows the image formation of an object by a convex lens.\nJika tinggi objek ialah 2 cm, berapakah tinggi imej?\nIf the height of the object is 2 cm, what is the height of the image?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -35315,7 +35315,7 @@ const QUESTION_BANK = [
     "topik": "6.6 Pembentukan Imej oleh Cermin Sfera",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 85 menunjukkan satu objek diletakkan 10\ncm di hadapan sebuah cermin cekung yang\nmempunyai panjang fokus, f = 5 cm.\nDiagram 85 shows an object that is placed 10 cm\nin front ofaconcavemirror offocallength, f= 5\ncm. (SPM: 2021)\nObjek\nObiect Cermin cekung\nConcave mirror\n10 cm Sem\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of the image formed?",
+    "soalan": "Rajah 85 menunjukkan satu objek diletakkan 10 cm di hadapan sebuah cermin cekung yang mempunyai panjang fokus, f = 5 cm.\nDiagram 85 shows an object that is placed 10 cm in front of a concave mirror of focal length, f = 5 cm.\nApakah ciri-ciri imej yang terbentuk?\nWhat are the characteristics of the image formed?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah85_v2.webp",
     "pilihan": [
       {
@@ -35359,7 +35359,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 86 menunjukkan satu sinar cahaya yang\nmerambat keluar dari suatu bongkah perspeks.\nDiagram 86 shows a light ray propagates out\nfron theperspex block. (SPM: 2022)\nNomal\nNanuol\nSinar tuju\nIncident ray\nBlok perspeks\nPerspexbiock\nBerapakah nilai sudut genting perspeks itu?\nWhat is the critical angle of theperspex?",
+    "soalan": "Rajah 86 menunjukkan satu sinar cahaya yang merambat keluar dari suatu bongkah perspeks.\nDiagram 86 shows a light ray propagates out from the perspex block.\nBerapakah nilai sudut genting perspeks itu?\nWhat is the critical angle of the perspex?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah86_v2.webp",
     "pilihan": [
       {
@@ -35403,7 +35403,7 @@ const QUESTION_BANK = [
     "topik": "6.2 Pantulan Dalam Penuh",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 87 menunjukkan sebutir berlian yang\nbersinar apabila terkena cahaya. Sudut genting\nbagi berlian ialah 25°.\nDiagram 87 shows a diamond that shines when\nexposed to light. The critical angle of the\ndiamond is 25°. (SPM: 2023)\nAntara A, B, C, dan D, yang manakah\nmenunjukkan laluan sinar yang betul selepas\nsinar tuju melalui titik P?\nWhich of A, B, C, or D shows the correct path of\nthe ray after the incident raypasses through point\nP?",
+    "soalan": "Rajah 87 menunjukkan sebutir berlian yang\nbersinar apabila terkena cahaya. Sudut genting\nbagi berlian ialah 25°.\nDiagram 87 shows a diamond that shines when\nexposed to light. The critical angle of the\ndiamond is 25°.\nAntara A, B, C, dan D, yang manakah\nmenunjukkan laluan sinar yang betul selepas\nsinar tuju melalui titik P?\nWhich of A, B, C, or D shows the correct path of\nthe ray after the incident ray passes through point\nP?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah87_v2.webp",
     "pilihan": [
       {
@@ -35447,7 +35447,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
-    "soalan": "Rajah 88 (a) dan Rajah 88 (b) menunjukkan\nseekor ikan melihat seekor kumbang pada\nkedudukan yang berbeza.\nDiagram 88 (a) and Diagram 88 (b) show a fish\nlooking at a beetle in different positions.\n(Pulau Pinang: 2023)\nImej kumbang Kumbang\nImageofbeele\nBeetle Beete\nIkan Ikan\nFish Fish\nRajah 88 (a) Rajah 88 (b)\nDiagram 88 (a) Diagram 88 (b)\nMengapakah ikan dalam Rajah 88 (b) melihat\nkumbang dan imejnya berada pada kedudukan\nyang sama?\nWhy does the fish in Diagram 88 (b) see the\nbeetle and its image in the same position?",
+    "soalan": "Rajah 88(a) dan Rajah 88(b) menunjukkan seekor ikan melihat seekor kumbang pada kedudukan yang berbeza.\nDiagram 88(a) and Diagram 88(b) show a fish looking at a beetle in different positions.\nMengapakah ikan dalam Rajah 88(b) melihat kumbang dan imejnya berada pada kedudukan yang sama?\nWhy does the fish in Diagram 88(b) see the beetle and its image in the same position?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -35491,7 +35491,7 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
-    "soalan": "Rajah 89 menunjukkan kanta cembung yang\ndigunakan dalam sebuah teleskop astronomi.\nJarak fokus kanta objektif dan kanta mata\nmasing-masing adalah f dan fe, manakala L\nadalah jarak antara kanta objektif dan kanta mata.\nDiagram 89 shows a convex lens used in an\nastronomy telescope. The focal length of the\nobjective and eye lenses are fo and fe respectively,\nwhile L is the distance betweeneeneen the objective lens\nand eyepiece lens. (SBP: 2022)\nKanta objektif\nObjective lens\nKantarmata\n|Eyepiece lens\nYang manakah antara penerangan berikut adalah\nbetul?\nWhich of the following explanations is correct?\nSpesifikasi Sebab\nSpecification Reason\nImej akhir yang paling\ntajam dan paling cerah",
+    "soalan": "Rajah 89 menunjukkan kanta cembung yang digunakan dalam sebuah teleskop astronomi. Jarak fokus kanta objektif dan kanta mata masing-masing adalah fo dan fe, manakala L adalah jarak antara kanta objektif dan kanta mata.\nDiagram 89 shows a convex lens used in an astronomy telescope. The focal length of the objective and eye lenses are fo and fe respectively, while L is the distance between the objective lens and eyepiece lens.\nYang manakah antara penerangan berikut adalah betul?\nWhich of the following explanations is correct?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah89_v2.webp",
     "pilihan": [
       {
@@ -35535,8 +35535,8 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
-    "soalan": "Rajah 90 (a) dan Rajah 90 (b) menunjukkan rajah\nsinar kanta cembung dengan panjang fokus yang\nsama dalam sebuah kamera yang menghasilkan\nsatu imej dengan ketinggian, h₁ dan h2.\nDiagrams 90 (a) dan Diagram 90 (b) show a ray\ndiagram of convex lens with a same focal length\nin a camera which produces an image of height,\nh₁ and h2. (SPM: 2021)\nObjek / Object h,\nObject\nRajah 90 (a) / Diagram 90 (a)\nObjek\nObject\nRajah 90 (b) / Diagram 90 (b)\nHubungan yang manakah betul?\nWhich relationship is correct?\nJarak objek Ketinggian imej\nObject distance Height ofimage\nSama Bertambah\nSame Increases\nBertambah Sama\nIncreases Same\nBerkurang Berkurang\nDecreases Decreases\nD Berkurang Bertambah\nDecreases Increases",
-    "rajahUrl": "",
+    "soalan": "Rajah 90(a) dan Rajah 90(b) menunjukkan rajah sinar kanta cembung dengan panjang fokus yang sama dalam sebuah kamera yang menghasilkan satu imej dengan ketinggian, h₁ dan h₂.\nDiagrams 90(a) and Diagram 90(b) show a ray diagram of convex lens with the same focal length in a camera which produces an image of height, h₁ and h₂.\nHubungan yang manakah betul?\nWhich relationship is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah90_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -35579,8 +35579,8 @@ const QUESTION_BANK = [
     "topik": "6.5 Peralatan Optik",
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
-    "soalan": "Rajah 91 (a) dan Rajah 91 (b) menunjukkan imej\ndari kanta kamera yang mempunyai panjang\nfokus yang sama.\nDiagrams 91 (a) and91 (b) show the images from\na camera lens of thesame focal length.\n(SPM: 2021)\nRajah 91 (a) Rajah 91 (b)\nDiagram 91 (a) Diagran 91 (b)\nPasangan kedudukan objek manakah yang betul?\nWhich pair of position ofan object is correct?\nRajah 91 (a) Rajah 91 (b)\nDiagram 91 (a) Diagram 91 (b)",
-    "rajahUrl": "",
+    "soalan": "Rajah 91(a) dan Rajah 91(b) menunjukkan imej dari kanta kamera yang mempunyai panjang fokus yang sama.\nDiagrams 91(a) and 91(b) show the images from a camera lens of the same focal length.\nPasangan kedudukan objek manakah yang betul?\nWhich pair of position of an object is correct?",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah91_v2.webp",
     "pilihan": [
       {
         "id": "A",
