@@ -29859,7 +29859,7 @@ const QUESTION_BANK = [
     "topik": "6.4 Formula Kanta Nipis",
     "aras": "Rendah",
     "konstruk": "Mengingat",
-    "soalan": "Berikut adalah formula bagi kanta nipis:\nFollowing is the formula for a thin lens:\n$$\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$$\nf mewakili\nf represents",
+    "soalan": "Berikut adalah formula bagi kanta nipis:\nFollowing is the formula for a thin lens:\n\n$$\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$$\n\nf mewakili\nf represents",
     "rajahUrl": "",
     "pilihan": [
       {

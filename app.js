@@ -1,4 +1,21 @@
 
+function triggerMathRender(el) {
+  if (window.renderMathInElement) {
+    try {
+      renderMathInElement(el || document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false }
+        ],
+        throwOnError: false
+      });
+    } catch (e) {
+      console.warn("KaTeX render error:", e);
+    }
+  }
+}
+
+
 // ============================================================================
 // GUIDED JSU PROGRESSIVE DISCLOSURE (MOD TETAPAN BERPANDU)
 // ============================================================================
@@ -815,6 +832,7 @@ function switchWorkflowStage(stageNumber) {
 
   updateStepperUI(stage);
   if (window.lucide) lucide.createIcons();
+  triggerMathRender(container);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -1095,7 +1113,7 @@ function formatBilingualText(raw) {
     "fission","fusion","threshold","function","underline","answer","statement","statements",
     "stated","normal","reaction","slope","plane","rough","sliding","slides","reasons",
     "relationship","gives","a","an","unit","derived","base","time","displacement",
-    "distance","motion","situation","represented","ball","car","trolley","cycles","stops",
+    "distance","motion","situation","represented","represents","ball","car","trolley","cycles","stops",
     "grocery","store","behind","house","school","journey","length","trajectory","travelled",
     "shortest","direction","initial","final","positions","equal","true","false","based",
     "on","table","following","substance","liquid","gas","solid","melting","boiling",
@@ -1139,7 +1157,7 @@ function formatBilingualText(raw) {
     "fungsi","gariskan","jawapan","pernyataan","pernyataandi","tindak","balas","satah",
     "condong","kasar","menggelongsor","sebab","hubungan","beri","sebuah","satu","unit",
     "terbitan","asas","masa","sesaran","jarak","gerakan","situasi","diwakili","kereta",
-    "bola","troli","mengayuh","basikal","rumah","rumahnya","sekolah","kedai","runcit",
+    "bola","troli","mengayuh","basikal","rumah","rumahnya","sekolah","kedai","runcit","mewakili",
     "perjalanan","perjalanannya","singgah","lintasan","pergerakan","terpendek","arah",
     "tertentu","garis","lurus","kedudukan","awal","akhir","sama","jadual","berikut",
     "bahan","cecair","pepejal","gas","takat","lebur","beku","didih","muatan","graviti",
@@ -1195,9 +1213,10 @@ function formatBilingualText(raw) {
       const isAlphaBullet = /^\([a-z0-9]+\)/i.test(line);
       const isNumBullet = /^[0-9]+\.\s*/.test(line);
       const isBullet = isRoman || isAlphaBullet || isNumBullet;
+      const isFormula = /^\$\$|\frac|^\d+\/\w+\s*=\s*\d+\/\w+|^[a-z]\s*=\s*|<div/i.test(line);
 
-      let lang = detectLineLang(line);
-      if (lang === "neutral") {
+      let lang = isFormula ? "neutral" : detectLineLang(line);
+      if (lang === "neutral" && !isFormula) {
         if (/^[a-z,;)]/.test(line)) {
           lang = lastLang;
         } else if (isBullet) {
@@ -1208,11 +1227,11 @@ function formatBilingualText(raw) {
       }
 
       const prev = items[items.length - 1];
-      if (prev && !isBullet && prev.lang === lang) {
+      if (prev && !isBullet && !isFormula && !prev.isFormula && prev.lang === lang) {
         prev.text += " " + line;
       } else {
-        items.push({ text: line, lang, isBullet });
-        lastLang = lang;
+        items.push({ text: line, lang, isBullet, isFormula });
+        if (!isFormula) lastLang = lang;
       }
     }
 

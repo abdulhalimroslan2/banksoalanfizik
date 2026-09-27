@@ -57,8 +57,8 @@ EXACT_QUESTION_STEMS = {
     ),
     "MODUL_T4_B6_K1_Q02": (
         "Berikut adalah formula bagi kanta nipis:\n"
-        "Following is the formula for a thin lens:\n"
-        "$$\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$$\n"
+        "Following is the formula for a thin lens:\n\n"
+        "$$\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$$\n\n"
         "f mewakili\n"
         "f represents"
     ),
