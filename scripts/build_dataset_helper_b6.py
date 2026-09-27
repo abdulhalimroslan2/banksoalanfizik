@@ -59,8 +59,8 @@ EXACT_QUESTION_STEMS = {
         "Berikut adalah formula bagi kanta nipis:\n"
         "Following is the formula for a thin lens:\n\n"
         "$$\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$$\n\n"
-        "f mewakili\n"
-        "f represents"
+        "$f$ mewakili\n"
+        "$f$ represents"
     ),
     "MODUL_T4_B6_K2_Q01": (
         "Rajah 1 menunjukkan graf jarak imej, v melawan pembesaran linear, m bagi suatu kanta cembung.\n"

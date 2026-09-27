@@ -1,17 +1,40 @@
 
 function triggerMathRender(el) {
-  if (window.renderMathInElement) {
-    try {
-      renderMathInElement(el || document.body, {
-        delimiters: [
-          { left: "$$", right: "$$", display: true },
-          { left: "$", right: "$", display: false }
-        ],
-        throwOnError: false
-      });
-    } catch (e) {
-      console.warn("KaTeX render error:", e);
+  const target = el || document.body;
+  if (!target) return;
+
+  const render = () => {
+    if (window.renderMathInElement) {
+      try {
+        renderMathInElement(target, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+            { left: "\\[", right: "\\]", display: true }
+          ],
+          ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"],
+          throwOnError: false
+        });
+      } catch (e) {
+        console.warn("KaTeX render error:", e);
+      }
     }
+  };
+
+  if (window.renderMathInElement) {
+    render();
+  } else {
+    let retries = 0;
+    const interval = setInterval(() => {
+      retries++;
+      if (window.renderMathInElement) {
+        clearInterval(interval);
+        render();
+      } else if (retries > 30) {
+        clearInterval(interval);
+      }
+    }, 100);
   }
 }
 
@@ -832,7 +855,7 @@ function switchWorkflowStage(stageNumber) {
 
   updateStepperUI(stage);
   if (window.lucide) lucide.createIcons();
-  triggerMathRender(container);
+  triggerMathRender(targetPanel || document.body);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -1239,6 +1262,29 @@ function formatBilingualText(raw) {
     for (let i = 0; i < items.length; i++) {
       const item = items[i];
       let lineHtml = item.text;
+
+      // Direct KaTeX string rendering if katex library is available
+      if (typeof katex !== "undefined") {
+        if (lineHtml.includes("$$")) {
+          lineHtml = lineHtml.replace(/\$\$([\s\S]*?)\$\$/g, (m, expr) => {
+            try {
+              return `<div class="katex-display-wrapper" style="margin: 0.75rem 0; text-align: center;">${katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false })}</div>`;
+            } catch (e) {
+              return m;
+            }
+          });
+        }
+        if (lineHtml.includes("$")) {
+          lineHtml = lineHtml.replace(/\$([^\$\n]+?)\$/g, (m, expr) => {
+            try {
+              return katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+            } catch (e) {
+              return m;
+            }
+          });
+        }
+      }
+
       if (item.lang === "en") {
         lineHtml = `<span class="soalan-en">${lineHtml}</span>`;
       }
@@ -1528,6 +1574,7 @@ function renderQuestionsBank() {
   }).join("");
 
   if (window.lucide) lucide.createIcons();
+  triggerMathRender(container);
 }
 
 function toggleExplanation(boxId) {
@@ -2610,6 +2657,7 @@ function renderAssemblyWorkbench() {
       </div>
     `;
     if (window.lucide) lucide.createIcons();
+  triggerMathRender(document.getElementById("workbench-container") || document.body);
     return;
   }
 
@@ -4353,6 +4401,7 @@ function renderSenaraiSoalan() {
       </div>
     `;
     if (window.lucide) lucide.createIcons();
+  triggerMathRender(document.getElementById("senarai-soalan-container") || document.body);
     return;
   }
 

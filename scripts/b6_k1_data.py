@@ -41,7 +41,7 @@ def get_k1_questions():
     # MODUL_T4_B6_K1_Q02
     questions.append(make_b6_q(
         "MODUL_T4_B6_K1_Q02", 2, "Rendah", "Mengingat",
-        'Berikut adalah formula bagi kanta nipis.\nFollowing is the formula for a thin lens.\n(Kelantan: 2023)\n1 1 1\nf u v\nf mewakili\nf represents',
+        'Berikut adalah formula bagi kanta nipis:\nFollowing is the formula for a thin lens:\n\n$$\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}$$\n\n$f$ mewakili\n$f$ represents',
         [
             {
                         "id": "A",
