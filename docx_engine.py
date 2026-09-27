@@ -327,38 +327,201 @@ def parse_option(opt):
     opt_text = format_physics_symbols(opt_text)
     return opt_id, opt_text, None, ""
 
-def split_bilingual_stem(raw_text):
-    """Splits raw question stem into Malay and English lines using word boundaries."""
+def parse_bilingual_stem(raw_text):
+    """
+    Memisahkan dan mencantumkan baris soalan dwibahasa secara pintar mengikut standard LPM SPM:
+    - Menghilangkan kesan baris terputus / 'tertekan enter' akibat pembalutan sempit OCR/PDF.
+    - Mengesan ayat Bahasa Melayu (BM), Bahasa Inggeris (EN), dan penyataan dwibahasa ('BM / EN').
+    - Menggabungkan baris kesinambungan ayat yang sama menjadi perenggan lengkap.
+    - Mengekalkan senarai Roman (I, II, III, IV, •, -) sebagai perenggan tersendiri.
+    - Menggabungkan tag punca soalan peperiksaan (contoh: (Perak: 2023)) ke dalam ayat sebelumnya.
+    Mengembalikan senarai dict: [{'text': str, 'lang': 'bm'|'en'|'bilingual', 'is_bullet': bool}]
+    """
+    if not raw_text:
+        return []
+
     raw_text = format_physics_symbols(raw_text)
-    raw_lines = raw_text.split("\n")
-    cleaned_lines = []
-    for l in raw_lines:
-        clean = re.sub(r'<[^>]+>', '', l).strip()
-        if clean:
-            cleaned_lines.append(clean)
-    lines = cleaned_lines
-    if len(lines) == 2:
-        return [lines[0]], [lines[1]]
-    
-    en_words = set(["which", "what", "diagram", "calculate", "state", "the", "is", "are", "of", "in", "if", "shows", "between", "an", "a", "from", "to", "for", "with", "by", "at", "when", "why", "how", "given", "assume", "determine", "name"])
-    bm_words = set(["rajah", "apakah", "yang", "manakah", "antara", "berikut", "hitungkan", "nyatakan", "terangkan", "mengapakah", "bagaimanakah", "diberi", "jika", "apabila", "suatu", "sebuah", "seorang", "pada", "oleh", "dengan", "untuk", "dalam", "dan", "ialah", "adalah", "unit", "kuantiti", "terbitan", "asas", "daya", "tenaga", "tekanan", "panjang", "jisim", "laju", "halaju"])
-    
-    bm_lines = []
-    en_lines = []
-    for l in lines:
-        words = re.findall(r"[a-zA-Z]+", l.lower())
+    raw_lines = [re.sub(r'<[^>]+>', '', l).strip() for l in raw_text.split(chr(10))]
+    raw_lines = [l for l in raw_lines if l]
+    if not raw_lines:
+        return []
+
+    en_words = set([
+        "which", "what", "diagram", "calculate", "state", "the", "is", "are", "of", "in", "if",
+        "shows", "between", "an", "a", "from", "to", "for", "with", "by", "at", "when", "why",
+        "how", "given", "assume", "determine", "name", "object", "mass", "acceleration",
+        "velocity", "force", "energy", "wave", "will", "pass", "supermarket", "located",
+        "route", "taken", "motion", "displacement", "true", "false", "following", "statements",
+        "statement", "correct", "incorrect", "not", "increases", "decreases", "remains",
+        "constant", "whose", "where", "speed", "frequency", "pressure", "temperature", "released",
+        "before", "after", "collision", "inelastic", "elastic", "conserved", "total", "kinetic",
+        "potential", "direction", "normal", "bends", "towards", "heat", "light", "reflection",
+        "refraction", "current", "voltage", "resistance", "magnetic", "nuclear", "about", "box",
+        "label", "food", "earth", "moon", "jump", "jumps", "jumped", "landing", "astronaut", "surface",
+        "graph", "gradient", "relationship", "proportional", "inversely", "directly", "load",
+        "work", "power", "density", "buoyancy", "buoyant", "sink", "float", "floating", "gas",
+        "liquid", "depth", "atmospheric", "gauge", "hydrometer", "manometer", "barometer",
+        "hydraulic", "pascal", "archimedes", "bernoulli", "latent", "capacity", "fusion",
+        "vaporisation", "law", "lens", "convex", "concave", "mirror", "focus", "critical",
+        "angle", "index", "speed", "prism", "periscope", "optical", "fibre", "telescope",
+        "microscope", "focal", "magnification", "resultant", "resolution", "equilibrium",
+        "spring", "limit", "proportionality", "electromagnet", "field", "left", "hand",
+        "rule", "right", "motor", "direct", "alternating", "induction", "induced", "transformer",
+        "iron", "core", "efficiency", "generator", "semiconductor", "intrinsic", "extrinsic",
+        "forward", "reverse", "bias", "rectification", "half", "full", "capacitor", "transistor",
+        "base", "collector", "emitter", "switch", "amplifier", "gate", "decay", "alpha",
+        "beta", "gamma", "half-life", "isotope", "radioisotope", "fission", "defect",
+        "photon", "quantum", "photoelectric", "effect", "threshold"
+    ])
+    bm_words = set([
+        "rajah", "apakah", "yang", "manakah", "antara", "berikut", "hitungkan", "nyatakan",
+        "terangkan", "mengapakah", "bagaimanakah", "diberi", "jika", "apabila", "suatu",
+        "sebuah", "seorang", "pada", "oleh", "dengan", "untuk", "dalam", "dan", "ialah",
+        "adalah", "unit", "kuantiti", "terbitan", "asas", "daya", "tenaga", "tekanan",
+        "panjang", "jisim", "laju", "halaju", "pecutan", "objek", "akan", "lalu", "pasar",
+        "terletak", "perjalanan", "laluan", "diambil", "sesaran", "pergerakan", "benar",
+        "palsu", "pernyataan", "betul", "salah", "tidak", "bertambah", "berkurang", "kekal",
+        "malar", "suhu", "ketinggian", "dilepaskan", "sebelum", "selepas", "perlanggaran",
+        "sama", "jumlah", "kinetik", "keupayaan", "arah", "normal", "membengkok", "kenyal",
+        "haba", "gelombang", "frekuensi", "cahaya", "pantulan", "pembiasan", "arus", "voltan",
+        "rintangan", "magnet", "nuklear", "tentang", "kotak", "label", "makanan", "bumi",
+        "bulan", "lompat", "melompat", "mendarat", "angkasawan", "permukaan", "graf",
+        "kecerunan", "hubungan", "beban", "kerja", "kuasa", "ketumpatan", "apungan",
+        "keapungan", "tenggelam", "terapung", "gas", "cecair", "kedalaman", "atmosfera",
+        "tolok", "hidrometer", "manometer", "barometer", "hidraulik", "paskal", "archimedes",
+        "bernoulli", "pendam", "tentu", "muatan", "peleburan", "pengewapan", "hukum",
+        "boyle", "charles", "gay-lussac", "kanta", "cembung", "cekung", "cermin", "fokus",
+        "sudut", "tuju", "bias", "genting", "indeks", "kecepatan", "prisma", "periskop",
+        "gentian", "optik", "teleskop", "mikroskop", "pembesaran", "linear", "paduan",
+        "leraian", "keseimbangan", "spring", "pemalar", "had", "kekenyalan", "kemagnetan",
+        "elektromagnet", "medan", "petua", "tangan", "kiri", "fleming", "kanan", "motor",
+        "ulang-alik", "aruh", "aruhan", "faraday", "lenz", "transformer", "injap", "teras",
+        "besi", "kecekapan", "penjana", "semikonduktor", "intrinsik", "ekstrinsik", "jenis-p",
+        "jenis-n", "diod", "pincang", "depan", "rektifikasi", "separuh", "penuh", "kapasitor",
+        "transistor", "tapak", "pengumpul", "pengeluar", "litar", "suis", "penguat", "logik",
+        "get", "reputan", "alfa", "beta", "gama", "hayat", "isotop", "radioisotop",
+        "pembelahan", "pelakuran", "cacat", "einstein", "reaktor", "foton", "kuantum",
+        "fotoelektrik", "de", "broglie", "ambang", "fungsi"
+    ])
+
+    def is_roman_bullet(s):
+        return bool(re.match(r'^[IVXLCDM]+[\s.)]', s.strip()))
+
+    def is_provenance(s):
+        return bool(re.match(r'^\([A-Za-z0-9\s:,-]+\)$', s.strip()))
+
+    def detect_lang(line, last_lang='bm'):
+        if is_provenance(line):
+            return last_lang
+        clean_line = re.sub(r'^[IVXLCDM]+[\s.)]+', '', line)
+        if ' / ' in clean_line and not re.search(r'=\s*[^/]+/', clean_line):
+            return 'bilingual'
+        words = re.findall(r'[a-zA-Z]+', clean_line.lower())
         bm_score = sum(1 for w in words if w in bm_words)
         en_score = sum(1 for w in words if w in en_words)
         if en_score > bm_score:
-            en_lines.append(l)
-        else:
-            bm_lines.append(l)
-            
+            return 'en'
+        if bm_score > en_score:
+            return 'bm'
+        if re.match(r'^[a-z]', line.strip()):
+            return last_lang
+        return last_lang
+
+    classified = []
+    last_lang = 'bm'
+    for l in raw_lines:
+        is_bullet = is_roman_bullet(l)
+        is_prov = is_provenance(l)
+        lang = detect_lang(l, last_lang)
+        classified.append({
+            'text': l,
+            'lang': lang,
+            'is_bullet': is_bullet,
+            'is_prov': is_prov
+        })
+        if not is_prov and lang in ('bm', 'en'):
+            last_lang = lang
+
+    merged = []
+    for item in classified:
+        if not merged:
+            merged.append(item)
+            continue
+        prev = merged[-1]
+
+        # Tag sumber peperiksaan (contoh: (Perak: 2023)) dicantumkan pada ayat sebelumnya
+        if item['is_prov']:
+            prev['text'] += ' ' + item['text']
+            continue
+
+        # Item senarai Roman baru mesti bermula pada perenggan baharu
+        if item['is_bullet']:
+            merged.append(item)
+            continue
+
+        # Jika bahasa sama, cantumkan baris kesinambungan menjadi ayat/perenggan lengkap
+        if item['lang'] == prev['lang'] and item['lang'] in ('bm', 'en'):
+            prev['text'] += ' ' + item['text']
+            continue
+
+        # Jika baris bermula dengan huruf kecil/tanda baca, ia kesinambungan baris sebelumnya
+        if re.match(r'^[a-z0-9,;.)]', item['text']):
+            prev['text'] += ' ' + item['text']
+            continue
+
+        merged.append(item)
+
+    return merged
+
+def split_bilingual_stem(raw_text):
+    """
+    Fungsi legasi yang mengembalikan (bm_lines, en_lines).
+    Digunakan oleh fungsi pengira ketinggian muka surat (estimate/calc).
+    """
+    items = parse_bilingual_stem(raw_text)
+    bm_lines = [it['text'] for it in items if it['lang'] != 'en']
+    en_lines = [it['text'] for it in items if it['lang'] == 'en']
     if not en_lines and len(bm_lines) > 1:
         half = len(bm_lines) // 2
         return bm_lines[:half], bm_lines[half:]
-        
     return bm_lines, en_lines
+
+def render_bilingual_paragraphs(cell, raw_stem, keep_next=True):
+    """
+    Merender perenggan soalan dwibahasa ke dalam cell Word Table:
+    - Teks Bahasa Melayu ditaip tegak (regular).
+    - Teks Bahasa Inggeris ditaip condong (italic).
+    - Baris dwibahasa berformat 'BM / EN' dipecahkan: BM tegak dan EN condong.
+    - Semua perenggan dijajarkan penuh (WD_ALIGN_PARAGRAPH.JUSTIFY).
+    """
+    stem_items = parse_bilingual_stem(raw_stem)
+    for l_idx, item in enumerate(stem_items):
+        p = cell.paragraphs[0] if (l_idx == 0 and len(cell.paragraphs) > 0 and not cell.paragraphs[0].text) else cell.add_paragraph()
+        if keep_next:
+            p.paragraph_format.keep_with_next = True
+        p.paragraph_format.line_spacing = 1.15
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(2)
+        p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+
+        txt = item['text']
+        lang = item['lang']
+        if lang == 'bilingual' and ' / ' in txt and not re.search(r'=\s*[^/]+/', txt):
+            bm_part, en_part = txt.split(' / ', 1)
+            r_bm = p.add_run(bm_part + ' / ')
+            r_bm.font.name = 'Times New Roman'
+            r_bm.font.size = Pt(12)
+            r_bm.font.italic = False
+
+            r_en = p.add_run(en_part)
+            r_en.font.name = 'Times New Roman'
+            r_en.font.size = Pt(12)
+            r_en.font.italic = True
+        else:
+            r = p.add_run(txt)
+            r.font.name = 'Times New Roman'
+            r.font.size = Pt(12)
+            r.font.italic = (lang == 'en')
 
 # ==============================================================================
 # KERTAS 1 EXAM
@@ -1236,26 +1399,7 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
             tbl_elem.append(tr_stem)
             cell_stem = docx.table._Cell(tr_stem.xpath('w:tc')[1], tbl)
 
-            for l_idx, bm in enumerate(bm_lines):
-                p = cell_stem.paragraphs[0] if (l_idx == 0 and len(cell_stem.paragraphs) > 0 and not cell_stem.paragraphs[0].text) else cell_stem.add_paragraph()
-                p.paragraph_format.keep_with_next = True
-                p.paragraph_format.line_spacing = 1.15
-                p.paragraph_format.space_before = Pt(0)
-                p.paragraph_format.space_after = Pt(2)
-                r = p.add_run(bm)
-                r.font.name = "Times New Roman"
-                r.font.size = Pt(12)
-
-            for en in en_lines:
-                p = cell_stem.add_paragraph()
-                p.paragraph_format.keep_with_next = True
-                p.paragraph_format.line_spacing = 1.15
-                p.paragraph_format.space_before = Pt(0)
-                p.paragraph_format.space_after = Pt(2)
-                r = p.add_run(en)
-                r.font.name = "Times New Roman"
-                r.font.size = Pt(12)
-                r.font.italic = True
+            render_bilingual_paragraphs(cell_stem, raw_stem, keep_next=True)
 
             if rajah_url:
                 p_img = cell_stem.add_paragraph()
@@ -1807,24 +1951,7 @@ def build_k2_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
         tbl_elem.append(tr_stem)
         cell_stem = docx.table._Cell(tr_stem.xpath('w:tc')[1], tbl)
 
-        for l_idx, bm in enumerate(bm_lines):
-            p = cell_stem.paragraphs[0] if (l_idx == 0 and len(cell_stem.paragraphs) > 0 and not cell_stem.paragraphs[0].text) else cell_stem.add_paragraph()
-            p.paragraph_format.line_spacing = 1.15
-            p.paragraph_format.space_before = Pt(0)
-            p.paragraph_format.space_after = Pt(2)
-            r = p.add_run(bm)
-            r.font.name = "Times New Roman"
-            r.font.size = Pt(12)
-
-        for en in en_lines:
-            p = cell_stem.add_paragraph()
-            p.paragraph_format.line_spacing = 1.15
-            p.paragraph_format.space_before = Pt(0)
-            p.paragraph_format.space_after = Pt(2)
-            r = p.add_run(en)
-            r.font.name = "Times New Roman"
-            r.font.size = Pt(12)
-            r.font.italic = True
+        render_bilingual_paragraphs(cell_stem, raw_stem, keep_next=True)
 
         rajah_url = q.get("rajahUrl")
         if rajah_url:
@@ -1888,24 +2015,7 @@ def build_k2_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
             tbl_elem.append(tr_sub)
             cell_sub = docx.table._Cell(tr_sub.xpath('w:tc')[2], tbl)
 
-            for l_idx, bm in enumerate(sub_bm):
-                p = cell_sub.paragraphs[0] if (l_idx == 0 and len(cell_sub.paragraphs) > 0 and not cell_sub.paragraphs[0].text) else cell_sub.add_paragraph()
-                p.paragraph_format.line_spacing = 1.15
-                p.paragraph_format.space_before = Pt(0)
-                p.paragraph_format.space_after = Pt(2)
-                r = p.add_run(bm)
-                r.font.name = "Times New Roman"
-                r.font.size = Pt(12)
-
-            for en in sub_en:
-                p = cell_sub.add_paragraph()
-                p.paragraph_format.line_spacing = 1.15
-                p.paragraph_format.space_before = Pt(0)
-                p.paragraph_format.space_after = Pt(2)
-                r = p.add_run(en)
-                r.font.name = "Times New Roman"
-                r.font.size = Pt(12)
-                r.font.italic = True
+            render_bilingual_paragraphs(cell_sub, raw_sub_q, keep_next=False)
 
             p_lines = cell_sub.add_paragraph()
             p_lines.paragraph_format.space_before = Pt(8)
