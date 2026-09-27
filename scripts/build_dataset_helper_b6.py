@@ -41,6 +41,16 @@ if os.path.exists(opt_path):
         OPTION_URLS = json.load(f)
 
 EXACT_QUESTION_STEMS = {
+    "MODUL_T4_B6_K2_Q48": (
+        "Satu periskop diperbuat daripada dua prisma 45°-90°-45°. Antara gambar rajah berikut yang manakah menunjukkan susunan yang betul prisma itu?\n"
+        "A periscope is made from two 45°-90°-45° prisms. Which of the following diagrams shows the correct arrangement of the glass prism?"
+    ),
+    "MODUL_T4_B6_K3_Q54": (
+        "Rajah 80 menunjukkan satu sinar cahaya ditujukan secara normal dengan permukaan PQ bagi sebuah prisma kaca. Diberi bahawa indeks biasan prisma tersebut ialah 1.50.\n"
+        "Diagram 80 shows a light ray directed normally to PQ of a glass prism. Given that the refractive index of the prism is 1.50.\n"
+        "Lintasan manakah A, B, C dan D menunjukkan perambatan cahaya yang betul selepas melalui PR?\n"
+        "Which path A, B, C and D shows the correct propagation of light after passing PR?"
+    ),
     "MODUL_T4_B6_K1_Q01": (
         "Apakah ciri-ciri imej yang dihasilkan oleh cermin cembung?\n"
         "What are the characteristics of the image produced by a convex mirror?"
@@ -661,6 +671,12 @@ def clean_ocr_typos_b6(text):
 
 
 EXACT_QUESTION_OPTIONS = {
+    "MODUL_T4_B6_K2_Q48": [
+        {"id": "A", "teks": '<img src="https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_a.webp" style="max-height:130px; border-radius:4px;" alt="Pilihan A">'},
+        {"id": "B", "teks": '<img src="https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_b.webp" style="max-height:130px; border-radius:4px;" alt="Pilihan B">'},
+        {"id": "C", "teks": '<img src="https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_c.webp" style="max-height:130px; border-radius:4px;" alt="Pilihan C">'},
+        {"id": "D", "teks": '<img src="https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_d.webp" style="max-height:130px; border-radius:4px;" alt="Pilihan D">'}
+    ],
     "MODUL_T4_B6_K2_Q17": [
         {"id": "A", "teks": "Pantulan / Reflection"},
         {"id": "B", "teks": "Pembiasan / Refraction"},
@@ -741,7 +757,61 @@ EXACT_QUESTION_OPTIONS = {
     ]
 }
 
-def classify_dskp_b6(soalan, konstruk_num=2):
+
+SP_MAP_B6 = {
+    "6.1.1": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 232-241", "Cheatnote T4 Bab 6 ms 1-3"),
+    "6.1.2": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.2 Menerangkan indeks biasan, n", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 233-235", "Cheatnote T4 Bab 6 ms 1-3"),
+    "6.1.3": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.3 Mengkonsepsikan Hukum Snell", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 235-237", "Cheatnote T4 Bab 6 ms 1-3"),
+    "6.1.4": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.4 Mengeksperimen menentukan indeks biasan kaca", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 236-238", "Cheatnote T4 Bab 6 ms 1-3"),
+    "6.1.5": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.5 Menerangkan dalam nyata dan dalam ketara", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 238-241", "Cheatnote T4 Bab 6 ms 1-3"),
+    "6.1.6": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.6 Mengeksperimen menentukan indeks biasan menggunakan dalam nyata & ketara", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 239-241", "Cheatnote T4 Bab 6 ms 1-3"),
+    "6.1.7": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 241-242", "Cheatnote T4 Bab 6 ms 1-3"),
+
+    "6.2.1": ("SK 6.2 Pantulan Dalam Penuh", "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh", "6.2 Pantulan Dalam Penuh", "DSKP Fizik T4 ms 80-81", "Buku Teks T4 ms 242-245", "Cheatnote T4 Bab 6 ms 4-5"),
+    "6.2.2": ("SK 6.2 Pantulan Dalam Penuh", "SP 6.2.2 Menghubungkait sudut genting dengan indeks biasan n = 1/sin c", "6.2 Pantulan Dalam Penuh", "DSKP Fizik T4 ms 80-81", "Buku Teks T4 ms 245-247", "Cheatnote T4 Bab 6 ms 4-5"),
+    "6.2.3": ("SK 6.2 Pantulan Dalam Penuh", "SP 6.2.3 Menerangkan aplikasi pantulan dalam penuh (gentian optik, logamaya, periskop)", "6.2 Pantulan Dalam Penuh", "DSKP Fizik T4 ms 80-81", "Buku Teks T4 ms 247-250", "Cheatnote T4 Bab 6 ms 4-5"),
+    "6.2.4": ("SK 6.2 Pantulan Dalam Penuh", "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh", "6.2 Pantulan Dalam Penuh", "DSKP Fizik T4 ms 80-81", "Buku Teks T4 ms 250-251", "Cheatnote T4 Bab 6 ms 4-5"),
+
+    "6.3.1": ("SK 6.3 Pembentukan Imej oleh Kanta", "SP 6.3.1 Mengenal pasti kanta cembung penumpu dan kanta cekung pencapah", "6.3 Pembentukan Imej oleh Kanta", "DSKP Fizik T4 ms 82-83", "Buku Teks T4 ms 251-253", "Cheatnote T4 Bab 6 ms 6-8"),
+    "6.3.2": ("SK 6.3 Pembentukan Imej oleh Kanta", "SP 6.3.2 Menganggar panjang fokus kanta cembung", "6.3 Pembentukan Imej oleh Kanta", "DSKP Fizik T4 ms 82-83", "Buku Teks T4 ms 253-254", "Cheatnote T4 Bab 6 ms 6-8"),
+    "6.3.3": ("SK 6.3 Pembentukan Imej oleh Kanta", "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung", "6.3 Pembentukan Imej oleh Kanta", "DSKP Fizik T4 ms 82-83", "Buku Teks T4 ms 254-259", "Cheatnote T4 Bab 6 ms 6-8"),
+    "6.3.4": ("SK 6.3 Pembentukan Imej oleh Kanta", "SP 6.3.4 Menyatakan pembesaran linear, m = v/u = hi/ho", "6.3 Pembentukan Imej oleh Kanta", "DSKP Fizik T4 ms 82-83", "Buku Teks T4 ms 259-261", "Cheatnote T4 Bab 6 ms 6-8"),
+
+    "6.4.1": ("SK 6.4 Formula Kanta Nipis", "SP 6.4.1 Eksperimen menentukan panjang fokus menggunakan formula kanta 1/f = 1/u + 1/v", "6.4 Formula Kanta Nipis", "DSKP Fizik T4 ms 84-85", "Buku Teks T4 ms 261-264", "Cheatnote T4 Bab 6 ms 9-10"),
+    "6.4.2": ("SK 6.4 Formula Kanta Nipis", "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis", "6.4 Formula Kanta Nipis", "DSKP Fizik T4 ms 84-85", "Buku Teks T4 ms 264-266", "Cheatnote T4 Bab 6 ms 9-10"),
+
+    "6.5.1": ("SK 6.5 Peralatan Optik", "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)", "6.5 Peralatan Optik", "DSKP Fizik T4 ms 86-87", "Buku Teks T4 ms 266-270", "Cheatnote T4 Bab 6 ms 11-12"),
+    "6.5.2": ("SK 6.5 Peralatan Optik", "SP 6.5.2 Mereka bentuk dan membina mikroskop majmuk dan teleskop", "6.5 Peralatan Optik", "DSKP Fizik T4 ms 86-87", "Buku Teks T4 ms 270-272", "Cheatnote T4 Bab 6 ms 11-12"),
+    "6.5.3": ("SK 6.5 Peralatan Optik", "SP 6.5.3 Aplikasi kanta bersaiz kecil dalam teknologi optik", "6.5 Peralatan Optik", "DSKP Fizik T4 ms 86-87", "Buku Teks T4 ms 272-273", "Cheatnote T4 Bab 6 ms 11-12"),
+
+    "6.6.1": ("SK 6.6 Pembentukan Imej oleh Cermin Sfera", "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung", "6.6 Pembentukan Imej oleh Cermin Sfera", "DSKP Fizik T4 ms 88-89", "Buku Teks T4 ms 273-280", "Cheatnote T4 Bab 6 ms 13-14"),
+    "6.6.2": ("SK 6.6 Pembentukan Imej oleh Cermin Sfera", "SP 6.6.2 Aplikasi cermin cekung dan cermin cembung dalam kehidupan harian", "6.6 Pembentukan Imej oleh Cermin Sfera", "DSKP Fizik T4 ms 88-89", "Buku Teks T4 ms 280-282", "Cheatnote T4 Bab 6 ms 13-14"),
+}
+
+
+EXACT_QUESTION_DSKP = {
+    "MODUL_T4_B6_K3_Q51": "6.2.4",
+    "MODUL_T4_B6_K3_Q54": "6.2.4",
+    "MODUL_T4_B6_K3_Q34": "6.2.4",
+    "MODUL_T4_B6_K2_Q02": "6.2.3",
+    "MODUL_T4_B6_K2_Q30": "6.2.3",
+    "MODUL_T4_B6_K2_Q38": "6.2.3",
+    "MODUL_T4_B6_K2_Q48": "6.2.3",
+}
+
+def classify_dskp_b6(soalan, konstruk_num=2, qid=None):
+    if qid and qid in EXACT_QUESTION_DSKP:
+        sp_key = EXACT_QUESTION_DSKP[qid]
+        sk, sp, topik, dskp, bt, cn = SP_MAP_B6.get(sp_key, SP_MAP_B6["6.1.1"])
+        return {
+            "sk": sk,
+            "sp": sp,
+            "spKod": sp_key,
+            "topik": topik,
+            "rujukanDskp": dskp,
+            "rujukanBukuTeks": bt,
+            "rujukanCheatnote": cn
+        }
     s = soalan.lower()
     
     # 6.6 Cermin Sfera (Cekung / Cembung)
@@ -808,37 +878,8 @@ def classify_dskp_b6(soalan, konstruk_num=2):
         else:
             sp_key = "6.1.1"
 
-    sp_map = {
-        "6.1.1": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.1 Memerihalkan fenomena pembiasan cahaya", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 232-241", "Cheatnote T4 Bab 6 ms 1-3"),
-        "6.1.2": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.2 Menerangkan indeks biasan, n", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 233-235", "Cheatnote T4 Bab 6 ms 1-3"),
-        "6.1.3": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.3 Mengkonsepsikan Hukum Snell", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 235-237", "Cheatnote T4 Bab 6 ms 1-3"),
-        "6.1.4": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.4 Mengeksperimen menentukan indeks biasan kaca", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 236-238", "Cheatnote T4 Bab 6 ms 1-3"),
-        "6.1.5": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.5 Menerangkan dalam nyata dan dalam ketara", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 238-241", "Cheatnote T4 Bab 6 ms 1-3"),
-        "6.1.6": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.6 Mengeksperimen menentukan indeks biasan menggunakan dalam nyata & ketara", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 239-241", "Cheatnote T4 Bab 6 ms 1-3"),
-        "6.1.7": ("SK 6.1 Pembiasan Cahaya", "SP 6.1.7 Menyelesaikan masalah berkaitan pembiasan cahaya", "6.1 Pembiasan Cahaya", "DSKP Fizik T4 ms 78-79", "Buku Teks T4 ms 241-242", "Cheatnote T4 Bab 6 ms 1-3"),
-
-        "6.2.1": ("SK 6.2 Pantulan Dalam Penuh", "SP 6.2.1 Menerangkan sudut genting dan pantulan dalam penuh", "6.2 Pantulan Dalam Penuh", "DSKP Fizik T4 ms 80-81", "Buku Teks T4 ms 242-245", "Cheatnote T4 Bab 6 ms 4-5"),
-        "6.2.2": ("SK 6.2 Pantulan Dalam Penuh", "SP 6.2.2 Menghubungkait sudut genting dengan indeks biasan n = 1/sin c", "6.2 Pantulan Dalam Penuh", "DSKP Fizik T4 ms 80-81", "Buku Teks T4 ms 245-247", "Cheatnote T4 Bab 6 ms 4-5"),
-        "6.2.3": ("SK 6.2 Pantulan Dalam Penuh", "SP 6.2.3 Menerangkan aplikasi pantulan dalam penuh (gentian optik, logamaya, periskop)", "6.2 Pantulan Dalam Penuh", "DSKP Fizik T4 ms 80-81", "Buku Teks T4 ms 247-250", "Cheatnote T4 Bab 6 ms 4-5"),
-        "6.2.4": ("SK 6.2 Pantulan Dalam Penuh", "SP 6.2.4 Menyelesaikan masalah melibatkan pantulan dalam penuh", "6.2 Pantulan Dalam Penuh", "DSKP Fizik T4 ms 80-81", "Buku Teks T4 ms 250-251", "Cheatnote T4 Bab 6 ms 4-5"),
-
-        "6.3.1": ("SK 6.3 Pembentukan Imej oleh Kanta", "SP 6.3.1 Mengenal pasti kanta cembung penumpu dan kanta cekung pencapah", "6.3 Pembentukan Imej oleh Kanta", "DSKP Fizik T4 ms 82-83", "Buku Teks T4 ms 251-253", "Cheatnote T4 Bab 6 ms 6-8"),
-        "6.3.2": ("SK 6.3 Pembentukan Imej oleh Kanta", "SP 6.3.2 Menganggar panjang fokus kanta cembung", "6.3 Pembentukan Imej oleh Kanta", "DSKP Fizik T4 ms 82-83", "Buku Teks T4 ms 253-254", "Cheatnote T4 Bab 6 ms 6-8"),
-        "6.3.3": ("SK 6.3 Pembentukan Imej oleh Kanta", "SP 6.3.3 Menentukan kedudukan imej dan ciri-ciri imej kanta cembung dan cekung", "6.3 Pembentukan Imej oleh Kanta", "DSKP Fizik T4 ms 82-83", "Buku Teks T4 ms 254-259", "Cheatnote T4 Bab 6 ms 6-8"),
-        "6.3.4": ("SK 6.3 Pembentukan Imej oleh Kanta", "SP 6.3.4 Menyatakan pembesaran linear, m = v/u = hi/ho", "6.3 Pembentukan Imej oleh Kanta", "DSKP Fizik T4 ms 82-83", "Buku Teks T4 ms 259-261", "Cheatnote T4 Bab 6 ms 6-8"),
-
-        "6.4.1": ("SK 6.4 Formula Kanta Nipis", "SP 6.4.1 Eksperimen menentukan panjang fokus menggunakan formula kanta 1/f = 1/u + 1/v", "6.4 Formula Kanta Nipis", "DSKP Fizik T4 ms 84-85", "Buku Teks T4 ms 261-264", "Cheatnote T4 Bab 6 ms 9-10"),
-        "6.4.2": ("SK 6.4 Formula Kanta Nipis", "SP 6.4.2 Menyelesaikan masalah melibatkan formula kanta nipis", "6.4 Formula Kanta Nipis", "DSKP Fizik T4 ms 84-85", "Buku Teks T4 ms 264-266", "Cheatnote T4 Bab 6 ms 9-10"),
-
-        "6.5.1": ("SK 6.5 Peralatan Optik", "SP 6.5.1 Mewajarkan penggunaan kanta dalam peralatan optik (kanta pembesar, mikroskop, teleskop)", "6.5 Peralatan Optik", "DSKP Fizik T4 ms 86-87", "Buku Teks T4 ms 266-270", "Cheatnote T4 Bab 6 ms 11-12"),
-        "6.5.2": ("SK 6.5 Peralatan Optik", "SP 6.5.2 Mereka bentuk dan membina mikroskop majmuk dan teleskop", "6.5 Peralatan Optik", "DSKP Fizik T4 ms 86-87", "Buku Teks T4 ms 270-272", "Cheatnote T4 Bab 6 ms 11-12"),
-        "6.5.3": ("SK 6.5 Peralatan Optik", "SP 6.5.3 Aplikasi kanta bersaiz kecil dalam teknologi optik", "6.5 Peralatan Optik", "DSKP Fizik T4 ms 86-87", "Buku Teks T4 ms 272-273", "Cheatnote T4 Bab 6 ms 11-12"),
-
-        "6.6.1": ("SK 6.6 Pembentukan Imej oleh Cermin Sfera", "SP 6.6.1 Menentukan kedudukan imej dan ciri-ciri imej cermin cekung dan cermin cembung", "6.6 Pembentukan Imej oleh Cermin Sfera", "DSKP Fizik T4 ms 88-89", "Buku Teks T4 ms 273-280", "Cheatnote T4 Bab 6 ms 13-14"),
-        "6.6.2": ("SK 6.6 Pembentukan Imej oleh Cermin Sfera", "SP 6.6.2 Aplikasi cermin cekung dan cermin cembung dalam kehidupan harian", "6.6 Pembentukan Imej oleh Cermin Sfera", "DSKP Fizik T4 ms 88-89", "Buku Teks T4 ms 280-282", "Cheatnote T4 Bab 6 ms 13-14"),
-    }
-
-    sk, sp, topik, dskp, bt, cn = sp_map.get(sp_key, sp_map["6.1.1"])
+    
+    sk, sp, topik, dskp, bt, cn = SP_MAP_B6.get(sp_key, SP_MAP_B6["6.1.1"])
     return {
         "sk": sk,
         "sp": sp,
@@ -866,7 +907,7 @@ def make_b6_q(qid, no, aras, konstruk, soalan, pilihan, rajah_key="", sumber="Pe
                 penerangan = f"{penerangan}\n{rub_html}"
     
     k_num = int(qid.split('_')[3][1])
-    dskp = classify_dskp_b6(soalan, k_num)
+    dskp = classify_dskp_b6(soalan, k_num, qid)
     
     # Diagram URL for stem
     rajah_url = ""
