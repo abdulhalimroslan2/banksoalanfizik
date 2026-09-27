@@ -9885,19 +9885,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Momentum R < / Momentum S"
+        "teks": "Momentum R < Momentum S / Momentum of R < Momentum of S"
       },
       {
         "id": "B",
-        "teks": "Momentum R > / Momentum S"
+        "teks": "Momentum R > Momentum S / Momentum of R > Momentum of S"
       },
       {
         "id": "C",
-        "teks": "Momentum R = / Momentum S"
+        "teks": "Momentum R = Momentum S / Momentum of R = Momentum of S"
       },
       {
         "id": "D",
-        "teks": "Momentum R = / Momentum S = 0"
+        "teks": "Momentum R = Momentum S = 0 / Momentum of R = Momentum of S = 0"
       }
     ],
     "jawapanBetul": "A",
@@ -30172,19 +30172,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Cekung u> panjangfokus Concave cermin u> focalengthof mirror"
+        "teks": "Cekung, u > panjang fokus cermin / Concave, u > focal length of mirror"
       },
       {
         "id": "B",
-        "teks": "Cckung u< panjang fokus Concave cermin u<focallengthof mirror"
+        "teks": "Cekung, u < panjang fokus cermin / Concave, u < focal length of mirror"
       },
       {
         "id": "C",
-        "teks": "Cembung u> panjangfokus Convex cermin u>focal lengthof mirror"
+        "teks": "Cembung, u > panjang fokus cermin / Convex, u > focal length of mirror"
       },
       {
         "id": "D",
-        "teks": "Cembung u< panjangfokus Convex cermin u<focal lengthof mirror"
+        "teks": "Cembung, u < panjang fokus cermin / Convex, u < focal length of mirror"
       }
     ],
     "jawapanBetul": "B",
@@ -31976,19 +31976,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_a.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_a_v2.webp?v=20260927_v2\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan A\">"
       },
       {
         "id": "B",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_b.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_b_v2.webp?v=20260927_v2\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan B\">"
       },
       {
         "id": "C",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_c.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_c_v2.webp?v=20260927_v2\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan C\">"
       },
       {
         "id": "D",
-        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_d.webp\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
+        "teks": "<img src=\"https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/options/t4_b6_k2_q48_opt_d_v2.webp?v=20260927_v2\" style=\"max-height:130px; border-radius:4px;\" alt=\"Pilihan D\">"
       }
     ],
     "jawapanBetul": "D",
@@ -32152,19 +32152,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "L=f,+ f."
+        "teks": "L = fo + fe"
       },
       {
         "id": "B",
-        "teks": "L>fo+ f"
+        "teks": "L > fo + fe"
       },
       {
         "id": "C",
-        "teks": "L<f,+ fe"
+        "teks": "L < fo + fe"
       },
       {
         "id": "D",
-        "teks": "L=fo- fe"
+        "teks": "L = fo - fe"
       }
     ],
     "jawapanBetul": "A",

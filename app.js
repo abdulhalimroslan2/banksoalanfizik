@@ -1284,6 +1284,7 @@ function formatBilingualText(raw) {
         }
       }
 
+      lineHtml = safeEscapeLtGt(lineHtml);
       if (item.lang === "en") {
         lineHtml = `<span class="soalan-en">${lineHtml}</span>`;
       }
@@ -1301,8 +1302,43 @@ function formatBilingualText(raw) {
   return formattedParas.join("<br><br>");
 }
 
+function safeEscapeLtGt(str) {
+  if (!str || typeof str !== "string") return str || "";
+  if (str.includes("<img")) return str;
+  return str
+    .replace(/<(?!\/?(?:i|em|b|strong|sub|sup|br|span|div|table|thead|tbody|tr|th|td|p|ul|li)\b[^>]*>)/gi, "&lt;")
+    .replace(/(?<!<\/?(?:i|em|b|strong|sub|sup|br|span|div|table|thead|tbody|tr|th|td|p|ul|li)\b[^>]*)>/gi, (match, offset, fullStr) => {
+      const before = fullStr.slice(0, offset);
+      if (/<(?:i|em|b|strong|sub|sup|br|span|div|table|thead|tbody|tr|th|td|p|ul|li)\b[^>]*$/i.test(before)) {
+        return ">";
+      }
+      return "&gt;";
+    });
+}
+
 function formatOptionText(text) {
   if (!text || typeof text !== "string") return text || "";
+  if (text.includes("<img")) return text;
+
+  // Direct KaTeX rendering if available and math is present
+  if (typeof katex !== "undefined" && (text.includes("$") || text.includes("$$"))) {
+    text = text.replace(/\$\$([\s\S]*?)\$\$/g, (m, expr) => {
+      try {
+        return katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+      } catch (e) {
+        return m;
+      }
+    }).replace(/\$([^\$\n]+?)\$/g, (m, expr) => {
+      try {
+        return katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+      } catch (e) {
+        return m;
+      }
+    });
+  }
+
+  // Pre-escape non-HTML < and > so they never break DOM hierarchy
+  text = safeEscapeLtGt(text);
   if (/<(em|i|span)\b[^>]*class=["']soalan-en/.test(text) || /<i>[\s\S]*?<\/i>/i.test(text)) return text;
   if (text.includes("<img")) return text;
 
