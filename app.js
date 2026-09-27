@@ -140,7 +140,7 @@ function updateJsuGuideSummary() {
     sumKertas.textContent = selKer.options[selKer.selectedIndex]?.text || "Kertas 2 — Struktur & Esei [100 Markah]";
   }
   if (sumPep && selPep) {
-    sumPep.textContent = selPep.options[selPep.selectedIndex]?.text || "Percubaan SPM Tingkatan 5 (Merangkumi Bab 1 T4 sehingga Bab 7 T5)";
+    sumPep.textContent = selPep.options[selPep.selectedIndex]?.text || "Percubaan SPM Tingkatan 5";
   }
   if (sumTing) {
     if (pepVal === "ppt_t4") {
