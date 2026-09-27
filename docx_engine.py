@@ -859,8 +859,12 @@ def update_cover_page(doc, code_text, tingkatan=5, tahun=2026, nama_peperiksaan=
       <w:pPr>
         <w:pStyle w:val="Footer"/>
         <w:jc w:val="right"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
+        </w:rPr>
       </w:pPr>
-      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="20"/><w:szCs w:val="20"/><w:color w:val="595959"/></w:rPr><w:t>[Lihat halaman sebelah</w:t></w:r>
+      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="24"/><w:szCs w:val="24"/><w:color w:val="595959"/></w:rPr><w:t>[Lihat halaman sebelah</w:t></w:r>
     </w:p>'''
 
     ftr_p1_xml = f'''<w:p {ns_w}>
@@ -873,11 +877,15 @@ def update_cover_page(doc, code_text, tingkatan=5, tahun=2026, nama_peperiksaan=
           <w:tab w:val="clear" w:pos="9360"/>
           <w:tab w:val="right" w:pos="9175"/>
         </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
+        </w:rPr>
       </w:pPr>
-      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:t xml:space="preserve">{code_text} </w:t></w:r>
-      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr><w:t>{footer_school_text}</w:t></w:r>
+      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t xml:space="preserve">{code_text} </w:t></w:r>
+      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>{footer_school_text}</w:t></w:r>
       <w:r><w:ptab w:alignment="right" w:relativeTo="margin" w:leader="none"/></w:r>
-      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:t>SULIT</w:t></w:r>
+      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>SULIT</w:t></w:r>
     </w:p>'''
 
     ftr_elem = sec0.footer._element
@@ -1242,11 +1250,15 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
       <w:pPr>
         <w:pStyle w:val="Footer"/>
         <w:jc w:val="right"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
+        </w:rPr>
       </w:pPr>
       <w:r>
         <w:rPr>
           <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
-          <w:sz w:val="20"/><w:szCs w:val="20"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
           <w:color w:val="595959"/>
         </w:rPr>
         <w:t>[Lihat halaman sebelah</w:t>
@@ -1263,19 +1275,23 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
           <w:tab w:val="clear" w:pos="9360"/>
           <w:tab w:val="right" w:pos="9016"/>
         </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
+        </w:rPr>
       </w:pPr>
       <w:r>
         <w:rPr>
           <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
           <w:b/>
-          <w:sz w:val="20"/><w:szCs w:val="20"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
         </w:rPr>
         <w:t xml:space="preserve">4531/1 </w:t>
       </w:r>
       <w:r>
         <w:rPr>
           <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
-          <w:sz w:val="18"/><w:szCs w:val="18"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
         </w:rPr>
         <w:t>{footer_school_text}</w:t>
       </w:r>
@@ -1286,7 +1302,7 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
         <w:rPr>
           <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
           <w:b/>
-          <w:sz w:val="20"/><w:szCs w:val="20"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
         </w:rPr>
         <w:t>SULIT</w:t>
       </w:r>
@@ -1837,6 +1853,10 @@ def build_k2_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
       <w:pPr>
         <w:pStyle w:val="Footer"/>
         <w:jc w:val="right"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
+        </w:rPr>
       </w:pPr>
       <w:r><w:fldChar w:fldCharType="begin"/></w:r>
       <w:r><w:instrText xml:space="preserve"> IF </w:instrText></w:r>
@@ -1853,7 +1873,7 @@ def build_k2_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
       <w:r><w:fldChar w:fldCharType="end"/></w:r>
       <w:r><w:instrText xml:space="preserve"> &quot;[Lihat halaman sebelah&quot; &quot;&quot; </w:instrText></w:r>
       <w:r><w:fldChar w:fldCharType="separate"/></w:r>
-      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="20"/><w:szCs w:val="20"/><w:color w:val="595959"/></w:rPr><w:t>[Lihat halaman sebelah</w:t></w:r>
+      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="24"/><w:szCs w:val="24"/><w:color w:val="595959"/></w:rPr><w:t>[Lihat halaman sebelah</w:t></w:r>
       <w:r><w:fldChar w:fldCharType="end"/></w:r>
     </w:p>'''
 
@@ -1867,11 +1887,15 @@ def build_k2_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
           <w:tab w:val="clear" w:pos="9360"/>
           <w:tab w:val="right" w:pos="9016"/>
         </w:tabs>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:sz w:val="24"/><w:szCs w:val="24"/>
+        </w:rPr>
       </w:pPr>
-      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:t xml:space="preserve">{code_text} </w:t></w:r>
-      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr><w:t>{footer_school_text}</w:t></w:r>
+      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t xml:space="preserve">{code_text} </w:t></w:r>
+      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>{footer_school_text}</w:t></w:r>
       <w:r><w:ptab w:alignment="right" w:relativeTo="margin" w:leader="none"/></w:r>
-      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:t>SULIT</w:t></w:r>
+      <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>SULIT</w:t></w:r>
     </w:p>'''
 
     ftr2_elem = sec2.footer._element
