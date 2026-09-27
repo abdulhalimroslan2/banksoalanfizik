@@ -291,11 +291,60 @@ def format_physics_symbols(text):
 def sync_diagram_references(text, diag_num):
     if not text or not isinstance(text, str):
         return text
+
+    # 1. Handle brackets: Rajah [], Rajah [ ], Rajah [1], Diagram [], Diagram [ ], Diagram [1]
+    text = re.sub(r"\bRajah\s*\[\s*\d*\s*\]", f"Rajah {diag_num}", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bDiagram\s*\[\s*\d*\s*\]", f"Diagram {diag_num}", text, flags=re.IGNORECASE)
+
+    # 2. Handle OCR typos: Rajah l12, Rajah I12, Diagram I7, Diagram |4, Diagram |12
+    text = re.sub(r"\bRajah\s+[lI|]\d+", f"Rajah {diag_num}", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bDiagram\s+[lI|]\d+", f"Diagram {diag_num}", text, flags=re.IGNORECASE)
+
+    # 3. Handle existing numbered references: Rajah 1, Rajah 1.1, Rajah 1(a), etc.
     pattern_bm = r"\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?"
     pattern_en = r"\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?"
     text = re.sub(pattern_bm, lambda m: f"Rajah {diag_num}" + (m.group(1) or "") + (m.group(2) or ""), text, flags=re.IGNORECASE)
     text = re.sub(pattern_en, lambda m: f"Diagram {diag_num}" + (m.group(1) or "") + (m.group(2) or ""), text, flags=re.IGNORECASE)
+
+    # 4. Handle unnumbered Rajah / Diagram
+    def replace_unnum(m):
+        pre = m.group(1) or ""
+        word = m.group(2)
+        post = m.group(3) or ""
+        pre_lower = pre.lower()
+        post_lower = post.lower()
+        w_lower = word.lower()
+
+        if w_lower == "rajah":
+            if "gambar" in pre_lower:
+                return m.group(0)
+            if post_lower.startswith("manakah") or post_lower.startswith("sinar") or post.startswith("-rajah"):
+                return m.group(0)
+            if "antara" in pre_lower and "berikut" in post_lower:
+                return m.group(0)
+            sep = " " if post and not post.startswith("(") else ""
+            return f"{pre}Rajah {diag_num}{sep}{post}"
+
+        if w_lower == "diagram":
+            if "which" in pre_lower or "ray" in pre_lower or "body" in pre_lower:
+                return m.group(0)
+            if post_lower.startswith("which") or post_lower.startswith("ray") or post.startswith("-diagram"):
+                return m.group(0)
+            if "following" in pre_lower or "which" in post_lower:
+                return m.group(0)
+            sep = " " if post and not post.startswith("(") else ""
+            return f"{pre}Diagram {diag_num}{sep}{post}"
+
+        return m.group(0)
+
+    unnum_bm_regex = r"(\b\w+\s+)?\b(Rajah)\b(?:\s+(menunjukkan|semasa|di\s+bawah|di\s+atas|berikut|tersebut|itu|yang|dan|pada|adalah|\([a-zA-Z0-9]+\))|(?=[\.,\n\r\?\:\!]|$))"
+    unnum_en_regex = r"(\b\w+\s+)?\b(Diagram)\b(?:\s+(shows|during|below|above|following|is|and|at|for|of|\([a-zA-Z0-9]+\))|(?=[\.,\n\r\?\:\!]|$))"
+
+    text = re.sub(unnum_bm_regex, replace_unnum, text, flags=re.IGNORECASE)
+    text = re.sub(unnum_en_regex, replace_unnum, text, flags=re.IGNORECASE)
+
     return text
+
 
 
 def parse_option(opt):

@@ -3331,6 +3331,59 @@ function getCoverPageHtml(mode, codeText, totalPages) {
   `;
 }
 
+function syncDiagramReferences(text, diagNum) {
+  if (!text || typeof text !== "string") return text;
+
+  // 1. Handle brackets: Rajah [], Rajah [ ], Rajah [1], Diagram [], Diagram [ ], Diagram [1]
+  text = text.replace(/\bRajah\s*\[\s*\d*\s*\]/gi, `Rajah ${diagNum}`);
+  text = text.replace(/\bDiagram\s*\[\s*\d*\s*\]/gi, `Diagram ${diagNum}`);
+
+  // 2. Handle OCR typos: Rajah l12, Rajah I12, Diagram I7, Diagram |4, Diagram |12
+  text = text.replace(/\bRajah\s+[lI|]\d+/gi, `Rajah ${diagNum}`);
+  text = text.replace(/\bDiagram\s+[lI|]\d+/gi, `Diagram ${diagNum}`);
+
+  // 3. Handle existing numbered references: Rajah 1, Rajah 1.1, Rajah 1(a), etc.
+  const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
+  const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
+  text = text.replace(patternBm, (m, p1, p2) => `Rajah ${diagNum}${p1 || ""}${p2 || ""}`);
+  text = text.replace(patternEn, (m, p1, p2) => `Diagram ${diagNum}${p1 || ""}${p2 || ""}`);
+
+  // 4. Handle unnumbered Rajah / Diagram
+  function replaceUnnum(match, pre, word, post) {
+    pre = pre || "";
+    post = post || "";
+    const wLower = word.toLowerCase();
+    const preLower = pre.toLowerCase();
+    const postLower = post.toLowerCase();
+
+    if (wLower === "rajah") {
+      if (preLower.includes("gambar")) return match;
+      if (postLower.startsWith("manakah") || postLower.startsWith("sinar") || postLower.startsWith("-rajah")) return match;
+      if (preLower.includes("antara") && postLower.includes("berikut")) return match;
+      const sep = post && !post.startsWith("(") ? " " : "";
+      return `${pre}Rajah ${diagNum}${sep}${post}`;
+    }
+
+    if (wLower === "diagram") {
+      if (preLower.includes("which") || preLower.includes("ray") || preLower.includes("body")) return match;
+      if (postLower.startsWith("which") || postLower.startsWith("ray") || postLower.startsWith("-diagram")) return match;
+      if (preLower.includes("following") || postLower.includes("which")) return match;
+      const sep = post && !post.startsWith("(") ? " " : "";
+      return `${pre}Diagram ${diagNum}${sep}${post}`;
+    }
+
+    return match;
+  }
+
+  const unnumBmRegex = /(\b\w+\s+)?\b(Rajah)\b(?:\s+(menunjukkan|semasa|di\s+bawah|di\s+atas|berikut|tersebut|itu|yang|dan|pada|adalah|\([a-zA-Z0-9]+\))|(?=[\.,\n\r\?\:\!]|$))/gi;
+  const unnumEnRegex = /(\b\w+\s+)?\b(Diagram)\b(?:\s+(shows|during|below|above|following|is|and|at|for|of|\([a-zA-Z0-9]+\))|(?=[\.,\n\r\?\:\!]|$))/gi;
+
+  text = text.replace(unnumBmRegex, replaceUnnum);
+  text = text.replace(unnumEnRegex, replaceUnnum);
+
+  return text;
+}
+
 function renderK1QuestionRows(q, qIdx, getNextDiagNum) {
   let stemText = q.soalan || "";
   let rajahHtml = "";
@@ -3338,11 +3391,7 @@ function renderK1QuestionRows(q, qIdx, getNextDiagNum) {
 
   if (q.rajahUrl) {
     diagNum = getNextDiagNum();
-    const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
-    const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
-    stemText = stemText
-      .replace(patternBm, (m, p1, p2) => `Rajah ${diagNum}${p1 || ""}${p2 || ""}`)
-      .replace(patternEn, (m, p1, p2) => `Diagram ${diagNum}${p1 || ""}${p2 || ""}`);
+    stemText = syncDiagramReferences(stemText, diagNum);
 
     rajahHtml = `
       <div class="docx-q-diagram-wrap">
@@ -3378,11 +3427,7 @@ function renderK1QuestionRows(q, qIdx, getNextDiagNum) {
     } else {
       let optText = opt.teks || "";
       if (diagNum) {
-        const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
-        const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
-        optText = optText
-          .replace(patternBm, (m, p1, p2) => `Rajah ${diagNum}${p1 || ""}${p2 || ""}`)
-          .replace(patternEn, (m, p1, p2) => `Diagram ${diagNum}${p1 || ""}${p2 || ""}`);
+        optText = syncDiagramReferences(optText, diagNum);
       }
       optContent = formatOptionText(optText);
     }
@@ -3529,11 +3574,7 @@ function renderPrintableExam() {
       let rajahHtml = "";
 
       if (q.rajahUrl) {
-        const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
-        const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
-        stemText = stemText
-          .replace(patternBm, (m, p1, p2) => `Rajah ${qNum}${p1 || ""}${p2 || ""}`)
-          .replace(patternEn, (m, p1, p2) => `Diagram ${qNum}${p1 || ""}${p2 || ""}`);
+        stemText = syncDiagramReferences(stemText, qNum);
 
         rajahHtml = `
           <div class="docx-q-diagram-wrap">
@@ -3550,11 +3591,7 @@ function renderPrintableExam() {
       let pecahanHtml = (q.pecahan || []).map(p => {
         let pSoalan = p.soalan || "";
         if (q.rajahUrl) {
-          const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
-          const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
-          pSoalan = pSoalan
-            .replace(patternBm, (m, p1, p2) => `Rajah ${qNum}${p1 || ""}${p2 || ""}`)
-            .replace(patternEn, (m, p1, p2) => `Diagram ${qNum}${p1 || ""}${p2 || ""}`);
+          pSoalan = syncDiagramReferences(pSoalan, qNum);
         }
         return `
         <div style="margin-bottom: 1.25rem;">
