@@ -79,6 +79,10 @@ function toggleJsuDocumentView(forceShow) {
     if (typeof renderJsuMatrix === "function") {
       renderJsuMatrix();
     }
+    // Pasang kertas mengikut JSU yang telah disahkan
+    if (typeof generatePaperByJSU === "function") {
+      generatePaperByJSU(AppState.currentPaperMode, { ratio: "5:3:2", levelBalance: "50:50" }, false);
+    }
 
     // 3. Paparkan jadual JSU dengan animasi smooth reveal
     docCard.style.display = "block";
@@ -838,6 +842,10 @@ function switchWorkflowStage(stageNumber) {
       }
     }
     if (targetTab === "senarai-soalan") {
+      const mode = getActivePaperMode();
+      if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
+        autoFillAssembledPaper(mode);
+      }
       if (typeof renderSenaraiSoalan === "function") renderSenaraiSoalan();
     }
     if (targetTab === "hub-pemasangan") {
@@ -2234,6 +2242,9 @@ function generatePaperByJSU(paperMode, config = { ratio: "5:3:2", levelBalance: 
   AppState.assembledPapers[paperMode] = selected;
   renderAssemblyWorkbench();
   renderQuestionsBank();
+  if (typeof renderSenaraiSoalan === "function") {
+    renderSenaraiSoalan();
+  }
 
   if (showFeedback) {
     const paperNames = {
@@ -2573,10 +2584,12 @@ function toggleWorkbenchSkema(qId) {
 }
 
 function autoFillAssembledPaper(mode) {
+  const targetMode = mode || getActivePaperMode() || AppState.currentPaperMode || "kertas1";
+  AppState.currentPaperMode = targetMode;
   if (AppState._autoFilling) return;
   AppState._autoFilling = true;
   try {
-    generatePaperByJSU(mode || AppState.currentPaperMode, { ratio: "5:3:2", levelBalance: "50:50" }, true);
+    generatePaperByJSU(targetMode, { ratio: "5:3:2", levelBalance: "50:50" }, true);
   } finally {
     AppState._autoFilling = false;
   }
@@ -2584,6 +2597,9 @@ function autoFillAssembledPaper(mode) {
 
 function renderAssemblyWorkbench() {
   const mode = getActivePaperMode();
+  if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
+    autoFillAssembledPaper(mode);
+  }
   const list = AppState.assembledPapers[mode] || [];
   const container = document.getElementById("assembled-slots-container");
   const titleEl = document.getElementById("workbench-title");
@@ -4347,6 +4363,11 @@ function renderSenaraiSoalan() {
   const mode = getActivePaperMode();
   AppState.currentPaperMode = mode;
 
+  // Pastikan soalan dipasang mengikut JSU jika belum wujud
+  if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
+    autoFillAssembledPaper(mode);
+  }
+
   const list = AppState.assembledPapers[mode] || [];
   const container = document.getElementById("senarai-soalan-table-wrapper");
   const kpiStrip = document.getElementById("senarai-kpi-strip");
@@ -4880,6 +4901,10 @@ function simpanTetapanMenu(stageNum) {
     localStorage.setItem("fizik_current_paper", AppState.currentPaperMode);
   } catch (e) {
     console.warn("Ralat menyimpan ke localStorage:", e);
+  }
+
+  if (stage === 1 && typeof generatePaperByJSU === "function") {
+    generatePaperByJSU(AppState.currentPaperMode, { ratio: "5:3:2", levelBalance: "50:50" }, false);
   }
 
   const stageNames = {

@@ -4019,6 +4019,9 @@ function initJsuFilters() {
     }
     updateCutoffVisibility();
     renderJsuMatrix();
+    if (typeof generatePaperByJSU === "function") {
+      generatePaperByJSU(AppState.currentPaperMode, { ratio: "5:3:2", levelBalance: "50:50" }, false);
+    }
   };
 
   if (selTing) selTing.addEventListener("change", onFilterChange);
