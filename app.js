@@ -62,13 +62,17 @@ function toggleJsuDocumentView(forceShow) {
     const selPep = document.getElementById("jsu-select-peperiksaan");
     const selCutoff = document.getElementById("jsu-select-cutoff-sk");
 
+    const pepVal = selPep ? selPep.value : "percubaan_t5";
+    const tingVal = (pepVal === "ppt_t4" || pepVal === "pat_t4") ? "4" : (pepVal === "ppt_t5" ? "5" : (selTing ? selTing.value : "all"));
+    if (selTing) selTing.value = tingVal;
+
     if (selKer && selKer.value) {
       AppState.currentPaperMode = selKer.value;
       try {
         const settings = JSON.parse(localStorage.getItem("fizik_jsu_settings") || "{}");
         settings.currentPaperMode = selKer.value;
-        settings.tingkatan = selTing ? selTing.value : "all";
-        settings.peperiksaan = selPep ? selPep.value : "percubaan";
+        settings.tingkatan = tingVal;
+        settings.peperiksaan = pepVal;
         settings.cutoffSk = selCutoff ? selCutoff.value : "";
         localStorage.setItem("fizik_jsu_settings", JSON.stringify(settings));
         localStorage.setItem("fizik_current_paper", selKer.value);
@@ -130,14 +134,24 @@ function updateJsuGuideSummary() {
   const sumPep = document.getElementById("guide-summary-pep");
   const sumTing = document.getElementById("guide-summary-ting");
 
+  const pepVal = selPep ? selPep.value : "percubaan_t5";
+
   if (sumKertas && selKer) {
-    sumKertas.textContent = selKer.options[selKer.selectedIndex]?.text || "Kertas 2";
+    sumKertas.textContent = selKer.options[selKer.selectedIndex]?.text || "Kertas 2 — Struktur & Esei [100 Markah]";
   }
   if (sumPep && selPep) {
-    sumPep.textContent = selPep.options[selPep.selectedIndex]?.text || "Peperiksaan Percubaan SPM";
+    sumPep.textContent = selPep.options[selPep.selectedIndex]?.text || "Percubaan SPM Tingkatan 5 (Merangkumi Bab 1 T4 sehingga Bab 7 T5)";
   }
-  if (sumTing && selTing) {
-    sumTing.textContent = selTing.options[selTing.selectedIndex]?.text || "Tingkatan 4 & 5 (Gabungan SPM)";
+  if (sumTing) {
+    if (pepVal === "ppt_t4") {
+      sumTing.textContent = "Bab 1 T4 sehingga Pilihan SK Diajar";
+    } else if (pepVal === "ppt_t5") {
+      sumTing.textContent = "Bab 1 T4 Penuh sehingga Pilihan SK Diajar Bab T5";
+    } else if (pepVal === "pat_t4") {
+      sumTing.textContent = "Bab 1 T4 sehingga Bab 6 T4 (Silibus Penuh T4)";
+    } else {
+      sumTing.textContent = "Bab 1 T4 sehingga Bab 7 T5 (Silibus Penuh SPM)";
+    }
   }
 }
 
@@ -439,7 +453,24 @@ function restoreJsuDropdownsFromCache() {
 
     // Restore peperiksaan (key: peperiksaan)
     if (peperiksaanSelect && settings.peperiksaan) {
-      peperiksaanSelect.value = settings.peperiksaan;
+      if (settings.peperiksaan === "percubaan") {
+        peperiksaanSelect.value = "percubaan_t5";
+      } else if (settings.peperiksaan === "pat") {
+        peperiksaanSelect.value = "pat_t4";
+      } else if (settings.peperiksaan === "ppt") {
+        peperiksaanSelect.value = (settings.tingkatan === "4") ? "ppt_t4" : "ppt_t5";
+      } else {
+        peperiksaanSelect.value = settings.peperiksaan;
+      }
+      if (tingkatanSelect) {
+        if (peperiksaanSelect.value === "ppt_t4" || peperiksaanSelect.value === "pat_t4") {
+          tingkatanSelect.value = "4";
+        } else if (peperiksaanSelect.value === "ppt_t5") {
+          tingkatanSelect.value = "5";
+        } else {
+          tingkatanSelect.value = "all";
+        }
+      }
     }
 
     // Restore cutoff SK if applicable
@@ -2073,8 +2104,10 @@ function getActiveJsuProfile() {
       }
     } catch(e) {}
   }
-  tingVal = tingVal || "all";
-  pepVal = pepVal || "percubaan";
+  pepVal = pepVal || "percubaan_t5";
+  if (!tingVal || tingVal === "all") {
+    tingVal = (pepVal === "ppt_t4" || pepVal === "pat_t4") ? "4" : (pepVal === "ppt_t5" ? "5" : "all");
+  }
   kerVal = kerVal || getActivePaperMode();
 
   const profileKey = (typeof getJsuProfileKey === "function")
@@ -2201,8 +2234,8 @@ function generatePaperByJSU(paperMode, config = { ratio: "5:3:2", levelBalance: 
     : null;
 
   if (!jsuQuestions && typeof JSU_PROFILES !== "undefined") {
-    const selTing = document.getElementById("jsu-select-tingkatan")?.value || "all";
-    const selPep = document.getElementById("jsu-select-peperiksaan")?.value || "percubaan";
+    const selPep = document.getElementById("jsu-select-peperiksaan")?.value || "percubaan_t5";
+    const selTing = (selPep === "ppt_t4" || selPep === "pat_t4") ? "4" : (selPep === "ppt_t5" ? "5" : (document.getElementById("jsu-select-tingkatan")?.value || "all"));
     const key = (typeof getJsuProfileKey === "function")
       ? getJsuProfileKey(selTing, selPep, paperMode)
       : (paperMode === "kertas1" ? "spm_percubaan_k1" : "spm_percubaan_k2");
@@ -2992,7 +3025,7 @@ function getExamMetadata() {
   const selPep = document.getElementById("jsu-select-peperiksaan");
   const selTing = document.getElementById("jsu-select-tingkatan");
 
-  let pepVal = selPep ? selPep.value : "percubaan";
+  let pepVal = selPep ? selPep.value : "percubaan_t5";
   let tingVal = selTing ? selTing.value : ((window.AppState && AppState.filters && AppState.filters.tingkatan) || "5");
 
   if (!selPep) {
@@ -3004,19 +3037,35 @@ function getExamMetadata() {
   }
 
   let examTitle = "PEPERIKSAAN PERCUBAAN SPM";
-  if (pepVal === "ppt") {
-    examTitle = "PEPERIKSAAN PERTENGAHAN SESI AKADEMIK";
-  } else if (pepVal === "pat") {
-    examTitle = "PEPERIKSAAN AKHIR SESI AKADEMIK";
+  let tingkatan = "5";
+
+  if (pepVal === "ppt_t4") {
+    examTitle = "PEPERIKSAAN PERTENGAHAN TAHUN TINGKATAN 4";
+    tingkatan = "4";
+  } else if (pepVal === "ppt_t5") {
+    examTitle = "PEPERIKSAAN PERTENGAHAN TAHUN TINGKATAN 5";
+    tingkatan = "5";
+  } else if (pepVal === "pat_t4" || pepVal === "pat") {
+    examTitle = "PEPERIKSAAN AKHIR TAHUN TINGKATAN 4";
+    tingkatan = "4";
+  } else if (pepVal === "percubaan_t5" || pepVal === "percubaan") {
+    examTitle = "PEPERIKSAAN PERCUBAAN SPM";
+    tingkatan = "5";
+  } else if (pepVal === "ppt") {
+    examTitle = (tingVal === "4") ? "PEPERIKSAAN PERTENGAHAN TAHUN TINGKATAN 4" : "PEPERIKSAAN PERTENGAHAN TAHUN TINGKATAN 5";
+    tingkatan = (tingVal === "4") ? "4" : "5";
   } else if (pepVal === "selaras") {
     examTitle = "UJIAN SELARAS";
-  } else if (pepVal === "percubaan") {
-    examTitle = "PEPERIKSAAN PERCUBAAN SPM";
+    tingkatan = (tingVal === "4") ? "4" : "5";
   } else if (selPep && selPep.selectedOptions && selPep.selectedOptions[0] && selPep.selectedOptions[0].text) {
     examTitle = selPep.selectedOptions[0].text.toUpperCase();
   }
 
-  let tingkatan = (tingVal === "all" || !tingVal) ? "5" : tingVal;
+  if (pepVal === "ppt_t4" || pepVal === "pat_t4") {
+    tingkatan = "4";
+  } else if (pepVal === "ppt_t5") {
+    tingkatan = "5";
+  }
   let tahun = new Date().getFullYear();
   let panitia = "";
   let sekolah = "";
@@ -5005,10 +5054,14 @@ function simpanTetapanMenu(stageNum) {
     AppState.currentPaperMode = getActivePaperMode();
   }
 
+  const pepVal = selPep ? selPep.value : "percubaan_t5";
+  const tingVal = (pepVal === "ppt_t4" || pepVal === "pat_t4") ? "4" : (pepVal === "ppt_t5" ? "5" : "all");
+  if (selTing) selTing.value = tingVal;
+
   const jsuSettings = {
     currentPaperMode: AppState.currentPaperMode,
-    tingkatan: selTing ? selTing.value : "all",
-    peperiksaan: selPep ? selPep.value : "percubaan",
+    tingkatan: tingVal,
+    peperiksaan: pepVal,
     cutoffSk: selCutoff ? selCutoff.value : "",
     savedAt: new Date().toISOString()
   };

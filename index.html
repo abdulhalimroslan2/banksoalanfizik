@@ -571,45 +571,40 @@
             <div class="guide-step-item active">
               <span class="step-badge">1</span>
               <div class="step-text">
-                <strong>Tingkatan</strong>
-                <small>Sasaran Silibus</small>
+                <strong>Jenis Peperiksaan</strong>
+                <small>PPT T4 / PPT T5 / Akhir T4 / Percubaan T5</small>
               </div>
             </div>
             <div class="guide-step-divider"><i data-lucide="chevron-right"></i></div>
             <div class="guide-step-item active">
               <span class="step-badge">2</span>
               <div class="step-text">
-                <strong>Jenis Peperiksaan</strong>
-                <small>Percubaan / PAT / PPT</small>
+                <strong>Format Kertas</strong>
+                <small>Kertas 1 / Kertas 2</small>
               </div>
             </div>
             <div class="guide-step-divider"><i data-lucide="chevron-right"></i></div>
             <div class="guide-step-item active">
               <span class="step-badge">3</span>
               <div class="step-text">
-                <strong>Format Kertas</strong>
-                <small>Kertas 1 / Kertas 2</small>
+                <strong>Piawai Lembaga Peperiksaan</strong>
+                <small>5:3:2 (R:S:T)</small>
               </div>
             </div>
           </div>
 
           <!-- Parameter Fields (Stacked cleanly per user reference screenshot) -->
           <div class="jsu-filter-grid">
-            <div class="filter-field">
-              <label for="jsu-select-tingkatan"><i data-lucide="graduation-cap"></i> Tingkatan</label>
-              <select id="jsu-select-tingkatan" class="form-select">
-                <option value="all" selected>Tingkatan 4 &amp; 5 (Gabungan SPM)</option>
-                <option value="4">Tingkatan 4 Sahaja</option>
-                <option value="5">Tingkatan 5 Sahaja</option>
-              </select>
-            </div>
+            <!-- Hidden input tingkatan bagi mengekalkan keserasian penuh kod legasi -->
+            <input type="hidden" id="jsu-select-tingkatan" value="all">
+
             <div class="filter-field">
               <label for="jsu-select-peperiksaan"><i data-lucide="file-text"></i> Jenis Ujian / Peperiksaan</label>
               <select id="jsu-select-peperiksaan" class="form-select">
-                <option value="percubaan" selected>Peperiksaan Percubaan SPM</option>
-                <option value="pat">Peperiksaan Akhir Tahun (PAT / PASA)</option>
-                <option value="ppt">Peperiksaan Pertengahan Tahun (PPT / PPSA)</option>
-                <option value="selaras">Ujian Selaras</option>
+                <option value="ppt_t4">Pertengahan Tahun Tingkatan 4 (Merangkumi Bab 1 T4 sehingga pilihan drop down SK setakat mana cikgu selesai mengajar)</option>
+                <option value="ppt_t5">Pertengahan Tahun Tingkatan 5 (Merangkumi Bab 1 T4 sehingga pilihan drop down SK setakat mana cikgu selesai mengajar Bab T5)</option>
+                <option value="pat_t4">Akhir Tahun Tingkatan 4 (Merangkumi Bab 1 T4 sehingga Bab 6 T4)</option>
+                <option value="percubaan_t5" selected>Percubaan SPM Tingkatan 5 (Merangkumi Bab 1 T4 sehingga Bab 7 T5)</option>
               </select>
             </div>
             <div class="filter-field">
@@ -655,16 +650,16 @@
         </div>
         <div class="guide-box-body">
           <div class="guide-summary-card">
-            <div class="guide-summary-label">Tingkatan Sasaran</div>
-            <div class="guide-summary-val" id="guide-summary-ting">Tingkatan 4 &amp; 5 (Gabungan SPM)</div>
-          </div>
-          <div class="guide-summary-card">
-            <div class="guide-summary-label">Jenis Peperiksaan</div>
-            <div class="guide-summary-val" id="guide-summary-pep">Peperiksaan Percubaan SPM</div>
+            <div class="guide-summary-label">Jenis Peperiksaan &amp; Sasaran</div>
+            <div class="guide-summary-val" id="guide-summary-pep">Percubaan SPM Tingkatan 5</div>
           </div>
           <div class="guide-summary-card">
             <div class="guide-summary-label">Format Kertas</div>
             <div class="guide-summary-val" id="guide-summary-kertas">Kertas 2 — Struktur &amp; Esei [100 Markah]</div>
+          </div>
+          <div class="guide-summary-card">
+            <div class="guide-summary-label">Liputan Silibus &amp; DSKP</div>
+            <div class="guide-summary-val" id="guide-summary-ting" style="color: #0369A1;">Bab 1 T4 sehingga Bab 7 T5</div>
           </div>
           <div class="guide-summary-card">
             <div class="guide-summary-label">Standard Aras LPM</div>

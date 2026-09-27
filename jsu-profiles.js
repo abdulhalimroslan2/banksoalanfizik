@@ -3952,20 +3952,31 @@ const JSU_PROFILES = {
  * Menentukan profil JSU berdasarkan input penapis
  */
 function getJsuProfileKey(ting, pep, ker) {
+  // Sokongan untuk 4 pilihan jenis peperiksaan bersepadu baharu & legasi:
+  // ppt_t4, ppt_t5, pat_t4, percubaan_t5
   if (ker === "kertas1") {
-    if (pep === "percubaan") return "spm_percubaan_k1";
-    if (ting === "5" || (ting === "all" && pep === "ppt")) return "t5_ppt_k1";
-    if (ting === "4" && pep === "pat") return "t4_pat_k1";
+    if (pep === "ppt_t4") return "t4_ppt_k1";
+    if (pep === "ppt_t5") return "t5_ppt_k1";
+    if (pep === "pat_t4") return "t4_pat_k1";
+    if (pep === "percubaan_t5" || pep === "percubaan") return "spm_percubaan_k1";
+    // Fallback keserasian legasi
     if (ting === "4" && pep === "ppt") return "t4_ppt_k1";
-    return ting === "4" ? "t4_pat_k1" : "spm_percubaan_k1";
+    if (ting === "4" && pep === "pat") return "t4_pat_k1";
+    if (ting === "5" && pep === "ppt") return "t5_ppt_k1";
+    if (ting === "all" && pep === "ppt") return "t5_ppt_k1";
+    return (ting === "4" || pep === "pat") ? "t4_pat_k1" : "spm_percubaan_k1";
   } else {
-    if (pep === "percubaan") return "spm_percubaan_k2";
-    if (ting === "5" && pep === "ppt") return "t5_ppt_k2";
-    if (ting === "4" && pep === "pat") return "t4_pat_k2";
+    if (pep === "ppt_t4") return "t4_ppt_k2";
+    if (pep === "ppt_t5") return "t5_ppt_k2";
+    if (pep === "pat_t4") return "t4_pat_k2";
+    if (pep === "percubaan_t5" || pep === "percubaan") return "spm_percubaan_k2";
+    // Fallback keserasian legasi
     if (ting === "4" && pep === "ppt") return "t4_ppt_k2";
+    if (ting === "4" && pep === "pat") return "t4_pat_k2";
+    if (ting === "5" && pep === "ppt") return "t5_ppt_k2";
     if (pep === "selaras") return ting === "5" ? "t5_selaras_k2" : "t4_selaras_k2";
-    if (pep === "ppt") return ting === "4" ? "t4_ppt_k2" : "t5_ppt_k2";
     if (pep === "pat") return "t4_pat_k2";
+    if (pep === "ppt") return ting === "4" ? "t4_ppt_k2" : "t5_ppt_k2";
     return "spm_percubaan_k2";
   }
 }
@@ -3992,8 +4003,21 @@ function initJsuFilters() {
     if (raw) {
       const s = JSON.parse(raw);
       if (selKer && s.currentPaperMode) selKer.value = s.currentPaperMode;
-      if (selTing && s.tingkatan) selTing.value = s.tingkatan;
-      if (selPep && s.peperiksaan) selPep.value = s.peperiksaan;
+      if (selPep && s.peperiksaan) {
+        if (s.peperiksaan === "percubaan") selPep.value = "percubaan_t5";
+        else if (s.peperiksaan === "pat") selPep.value = "pat_t4";
+        else if (s.peperiksaan === "ppt") selPep.value = (s.tingkatan === "4") ? "ppt_t4" : "ppt_t5";
+        else selPep.value = s.peperiksaan;
+      }
+      if (selTing) {
+        if (selPep && (selPep.value === "ppt_t4" || selPep.value === "pat_t4")) {
+          selTing.value = "4";
+        } else if (selPep && selPep.value === "ppt_t5") {
+          selTing.value = "5";
+        } else {
+          selTing.value = s.tingkatan || "all";
+        }
+      }
       if (s.currentPaperMode && typeof AppState !== "undefined") {
         AppState.currentPaperMode = s.currentPaperMode;
       }
@@ -4007,18 +4031,32 @@ function initJsuFilters() {
   const onFilterChange = () => {
     if (selKer && typeof AppState !== "undefined") {
       AppState.currentPaperMode = selKer.value;
-      try {
-        const settings = JSON.parse(localStorage.getItem("fizik_jsu_settings") || "{}");
-        settings.currentPaperMode = selKer.value;
-        settings.tingkatan = selTing ? selTing.value : "all";
-        settings.peperiksaan = selPep ? selPep.value : "percubaan";
-        settings.cutoffSk = selCutoff ? selCutoff.value : "";
-        localStorage.setItem("fizik_jsu_settings", JSON.stringify(settings));
-        localStorage.setItem("fizik_current_paper", selKer.value);
-      } catch (e) {}
     }
+    // Segerakkan tingkatan mengikut pilihan peperiksaan
+    if (selPep && selTing) {
+      if (selPep.value === "ppt_t4" || selPep.value === "pat_t4") {
+        selTing.value = "4";
+      } else if (selPep.value === "ppt_t5") {
+        selTing.value = "5";
+      } else {
+        selTing.value = "all";
+      }
+    }
+    try {
+      const settings = JSON.parse(localStorage.getItem("fizik_jsu_settings") || "{}");
+      if (selKer) settings.currentPaperMode = selKer.value;
+      settings.peperiksaan = selPep ? selPep.value : "percubaan_t5";
+      settings.tingkatan = selTing ? selTing.value : "all";
+      settings.cutoffSk = selCutoff ? selCutoff.value : "";
+      localStorage.setItem("fizik_jsu_settings", JSON.stringify(settings));
+      if (selKer) localStorage.setItem("fizik_current_paper", selKer.value);
+    } catch (e) {}
+
     updateCutoffVisibility();
     renderJsuMatrix();
+    if (typeof updateJsuGuideSummary === "function") {
+      updateJsuGuideSummary();
+    }
     if (typeof generatePaperByJSU === "function") {
       generatePaperByJSU(AppState.currentPaperMode, { ratio: "5:3:2", levelBalance: "50:50" }, false);
     }
@@ -4061,7 +4099,7 @@ function initJsuFilters() {
 
 /**
  * Kemas kini Keterlihatan & Pilihan Liputan Sukatan Diajar (Hingga SK)
- * Khusus untuk Kertas 1 (PPT / Ujian Selaras)
+ * Khusus untuk Kertas 1 & Kertas 2 bagi Peperiksaan Pertengahan Tahun
  */
 function updateCutoffVisibility() {
   const selTing = document.getElementById("jsu-select-tingkatan");
@@ -4073,14 +4111,24 @@ function updateCutoffVisibility() {
 
   if (!fieldCutoff || !selCutoff) return;
 
-  const tingVal = selTing ? selTing.value : "all";
-  const pepVal = selPep ? selPep.value : "percubaan";
+  const pepVal = selPep ? selPep.value : "percubaan_t5";
   const kerVal = selKer ? selKer.value : "kertas2";
 
-  // Papar untuk Kertas 1 dan Kertas 2 bagi PPT atau Ujian Selaras
-  const isPptOrSelaras = (pepVal === "ppt" || pepVal === "selaras");
+  // Kemas kini nilai tingkatan yang disegerakkan
+  let tingVal = "all";
+  if (pepVal === "ppt_t4" || pepVal === "pat_t4") {
+    tingVal = "4";
+  } else if (pepVal === "ppt_t5") {
+    tingVal = "5";
+  } else if (selTing) {
+    tingVal = selTing.value || "all";
+  }
+  if (selTing) selTing.value = tingVal;
 
-  if (isPptOrSelaras) {
+  // Papar cutoff HANYA untuk Peperiksaan Pertengahan Tahun (ppt_t4 atau ppt_t5, atau warisan ppt/selaras)
+  const isPpt = (pepVal === "ppt_t4" || pepVal === "ppt_t5" || pepVal === "ppt" || pepVal === "selaras");
+
+  if (isPpt) {
     fieldCutoff.style.display = "flex";
 
     const allSks = getAllSksInOrder();
@@ -4088,14 +4136,14 @@ function updateCutoffVisibility() {
     const paperNameText = (kerVal === "kertas2") ? "Kertas 2" : "Kertas 1";
 
     let targetSks = [];
-    if (tingVal === "4") {
+    if (pepVal === "ppt_t4" || (pepVal === "ppt" && tingVal === "4")) {
       if (lblCutoff) {
-        lblCutoff.innerHTML = `<i data-lucide="book-marked"></i> Liputan PPT T4 ${paperNameText} (Hingga SK Diajar):`;
+        lblCutoff.innerHTML = `<i data-lucide="book-marked"></i> Liputan PPT T4 ${paperNameText} (Hingga SK Selesai Diajar):`;
       }
       targetSks = allSks.filter(s => s.tingkatan === 4);
     } else {
       if (lblCutoff) {
-        lblCutoff.innerHTML = `<i data-lucide="book-marked"></i> Liputan PPT T5 ${paperNameText} (T4 Penuh + T5 Hingga SK):`;
+        lblCutoff.innerHTML = `<i data-lucide="book-marked"></i> Liputan PPT T5 ${paperNameText} (T4 Penuh + T5 Hingga SK Selesai Diajar):`;
       }
       targetSks = allSks.filter(s => s.tingkatan === 5);
     }
@@ -4121,11 +4169,11 @@ function updateCutoffVisibility() {
     if (prevVal && targetSks.some(s => s.id === prevVal)) {
       selCutoff.value = prevVal;
     } else {
-      if (tingVal === "4") {
-        const def = targetSks.find(s => s.code.startsWith("4.2")) || targetSks[Math.floor(targetSks.length * 0.5)];
+      if (pepVal === "ppt_t4" || (pepVal === "ppt" && tingVal === "4")) {
+        const def = targetSks.find(s => s.code && s.code.startsWith("4.2")) || targetSks[Math.floor(targetSks.length * 0.5)];
         if (def) selCutoff.value = def.id;
       } else {
-        const def = targetSks.find(s => s.code.startsWith("2.6")) || targetSks[Math.floor(targetSks.length * 0.4)];
+        const def = targetSks.find(s => s.code && s.code.startsWith("2.6")) || targetSks[Math.floor(targetSks.length * 0.4)];
         if (def) selCutoff.value = def.id;
       }
     }
@@ -4402,9 +4450,9 @@ function renderJsuMatrix() {
   const selPep = document.getElementById("jsu-select-peperiksaan");
   const selKer = document.getElementById("jsu-select-kertas");
 
-  const tingVal = selTing ? selTing.value : "all";
-  const pepVal = selPep ? selPep.value : "percubaan";
+  const pepVal = selPep ? selPep.value : "percubaan_t5";
   const kerVal = selKer ? selKer.value : "kertas2";
+  const tingVal = (pepVal === "ppt_t4" || pepVal === "pat_t4") ? "4" : (pepVal === "ppt_t5" ? "5" : (selTing ? selTing.value : "all"));
 
   const profileKey = getJsuProfileKey(tingVal, pepVal, kerVal);
   const profile = JSU_PROFILES[profileKey] || JSU_PROFILES["spm_percubaan_k2"];
@@ -5394,9 +5442,9 @@ function autoGenerateAiJsu(isAuto = false) {
   const selKer = document.getElementById("jsu-select-kertas");
   const selCutoff = document.getElementById("jsu-select-cutoff-sk");
 
-  const tingVal = selTing ? selTing.value : "all";
-  const pepVal = selPep ? selPep.value : "percubaan";
+  const pepVal = selPep ? selPep.value : "percubaan_t5";
   const kerVal = selKer ? selKer.value : "kertas2";
+  const tingVal = (pepVal === "ppt_t4" || pepVal === "pat_t4") ? "4" : (pepVal === "ppt_t5" ? "5" : (selTing ? selTing.value : "all"));
 
   const profileKey = getJsuProfileKey(tingVal, pepVal, kerVal);
   const profile = JSU_PROFILES[profileKey] || JSU_PROFILES["spm_percubaan_k2"];
@@ -5425,8 +5473,9 @@ function autoGenerateAiJsu(isAuto = false) {
   const runSynthesis = () => {
     if (profile.kertas === "kertas2") {
       // KERTAS 2: Jika Peperiksaan Pertengahan Tahun (PPT), sesuaikan topik soalan mengikut cutoff SK diajar
-      if (pepVal === "ppt" || pepVal === "selaras") {
-        const baseKey = (tingVal === "4") ? "t4_ppt_k2" : "t5_ppt_k2";
+      if (pepVal === "ppt_t4" || pepVal === "ppt_t5" || pepVal === "ppt" || pepVal === "selaras") {
+        const isT4 = (pepVal === "ppt_t4" || tingVal === "4");
+        const baseKey = isT4 ? "t4_ppt_k2" : "t5_ppt_k2";
         const baseQuestions = (JSU_PROFILES[baseKey] && JSU_PROFILES[baseKey].questions) ? JSON.parse(JSON.stringify(JSU_PROFILES[baseKey].questions)) : profile.questions;
         
         const masterSks = getAllSksInOrder();
@@ -5545,40 +5594,30 @@ function autoGenerateAiJsu(isAuto = false) {
 
       let newQuestions = [];
 
-      if (pepVal === "percubaan") {
-        // Percubaan SPM: Soalan 1-20 (T4 Bab 1 ke Bab 6) -> Soalan 21-40 (T5 Bab 1 ke Bab 7 Fizik Kuantum)
+      if (pepVal === "percubaan_t5" || pepVal === "percubaan") {
+        // Percubaan SPM T5: Soalan 1-20 (T4 Bab 1 ke Bab 6) -> Soalan 21-40 (T5 Bab 1 ke Bab 7 Fizik Kuantum)
         newQuestions = [
           ...allocateMonotonicQuestions(t4Master, 20, 1, bp.slice(0, 20)),
           ...allocateMonotonicQuestions(t5Master, 20, 21, bp.slice(20, 40))
         ];
-      } else if (pepVal === "pat") {
-        // PAT Tingkatan 4: Soalan 1-40 dari T4 Bab 1 ke Bab 6 Cahaya & Optik
-        if (tingVal === "4") {
-          newQuestions = allocateMonotonicQuestions(t4Master, 40, 1, bp);
-        } else {
-          newQuestions = [
-            ...allocateMonotonicQuestions(t4Master, 20, 1, bp.slice(0, 20)),
-            ...allocateMonotonicQuestions(t5Master, 20, 21, bp.slice(20, 40))
-          ];
-        }
+      } else if (pepVal === "pat_t4" || (pepVal === "pat" && tingVal === "4")) {
+        // PAT Tingkatan 4: Soalan 1-40 penuh dari T4 Bab 1 ke Bab 6 Cahaya & Optik
+        newQuestions = allocateMonotonicQuestions(t4Master, 40, 1, bp);
+      } else if (pepVal === "ppt_t4" || (pepVal === "ppt" && tingVal === "4")) {
+        // PPT Tingkatan 4: dari Bab 1 T4 sehingga pilihan SK yang selesai diajar pengguna (40 soalan)
+        let cutoffIdx = t4Master.findIndex(s => s.id === cutoffId);
+        if (cutoffIdx === -1) cutoffIdx = Math.min(t4Master.length - 1, 13);
+        const poolT4Ppt = t4Master.slice(0, cutoffIdx + 1);
+        newQuestions = allocateMonotonicQuestions(poolT4Ppt, 40, 1, bp);
       } else {
-        // PPT atau Ujian Selaras: Mengikut pilihan pengguna sampai mana SK dia dah mengajar
-        if (tingVal === "4") {
-          // PPT T4: dari Bab 1 T4 ke pilihan SK diajar pengguna
-          let cutoffIdx = t4Master.findIndex(s => s.id === cutoffId);
-          if (cutoffIdx === -1) cutoffIdx = Math.min(t4Master.length - 1, 13); // default Bab 3 / 4
-          const poolT4Ppt = t4Master.slice(0, cutoffIdx + 1);
-          newQuestions = allocateMonotonicQuestions(poolT4Ppt, 40, 1, bp);
-        } else {
-          // PPT T5: dari Bab 1 T4 (20 soalan penuh T4 Bab 1..6) + T5 dari Bab 1 sampai setakat SK diajar pengguna (20 soalan)
-          let cutoffIdx = t5Master.findIndex(s => s.id === cutoffId);
-          if (cutoffIdx === -1) cutoffIdx = Math.min(t5Master.length - 1, 9); // default Bab 2 Tekanan
-          const poolT5Ppt = t5Master.slice(0, cutoffIdx + 1);
-          newQuestions = [
-            ...allocateMonotonicQuestions(t4Master, 20, 1, bp.slice(0, 20)),
-            ...allocateMonotonicQuestions(poolT5Ppt, 20, 21, bp.slice(20, 40))
-          ];
-        }
+        // PPT Tingkatan 5: dari Bab 1 T4 (20 soalan penuh T4 Bab 1..6) + T5 dari Bab 1 sehingga setakat SK selesai diajar Bab T5 (20 soalan)
+        let cutoffIdx = t5Master.findIndex(s => s.id === cutoffId);
+        if (cutoffIdx === -1) cutoffIdx = Math.min(t5Master.length - 1, 9);
+        const poolT5Ppt = t5Master.slice(0, cutoffIdx + 1);
+        newQuestions = [
+          ...allocateMonotonicQuestions(t4Master, 20, 1, bp.slice(0, 20)),
+          ...allocateMonotonicQuestions(poolT5Ppt, 20, 21, bp.slice(20, 40))
+        ];
       }
 
       profile.questions = newQuestions;
@@ -5618,9 +5657,9 @@ function exportJsuToCsv() {
   const selPep = document.getElementById("jsu-select-peperiksaan");
   const selKer = document.getElementById("jsu-select-kertas");
 
-  const tingVal = selTing ? selTing.value : "all";
-  const pepVal = selPep ? selPep.value : "percubaan";
+  const pepVal = selPep ? selPep.value : "percubaan_t5";
   const kerVal = selKer ? selKer.value : "kertas2";
+  const tingVal = (pepVal === "ppt_t4" || pepVal === "pat_t4") ? "4" : (pepVal === "ppt_t5" ? "5" : (selTing ? selTing.value : "all"));
 
   const profileKey = getJsuProfileKey(tingVal, pepVal, kerVal);
   const profile = JSU_PROFILES[profileKey] || JSU_PROFILES["spm_percubaan_k2"];
