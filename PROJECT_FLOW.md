@@ -25,7 +25,8 @@ Platform web bersepadu pengurusan Bank Soalan Fizik SPM (KSSM Kod 4531) merangku
 | **Fasa 6** | **Ingest Modul Bab 4: Haba & Precision Crop v2** | ✅ Selesai | **105 soalan** (K1: 21, K2: 42, K3: 30, K4: 12) + **71 rajah stem v2** disahkan 100% bebas kebocoran kapsyen/teks soalan. |
 | **Fasa 7** | **Ingest T4 Bab 5: Gelombang (Waves)** | ✅ Selesai | **148 soalan** (K1: 8, K2: 103, K3: 30, K4: 7) + **112 rajah stem v2** disahkan 100% bebas kebocoran kapsyen/teks soalan & pembaikan rajah puncak lajur. |
 | **Fasa 8** | **Ingest T4 Bab 6: Cahaya dan Optik** | ✅ Selesai | **132 soalan** (K1: 2, K2: 64, K3: 62, K4: 4) + **96 rajah stem v2** di Cloudflare R2 + **23 rajah rubrik jawapan** + **44 rajah pilihan ABCD**; SK 6.1 – SK 6.6 disahkan 100% lulus 13 Golden Invariants. |
-| **Fasa 9** | **Ingest Silibus Penuh Tingkatan 5 (Bab 1 – 7)** | ⏳ Fasa 2026 | ~650 soalan est meliputi 7 bab DSKP Tingkatan 5. |
+| **Fasa 9A**| **Standardisasi JSU & Enjin Format DOCX Emas (LPM)** | ✅ Selesai | **Penyusunan SK monotonik (terkecil ke terbesar), muka hadapan & skema dinamik, justified text, footer 12pt, pembersihan tag Rajah [].** |
+| **Fasa 9B**| **Ingest Silibus Penuh Tingkatan 5 (Bab 1 – 7)** | 🔄 Sedia Mula | ~650 soalan est meliputi 7 bab DSKP Tingkatan 5. |
 | **Fasa 10** | **Modul Soalan Segar Kertas 2 (LPM Rules)** | ⏳ Perancangan | Olahan soalan berstruktur & esei Bahagian A (60m), B (20m), C (20m). |
 | **Fasa 11** | **Hub Kertas 3 (Amali Fizik DSKP)** | ⏳ Perancangan | 15 markah instrumen amali radas DSKP (Hukum Hooke, Ohm, dll). |
 | **Fasa 12** | **Portal Ujian Kendiri Pelajar & Eksport** | ⏳ Perancangan | Modul latihan kendiri interaktif berasaskan web & analitik prestasi. |
@@ -49,6 +50,16 @@ Platform web bersepadu pengurusan Bank Soalan Fizik SPM (KSSM Kod 4531) merangku
 11. **Invariant 11 (Complete Physics Rationales & Answers):** Memasukkan jalan kira penuh dari skema untuk soalan pengiraan K3 dan huraian konsep untuk K1, K2, dan K4.
 12. **Invariant 12 (Mandatory Backup Protocol):** Salinan sandaran automatik ke `/Users/halimroslan/NEW CIDS SUITES PRO/` sebelum sebarang fail utama disunting.
 13. **Invariant 13 (Strict OCR Spelling, Spacing & Bilingual Slash):** Kawalan kualiti ketat terhadap ejaan dwibahasa (BM / BI) dengan pembahagi standard ` / ` tanpa perkataan bercantum (*zero squashed words*).
+14. **Invariant 14 (Strict Formatting Lock for Generated DOCX Questions & Scoring Schemes):**
+   > ⛔ **PERINGATAN KRITIKAL / ARCHITECTURAL LOCK: DILARANG SAMA SEKALI MENGUBAH / MENGGANGGU FORMATING LOGIC UTK DOCX BAGI SOALAN DIJANA DAN SKEMA JAWAPAN.**  
+   > Logik pemformatan fail DOCX bagi soalan dijana (`build_k1_exam_docx`, `build_k2_exam_docx`) dan skema jawapan (`build_k1_skema_docx`, `build_k2_skema_docx`) di dalam [`docx_engine.py`](file:///Users/halimroslan/Desktop/Kod%20Sumber%20(Antigravity)/HUB%20BANK%20SOALAN%20FIZIK%20SPM%20KSSM/FIZIK_SPM_HUB_PROJEK/docx_engine.py) kini telah dimuktamadkan pada status **Piawaian Emas (Golden Standard)** yang mematuhi 100% reka bentuk rasmi Lembaga Peperiksaan Malaysia (LPM).  
+   > **Sfera Peraturan yang DIKUNCI KEKAL (LOCKED):**  
+   > - **Tiada Pemotongan Soalan Merentasi Muka Surat (*No Split*):** Setiap kumpulan soalan diasingkan menggunakan jadual berkurung dan rehat halaman fizikal `<w:br w:type="page"/>` dengan penomboran muka surat berpusat di header bermula '2'.
+   > - **Formula Sheet Piawai:** Mengandungi tepat 2 halaman lembaran rumus (Table 0A pada Halaman 2, Table 0B pada Halaman 3) yang terpelihara secara mutlak.
+   > - **Tipografi & Justified Alignment:** Teks soalan dwibahasa diratakan penuh (*fully justified*), teks BI ditaip condong (*italic*), perenggan bersih tanpa *soft-enter* atau pemisahan baris rawak, serta pilihan A/B/C/D dalam susun atur jadual/inden kemas.
+   > - **Penomboran Dinamik Tag Rajah:** Teg `Rajah []` atau `Diagram []` wajib dipadankan dengan nombor urutan rajah soalan sebenar (`Rajah 1`, `Rajah 2`, dsb.).
+   > - **Format Footer 12 pt & Muka Surat Akhir Bersih:** Footer bersaiz konsisten 12 pt (`[Tahun] Panitia [Fizik] SMK [...]`), dan perkataan `[Lihat halaman sebelah` WAJIB disingkirkan daripada muka surat akhir soalan.
+   > - **Skema Jawapan Dinamik & Seragam:** Baris kedua tajuk skema kini dinamik mengikut nama peperiksaan muka hadapan soalan (`PEPERIKSAAN PERTENGAHAN TAHUN TINGKATAN 4`, `PEPERIKSAAN PERCUBAAN SPM`, dsb.), perenggan ketiga memaparkan `TINGKATAN {t} {tahun}` secara automatik, dan jadual jawapan 8-lajur (K1) serta rubrik penskoran berjadual (K2) dijana tanpa merosakkan templat.
 
 ---
 
@@ -66,6 +77,9 @@ Platform web bersepadu pengurusan Bank Soalan Fizik SPM (KSSM Kod 4531) merangku
 ---
 
 ## 5. 📝 Log Keputusan Teknikal (Mini-ADRs)
+- **[2026-09-27] - Penyeragaman JSU Kertas 1 Mengikut Standard Kandungan (SK) Monotonik Terkecil ke Terbesar:** Membetulkan isu pemadanan rawak subtopik pada `allocateMonotonicQuestions` di mana sebelum ini soalan melompat SK dalam bab yang sama. Kini dikira berasaskan kunci isih numerik `(tingkatan * 1,000,000) + (bab * 10,000) + (SK_major * 100) + SK_minor` bagi memastikan soalan 1 (SK 1.1) hingga soalan 40 (cth: SK 4.4 bagi PPT T4) tersusun secara tertib menaik. Menambah butang 'Susun Ikut SK' pada toolbar JSU.
+- **[2026-09-27] - Penukaran Teks Statik Skema kepada Nama Peperiksaan Dinamik Mengikut Muka Hadapan Soalan:** Menggantikan teks statik templat `MODUL INTERVENSI` (Kertas 1) dan `MODUL KECEMERLANGAN` (Kertas 2) dengan nama peperiksaan dinamik yang dihantar dari tetapan JSU (`PEPERIKSAAN PERTENGAHAN TAHUN TINGKATAN 4`, `PEPERIKSAAN PERCUBAAN SPM`, dsb.) dengan inden sifar dan penjajaran tengah Arial Bold 12pt, serta menyelaraskan baris `TINGKATAN {t} {tahun}` secara dinamik.
+- **[2026-09-27] - Penguatkuasaan Invariant 14 (Pengekalan Mutlak Logik Pemformatan DOCX):** Mengunci enjin `docx_engine.py` dan `docx_server.py` daripada sebarang modifikasi logik pemformatan susun atur, jadual OpenXML, rehat muka surat, footer 12pt, mahupun skema jawapan.
 - **[2026-09-24] - Resolusi Pemotongan Rajah di Puncak Lajur (Top-of-Column Multi-Page / Cross-Column Fallback Rule):** Menyelesaikan isu Rajah 49 (`MODUL_T4_B5_K2_Q61`) dan Rajah 101 (`MODUL_T4_B5_K3_Q24`) yang terpotong bahagian atas. Mengesan punca akar di mana calon blok teks di atas kapsyen tersalah mengenal pasti label radas seperti `"Loud speakers"` dan `"5.0 cm"` sebagai ayat soalan kerana ketiadaan `stem_blocks` di atas kapsyen pada lajur kedua. Enjin cropping dikemas kini supaya sekiranya `not stem_blocks`, sempadan $y_0$ berundur secara automatik ke $45.0\text{ pt}$ untuk menyerap keseluruhan bahagian atas radas.
 - **[2026-09-24] - Pengasingan Garisan Menegak Pembahagi Lajur ($x_0 = 305.0\text{ pt}$):** Menetapkan had kiri minimum lajur kanan kepada $305.0\text{ pt}$ (bukan $295\text{ pt}$) untuk menghapuskan garis pemisah lajur PDF daripada memasuki imej WebP (cth. Rajah 23).
 - **[2026-09-24] - Penyelarasan Anomali Skema Soalan K4_Q04 Bab 5:** Skema asal modul menandakan jawapan C (laju dan panjang gelombang berkurang semasa pantulan gelombang air), walhal mengikut hukum fizik pantulan gelombang, laju dan panjang gelombang adalah tidak berubah (jawapan tepat secara teori ialah A). Jawapan C dikekalkan dalam `dskp-data.js` demi integriti skema asal modul, namun nota penjelasan fizik komprehensif dimasukkan dalam medan `penerangan` sebagai panduan guru dan murid.
@@ -79,5 +93,7 @@ Platform web bersepadu pengurusan Bank Soalan Fizik SPM (KSSM Kod 4531) merangku
 - [x] Transkripsi & saringan 105 soalan Tingkatan 4 Bab 4 (Haba).
 - [x] Precision re-crop dan muat naik versi `_v2.webp` ke Cloudflare R2 bagi Bab 4.
 - [x] **Fasa 7:** Ingestion Modul Konstruk Tingkatan 4 Bab 5: Gelombang (Waves) daripada fail PDF rasmi (148 soalan aktif: K1: 8, K2: 103, K3: 30, K4: 7; 112 rajah stem v2 300 DPI R2; 100% lulus 13 Invariants; audit kerosakan puncak lajur diselesaikan).
-- [ ] **Fasa 8:** Ingestion Modul Konstruk Tingkatan 4 Bab 6: Cahaya dan Optik (Light and Optics) berteraskan SK 6.1 – SK 6.6 (~95 soalan est).
+- [x] **Fasa 8:** Ingestion Modul Konstruk Tingkatan 4 Bab 6: Cahaya dan Optik (132 soalan, 96 rajah stem v2 R2, 23 rajah rubrik, 44 rajah pilihan ABCD).
+- [x] **Fasa 9A:** Standardisasi JSU & Enjin Format DOCX Emas (Susunan SK monotonik, tajuk skema dinamik, footer 12pt, pembersihan tag Rajah []).
+- [ ] **Fasa 9B:** Ingestion Silibus Penuh Tingkatan 5: Bab 1 – Bab 7 (~650 soalan est).
 - [ ] **Fasa 10:** Persediaan modul soalan Kertas 2 (Bahagian A: 60 markah, Bahagian B: 20 markah, Bahagian C: 20 markah) mengikut piawaian LPM.

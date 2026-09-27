@@ -24,8 +24,9 @@ Total Soalan Aktif: 788 Soalan K1 Objektif Berrajah Bersih (100% Disahkan & Diau
 | **Fasa 5C**| T4 Bab 3: Kegravitian (Gravitation) | ✅ Selesai | 93 | 52 Rajah v2 | 100% |
 | **Fasa 6** | T4 Bab 4: Haba (Heat) & Crop v2 | ✅ Selesai | 105 | 71 Rajah v2 | 100% |
 | **Fasa 7** | T4 Bab 5: Gelombang (Waves) | ✅ Selesai | 148 | 112 Rajah v2 | 100% |
-| **Fasa 8** | T4 Bab 6: Cahaya dan Optik | 🔄 Sedia Mula | ~95 (Est) | TBD | Pending |
-| **Fasa 9** | Silibus Tingkatan 5 (Bab 1 – 7) | ⏳ Fasa 2026 | ~650 (Est) | TBD | Pending |
+| **Fasa 8** | T4 Bab 6: Cahaya dan Optik | ✅ Selesai | 132 | 96 Rajah v2 | 100% |
+| **Fasa 9A**| Standardisasi JSU & Enjin DOCX Emas (LPM) | ✅ Selesai | N/A | Format Emas | 100% |
+| **Fasa 9B**| Silibus Tingkatan 5 (Bab 1 – 7) | 🔄 Sedia Mula | ~650 (Est) | TBD | Pending |
 | **Fasa 10**| Modul Soalan Segar Kertas 2 (A/B/C) | ⏳ Perancangan | 100 Set | TBD | Pending |
 | **Fasa 11**| Hub Kertas 3 (Amali Fizik DSKP) | ⏳ Perancangan | 15 Modul | TBD | Pending |
 | **Fasa 12**| Portal Ujian Kendiri Pelajar & Eksport | ⏳ Perancangan | Web + App | TBD | Pending |
