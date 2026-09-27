@@ -838,7 +838,6 @@ function switchWorkflowStage(stageNumber) {
       }
     }
     if (targetTab === "senarai-soalan") {
-      autoFillAssembledPaper(AppState.currentPaperMode);
       if (typeof renderSenaraiSoalan === "function") renderSenaraiSoalan();
     }
     if (targetTab === "hub-pemasangan") {
@@ -1588,10 +1587,7 @@ function toggleExplanation(boxId) {
    3. ENJIN PEMASANGAN KERTAS BERPANDUKAN JSU (JADUAL SPESIFIKASI UJIAN)
    ========================================================================== */
 function initAutoAssemblyDefaults() {
-  // Penuhkan slot Kertas 1, Kertas 2 dan Amali secara pintar mengikut JSU
-  generatePaperByJSU("kertas1", { ratio: "5:3:2", levelBalance: "50:50" }, false);
-  generatePaperByJSU("kertas2", { ratio: "5:3:2", levelBalance: "50:50" }, false);
-  generatePaperByJSU("kertas3", { ratio: "5:3:2", levelBalance: "50:50" }, false);
+  // Bermula dengan sifar (tiada auto-jana pada muat mula). Pengguna klik butang untuk menjana ikut JSU.
 
   // Tab switcher di sidebar pemasangan
   const paperTabs = document.querySelectorAll(".paper-tab");
@@ -2558,9 +2554,6 @@ function autoFillAssembledPaper(mode) {
 
 function renderAssemblyWorkbench() {
   const mode = getActivePaperMode();
-  if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
-    autoFillAssembledPaper(mode);
-  }
   const list = AppState.assembledPapers[mode] || [];
   const container = document.getElementById("assembled-slots-container");
   const titleEl = document.getElementById("workbench-title");
@@ -3260,10 +3253,24 @@ function renderPrintableExam() {
   if (!container) return;
 
   const mode = getActivePaperMode();
-  if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
-    autoFillAssembledPaper(mode);
-  }
   const questions = AppState.assembledPapers[mode] || [];
+
+  if (questions.length === 0) {
+    container.innerHTML = `
+      <div style="text-align: center; padding: 4rem 1rem; color: var(--text-muted);">
+        <i data-lucide="file-question" style="width: 48px; height: 48px; margin-bottom: 1rem; opacity: 0.5;"></i>
+        <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">Kertas Peperiksaan Belum Dijana</h3>
+        <p style="font-size: 0.9rem; max-width: 500px; margin: 0 auto 1.5rem auto;">
+          Sila jana soalan berpandukan JSU di Langkah 1 &amp; 2 untuk melihat pratonton kertas peperiksaan.
+        </p>
+        <button class="btn btn-primary" onclick="autoFillAssembledPaper('${mode}'); renderPrintableExam();">
+          <i data-lucide="wand-2"></i> Jana Kertas Soalan Sekarang
+        </button>
+      </div>
+    `;
+    if (window.lucide) lucide.createIcons();
+    return;
+  }
 
   let codeText = "4531/1";
   if (mode === "kertas2") {
@@ -4313,9 +4320,6 @@ function renderSenaraiSoalan() {
   const mode = getActivePaperMode();
   AppState.currentPaperMode = mode;
 
-  if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
-    autoFillAssembledPaper(mode);
-  }
   const list = AppState.assembledPapers[mode] || [];
   const container = document.getElementById("senarai-soalan-table-wrapper");
   const kpiStrip = document.getElementById("senarai-kpi-strip");
@@ -4569,10 +4573,24 @@ function renderSkemaPenskoran() {
   if (!container) return;
 
   const mode = getActivePaperMode();
-  if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
-    autoFillAssembledPaper(mode);
-  }
   const questions = AppState.assembledPapers[mode] || [];
+
+  if (questions.length === 0) {
+    container.innerHTML = `
+      <div style="text-align: center; padding: 4rem 1rem; color: var(--text-muted);">
+        <i data-lucide="file-check" style="width: 48px; height: 48px; margin-bottom: 1rem; opacity: 0.5;"></i>
+        <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">Skema Penskoran Belum Tersedia</h3>
+        <p style="font-size: 0.9rem; max-width: 500px; margin: 0 auto 1.5rem auto;">
+          Kertas soalan belum dijana. Sila jana kertas soalan terlebih dahulu untuk memaparkan skema penskoran.
+        </p>
+        <button class="btn btn-primary" onclick="autoFillAssembledPaper('${mode}'); renderSkemaPenskoran();">
+          <i data-lucide="wand-2"></i> Jana Kertas &amp; Skema Sekarang
+        </button>
+      </div>
+    `;
+    if (window.lucide) lucide.createIcons();
+    return;
+  }
 
   let codeText = mode === "kertas2" ? "4531/2" : (mode === "kertas3" ? "4531/3" : "4531/1");
   let paperName = mode === "kertas2" ? "KERTAS 2 (STRUKTUR & ESEI)" : (mode === "kertas3" ? "KERTAS 3 (AMALI)" : "KERTAS 1 (OBJEKTIF ANEKA PILIHAN)");
