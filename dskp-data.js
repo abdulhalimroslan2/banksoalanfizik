@@ -30124,7 +30124,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 3 menunjukkan sebuah cermin bintik buta yang diletakkan di sebuah selekoh.\nDiagram 3 shows a blind spot mirror placed on a sharp bend of the road.\nAntara berikut, manakah merupakan kelebihan menggunakan cermin cembung sebagai cermin bintik buta tersebut?\nWhich of the following is an advantage of using a convex mirror as a blind spot mirror?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah3_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -30388,7 +30388,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 8 menunjukkan cermin yang digunakan oleh doktor gigi untuk melihat keadaan gigi pesakit.\nDiagram 8 shows the mirror used by a dentist to look at the patient's teeth.\nAntara berikut, kedudukan manakah yang sesuai untuk meletakkan gigi pesakit supaya menghasilkan imej yang besar dan tegak?\nWhich of the following is the suitable position to place the patient's teeth to produce a large and upright image?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah8_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -30652,7 +30652,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 11 menunjukkan susunan radas bagi eksperimen untuk mengkaji hubungan antara jarak objek, u dan jarak imej, v bagi kanta cembung.\nDiagram 11 shows an apparatus set-up of an experiment to investigate the relationship between object distance, u and image distance, v of a convex lens.\nPerubahan manakah meningkatkan jarak imej, v?\nWhich changes increases the image distance, v?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah11_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -30960,7 +30960,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 17 menunjukkan satu sinar cahaya melalui satu blok kaca.\nDiagram 17 shows a ray of light passing through a glass block.\nApakah sudut biasan bagi sinar cahaya tersebut?\nWhat is the angle of refraction for the light ray?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah17_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -31136,7 +31136,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 20 menunjukkan seorang pemerhati berdiri di hadapan sebuah cermin satah pada jarak d.\nDiagram 20 shows an observer standing in front of a plane mirror at distance d.\nBerapakah jarak antara pemerhati dan imejnya?\nWhat is the distance between the observer and his image?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah20_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -31488,7 +31488,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 24 menunjukkan satu objek di hadapan suatu cermin satah.\nDiagram 24 shows an object in front of a plane mirror.\nDi kedudukan manakah A, B, C dan D imej terbentuk?\nAt which position A, B, C or D is the image formed?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah24_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -32500,7 +32500,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 41 menunjukkan graf jarak imej, v melawan pembesaran linear, m.\nDiagram 41 shows a graph of image distance, v against linear magnification, m.\nKuantiti X diwakili oleh\nQuantity X is represented by",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah41_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -32588,7 +32588,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 43 menunjukkan susunan radas bagi eksperimen pembentukan imej oleh kanta cembung.\nDiagram 43 shows the arrangement of the apparatus for the experiment of image formation by a convex lens.\nPerubahan pemboleh ubah yang manakah menyebabkan pertambahan saiz imej?\nWhich changes of variables causes the increase of image size?\nDiameter kanta Panjang fokus, f\nLens diameter Focal length, f",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah43_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -32632,7 +32632,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Memahami",
     "soalan": "Rajah 44 menunjukkan suatu imej yang terbentuk oleh satu kanta cembung.\nDiagram 44 shows an image that is formed by a convex lens.\nAntara yang berikut, alat manakah yang menghasilkan imej seperti di atas?\nWhich of the following equipment produces an image as above?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah44_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -32720,7 +32720,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 46 menunjukkan cahaya merambat dari medium A dan kemudian memasuki medium B.\nDiagram 46 shows light propagating from medium A and then entering medium B.\nHitung sudut biasan, r.\nCalculate the angle of refraction, r.",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah46_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -32940,23 +32940,23 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 50 menunjukkan satu sinar cahaya merambat dari medium kaca ke udara. Indeks biasan kaca ialah 1.50.\nDiagram 50 shows a light ray propagating from glass medium to the air. The refractive index of glass is 1.50.\nBerapakah laju cahaya di dalam medium kaca?\nWhat is the speed of light in the glass medium?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah50_v2.webp",
     "pilihan": [
       {
         "id": "A",
-        "teks": "L.5x 10 ms!"
+        "teks": "1.5 × 10⁸ m s⁻¹"
       },
       {
         "id": "B",
-        "teks": "2.0 x 10 ms"
+        "teks": "2.0 × 10⁸ m s⁻¹"
       },
       {
         "id": "C",
-        "teks": "3.0 x 10 ms!"
+        "teks": "3.0 × 10⁸ m s⁻¹"
       },
       {
         "id": "D",
-        "teks": "4.5 x 10 ms"
+        "teks": "4.5 × 10⁸ m s⁻¹"
       }
     ],
     "jawapanBetul": "B",
@@ -34479,24 +34479,24 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Halaju cahaya di dalam vakum ialah 3 x 10 m s\n1. Indeks biasan bagi air ialah 1.30. Berapakah\nhalaju cahaya di dalam air?\nThe velocity of light in vacuunmis 3 x 10 ms'.\nThe refractive index of water is 1.30. What is the\nvelocity of light in the water?",
+    "soalan": "Halaju cahaya di dalam vakum ialah 3.0 × 10⁸ m s⁻¹. Indeks biasan bagi air ialah 1.30. Berapakah halaju cahaya di dalam air?\nThe velocity of light in vacuum is 3.0 × 10⁸ m s⁻¹. The refractive index of water is 1.30. What is the velocity of light in the water?",
     "rajahUrl": "",
     "pilihan": [
       {
         "id": "A",
-        "teks": "2.11x10 msl"
+        "teks": "2.11 × 10⁸ m s⁻¹"
       },
       {
         "id": "B",
-        "teks": "2.31 x 10 m s'"
+        "teks": "2.31 × 10⁸ m s⁻¹"
       },
       {
         "id": "C",
-        "teks": "3.11 x 10 m s"
+        "teks": "3.11 × 10⁸ m s⁻¹"
       },
       {
         "id": "D",
-        "teks": "4.26x 10 ms'"
+        "teks": "4.26 × 10⁸ m s⁻¹"
       }
     ],
     "jawapanBetul": "B",
@@ -34523,7 +34523,7 @@ const QUESTION_BANK = [
     "topik": "6.1 Pembiasan Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Laju cahaya dalam vakum ialah 3 x 10 m s'\nApabila cahaya melalui satu tingkap kaca,\nkelajuannya menjadi 1.86 x 10° m s\". Berapakah\nindeks biasan kaca tingkap iu?\nThe speed of light in vacuum is 3 x 10 m s'.\nWhen the light penetrates a glass window, its\nspeed becomes 1.86 x 10 m s'. What is the\nrefractive index of the glass window?",
+    "soalan": "Laju cahaya dalam vakum ialah 3.0 × 10⁸ m s⁻¹. Apabila cahaya melalui satu tingkap kaca, kelajuannya menjadi 1.86 × 10⁸ m s⁻¹. Berapakah indeks biasan kaca tingkap itu?\nThe speed of light in vacuum is 3.0 × 10⁸ m s⁻¹. When the light penetrates a glass window, its speed becomes 1.86 × 10⁸ m s⁻¹. What is the refractive index of the glass window?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -34612,7 +34612,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 70 menunjukkan sebuah objek diletakkan di hadapan cermin cekung. Manakah kedudukan imej yang betul?\nDiagram 70 shows an object placed in front of a concave mirror. Which is the correct position of the image?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah70_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -34656,7 +34656,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 71 menunjukkan satu sinar cahaya melalui satu bongkah kaca. Indeks biasan bagi kaca itu ialah 1.52.\nDiagram 71 shows a ray of light passing into a glass block. The refractive index of the glass is 1.52.\nBerapakah sudut x?\nWhat is the angle of x?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah71_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -34832,7 +34832,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 75 menunjukkan satu imej tajam yang terbentuk pada skrin apabila jarak antara objek dan skrin adalah 60 cm.\nDiagram 75 shows a sharp image formed on a screen when the distance between the object and the screen is 60 cm.\nBerapakah panjang fokus kanta sekiranya saiz imej adalah sama dengan saiz objek?\nWhat is the focal length of the lens if the size of the image is the same as the object?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah75_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -34920,7 +34920,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 77 menunjukkan satu sinar cahaya P, ditujukan kepada pusat, O satu bongkah kaca semibulatan. Indeks biasan kaca itu adalah 1.52.\nDiagram 77 shows a light ray, P is directed to the centre, O of semicircular glass block. The refractive index of the glass is 1.52.\nArah manakah antara A, B, C atau D sinar itu merambat selepas titik O?\nAt which direction A, B, C or D does the light propagate after point O?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah77_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -34964,7 +34964,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 78 menunjukkan pembentukan imej daripada suatu objek oleh kanta cembung.\nDiagram 78 shows the formation of an image from an object by a convex lens.\nBerapakah tinggi objek itu jika tinggi imejnya adalah 4 cm?\nWhat is the height of the object if the height of its image is 4 cm?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah78_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -35272,7 +35272,7 @@ const QUESTION_BANK = [
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
     "soalan": "Rajah 84 menunjukkan pembentukan imej suatu objek oleh sebuah kanta cembung.\nDiagram 84 shows the image formation of an object by a convex lens.\nJika tinggi objek ialah 2 cm, berapakah tinggi imej?\nIf the height of the object is 2 cm, what is the height of the image?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah84_v2.webp",
     "pilihan": [
       {
         "id": "A",
@@ -35448,7 +35448,7 @@ const QUESTION_BANK = [
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
     "soalan": "Rajah 88(a) dan Rajah 88(b) menunjukkan seekor ikan melihat seekor kumbang pada kedudukan yang berbeza.\nDiagram 88(a) and Diagram 88(b) show a fish looking at a beetle in different positions.\nMengapakah ikan dalam Rajah 88(b) melihat kumbang dan imejnya berada pada kedudukan yang sama?\nWhy does the fish in Diagram 88(b) see the beetle and its image in the same position?",
-    "rajahUrl": "",
+    "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b6/t4_b6_rajah88_v2.webp",
     "pilihan": [
       {
         "id": "A",

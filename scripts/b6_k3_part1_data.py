@@ -141,26 +141,26 @@ def get_k3_part1_questions():
     # MODUL_T4_B6_K3_Q06
     questions.append(make_b6_q(
         "MODUL_T4_B6_K3_Q06", 6, "Sederhana", "Mengaplikasi",
-        'Rajah 50 menunjukkan satu sinar cahaya\nmerambat dari medium kaca ke udara. Indeks\nbiasan kaca ialah 1.50.\nDiagran 50 shows a light ray propagating from\nglass medium to the air The refractive index of\nglass is 1.50. (Negeri Sembilan: 2023)\nUdara\nAir\nKaca\nGlns\nRajah 50/ Diagran 50\nBerapakah laju cahaya di dalam medium kaca?\nWhat is the speed of light in the glass medium?',
+        'Rajah 50 menunjukkan satu sinar cahaya merambat dari medium kaca ke udara. Indeks biasan kaca ialah 1.50.\nDiagram 50 shows a light ray propagating from glass medium to the air. The refractive index of glass is 1.50.\nBerapakah laju cahaya di dalam medium kaca?\nWhat is the speed of light in the glass medium?',
         [
             {
-                        "id": "A",
-                        "teks": "L.5x 10 ms!"
+                "id": "A",
+                "teks": "1.5 × 10⁸ m s⁻¹"
             },
             {
-                        "id": "B",
-                        "teks": "2.0 x 10 ms"
+                "id": "B",
+                "teks": "2.0 × 10⁸ m s⁻¹"
             },
             {
-                        "id": "C",
-                        "teks": "3.0 x 10 ms!"
+                "id": "C",
+                "teks": "3.0 × 10⁸ m s⁻¹"
             },
             {
-                        "id": "D",
-                        "teks": "4.5 x 10 ms"
+                "id": "D",
+                "teks": "4.5 × 10⁸ m s⁻¹"
             }
-],
-        "", "Percubaan Negeri Sembilan: 2023", 2023
+        ],
+        "rajah50", "Percubaan Negeri Sembilan: 2023", 2023
     ))
 
     # MODUL_T4_B6_K3_Q07

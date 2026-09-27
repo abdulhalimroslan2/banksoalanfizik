@@ -141,50 +141,50 @@ def get_k3_part2_questions():
     # MODUL_T4_B6_K3_Q41
     questions.append(make_b6_q(
         "MODUL_T4_B6_K3_Q41", 41, "Sederhana", "Mengaplikasi",
-        "Halaju cahaya di dalam vakum ialah 3 x 10 m s\n1. Indeks biasan bagi air ialah 1.30. Berapakah\nhalaju cahaya di dalam air?\nThe velocity of light in vacuunmis 3 x 10 ms'.\nThe refractive index of water is 1.30. What is the\nvelocity of light in the water?\n(Terengganu: 2021)",
+        "Halaju cahaya di dalam vakum ialah 3.0 × 10⁸ m s⁻¹. Indeks biasan bagi air ialah 1.30. Berapakah halaju cahaya di dalam air?\nThe velocity of light in vacuum is 3.0 × 10⁸ m s⁻¹. The refractive index of water is 1.30. What is the velocity of light in the water?",
         [
             {
-                        "id": "A",
-                        "teks": "2.11x10 msl"
+                "id": "A",
+                "teks": "2.11 × 10⁸ m s⁻¹"
             },
             {
-                        "id": "B",
-                        "teks": "2.31 x 10 m s'"
+                "id": "B",
+                "teks": "2.31 × 10⁸ m s⁻¹"
             },
             {
-                        "id": "C",
-                        "teks": "3.11 x 10 m s"
+                "id": "C",
+                "teks": "3.11 × 10⁸ m s⁻¹"
             },
             {
-                        "id": "D",
-                        "teks": "4.26x 10 ms'"
+                "id": "D",
+                "teks": "4.26 × 10⁸ m s⁻¹"
             }
-],
+        ],
         "", "Percubaan Terengganu: 2021", 2021
     ))
 
     # MODUL_T4_B6_K3_Q42
     questions.append(make_b6_q(
         "MODUL_T4_B6_K3_Q42", 42, "Sederhana", "Mengaplikasi",
-        'Laju cahaya dalam vakum ialah 3 x 10 m s\'\nApabila cahaya melalui satu tingkap kaca,\nkelajuannya menjadi 1.86 x 10° m s". Berapakah\nindeks biasan kaca tingkap iu?\nThe speed of light in vacuum is 3 x 10 m s\'.\nWhen the light penetrates a glass window, its\nspeed becomes 1.86 x 10 m s\'. What is the\nrefractive index of ihe glass window?\n(Selangor: Set 1: 2021)',
+        'Laju cahaya dalam vakum ialah 3.0 × 10⁸ m s⁻¹. Apabila cahaya melalui satu tingkap kaca, kelajuannya menjadi 1.86 × 10⁸ m s⁻¹. Berapakah indeks biasan kaca tingkap itu?\nThe speed of light in vacuum is 3.0 × 10⁸ m s⁻¹. When the light penetrates a glass window, its speed becomes 1.86 × 10⁸ m s⁻¹. What is the refractive index of the glass window?',
         [
             {
-                        "id": "A",
-                        "teks": "0.62"
+                "id": "A",
+                "teks": "0.62"
             },
             {
-                        "id": "B",
-                        "teks": "1.51"
+                "id": "B",
+                "teks": "1.51"
             },
             {
-                        "id": "C",
-                        "teks": "1.61"
+                "id": "C",
+                "teks": "1.61"
             },
             {
-                        "id": "D",
-                        "teks": "2.92"
+                "id": "D",
+                "teks": "2.92"
             }
-],
+        ],
         "", "Percubaan Selangor: Set 1: 2021", 2021
     ))
 
