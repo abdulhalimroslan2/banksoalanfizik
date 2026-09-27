@@ -855,6 +855,10 @@ function switchWorkflowStage(stageNumber) {
     }
     if (targetTab === "hub-pemasangan") {
       AppState.assemblyViewMode = "full";
+      const mode = getActivePaperMode();
+      if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
+        autoFillAssembledPaper(mode, false);
+      }
       if (typeof renderAssemblyWorkbench === "function") renderAssemblyWorkbench();
     }
     if (targetTab === "cetak-lpm" && typeof renderPrintableExam === "function") renderPrintableExam();
@@ -2625,13 +2629,13 @@ function toggleWorkbenchSkema(qId) {
   renderAssemblyWorkbench();
 }
 
-function autoFillAssembledPaper(mode) {
+function autoFillAssembledPaper(mode, showFeedback = false) {
   const targetMode = mode || getActivePaperMode() || AppState.currentPaperMode || "kertas1";
   AppState.currentPaperMode = targetMode;
   if (AppState._autoFilling) return;
   AppState._autoFilling = true;
   try {
-    generatePaperByJSU(targetMode, { ratio: "5:3:2", levelBalance: "50:50" }, true);
+    generatePaperByJSU(targetMode, { ratio: "5:3:2", levelBalance: "50:50" }, showFeedback);
   } finally {
     AppState._autoFilling = false;
   }
@@ -2639,8 +2643,10 @@ function autoFillAssembledPaper(mode) {
 
 function renderAssemblyWorkbench() {
   const mode = getActivePaperMode();
-  if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
-    autoFillAssembledPaper(mode);
+  if (AppState.currentStage !== 0) {
+    if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
+      autoFillAssembledPaper(mode, false);
+    }
   }
   const list = AppState.assembledPapers[mode] || [];
   const container = document.getElementById("assembled-slots-container");
@@ -2732,7 +2738,7 @@ function renderAssemblyWorkbench() {
         <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.25rem;">
           Klik butang "Auto-Isi Slot Seimbang" atau pergi ke Bank Soalan untuk memilih soalan.
         </p>
-        <button class="btn btn-primary btn-sm" onclick="autoFillAssembledPaper('${mode}'); renderAssemblyWorkbench();">
+        <button class="btn btn-primary btn-sm" onclick="autoFillAssembledPaper('${mode}', true); renderAssemblyWorkbench();">
           <i data-lucide="wand-2"></i> Auto-Isi Slot Seimbang Sekarang
         </button>
       </div>
@@ -3362,7 +3368,7 @@ function renderPrintableExam() {
         <p style="font-size: 0.9rem; max-width: 500px; margin: 0 auto 1.5rem auto;">
           Sila jana soalan berpandukan JSU di Langkah 1 &amp; 2 untuk melihat pratonton kertas peperiksaan.
         </p>
-        <button class="btn btn-primary" onclick="autoFillAssembledPaper('${mode}'); renderPrintableExam();">
+        <button class="btn btn-primary" onclick="autoFillAssembledPaper('${mode}', true); renderPrintableExam();">
           <i data-lucide="wand-2"></i> Jana Kertas Soalan Sekarang
         </button>
       </div>
@@ -4428,9 +4434,11 @@ function renderSenaraiSoalan() {
   const mode = getActivePaperMode();
   AppState.currentPaperMode = mode;
 
-  // Pastikan soalan dipasang mengikut JSU jika belum wujud
-  if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
-    autoFillAssembledPaper(mode);
+  // Pastikan soalan dipasang mengikut JSU jika belum wujud (hanya selepas melepasi fasa mula)
+  if (AppState.currentStage !== 0) {
+    if (!AppState.assembledPapers[mode] || AppState.assembledPapers[mode].length === 0) {
+      autoFillAssembledPaper(mode, false);
+    }
   }
 
   const list = AppState.assembledPapers[mode] || [];
@@ -4696,7 +4704,7 @@ function renderSkemaPenskoran() {
         <p style="font-size: 0.9rem; max-width: 500px; margin: 0 auto 1.5rem auto;">
           Kertas soalan belum dijana. Sila jana kertas soalan terlebih dahulu untuk memaparkan skema penskoran.
         </p>
-        <button class="btn btn-primary" onclick="autoFillAssembledPaper('${mode}'); renderSkemaPenskoran();">
+        <button class="btn btn-primary" onclick="autoFillAssembledPaper('${mode}', true); renderSkemaPenskoran();">
           <i data-lucide="wand-2"></i> Jana Kertas &amp; Skema Sekarang
         </button>
       </div>
