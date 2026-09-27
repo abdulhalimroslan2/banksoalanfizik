@@ -5,7 +5,12 @@ import copy
 import urllib.request
 from PIL import Image
 import numpy as np
-import cv2
+
+try:
+    import cv2
+    HAVE_CV2 = True
+except ImportError:
+    HAVE_CV2 = False
 
 import docx
 from docx.shared import Pt, Inches, RGBColor
@@ -14,7 +19,11 @@ from docx.oxml import parse_xml
 from docx.oxml.ns import nsdecls
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-TPL_ROOT_DIR = os.path.join(os.path.dirname(BASE_DIR), "Template")
+if os.path.exists(os.path.join(BASE_DIR, "Template")):
+    TPL_ROOT_DIR = os.path.join(BASE_DIR, "Template")
+else:
+    TPL_ROOT_DIR = os.path.join(os.path.dirname(BASE_DIR), "Template")
+
 TPL_K1_COVER = os.path.join(TPL_ROOT_DIR, "2 TEMPLATE FIZIK KERTAS 1.docx")
 TPL_K2_COVER = os.path.join(TPL_ROOT_DIR, "2 TEMPLATE FIZIK KERTAS 2.docx")
 TPL_K1_DIR = os.path.join(TPL_ROOT_DIR, "Soalan dan Skema Kertas 1")
@@ -94,32 +103,70 @@ def clean_option_image(img, target_size=(600, 400)):
     if img.mode != "RGB":
         img = img.convert("RGB")
     arr = np.array(img)
-    gray = cv2.cvtColor(arr, cv2.COLOR_RGB2GRAY)
-    h, w = gray.shape
+    if HAVE_CV2:
+        gray = cv2.cvtColor(arr, cv2.COLOR_RGB2GRAY)
+        h, w = gray.shape
 
-    # Connected component analysis for option letters A, B, C, D
-    _, binary = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY_INV)
-    num_labels, labels, stats, centroids = cv2.connectedComponentsWithStats(binary, connectivity=8)
+        # Connected component analysis for option letters A, B, C, D
+        _, binary = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY_INV)
+        num_labels, labels, stats, centroids = cv2.connectedComponentsWithStats(binary, connectivity=8)
 
-    candidates = []
-    for i in range(1, num_labels):
-        x, y, comp_w, comp_h, area = stats[i]
-        # Must be in top-left margin area (x < min(160, w * 0.25), y < min(120, h * 0.25))
-        if x < min(160, w * 0.25) and y < min(120, h * 0.25):
-            if 10 <= comp_w <= 65 and 12 <= comp_h <= 65 and 40 <= area <= 1800:
-                gap_right = min(w, x + comp_w + 30)
-                gap_strip = gray[max(0, y - 5):min(h, y + comp_h + 5), x + comp_w:gap_right]
-                if gap_strip.size > 0 and np.mean(gap_strip >= 225) > 0.85:
-                    remaining_dark = np.sum(binary == 255) - area
-                    if remaining_dark > 200:
-                        candidates.append((x, y, comp_w, comp_h, area, i))
+        candidates = []
+        for i in range(1, num_labels):
+            x, y, comp_w, comp_h, area = stats[i]
+            # Must be in top-left margin area (x < min(160, w * 0.25), y < min(120, h * 0.25))
+            if x < min(160, w * 0.25) and y < min(120, h * 0.25):
+                if 10 <= comp_w <= 65 and 12 <= comp_h <= 65 and 40 <= area <= 1800:
+                    gap_right = min(w, x + comp_w + 30)
+                    gap_strip = gray[max(0, y - 5):min(h, y + comp_h + 5), x + comp_w:gap_right]
+                    if gap_strip.size > 0 and np.mean(gap_strip >= 225) > 0.85:
+                        remaining_dark = np.sum(binary == 255) - area
+                        if remaining_dark > 200:
+                            candidates.append((x, y, comp_w, comp_h, area, i))
 
-    if candidates:
-        # Pick the single leftmost component (the true option letter)
-        candidates.sort(key=lambda c: c[0])
-        x, y, comp_w, comp_h, area, i = candidates[0]
-        arr[labels == i] = 255
-        gray[labels == i] = 255
+        if candidates:
+            # Pick the single leftmost component (the true option letter)
+            candidates.sort(key=lambda c: c[0])
+            x, y, comp_w, comp_h, area, i = candidates[0]
+            arr[labels == i] = 255
+            gray[labels == i] = 255
+    else:
+        gray = np.mean(arr, axis=2).astype(np.uint8)
+        h, w = gray.shape
+        binary = gray < 200
+        visited = np.zeros((h, w), dtype=bool)
+        candidates = []
+        max_y = min(120, h // 4)
+        max_x = min(160, w // 4)
+        for y in range(max_y):
+            for x in range(max_x):
+                if binary[y, x] and not visited[y, x]:
+                    q = [(y, x)]
+                    visited[y, x] = True
+                    min_r, max_r, min_c, max_c, area = y, y, x, x, 0
+                    comp_coords = []
+                    while q:
+                        cr, cc = q.pop()
+                        area += 1
+                        comp_coords.append((cr, cc))
+                        if cr < min_r: min_r = cr
+                        if cr > max_r: max_r = cr
+                        if cc < min_c: min_c = cc
+                        if cc > max_c: max_c = cc
+                        for dr, dc in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
+                            nr, nc = cr + dr, cc + dc
+                            if 0 <= nr < h and 0 <= nc < w and binary[nr, nc] and not visited[nr, nc]:
+                                visited[nr, nc] = True
+                                q.append((nr, nc))
+                    comp_w = max_c - min_c + 1
+                    comp_h = max_r - min_r + 1
+                    if 10 <= comp_w <= 65 and 12 <= comp_h <= 65 and 40 <= area <= 1800:
+                        candidates.append((min_c, min_r, comp_w, comp_h, area, comp_coords))
+        if candidates:
+            candidates.sort(key=lambda c: c[0])
+            for cr, cc in candidates[0][5]:
+                arr[cr, cc] = 255
+                gray[cr, cc] = 255
 
     # Find tight bounding box of remaining content
     dark_y, dark_x = np.where(gray < 220)

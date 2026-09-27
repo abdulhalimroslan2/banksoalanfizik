@@ -3996,6 +3996,36 @@ function exportQuestionsToPdf() {
   });
 }
 
+// Pembantu Eksport DOCX Berdaya Tahan (Resilient DOCX Export Helper)
+// Menyokong Serverless Vercel, Pelayan Tempatan docx_server.py (Port 8192) & Cross-Origin
+async function requestDocxExport(payload) {
+  const endpoints = [
+    "/api/export-docx",
+    "http://localhost:8192/api/export-docx",
+    "http://127.0.0.1:8192/api/export-docx"
+  ];
+
+  let lastErr = null;
+  for (const ep of endpoints) {
+    try {
+      const res = await fetch(ep, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      if (res.ok) {
+        const contentType = res.headers.get("Content-Type") || "";
+        if (contentType.includes("openxmlformats") || contentType.includes("octet-stream") || contentType.includes("document") || !contentType.includes("json")) {
+          return await res.blob();
+        }
+      }
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+  throw lastErr || new Error("Pelayan janaan DOCX tidak dapat dihubungi. Pastikan docx_server.py sedang berjalan di port 8192.");
+}
+
 // Eksport ke DOCX (berpandukan templat rasmi Muka Hadapan, Rumus, Soalan & Skema)
 async function exportQuestionsToDocx() {
   const questions = getFilteredQuestions();
@@ -4007,33 +4037,27 @@ async function exportQuestionsToDocx() {
   showJsuNotification(`⏳ Menjana dokumen Word (.docx) bagi ${questions.length} soalan terpilih...`);
 
   try {
-    const res = await fetch("/api/export-docx", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        mode: mode,
-        type: "exam",
-        questions: questions,
-        tingkatan: (typeof getExamMetadata === "function" ? getExamMetadata().tingkatan : (AppState.filters.tingkatan || 5)),
-        tahun: (typeof getExamMetadata === "function" ? getExamMetadata().tahun : new Date().getFullYear()),
-        nama_peperiksaan: (typeof getExamMetadata === "function" ? getExamMetadata().examTitle : "PEPERIKSAAN PERCUBAAN SPM"),
-        panitia: (typeof getExamMetadata === "function" ? getExamMetadata().panitia : "Fizik"),
-        sekolah: (typeof getExamMetadata === "function" ? getExamMetadata().sekolah : "")
-      })
+    const meta = typeof getExamMetadata === "function" ? getExamMetadata() : {};
+    const blob = await requestDocxExport({
+      mode: mode,
+      type: "exam",
+      questions: questions,
+      tingkatan: meta.tingkatan || AppState.filters.tingkatan || 5,
+      tahun: meta.tahun || new Date().getFullYear(),
+      nama_peperiksaan: meta.examTitle || "PEPERIKSAAN PERCUBAAN SPM",
+      panitia: meta.panitia || "Fizik",
+      sekolah: meta.sekolah || ""
     });
-    if (res.ok) {
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = `Bank_Soalan_Fizik_${mode.toUpperCase()}_${new Date().toISOString().slice(0, 10)}.docx`;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-      showJsuNotification(`✓ ${questions.length} soalan (.docx) berjaya dimuat turun berpandukan templat rasmi!`);
-      return;
-    }
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `Bank_Soalan_Fizik_${mode.toUpperCase()}_${new Date().toISOString().slice(0, 10)}.docx`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    showJsuNotification(`✓ ${questions.length} soalan (.docx) berjaya dimuat turun berpandukan templat rasmi!`);
+    return;
   } catch (err) {
     console.warn("Docx API fallback to client export:", err);
   }
@@ -4097,43 +4121,27 @@ async function exportExamToDocx() {
 
   try {
     const meta = getExamMetadata();
-
-    // 1. Keutamaan Utama: DocxGenerator (Client-side OpenXML, zero-server, embedded images, tiada tanda [X])
-    if (window.DocxGenerator && typeof window.DocxGenerator.exportExamToDocx === "function") {
-      await window.DocxGenerator.exportExamToDocx(mode, questions, meta);
-      showJsuNotification("✓ Kertas peperiksaan (.docx) berjaya dimuat turun menepati format rasmi LPM!");
-      return;
-    }
-
-    // 2. Fallback jika ada API tempatan / serverless
-    const res = await fetch("/api/export-docx", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        mode: mode,
-        type: "exam",
-        questions: questions,
-        tingkatan: meta.tingkatan || 5,
-        tahun: meta.tahun || 2026,
-        nama_peperiksaan: meta.examTitle || "PEPERIKSAAN PERCUBAAN SPM",
-        panitia: meta.panitia || "Fizik",
-        sekolah: meta.sekolah || ""
-      })
+    const blob = await requestDocxExport({
+      mode: mode,
+      type: "exam",
+      questions: questions,
+      tingkatan: meta.tingkatan || 5,
+      tahun: meta.tahun || 2026,
+      nama_peperiksaan: meta.examTitle || "PEPERIKSAAN PERCUBAAN SPM",
+      panitia: meta.panitia || "Fizik",
+      sekolah: meta.sekolah || ""
     });
-    if (res.ok) {
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      const paperName = mode === "kertas2" ? "Kertas_2" : "Kertas_1";
-      link.download = `${paperName}_Fizik_SPM_${new Date().toISOString().slice(0, 10)}.docx`;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-      showJsuNotification("✓ Kertas peperiksaan (.docx) berjaya dijana menepati templat muka depan, rumus & soalan!");
-      return;
-    }
+
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    const paperName = mode === "kertas2" ? "Kertas_2" : "Kertas_1";
+    link.download = `${paperName}_Fizik_SPM_${new Date().toISOString().slice(0, 10)}.docx`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    showJsuNotification("✓ Kertas peperiksaan (.docx) berjaya dijana menepati templat muka depan, rumus & soalan LPM!");
   } catch (err) {
     console.error("Docx export error:", err);
     showJsuNotification("⚠️ Ralat menjana DOCX: " + (err.message || err));
@@ -4153,55 +4161,37 @@ async function openInGoogleDocs() {
 
   try {
     const meta = getExamMetadata();
-    if (window.DocxGenerator && typeof window.DocxGenerator.exportExamToDocx === "function") {
-      await window.DocxGenerator.exportExamToDocx(mode, questions, meta);
-      showJsuNotification("✓ Fail DOCX dimuat turun! Membuka Google Docs...");
-      setTimeout(() => {
-        window.open("https://docs.google.com/document/u/0/", "_blank");
-      }, 600);
-      return;
-    }
-
-    const res = await fetch("/api/export-docx", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        mode: mode,
-        type: "exam",
-        questions: questions,
-        tingkatan: meta.tingkatan || 5,
-        tahun: meta.tahun || 2026,
-        nama_peperiksaan: meta.examTitle || "PEPERIKSAAN PERCUBAAN SPM",
-        panitia: meta.panitia || "Fizik",
-        sekolah: meta.sekolah || ""
-      })
+    const blob = await requestDocxExport({
+      mode: mode,
+      type: "exam",
+      questions: questions,
+      tingkatan: meta.tingkatan || 5,
+      tahun: meta.tahun || 2026,
+      nama_peperiksaan: meta.examTitle || "PEPERIKSAAN PERCUBAAN SPM",
+      panitia: meta.panitia || "Fizik",
+      sekolah: meta.sekolah || ""
     });
-    if (res.ok) {
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      const paperName = mode === "kertas2" ? "Kertas_2" : "Kertas_1";
-      const fileName = `${paperName}_Fizik_SPM_${new Date().toISOString().slice(0, 10)}.docx`;
-      link.download = fileName;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-      
-      showJsuNotification("✓ Fail " + fileName + " berjaya dimuat turun! Membuka Google Docs...");
-      setTimeout(() => {
-        window.open("https://docs.google.com/document/u/0/", "_blank");
-      }, 600);
-      return;
-    }
+
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    const paperName = mode === "kertas2" ? "Kertas_2" : "Kertas_1";
+    const fileName = `${paperName}_Fizik_SPM_${new Date().toISOString().slice(0, 10)}.docx`;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    
+    showJsuNotification("✓ Fail " + fileName + " berjaya dimuat turun! Membuka Google Docs...");
+    setTimeout(() => {
+      window.open("https://docs.google.com/document/u/0/", "_blank");
+    }, 600);
   } catch (err) {
     console.error("Open in Google Docs error:", err);
+    showJsuNotification("Membuka Google Docs...");
+    window.open("https://docs.google.com/document/u/0/", "_blank");
   }
-  
-  // Fallback
-  showJsuNotification("Membuka Google Docs...");
-  window.open("https://docs.google.com/document/u/0/", "_blank");
 }
 
 function exportSingleQuestion(qId, format) {
@@ -4813,44 +4803,30 @@ async function exportScoringDOCX() {
 
   try {
     const meta = getExamMetadata();
-
-    // 1. Keutamaan Utama: DocxGenerator (Client-side OpenXML DOCX)
-    if (window.DocxGenerator && typeof window.DocxGenerator.exportScoringToDocx === "function") {
-      await window.DocxGenerator.exportScoringToDocx(mode, questions, meta);
-      showJsuNotification("✓ Skema penskoran (.docx) berjaya dimuat turun menepati format rasmi LPM!");
-      return;
-    }
-
-    const res = await fetch("/api/export-docx", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        mode: mode,
-        type: "skema",
-        questions: questions,
-        tingkatan: meta.tingkatan || 5,
-        tahun: meta.tahun || 2026,
-        nama_peperiksaan: meta.examTitle || "PEPERIKSAAN PERCUBAAN SPM",
-        panitia: meta.panitia || "Fizik",
-        sekolah: meta.sekolah || ""
-      })
+    const blob = await requestDocxExport({
+      mode: mode,
+      type: "skema",
+      questions: questions,
+      tingkatan: meta.tingkatan || 5,
+      tahun: meta.tahun || 2026,
+      nama_peperiksaan: meta.examTitle || "PEPERIKSAAN PERCUBAAN SPM",
+      panitia: meta.panitia || "Fizik",
+      sekolah: meta.sekolah || ""
     });
-    if (res.ok) {
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      const paperName = mode === "kertas2" ? "Skema_Kertas_2" : "Skema_Kertas_1";
-      link.download = `${paperName}_Fizik_SPM_${new Date().toISOString().slice(0, 10)}.docx`;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      URL.revokeObjectURL(url);
-      showJsuNotification("✓ Skema penskoran (.docx) berjaya dijana menepati templat rasmi!");
-      return;
-    }
+
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    const paperName = mode === "kertas2" ? "Skema_Kertas_2" : "Skema_Kertas_1";
+    link.download = `${paperName}_Fizik_SPM_${new Date().toISOString().slice(0, 10)}.docx`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    showJsuNotification("✓ Skema penskoran (.docx) berjaya dijana menepati templat rasmi LPM!");
   } catch (err) {
-    console.warn("Docx API fallback:", err);
+    console.error("Docx scoring export error:", err);
+    showJsuNotification("⚠️ Ralat menjana skema DOCX: " + (err.message || err));
   }
 }
 

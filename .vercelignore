@@ -30,7 +30,11 @@ scratch/**
 scratch
 docs/**
 docs
-*.py
+build_jsu.py
+ocr_utils.py
+simple_ocr_test.py
+test_paddleocr.py
+export_templates.py
 *.py.bak*
 *.log
 workspace.json
