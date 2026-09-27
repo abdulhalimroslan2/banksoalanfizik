@@ -1717,11 +1717,42 @@ def build_k1_skema_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pe
     skema_path = os.path.join(TPL_K1_DIR, "3 TEMPLATE SKEMA FIZIK KERTAS 1.docx")
     doc = docx.Document(skema_path)
 
+    # Format exam title matching cover soalan kertas 1
+    exam_title = (nama_peperiksaan or "PEPERIKSAAN PERCUBAAN SPM").strip().upper()
+    if not exam_title.startswith("PEPERIKSAAN") and not exam_title.startswith("UJIAN"):
+        exam_title = f"PEPERIKSAAN {exam_title}"
+
+    # Resolve numeric tingkatan
+    t_val = 5
+    try:
+        m_t = re.search(r'\d+', str(tingkatan))
+        if m_t:
+            t_val = int(m_t.group())
+        elif "4" in exam_title:
+            t_val = 4
+    except Exception:
+        t_val = 5
+
     for p in doc.paragraphs:
-        if "TINGKATAN" in p.text and ("2025" in p.text or "2026" in p.text):
+        p_text_clean = p.text.strip().upper()
+        if "MODUL INTERVENSI" in p_text_clean or "INTERVENSI" in p_text_clean or "MODUL KECEMERLANGAN" in p_text_clean:
+            p.text = exam_title
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.left_indent = None
+            p.paragraph_format.right_indent = None
             for r in p.runs:
-                if "2025" in r.text or "2026" in r.text:
-                    r.text = r.text.replace("2025", str(tahun)).replace("2026", str(tahun))
+                r.font.name = "Arial"
+                r.font.bold = True
+                r.font.size = Pt(12)
+        elif "TINGKATAN" in p_text_clean and any(y in p_text_clean for y in ["2024", "2025", "2026", "2027"]):
+            p.text = f"TINGKATAN {t_val} {tahun}"
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.left_indent = None
+            p.paragraph_format.right_indent = None
+            for r in p.runs:
+                r.font.name = "Arial"
+                r.font.bold = True
+                r.font.size = Pt(12)
 
     # Populate Table 0 with answer keys (8 columns)
     if doc.tables:
@@ -2184,11 +2215,42 @@ def build_k2_skema_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pe
     skema_path = os.path.join(TPL_K2_DIR, "3 TEMPLATE SKEMA FIZIK KERTAS 2.docx")
     doc = docx.Document(skema_path)
 
+    # Format exam title matching cover soalan kertas 2
+    exam_title = (nama_peperiksaan or "PEPERIKSAAN PERCUBAAN SPM").strip().upper()
+    if not exam_title.startswith("PEPERIKSAAN") and not exam_title.startswith("UJIAN"):
+        exam_title = f"PEPERIKSAAN {exam_title}"
+
+    # Resolve numeric tingkatan
+    t_val = 5
+    try:
+        m_t = re.search(r'\d+', str(tingkatan))
+        if m_t:
+            t_val = int(m_t.group())
+        elif "4" in exam_title:
+            t_val = 4
+    except Exception:
+        t_val = 5
+
     for p in doc.paragraphs:
-        if "TINGKATAN" in p.text and ("2025" in p.text or "2026" in p.text):
+        p_text_clean = p.text.strip().upper()
+        if "MODUL KECEMERLANGAN" in p_text_clean or "KECEMERLANGAN" in p_text_clean or "MODUL INTERVENSI" in p_text_clean or "INTERVENSI" in p_text_clean:
+            p.text = exam_title
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.left_indent = None
+            p.paragraph_format.right_indent = None
             for r in p.runs:
-                if "2025" in r.text or "2026" in r.text:
-                    r.text = r.text.replace("2025", str(tahun)).replace("2026", str(tahun))
+                r.font.name = "Arial"
+                r.font.bold = True
+                r.font.size = Pt(12)
+        elif "TINGKATAN" in p_text_clean and any(y in p_text_clean for y in ["2024", "2025", "2026", "2027"]):
+            p.text = f"TINGKATAN {t_val} {tahun}"
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.left_indent = None
+            p.paragraph_format.right_indent = None
+            for r in p.runs:
+                r.font.name = "Arial"
+                r.font.bold = True
+                r.font.size = Pt(12)
 
     # Retain Table 0 (Rubric structure) and clear following tables to populate dynamically
     body = doc._body._element
