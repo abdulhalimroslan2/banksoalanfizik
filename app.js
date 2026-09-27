@@ -1119,8 +1119,47 @@ function getQuestionDiagramHtml(q, frameClass = "qcard-diagram-box") {
   return "";
 }
 
+function formatPhysicsSymbols(text) {
+  if (!text || typeof text !== "string") return text || "";
+  const supMap = {
+    "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴",
+    "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹",
+    "+": "⁺", "-": "⁻", "=": "⁼", "(": "⁽", ")": "⁾",
+    "n": "ⁿ", "i": "ⁱ", "x": "ˣ", "y": "ʸ"
+  };
+  const subMap = {
+    "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄",
+    "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉",
+    "+": "₊", "-": "₋", "=": "₌", "(": "₍", ")": "₎",
+    "a": "ₐ", "e": "ₑ", "o": "ₒ", "x": "ₓ", "h": "ₕ",
+    "k": "ₖ", "l": "ₗ", "m": "ₘ", "n": "ₙ", "p": "ₚ",
+    "s": "ₛ", "t": "ₜ"
+  };
+  const toSup = s => s.split("").map(c => supMap[c] || c).join("");
+  const toSub = s => s.split("").map(c => subMap[c] || c).join("");
+
+  text = text.replace(/<sup>(.*?)<\/sup>/gi, (m, g) => toSup(g));
+  text = text.replace(/<sub>(.*?)<\/sub>/gi, (m, g) => toSub(g));
+  text = text.replace(/\^\{([^{}]+)\}/g, (m, g) => toSup(g));
+  text = text.replace(/_\{([^{}]+)\}/g, (m, g) => toSub(g));
+  text = text.replace(/([A-Za-z0-9)\]°℃\u0370-\u03ff])\^([-+]?[0-9]+)/g, (m, g1, g2) => g1 + toSup(g2));
+  text = text.replace(/([A-Za-z0-9)\]°℃\u0370-\u03ff])\^([nixy])\b/g, (m, g1, g2) => g1 + toSup(g2));
+  text = text.replace(/\^([-+]?[0-9]+)/g, (m, g) => toSup(g));
+  text = text.replace(/(\d)\s*[xX]\s*10([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)/g, "$1 × 10$2");
+  text = text.replace(/\b([A-Za-zα-ωΑ-Ω])_([0-9]+)\b/g, (m, g1, g2) => g1 + toSub(g2));
+  text = text.replace(/\b([VTNI])_([ps])\b/g, (m, g1, g2) => g1 + (subMap[g2] || g2));
+  text = text.replace(/\bE_([kp])\b/g, (m, g) => "E" + (subMap[g] || g));
+  text = text.replace(/\b([vV])_max\b/g, "$1ₘₐₓ");
+  text = text.replace(/\b([vV])_min\b/g, "$1ₘᵢₙ");
+  text = text.replace(/\bλ_max\b/g, "λₘₐₓ");
+  text = text.replace(/\bH_?2O\b/g, "H₂O");
+  text = text.replace(/\bCO_?2\b/g, "CO₂");
+  return text;
+}
+
 function formatBilingualText(raw) {
   if (!raw || typeof raw !== "string") return raw || "";
+  raw = formatPhysicsSymbols(raw);
   
   // If already contains soalan-en or explicit italic tags, just replace newlines with <br>
   if (/<(em|i|span)\b[^>]*class=["']soalan-en/.test(raw) || /<i>[\s\S]*?<\/i>/i.test(raw) || /<em>[\s\S]*?<\/em>/i.test(raw)) {
@@ -1327,6 +1366,7 @@ function safeEscapeLtGt(str) {
 function formatOptionText(text) {
   if (!text || typeof text !== "string") return text || "";
   if (text.includes("<img")) return text;
+  text = formatPhysicsSymbols(text);
 
   // Direct KaTeX rendering if available and math is present
   if (typeof katex !== "undefined" && (text.includes("$") || text.includes("$$"))) {

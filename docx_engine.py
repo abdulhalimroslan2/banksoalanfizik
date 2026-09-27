@@ -224,6 +224,70 @@ def get_image_stream(url, crop_caption=False, is_option=False):
         print(f"Warning: Failed to fetch image from {url}: {e}")
         return None
 
+SUPERSCRIPT_MAP = {
+    "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴",
+    "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹",
+    "+": "⁺", "-": "⁻", "=": "⁼", "(": "⁽", ")": "⁾",
+    "n": "ⁿ", "i": "ⁱ", "x": "ˣ", "y": "ʸ"
+}
+
+SUBSCRIPT_MAP = {
+    "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄",
+    "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉",
+    "+": "₊", "-": "₋", "=": "₌", "(": "₍", ")": "₎",
+    "a": "ₐ", "e": "ₑ", "o": "ₒ", "x": "ₓ", "h": "ₕ",
+    "k": "ₖ", "l": "ₗ", "m": "ₘ", "n": "ₙ", "p": "ₚ",
+    "s": "ₛ", "t": "ₜ", "i": "ᵢ", "j": "ⱼ", "r": "ᵣ", "u": "ᵤ", "v": "ᵥ"
+}
+
+def to_sup(s):
+    return "".join(SUPERSCRIPT_MAP.get(c, c) for c in s)
+
+def to_sub(s):
+    res = []
+    for c in s:
+        if c in SUBSCRIPT_MAP:
+            res.append(SUBSCRIPT_MAP[c])
+        else:
+            return None
+    return "".join(res)
+
+def format_physics_symbols(text):
+    if not text or not isinstance(text, str):
+        return text
+
+    # HTML tags
+    text = re.sub(r"<sup>(.*?)</sup>", lambda m: to_sup(m.group(1)), text, flags=re.I)
+    text = re.sub(r"<sub>(.*?)</sub>", lambda m: to_sub(m.group(1)) or m.group(0), text, flags=re.I)
+
+    # Braces
+    text = re.sub(r"\^\{([^{}]+)\}", lambda m: to_sup(m.group(1)), text)
+    text = re.sub(r"_\{([^{}]+)\}", lambda m: to_sub(m.group(1)) or m.group(0), text)
+
+    # Carets with exponents (e.g. ^-1, ^-2, ^3, ^14)
+    text = re.sub(r"([A-Za-z0-9)\]°℃\u0370-\u03ff])\^([-+]?[0-9]+)", lambda m: m.group(1) + to_sup(m.group(2)), text)
+    text = re.sub(r"([A-Za-z0-9)\]°℃\u0370-\u03ff])\^([nixy])\b", lambda m: m.group(1) + to_sup(m.group(2)), text)
+    text = re.sub(r"\^([-+]?[0-9]+)", lambda m: to_sup(m.group(1)), text)
+
+    # Multiplications: e.g. "4.2 x 10³" -> "4.2 × 10³"
+    text = re.sub(r"(\d)\s*[xX]\s*10([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)", r"\1 × 10\2", text)
+
+    # Common physics variable subscripts: v_1 -> v₁, m_1 -> m₁, T_1 -> T₁, etc.
+    text = re.sub(r"\b([A-Za-zα-ωΑ-Ω])_([0-9]+)\b", lambda m: m.group(1) + "".join(SUBSCRIPT_MAP.get(c, c) for c in m.group(2)), text)
+
+    # Specific common subscripts in physics
+    text = re.sub(r"\b([VTNI])_([ps])\b", lambda m: m.group(1) + SUBSCRIPT_MAP.get(m.group(2), m.group(2)), text)
+    text = re.sub(r"\bE_([kp])\b", lambda m: "E" + SUBSCRIPT_MAP.get(m.group(1), m.group(1)), text)
+    text = re.sub(r"\b([vV])_max\b", r"\1ₘₐₓ", text)
+    text = re.sub(r"\b([vV])_min\b", r"\1ₘᵢₙ", text)
+    text = re.sub(r"\bλ_max\b", "λₘₐₓ", text)
+
+    # Chemical formulas: H_2O -> H₂O, CO_2 -> CO₂
+    text = re.sub(r"\bH_?2O\b", "H₂O", text)
+    text = re.sub(r"\bCO_?2\b", "CO₂", text)
+
+    return text
+
 def parse_option(opt):
     """
     Parses option object. Detects if the option text contains an image tag or URL.
@@ -250,10 +314,12 @@ def parse_option(opt):
         return opt_id, "", img_url, label
     
     opt_text = re.sub(r"^[A-Da-d][:\.]\s*", "", opt_text).strip()
+    opt_text = format_physics_symbols(opt_text)
     return opt_id, opt_text, None, ""
 
 def split_bilingual_stem(raw_text):
     """Splits raw question stem into Malay and English lines using word boundaries."""
+    raw_text = format_physics_symbols(raw_text)
     raw_lines = raw_text.split("\n")
     cleaned_lines = []
     for l in raw_lines:
@@ -1946,7 +2012,7 @@ def build_k2_skema_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pe
             tbl._tbl.append(tr_el)
             c_skema = docx.table._Cell(tr_el.findall(".//{http://schemas.openxmlformats.org/wordprocessingml/2006/main}tc")[1], tbl)
             p_skema = c_skema.paragraphs[0]
-            r_skema = p_skema.add_run(str(sub_skema))
+            r_skema = p_skema.add_run(format_physics_symbols(str(sub_skema)))
             r_skema.font.name = "Times New Roman"
             r_skema.font.size = Pt(11)
 

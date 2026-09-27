@@ -2577,7 +2577,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapan": "B",
-    "penerangan": "Daripada Rajah 19, jisim berkurang dari 72 g kepada 36 g dalam masa 15 jam, maka separuh hayat T_1/2 = 15 jam.\nSelepas 45 jam (iaitu 3 separuh hayat):\n72 g --(15 jam)--> 36 g --(30 jam)--> 18 g --(45 jam)--> 9.0 g.",
+    "penerangan": "Daripada Rajah 19, jisim berkurang dari 72 g kepada 36 g dalam masa 15 jam, maka separuh hayat T₁/2 = 15 jam.\nSelepas 45 jam (iaitu 3 separuh hayat):\n72 g --(15 jam)--> 36 g --(30 jam)--> 18 g --(45 jam)--> 9.0 g.",
     "markah": 1,
     "jawapanBetul": "B",
     "statusSemakan": "Disemak (Percubaan Kelantan 2026)"
@@ -3546,24 +3546,24 @@ const QUESTION_BANK = [
     "topik": "5.6 Interferens Gelombang",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah 12 menunjukkan satu susunan radas eksperimen dwicelah Young. Panjang gelombang cahaya monokromatik ialah 4.8 x 10⁻⁷ m. Jarak antara dua celah ialah 5.00 x 10⁻⁴ m.\nHitung jarak antara dua pinggir gelap?\n\nDiagram 12 shows the apparatus set-up of Young's double slit experiment. The wavelength of the monochromatic light is 4.8 x 10⁻⁷ m. The distance between the two slits is 5.00 x 10⁻⁴ m.\nCalculate the distance between two dark fringes?",
+    "soalan": "Rajah 12 menunjukkan satu susunan radas eksperimen dwicelah Young. Panjang gelombang cahaya monokromatik ialah 4.8 × 10⁻⁷ m. Jarak antara dua celah ialah 5.00 × 10⁻⁴ m.\nHitung jarak antara dua pinggir gelap?\n\nDiagram 12 shows the apparatus set-up of Young's double slit experiment. The wavelength of the monochromatic light is 4.8 × 10⁻⁷ m. The distance between the two slits is 5.00 × 10⁻⁴ m.\nCalculate the distance between two dark fringes?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/percubaan_terengganu_2026/terengganu_2026_k1_q19_rajah12.webp",
     "pilihan": [
       {
         "id": "A",
-        "teks": "2.94 x 10⁻³ m"
+        "teks": "2.94 × 10⁻³ m"
       },
       {
         "id": "B",
-        "teks": "6.86 x 10⁻³ m"
+        "teks": "6.86 × 10⁻³ m"
       },
       {
         "id": "C",
-        "teks": "8.40 x 10⁻³ m"
+        "teks": "8.40 × 10⁻³ m"
       },
       {
         "id": "D",
-        "teks": "3.36 x 10⁻³ m"
+        "teks": "3.36 × 10⁻³ m"
       }
     ],
     "jawapan": "D",
@@ -4239,7 +4239,7 @@ const QUESTION_BANK = [
     ],
     "jawapan": "B",
     "jawapanBetul": "B",
-    "penerangan": "Gunakan rumus hubungan transformer ideal:\nV_p / V_s = N_p / N_s\nDari Rajah 22: V_p = 240 V, V_s = 12 V, N_s = 40 lilitan.\n240 / 12 = N_p / 40\n20 = N_p / 40\nN_p = 20 × 40 = 800 lilitan.",
+    "penerangan": "Gunakan rumus hubungan transformer ideal:\nV_p / Vₛ = Nₚ / Nₛ\nDari Rajah 22: Vₚ = 240 V, Vₛ = 12 V, Nₛ = 40 lilitan.\n240 / 12 = Nₚ / 40\n20 = Nₚ / 40\nN_p = 20 × 40 = 800 lilitan.",
     "markah": 1,
     "statusSemakan": "Disemak (Percubaan Terengganu 2026)"
   },
@@ -4442,24 +4442,24 @@ const QUESTION_BANK = [
     "topik": "7.1 Teori Kuantum Cahaya",
     "aras": "Sederhana",
     "konstruk": "Mengaplikasi",
-    "soalan": "Satu cahaya hijau mempunyai panjang gelombang 540 nm. Berapakah tenaga foton yang ada dalam cahaya tersebut?\n[Pemalar Planck, h = 6.63 x 10⁻³⁴ J s]\n[Laju cahaya dalam vakum, c = 3.0 x 10⁸ m s⁻¹]\n\nA green light has a wavelength of 540 nm. How much energy is in the photon of the light?\n[Planck's constant, h = 6.63 x 10⁻³⁴ J s]\n[Speed of light in vacuum, c = 3.0 x 10⁸ m s⁻¹]",
+    "soalan": "Satu cahaya hijau mempunyai panjang gelombang 540 nm. Berapakah tenaga foton yang ada dalam cahaya tersebut?\n[Pemalar Planck, h = 6.63 × 10⁻³⁴ J s]\n[Laju cahaya dalam vakum, c = 3.0 × 10⁸ m s⁻¹]\n\nA green light has a wavelength of 540 nm. How much energy is in the photon of the light?\n[Planck's constant, h = 6.63 × 10⁻³⁴ J s]\n[Speed of light in vacuum, c = 3.0 × 10⁸ m s⁻¹]",
     "rajahUrl": null,
     "pilihan": [
       {
         "id": "A",
-        "teks": "1.28 x 10⁻¹⁷ J"
+        "teks": "1.28 × 10⁻¹⁷ J"
       },
       {
         "id": "B",
-        "teks": "3.68 x 10⁻¹⁹ J"
+        "teks": "3.68 × 10⁻¹⁹ J"
       },
       {
         "id": "C",
-        "teks": "3.58 x 10⁻⁵⁰ J"
+        "teks": "3.58 × 10⁻⁵⁰ J"
       },
       {
         "id": "D",
-        "teks": "1.19 x 10⁻⁵⁸ J"
+        "teks": "1.19 × 10⁻⁵⁸ J"
       }
     ],
     "jawapan": "C",
@@ -4733,7 +4733,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "Unit SI bagi arus elektrik ialah Ampere (A). Unit SI halaju ialah m s^-1, kuasa ialah Watt (W), dan suhu termodinamik ialah Kelvin (K).",
+    "penerangan": "Unit SI bagi arus elektrik ialah Ampere (A). Unit SI halaju ialah m s⁻¹, kuasa ialah Watt (W), dan suhu termodinamik ialah Kelvin (K).",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -4868,7 +4868,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "A",
-    "penerangan": "Kerja (Work = Daya x Sesaran) diterbitkan daripada gabungan kuantiti asas jisim, panjang dan masa (kg m^2 s^-2 atau Joule). Masa, jisim dan panjang adalah kuantiti asas.",
+    "penerangan": "Kerja (Work = Daya x Sesaran) diterbitkan daripada gabungan kuantiti asas jisim, panjang dan masa (kg m² s⁻² atau Joule). Masa, jisim dan panjang adalah kuantiti asas.",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "A"
@@ -5167,7 +5167,7 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Momentum / Momentum : kg m s^-2"
+        "teks": "Momentum / Momentum : kg m s⁻²"
       },
       {
         "id": "B",
@@ -5175,15 +5175,15 @@ const QUESTION_BANK = [
       },
       {
         "id": "C",
-        "teks": "Kerja / Work : J m s^-1"
+        "teks": "Kerja / Work : J m s⁻¹"
       },
       {
         "id": "D",
-        "teks": "Daya / Force : kg m s^-2"
+        "teks": "Daya / Force : kg m s⁻²"
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "Daya F = ma = (kg)(m s^-2) = kg m s^-2 (atau Newton, N). Momentum adalah kg m s^-1, tekanan ialah N m^-2, dan kerja ialah N m (atau Joule).",
+    "penerangan": "Daya F = ma = (kg)(m s⁻²) = kg m s⁻² (atau Newton, N). Momentum adalah kg m s⁻¹, tekanan ialah N m⁻², dan kerja ialah N m (atau Joule).",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "D"
@@ -5302,7 +5302,7 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Ketumpatan / Density : m / l^2"
+        "teks": "Ketumpatan / Density : m / l²"
       },
       {
         "id": "B",
@@ -5314,11 +5314,11 @@ const QUESTION_BANK = [
       },
       {
         "id": "D",
-        "teks": "Luas / Area : l^3"
+        "teks": "Luas / Area : l³"
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "Momentum = jisim x halaju = m x (l / t) = m l t^-1. Ketumpatan adalah m/l^3, pecutan adalah l/t^2, dan luas adalah l^2.",
+    "penerangan": "Momentum = jisim x halaju = m x (l / t) = m l t⁻¹. Ketumpatan adalah m/l³, pecutan adalah l/t², dan luas adalah l².",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -5588,7 +5588,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "Pecutan = Halaju / Masa = (Panjang / Masa) / Masa = Panjang / Masa^2. Oleh itu, kuantiti asas yang terlibat adalah panjang dan masa.",
+    "penerangan": "Pecutan = Halaju / Masa = (Panjang / Masa) / Masa = Panjang / Masa². Oleh itu, kuantiti asas yang terlibat adalah panjang dan masa.",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -5854,11 +5854,11 @@ const QUESTION_BANK = [
       },
       {
         "id": "D",
-        "teks": "Graf T^2 melawan l mewakili graf garis lurus / Graph T^2 against l represents a linear graph"
+        "teks": "Graf T² melawan l mewakili graf garis lurus / Graph T² against l represents a linear graph"
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "Berdasarkan rumus T = 2π √(l/g), apabila dikuasaduakan menjadi T^2 = (4π^2 / g) l. Oleh itu, T^2 berkadar terus dengan l, dan graf T^2 melawan l merupakan graf garis lurus yang melalui titik asalan.",
+    "penerangan": "Berdasarkan rumus T = 2π √(l/g), apabila dikuasaduakan menjadi T² = (4π² / g) l. Oleh itu, T² berkadar terus dengan l, dan graf T² melawan l merupakan graf garis lurus yang melalui titik asalan.",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "D"
@@ -5992,7 +5992,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "Graf garis lurus menunjukkan pintasan positif pada paksi-V pada 0 °C (V_0) dan kecerunan positif. Oleh itu, V bertambah secara linear dengan suhu θ dalam unit darjah Celsius.",
+    "penerangan": "Graf garis lurus menunjukkan pintasan positif pada paksi-V pada 0 °C (V₀) dan kecerunan positif. Oleh itu, V bertambah secara linear dengan suhu θ dalam unit darjah Celsius.",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)"
   },
@@ -6122,7 +6122,7 @@ const QUESTION_BANK = [
       },
       {
         "id": "D",
-        "teks": "Luas permukaan diterangi cahaya / Illuminated surface area (0.88 m^2)"
+        "teks": "Luas permukaan diterangi cahaya / Illuminated surface area (0.88 m²)"
       }
     ],
     "jawapanBetul": "C",
@@ -6372,7 +6372,7 @@ const QUESTION_BANK = [
     "topik": "1.1 Kuantiti Fizik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Tempoh ayunan untuk suatu neraca inersia diberi oleh T^2 = k m; di mana T ialah tempoh ayunan dan unitnya ialah s, m ialah jisim dan unitnya kg, k ialah suatu pemalar. Apakah unit bagi k?\nPeriod of oscillation for an inertia balance is given by T^2 = k m; where T is period of oscillation and its unit is s, m is mass and its unit is kg, k is a constant. What is the unit of k?",
+    "soalan": "Tempoh ayunan untuk suatu neraca inersia diberi oleh T² = k m; di mana T ialah tempoh ayunan dan unitnya ialah s, m ialah jisim dan unitnya kg, k ialah suatu pemalar. Apakah unit bagi k?\nPeriod of oscillation for an inertia balance is given by T² = k m; where T is period of oscillation and its unit is s, m is mass and its unit is kg, k is a constant. What is the unit of k?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -6381,19 +6381,19 @@ const QUESTION_BANK = [
       },
       {
         "id": "B",
-        "teks": "kg s^-1"
+        "teks": "kg s⁻¹"
       },
       {
         "id": "C",
-        "teks": "kg^-1 s^2"
+        "teks": "kg⁻¹ s²"
       },
       {
         "id": "D",
-        "teks": "kg^2 s^-1"
+        "teks": "kg² s⁻¹"
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "Dari persamaan T^2 = k m, maka k = T^2 / m. Menggantikan unit SI: unit k = (s)^2 / (kg) = kg^-1 s^2.",
+    "penerangan": "Dari persamaan T² = k m, maka k = T² / m. Menggantikan unit SI: unit k = (s)² / (kg) = kg⁻¹ s².",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -6426,19 +6426,19 @@ const QUESTION_BANK = [
       },
       {
         "id": "B",
-        "teks": "m s^-1"
+        "teks": "m s⁻¹"
       },
       {
         "id": "C",
-        "teks": "cm s^-1"
+        "teks": "cm s⁻¹"
       },
       {
         "id": "D",
-        "teks": "km s^-1"
+        "teks": "km s⁻¹"
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "Pembahagian jarak (unit SI: meter, m) dengan masa (unit SI: saat, s) menghasilkan laju/halaju dengan unit SI m s^-1.",
+    "penerangan": "Pembahagian jarak (unit SI: meter, m) dengan masa (unit SI: saat, s) menghasilkan laju/halaju dengan unit SI m s⁻¹.",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -6483,7 +6483,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "Pada label: Jisim (55.2 g), Masa (3 minit), dan Suhu (80 °C) kesemuanya merupakan kuantiti asas yang dinyatakan. Panjang tidak dinyatakan (isipadu air 150 cm^3 adalah kuantiti terbitan, bukan panjang). Oleh itu, I, II dan III sahaja.",
+    "penerangan": "Pada label: Jisim (55.2 g), Masa (3 minit), dan Suhu (80 °C) kesemuanya merupakan kuantiti asas yang dinyatakan. Panjang tidak dinyatakan (isipadu air 150 cm³ adalah kuantiti terbitan, bukan panjang). Oleh itu, I, II dan III sahaja.",
     "markah": 1,
     "statusSemakan": "Disemak (SPM Sebenar)",
     "jawapan": "C"
@@ -6552,7 +6552,7 @@ const QUESTION_BANK = [
     "topik": "1.1 Kuantiti Fizik",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Maklumat di bawah menunjukkan laju dan arah sebuah kapal terbang:\nThe information below shows the speed and the direction of an aeroplane:\n\n\"Sebuah kapal terbang bergerak dengan kelajuan tetap 600 km j^-1 ke arah barat.\"\n\"An aeroplane moves at a uniform speed of 600 km h^-1 to the west.\"\n\nP: Kuantiti asas / Base quantity\nQ: Kuantiti terbitan / Derived quantity\nR: Kuantiti skalar / Scalar quantity\nS: Kuantiti vektor / Vector quantity\n\nAntara kombinasi kuantiti berikut, yang manakah terdapat dalam pernyataan di atas?\nWhich of the following combination of quantities are found in the statement above?",
+    "soalan": "Maklumat di bawah menunjukkan laju dan arah sebuah kapal terbang:\nThe information below shows the speed and the direction of an aeroplane:\n\n\"Sebuah kapal terbang bergerak dengan kelajuan tetap 600 km j⁻¹ ke arah barat.\"\n\"An aeroplane moves at a uniform speed of 600 km h⁻¹ to the west.\"\n\nP: Kuantiti asas / Base quantity\nQ: Kuantiti terbitan / Derived quantity\nR: Kuantiti skalar / Scalar quantity\nS: Kuantiti vektor / Vector quantity\n\nAntara kombinasi kuantiti berikut, yang manakah terdapat dalam pernyataan di atas?\nWhich of the following combination of quantities are found in the statement above?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -6573,7 +6573,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "Kelajuan 600 km j^-1 bersama arah 'ke barat' membentuk halaju (velocity), iaitu kuantiti terbitan (Q) dan kuantiti vektor (S).",
+    "penerangan": "Kelajuan 600 km j⁻¹ bersama arah 'ke barat' membentuk halaju (velocity), iaitu kuantiti terbitan (Q) dan kuantiti vektor (S).",
     "markah": 1,
     "statusSemakan": "Disemak (SPM Sebenar)",
     "jawapan": "D"
@@ -6730,7 +6730,7 @@ const QUESTION_BANK = [
     "topik": "1.2 Penyiasatan Saintifik",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi",
-    "soalan": "Rajah menunjukkan graf perubahan tenaga kinetik bagi fotoelektron yang dibebaskan daripada logam litium pada frekuensi cahaya yang berlainan.\nDiagram shows a graph of the change in kinetic energy of photoelectrons released from lithium metal at different light frequency.\n\nDaripada graf, tentukan nilai tenaga kinetik bagi litium tersebut apabila frekuensi cahayanya ialah 8 × 10^14 Hz.\nFrom the graph, determine the kinetic energy of lithium when its light frequency is 8 × 10^14 Hz.",
+    "soalan": "Rajah menunjukkan graf perubahan tenaga kinetik bagi fotoelektron yang dibebaskan daripada logam litium pada frekuensi cahaya yang berlainan.\nDiagram shows a graph of the change in kinetic energy of photoelectrons released from lithium metal at different light frequency.\n\nDaripada graf, tentukan nilai tenaga kinetik bagi litium tersebut apabila frekuensi cahayanya ialah 8 × 10¹⁴ Hz.\nFrom the graph, determine the kinetic energy of lithium when its light frequency is 8 × 10¹⁴ Hz.",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/diagrams/modul_konstruk_t4/b1/t4_b1_k3_q04_rajah15.webp",
     "pilihan": [
       {
@@ -6751,7 +6751,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "Melalui kaedah interpolasi graf pada paksi frekuensi f = 8 × 10^14 Hz, unjuran menegak ke garis graf dan kemudian mengufuk ke paksi tenaga kinetik K memberikan bacaan tepat K = 1.2 eV. [Nota Konteks: Soalan ini berasaskan Kesan Fotoelektrik (T5 Bab 7: Fizik Kuantum, Percubaan MRSM 2023), namun dimasukkan ke dalam modul T4 Bab 1 kerana menguji Konstruk 3 Mengaplikasi (SP 1.2.2 Kemahiran Interpolasi Graf)].",
+    "penerangan": "Melalui kaedah interpolasi graf pada paksi frekuensi f = 8 × 10¹⁴ Hz, unjuran menegak ke garis graf dan kemudian mengufuk ke paksi tenaga kinetik K memberikan bacaan tepat K = 1.2 eV. [Nota Konteks: Soalan ini berasaskan Kesan Fotoelektrik (T5 Bab 7: Fizik Kuantum, Percubaan MRSM 2023), namun dimasukkan ke dalam modul T4 Bab 1 kerana menguji Konstruk 3 Mengaplikasi (SP 1.2.2 Kemahiran Interpolasi Graf)].",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -6841,7 +6841,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "Unit kecerunan graf m = ΔR / Δ(1/A) = kΩ / (mm^-2) = kΩ mm^2. Maka pernyataan C adalah betul mengikut konsep fizik dan skema rasmi. Pilihan A salah kerana R berkadar terus dengan 1/A (bukan A). Pilihan B salah kerana R berkadar terus dengan 1/A (bukan berkadar songsang). Pilihan D salah kerana kecerunan ialah 5 / 0.0005 (bukan 0.0005 / 5).",
+    "penerangan": "Unit kecerunan graf m = ΔR / Δ(1/A) = kΩ / (mm⁻²) = kΩ mm². Maka pernyataan C adalah betul mengikut konsep fizik dan skema rasmi. Pilihan A salah kerana R berkadar terus dengan 1/A (bukan A). Pilihan B salah kerana R berkadar terus dengan 1/A (bukan berkadar songsang). Pilihan D salah kerana kecerunan ialah 5 / 0.0005 (bukan 0.0005 / 5).",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -7774,7 +7774,7 @@ const QUESTION_BANK = [
       },
       {
         "id": "B",
-        "teks": "Jisim 1.2 x 10^3 kg / Mass 1.2 x 10^3 kg"
+        "teks": "Jisim 1.2 × 10³ kg / Mass 1.2 × 10³ kg"
       },
       {
         "id": "C",
@@ -7782,7 +7782,7 @@ const QUESTION_BANK = [
       },
       {
         "id": "D",
-        "teks": "Jisim 1.1 x 10^3 kg / Mass 1.1 x 10^3 kg"
+        "teks": "Jisim 1.1 × 10³ kg / Mass 1.1 × 10³ kg"
       }
     ],
     "jawapanBetul": "D",
@@ -11325,19 +11325,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "Jisim = 100 kg, Laju = 20 m s^-1 / Mass = 100 kg, Speed = 20 m s^-1"
+        "teks": "Jisim = 100 kg, Laju = 20 m s⁻¹ / Mass = 100 kg, Speed = 20 m s⁻¹"
       },
       {
         "id": "B",
-        "teks": "Jisim = 350 kg, Laju = 40 m s^-1 / Mass = 350 kg, Speed = 40 m s^-1"
+        "teks": "Jisim = 350 kg, Laju = 40 m s⁻¹ / Mass = 350 kg, Speed = 40 m s⁻¹"
       },
       {
         "id": "C",
-        "teks": "Jisim = 1 200 kg, Laju = 35 m s^-1 / Mass = 1 200 kg, Speed = 35 m s^-1"
+        "teks": "Jisim = 1 200 kg, Laju = 35 m s⁻¹ / Mass = 1 200 kg, Speed = 35 m s⁻¹"
       },
       {
         "id": "D",
-        "teks": "Jisim = 10 000 kg, Laju = 25 m s^-1 / Mass = 10 000 kg, Speed = 25 m s^-1"
+        "teks": "Jisim = 10 000 kg, Laju = 25 m s⁻¹ / Mass = 10 000 kg, Speed = 25 m s⁻¹"
       }
     ],
     "jawapanBetul": "D",
@@ -11836,7 +11836,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "t = (1 / 50 Hz) = 0.02 s\nu = (s/t) = (1 cm / 0.02 s) = 50 cm s^-1\nv = (s/t) = (6 cm / 0.02 s) = 300 cm s^-1\nt = (5 - 1)(0.02) = 0.08 s\na = ((v-u)/t) = ((300 - 50)/0.08) = 3125 cm s^-2",
+    "penerangan": "t = (1 / 50 Hz) = 0.02 s\nu = (s/t) = (1 cm / 0.02 s) = 50 cm s⁻¹\nv = (s/t) = (6 cm / 0.02 s) = 300 cm s⁻¹\nt = (5 - 1)(0.02) = 0.08 s\na = ((v-u)/t) = ((300 - 50)/0.08) = 3125 cm s⁻²",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "D"
@@ -11971,7 +11971,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "A",
-    "penerangan": "m1 u1 = m2 v2\n(75)(u1) = (45)(8)\n.. u1 = 4.80 m s^-1",
+    "penerangan": "m1 u1 = m2 v2\n(75)(u1) = (45)(8)\n.. u1 = 4.80 m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "A"
@@ -12151,7 +12151,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "a = -g = 9.81 m s^-2\nSimbol, s = h\nv^2 = u^2 + 2as\n20^2 = 0^2 + 2(9.81)h\n.. h = 20.3874 m",
+    "penerangan": "a = -g = 9.81 m s⁻²\nSimbol, s = h\nv² = u² + 2as\n20² = 0² + 2(9.81)h\n.. h = 20.3874 m",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -12241,7 +12241,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "Prinsip keabadian momentum (Elastik):\nm1 u1 + m2 u2 = m1 v1 + m2 v2\n(2)(0) + (2)(0) = (2+2)(-0.5) + (2)(v2)\n.. v2 = 1 m s^-1",
+    "penerangan": "Prinsip keabadian momentum (Elastik):\nm1 u1 + m2 u2 = m1 v1 + m2 v2\n(2)(0) + (2)(0) = (2+2)(-0.5) + (2)(v2)\n.. v2 = 1 m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -12421,7 +12421,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "a = (v-u)/t = (50 - 0)/8\n.. a = 6.25 m s^-2",
+    "penerangan": "a = (v-u)/t = (50 - 0)/8\n.. a = 6.25 m s⁻²",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -12511,7 +12511,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "Prinsip keabadian momentum (Bukan elastik):\nm1 u1 + m2 u2 = (m1 + m2)(v)\n(7500)(30) + (1000)(25) = (7500 + 1000)(v)\n.. v = 29.4118 m s^-1",
+    "penerangan": "Prinsip keabadian momentum (Bukan elastik):\nm1 u1 + m2 u2 = (m1 + m2)(v)\n(7500)(30) + (1000)(25) = (7500 + 1000)(v)\n.. v = 29.4118 m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -12556,7 +12556,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "Prinsip keabadian momentum.\nMomentum A sebelum perlanggaran = (1.5)(3) = 4.5 kg m s^-1\nMomentum B sebelum perlanggaran = (1.5)(-2) = -3 kg m s^-1\nJumlah momentum sebelum perlanggaran = (4.5 - 3) = 1.5 kg m s^-1\nJumlah momentum selepas perlanggaran = 1.5 kg m s^-1",
+    "penerangan": "Prinsip keabadian momentum.\nMomentum A sebelum perlanggaran = (1.5)(3) = 4.5 kg m s⁻¹\nMomentum B sebelum perlanggaran = (1.5)(-2) = -3 kg m s⁻¹\nJumlah momentum sebelum perlanggaran = (4.5 - 3) = 1.5 kg m s⁻¹\nJumlah momentum selepas perlanggaran = 1.5 kg m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -12646,7 +12646,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "p = mv = 2000 x 22 = 44 000 N s = kg m s^-1",
+    "penerangan": "p = mv = 2000 x 22 = 44 000 N s = kg m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -12736,7 +12736,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "v^2 = u^2 + 2as\n3^2 = 1^2 + 2(a)(2)\n.. a = 2.0 m s^-2",
+    "penerangan": "v² = u² + 2as\n3² = 1² + 2(a)(2)\n.. a = 2.0 m s⁻²",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "D"
@@ -12781,7 +12781,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "Prinsip keabadian momentum (Elastik):\nm1 u1 + m2 u2 = m1 v1 + m2 v2\n(6)(3) + (3)(2) = (6)(0) + (3)(v2)\n.. v2 = 8 m s^-1",
+    "penerangan": "Prinsip keabadian momentum (Elastik):\nm1 u1 + m2 u2 = m1 v1 + m2 v2\n(6)(3) + (3)(2) = (6)(0) + (3)(v2)\n.. v2 = 8 m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -12826,7 +12826,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "s = sqrt(60^2 + 80^2)\n.. s = 100 m",
+    "penerangan": "s = sqrt(60² + 80²)\n.. s = 100 m",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -12871,7 +12871,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "Prinsip keabadian momentum (Elastik):\n(4)(4) + (2)(3) = (6)(0) + (2)(v2)\n.. v2 = 11 m s^-1",
+    "penerangan": "Prinsip keabadian momentum (Elastik):\n(4)(4) + (2)(3) = (6)(0) + (2)(v2)\n.. v2 = 11 m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "D"
@@ -13051,7 +13051,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "Daya F bertindak ke atas jisim 3 kg:\nF = ma = (3)(4) = 12 N\nJika daya 2F bertindak ke atas jisim 5 kg:\n2F = ma\n2(12) = (5)(a)\n.. a = 4.8 m s^-2",
+    "penerangan": "Daya F bertindak ke atas jisim 3 kg:\nF = ma = (3)(4) = 12 N\nJika daya 2F bertindak ke atas jisim 5 kg:\n2F = ma\n2(12) = (5)(a)\n.. a = 4.8 m s⁻²",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "D"
@@ -13141,7 +13141,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "Prinsip keabadian momentum (Letupan):\n0 = (2)(v1) + (0.02)(150)\n.. v1 = -1.5 m s^-1",
+    "penerangan": "Prinsip keabadian momentum (Letupan):\n0 = (2)(v1) + (0.02)(150)\n.. v1 = -1.5 m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -13186,7 +13186,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "v^2 = u^2 + 2as\n75^2 = 0^2 + 2(2)(s)\n.. s = 1406.25 m",
+    "penerangan": "v² = u² + 2as\n75² = 0² + 2(2)(s)\n.. s = 1406.25 m",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -13546,7 +13546,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "A",
-    "penerangan": "v^2 = u^2 + 2as, simbol h = s\nv^2 = 0^2 + 2(9.81)(5)\n.. v = 9.9045 m s^-1",
+    "penerangan": "v² = u² + 2as, simbol h = s\nv² = 0² + 2(9.81)(5)\n.. v = 9.9045 m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "A"
@@ -13591,7 +13591,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "Halaju = sesaran / masa\nSesaran = sqrt(64 km^2 + 36 km^2) = 10 km = 10 000 m\nv = 10 000 / (1 x 60 x 60)\n.. v = 2.7778 m s^-1",
+    "penerangan": "Halaju = sesaran / masa\nSesaran = sqrt(64 km² + 36 km²) = 10 km = 10 000 m\nv = 10 000 / (1 x 60 x 60)\n.. v = 2.7778 m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -13636,7 +13636,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "D",
-    "penerangan": "Perubahan momentum = mv - mu\n= (0.02)(5) - [(0.02)(-10)] = 0.3 kg m s^-1",
+    "penerangan": "Perubahan momentum = mv - mu\n= (0.02)(5) - [(0.02)(-10)] = 0.3 kg m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "D"
@@ -13681,7 +13681,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "v^2 = u^2 + 2as\n100^2 = 0^2 + 2(4)(s)\n.. s = 1250 m",
+    "penerangan": "v² = u² + 2as\n100² = 0² + 2(4)(s)\n.. s = 1250 m",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -14830,7 +14830,7 @@ const QUESTION_BANK = [
     "topik": "3.1 Hukum Kegravitian Semesta Newton",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Formula Hukum Kegravitian Semesta Newton adalah seperti berikut:\nThe formula of Newton's Universal Law of Gravitation is as follows: (Pahang: 2023)\n\nF = G(m1 m2) / r^2\n\nApakah kesan pada daya graviti apabila jarak di antara dua jasad bertambah?\nWhat are the effects on gravitational force when the distance between the two bodies increases?",
+    "soalan": "Formula Hukum Kegravitian Semesta Newton adalah seperti berikut:\nThe formula of Newton's Universal Law of Gravitation is as follows: (Pahang: 2023)\n\nF = G(m1 m2) / r²\n\nApakah kesan pada daya graviti apabila jarak di antara dua jasad bertambah?\nWhat are the effects on gravitational force when the distance between the two bodies increases?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -16966,7 +16966,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "v = sqrt(2GM / r) = sqrt(2(6.67e-11)(5.97e24) / (6.37e6)) = 11 181.38 m/s ≈ 1.12 x 10^4 m s⁻¹",
+    "penerangan": "v = sqrt(2GM / r) = sqrt(2(6.67e-11)(5.97e24) / (6.37e6)) = 11 181.38 m/s ≈ 1.12 × 10⁴ m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -17011,7 +17011,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "A",
-    "penerangan": "v = sqrt(GM / (r + h)) = sqrt((6.67e-11)(5.97e24) / ((6.37e6) + (1720e3))) = 7016.66 m/s ≈ 7.02 x 10^3 m s⁻¹",
+    "penerangan": "v = sqrt(GM / (r + h)) = sqrt((6.67e-11)(5.97e24) / ((6.37e6) + (1720e3))) = 7016.66 m/s ≈ 7.02 × 10³ m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "A"
@@ -17056,7 +17056,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "A",
-    "penerangan": "T1²/r1³ = T2²/r2³ => 365² / (1.495e11)³ = T² / (2.28e11)³ => T = 687.44 hari ≈ 6.87 x 10² hari",
+    "penerangan": "T1²/r1³ = T2²/r2³ => 365² / (1.495e11)³ = T² / (2.28e11)³ => T = 687.44 hari ≈ 6.87 × 10² hari",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "A"
@@ -17146,7 +17146,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "F = Gm1m2 / r² = (6.67e-11)(5.97e24)(7.35e22) / (3.8e8)² = 2.03 x 10²⁰ N",
+    "penerangan": "F = Gm1m2 / r² = (6.67e-11)(5.97e24)(7.35e22) / (3.8e8)² = 2.03 × 10²⁰ N",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -17191,7 +17191,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "B",
-    "penerangan": "T1²/r1³ = T2²/(r2+h)³ => 1² / (1.50e11)³ = 11.9² / r³ => r = 7.82 x 10¹¹ m",
+    "penerangan": "T1²/r1³ = T2²/(r2+h)³ => 1² / (1.50e11)³ = 11.9² / r³ => r = 7.82 × 10¹¹ m",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "B"
@@ -17281,7 +17281,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "T² = 4π²r³ / GM = 4π²(r + h)³ / GM => T = 5521.86 s ≈ 5.52 x 10³ s",
+    "penerangan": "T² = 4π²r³ / GM = 4π²(r + h)³ / GM => T = 5521.86 s ≈ 5.52 × 10³ s",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -17326,7 +17326,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "F = Gm1m2 / r² => r² = (6.67e-11)(5.97e24)(7.35e22) / (2.01e20) => r = 3.82 x 10⁵ km",
+    "penerangan": "F = Gm1m2 / r² => r² = (6.67e-11)(5.97e24)(7.35e22) / (2.01e20) => r = 3.82 × 10⁵ km",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -17506,7 +17506,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "A",
-    "penerangan": "F = Gm1m2 / (r + h)² = (6.67e-11)(5.97e24)(11000) / (6.37e6 + 547000)² = 9.16 x 10⁵ N",
+    "penerangan": "F = Gm1m2 / (r + h)² = (6.67e-11)(5.97e24)(11000) / (6.37e6 + 547000)² = 9.16 × 10⁵ N",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "A"
@@ -17596,7 +17596,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "A",
-    "penerangan": "F = Gm1m2 / r² => r² = (6.67e-11)(5.97e24)(1.08e23) / (6.76e21) => r = 1.46 x 10⁹ m",
+    "penerangan": "F = Gm1m2 / r² => r² = (6.67e-11)(5.97e24)(1.08e23) / (6.76e21) => r = 1.46 × 10⁹ m",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "A"
@@ -18046,7 +18046,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "v = sqrt(GM / (r + h)) = sqrt((6.67e-11)(6e24) / (6.37e6 + 600000)) = 7.58 x 10³ m s⁻¹",
+    "penerangan": "v = sqrt(GM / (r + h)) = sqrt((6.67e-11)(6e24) / (6.37e6 + 600000)) = 7.58 × 10³ m s⁻¹",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -18136,7 +18136,7 @@ const QUESTION_BANK = [
       }
     ],
     "jawapanBetul": "C",
-    "penerangan": "F = Gm1m2 / r² = (6.67e-11)(5.97e24)(54) / (6.37e6)² = 5.30 x 10² N",
+    "penerangan": "F = Gm1m2 / r² = (6.67e-11)(5.97e24)(54) / (6.37e6)² = 5.30 × 10² N",
     "markah": 1,
     "statusSemakan": "Disemak (Modul K1)",
     "jawapan": "C"
@@ -19735,7 +19735,7 @@ const QUESTION_BANK = [
     "topik": "4.2 Muatan Haba Tentu",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Rajah 24 menunjukkan periuk yang mempunyai tapak aluminium.\nDiagram 24 shows a pot with aluminium base. (MRSM: 2022)\n\nApakah yang terjadi kepada masa memasak makanan jika tapak periuk tersebut digantikan dengan kuprum?\n[Muatan haba tentu aluminium = 900 J kg^-1 °C^-1, kuprum = 390 J kg^-1 °C^-1]\nWhat happens to cooking time if the pot base is replaced with copper?",
+    "soalan": "Rajah 24 menunjukkan periuk yang mempunyai tapak aluminium.\nDiagram 24 shows a pot with aluminium base. (MRSM: 2022)\n\nApakah yang terjadi kepada masa memasak makanan jika tapak periuk tersebut digantikan dengan kuprum?\n[Muatan haba tentu aluminium = 900 J kg⁻¹ °C⁻¹, kuprum = 390 J kg⁻¹ °C⁻¹]\nWhat happens to cooking time if the pot base is replaced with copper?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah24_v2.webp",
     "pilihan": [
       {
@@ -20815,7 +20815,7 @@ const QUESTION_BANK = [
     "topik": "4.2 Muatan Haba Tentu",
     "aras": "Sederhana",
     "konstruk": "Memahami",
-    "soalan": "Jadual 1 menunjukkan muatan haba tentu bagi empat bahan P, Q, R dan S.\nTable 1 shows the specific heat capacity of four materials P, Q, R and S. (Selangor: Set 1: 2021)\n[P: 800 J kg^-1 °C^-1, Q: 900 J kg^-1 °C^-1, R: 1300 J kg^-1 °C^-1, S: 2100 J kg^-1 °C^-1]\n\nBahan manakah yang paling sesuai digunakan sebagai tapak kuali memasak?\nWhich material is most suitable to be used as base of a cooking pan?",
+    "soalan": "Jadual 1 menunjukkan muatan haba tentu bagi empat bahan P, Q, R dan S.\nTable 1 shows the specific heat capacity of four materials P, Q, R and S. (Selangor: Set 1: 2021)\n[P: 800 J kg⁻¹ °C⁻¹, Q: 900 J kg⁻¹ °C⁻¹, R: 1300 J kg⁻¹ °C⁻¹, S: 2100 J kg⁻¹ °C⁻¹]\n\nBahan manakah yang paling sesuai digunakan sebagai tapak kuali memasak?\nWhich material is most suitable to be used as base of a cooking pan?",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -21535,24 +21535,24 @@ const QUESTION_BANK = [
     "topik": "4.2 Muatan Haba Tentu",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Sebuah sfera logam berjisim 100 g pada suhu 90 °C dimasukkan ke dalam sebuah bikar mengandungi 200 g air pada suhu 30 °C. Selepas mencapai keseimbangan terma, suhu air dan sfera logam menjadi 36 °C. Berapakah muatan haba tentu sfera logam itu?\n[Muatan haba tentu air = 4.2 x 10^3 J kg^-1 °C^-1]\nA metal sphere with mass 100 g at 90 °C is placed into a beaker containing 200 g of water at 30 °C. After reaching thermal equilibrium, the temperature of water and metal sphere becomes 36 °C. What is the specific heat capacity of the metal sphere? (Kelantan: 2023)",
+    "soalan": "Sebuah sfera logam berjisim 100 g pada suhu 90 °C dimasukkan ke dalam sebuah bikar mengandungi 200 g air pada suhu 30 °C. Selepas mencapai keseimbangan terma, suhu air dan sfera logam menjadi 36 °C. Berapakah muatan haba tentu sfera logam itu?\n[Muatan haba tentu air = 4.2 × 10³ J kg⁻¹ °C⁻¹]\nA metal sphere with mass 100 g at 90 °C is placed into a beaker containing 200 g of water at 30 °C. After reaching thermal equilibrium, the temperature of water and metal sphere becomes 36 °C. What is the specific heat capacity of the metal sphere? (Kelantan: 2023)",
     "rajahUrl": "",
     "pilihan": [
       {
         "id": "A",
-        "teks": "840.00 J kg^-1 °C^-1"
+        "teks": "840.00 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "B",
-        "teks": "933.33 J kg^-1 °C^-1"
+        "teks": "933.33 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "C",
-        "teks": "2800.00 J kg^-1 °C^-1"
+        "teks": "2800.00 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "D",
-        "teks": "8400.00 J kg^-1 °C^-1"
+        "teks": "8400.00 J kg⁻¹ °C⁻¹"
       }
     ],
     "jawapanBetul": "B",
@@ -21625,24 +21625,24 @@ const QUESTION_BANK = [
     "topik": "4.4 Hukum Gas",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Rajah 50 menunjukkan sebuah tangki skuba.\nDiagram 50 shows a scuba tank. (Negeri Sembilan: 2023)\n\nTekanan awal di dalam tangki ialah 1.317 x 10^7 Pa. Kira tekanan akhir di dalam tangki selepas ia menyejuk dari 1 000 °C hingga 25 °C.\nThe initial pressure in the tank is 1.317 x 10^7 Pa. Calculate the final pressure in the tank after it cools from 1 000 °C to 25 °C.",
+    "soalan": "Rajah 50 menunjukkan sebuah tangki skuba.\nDiagram 50 shows a scuba tank. (Negeri Sembilan: 2023)\n\nTekanan awal di dalam tangki ialah 1.317 × 10⁷ Pa. Kira tekanan akhir di dalam tangki selepas ia menyejuk dari 1 000 °C hingga 25 °C.\nThe initial pressure in the tank is 1.317 × 10⁷ Pa. Calculate the final pressure in the tank after it cools from 1 000 °C to 25 °C.",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah50_v2.webp",
     "pilihan": [
       {
         "id": "A",
-        "teks": "3.08 x 10^6 Pa"
+        "teks": "3.08 × 10⁶ Pa"
       },
       {
         "id": "B",
-        "teks": "3.29 x 10^5 Pa"
+        "teks": "3.29 × 10⁵ Pa"
       },
       {
         "id": "C",
-        "teks": "5.62 x 10^7 Pa"
+        "teks": "5.62 × 10⁷ Pa"
       },
       {
         "id": "D",
-        "teks": "5.27 x 10^8 Pa"
+        "teks": "5.27 × 10⁸ Pa"
       }
     ],
     "jawapanBetul": "B",
@@ -21760,7 +21760,7 @@ const QUESTION_BANK = [
     "topik": "4.3 Haba Pendam Tentu",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Sebuah cerek elektrik yang mempunyai kadar kuasa 240 V, 2000 W digunakan untuk mendidihkan 500 g air. Rajah 52 menunjukkan graf suhu, T melawan masa, t bagi proses tersebut.\nAn electric kettle with power rating 240 V, 2000 W is used to boil 500 g of water. Diagram 52 shows the graph of temperature, T against time, t of the process. (MRSM: 2023)\n\nBerapakah masa yang diperlukan, X untuk mendidihkan air tersebut?\n[Muatan haba tentu air, c = 4200 J kg^-1 °C^-1]\nWhat is the time taken, X to boil the water?",
+    "soalan": "Sebuah cerek elektrik yang mempunyai kadar kuasa 240 V, 2000 W digunakan untuk mendidihkan 500 g air. Rajah 52 menunjukkan graf suhu, T melawan masa, t bagi proses tersebut.\nAn electric kettle with power rating 240 V, 2000 W is used to boil 500 g of water. Diagram 52 shows the graph of temperature, T against time, t of the process. (MRSM: 2023)\n\nBerapakah masa yang diperlukan, X untuk mendidihkan air tersebut?\n[Muatan haba tentu air, c = 4200 J kg⁻¹ °C⁻¹]\nWhat is the time taken, X to boil the water?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah52_v2.webp",
     "pilihan": [
       {
@@ -21805,7 +21805,7 @@ const QUESTION_BANK = [
     "topik": "4.2 Muatan Haba Tentu",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Suatu bahan api menghasilkan 4 kJ tenaga bagi setiap 0.002 kg pembakarannya. Jika bahan api ini digunakan untuk memanaskan suatu cecair berjisim 5 kg dari suhu 40 °C hingga 90 °C, berapakah jisim bahan api yang diperlukan?\n[Muatan haba tentu cecair = 5.0 x 10^3 J kg^-1 °C^-1]\nA fuel produced 4 kJ of energy for every 0.002 kg of its combustion. If the fuel is used to heat liquid of mass 5 kg with a temperature 40 °C to 90 °C, what is the mass of fuel required? (Kedah: 2022)",
+    "soalan": "Suatu bahan api menghasilkan 4 kJ tenaga bagi setiap 0.002 kg pembakarannya. Jika bahan api ini digunakan untuk memanaskan suatu cecair berjisim 5 kg dari suhu 40 °C hingga 90 °C, berapakah jisim bahan api yang diperlukan?\n[Muatan haba tentu cecair = 5.0 × 10³ J kg⁻¹ °C⁻¹]\nA fuel produced 4 kJ of energy for every 0.002 kg of its combustion. If the fuel is used to heat liquid of mass 5 kg with a temperature 40 °C to 90 °C, what is the mass of fuel required? (Kedah: 2022)",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -21900,19 +21900,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "450 J kg^-1 °C^-1"
+        "teks": "450 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "B",
-        "teks": "576 J kg^-1 °C^-1"
+        "teks": "576 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "C",
-        "teks": "900 J kg^-1 °C^-1"
+        "teks": "900 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "D",
-        "teks": "1200 J kg^-1 °C^-1"
+        "teks": "1200 J kg⁻¹ °C⁻¹"
       }
     ],
     "jawapanBetul": "C",
@@ -21940,7 +21940,7 @@ const QUESTION_BANK = [
     "topik": "4.1 Keseimbangan Terma",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Sebiji bola ping pong yang kemek mempunyai isipadu 30 cm^3 telah mengembang kepada 38 cm^3 setelah dimasukkan ke dalam air panas bersuhu 100 °C. Berapakah suhu awal udara dalam bola ping pong?\nA dented ping pong ball has volume 30 cm^3 is inflated to 38 cm^3 in hot water of temperature 100 °C. What is the initial temperature of the air inside the ping pong ball? (Melaka: 2022)",
+    "soalan": "Sebiji bola ping pong yang kemek mempunyai isipadu 30 cm³ telah mengembang kepada 38 cm³ setelah dimasukkan ke dalam air panas bersuhu 100 °C. Berapakah suhu awal udara dalam bola ping pong?\nA dented ping pong ball has volume 30 cm³ is inflated to 38 cm³ in hot water of temperature 100 °C. What is the initial temperature of the air inside the ping pong ball? (Melaka: 2022)",
     "rajahUrl": "",
     "pilihan": [
       {
@@ -22075,24 +22075,24 @@ const QUESTION_BANK = [
     "topik": "4.3 Haba Pendam Tentu",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Rajah 53 menunjukkan ketulan ais dipanaskan menggunakan pemanas elektrik berkuasa 50 Watt selama 60 saat.\nDiagram 53 shows ice cubes being heated by an electrical heater with the power 50 Watt within 60 seconds. (SBP: 2022)\n\nHitung jisim ais yang telah melebur.\n[Haba pendam tentu pelakuran = 3.3 x 10^5 J kg^-1]\nCalculate the mass of the ice cubes that have melted.",
+    "soalan": "Rajah 53 menunjukkan ketulan ais dipanaskan menggunakan pemanas elektrik berkuasa 50 Watt selama 60 saat.\nDiagram 53 shows ice cubes being heated by an electrical heater with the power 50 Watt within 60 seconds. (SBP: 2022)\n\nHitung jisim ais yang telah melebur.\n[Haba pendam tentu pelakuran = 3.3 × 10⁵ J kg⁻¹]\nCalculate the mass of the ice cubes that have melted.",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah53_v2.webp",
     "pilihan": [
       {
         "id": "A",
-        "teks": "1.45 x 10^-3 kg"
+        "teks": "1.45 × 10⁻³ kg"
       },
       {
         "id": "B",
-        "teks": "9.09 x 10^-3 kg"
+        "teks": "9.09 × 10⁻³ kg"
       },
       {
         "id": "C",
-        "teks": "1.0 x 10^-2 kg"
+        "teks": "1.0 × 10⁻² kg"
       },
       {
         "id": "D",
-        "teks": "9.09 x 10^-1 kg"
+        "teks": "9.09 × 10⁻¹ kg"
       }
     ],
     "jawapanBetul": "B",
@@ -22120,7 +22120,7 @@ const QUESTION_BANK = [
     "topik": "4.2 Muatan Haba Tentu",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Rajah 54 menunjukkan satu silinder logam yang berjisim 3 kg dan muatan haba tentu 2 450 J kg^-1 °C^-1 dipanaskan dengan pemanas yang berkuasa 0.5 kW.\nDiagram 54 shows a metal cylinder of mass 3 kg and specific heat capacity 2 450 J kg^-1 °C^-1 is heated with a heater of power 0.5 kW. (Selangor: Set 1: 2022)\n\nBerapakah kenaikan suhu silinder itu jika pemanas dihidupkan selama 1 minit?\nWhat is the rise in temperature of the cylinder if the heater is switched on for 1 minute?",
+    "soalan": "Rajah 54 menunjukkan satu silinder logam yang berjisim 3 kg dan muatan haba tentu 2 450 J kg⁻¹ °C⁻¹ dipanaskan dengan pemanas yang berkuasa 0.5 kW.\nDiagram 54 shows a metal cylinder of mass 3 kg and specific heat capacity 2 450 J kg⁻¹ °C⁻¹ is heated with a heater of power 0.5 kW. (Selangor: Set 1: 2022)\n\nBerapakah kenaikan suhu silinder itu jika pemanas dihidupkan selama 1 minit?\nWhat is the rise in temperature of the cylinder if the heater is switched on for 1 minute?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah54_v2.webp",
     "pilihan": [
       {
@@ -22170,19 +22170,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "635.29 J kg^-1 °C^-1"
+        "teks": "635.29 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "B",
-        "teks": "944.44 J kg^-1 °C^-1"
+        "teks": "944.44 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "C",
-        "teks": "1270.58 J kg^-1 °C^-1"
+        "teks": "1270.58 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "D",
-        "teks": "8160.00 J kg^-1 °C^-1"
+        "teks": "8160.00 J kg⁻¹ °C⁻¹"
       }
     ],
     "jawapanBetul": "A",
@@ -22210,24 +22210,24 @@ const QUESTION_BANK = [
     "topik": "4.3 Haba Pendam Tentu",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Sekeping logam dengan jisim 100 g dan suhu 100 °C dimasukkan ke dalam sebikar ais pada 0 °C. Didapati 10 g daripada ais tersebut melebur dan suhu logam turun ke 60 °C. Berapakah muatan haba tentu logam itu dalam unit J kg^-1 °C^-1?\n[Haba pendam peleburan ais = 3.34 x 10^5 J kg^-1]\nA piece of metal with a mass of 100 g and at a temperature of 100 °C is placed in a beaker of ice at 0 °C. 10 g of the ice has melted while temperature of the metal decreases to 60 °C. What is the specific heat capacity of the metal? (Kedah: 2021)",
+    "soalan": "Sekeping logam dengan jisim 100 g dan suhu 100 °C dimasukkan ke dalam sebikar ais pada 0 °C. Didapati 10 g daripada ais tersebut melebur dan suhu logam turun ke 60 °C. Berapakah muatan haba tentu logam itu dalam unit J kg⁻¹ °C⁻¹?\n[Haba pendam peleburan ais = 3.34 × 10⁵ J kg⁻¹]\nA piece of metal with a mass of 100 g and at a temperature of 100 °C is placed in a beaker of ice at 0 °C. 10 g of the ice has melted while temperature of the metal decreases to 60 °C. What is the specific heat capacity of the metal? (Kedah: 2021)",
     "rajahUrl": "",
     "pilihan": [
       {
         "id": "A",
-        "teks": "835 J kg^-1 °C^-1"
+        "teks": "835 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "B",
-        "teks": "910 J kg^-1 °C^-1"
+        "teks": "910 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "C",
-        "teks": "299 J kg^-1 °C^-1"
+        "teks": "299 J kg⁻¹ °C⁻¹"
       },
       {
         "id": "D",
-        "teks": "334 J kg^-1 °C^-1"
+        "teks": "334 J kg⁻¹ °C⁻¹"
       }
     ],
     "jawapanBetul": "B",
@@ -22300,7 +22300,7 @@ const QUESTION_BANK = [
     "topik": "4.2 Muatan Haba Tentu",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Rajah 56 menunjukkan empat blok P, Q, R dan S dengan muatan haba tentu yang berbeza tetapi mempunyai jisim dan suhu awal yang serupa, dipanaskan di atas dapur dengan jumlah tenaga haba yang sama.\nDiagram 56 shows four blocks, P, Q, R and S with different specific heat capacity but have the same mass and initial temperature, were heated on the stove by the same amount of heat energy. (Kelantan: 2021)\n[P = 900 J kg^-1 °C^-1, Q = 500 J kg^-1 °C^-1, R = 390 J kg^-1 °C^-1, S = 130 J kg^-1 °C^-1]\n\nBlok manakah yang akan mempunyai kenaikan suhu yang paling tinggi selepas dipanaskan selama 10 minit?\nWhich block will have the highest increase in temperature after being heated for 10 minutes?",
+    "soalan": "Rajah 56 menunjukkan empat blok P, Q, R dan S dengan muatan haba tentu yang berbeza tetapi mempunyai jisim dan suhu awal yang serupa, dipanaskan di atas dapur dengan jumlah tenaga haba yang sama.\nDiagram 56 shows four blocks, P, Q, R and S with different specific heat capacity but have the same mass and initial temperature, were heated on the stove by the same amount of heat energy. (Kelantan: 2021)\n[P = 900 J kg⁻¹ °C⁻¹, Q = 500 J kg⁻¹ °C⁻¹, R = 390 J kg⁻¹ °C⁻¹, S = 130 J kg⁻¹ °C⁻¹]\n\nBlok manakah yang akan mempunyai kenaikan suhu yang paling tinggi selepas dipanaskan selama 10 minit?\nWhich block will have the highest increase in temperature after being heated for 10 minutes?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah56_v2.webp",
     "pilihan": [
       {
@@ -22345,24 +22345,24 @@ const QUESTION_BANK = [
     "topik": "4.4 Hukum Gas",
     "aras": "Tinggi",
     "konstruk": "Mengaplikasi Kuantitatif",
-    "soalan": "Rajah 57 (a) dan Rajah 57 (b) menunjukkan dua picagari yang serupa dengan muncungnya ditutup. Apabila isipadu udara terperangkap dalam picagari adalah 3 ml, tekanannya adalah 1 x 10^5 Pa. Kemudian omboh ditolak perlahan-lahan sehingga isipadunya 0.45 ml.\nDiagram 57 (a) and Diagram 57 (b) shows two identical syringes with their nozzles closed. When the volume of air trapped in the syringe is 3 ml, the pressure is 1 x 10^5 Pa. Then the piston is pushed slowly until its volume is 0.45 ml. (Sarawak: 2021)\n\nBerapakah tekanan udara yang terperangkap?\nWhat is the pressure of trapped air?",
+    "soalan": "Rajah 57 (a) dan Rajah 57 (b) menunjukkan dua picagari yang serupa dengan muncungnya ditutup. Apabila isipadu udara terperangkap dalam picagari adalah 3 ml, tekanannya adalah 1 × 10⁵ Pa. Kemudian omboh ditolak perlahan-lahan sehingga isipadunya 0.45 ml.\nDiagram 57 (a) and Diagram 57 (b) shows two identical syringes with their nozzles closed. When the volume of air trapped in the syringe is 3 ml, the pressure is 1 × 10⁵ Pa. Then the piston is pushed slowly until its volume is 0.45 ml. (Sarawak: 2021)\n\nBerapakah tekanan udara yang terperangkap?\nWhat is the pressure of trapped air?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah57_v2.webp",
     "pilihan": [
       {
         "id": "A",
-        "teks": "8.0 x 10^5 Pa"
+        "teks": "8.0 × 10⁵ Pa"
       },
       {
         "id": "B",
-        "teks": "7.67 x 10^5 Pa"
+        "teks": "7.67 × 10⁵ Pa"
       },
       {
         "id": "C",
-        "teks": "5.67 x 10^5 Pa"
+        "teks": "5.67 × 10⁵ Pa"
       },
       {
         "id": "D",
-        "teks": "6.67 x 10^5 Pa"
+        "teks": "6.67 × 10⁵ Pa"
       }
     ],
     "jawapanBetul": "D",
@@ -22530,19 +22530,19 @@ const QUESTION_BANK = [
     "pilihan": [
       {
         "id": "A",
-        "teks": "3 kJ kg^-1"
+        "teks": "3 kJ kg⁻¹"
       },
       {
         "id": "B",
-        "teks": "4 kJ kg^-1"
+        "teks": "4 kJ kg⁻¹"
       },
       {
         "id": "C",
-        "teks": "180 kJ kg^-1"
+        "teks": "180 kJ kg⁻¹"
       },
       {
         "id": "D",
-        "teks": "240 kJ kg^-1"
+        "teks": "240 kJ kg⁻¹"
       }
     ],
     "jawapanBetul": "D",
@@ -22795,7 +22795,7 @@ const QUESTION_BANK = [
     "topik": "4.2 Muatan Haba Tentu",
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
-    "soalan": "Rajah 66 (a) menunjukkan dua cecair M dan N yang sama jisim dipanaskan oleh dapur yang sama. Muatan haba tentu cecair M = 4800 J kg^-1 °C^-1 manakala cecair N = 4000 J kg^-1 °C^-1. Rajah 66 (b) menunjukkan cecair selepas dipanaskan selama 5 minit.\nDiagram 66 (a) shows two liquids M and N of equal mass heated by an identical stove. Diagram 66 (b) shows the liquids after heated for 5 minutes. (Terengganu: 2022)\n\nAntara pernyataan berikut, yang manakah betul berdasarkan situasi di atas?\nWhich of the following statements is correct based on situations above?",
+    "soalan": "Rajah 66 (a) menunjukkan dua cecair M dan N yang sama jisim dipanaskan oleh dapur yang sama. Muatan haba tentu cecair M = 4800 J kg⁻¹ °C⁻¹ manakala cecair N = 4000 J kg⁻¹ °C⁻¹. Rajah 66 (b) menunjukkan cecair selepas dipanaskan selama 5 minit.\nDiagram 66 (a) shows two liquids M and N of equal mass heated by an identical stove. Diagram 66 (b) shows the liquids after heated for 5 minutes. (Terengganu: 2022)\n\nAntara pernyataan berikut, yang manakah betul berdasarkan situasi di atas?\nWhich of the following statements is correct based on situations above?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah66_v2.webp",
     "pilihan": [
       {
@@ -22975,7 +22975,7 @@ const QUESTION_BANK = [
     "topik": "4.1 Keseimbangan Terma",
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
-    "soalan": "Rajah 69 menunjukkan satu blok plumbum (c = 130 J kg^-1 °C^-1), satu blok besi (c = 460 J kg^-1 °C^-1) dan satu blok aluminium (c = 910 J kg^-1 °C^-1). Semua blok itu mempunyai jisim dan suhu awal yang sama dan dibiarkan menyejuk. Selepas 15 minit suhu ketiga-tiga logam itu direkodkan.\nDiagram 69 shows a lead block, an iron block and aluminium block of same mass and initial temperature left to cool. (Melaka: 2021)\n\nPerbandingan yang manakah betul tentang perubahan suhu bagi blok plumbum, θP, blok besi, θQ dan blok aluminium, θR?\nWhich comparison is correct about the change in temperature of lead block, θP, iron block, θQ, and aluminium block, θR?",
+    "soalan": "Rajah 69 menunjukkan satu blok plumbum (c = 130 J kg⁻¹ °C⁻¹), satu blok besi (c = 460 J kg⁻¹ °C⁻¹) dan satu blok aluminium (c = 910 J kg⁻¹ °C⁻¹). Semua blok itu mempunyai jisim dan suhu awal yang sama dan dibiarkan menyejuk. Selepas 15 minit suhu ketiga-tiga logam itu direkodkan.\nDiagram 69 shows a lead block, an iron block and aluminium block of same mass and initial temperature left to cool. (Melaka: 2021)\n\nPerbandingan yang manakah betul tentang perubahan suhu bagi blok plumbum, θP, blok besi, θQ dan blok aluminium, θR?\nWhich comparison is correct about the change in temperature of lead block, θP, iron block, θQ, and aluminium block, θR?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah69_v2.webp",
     "pilihan": [
       {
@@ -23020,12 +23020,12 @@ const QUESTION_BANK = [
     "topik": "4.2 Muatan Haba Tentu",
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
-    "soalan": "Rajah 70 menunjukkan empat blok logam yang mempunyai jisim yang sama dengan muatan haba tentu yang berbeza [A: 150 J kg^-1 °C^-1, B: 450 J kg^-1 °C^-1, C: 500 J kg^-1 °C^-1, D: 1000 J kg^-1 °C^-1]. Sejumlah haba yang sama dibekalkan kepada setiap blok.\nDiagram 70 shows four metal blocks having the same mass with different specific heat capacities. The same amount of heat is supplied to each block. (Perak: 2023)\n\nAntara blok logam A, B, C dan D, manakah akan menunjukkan bacaan suhu yang paling tinggi?\nWhich metal block A, B, C and D, will show the highest temperature reading?",
+    "soalan": "Rajah 70 menunjukkan empat blok logam yang mempunyai jisim yang sama dengan muatan haba tentu yang berbeza [A: 150 J kg⁻¹ °C⁻¹, B: 450 J kg⁻¹ °C⁻¹, C: 500 J kg⁻¹ °C⁻¹, D: 1000 J kg⁻¹ °C⁻¹]. Sejumlah haba yang sama dibekalkan kepada setiap blok.\nDiagram 70 shows four metal blocks having the same mass with different specific heat capacities. The same amount of heat is supplied to each block. (Perak: 2023)\n\nAntara blok logam A, B, C dan D, manakah akan menunjukkan bacaan suhu yang paling tinggi?\nWhich metal block A, B, C and D, will show the highest temperature reading?",
     "rajahUrl": "https://pub-833572f7cc244a0d9627cef82c840538.r2.dev/assets/diagrams/modul_konstruk_t4/b4/t4_b4_rajah70_v2.webp",
     "pilihan": [
       {
         "id": "A",
-        "teks": "Blok A (muatan haba tentu paling rendah, 150 J kg^-1 °C^-1) / Block A (lowest specific heat capacity)"
+        "teks": "Blok A (muatan haba tentu paling rendah, 150 J kg⁻¹ °C⁻¹) / Block A (lowest specific heat capacity)"
       },
       {
         "id": "B",
@@ -23065,7 +23065,7 @@ const QUESTION_BANK = [
     "topik": "4.3 Haba Pendam Tentu",
     "aras": "Tinggi",
     "konstruk": "Menganalisis",
-    "soalan": "Jadual 2 menunjukkan haba pendam tentu pelakuran dan jumlah haba yang dibebaskan oleh 1 kg bahan R, S dan T semasa proses pembekuan.\nTable 2 shows the specific latent heat of fusion and the amount of heat released by 1 kg of substances R, S and T during solidification process. (SPM: 2021)\n[R: 339 kJ kg^-1 -> QR, S: 334 kJ kg^-1 -> QS, T: 257 kJ kg^-1 -> QT]\n\nPerbandingan manakah bagi haba yang dibebaskan semasa pembekuan adalah betul?\nWhich comparison of heat released during solidification is correct?",
+    "soalan": "Jadual 2 menunjukkan haba pendam tentu pelakuran dan jumlah haba yang dibebaskan oleh 1 kg bahan R, S dan T semasa proses pembekuan.\nTable 2 shows the specific latent heat of fusion and the amount of heat released by 1 kg of substances R, S and T during solidification process. (SPM: 2021)\n[R: 339 kJ kg⁻¹ -> QR, S: 334 kJ kg⁻¹ -> QS, T: 257 kJ kg⁻¹ -> QT]\n\nPerbandingan manakah bagi haba yang dibebaskan semasa pembekuan adalah betul?\nWhich comparison of heat released during solidification is correct?",
     "rajahUrl": "",
     "pilihan": [
       {
