@@ -1587,12 +1587,6 @@ function renderQuestionsBank() {
             <i data-lucide="check-check" style="width:14px;height:14px;color:#10B981;"></i>
             ${q.statusSemakan || 'Format LPM SPM'}
           </span>
-          <button class="btn btn-outline btn-xs" onclick="exportSingleQuestion('${q.id}', 'pdf')" title="Eksport soalan ini + skema ke PDF">
-            <i data-lucide="file-pdf" style="width:12px;height:12px;"></i>
-          </button>
-          <button class="btn btn-outline btn-xs" onclick="exportSingleQuestion('${q.id}', 'doc')" title="Eksport soalan ini + skema ke DOCX">
-            <i data-lucide="file-text" style="width:12px;height:12px;"></i>
-          </button>
         </div>
 
         <!-- 5. Collapsible Scheme Drawer -->
