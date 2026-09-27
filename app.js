@@ -167,9 +167,14 @@ const AppState = {
   completedStages: (function() {
     try {
       const s = localStorage.getItem("fizik_completed_stages");
-      return s ? JSON.parse(s) : [1];
+      const jsuSet = localStorage.getItem("fizik_jsu_settings");
+      if (s && jsuSet) {
+        const parsed = JSON.parse(s);
+        if (Array.isArray(parsed)) return parsed;
+      }
+      return [];
     } catch(e) {
-      return [1];
+      return [];
     }
   })(),
 
@@ -343,7 +348,7 @@ function initNavigation() {
     });
 
     node.addEventListener("mouseleave", () => {
-      const activeTarget = (AppState.currentStage === 0) ? 1 : AppState.currentStage;
+      const activeTarget = (AppState.currentStage >= 1 && AppState.currentStage <= 5) ? AppState.currentStage : 0;
       const isCompleted = AppState.completedStages && AppState.completedStages.includes(step);
       if (img && step >= 1 && step <= 5) {
         if (!isCompleted && step !== activeTarget) {
@@ -868,10 +873,10 @@ function switchWorkflowStage(stageNumber) {
 
 function updateStepperUI(stageNumber) {
   const stage = parseInt(stageNumber, 10);
+  const activeTarget = (stage >= 1 && stage <= 5) ? stage : 0;
 
   // Update Header Animated Workflow Node Line (5 Peringkat)
   const headerNodeSteps = document.querySelectorAll(".nodeline-step");
-  const activeTarget = (stage === 0) ? 1 : stage;
 
   headerNodeSteps.forEach(btn => {
     const step = parseInt(btn.getAttribute("data-step"), 10);
@@ -882,7 +887,7 @@ function updateStepperUI(stageNumber) {
     if (isCompleted) {
       btn.classList.add("completed");
     }
-    if (step === activeTarget) {
+    if (step === activeTarget && activeTarget !== 0) {
       btn.classList.add("active");
     }
   });
@@ -898,7 +903,7 @@ function updateStepperUI(stageNumber) {
         conn.classList.add("completed", "flow-active");
       } else if (activeTarget > i) {
         conn.classList.add("completed");
-      } else if (activeTarget === i) {
+      } else if (activeTarget === i && activeTarget > 0) {
         conn.classList.add("flow-active");
       }
     }
@@ -924,14 +929,12 @@ function updateStepperUI(stageNumber) {
     const step = parseInt(sphere.getAttribute("data-step"), 10);
     const statusBadge = sphere.querySelector(".sphere-status-badge");
     const img = sphere.querySelector(".sphere-premium-img");
-    // By default on landing page (stage 0), Step 1 is active per reference design
-    const activeTarget = (stage === 0) ? 1 : stage;
     const isCompleted = AppState.completedStages && AppState.completedStages.includes(step);
     const labelEl = sphere.querySelector(".sphere-label-text");
 
     // Dynamic Image & Class Update:
     if (isCompleted) {
-      sphere.classList.remove("inactive-step");
+      sphere.classList.remove("inactive-step", "active-step", "active-step-1");
       sphere.classList.add("completed-step");
       if (img) img.src = `assets/sphere_${step}_active.png`;
       if (labelEl) {
@@ -941,19 +944,18 @@ function updateStepperUI(stageNumber) {
     } else if (step === activeTarget && activeTarget >= 1 && activeTarget <= 5) {
       sphere.classList.add("active-step");
       sphere.classList.remove("inactive-step", "completed-step");
+      if (step === 1) {
+        sphere.classList.add("active-step-1");
+      } else {
+        sphere.classList.remove("active-step-1");
+      }
       if (img) img.src = `assets/sphere_${step}_active.png`;
       if (labelEl) { labelEl.classList.add("active"); labelEl.classList.remove("completed"); }
     } else {
       sphere.classList.add("inactive-step");
-      sphere.classList.remove("active-step", "completed-step");
+      sphere.classList.remove("active-step", "completed-step", "active-step-1");
       if (img) img.src = `assets/sphere_${step}_inactive.png`;
       if (labelEl) { labelEl.classList.remove("active", "completed"); }
-    }
-    // Legacy class support
-    if (step === 1 && (stage === 0 || stage === 1)) {
-      sphere.classList.add("active-step-1");
-    } else {
-      sphere.classList.remove("active-step-1");
     }
     // Update status badge
     if (statusBadge) {
