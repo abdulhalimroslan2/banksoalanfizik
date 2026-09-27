@@ -21,3 +21,4 @@ output_docx/
 # Environment and Secrets
 .env
 .env*
+.vercel
