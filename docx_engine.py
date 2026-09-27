@@ -288,6 +288,16 @@ def format_physics_symbols(text):
 
     return text
 
+def sync_diagram_references(text, diag_num):
+    if not text or not isinstance(text, str):
+        return text
+    pattern_bm = r"\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?"
+    pattern_en = r"\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?"
+    text = re.sub(pattern_bm, lambda m: f"Rajah {diag_num}" + (m.group(1) or "") + (m.group(2) or ""), text, flags=re.IGNORECASE)
+    text = re.sub(pattern_en, lambda m: f"Diagram {diag_num}" + (m.group(1) or "") + (m.group(2) or ""), text, flags=re.IGNORECASE)
+    return text
+
+
 def parse_option(opt):
     """
     Parses option object. Detects if the option text contains an image tag or URL.
@@ -1177,6 +1187,13 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
         for q_pos, (idx, q, has_diag, has_opt_img) in enumerate(chunk):
             q_num = idx + 1
             raw_stem = q.get("soalan", "")
+            rajah_url = q.get("rajahUrl")
+            curr_diag_num = None
+            if rajah_url:
+                global_diagram_counter += 1
+                curr_diag_num = global_diagram_counter
+                raw_stem = sync_diagram_references(raw_stem, curr_diag_num)
+
             bm_lines, en_lines = split_bilingual_stem(raw_stem)
 
             # Build Stem Row
@@ -1240,9 +1257,7 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
                 r.font.size = Pt(12)
                 r.font.italic = True
 
-            rajah_url = q.get("rajahUrl")
             if rajah_url:
-                global_diagram_counter += 1
                 p_img = cell_stem.add_paragraph()
                 p_img.paragraph_format.keep_with_next = True
                 p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -1258,12 +1273,12 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
                 p_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
                 p_cap.paragraph_format.space_before = Pt(0)
                 p_cap.paragraph_format.space_after = Pt(4)
-                r_rajah = p_cap.add_run(f"Rajah {global_diagram_counter} / ")
+                r_rajah = p_cap.add_run(f"Rajah {curr_diag_num} / ")
                 r_rajah.font.name = "Times New Roman"
                 r_rajah.font.size = Pt(11)
                 r_rajah.bold = False
 
-                r_diag = p_cap.add_run(f"Diagram {global_diagram_counter}")
+                r_diag = p_cap.add_run(f"Diagram {curr_diag_num}")
                 r_diag.font.name = "Times New Roman"
                 r_diag.font.size = Pt(11)
                 r_diag.bold = False
@@ -1279,6 +1294,8 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
 
                 raw_opt = raw_options[opt_idx] if opt_idx < len(raw_options) else ""
                 opt_id, opt_text, opt_img_url, opt_label = parse_option(raw_opt)
+                if curr_diag_num and opt_text:
+                    opt_text = sync_diagram_references(opt_text, curr_diag_num)
 
                 tr_opt_xml = f'''<w:tr {ns_w}>
                   <w:trPr>
@@ -1760,6 +1777,9 @@ def build_k2_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
         tbl = docx.table.Table(tbl_elem, doc)
 
         raw_stem = q.get("soalanUtama", "")
+        rajah_url = q.get("rajahUrl")
+        if rajah_url:
+            raw_stem = sync_diagram_references(raw_stem, q_num)
         bm_lines, en_lines = split_bilingual_stem(raw_stem)
 
         # Question Stem Row
@@ -1835,6 +1855,8 @@ def build_k2_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
         for part in q.get("pecahan", []):
             sub_label = part.get("sub", "")
             raw_sub_q = part.get("soalan", "")
+            if rajah_url:
+                raw_sub_q = sync_diagram_references(raw_sub_q, q_num)
             sub_bm, sub_en = split_bilingual_stem(raw_sub_q)
             markah = part.get("markah", 1)
 
@@ -1995,9 +2017,12 @@ def build_k2_skema_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pe
 
         pecahan = q.get("pecahan", [])
         total_q_marks = 0
+        has_q_diag = bool(q.get("rajahUrl"))
         for p in pecahan:
             sub_label = p.get("sub", "")
             sub_skema = p.get("skema", "") or p.get("jawapan", "") or "-"
+            if has_q_diag:
+                sub_skema = sync_diagram_references(str(sub_skema), q_num)
             sub_mark = p.get("markah", 1)
             total_q_marks += int(sub_mark)
 

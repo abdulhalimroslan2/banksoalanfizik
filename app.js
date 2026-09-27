@@ -3279,12 +3279,15 @@ function getCoverPageHtml(mode, codeText, totalPages) {
 function renderK1QuestionRows(q, qIdx, getNextDiagNum) {
   let stemText = q.soalan || "";
   let rajahHtml = "";
+  let diagNum = null;
 
   if (q.rajahUrl) {
-    const diagNum = getNextDiagNum();
+    diagNum = getNextDiagNum();
+    const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
+    const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
     stemText = stemText
-      .replace(/\bRajah\s+\d+\b/gi, `Rajah ${diagNum}`)
-      .replace(/\bDiagram\s+\d+\b/gi, `Diagram ${diagNum}`);
+      .replace(patternBm, (m, p1, p2) => `Rajah ${diagNum}${p1 || ""}${p2 || ""}`)
+      .replace(patternEn, (m, p1, p2) => `Diagram ${diagNum}${p1 || ""}${p2 || ""}`);
 
     rajahHtml = `
       <div class="docx-q-diagram-wrap">
@@ -3318,7 +3321,15 @@ function renderK1QuestionRows(q, qIdx, getNextDiagNum) {
       }
       optContent = `<img src="${imgSrc}" alt="Pilihan ${opt.id}" class="docx-opt-img">`;
     } else {
-      optContent = formatOptionText(opt.teks);
+      let optText = opt.teks || "";
+      if (diagNum) {
+        const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
+        const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
+        optText = optText
+          .replace(patternBm, (m, p1, p2) => `Rajah ${diagNum}${p1 || ""}${p2 || ""}`)
+          .replace(patternEn, (m, p1, p2) => `Diagram ${diagNum}${p1 || ""}${p2 || ""}`);
+      }
+      optContent = formatOptionText(optText);
     }
 
     rowsHtml += `
@@ -3463,9 +3474,11 @@ function renderPrintableExam() {
       let rajahHtml = "";
 
       if (q.rajahUrl) {
+        const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
+        const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
         stemText = stemText
-          .replace(/\bRajah\s+\d+\b/gi, `Rajah ${qNum}`)
-          .replace(/\bDiagram\s+\d+\b/gi, `Diagram ${qNum}`);
+          .replace(patternBm, (m, p1, p2) => `Rajah ${qNum}${p1 || ""}${p2 || ""}`)
+          .replace(patternEn, (m, p1, p2) => `Diagram ${qNum}${p1 || ""}${p2 || ""}`);
 
         rajahHtml = `
           <div class="docx-q-diagram-wrap">
@@ -3479,13 +3492,23 @@ function renderPrintableExam() {
 
       const stemFormatted = formatBilingualText(stemText);
 
-      let pecahanHtml = (q.pecahan || []).map(p => `
+      let pecahanHtml = (q.pecahan || []).map(p => {
+        let pSoalan = p.soalan || "";
+        if (q.rajahUrl) {
+          const patternBm = /\bRajah\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
+          const patternEn = /\bDiagram\s+\d+(\.\d+)?(\s*\([a-zA-Z0-9]+\))?/gi;
+          pSoalan = pSoalan
+            .replace(patternBm, (m, p1, p2) => `Rajah ${qNum}${p1 || ""}${p2 || ""}`)
+            .replace(patternEn, (m, p1, p2) => `Diagram ${qNum}${p1 || ""}${p2 || ""}`);
+        }
+        return `
         <div style="margin-bottom: 1.25rem;">
-          <p style="margin: 0.25rem 0;"><strong>${p.sub}</strong> ${formatBilingualText(p.soalan)}</p>
+          <p style="margin: 0.25rem 0;"><strong>${p.sub}</strong> ${formatBilingualText(pSoalan)}</p>
           <div style="height: 52px; border-bottom: 1px dotted #555; margin-top: 0.5rem;"></div>
           <div class="lpm-mark-box">[${p.markah} markah / <span style="font-weight: normal; font-style: italic;">marks</span>]</div>
         </div>
-      `).join("");
+      `;
+      }).join("");
 
       let endBannerHtml = "";
       if (isLast) {
