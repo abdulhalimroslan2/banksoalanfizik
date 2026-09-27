@@ -606,6 +606,11 @@ def update_docx_app_pages(docx_path, page_count):
                     else:
                         text = text.replace("</Properties>", f"<Pages>{page_count}</Pages></Properties>")
                     buffer = text.encode("utf-8")
+                elif item.filename == "word/settings.xml":
+                    text = buffer.decode("utf-8")
+                    if "<w:updateFields" not in text:
+                        text = text.replace("</w:settings>", '<w:updateFields w:val="true"/></w:settings>')
+                    buffer = text.encode("utf-8")
                 zout.writestr(item, buffer)
         os.replace(temp_path, docx_path)
     except Exception as e:
@@ -1302,8 +1307,31 @@ def build_k1_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
 
     # 4. Render Questions Page by Page (Matching Official Template Architecture)
     for chunk_idx, chunk in enumerate(page_chunks):
-        # Insert hard page break before each subsequent question page
-        if chunk_idx > 0:
+        is_last_page = (chunk_idx == len(page_chunks) - 1)
+        # Muka surat akhir tidak perlu '[Lihat halaman sebelah' - gunakan Seksyen berasingan untuk pengaki bersih
+        if is_last_page:
+            if chunk_idx == 0:
+                # Remove p_break_q_xml from previous section so no extra blank page is created
+                prev_p = sect_pr.getprevious()
+                if prev_p is not None and "pageBreakBefore" in prev_p.xml:
+                    body.remove(prev_p)
+            sec_last = doc.add_section(docx.enum.section.WD_SECTION.NEW_PAGE)
+            sec_last.top_margin = docx.shared.Pt(72)
+            sec_last.bottom_margin = docx.shared.Pt(72)
+            sec_last.left_margin = docx.shared.Pt(72)
+            sec_last.right_margin = docx.shared.Pt(72)
+            sec_last.header_distance = docx.shared.Pt(36)
+            sec_last.footer_distance = docx.shared.Pt(36)
+            sec_last.header.is_linked_to_previous = True
+            sec_last.footer.is_linked_to_previous = False
+            sec_last.footer._element.clear()
+            sec_last.footer._element.append(parse_xml(ftr_p1_xml))
+            # Remove inherited pgNumType so page numbering continues seamlessly without restarting at 2!
+            pnt = sec_last._sectPr.find("{http://schemas.openxmlformats.org/wordprocessingml/2006/main}pgNumType")
+            if pnt is not None:
+                sec_last._sectPr.remove(pnt)
+            sect_pr = body.find("{http://schemas.openxmlformats.org/wordprocessingml/2006/main}sectPr")
+        elif chunk_idx > 0:
             p_chunk_break_xml = f'''<w:p {ns_w}>
               <w:pPr>
                 <w:spacing w:line="1" w:lineRule="exact" w:before="0" w:after="0"/>
@@ -1804,13 +1832,29 @@ def build_k2_exam_docx(questions, output_path, tingkatan=5, tahun=2026, nama_pep
     hdr_elem.clear()
     hdr_elem.append(parse_xml(hdr_xml))
 
-    # Footer: [Lihat halaman sebelah] and 4531/2 [Tahun] Panitia [] SMK [] ... SULIT
+    # Footer: [Lihat halaman sebelah] bersyarat (tidak muncul pada muka surat akhir)
     ftr_p0_xml = f'''<w:p {ns_w}>
       <w:pPr>
         <w:pStyle w:val="Footer"/>
         <w:jc w:val="right"/>
       </w:pPr>
+      <w:r><w:fldChar w:fldCharType="begin"/></w:r>
+      <w:r><w:instrText xml:space="preserve"> IF </w:instrText></w:r>
+      <w:r><w:fldChar w:fldCharType="begin"/></w:r>
+      <w:r><w:instrText xml:space="preserve"> PAGE </w:instrText></w:r>
+      <w:r><w:fldChar w:fldCharType="separate"/></w:r>
+      <w:r><w:t>1</w:t></w:r>
+      <w:r><w:fldChar w:fldCharType="end"/></w:r>
+      <w:r><w:instrText xml:space="preserve"> &lt; </w:instrText></w:r>
+      <w:r><w:fldChar w:fldCharType="begin"/></w:r>
+      <w:r><w:instrText xml:space="preserve"> NUMPAGES </w:instrText></w:r>
+      <w:r><w:fldChar w:fldCharType="separate"/></w:r>
+      <w:r><w:t>2</w:t></w:r>
+      <w:r><w:fldChar w:fldCharType="end"/></w:r>
+      <w:r><w:instrText xml:space="preserve"> &quot;[Lihat halaman sebelah&quot; &quot;&quot; </w:instrText></w:r>
+      <w:r><w:fldChar w:fldCharType="separate"/></w:r>
       <w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="20"/><w:szCs w:val="20"/><w:color w:val="595959"/></w:rPr><w:t>[Lihat halaman sebelah</w:t></w:r>
+      <w:r><w:fldChar w:fldCharType="end"/></w:r>
     </w:p>'''
 
     ftr_p1_xml = f'''<w:p {ns_w}>
