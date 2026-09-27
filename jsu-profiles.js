@@ -4053,7 +4053,12 @@ function initJsuFilters() {
     } catch (e) {}
 
     updateCutoffVisibility();
-    renderJsuMatrix();
+    const isPpt = (selPep && (selPep.value === "ppt_t4" || selPep.value === "ppt_t5" || selPep.value === "ppt" || selPep.value === "selaras"));
+    if (isPpt) {
+      autoGenerateAiJsu(true);
+    } else {
+      renderJsuMatrix();
+    }
     if (typeof updateJsuGuideSummary === "function") {
       updateJsuGuideSummary();
     }
@@ -4092,6 +4097,25 @@ function initJsuFilters() {
 
   if (btnAi) {
     btnAi.addEventListener("click", () => autoGenerateAiJsu());
+  }
+
+  const btnSortSk = document.getElementById("btn-sort-jsu-sk");
+  if (btnSortSk) {
+    btnSortSk.addEventListener("click", () => {
+      const selPep = document.getElementById("jsu-select-peperiksaan")?.value || "percubaan_t5";
+      const selKer = document.getElementById("jsu-select-kertas")?.value || "kertas1";
+      const tingVal = (selPep === "ppt_t4" || selPep === "pat_t4") ? "4" : (selPep === "ppt_t5" ? "5" : (document.getElementById("jsu-select-tingkatan")?.value || "all"));
+      const profileKey = getJsuProfileKey(tingVal, selPep, selKer);
+      const profile = JSU_PROFILES[profileKey];
+      if (profile && Array.isArray(profile.questions)) {
+        sortJsuQuestionsBySk(profile.questions, 1);
+        saveAndSyncJsu(profile);
+        renderJsuMatrix();
+        if (typeof showFeedbackToast === "function") {
+          showFeedbackToast("Soalan JSU berjaya disusun mengikut tertib SK terkecil ke terbesar!", "success");
+        }
+      }
+    });
   }
 
   updateCutoffVisibility();
@@ -4285,6 +4309,52 @@ function getFixedAras40() {
 }
 
 /**
+ * Dapatkan Kunci Isih Numerik bagi Standard Kandungan (SK)
+ * Format isih: (Tingkatan * 1000000) + (Bab * 10000) + (SK_Major * 100) + SK_Minor
+ * Menjamin susunan dari SK terkecil (cth: 1.1) hingga SK terbesar (cth: 4.4 atau 7.3)
+ */
+function getQuestionSkSortKey(q) {
+  if (!q) return 0;
+  let ting = q.ting;
+  if (!ting) {
+    if (q.bab && q.bab.includes("(T5)")) ting = 5;
+    else if (q.bab && q.bab.includes("(T4)")) ting = 4;
+    else ting = 4;
+  }
+  ting = parseInt(ting, 10) || 4;
+
+  let babNo = 1;
+  if (q.bab) {
+    const m = q.bab.match(/Bab\s*(\d+)/i);
+    if (m) babNo = parseInt(m[1], 10);
+  }
+
+  let skMajor = babNo;
+  let skMinor = 1;
+  if (q.sk) {
+    const m = q.sk.match(/(\d+)\.(\d+)/);
+    if (m) {
+      skMajor = parseInt(m[1], 10);
+      skMinor = parseInt(m[2], 10);
+    }
+  }
+
+  return (ting * 1000000) + (babNo * 10000) + (skMajor * 100) + skMinor;
+}
+
+/**
+ * Susun soalan JSU mengikut tertib Standard Kandungan (SK) terkecil ke terbesar
+ */
+function sortJsuQuestionsBySk(questions, startNo = 1) {
+  if (!Array.isArray(questions)) return questions;
+  questions.sort((a, b) => getQuestionSkSortKey(a) - getQuestionSkSortKey(b));
+  questions.forEach((q, idx) => {
+    q.no = startNo + idx;
+  });
+  return questions;
+}
+
+/**
  * Agihan Soalan Monotonik Kronologi Mengikut Sukatan DSKP
  */
 function allocateMonotonicQuestions(pool, count, startNo, blueprintSlice) {
@@ -4292,20 +4362,10 @@ function allocateMonotonicQuestions(pool, count, startNo, blueprintSlice) {
   const n = pool.length;
   if (!n) return res;
 
-  const bank = (typeof QUESTION_BANK !== "undefined") ? QUESTION_BANK : [];
-
   for (let i = 0; i < count; i++) {
     const poolIdx = Math.min(n - 1, Math.floor((i / count) * n));
     const skItem = pool[poolIdx];
     const b = blueprintSlice[i] || { aras: "R", konstruk: "Mengingat" };
-
-    // Semak padanan soalan sebenar dalam bank
-    const match = bank.find(q =>
-      q.kertas === 1 &&
-      q.tingkatan === skItem.tingkatan &&
-      q.babNo === skItem.babNo &&
-      q.aras === (b.aras === "R" ? "Rendah" : b.aras === "S" ? "Sederhana" : "Tinggi")
-    );
 
     const lvlIdx = b.aras === "R" ? 0 : b.aras === "S" ? 1 : 2;
     let konKey = "faham";
@@ -4318,7 +4378,7 @@ function allocateMonotonicQuestions(pool, count, startNo, blueprintSlice) {
       no: startNo + i,
       ting: skItem.tingkatan,
       bab: skItem.babLabel,
-      sk: match ? match.sk : skItem.skFull,
+      sk: skItem.skFull,
       aras: b.aras,
       konstruk: b.konstruk, // Kekalkan integriti taburan seragam LPM
       markah: 1,
@@ -4333,7 +4393,7 @@ function allocateMonotonicQuestions(pool, count, startNo, blueprintSlice) {
 
     res.push(qItem);
   }
-  return res;
+  return sortJsuQuestionsBySk(res, startNo);
 }
 
 function getDskpChapterList(tingFilter = "all") {
@@ -4483,8 +4543,9 @@ function renderJsuMatrix() {
   if (profile.kertas === "kertas2") {
     renderKertas2Table(container, profile, tingVal);
   } else {
-    // Pastikan soalan Kertas 1 dinormalisasi kepada 4 konstruk sah sahaja
+    // Pastikan soalan Kertas 1 dinormalisasi kepada 4 konstruk sah sahaja dan disusun mengikut SK terkecil ke terbesar
     if (Array.isArray(profile.questions)) {
+      sortJsuQuestionsBySk(profile.questions, 1);
       const validK = ["Mengingat", "Memahami", "Mengaplikasi", "Menganalisis"];
       profile.questions.forEach(q => {
         let curK = q.konstruk;
@@ -5620,7 +5681,7 @@ function autoGenerateAiJsu(isAuto = false) {
         ];
       }
 
-      profile.questions = newQuestions;
+      profile.questions = sortJsuQuestionsBySk(newQuestions, 1);
     }
 
     renderJsuMatrix();
