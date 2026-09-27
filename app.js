@@ -1844,10 +1844,8 @@ function initAutoAssemblyDefaults() {
     btnExportExamPdf.addEventListener("click", () => exportExamToPdf());
   }
 
-  const btnExportExamDocx = document.getElementById("btn-export-exam-docx");
-  if (btnExportExamDocx) {
-    btnExportExamDocx.addEventListener("click", () => exportExamToDocx());
-  }
+  // btn-export-exam-docx dikendalikan oleh onclick="exportExamToDocx()" dalam index.html
+  // untuk mengelakkan pencetusan dua kali (duplicate download).
 
   // Auto-refresh printable exam preview when JSU exam title or tingkatan changes
   const selPepLive = document.getElementById("jsu-select-peperiksaan");
@@ -4195,12 +4193,29 @@ function exportExamToPdf() {
   });
 }
 
-// Eksport kertas peperiksaan ke DOCX
+// Eksport kertas peperiksaan ke DOCX (dengan perlindungan elak muat turun pendua)
 async function exportExamToDocx() {
+  if (AppState._isExportingExamDocx) return;
+  AppState._isExportingExamDocx = true;
+
+  const btn = document.getElementById("btn-export-exam-docx");
+  const originalHtml = btn ? btn.innerHTML : "";
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = `<i data-lucide="loader-2" class="spin"></i> Menjana DOCX...`;
+    if (window.lucide) lucide.createIcons();
+  }
+
   const mode = getActivePaperMode();
   const questions = AppState.assembledPapers[mode] || [];
   if (!questions.length) {
     showJsuNotification("⚠️ Tiada kertas untuk dieksport. Jana kertas dulu.");
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = originalHtml;
+      if (window.lucide) lucide.createIcons();
+    }
+    AppState._isExportingExamDocx = false;
     return;
   }
 
@@ -4232,6 +4247,13 @@ async function exportExamToDocx() {
   } catch (err) {
     console.error("Docx export error:", err);
     showJsuNotification("⚠️ Ralat menjana DOCX: " + (err.message || err));
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = originalHtml;
+      if (window.lucide) lucide.createIcons();
+    }
+    AppState._isExportingExamDocx = false;
   }
 }
 
@@ -4886,10 +4908,27 @@ function renderSkemaPenskoran() {
 }
 
 async function exportScoringDOCX() {
+  if (AppState._isExportingScoringDocx) return;
+  AppState._isExportingScoringDocx = true;
+
+  const btn = document.querySelector("button[onclick='exportScoringDOCX()']");
+  const originalHtml = btn ? btn.innerHTML : "";
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = `<i data-lucide="loader-2" class="spin"></i> Menjana Skema DOCX...`;
+    if (window.lucide) lucide.createIcons();
+  }
+
   const mode = getActivePaperMode();
   const questions = AppState.assembledPapers[mode] || [];
   if (!questions.length) {
     showJsuNotification("⚠️ Tiada skema untuk dieksport. Sila jana kertas terlebih dahulu.");
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = originalHtml;
+      if (window.lucide) lucide.createIcons();
+    }
+    AppState._isExportingScoringDocx = false;
     return;
   }
 
@@ -4921,6 +4960,13 @@ async function exportScoringDOCX() {
   } catch (err) {
     console.error("Docx scoring export error:", err);
     showJsuNotification("⚠️ Ralat menjana skema DOCX: " + (err.message || err));
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = originalHtml;
+      if (window.lucide) lucide.createIcons();
+    }
+    AppState._isExportingScoringDocx = false;
   }
 }
 
