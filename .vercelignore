@@ -1,0 +1,50 @@
+# ========================================================
+# Vercel Deployment Ignore Rules
+# Bank Soalan Fizik SPM
+# ========================================================
+
+# 1. Non-Production Assets (Diagrams are on Cloudflare R2 CDN)
+assets/diagrams/**
+assets/diagrams
+assets/pdf_pages/**
+assets/pdf_pages
+assets/pdf_pages_matematik/**
+assets/pdf_pages_matematik
+assets/chatgpt_generated/**
+assets/chatgpt_generated
+assets/chatgpt_backup/**
+assets/chatgpt_backup
+assets/glass_card_texture.png
+*.pdf
+
+# 2. Local Python Automation & Ingestion Pipelines
+scripts/**
+scripts
+manifests/**
+manifests
+converted_docs/**
+converted_docs
+output_docx/**
+output_docx
+scratch/**
+scratch
+docs/**
+docs
+*.py
+*.py.bak*
+*.log
+workspace.json
+asset_manifest.json
+infographic_manifest.json
+t4_pat_data.json
+dskp-reference.json
+
+# 3. Development Documentation & Metadata
+*.md
+!README.md
+graft/**
+graft
+.agents/**
+.agents
+.DS_Store
+Thumbs.db
